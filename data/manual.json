@@ -343,7 +343,8 @@
      }
     }
    ],
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Battlefield REDSEC",
@@ -506,7 +507,8 @@
      "url": "https://games.softpedia.com/blog/Borderlands-2-Could-Have-Had-Cross-Platform-Multiplayer-307696.shtml"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Borderlands 4",
@@ -972,7 +974,8 @@
      "url": "https://www.neowin.net/news/seamless-co-op-mod-lands-for-dark-souls-3-making-enitre-campaign-playable-with-friends/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Dead Island 2",
@@ -1608,7 +1611,8 @@
      "url": "https://www.gamerevolution.com/guides/695099-elden-ring-crossplay-playstation-xbox-pc-cross-platform-multiplayer"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Elden Ring Nightreign",
@@ -1844,7 +1848,8 @@
       "xseries": "yes"
      }
     }
-   ]
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "Far Cry 6",
@@ -2303,7 +2308,8 @@
      ]
     }
    ],
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Green Hell",
@@ -2514,7 +2520,8 @@
    ],
    "separate": [
     "switch"
-   ]
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "KARDS",
@@ -4800,7 +4807,8 @@
      "url": "https://www.actugaming.net/?p=163274"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Stumble Guys",

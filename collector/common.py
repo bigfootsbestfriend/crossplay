@@ -112,7 +112,7 @@ def merged_games():
             "crossplay": m.get("crossplay", True), "separate": m.get("separate", []),
             "groups": [{"platforms": gr["platforms"], "pc_stores": gr.get("pc_stores", []),
                         "others": gr.get("others", []), "refs": []} for gr in m.get("groups", [])],
-            "notes": m.get("notes", []), "sources": m.get("sources", []), "checked": m.get("checked"), "crossprog": m.get("crossprog"),
+            "notes": m.get("notes", []), "sources": m.get("sources", []), "checked": m.get("checked"), "crossprog": m.get("crossprog"), "audited": m.get("audited"),
         })
     return wiki, games
 

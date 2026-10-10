@@ -213,7 +213,7 @@ def load_games():
             "source": w["source"], "crossplay": w.get("crossplay", True), "notes": w.get("notes", []),
             "sources": w.get("sources", []),
             "checked": w.get("checked") or wiki.get("fetched", TODAY.isoformat()),
-            "crossprog": w.get("crossprog"),
+            "crossprog": w.get("crossprog"), "audited": w.get("audited"),
             "trailer": next((v for v in trailer_candidates(ig)[:4] if trailers.get(v)), None),
             "shots": [x["image_id"] for x in ig.get("screenshots", []) if x.get("image_id")][:8],
         }
@@ -723,11 +723,11 @@ def game_page(g, games):
     if g["discontinued"]:
         title = f"Is {t} Still Cross-Platform? (Crossplay Ended)"
     desc = summary + (" " + pcn if pcn else "")
-    # Only pages we researched ourselves go to search engines; list-only pages stay visible to readers but
-    # are noindexed until a research batch covers them.
+    # Only researched pages that have passed the deep audit (research/audit.md) go to search engines; the rest
+    # stay visible to readers but are noindexed until audited.
     return page("/games/" + g["slug"] + "/", title, desc[:300], "\n".join(parts), [vg] + faq_schema,
                 [("Home", "/"), ("Games", "/games/"), (t, "/games/" + g["slug"] + "/")],
-                noindex=g["source"] != "manual")
+                noindex=not g.get("audited"))
 
 
 def list_table(games, show=None):

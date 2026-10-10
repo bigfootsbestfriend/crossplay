@@ -93,7 +93,7 @@ Wikipedia's list misses many of the most-played games, so we research those ours
   ~/.config/kitchen-magpie/crossplay-admin.env (never commit either).
 
 ## Search-quality guardrails (2026-10-10)
-- Only researched (`source == "manual"`) game pages are indexable and in the sitemap; list-only (Wikipedia) pages get
-  `noindex` via `page(..., noindex=True)` and become indexable automatically once researched.
+- Only game pages whose manual.json entry has `"audited"` are indexable and in the sitemap (see research/audit.md);
+  everything else gets `noindex` via `page(..., noindex=True)`.
 - Researched pages carry a "Researched by {config.AUTHOR}" byline linking to /about/#who (photo: static/mike-johnston.jpg).
 - The About page discloses that AI tools help find and read sources.
