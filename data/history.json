@@ -1,0 +1,1640 @@
+{
+ "games": {
+  "#IDARB": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "139da7403c01"
+  },
+  "2XKO": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f8233e043ca1"
+  },
+  "4x4 Evolution (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "b229baf9a7dc"
+  },
+  "99Vidas": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa5b3a4204a6"
+  },
+  "A-Men": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "ARC Raiders": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "28dad6e1cbd7"
+  },
+  "Aero Dancing i (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "08bfa64afacf"
+  },
+  "Alien Breed": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Aliens: Fireteam Elite": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d2460609ca0f"
+  },
+  "Among Us": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "048fe121da60"
+  },
+  "Apex Legends": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0a4d539ac2f6"
+  },
+  "Aragami": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "c7c0794e37c2"
+  },
+  "Ark: Survival Ascended": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ae329911d54e"
+  },
+  "Ark: Survival Evolved": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "891a2c424c2d"
+  },
+  "Armello": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "73a46681528b"
+  },
+  "Assetto Corsa Competizione": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "3a9119871990"
+  },
+  "Astroneer": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "139da7403c01"
+  },
+  "Atom Universe": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "9f5c5aff50cb"
+  },
+  "Atomic Ninjas": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Back 4 Blood": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8afe0a8b9b13"
+  },
+  "Backgammon Blitz": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "29e437f39e3e"
+  },
+  "Battlefield 2042": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "925497583c4c"
+  },
+  "Battlefield 6": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "c51f5951ed60"
+  },
+  "Black Desert Online": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "adf0d91ebdcb"
+  },
+  "BlazBlue: Calamity Trigger": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "80fb60f9d139"
+  },
+  "BlazBlue: Chrono Phantasma": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "354151baf18c"
+  },
+  "BlobCat": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6de6fccc8408"
+  },
+  "Borderlands 3": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ff886ade3387"
+  },
+  "Boundless": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ee3f5d84f2f4"
+  },
+  "Brawlhalla": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "31aca2ed0795"
+  },
+  "Breakers Collection": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e5f1ba36e570"
+  },
+  "Call of Duty: Black Ops Cold War": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "4eb3c0f7531e"
+  },
+  "Call of Duty: Modern Warfare": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "4eaffaa907d8"
+  },
+  "Call of Duty: Modern Warfare II": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ab474994be6b"
+  },
+  "Call of Duty: Modern Warfare III": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ab474994be6b"
+  },
+  "Call of Duty: Vanguard": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "4eb3c0f7531e"
+  },
+  "Call of Duty: Warzone": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "972844379534"
+  },
+  "Capcom vs. SNK 2: Millionaire Fighting 2001 (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "7d89b450b8eb"
+  },
+  "Chess Ultra": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ca5d440631ee"
+  },
+  "Chessaria: The Tactical Adventure": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1920ac5bf38f"
+  },
+  "CounterAttack: Uprising": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "9a5ab96def98"
+  },
+  "Crackdown 3": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "139da7403c01"
+  },
+  "Crash Drive 3": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "78e7496ae5b4"
+  },
+  "Crazy Justice": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "78c07e09c392"
+  },
+  "Crusader Kings III": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "c0dfae4730f2"
+  },
+  "Cubemen 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "254e10abeb65"
+  },
+  "Curses 'N Chaos": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "DC Universe Online": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "DJMax Respect V": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0899baca5c16"
+  },
+  "DOOM + DOOM II": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "c03eb8ba745a"
+  },
+  "Dauntless": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "bd6f5f6d6c43"
+  },
+  "Dawn of the Breakers (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0d992a1d96ae"
+  },
+  "Dead Star (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "93428ff59824"
+  },
+  "Dead by Daylight": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "027e5141219c"
+  },
+  "Dead or Alive 5 Plus": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Deathmatch Village": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Deception IV: Blood Ties": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Deep Rock Galactic": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Destiny 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "b43968f64fbc"
+  },
+  "Diablo IV": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "4eb3c0f7531e"
+  },
+  "Diablo Immortal": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6d2d4d668058"
+  },
+  "Dick Wilde 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Digimon Story: Cyber Sleuth": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Digimon Story: Cyber Sleuth – Hacker's Memory": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Dirt 5": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d2460609ca0f"
+  },
+  "Disc Jam": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "272ddb90c575"
+  },
+  "Disney Speedstorm": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f287457c20d6"
+  },
+  "Divekick": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Dofus": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "499c2bd7735a"
+  },
+  "Dragon Quest Builders 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ed58081cc885"
+  },
+  "Dragon Quest Heroes II": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Dragon's Crown": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Dragon's Dogma Online": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "af478fe7c2d6"
+  },
+  "Dreii": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "9a755f752b10"
+  },
+  "Duke Nukem 3D Megaton Edition": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Dust 514 (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1052468549cb"
+  },
+  "Dynasty Warriors 8": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Eagle Flight": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Elemental Knights R": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5e59737a28b0"
+  },
+  "Enlisted": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Europa Universalis IV": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1fba7a904ea8"
+  },
+  "Eve Online": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "acd7ed5e8caf"
+  },
+  "Eve Online (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1052468549cb"
+  },
+  "Eve: Valkyrie": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Everybody's Golf 6": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Exorder": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ccb8dd42ddf7"
+  },
+  "Fable Fortune": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Factorio": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "82aa4581332f"
+  },
+  "Faeria": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f287457c20d6"
+  },
+  "Fall Guys: Ultimate Knockout": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f0842a9161d3"
+  },
+  "Fantasy Strike": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2c014f6a185d"
+  },
+  "Final Fantasy XI (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1234c8f165cd"
+  },
+  "Final Fantasy XIV: A Realm Reborn": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0200afb71bb6"
+  },
+  "Final Fantasy XV": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Final Fantasy: Crystal Chronicles": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e61e2da7f96a"
+  },
+  "Foosball 2012": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Football Manager 2022": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aec007348843"
+  },
+  "Fortnite Battle Royale": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "bd6f5f6d6c43"
+  },
+  "Forza Horizon 3": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Forza Horizon 4": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0f53ccefde9a"
+  },
+  "Forza Horizon 5": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0f53ccefde9a"
+  },
+  "Forza Motorsport 7": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Frozen Synapse": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "cb9533b7d095"
+  },
+  "Full Metal Furies": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Games of Glory": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Gang Beasts": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ebc3c967051a"
+  },
+  "Garou: Mark of the Wolves": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Gears 5": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0f53ccefde9a"
+  },
+  "Gears of War 4": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Genesis": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Genshin Impact": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "928de0d2678b"
+  },
+  "Gigantic (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "920d7949f739"
+  },
+  "God Eater 2 Rage Burst": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "God Eater Resurrection": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Grand Kingdom": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Grid Legends": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ae7fbd62ed23"
+  },
+  "Grounded": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0f53ccefde9a"
+  },
+  "Guilty Gear Strive": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "392f9bc45ee8"
+  },
+  "Guilty Gear Xrd: Revelator": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "354151baf18c"
+  },
+  "Guilty Gear Xrd: Sign": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "354151baf18c"
+  },
+  "Gundam Breaker": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Guns of Icarus: Alliance": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e8bcf67b95e5"
+  },
+  "Gwent: The Witcher Card Game": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1b27f71fb44b"
+  },
+  "Halo Infinite": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0f53ccefde9a"
+  },
+  "Halo Wars 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Halo: The Master Chief Collection": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0f53ccefde9a"
+  },
+  "Hearthstone": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "a7254516b53e"
+  },
+  "Heavy Metal Machines": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "392f9bc45ee8"
+  },
+  "Helldivers": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Helldivers 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5607cb0926d4"
+  },
+  "Hero Siege": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "429a1dc3a2a2"
+  },
+  "Hex": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Honkai Impact 3rd": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f35c865ce534"
+  },
+  "Hover": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5d9922b95a63"
+  },
+  "Human: Fall Flat": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Hunt: Showdown (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "adf0d91ebdcb"
+  },
+  "Hunt: Showdown 1896": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5607cb0926d4"
+  },
+  "Hustle Kings": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Insurgency: Sandstorm": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8afe0a8b9b13"
+  },
+  "Invisigun Reloaded": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "c7525c4aebb7"
+  },
+  "Invizimals: The Alliance": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Invizimals: The Lost Kingdom": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Invokers Tournament": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Jet Car Stunts": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Just Dance": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d29300d3ea85"
+  },
+  "Kabounce": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Killer Instinct": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0f53ccefde9a"
+  },
+  "Killer Queen Black": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e339a4ae341f"
+  },
+  "Knockout City": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "29217f06f295"
+  },
+  "Lego Party": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e5f1ba36e570"
+  },
+  "Lethal League Blaze": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "LevelHead": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0d992a1d96ae"
+  },
+  "Lightseekers": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2d2ab0b9ea23"
+  },
+  "Little Battlers eXperience W (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "a7141eda295f"
+  },
+  "Lost Planet: Extreme Condition Colonies Edition": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6ebc5a11d3e4"
+  },
+  "Luanti (Formally Minetest)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d0bbd2ace9d8"
+  },
+  "Lucadian Chronicles": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6d9696cbb9a0"
+  },
+  "Madden NFL 24": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "c51f5951ed60"
+  },
+  "Mantis Burn Racing": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "596794bc0256"
+  },
+  "Matchpoint: Tennis Championships": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f287457c20d6"
+  },
+  "MechWarrior 5": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2e7a3f0b4ac3"
+  },
+  "Mecho Wars: Desert Ashes": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "823236bfbdd6"
+  },
+  "Metal Slug 3": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Microsoft Flight Simulator (2020)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0f53ccefde9a"
+  },
+  "Mindustry": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d1c37fc91f98"
+  },
+  "Minecraft Dungeons": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "95ac83a78bf0"
+  },
+  "Minecraft: Bedrock Edition": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f4ae48404ddc"
+  },
+  "Minecraft: Java Edition": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "499c2bd7735a"
+  },
+  "Mobius Final Fantasy": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "261a01cfd49e"
+  },
+  "Monster Hunter 3 Ultimate": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ce664f1f4af9"
+  },
+  "Monster Hunter Generations Ultimate": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "9bd31ab4ec28"
+  },
+  "Monster Train": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2e7a3f0b4ac3"
+  },
+  "Morphies Law": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6de6fccc8408"
+  },
+  "Mortal Kombat 1": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5607cb0926d4"
+  },
+  "Mortal Kombat 11": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ec71dc0ee161"
+  },
+  "MultiVersus": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "392f9bc45ee8"
+  },
+  "Mushroom Wars 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2d2ab0b9ea23"
+  },
+  "NBA 2K Playgrounds 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1a0db2ef5876"
+  },
+  "Natural Doctrine": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Need for Speed Heat": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ae7fbd62ed23"
+  },
+  "Need for Speed: Hot Pursuit Remastered": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "431fe6d54102"
+  },
+  "Need for Speed: Underground (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f00fadf3f540"
+  },
+  "Neverwinter Nights: Enhanced Edition": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "be065fb738f3"
+  },
+  "Next Up Hero": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e339a4ae341f"
+  },
+  "Nickelodeon All-Star Brawl 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e5f1ba36e570"
+  },
+  "Nidhogg": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Nitroplus Blasterz: Heroines Infinite Duel": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "354151baf18c"
+  },
+  "No Man's Sky": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "eeda9162cde6"
+  },
+  "Onigiri": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6de6fccc8408"
+  },
+  "Operation: Tango": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "364e2ea89476"
+  },
+  "Overcooked 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0b20cd17df6d"
+  },
+  "Overcooked: All You Can Eat": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e5f1ba36e570"
+  },
+  "Overload": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "540aecd461c9"
+  },
+  "Overwatch 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "df5083066453"
+  },
+  "Overwatch Classic (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "00801e2b12d9"
+  },
+  "PUBG: Battlegrounds": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ec71dc0ee161"
+  },
+  "Paladins": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d35da49e03ba"
+  },
+  "Paragon (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "93428ff59824"
+  },
+  "Pavlov VR": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2818503d7417"
+  },
+  "Phantasy Star Online (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "b229baf9a7dc"
+  },
+  "Phantasy Star Online 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "78ae382abf9e"
+  },
+  "Phantasy Star Universe (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f00fadf3f540"
+  },
+  "Phantom Dust": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Pinball FX 3": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "37455c542484"
+  },
+  "PixelJunk Shooter Ultimate": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "PlayStation All-Stars Battle Royale": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Pokémon Unite": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5e59737a28b0"
+  },
+  "Portal 2 (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6c0087ce1099"
+  },
+  "Power Rangers: Battle for the Grid": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "001b68df55d6"
+  },
+  "Pox Nora": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ee3f5d84f2f4"
+  },
+  "Project Winter": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "454d98eb01ab"
+  },
+  "Pure Chess": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1eb3e9dfb638"
+  },
+  "Quake": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "182579219819"
+  },
+  "Quake II": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "001b68df55d6"
+  },
+  "Quake III Arena (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "08bfa64afacf"
+  },
+  "Ragnarok Odyssey Ace": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Ratchet & Clank: Full Frontal Assault": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "ReadySet Heroes": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Realm Royale": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e5f1ba36e570"
+  },
+  "Rec Room": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "9b5d0d775b14"
+  },
+  "Remnant 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Remnant: From the Ashes": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Riptide GP: Renegade": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "63792ff693eb"
+  },
+  "Risk (SMG Studio)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "395a8a6f66c5"
+  },
+  "Risk of Rain": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Roblox": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "c1c5a6046c04"
+  },
+  "Rocket Arena": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ae7fbd62ed23"
+  },
+  "Rocket League": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d9ba8f3e1c5b"
+  },
+  "Rogue Company": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d9ba8f3e1c5b"
+  },
+  "Ryū ga Gotoku Ishin!": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Samurai Shodown V Special": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Sea of Thieves": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8514bc22e254"
+  },
+  "Sega Swirl (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "08bfa64afacf"
+  },
+  "Shadowrun": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "80fb60f9d139"
+  },
+  "Shadowverse": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "395a8a6f66c5"
+  },
+  "Sid Meier's Civilization V": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2137c7b98529"
+  },
+  "Siegecraft Commander": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e5abfc0e9506"
+  },
+  "SkullPirates": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Skullgirls: 2nd Encore": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Sky: Children of the Light": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e964c7d8de91"
+  },
+  "Smite": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d35da49e03ba"
+  },
+  "Sniper Elite V2 Remastered": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "SnowRunner": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "bf9d1bca2a6f"
+  },
+  "Sonic Racing: CrossWorlds": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ec1df0297a46"
+  },
+  "Space Junkies": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "9f5c5aff50cb"
+  },
+  "Spacelords": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d2460609ca0f"
+  },
+  "Sparc (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "93428ff59824"
+  },
+  "Spellbreak": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "df6dd323db67"
+  },
+  "Spelunky": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "29e437f39e3e"
+  },
+  "Spelunky 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "001b68df55d6"
+  },
+  "Splitgate": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "26d3f87f902d"
+  },
+  "Sports Bar VR": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Square Heroes": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Star Trek: Bridge Crew": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Star Wars: Hunters": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5e59737a28b0"
+  },
+  "Star Wars: Squadrons": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ae7fbd62ed23"
+  },
+  "StarCraft II": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "c87cf834c40a"
+  },
+  "State of Decay 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0f53ccefde9a"
+  },
+  "Street Fighter 6": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "921ef603dd2c"
+  },
+  "Street Fighter V": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Street Fighter X Tekken": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Streets of Rage 4": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "Super Animal Royale": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "02be71ead614"
+  },
+  "Super Bomberman R Online (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "303f1bbe3b21"
+  },
+  "Super Dungeon Bros": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e52b6bf7f59b"
+  },
+  "Super Exploding Zoo": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Super Mega Baseball 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "e5f1ba36e570"
+  },
+  "Surviv.io": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0fc181fe1496"
+  },
+  "Switch Galaxy Ultra": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Talisman: Digital Edition": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0d992a1d96ae"
+  },
+  "Tannenberg": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ec71dc0ee161"
+  },
+  "Teenage Mutant Ninja Turtles: Shredder's Revenge": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8871f17e181f"
+  },
+  "Tekken 8": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5607cb0926d4"
+  },
+  "Terraria": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "16795bb44418"
+  },
+  "Tetris Effect": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "3cc204523e92"
+  },
+  "The Ascent": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "The Elder Scrolls: Blades": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5e59737a28b0"
+  },
+  "The King of Fighters '97 Global Match": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "The King of Fighters XV": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "392f9bc45ee8"
+  },
+  "Ticket to Ride": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "a9bdf8f7ef88"
+  },
+  "Tooth and Tail": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "5e503c942113"
+  },
+  "Torchlight II": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "82aa4581332f"
+  },
+  "Total War: Warhammer III": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1fba7a904ea8"
+  },
+  "Toukiden 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Toukiden: Kiwami": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  },
+  "Touring Karts": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "a1b8bb983e73"
+  },
+  "Trailblazers": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "419bb0408618"
+  },
+  "Treasure Stack": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1a0db2ef5876"
+  },
+  "Trine 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ec7187fd9efa"
+  },
+  "Trine 4": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "293ab1f54b7b"
+  },
+  "Ultimate Chicken Horse": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2c014f6a185d"
+  },
+  "Under Night In-Birth EXE:Late[st]": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "354151baf18c"
+  },
+  "Universe at War: Earth Assault": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6ebc5a11d3e4"
+  },
+  "Uno (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "1428d0ac49ce"
+  },
+  "Unrailed!": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "4c31d803ad28"
+  },
+  "Vainglory": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6c7494f5c33b"
+  },
+  "Verdun": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ec71dc0ee161"
+  },
+  "Villagers & Heroes": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6c7494f5c33b"
+  },
+  "WWE 2K Battlegrounds": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "96e5d13c0be1"
+  },
+  "War Thunder": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "4e5e29ef8398"
+  },
+  "Warface": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d9ba8f3e1c5b"
+  },
+  "Wargroove": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "001b68df55d6"
+  },
+  "Warhammer Age of Sigmar: Champions": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2d2ab0b9ea23"
+  },
+  "Warriors Orochi 3 Ultimate": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8cfaf7d07acd"
+  },
+  "Warspear": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "44bc1777428a"
+  },
+  "Way of Redemption (discontinued)": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "93428ff59824"
+  },
+  "Weapons of Mythology: New Age": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "Werewolves Within": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "18f1e3f0d76d"
+  },
+  "When Vikings Attack!": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Wildgate": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f6c6b80652ac"
+  },
+  "Windjammers 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "a6dfd89a9939"
+  },
+  "Windward": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "80665fb07285"
+  },
+  "Wipeout 2048": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Wipeout HD": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "World War Z": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "8afe0a8b9b13"
+  },
+  "World of Tanks": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "d29300d3ea85"
+  },
+  "World of Warcraft": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "c87cf834c40a"
+  },
+  "World of Warships: Legends": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "ec71dc0ee161"
+  },
+  "Worms Rumble": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "f287457c20d6"
+  },
+  "Worms W.M.D": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "80665fb07285"
+  },
+  "Yu-Gi-Oh! Duel Links": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "395a8a6f66c5"
+  },
+  "Yu-Gi-Oh! Master Duel": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "0fa4c226e81d"
+  },
+  "Zaccaria Pinball": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "80665fb07285"
+  },
+  "Zombie Army 4: Dead War": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "553e7f0fd4ce"
+  },
+  "Zombie Tycoon 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "6e6d4fcb5870"
+  },
+  "Zoo Tycoon: Ultimate Animal Collection": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "aa7b1ce19ddf"
+  },
+  "data-sort-value=\"Last Blade\"| The Last Blade 2": {
+   "changed": "2026-10-09",
+   "first_seen": "2026-10-09",
+   "hash": "2cbbbeab1948"
+  }
+ },
+ "log": []
+}

@@ -1,0 +1,7218 @@
+{
+ "fetched": "2026-10-09",
+ "games": [
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "#IDARB",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes"
+     },
+     "refs": [
+      "https://www.gematsu.com/2017/07/beat-em-99vidas-launches-ps4-ps3-ps-vita-july-18-americas"
+     ]
+    }
+   ],
+   "title": "99Vidas",
+   "wiki_link": "99Vidas"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Riot"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://2xko.riotgames.com/en-us/news/game-updates/2xko-patch-notes-1-1-1-jan-20-2026/"
+     ]
+    }
+   ],
+   "title": "2XKO",
+   "wiki_link": "2XKO"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2012/10/17/a-men-out-today-for-ps3-with-ps-vita-cross-play-support/"
+     ]
+    }
+   ],
+   "title": "A-Men",
+   "wiki_link": "A-Men"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2013/02/05/alien-breed-launches-ps3-and-ps-vita-assault-this-week/"
+     ]
+    }
+   ],
+   "title": "Alien Breed",
+   "wiki_link": "Alien Breed (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://news.xbox.com/en-us/2021/11/30/aliens-fireteam-elite-available-december-14-with-xbox-game-pass/#:~:text=Coming%20December%2014%2C%20alongside%20the,Store%20version%20of%20the%20game"
+     ]
+    }
+   ],
+   "title": "Aliens: Fireteam Elite",
+   "wiki_link": "Aliens: Fireteam Elite"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "GOG",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "android": "yes",
+      "geforcenow": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.gamespot.com/articles/among-us-for-nintendo-switch-releases-today-with-cross-play/1100-6485548/",
+      "https://www.theverge.com/platform/amp/2021/10/21/22738583/among-us-xbox-playstation-game-pass-release-date"
+     ]
+    }
+   ],
+   "title": "Among Us",
+   "wiki_link": "Among Us"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Steam"
+     ],
+     "platforms": {
+      "geforcenow": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "http://www.ea.com",
+      "https://www.ea.com/games/apex-legends/news/season-6-aftermarket-event"
+     ]
+    }
+   ],
+   "title": "Apex Legends",
+   "wiki_link": "Apex Legends"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "luna": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "http://www.nintendolife.com/news/2018/08/aragami_shadow_edition_coming_to_switch_this_fall_will_include_cross-play"
+     ]
+    }
+   ],
+   "title": "Aragami",
+   "wiki_link": "Aragami (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "geforcenow": "yes",
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://insider-gaming.com/does-arc-raiders-have-crossplay/"
+     ]
+    }
+   ],
+   "title": "ARC Raiders",
+   "wiki_link": "ARC Raiders"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://crossplaygames.com/games/ark-survival-ascended"
+     ]
+    }
+   ],
+   "title": "Ark: Survival Ascended",
+   "wiki_link": "Ark: Survival Ascended"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "geforcenow": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://survivetheark.com/index.php?/articles.html/community-crunch-225-crystal-isles-anniversary-event-epic-games-store-and-more-r1569/",
+      "https://www.gfinityesports.com/ark-survival-evolved/ark-is-ark-survival-evolved-cross-platform-play-studio-wildcard-xbox-one-series-x-s-ps4-ps5-switch-pc-windows-10/"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xcloud": "yes",
+      "xone": "yes"
+     },
+     "refs": []
+    },
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Ark: Survival Evolved",
+   "wiki_link": "Ark: Survival Evolved"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "switch": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "https://store.steampowered.com/news/app/290340/view/3319732436466228376"
+     ]
+    }
+   ],
+   "title": "Armello",
+   "wiki_link": "Armello"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "The Ascent",
+   "wiki_link": "The Ascent (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.overtake.gg/news/crossplay-multiplayer-arrives-for-assetto-corsa-competizione-on-console.1598/"
+     ]
+    }
+   ],
+   "title": "Assetto Corsa Competizione",
+   "wiki_link": "Assetto Corsa Competizione"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "https://www.player.one/astroneer-update-119-introduces-cross-platform-multiplayer-support-580247"
+     ]
+    }
+   ],
+   "title": "Astroneer",
+   "wiki_link": "Astroneer"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2013/05/16/atomic-ninjas-storm-ps3-ps-vita-later-this-year/"
+     ]
+    }
+   ],
+   "title": "Atomic Ninjas",
+   "wiki_link": "Atomic Ninjas"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes"
+     },
+     "refs": [
+      "https://www.gamespot.com/articles/old-playstation-home-social-space-re-released-on-p/1100-6451624/"
+     ]
+    }
+   ],
+   "title": "Atom Universe",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.polygon.com/guides/22727765/back-4-blood-crossplay-ps4-ps5-xbox-one-xbox-series-x-windows-pc-setting-friends-list-username"
+     ]
+    }
+   ],
+   "title": "Back 4 Blood",
+   "wiki_link": "Back 4 Blood"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.develop-online.net/press-releases/backgammon-blitz-comes-to-north-and-south-america/0191721"
+     ]
+    }
+   ],
+   "title": "Backgammon Blitz",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "https://help.ea.com/en/help/battlefield/battlefield-2042/battlefield-2042-cross-play/"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Battlefield 2042",
+   "wiki_link": "Battlefield 2042"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.gamesradar.com/games/battlefield/battlefield-6-crossplay/"
+     ]
+    }
+   ],
+   "title": "Battlefield 6",
+   "wiki_link": "Battlefield 6"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "https://www.mmorpg.com/black-desert/news/cross-play-now-live-in-black-desert-2000117428"
+     ]
+    }
+   ],
+   "title": "Black Desert Online",
+   "wiki_link": "Black Desert Online"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Games for Windows Live"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "x360": "yes"
+     },
+     "refs": [
+      "http://www.eurogamer.net/articles/2010-08-16-blazblue-calamity-trigger-pc-dated"
+     ]
+    }
+   ],
+   "title": "BlazBlue: Calamity Trigger",
+   "wiki_link": "BlazBlue: Calamity Trigger"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2015/02/19/blazblue-chrono-phantasma-extend-vita-wont-cross-platform-online-battles/"
+     ]
+    }
+   ],
+   "title": "BlazBlue: Chrono Phantasma",
+   "wiki_link": "BlazBlue: Chrono Phantasma"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://twitter.com/BlobCatGame/status/982188532784492551"
+     ]
+    }
+   ],
+   "title": "BlobCat",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://borderlands.com/en-US/news/2020-03-05-borderlands-3-steam-faq/",
+      "https://borderlands.com/en-US/news/2020-11-02-borderlands-3-next-gen-faq/",
+      "https://borderlands.com/en-US/news/2021-06-24-borderlands-3-crossplay-update/",
+      "https://www.dualshockers.com/borderlands-3-crossplay-update-1-28-patch-notes-today-june-1st/"
+     ]
+    }
+   ],
+   "title": "Borderlands 3",
+   "wiki_link": "Borderlands 3"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://www.rockpapershotgun.com/2015/10/28/boundless-announcement/"
+     ]
+    }
+   ],
+   "title": "Boundless",
+   "wiki_link": "Boundless (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "geforcenow": "yes",
+      "ios": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.brawlhalla.com/play/"
+     ]
+    }
+   ],
+   "title": "Brawlhalla",
+   "wiki_link": "Brawlhalla"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.fightersgeneration.com/news1/breakers-july22.htm"
+     ]
+    }
+   ],
+   "title": "Breakers Collection",
+   "wiki_link": "Breakers Collection"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.dexerto.com/call-of-duty/infinity-ward-dev-explains-how-modern-warfare-cross-play-will-work-679536"
+     ]
+    }
+   ],
+   "title": "Call of Duty: Black Ops Cold War",
+   "wiki_link": "Call of Duty: Black Ops Cold War"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "xone": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Call of Duty: Modern Warfare",
+   "wiki_link": "Call of Duty: Modern Warfare (2019 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Call of Duty: Modern Warfare II",
+   "wiki_link": "Call of Duty: Modern Warfare II (2022 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Call of Duty: Modern Warfare III",
+   "wiki_link": "Call of Duty: Modern Warfare III (2023 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Call of Duty: Vanguard",
+   "wiki_link": "Call of Duty: Vanguard"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "xone": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Call of Duty: Warzone",
+   "wiki_link": "Call of Duty: Warzone (2020 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Crackdown 3",
+   "wiki_link": "Crackdown 3"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Crazy Justice",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "http://store.steampowered.com/app/575340/Chessaria_The_Tactical_Adventure/"
+     ]
+    }
+   ],
+   "title": "Chessaria: The Tactical Adventure",
+   "wiki_link": "Chessaria: The Tactical Adventure"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "https://ripstone.com/game/chess-ultra/"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Chess Ultra",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "https://www.counterattackuprising.com/"
+     ]
+    }
+   ],
+   "title": "CounterAttack: Uprising",
+   "wiki_link": "CounterAttack: Uprising"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://worthplaying.com/article/2021/6/24/news/126931-crash-drive-3-races-to-switch-ps4-ps5-xbox-xbox-series-xs-and-pc-next-month-screens-trailer/"
+     ]
+    }
+   ],
+   "title": "Crash Drive 3",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://gamerjournalist.com/is-crusader-kings-crossplay/"
+     ]
+    }
+   ],
+   "title": "Crusader Kings III",
+   "wiki_link": "Crusader Kings III"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "wiiu": "yes"
+     },
+     "refs": [
+      "http://sheattack.com/cubemen-2-cross-platform-multiplayer-wii-u-pc/"
+     ]
+    }
+   ],
+   "title": "Cubemen 2",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2015/07/08/curses-n-chaos-is-punching-and-kicking-to-ps4-ps-vita-and-pc-this-summer/"
+     ]
+    }
+   ],
+   "title": "Curses 'N Chaos",
+   "wiki_link": "Curses 'N Chaos"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic"
+     ],
+     "platforms": {
+      "android": "yes",
+      "geforcenow": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.pcgamer.com/dauntless-heading-to-epic-games-store-aiming-for-crossplay-across-all-platforms/"
+     ]
+    }
+   ],
+   "title": "Dauntless",
+   "wiki_link": "Dauntless (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://wccftech.com/pcps4ps3-crossplay-dc-universe-online-works/"
+     ]
+    }
+   ],
+   "title": "DC Universe Online",
+   "wiki_link": "DC Universe Online"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "geforcenow": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://forum.deadbydaylight.com/en/discussion/100036/news-introducing-the-windows-store"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes"
+     },
+     "refs": [
+      "https://www.fanbyte.com/guides/is-dead-by-daylight-crossplay-supported-cross-platform-play-guide/"
+     ]
+    }
+   ],
+   "title": "Dead by Daylight",
+   "wiki_link": "Dead by Daylight"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2013/01/17/dead-or-alive-5-picks-a-fight-on-ps-vita-in-march/"
+     ]
+    }
+   ],
+   "title": "Dead or Alive 5 Plus",
+   "wiki_link": "Dead or Alive 5 Plus"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.eurogamer.net/articles/2013-01-31-a-f2p-multiplayer-cross-platform-ps3-and-vita-game"
+     ]
+    }
+   ],
+   "title": "Deathmatch Village",
+   "wiki_link": "Deathmatch Village"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Deception IV: Blood Ties",
+   "wiki_link": "Deception IV: Blood Ties"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.deeprockgalactic.com/crossplay-info",
+      "https://www.ggrecon.com/guides/deep-rock-galactic-crossplay-platform/",
+      "https://www.polygon.com/2018/2/28/17064132/deep-rock-galactic-steam-xbox-one-price-release-date-early-access"
+     ]
+    }
+   ],
+   "title": "Deep Rock Galactic",
+   "wiki_link": "Deep Rock Galactic"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "geforcenow": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xcloud": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Destiny 2",
+   "wiki_link": "Destiny 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://www.roadtovr.com/dick-wilde-2-rift-vive-psvr-february/"
+     ]
+    }
+   ],
+   "title": "Dick Wilde 2",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Dofus",
+   "wiki_link": "Dofus"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "GOG",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.theverge.com/2024/8/8/24216379/doom-doom-ii-definitive-re-release"
+     ]
+    }
+   ],
+   "title": "DOOM + DOOM II",
+   "wiki_link": "Doom (1993 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Diablo Immortal",
+   "wiki_link": "Diablo Immortal"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.gamesradar.com/diablo-4-is-coming-to-steam-this-month-and-cross-play-and-cross-progression-will-work-immediately/"
+     ]
+    }
+   ],
+   "title": "Diablo IV",
+   "wiki_link": "Diablo IV"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Digimon Story: Cyber Sleuth",
+   "wiki_link": "Digimon Story: Cyber Sleuth"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://store.playstation.com/en-gb/product/EP0700-CUSA09923_00-DSHACKERSMEMORY1"
+     ]
+    }
+   ],
+   "title": "Digimon Story: Cyber Sleuth – Hacker's Memory",
+   "wiki_link": "Digimon Story: Cyber Sleuth – Hacker's Memory"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.motorsport.com/gaming/news/new-dirt-5-update-features-online-cross-play-and-red-bull-liveries/6506722"
+     ]
+    }
+   ],
+   "title": "Dirt 5",
+   "wiki_link": "Dirt 5"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://thevitalounge.net/2016/03/21/dreii/"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://www.terminals.io/games/disc-jam"
+     ]
+    }
+   ],
+   "title": "Disc Jam",
+   "wiki_link": "Disc Jam"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://gameloft.helpshift.com/hc/en/68-disney-speedstorm/faq/3202-can-i-play-with-my-friends-who-are-using-other-platforms/",
+      "https://www.theloadout.com/disney-speedstorm/crossplay"
+     ]
+    }
+   ],
+   "title": "Disney Speedstorm",
+   "wiki_link": "Disney Speedstorm"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://www.gamespot.com/reviews/divekick-review/1900-6413310/"
+     ]
+    }
+   ],
+   "title": "Divekick",
+   "wiki_link": "Divekick"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xcloud": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "DJMax Respect V",
+   "wiki_link": "DJMax Respect"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "switch": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2018/11/27/dragon-quest-builders-2s-has-partial-cross-platform-support-for-ps4-and-switch/"
+     ]
+    }
+   ],
+   "title": "Dragon Quest Builders 2",
+   "wiki_link": "Dragon Quest Builders 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://gematsu.com/2016/05/dragon-quest-heroes-ii-details-multiplayer"
+     ]
+    }
+   ],
+   "title": "Dragon Quest Heroes II",
+   "wiki_link": "Dragon Quest Heroes II"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://gematsu.com/2017/09/dragons-crown-pro-announced-ps4"
+     ]
+    }
+   ],
+   "title": "Dragon's Crown",
+   "wiki_link": "Dragon's Crown"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://www.gamespot.com/articles/dragon-s-dogma-online-ps4-is-1080p-60fps-cross-pla/1100-6426429/"
+     ]
+    }
+   ],
+   "title": "Dragon's Dogma Online",
+   "wiki_link": "Dragon's Dogma Online"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": []
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "wiiu": "yes"
+     },
+     "refs": [
+      "https://twitter.com/etterstudio/status/705663392963502080"
+     ]
+    }
+   ],
+   "title": "Dreii",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://thevitalounge.net/2014/01/29/duke-nukem-3d-megaton-edition-to-boast-cross-platform-multiplayer-via-psn/"
+     ]
+    }
+   ],
+   "title": "Duke Nukem 3D Megaton Edition",
+   "wiki_link": "Duke Nukem 3D"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://gematsu.com/2015/10/dynasty-warriors-8-empires-ps-vita-features-detailed"
+     ]
+    }
+   ],
+   "title": "Dynasty Warriors 8",
+   "wiki_link": "Dynasty Warriors 8"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://blog.ubi.com/ubisofts-vr-lineup-support-cross-platform-play/"
+     ]
+    }
+   ],
+   "title": "Eagle Flight",
+   "wiki_link": "Eagle Flight"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://enlisted.net/en/news/show/86-the-open-beta-testing-of-enlisted-has-begun-en/#!/"
+     ]
+    }
+   ],
+   "title": "Enlisted",
+   "wiki_link": "Enlisted (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "switch": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "The Elder Scrolls: Blades",
+   "wiki_link": "The Elder Scrolls: Blades"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "switch": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Elemental Knights R",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://globaltechnologymagazine.com/is-europa-universalis-4-cross-platform-multiplayer/"
+     ]
+    }
+   ],
+   "title": "Europa Universalis IV",
+   "wiki_link": "Europa Universalis IV"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Eve Online",
+   "wiki_link": "Eve Online"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://www.eurogamer.net/articles/2017-08-15-non-vr-eve-valkyrie-launching-september-with-cross-reality-play"
+     ]
+    }
+   ],
+   "title": "Eve: Valkyrie",
+   "wiki_link": "Eve: Valkyrie"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2012/08/23/hot-shots-golf-world-invitationals-ps3-port-has-extra-characters-and-courses/"
+     ]
+    }
+   ],
+   "title": "Everybody's Golf 6",
+   "wiki_link": "Everybody's Golf 6"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://nintendoeverything.com/exorder-nintendo-switch-cross-platform-play/#373611"
+     ]
+    }
+   ],
+   "title": "Exorder",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Fable Fortune",
+   "wiki_link": "Fable Fortune"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Factorio",
+   "wiki_link": "Factorio"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.guidestash.com/news/faeria/faeria-is-now-available-on-playstation-4-with-cross-play-support/"
+     ]
+    }
+   ],
+   "title": "Faeria",
+   "wiki_link": "Faeria"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://fallguys.com/news/fall-guys-ultimate-knockout-season-4-5-release-notes"
+     ]
+    }
+   ],
+   "title": "Fall Guys: Ultimate Knockout",
+   "wiki_link": "Fall Guys"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "http://www.fantasystrike.com/blog/2019/full-crossplay-is-coming-to-fantasy-strike"
+     ]
+    }
+   ],
+   "title": "Fantasy Strike",
+   "wiki_link": "Fantasy Strike"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://gematsu.com/2019/09/final-fantasy-crystal-chronicles-remastered-edition-launches-january-23-2020"
+     ]
+    }
+   ],
+   "title": "Final Fantasy: Crystal Chronicles",
+   "wiki_link": "Final Fantasy: Crystal Chronicles"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch2": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.destructoid.com/final-fantasy-xiv-a-realm-reborn-plays-like-a-dream-on-the-ps4/"
+     ]
+    }
+   ],
+   "title": "Final Fantasy XIV: A Realm Reborn",
+   "wiki_link": "Final Fantasy XIV: A Realm Reborn"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.microsoft.com/en-us/p/final-fantasy-xv-windows-edition/9pm9v34lw091"
+     ]
+    }
+   ],
+   "title": "Final Fantasy XV",
+   "wiki_link": "Final Fantasy XV"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2012/03/22/foosball-2012-coming-to-ps3-and-ps-vita-with-ps-move-support-and-cross-play/"
+     ]
+    }
+   ],
+   "title": "Foosball 2012",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes"
+     },
+     "refs": [
+      "https://www.footballmanager.com/compare-games"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Football Manager 2022",
+   "wiki_link": "Football Manager 2022"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic"
+     ],
+     "platforms": {
+      "android": "yes",
+      "geforcenow": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.polygon.com/fortnite/2020/8/26/21402635/fortnite-marvel-season-4-blocked-iphone-mac-release-date",
+      "https://www.theverge.com/2018/9/26/17905146/sony-fortnite-ps4-cross-play-support"
+     ]
+    }
+   ],
+   "title": "Fortnite Battle Royale",
+   "wiki_link": "Fortnite Battle Royale"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Forza Horizon 3",
+   "wiki_link": "Forza Horizon 3"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://heavy.com/games/2018/06/forza-horizon-4-cross-platform/"
+     ]
+    }
+   ],
+   "title": "Forza Horizon 4",
+   "wiki_link": "Forza Horizon 4"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Forza Horizon 5",
+   "wiki_link": "Forza Horizon 5"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Forza Motorsport 7",
+   "wiki_link": "Forza Motorsport 7"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://www.pcgamesn.com/indie/frozen-synapse-now-primed-cross-platform-play"
+     ]
+    }
+   ],
+   "title": "Frozen Synapse",
+   "wiki_link": "Frozen Synapse"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://cellardoorgames.com/our-games/full-metal-furies/"
+     ]
+    }
+   ],
+   "title": "Full Metal Furies",
+   "wiki_link": "Full Metal Furies"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://www.gamespot.com/articles/ps4pc-open-beta-begins-for-cross-play-shooter-game/1100-6449562/"
+     ]
+    }
+   ],
+   "title": "Games of Glory",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://cogconnected.com/2021/06/gang-beasts-crossplay-xbox-pc/"
+     ]
+    }
+   ],
+   "title": "Gang Beasts",
+   "wiki_link": "Gang Beasts"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.eurogamer.net/articles/2016-07-18-garou-mark-of-the-wolves-confirmed-for-ps4-and-vita"
+     ]
+    }
+   ],
+   "title": "Garou: Mark of the Wolves",
+   "wiki_link": "Garou: Mark of the Wolves"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Gears of War 4",
+   "wiki_link": "Gears of War 4"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.microsoft.com/en-us/p/gears-5-ultimate-edition-pre-order/9p29x4pjg09x"
+     ]
+    }
+   ],
+   "title": "Gears 5",
+   "wiki_link": "Gears 5"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://www.genesismoba.com/news/detail/97.html"
+     ]
+    }
+   ],
+   "title": "Genesis",
+   "wiki_link": "Genesis (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Genshin Impact",
+   "wiki_link": "Genshin Impact"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.god-eater.com/en/cross-play-for-god-eater-games-and-cross-buy-for-ge-resurrection/"
+     ]
+    }
+   ],
+   "title": "God Eater Resurrection",
+   "wiki_link": "Gods Eater Burst"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "God Eater 2 Rage Burst",
+   "wiki_link": "God Eater 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://gematsu.com/2015/06/grand-kingdom-debut-trailer-website-opened"
+     ]
+    }
+   ],
+   "title": "Grand Kingdom",
+   "wiki_link": "Grand Kingdom"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.comingsoon.net/games/news/1203542-grid-legends-release-date-revealed-supports-crossplay"
+     ]
+    }
+   ],
+   "title": "Grid Legends",
+   "wiki_link": "Grid Legends"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Grounded",
+   "wiki_link": "Grounded (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.eurogamer.net/articles/2022-03-21-guilty-gear-strive-getting-second-character-pass-and-crossplay"
+     ]
+    }
+   ],
+   "title": "Guilty Gear Strive",
+   "wiki_link": "Guilty Gear Strive"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://www.destructoid.com/guilty-gear-xrd-revelator-is-being-localized-next-year-321546.phtml"
+     ]
+    }
+   ],
+   "title": "Guilty Gear Xrd: Revelator",
+   "wiki_link": "Guilty Gear Xrd"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2014/06/03/guilty-gear-xrd-sign-allow-cross-play-ps3-ps4/"
+     ]
+    }
+   ],
+   "title": "Guilty Gear Xrd: Sign",
+   "wiki_link": "Guilty Gear Xrd"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2013/08/29/gundam-breaker-for-vita-supports-cross-save-and-cross-play/"
+     ]
+    }
+   ],
+   "title": "Gundam Breaker",
+   "wiki_link": "Gundam Breaker"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://gunsoficarus.com/faq/#ps42"
+     ]
+    }
+   ],
+   "title": "Guns of Icarus: Alliance",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://www.playgwent.com/en/faq"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Gwent: The Witcher Card Game",
+   "wiki_link": "Gwent: The Witcher Card Game"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Halo Infinite",
+   "wiki_link": "Halo Infinite"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.gamespot.com/articles/huge-halo-mcc-update-is-out-now-adds-series-x-updates-cross-play-and-brings-halo-4-to-pc/1100-6484526/"
+     ]
+    }
+   ],
+   "title": "Halo: The Master Chief Collection",
+   "wiki_link": "Halo: The Master Chief Collection"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "http://www.egmnow.com/articles/news/halo-wars-2-update-adds-cross-platform-play-xbox-one-x-support/"
+     ]
+    }
+   ],
+   "title": "Halo Wars 2",
+   "wiki_link": "Halo Wars 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Hearthstone",
+   "wiki_link": "Hearthstone (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Heavy Metal Machines",
+   "wiki_link": "Heavy Metal Machines"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://steamcommunity.com/games/269210/announcements/detail/1719702292265405444"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Hero Siege",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://gematsu.com/2017/08/hex-card-clash-announced-ps4"
+     ]
+    }
+   ],
+   "title": "Hex",
+   "wiki_link": "Hex: Shards of Fate"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://www.engadget.com/2013/08/21/helldivers-coming-to-ps4-ps3-and-vita-with-cross-play/"
+     ]
+    }
+   ],
+   "title": "Helldivers",
+   "wiki_link": "Helldivers"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.ign.com/wikis/helldivers-2/How_Crossplay_Works_in_Helldivers_2"
+     ]
+    }
+   ],
+   "title": "Helldivers 2",
+   "wiki_link": "Helldivers 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://honkaiimpact3.mihoyo.com/global/en-us/download"
+     ]
+    }
+   ],
+   "title": "Honkai Impact 3rd",
+   "wiki_link": "Honkai Impact 3rd"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://store.steampowered.com/news/app/280180/view/2921103526306069932"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Hover",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Human: Fall Flat",
+   "wiki_link": "Human: Fall Flat"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.gamepressure.com/newsroom/crossplay-in-hunt-showdown-1896-pc-xbox-ps5-explained/z57716/"
+     ]
+    }
+   ],
+   "title": "Hunt: Showdown 1896",
+   "wiki_link": "Hunt: Showdown 1896"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://www.theverge.com/2012/2/16/2802242/sony-cross-play-ps-vita-launch-promotions"
+     ]
+    }
+   ],
+   "title": "Hustle Kings",
+   "wiki_link": "Hustle Kings"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://store.steampowered.com/news/app/581320/view/4446837338576782854"
+     ]
+    }
+   ],
+   "title": "Insurgency: Sandstorm",
+   "wiki_link": "Insurgency: Sandstorm"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "ios": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Invisigun Reloaded",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2014/09/23/invizimals-the-alliance-the-lost-kingdom-launch-next-week/"
+     ]
+    }
+   ],
+   "title": "Invizimals: The Alliance",
+   "wiki_link": "Invizimals: The Alliance"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Invizimals: The Lost Kingdom",
+   "wiki_link": "Invizimals: The Lost Kingdom"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2014/12/03/free-play-moba-invokers-tournament-arrives-ps4-ps-vita-today/"
+     ]
+    }
+   ],
+   "title": "Invokers Tournament",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2014/05/20/jet-car-stunts-races-onto-ps3-ps-vita-july-check-trailer/"
+     ]
+    }
+   ],
+   "title": "Jet Car Stunts",
+   "wiki_link": "Jet Car Stunts"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "http://support.ubisoft.com/en-US/faqs/30318/World-Dance-Floor-PS4-PS3-XB1-XB360-Wii-WiiU-Switch-JD2018/"
+     ]
+    }
+   ],
+   "title": "Just Dance",
+   "wiki_link": "Just Dance (video game series)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://www.psu.com/news/kabounce-ps4-beta-multiplayer-pinball-game/"
+     ]
+    }
+   ],
+   "title": "Kabounce",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Killer Instinct",
+   "wiki_link": "Killer Instinct (2013 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.youtube.com/watch?v=q_wkvxqWwzc"
+     ]
+    }
+   ],
+   "title": "Killer Queen Black",
+   "wiki_link": "Killer Queen (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://www.snk-corp.co.jp/us/press/2018/020901/"
+     ]
+    }
+   ],
+   "title": "The King of Fighters '97 Global Match",
+   "wiki_link": "The King of Fighters '97"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.snk-corp.co.jp/us/press/2023/061301/"
+     ]
+    }
+   ],
+   "title": "The King of Fighters XV",
+   "wiki_link": "The King of Fighters XV"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.pcgamer.com/is-knockout-city-crossplay-cross-platform/"
+     ]
+    }
+   ],
+   "title": "Knockout City",
+   "wiki_link": "Knockout City"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2016/04/19/the-last-blade-2-strikes-ps4-ps-vita-on-may-24/"
+     ]
+    }
+   ],
+   "title": "data-sort-value=\"Last Blade\"| The Last Blade 2",
+   "wiki_link": "The Last Blade 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://legoparty.com/faq"
+     ]
+    }
+   ],
+   "title": "Lego Party",
+   "wiki_link": "Lego Party"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Lethal League Blaze",
+   "wiki_link": "Lethal League"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "LevelHead",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://www.prnewswire.com/news-releases/playfusion-lightseekers-is-storming-onto-the-nintendo-switch-805472290.html"
+     ]
+    }
+   ],
+   "title": "Lightseekers",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Games for Windows Live",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "x360": "yes"
+     },
+     "refs": [
+      "https://arstechnica.com/gaming/2008/03/lost-planet-colonies-edition-features-cross-platform-multiplayer/"
+     ]
+    }
+   ],
+   "title": "Lost Planet: Extreme Condition Colonies Edition",
+   "wiki_link": "Lost Planet: Extreme Condition Colonies Edition"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "wiiu": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2015/04/29/pc-game-got-cross-platform-multiplayer-wii-u/"
+     ]
+    }
+   ],
+   "title": "Lucadian Chronicles",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.ea.com/games/madden-nfl/madden-nfl-24/cross-play"
+     ]
+    }
+   ],
+   "title": "Madden NFL 24",
+   "wiki_link": "Madden NFL 24"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://wccftech.com/mantis-burn-racing-update-ps4xopc-crossplay/"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Mantis Burn Racing",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.maxi-geek.com/con/matchpoint-tennis-championships-dates-it-switch-release-and-talks-up-cross-play"
+     ]
+    }
+   ],
+   "title": "Matchpoint: Tennis Championships",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.thegamer.com/mechwarrior-5-crossplay-update/"
+     ]
+    }
+   ],
+   "title": "MechWarrior 5",
+   "wiki_link": "MechWarrior 5"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "switch": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://nintendoeverything.com/mecho-wars-desert-ashes-heading-to-switch-this-month-with-ps-vita-cross-platform-play/"
+     ]
+    }
+   ],
+   "title": "Mecho Wars: Desert Ashes",
+   "wiki_link": "Mecho Wars"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2015/03/24/metal-slug-3-out-today-on-ps4-ps3-ps-vita/"
+     ]
+    }
+   ],
+   "title": "Metal Slug 3",
+   "wiki_link": "Metal Slug 3"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "http://www.xboxachievements.com/news/news-33159-Microsoft-Flight-Simulator-To-Feature-Cross-Platform-Support-for-Xbox-One-and-PC.html"
+     ]
+    }
+   ],
+   "title": "Microsoft Flight Simulator (2020)",
+   "wiki_link": "Microsoft Flight Simulator (2020 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://mindustrygame.github.io/"
+     ]
+    }
+   ],
+   "title": "Mindustry",
+   "wiki_link": "Mindustry"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "http://help.minecraft.net/hc/en-us/articles/360034753992-Different-Minecraft-Editions"
+     ]
+    }
+   ],
+   "title": "Minecraft: Java Edition",
+   "wiki_link": "Minecraft"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Minecraft: Bedrock Edition",
+   "wiki_link": "Minecraft"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xcloud": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.minecraft.net/en-us/article/cross-platform-play-comes-minecraft-dungeons"
+     ]
+    }
+   ],
+   "title": "Minecraft Dungeons",
+   "wiki_link": "Minecraft Dungeons"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "winphone": "yes"
+     },
+     "refs": [
+      "https://www.minetest.net/"
+     ]
+    }
+   ],
+   "title": "Luanti (Formally Minetest)",
+   "wiki_link": "Minetest"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Mobius Final Fantasy",
+   "wiki_link": "Mobius Final Fantasy"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "3ds": "yes",
+      "wiiu": "yes"
+     },
+     "refs": [
+      "http://www.nintendolife.com/news/2012/09/capcom_explains_wii_u_and_3ds_cross_play_in_monster_hunter_3_ultimate"
+     ]
+    }
+   ],
+   "title": "Monster Hunter 3 Ultimate",
+   "wiki_link": "Monster Hunter 3 Ultimate"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "3ds": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2017/05/26/monster-hunter-xx-releases-august-25-switch-japan-supports-online-cross-play-3ds/"
+     ]
+    }
+   ],
+   "title": "Monster Hunter Generations Ultimate",
+   "wiki_link": "Monster Hunter Generations Ultimate"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://twitter.com/themonstertrain/status/1338940536141590528"
+     ]
+    }
+   ],
+   "title": "Monster Train",
+   "wiki_link": "Monster Train"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://store.steampowered.com/app/948960/Morphies_Law/"
+     ]
+    }
+   ],
+   "title": "Morphies Law",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.ign.com/articles/2019/12/12/mortal-kombat-11-adds-crossplay-in-latest-patch"
+     ]
+    }
+   ],
+   "title": "Mortal Kombat 11",
+   "wiki_link": "Mortal Kombat 11"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://mortalkombatgamessupport.wbgames.com/hc/en-us/articles/23618817821203-Mortal-Kombat-1-Krossplay-Kross-Progression-FAQ"
+     ]
+    }
+   ],
+   "title": "Mortal Kombat 1",
+   "wiki_link": "Mortal Kombat 1"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://multiversus.com/faq"
+     ]
+    }
+   ],
+   "title": "MultiVersus",
+   "wiki_link": "MultiVersus"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://steamcommunity.com/app/457730/discussions/0/1728701877512497776/"
+     ]
+    }
+   ],
+   "title": "Mushroom Wars 2",
+   "wiki_link": "Mushroom Wars 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://www.destructoid.com/natural-doctrine-will-have-cross-play-cross-save-on-ps4-ps3-and-vita-274952.phtml"
+     ]
+    }
+   ],
+   "title": "Natural Doctrine",
+   "wiki_link": "Natural Doctrine"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "NBA 2K Playgrounds 2",
+   "wiki_link": "NBA 2K Playgrounds 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://web.archive.org/web/20230727131133/https://www.ign.com/articles/nickelodeon-all-star-brawl-2-announced-for-nintendo-switch-playstation-xbox-and-pc",
+      "https://www.ign.com/articles/nickelodeon-all-star-brawl-2-announced-for-nintendo-switch-playstation-xbox-and-pc"
+     ]
+    }
+   ],
+   "title": "Nickelodeon All-Star Brawl 2",
+   "wiki_link": "Nickelodeon All-Star Brawl 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2014/11/12/nidhogg-arrives-ps4-ps-vita-today/"
+     ]
+    }
+   ],
+   "title": "Nidhogg",
+   "wiki_link": "Nidhogg (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.ign.com/articles/need-for-speed-heat-cross-play-to-be-added-in-games-final-update-first-ea-game-to-do-so"
+     ]
+    }
+   ],
+   "title": "Need for Speed Heat",
+   "wiki_link": "Need for Speed Heat"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.polygon.com/2020/10/5/21502305/need-for-speed-hot-pursuit-remastered-release-date-ps4-xbox-one-nintendo-switch-pc-criterion-stellar"
+     ]
+    }
+   ],
+   "title": "Need for Speed: Hot Pursuit Remastered",
+   "wiki_link": "Need for Speed: Hot Pursuit (2010 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.newsweek.com/neverwinter-nights-enhanced-edition-nintendo-switch-includes-crossplay-pc-dungeon-masters-1442108"
+     ]
+    }
+   ],
+   "title": "Neverwinter Nights: Enhanced Edition",
+   "wiki_link": "Neverwinter Nights: Enhanced Edition"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Next Up Hero",
+   "wiki_link": "Next Up Hero"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2015/12/10/nitroplus-blasterz-heroines-infinite-duel-will-offer-free-senran-kagura-and-arcana-heart-dlc-at-launch/"
+     ]
+    }
+   ],
+   "title": "Nitroplus Blasterz: Heroines Infinite Duel",
+   "wiki_link": "Nitroplus Blasterz: Heroines Infinite Duel"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.gog.com/en/news/crossplay_in_no_mans_sky_enabled",
+      "https://www.nomanssky.com/2020/06/introducing-crossplay-for-no-mans-sky/"
+     ]
+    }
+   ],
+   "title": "No Man's Sky",
+   "wiki_link": "No Man's Sky"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "http://crossplay.onigiri.cyberstep.com/"
+     ]
+    }
+   ],
+   "title": "Onigiri",
+   "wiki_link": "Onigiri (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "http://operation-tango.com/operation-tango/faq/"
+     ]
+    }
+   ],
+   "title": "Operation: Tango",
+   "wiki_link": "Operation: Tango"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "partial",
+      "mac": "partial",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://team17.helpshift.com/hc/en/4-overcooked-franchise/faq/86-overcooked-2-crossplay/"
+     ]
+    }
+   ],
+   "title": "Overcooked 2",
+   "wiki_link": "Overcooked 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.team17.com/overcooked-all-you-can-eat-faq/"
+     ]
+    }
+   ],
+   "title": "Overcooked: All You Can Eat",
+   "wiki_link": "Overcooked"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://steamcommunity.com/app/448850/discussions/0/1698293703769706178/"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Overload",
+   "wiki_link": "Overload (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.pcgamesn.com/overwatch-2/crossplay-cross-progression"
+     ]
+    }
+   ],
+   "title": "Overwatch 2",
+   "wiki_link": "Overwatch 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.rockpapershotgun.com/2018/11/16/cross-platform-play-coming-to-paladins-realm-royale-and-smite/"
+     ]
+    }
+   ],
+   "title": "Paladins",
+   "wiki_link": "Paladins (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://mixed-news.com/en/pavlov-vr-update-brings-crossplay-with-playstation-vr-2/"
+     ]
+    }
+   ],
+   "title": "Pavlov VR",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "vita": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "http://www.digitalspy.com/gaming/news/a663750/phantasy-star-online-2-coming-to-playstation-4-in-2016/"
+     ]
+    }
+   ],
+   "title": "Phantasy Star Online 2",
+   "wiki_link": "Phantasy Star Online 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.vg247.com/2017/05/16/phantom-dust-pc-xbox-one-free/"
+     ]
+    }
+   ],
+   "title": "Phantom Dust",
+   "wiki_link": "Phantom Dust"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://blog.zenstudios.com/?p=7191"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "http://www.eurogamer.net/articles/2017-11-02-pinball-fx3-hits-nintendo-switch-later-this-month",
+      "http://www.pinballfx.com/?page_id=7565"
+     ]
+    }
+   ],
+   "title": "Pinball FX 3",
+   "wiki_link": "Pinball FX 3"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2014/03/05/pixeljunk-shooter-ultimate-coming-to-ps4-ps-vita-this-summer/"
+     ]
+    }
+   ],
+   "title": "PixelJunk Shooter Ultimate",
+   "wiki_link": "PixelJunk Shooter"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.engadget.com/2019/08/19/pubg-console-crossplay-ps4-xbox-one/"
+     ]
+    }
+   ],
+   "title": "PUBG: Battlegrounds",
+   "wiki_link": "PUBG: Battlegrounds"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://www.polygon.com/gaming/2012/6/4/3064313/playstation-all-stars-coming-to-vita-will-support-cross-play-with-ps3"
+     ]
+    }
+   ],
+   "title": "PlayStation All-Stars Battle Royale",
+   "wiki_link": "PlayStation All-Stars Battle Royale"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "switch": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Pokémon Unite",
+   "wiki_link": "Pokémon Unite"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.destructoid.com/power-rangers-morphs-to-add-cross-play-between-all-four-platforms-579870.phtml",
+      "https://www.eventhubs.com/news/2019/jan/23/power-rangers-battle-grid-will-not-have-cross-platform-play-enabled-playstation-4/"
+     ]
+    }
+   ],
+   "title": "Power Rangers: Battle for the Grid",
+   "wiki_link": "Power Rangers: Battle for the Grid"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Project Winter",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2017/05/10/card-based-strategy-game-pox-nora-hits-ps4-on-23rd-may/"
+     ]
+    }
+   ],
+   "title": "Pox Nora",
+   "wiki_link": "Pox Nora"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "3ds": "yes",
+      "pc": "yes",
+      "wiiu": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Pure Chess",
+   "wiki_link": "Pure Chess"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.destructoid.com/quake-remaster-out-now-announcement/",
+      "https://www.pcgamer.com/quake-remake-available/"
+     ]
+    }
+   ],
+   "title": "Quake",
+   "wiki_link": "Quake (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://help.bethesda.net/#en/answer/61244"
+     ]
+    }
+   ],
+   "title": "Quake II",
+   "wiki_link": "Quake II"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2013/10/24/ragnarok-odyssey-ace-coming-to-ps3-and-vita-in-2014/"
+     ]
+    }
+   ],
+   "title": "Ragnarok Odyssey Ace",
+   "wiki_link": "Ragnarok Odyssey Ace"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2012/10/26/ratchet-clank-full-frontal-assault-out-1127-for-19-99/"
+     ]
+    }
+   ],
+   "title": "Ratchet & Clank: Full Frontal Assault",
+   "wiki_link": "Ratchet & Clank: Full Frontal Assault"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://gematsu.com/2019/08/readyset-heroes-launches-october-1"
+     ]
+    }
+   ],
+   "title": "ReadySet Heroes",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Realm Royale",
+   "wiki_link": "Realm Royale"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "quest": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://uploadvr.com/rec-room-coming-psvr-cross-platform-play/"
+     ]
+    }
+   ],
+   "title": "Rec Room",
+   "wiki_link": "Rec Room (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Remnant: From the Ashes",
+   "wiki_link": "Remnant: From the Ashes"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Remnant 2",
+   "wiki_link": "Remnant 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://twitter.com/vectorunit/status/938818977958121474"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.microsoft.com/en-us/p/riptide-gp-renegade/9nblggh68lsx"
+     ]
+    }
+   ],
+   "title": "Riptide GP: Renegade",
+   "wiki_link": "Riptide GP: Renegade"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.eurogamer.net/articles/2016-02-24-forecast-calls-for-risk-of-rain-on-ps4-and-vita"
+     ]
+    }
+   ],
+   "title": "Risk of Rain",
+   "wiki_link": "Risk of Rain"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://www.gamewatcher.com/news/risk-global-domination-steam-online-functionality"
+     ]
+    }
+   ],
+   "title": "Risk (SMG Studio)",
+   "wiki_link": "Risk (game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Roblox",
+   "wiki_link": "Roblox"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.eurogamer.net/articles/2020-06-19-ea-published-rocket-arena-arrives-next-month"
+     ]
+    }
+   ],
+   "title": "Rocket Arena",
+   "wiki_link": "Rocket Arena (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "geforcenow": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.rocketleague.com/news/full-cross-platform-play-now-live-in-rocket-league/"
+     ]
+    }
+   ],
+   "title": "Rocket League",
+   "wiki_link": "Rocket League"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "geforcenow": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.roguecompany.com/linking-faq"
+     ]
+    }
+   ],
+   "title": "Rogue Company",
+   "wiki_link": "Rogue Company"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2017/09/11/samurai-shodown-v-special-out-tomorrow-on-ps4-ps-vita/"
+     ]
+    }
+   ],
+   "title": "Samurai Shodown V Special",
+   "wiki_link": "Samurai Shodown V"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.seaofthieves.com/news/sea-of-thieves-ps5",
+      "https://www.thelostgamer.com/sea-of-thieves-cross-platform/"
+     ]
+    }
+   ],
+   "title": "Sea of Thieves",
+   "wiki_link": "Sea of Thieves"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Games for Windows Live"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "x360": "yes"
+     },
+     "refs": [
+      "https://www.engadget.com/2007/05/09/shadowrun-lands-on-xbox-and-windows-may-29th/"
+     ]
+    }
+   ],
+   "title": "Shadowrun",
+   "wiki_link": "Shadowrun (2007 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Shadowverse",
+   "wiki_link": "Shadowverse"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Sid Meier's Civilization V",
+   "wiki_link": "Sid Meier's Civilization V"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": []
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "http://www.nintendolife.com/news/2018/09/action-strategy_game_siegecraft_commander_is_hurtling_towards_a_september_switch_release"
+     ]
+    }
+   ],
+   "title": "Siegecraft Commander",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.eurogamer.net/articles/2015-04-30-skullgirls-2nd-encore-headed-to-ps4-vita-with-new-features"
+     ]
+    }
+   ],
+   "title": "Skullgirls: 2nd Encore",
+   "wiki_link": "Skullgirls: 2nd Encore"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2017/11/27/arcade-distillery-details-upcoming-titles-skullpirates-war-theatre-manufactured-beauty/"
+     ]
+    }
+   ],
+   "title": "SkullPirates",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "switch": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Sky: Children of the Light",
+   "wiki_link": "Sky_(video_game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.smitegame.com/news/developer-update-macos-support-for-smite/"
+     ]
+    }
+   ],
+   "title": "Smite",
+   "wiki_link": "Smite (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.windowscentral.com/sniper-elite-v2-supports-xbox-play-anywhere"
+     ]
+    }
+   ],
+   "title": "Sniper Elite V2 Remastered",
+   "wiki_link": "Sniper Elite V2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://racinggames.gg/misc/is-snowrunner-cross-platform-multiplayer-ps4-xbox-one-pc-epic-games/"
+     ]
+    }
+   ],
+   "title": "SnowRunner",
+   "wiki_link": "SnowRunner"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "switch2": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Sonic Racing: CrossWorlds",
+   "wiki_link": "Sonic Racing: CrossWorlds"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://web.archive.org/web/20190911224117/https://www.gamasutra.com/view/pressreleases/350515/Spacelords_One_of_the_Very_First_Games_to_feature_Full_CrossPlay.php"
+     ]
+    }
+   ],
+   "title": "Spacelords",
+   "wiki_link": "Spacelords"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes"
+     },
+     "refs": [
+      "https://news.ubisoft.com/en-us/article/345916/space-junkies-open-beta-starts-march-21"
+     ]
+    }
+   ],
+   "title": "Space Junkies",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.eurogamer.net/articles/2013-08-09-spelunky-on-vita-lets-you-move-freely-in-co-op"
+     ]
+    }
+   ],
+   "title": "Spelunky",
+   "wiki_link": "Spelunky"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://crossplaygames.com/games/spelunky-2"
+     ]
+    }
+   ],
+   "title": "Spelunky 2",
+   "wiki_link": "Spelunky 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://go.playspellbreak.com/blog/2020/9/3/spellbreak-official-launch-release-notes"
+     ]
+    }
+   ],
+   "title": "Spellbreak",
+   "wiki_link": "Spellbreak"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://gamerant.com/splitgate-crossplay/"
+     ]
+    }
+   ],
+   "title": "Splitgate",
+   "wiki_link": "Splitgate"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://www.vrfocus.com/2017/09/sports-bar-vr-adds-pcplaystation-4-cross-play-new-mini-games-and-more/"
+     ]
+    }
+   ],
+   "title": "Sports Bar VR",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "StarCraft II",
+   "wiki_link": "StarCraft II"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Star Trek: Bridge Crew",
+   "wiki_link": "Star Trek: Bridge Crew"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "switch": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Star Wars: Hunters",
+   "wiki_link": "Star Wars: Hunters"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.ign.com/articles/star-wars-squadrons-release-date-details-trailer-multiplayer"
+     ]
+    }
+   ],
+   "title": "Star Wars: Squadrons",
+   "wiki_link": "Star Wars: Squadrons"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "State of Decay 2",
+   "wiki_link": "State of Decay 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://www.theverge.com/2014/12/6/7345275/street-fighter-v-will-support-cross-platform-play-between-pc-and-ps4"
+     ]
+    }
+   ],
+   "title": "Street Fighter V",
+   "wiki_link": "Street Fighter V"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.gematsu.com/2022/06/street-fighter-6-supports-rollback-netcode-cross-play"
+     ]
+    }
+   ],
+   "title": "Street Fighter 6",
+   "wiki_link": "Street Fighter 6"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://www.polygon.com/gaming/2012/4/10/2924630/new-characters-and-cross-platform-matching-for-street-fighter-x"
+     ]
+    }
+   ],
+   "title": "Street Fighter X Tekken",
+   "wiki_link": "Street Fighter X Tekken"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Streets of Rage 4",
+   "wiki_link": "Streets of Rage 4"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2016/02/25/multiplayer-twin-stick-shooter-square-heroes-hits-ps4-next-month/"
+     ]
+    }
+   ],
+   "title": "Square Heroes",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Super Animal Royale",
+   "wiki_link": "Super Animal Royale"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://www.hardcoregamer.com/2015/03/13/castle-crashers-meets-diablo-in-super-dungeon-bros/138883/"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Super Dungeon Bros",
+   "wiki_link": "Super Dungeon Bros"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2014/09/19/closer-look-super-exploding-zoo-new-game-hohokum-team/"
+     ]
+    }
+   ],
+   "title": "Super Exploding Zoo",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.polygon.com/2019/9/5/20850947/super-mega-baseball-2-cross-platform-play-ps4-xbox-one-nintendo-switch-pc"
+     ]
+    }
+   ],
+   "title": "Super Mega Baseball 2",
+   "wiki_link": "Super Mega Baseball"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Surviv.io",
+   "wiki_link": "Surviv.io"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2014/05/14/switch-galaxy-ultra-races-ps4-ps-vita-soon/"
+     ]
+    }
+   ],
+   "title": "Switch Galaxy Ultra",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://web.archive.org/web/20200316165142/https://gamasutra.com/view/pressreleases/359309/TALISMAN_DIGITAL_EDITION_LAUNCHES_ON_NINTENDO_SWITCH.php"
+     ]
+    }
+   ],
+   "title": "Talisman: Digital Edition",
+   "wiki_link": "Talisman (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://store.steampowered.com/news/app/633460/view/2927867089346936196"
+     ]
+    }
+   ],
+   "title": "Tannenberg",
+   "wiki_link": "Tannenberg (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://gamerant.com/tekken-8-how-to-enable-disable-crossplay-guide-cross-platform/#:~:text=Crossplay%20Guide"
+     ]
+    }
+   ],
+   "title": "Tekken 8",
+   "wiki_link": "Tekken 8"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.purexbox.com/news/2022/06/tmnt-shredders-revenge-cross-play-is-exclusive-to-xbox-and-pc"
+     ]
+    }
+   ],
+   "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+   "wiki_link": "Teenage Mutant Ninja Turtles: Shredder's Revenge"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://blog.us.playstation.com/2014/11/06/terraria-comes-to-ps4-tuesday-bigger-world-new-items-cross-play/"
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": []
+    },
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes"
+     },
+     "refs": []
+    },
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "x360": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Terraria",
+   "wiki_link": "Terraria"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "quest": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Tetris Effect",
+   "wiki_link": "Tetris Effect"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes"
+     },
+     "refs": [
+      "https://asmodee.helpshift.com/hc/en/3-ticket-to-ride/faq/430-does-ticket-to-ride-have-a-cross-platform-option/T\"cross-platform\""
+     ]
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://asmodee.helpshift.com/hc/en/3-ticket-to-ride/faq/430-does-ticket-to-ride-have-a-cross-platform-option/"
+     ]
+    }
+   ],
+   "title": "Ticket to Ride",
+   "wiki_link": "Ticket to Ride (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://www.totalwar.com/blog/total-war-warhammer-iii-faq/"
+     ]
+    }
+   ],
+   "title": "Total War: Warhammer III",
+   "wiki_link": "Total War: Warhammer III"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://web.archive.org/web/20200809153421/https://www.gamasutra.com/view/pressreleases/355622/Touring_Karts_is_out_on_PlayStation_4_and_PlayStation_VR.php",
+      "https://www.gamasutra.com/view/pressreleases/355622/Touring_Karts_is_out_on_PlayStation_4_and_PlayStation_VR.php"
+     ]
+    }
+   ],
+   "title": "Touring Karts",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": []
+    },
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://store.steampowered.com/app/621970/Trailblazers/"
+     ]
+    }
+   ],
+   "title": "Trailblazers",
+   "wiki_link": "Trailblazers (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.nintendo.com/whatsnew/detail/nintendo-announces-diverse-lineup-of-nindies-coming-to-nintendo-switch"
+     ]
+    }
+   ],
+   "title": "Treasure Stack",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://www.eurogamer.net/steam-trine-2-has-pc-mac-cross-platform-multiplayer"
+     ]
+    }
+   ],
+   "title": "Trine 2",
+   "wiki_link": "Trine 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "EA app",
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes"
+     },
+     "refs": [
+      "https://steamcommunity.com/app/690640/discussions/0/3060742484835495660/"
+     ]
+    }
+   ],
+   "title": "Trine 4",
+   "wiki_link": "Trine 4"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Tooth and Tail",
+   "wiki_link": "Tooth and Tail"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "GOG",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://www.gog.com/forum/torchlight_series/torchlight_2_corss_platform_multiplayer_gog_and_steam"
+     ]
+    }
+   ],
+   "title": "Torchlight II",
+   "wiki_link": "Torchlight II"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://gematsu.com/2015/09/toukiden-2-announced-ps4-ps3-ps-vita"
+     ]
+    }
+   ],
+   "title": "Toukiden 2",
+   "wiki_link": "Toukiden 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://gematsu.com/2015/01/toukiden-kiwami-coming-ps4-ps-vita-march"
+     ]
+    }
+   ],
+   "title": "Toukiden: Kiwami",
+   "wiki_link": "Toukiden: Kiwami"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://www.cleverendeavourgames.com/aco-update"
+     ]
+    }
+   ],
+   "title": "Ultimate Chicken Horse",
+   "wiki_link": "Ultimate Chicken Horse"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://gematsu.com/2017/04/night-birth-exelatest-announced-ps4-ps3-ps-vita"
+     ]
+    }
+   ],
+   "title": "Under Night In-Birth EXE:Late[st]",
+   "wiki_link": "Under Night In-Birth"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Games for Windows Live",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "x360": "yes"
+     },
+     "refs": [
+      "http://www.gamesindustry.biz/articles/universe-at-war-earth-assault-to-support-microsofts-games-for-windows-live"
+     ]
+    }
+   ],
+   "title": "Universe at War: Earth Assault",
+   "wiki_link": "Universe at War: Earth Assault"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://unrailed-wiki.com/page/FAQ#Can_I_play_across_Xbox_One.2C_PlayStation_4.2C_Nintendo_Switch_and_PC_.28Cross_Play_.2F_Cross_platform.29.3F"
+     ]
+    }
+   ],
+   "title": "Unrailed!",
+   "wiki_link": "Unrailed!"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://web.archive.org/web/20180809090948/https://www.vainglorygame.com/crossplatform/",
+      "https://www.vainglorygame.com/crossplatform/"
+     ]
+    }
+   ],
+   "title": "Vainglory",
+   "wiki_link": "Vainglory (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.psu.com/news/wwi-verdun-and-wwi-tannenberg-expand-with-cross-play-for-ps4-and-ps5/"
+     ]
+    }
+   ],
+   "title": "Verdun",
+   "wiki_link": "Verdun (video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Villagers & Heroes",
+   "wiki_link": "Villagers & Heroes"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://gonintendo.com/stories/327103-wargroove-to-support-cross-platform-play-between-switch-pc-and"
+     ]
+    }
+   ],
+   "title": "Wargroove",
+   "wiki_link": "Wargroove"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://www.pcgamer.com/warhammer-age-of-sigmar-champions-is-coming-to-steam-in-february/"
+     ]
+    }
+   ],
+   "title": "Warhammer Age of Sigmar: Champions",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://www.polygon.com/2014/5/23/5744246/warriors-orochi-3-ultimate-hits-ps3-ps4-vita-xbox-one-this-fall"
+     ]
+    }
+   ],
+   "title": "Warriors Orochi 3 Ultimate",
+   "wiki_link": "Warriors Orochi 3 Ultimate"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://warthunder.com/en/news/2608--en"
+     ]
+    }
+   ],
+   "title": "War Thunder",
+   "wiki_link": "War Thunder"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "winphone": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Warspear",
+   "wiki_link": "Warspear Online"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "geforcenow": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Warface",
+   "wiki_link": "Warface"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "http://gematsu.com/2014/11/mmorpg-weapons-mythology-coming-ps4"
+     ]
+    }
+   ],
+   "title": "Weapons of Mythology: New Age",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Werewolves Within",
+   "wiki_link": "Werewolves Within"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://www.engadget.com/2012/05/28/when-vikings-attack-brings-cel-shaded-crowd-control-to-ps3-and-v/"
+     ]
+    }
+   ],
+   "title": "When Vikings Attack!",
+   "wiki_link": "When Vikings Attack!"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://support.dreamhaven.com/hc/en-us/articles/49915127597595-Wildgate-Gameplay-Overview-FAQ#h_01K0FMPFVP6J47B5VWH56DY8DV"
+     ]
+    }
+   ],
+   "title": "Wildgate",
+   "wiki_link": "Wildgate"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "switch": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "https://culturedvultures.com/windjammers-2-cross-play-explained",
+      "https://www.nintendolife.com/news/2023/10/windjammers-2-free-dlc-update-brings-crossplay-new-characters-and-more"
+     ]
+    }
+   ],
+   "title": "Windjammers 2",
+   "wiki_link": "Windjammers 2"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://store.steampowered.com/news/app/326410/view/4042499938190934949"
+     ]
+    }
+   ],
+   "title": "Windward",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Wipeout 2048",
+   "wiki_link": "Wipeout 2048"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Wipeout HD",
+   "wiki_link": "Wipeout HD"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "World of Tanks",
+   "wiki_link": "World of Tanks"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Battle.net"
+     ],
+     "platforms": {
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "World of Warcraft",
+   "wiki_link": "World of Warcraft"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.dualshockers.com/world-of-warships-legends-cross-play-details/"
+     ]
+    }
+   ],
+   "title": "World of Warships: Legends",
+   "wiki_link": "World of Warships"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://forums.focus-home.com/topic/43280/the-horde-mode-z-update-is-live"
+     ]
+    }
+   ],
+   "title": "World War Z",
+   "wiki_link": "World War Z (2019 video game)"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.team17.com/worms-rumble-new-arena-and-out-now-on-nintendo-switch-xbox-epic/"
+     ]
+    }
+   ],
+   "title": "Worms Rumble",
+   "wiki_link": "Worms Rumble"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://www.gamingonlinux.com/articles/worms-wmd-has-enabled-cross-platform-multiplayer-in-the-latest-patch.8904/"
+     ]
+    }
+   ],
+   "title": "Worms W.M.D",
+   "wiki_link": "Worms W.M.D"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://hitechglitz.com/is-wwe-2k-battlegrounds-crossplay-between-ps4-xbox-one-and-pc-hitc/"
+     ]
+    }
+   ],
+   "title": "WWE 2K Battlegrounds",
+   "wiki_link": "WWE 2K Battlegrounds"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://gematsu.com/2013/09/yakuza-ishin-another-life-cross-play-and-more-revealed"
+     ]
+    }
+   ],
+   "title": "Ryū ga Gotoku Ishin!",
+   "wiki_link": "Ryū ga Gotoku Ishin!"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Yu-Gi-Oh! Duel Links",
+   "wiki_link": "Yu-Gi-Oh! Duel Links"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.gematsu.com/2021/12/yu-gi-oh-master-duel-overview-trailer"
+     ]
+    }
+   ],
+   "title": "Yu-Gi-Oh! Master Duel",
+   "wiki_link": "Yu-Gi-Oh! Master Duel"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Zaccaria Pinball",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://news.xbox.com/en-us/2017/10/20/zoo-tycoon-ultimate-animal-collection-qa/"
+     ]
+    }
+   ],
+   "title": "Zoo Tycoon: Ultimate Animal Collection",
+   "wiki_link": null
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Epic",
+      "Steam",
+      "Xbox app"
+     ],
+     "platforms": {
+      "pc": "yes"
+     },
+     "refs": [
+      "https://zombiearmy.com/en/news/2338"
+     ]
+    }
+   ],
+   "title": "Zombie Army 4: Dead War",
+   "wiki_link": "Zombie Army 4: Dead War"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps3": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "https://blog.eu.playstation.com/2013/03/05/zombie-tycoon-2-brainhovs-revenge-invading-ps3-and-ps-vita-soon/"
+     ]
+    }
+   ],
+   "title": "Zombie Tycoon 2",
+   "wiki_link": "Zombie Tycoon"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "dreamcast": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "4x4 Evolution",
+   "wiki_link": "4x4 Evolution"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "dreamcast": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://game.watch.impress.co.jp/docs/20010702/cri.htm"
+     ]
+    }
+   ],
+   "title": "Aero Dancing i",
+   "wiki_link": "Aero Dancing i"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "dreamcast": "yes",
+      "ps2": "yes"
+     },
+     "refs": [
+      "https://game.watch.impress.co.jp/docs/20010712/capcom.htm"
+     ]
+    }
+   ],
+   "title": "Capcom vs. SNK 2: Millionaire Fighting 2001",
+   "wiki_link": "Capcom vs. SNK 2: Mark of the Millennium 2001"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "android": "yes",
+      "ios": "yes",
+      "pc": "yes",
+      "switch": "yes"
+     },
+     "refs": [
+      "https://store.steampowered.com/app/911260/Dawn_of_the_Breakers/"
+     ]
+    }
+   ],
+   "title": "Dawn of the Breakers",
+   "wiki_link": null
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes"
+     },
+     "refs": [
+      "http://wccftech.com/dead-star-features-pcps4-cross-play-coming-to-steam-early-access-on-december-14/"
+     ]
+    }
+   ],
+   "title": "Dead Star",
+   "wiki_link": null
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps3": "yes"
+     },
+     "refs": [
+      "https://www.polygon.com/2013/1/9/3854522/eve-online-and-dust-514-merging-servers-tomorrow-for-a-single-cross"
+     ]
+    }
+   ],
+   "title": "Dust 514",
+   "wiki_link": "Dust 514"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps3": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Eve Online",
+   "wiki_link": "Eve Online"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps2": "yes",
+      "x360": "yes"
+     },
+     "refs": [
+      "http://ign.com/articles/2004/01/07/final-fantasy-xi-hits-subscriber-milestone"
+     ]
+    }
+   ],
+   "title": "Final Fantasy XI",
+   "wiki_link": "Final Fantasy XI"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "xone": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Gigantic",
+   "wiki_link": "Gigantic (video game)"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "ps4": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "https://www.huntshowdown.com/news/hunt-showdown-to-sunset-on-ps4-xbox-one-from-15th-of-august/"
+     ]
+    }
+   ],
+   "title": "Hunt: Showdown",
+   "wiki_link": "Hunt: Showdown"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "psp": "yes",
+      "vita": "yes"
+     },
+     "refs": [
+      "http://www.siliconera.com/2012/08/09/the-little-battlers-w-is-the-first-game-to-support-vita-vs-psp-multiplayer/"
+     ]
+    }
+   ],
+   "title": "Little Battlers eXperience W",
+   "wiki_link": "Little Battlers eXperience W"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps2": "yes"
+     },
+     "refs": [
+      "http://www.eurogamer.net/articles/news150903eaonline"
+     ]
+    }
+   ],
+   "title": "Need for Speed: Underground",
+   "wiki_link": "Need for Speed: Underground"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Overwatch Classic",
+   "wiki_link": "Overwatch Classic"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes"
+     },
+     "refs": [
+      "https://venturebeat.com/2017/04/13/how-epic-built-a-player-base-of-nearly-1-million-paragon-players/"
+     ]
+    }
+   ],
+   "title": "Paragon",
+   "wiki_link": "Paragon (video game)"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "dreamcast": "yes",
+      "mac": "yes",
+      "pc": "yes"
+     },
+     "refs": []
+    }
+   ],
+   "title": "Phantasy Star Online",
+   "wiki_link": "Phantasy Star Online"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps2": "yes"
+     },
+     "refs": [
+      "https://www.videogamer.com/news/xbox-360-phantasy-star-gets-no-cross-platform-play"
+     ]
+    }
+   ],
+   "title": "Phantasy Star Universe",
+   "wiki_link": "Phantasy Star Universe"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "linux": "yes",
+      "mac": "yes",
+      "pc": "yes",
+      "ps3": "yes"
+     },
+     "refs": [
+      "https://www.playstationtrophies.org/forum/topic/300749-platinum-unobtainable-servers-shutdown-22052018/"
+     ]
+    }
+   ],
+   "title": "Portal 2",
+   "wiki_link": "Portal 2"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "dreamcast": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://www.giantbomb.com/quake-iii-arena/3030-3874/"
+     ]
+    }
+   ],
+   "title": "Quake III Arena",
+   "wiki_link": "Quake III Arena"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "dreamcast": "yes",
+      "pc": "yes"
+     },
+     "refs": [
+      "https://www.giantbomb.com/sega-swirl/3030-3722/"
+     ]
+    }
+   ],
+   "title": "Sega Swirl",
+   "wiki_link": "Sega Swirl"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes"
+     },
+     "refs": [
+      "https://www.playsparc.com/"
+     ]
+    }
+   ],
+   "title": "Sparc",
+   "wiki_link": null
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "stadia": "yes",
+      "switch": "yes",
+      "xone": "yes"
+     },
+     "refs": [
+      "https://gamepur.com/guides/does-super-bomberman-r-online-have-cross-play"
+     ]
+    }
+   ],
+   "title": "Super Bomberman R Online",
+   "wiki_link": "Super Bomberman R#Super Bomberman R Online"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "x360": "yes"
+     },
+     "refs": [
+      "https://query.nytimes.com/gst/fullpage.html?res=940CE6DA1131F937A25750C0A9619C8B63"
+     ]
+    }
+   ],
+   "title": "Uno",
+   "wiki_link": "Uno (video game)"
+  },
+  {
+   "discontinued": true,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [],
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes"
+     },
+     "refs": [
+      "https://twitter.com/Wayofredemption/status/955843986115133441"
+     ]
+    }
+   ],
+   "title": "Way of Redemption",
+   "wiki_link": null
+  }
+ ],
+ "source": "https://en.wikipedia.org/wiki/List_of_video_games_that_support_cross-platform_play"
+}

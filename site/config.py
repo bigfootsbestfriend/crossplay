@@ -1,0 +1,25 @@
+"""Site settings. Change the name or attach a domain here; everything else follows."""
+
+SITE_NAME = "Crossplay Guide"
+TAGLINE = "Can you play together? Crossplay checks for every platform."
+
+# Leave DOMAIN empty for the GitHub Pages preview. Once a domain is bought and pointed at
+# GitHub Pages, set it (e.g. "crossplayguide.com"): links drop the /crossplay prefix and a
+# CNAME file is written.
+DOMAIN = ""
+PREVIEW_URL = "https://bigfootsbestfriend.github.io/crossplay"
+
+# Keep False until a person has reviewed the site (Raptive and Google both expect real human
+# oversight). False adds <meta name="robots" content="noindex"> to every page.
+INDEXABLE = False
+
+# Where readers send corrections. Empty = link to GitHub issues instead.
+CONTACT_EMAIL = ""
+
+# Paste Raptive's site script here once the site is approved (it goes in <head>).
+AD_SCRIPT = ""
+
+if DOMAIN:
+    BASE_URL, BASE_PATH = "https://" + DOMAIN, ""
+else:
+    BASE_URL, BASE_PATH = PREVIEW_URL, "/crossplay"
