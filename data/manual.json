@@ -2299,7 +2299,10 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10",
-   "crossprog": "partial"
+   "crossprog": "partial",
+   "progress": [
+    "Xbox and the Microsoft Store/Xbox app version on PC share progress through Xbox Play Anywhere. Steam and PS5 progress stays on those platforms."
+   ]
   },
   {
    "title": "Dying Light",
