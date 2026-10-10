@@ -29,7 +29,8 @@
      "url": "https://insider-gaming.com/7-days-to-die-crossplay-answered/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "A Way Out",
@@ -1920,7 +1921,8 @@
     }
    ],
    "notes": [
-    "Windows, Mac and Linux players can play together. Consoles only play with the same console family."
+    "Steam players on Windows, Mac and Linux play together. Consoles only play within their own family: PS4 with PS5, Xbox One with Series X|S, and Switch on its own. Klei keeps PC and console apart because of mods, events and different update schedules.",
+    "Link your platforms to one Klei account to share character skins, cosmetics and other unlocks between them. Your worlds and saves stay on the platform where you made them."
    ],
    "sources": [
     {
@@ -1930,9 +1932,15 @@
     {
      "title": "Is Don't Starve Together cross-platform? (BerryByte)",
      "url": "https://blog.berrybyte.net/is-dont-starve-together-cross-platform/"
+    },
+    {
+     "title": "Is Don't Starve Together cross-platform? (BerryByte)",
+     "url": "https://blog.berrybyte.net/is-dont-starve-together-cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "partial"
   },
   {
    "title": "Doom Eternal",
@@ -2187,7 +2195,8 @@
      "url": "https://www.sportskeeda.com/esports/is-dying-light-the-beast-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "EA Sports College Football 26",
@@ -5361,7 +5370,8 @@
     }
    ],
    "notes": [
-    "Console versions are in the works: Landfall and Aggro Crab say console players will share matchmaking with the Steam community, but no platforms or date have been announced."
+    "Peak is only on PC through Steam (Steam Deck works too), and you play with Steam friends through invites rather than public matchmaking.",
+    "Console versions are in the works: Landfall and Aggro Crab say console players will play with the Steam community and with each other, but no platforms or date have been announced."
    ],
    "sources": [
     {
@@ -5371,9 +5381,14 @@
     {
      "title": "Is PEAK available on consoles? (Destructoid)",
      "url": "https://www.destructoid.com/is-peak-available-on-consoles/"
+    },
+    {
+     "title": "Does Peak have crossplay? (Insider Gaming)",
+     "url": "https://insider-gaming.com/does-peak-have-crossplay-cross-platform-status-explained/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "PGA Tour 2K25",
@@ -6640,7 +6655,8 @@
      "url": "https://siege.gg/news/splitgate-2-cross-progression"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Star Trek Fleet Command",
@@ -6896,9 +6912,8 @@
   {
    "title": "Tekken 7",
    "igdb_id": null,
-   "crossplay": false,
    "notes": [
-    "Katsuhiro Harada said platform policies, not technology, kept Tekken 7 from having crossplay. Tekken 8 does have crossplay."
+    "Tekken 7 only matches players on the same platform family: PS4 (and PS5 running the PS4 version), Xbox One (and Series X|S), or PC. Katsuhiro Harada said platform policies, not technology, kept it from having crossplay. Tekken 8 was the first Tekken with crossplay (PS5, Xbox Series X|S and PC)."
    ],
    "sources": [
     {
@@ -6910,7 +6925,32 @@
      "url": "https://www.esports.net/news/fighting-games/is-tekken-7-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "crossplay": false
   },
   {
    "title": "Tekken 8",
@@ -7196,7 +7236,8 @@
      "url": "https://id.embark.games/the-finals/support/faq/65-crossplay-in-the-finals"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "The First Descendant",
@@ -7280,7 +7321,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "The Planet Crafter",
@@ -7466,11 +7508,16 @@
     {
      "platforms": {
       "pc": "yes"
-     }
+     },
+     "pc_stores": [
+      "Steam",
+      "EA app",
+      "Xbox app"
+     ]
     }
    ],
    "notes": [
-    "Titanfall 2 never had crossplay; each platform has its own servers."
+    "Titanfall 2 never had crossplay, and Respawn has never planned to add it. PC players on Steam, the EA app and PC Game Pass share one pool; PS4 and PS5 share the PlayStation servers, and Xbox One and Series X|S share the Xbox ones."
    ],
    "sources": [
     {
@@ -7478,7 +7525,9 @@
      "url": "https://esports.gg/news/gaming/is-titanfall-2-cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Tom Clancy's Ghost Recon Wildlands",
