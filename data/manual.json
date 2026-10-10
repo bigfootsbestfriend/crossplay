@@ -651,6 +651,48 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Borderlands 3",
+   "igdb_id": 19164,
+   "audited": "2026-10-10",
+   "crossprog": "partial",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "PC (Steam and Epic), Mac, PS4, PS5, Xbox One and Xbox Series X|S all play together through Gearbox's SHiFT matchmaking. PlayStation joined in June 2022, so older articles saying PlayStation is left out are out of date.",
+    "Crossplay is opt-in: choose Enable Crossplay at launch, sign in with a free SHiFT account and pick a unique crossplay display name.",
+    "The Switch version only plays with other Switch players. Characters stay on the platform where you made them, except that you can move between the Steam and Epic versions on PC."
+   ],
+   "sources": [
+    {
+     "title": "Borderlands 3 crossplay on all platforms (MentalMars)",
+     "url": "https://mentalmars.com/game-news/borderlands-3-cross-platform-details/"
+    },
+    {
+     "title": "Is Borderlands 3 cross-platform? Crossplay explained for PS5, Xbox, and PC (Digital Trends)",
+     "url": "https://www.digitaltrends.com/gaming/borderlands-3-cross-platform/"
+    },
+    {
+     "title": "Borderlands 3 Switch impressions (Destructoid)",
+     "url": "https://www.destructoid.com/borderlands-3-switch-impressions/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Borderlands 4",
    "igdb_id": null,
    "groups": [
@@ -2302,6 +2344,46 @@
     {
      "title": "Fortnite makes grand return to iOS App Store (Pocket Gamer, May 2026)",
      "url": "https://www.pocketgamer.com/fortnite/back-on-the-app-store-may-2026/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Forza Horizon 5",
+   "igdb_id": 141503,
+   "audited": "2026-10-10",
+   "crossprog": "partial",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "ps5": "yes",
+      "xcloud": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "PC (Steam and the Xbox app), Xbox One, Xbox Series X|S and PS5 all play together. The PS5 version launched in April 2025 with crossplay from the start; PS5 players need to link a Microsoft account to play online. Crossplay is on by default and can be turned off.",
+    "Progress only carries over between Xbox and the Xbox app on PC (Xbox Play Anywhere). Steam and PS5 keep their own separate saves, and PS5 can't import a save from another platform."
+   ],
+   "sources": [
+    {
+     "title": "Here's how Forza Horizon 5 PS5 players can race with Xbox folks (Kotaku)",
+     "url": "https://kotaku.com/forza-horizon-5-pc-xbox-ps5-crossplay-cross-save-1851778315"
+    },
+    {
+     "title": "Forza Horizon 5 on PS5 offers full feature parity, except cross-progression (TweakTown)",
+     "url": "https://www.tweaktown.com/news/103808/forza-horizon-5-on-ps5-offers-full-feature-parity-except-for-cross-progression/index.html"
+    },
+    {
+     "title": "Will Forza Horizon 5 have crossplay and cross-progression on PS5? (Prima Games)",
+     "url": "https://primagames.com/tips/forza-horizon-5-have-crossplay-cross-progression-ps5"
     }
    ],
    "checked": "2026-10-10"
@@ -4344,6 +4426,54 @@
     {
      "title": "PUBG Mobile cross-platform (Twinfinite)",
      "url": "https://twinfinite.net/guides/pubg-mobile-cross-platform/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "PUBG: Battlegrounds",
+   "igdb_id": 27789,
+   "crossplay": true,
+   "audited": "2026-10-10",
+   "crossprog": "partial",
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "PlayStation 5 and Xbox Series X|S players share one console matchmaking pool. PC (Steam and Epic) is separate: Krafton keeps PC and console apart because of mouse-and-keyboard aim and anti-cheat differences.",
+    "PS4 and Xbox One support ended on November 13, 2025. Account data and purchases stay with your account, so log in on a PS5 or Xbox Series X|S to keep playing (Xbox gets the new version through Smart Delivery; PS4 players re-download it on PS5).",
+    "Your inventory doesn't sync between PC and console. PUBG Mobile is a separate game and doesn't connect to either."
+   ],
+   "sources": [
+    {
+     "title": "PUBG: Battlegrounds ending service for Xbox One and PS4 (Niche Gamer)",
+     "url": "https://nichegamer.com/pubg-battlegrounds-ending-service-for-xbox-one-and-ps4/"
+    },
+    {
+     "title": "PUBG to drop PS4/Xbox One support in November (Shacknews)",
+     "url": "https://www.shacknews.com/article/145489/pubg-ps4-xbox-one-support-ending"
+    },
+    {
+     "title": "PUBG: Battlegrounds (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/PUBG:_Battlegrounds"
+    },
+    {
+     "title": "PUBG crossplay: everything you need to know (ExitLag)",
+     "url": "https://www.exitlag.com/blog/is-pubg-crossplay/"
     }
    ],
    "checked": "2026-10-10"
