@@ -470,7 +470,11 @@ def newsletter_page():
     states = "".join(f'<p class="lede" data-state="{k}" hidden><strong>{e(v)}</strong></p>' for k, v in NEWSLETTER_STATES.items())
     script = f"""<script>
 (() => {{
-  const show = s => document.querySelectorAll("[data-state]").forEach(p => p.hidden = p.dataset.state !== s);
+  const show = s => {{
+    document.querySelectorAll("[data-state]").forEach(p => p.hidden = p.dataset.state !== s);
+    const form = document.querySelector(".signup");
+    if (form) form.style.display = ["check", "confirming", "confirmed"].includes(s) ? "none" : "";
+  }};
   const t = new URLSearchParams(location.search).get("confirm");
   if (t) {{
     show("confirming");
