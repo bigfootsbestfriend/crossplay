@@ -14,3 +14,9 @@ Needs a better source before adding:
 - Fishing Planet: limited combinations (Xbox with Microsoft Store PC); unclear.
 - Ghost Recon Breakpoint: sources disagree on whether crossplay was added. Pummel Party, Wobbly Life: unclear.
 - WWE 2K26: sources conflict (console-only crossplay vs none). Football Manager 26: console crossplay Xbox/PS5; PC unclear.
+- Lords of the Fallen (2023): crossplay added in patch 1.1.249 then reportedly disabled temporarily; confirm current state.
+- PlateUp!: Xbox + MS Store crossplay reported (2026), Steam crossplay beta reported elsewhere; confirm.
+- Goat Simulator 3: dev FAQ lists Steam+Epic, Xbox+MS Store, iOS+Android pairs; launch coverage says none. Confirm.
+- Super Battle Golf: consoles (PS5, Xbox Series, Switch 2) announced for summer 2026; crossplay unknown.
+- Gunfire Reborn: Steam separate from Xbox/Game Pass (different publisher); PS/Switch/mobile unclear.
+- Strinova: no crossplay info found.
