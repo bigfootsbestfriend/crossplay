@@ -2323,8 +2323,9 @@
     "switch2"
    ],
    "notes": [
-    "Crossplay is split by console generation: PS5, Xbox Series X|S and PC play together, while PS4 and Xbox One have their own pool. Switch and Switch 2 don't have crossplay.",
-    "Crossplay covers Ultimate Team, Clubs and online Seasons. Turn it on or off under Online Settings → Matchmaking Options."
+    "Crossplay is split by console generation: PS5, Xbox Series X|S and PC play together, and PS4 and Xbox One have their own pool. The two pools never match each other, and Switch and Switch 2 don't have crossplay at all.",
+    "Crossplay covers Ultimate Team (Division Rivals, Champions, Draft, Rush and friendlies), Clubs, and online Seasons and friendlies. It's on by default; switch it under Settings → Online Settings → Matchmaking Options, or in EA Connect.",
+    "The Ultimate Team Transfer Market is shared between PlayStation and Xbox, but PC and Switch each have their own. Ultimate Team progress (players, coins, FC Points) moves between PS4 and PS5, or Xbox One and Series X|S, but not between brands or to and from PC."
    ],
    "sources": [
     {
@@ -2334,9 +2335,19 @@
     {
      "title": "EA FC 26: Crossplay, cross-platform and modes (Mein-MMO)",
      "url": "https://mein-mmo.de/ea-fc-26-crossplay-crossprogression/"
+    },
+    {
+     "title": "EA Sports FC 26 dual entitlement (EA)",
+     "url": "https://www.ea.com/games/ea-sports-fc/fc-26/news/dual-entitlement"
+    },
+    {
+     "title": "EA FC 26 crossplay and cross-platform (Football Gaming Zone)",
+     "url": "https://footballgamingzone.com/ea-sports-fc/ea-fc-26-crossplay-crossplatform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "partial"
   },
   {
    "title": "EA Sports FC 27",
