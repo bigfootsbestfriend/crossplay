@@ -1958,7 +1958,9 @@
    "igdb_id": null,
    "crossplay": false,
    "notes": [
-    "Dragon Ball FighterZ never got crossplay. Its later update added rollback netcode on PS5, Xbox Series X|S and PC, but online matches still only pair players on the same platform."
+    "Dragon Ball FighterZ never got crossplay: online matches only pair players on the same platform. Even PS4 and PS5 (or Xbox One and Series X|S) are split, because the free current-gen upgrade from February 29, 2024 moved those players into their own pool.",
+    "The 2024 update added rollback netcode on PS5, Xbox Series X|S and PC; PS4, Xbox One and Switch stay on delay-based netcode. On PC you can pick either, but rollback and delay-based players aren't matched together, and Party Battle and Circle Party Match are delay-based only.",
+    "PC players sometimes use Parsec to play \"local\" matches with a friend online; it's a workaround, not crossplay."
    ],
    "sources": [
     {
@@ -1968,9 +1970,23 @@
     {
      "title": "Dragon Ball FighterZ update (Destructoid)",
      "url": "https://destructoid.com/?p=469823"
+    },
+    {
+     "title": "Dragon Ball FighterZ goes beyond the limit on PS5 and Xbox Series X|S (Bandai Namco)",
+     "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-fighterz-goes-beyond-the-limit-playstation-5-and-xbox-series-xs"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "separate": [
+    "pc",
+    "ps5",
+    "ps4",
+    "xseries",
+    "xone",
+    "switch"
+   ]
   },
   {
    "title": "Dragon Ball Xenoverse 2",
