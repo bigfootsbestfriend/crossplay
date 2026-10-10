@@ -1,6 +1,8 @@
 """Site settings. Change the name or attach a domain here; everything else follows."""
 
 SITE_NAME = "Crossplay Guide"
+LOGO_KICKER = "Can we play?"   # small mono line above the wordmark
+LOGO_WORD = "Crossplay"
 TAGLINE = "Can you play together? Crossplay checks for every platform."
 
 # Leave DOMAIN empty for the GitHub Pages preview. Once a domain is bought and pointed at

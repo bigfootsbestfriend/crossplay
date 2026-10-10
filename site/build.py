@@ -316,8 +316,8 @@ def page(path, title, desc, body, schema=None, crumbs=None):
 <header class="top">
   <div class="wrap top-in">
     <a class="brand" href="{url('/')}" aria-label="{e(config.SITE_NAME)} home">
-      <img src="{url('/static/favicon.svg')}" width="34" height="34" alt="">
-      <span>{e(config.SITE_NAME.split()[0].lower())}<b>.{e(' '.join(config.SITE_NAME.split()[1:]).lower() or 'guide')}</b></span>
+      <img src="{url('/static/favicon.svg')}" width="44" height="44" alt="">
+      <span class="wm"><small>{e(config.LOGO_KICKER)}</small><span>{e(config.LOGO_WORD)}<i>.</i></span></span>
     </a>
     <nav class="mainnav">
       <a href="{url('/platforms/')}">Platforms</a>

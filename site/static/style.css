@@ -55,7 +55,10 @@ section { margin: 2.2rem 0; }
 .top { background: var(--card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; }
 .top-in { display: flex; align-items: center; gap: 1.2rem; min-height: 64px; flex-wrap: wrap; padding-top: 8px; padding-bottom: 8px; }
 .brand { display: flex; align-items: center; gap: .55rem; text-decoration: none; color: var(--ink); font: 700 1.35rem var(--head); letter-spacing: -.03em; }
-.brand b { color: var(--coral); font: 700 .95rem var(--mono); letter-spacing: 0; margin-left: 1px; }
+.brand .wm { display: flex; flex-direction: column; line-height: 1; font-size: 1.55rem; }
+.brand .wm small { font: 700 .62rem var(--mono); letter-spacing: .22em; text-transform: uppercase; color: var(--coral); margin-bottom: 3px; }
+.brand .wm i { font-style: normal; color: var(--blue); }
+@media (prefers-color-scheme: dark) { .brand .wm i { color: #7d93ff; } }
 .mainnav { display: flex; gap: 1rem; }
 .mainnav a { color: var(--ink-2); text-decoration: none; font-weight: 600; font-size: .95rem; }
 .mainnav a:hover { color: var(--ink); }
