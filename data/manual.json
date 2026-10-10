@@ -347,6 +347,50 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Battlefield 6",
+   "igdb_id": 317407,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "EA app",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay is on by default. On PS5 and Xbox you can turn PC crossplay off (Settings > System) to play only with console players, and the game already favours console-only servers, but EA says long wait times may override that preference. PC players can't turn crossplay off.",
+    "Every PC store plays together. You need an EA account on every platform; Steam players don't need the EA app, but Epic players do.",
+    "Progress and unlocks follow your EA account across platforms, and the free RedSec mode shares progression with the main game. There's no PS4, Xbox One or Switch 2 version, and EA says there are no Switch 2 plans."
+   ],
+   "sources": [
+    {
+     "title": "Battlefield 6 FAQ (EA)",
+     "url": "https://www.ea.com/en/games/battlefield/battlefield-6/faq"
+    },
+    {
+     "title": "How to use cross-play in Battlefield 6 (EA Help)",
+     "url": "https://help.ea.com/en/articles/battlefield/battlefield-6/cross-play/"
+    },
+    {
+     "title": "Battlefield 6: here's how cross-play works for console and PC (GameSpot)",
+     "url": "https://www.gamespot.com/articles/battlefield-6-heres-how-cross-play-works-for-console-and-pc/1100-6534832/"
+    },
+    {
+     "title": "Battlefield 6 crossplay and how it works (GamesRadar+)",
+     "url": "https://www.gamesradar.com/games/battlefield/battlefield-6-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Battlefield REDSEC",
    "igdb_id": null,
    "groups": [
@@ -1302,13 +1346,45 @@
    "title": "Dragon Ball: Sparking! Zero",
    "igdb_id": null,
    "crossplay": false,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    },
+    {
+     "platforms": {
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "switch": "yes",
+      "switch2": "yes"
+     }
+    }
+   ],
    "notes": [
-    "Online matches only pair players on the same platform. The Switch 2 update improved the Switch version's visuals but didn't add crossplay."
+    "There's no crossplay yet: online matches only pair players on the same platform. Switch 2 plays the Switch version (with a visual update), so those two play together.",
+    "Crossplay is planned. Bandai Namco's second-anniversary roadmap (October 9, 2026) says a limited cross-play beta between PS5, Xbox Series X|S and Steam should start after Summer 2027, with the full release date still to be announced. Switch and Switch 2 aren't part of the plan."
    ],
    "sources": [
     {
-     "title": "Does Dragon Ball: Sparking Zero have cross-play? (Sportskeeda)",
-     "url": "https://sportskeeda.com/esports/does-dragon-ball-sparking-zero-cross-play"
+     "title": "DRAGON BALL: Sparking! ZERO celebrates its 2nd anniversary with a look at what's next (Bandai Namco)",
+     "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-sparking-zero-celebrates-its-2nd-anniversary-look-whats-next"
+    },
+    {
+     "title": "Dragon Ball Sparking Zero roadmap revealed through Summer 2027 (Insider Gaming)",
+     "url": "https://insider-gaming.com/dragon-ball-sparking-zero-roadmap-revealed-through-summer-2027/"
     },
     {
      "title": "Visual update for the Switch version on Switch 2 (GoNintendo)",
@@ -2834,7 +2910,8 @@
      "url": "https://prosettings.net/blog/marvel-rivals-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Marvel Snap",
@@ -4866,6 +4943,79 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Terraria",
+   "igdb_id": 1879,
+   "crossplay": false,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "GOG"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "switch": "yes",
+      "switch2": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay between PC, consoles and mobile is coming but isn't out yet. On September 24, 2026, Re-Logic said Crossplay Phase One (part of update 1.4.6) is getting its finishing touches and should arrive in the near future, with a Phase Two to follow. Until then, each platform family plays separately.",
+    "Today, Windows, Mac and Linux players can join each other through Steam or by IP address (which is how GOG copies connect), and iOS and Android players can play together.",
+    "Consoles stay within their own family: PS5 runs the PS4 version, Xbox Series X|S runs the Xbox One version, and Switch 2 runs the Switch version. The PS3, Xbox 360 and PS Vita versions stopped getting updates in 2016, so they're stuck on an older version and can't join current games.",
+    "Mobile players can connect to a PC dedicated server, but the official Terraria wiki calls this likely unintentional, so don't count on it."
+   ],
+   "sources": [
+    {
+     "title": "Terraria State of the Game, September 2026 (Re-Logic)",
+     "url": "https://forums.terraria.org/index.php?threads/terraria-state-of-the-game-september-2026.151999/"
+    },
+    {
+     "title": "The long-awaited Terraria crossplay update is in the finishing-touches stage (PCGamesN)",
+     "url": "https://www.pcgamesn.com/terraria/crossplay-state-of-the-game-september-2026"
+    },
+    {
+     "title": "Multiplayer (Official Terraria Wiki)",
+     "url": "https://terraria.wiki.gg/wiki/Multiplayer"
+    },
+    {
+     "title": "Terraria updates for PS3, Xbox 360 and Vita will end in September (TheSixthAxis)",
+     "url": "https://www.thesixthaxis.com/2016/07/27/terraria-updates-for-ps3-xbox-360-and-vita-will-end-in-september/"
+    },
+    {
+     "title": "Terraria on Nintendo Switch (Nintendo, Switch 2 compatible)",
+     "url": "https://www.nintendo.com/us/store/products/terraria-switch/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Tetris Effect: Connected",
    "igdb_id": null,
    "groups": [
@@ -5376,7 +5526,8 @@
      "url": "https://www.kitguru.net/desktop-pc/mustafa-mahmoud/the-division-2-crossplay-update-will-begin-rolling-out-in-november/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Totally Accurate Battle Simulator",
@@ -5635,7 +5786,8 @@
      "url": "https://www.tomsguide.com/gaming/valorant-is-now-out-on-ps5-and-xbox-series-xs-as-beta-ends"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Vampire Survivors",
