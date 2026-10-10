@@ -529,7 +529,7 @@ def game_page(g, games):
         known = g["source"] == "manual"
         rows.append(f'<div class="pool outside"><h3>{"No crossplay" if known else "Not confirmed"}</h3><div class="chips big">'
                     f'{"".join(chip(k, link=True) for k in g["outside"])}</div>'
-                    + ('<p class="small">These versions don't have crossplay with other platforms. See the notes above for details.</p></div>'
+                    + ('<p class="small">These versions don&#39;t have crossplay with other platforms. See the notes above for details.</p></div>'
                        if known else '<p class="small">Released here, but no crossplay source lists this version (or it may no longer be sold).</p></div>'))
     heading = "Who can play with whom" if len(g["groups"]) > 1 or g["outside"] else "Platforms that play together"
     parts.append(f'<section><h2>{heading}</h2><div class="pools">{"".join(rows)}</div></section>')
