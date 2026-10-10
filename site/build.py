@@ -18,7 +18,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent / "collector"))
 import config  # noqa: E402
-from common import load_json, slugify  # noqa: E402
+from common import load_json, merged_games, slugify  # noqa: E402
 
 OUT = HERE.parent / "_site"
 TODAY = datetime.date.today()
@@ -138,12 +138,12 @@ def domain(u):
 # ---------------------------------------------------------------- data model
 
 def load_games():
-    wiki = load_json("wikipedia.json", {"games": []})
+    wiki, merged = merged_games()
     igdb = load_json("igdb.json", {})
     hist = load_json("history.json", {"games": {}, "log": []})
     games, slugs = [], set()
-    for w in wiki["games"]:
-        ig = igdb.get(w["title"]) or {}
+    for w in merged:
+        ig = igdb.get(w["igdb_key"]) or {}
         key = w["title"] + (" (discontinued)" if w["discontinued"] else "")
         slug = slugify(w["title"])
         if slug in slugs:
@@ -155,9 +155,16 @@ def load_games():
             if plats:
                 groups.append({"platforms": plats, "partial": [k for k, v in gr["platforms"].items() if v != "yes"],
                                "pc_stores": gr["pc_stores"], "others": gr["others"], "refs": gr["refs"]})
+        on = {IGDB_PLATFORMS[p["id"]] for p in ig.get("platforms", []) if p["id"] in IGDB_PLATFORMS}
+        # Researched entries can name platforms confirmed to have no crossplay ("separate"), or say the
+        # game has none at all; each such platform becomes its own one-platform group.
+        lone = set(w.get("separate", []))
+        if w.get("crossplay") is False:
+            lone |= (on & set(CURRENT)) - {k for gr in groups for k in gr["platforms"]}
+        for k in order(lone):
+            groups.append({"platforms": [k], "partial": [], "pc_stores": [], "others": [], "refs": []})
         if not groups:
             continue
-        on = {IGDB_PLATFORMS[p["id"]] for p in ig.get("platforms", []) if p["id"] in IGDB_PLATFORMS}
         in_groups = {k for gr in groups for k in gr["platforms"]}
         if "switch" in in_groups:
             in_groups_plus = in_groups | {"switch2"}  # Switch 2 runs Switch games; the list has no Switch 2 column
@@ -178,6 +185,9 @@ def load_games():
             "genres": [x["name"] for x in ig.get("genres", [])],
             "popularity": (ig.get("total_rating_count") or 0) + (ig.get("hypes") or 0),
             "history": hist["games"].get(key, {}),
+            "source": w["source"], "crossplay": w.get("crossplay", True), "notes": w.get("notes", []),
+            "sources": w.get("sources", []),
+            "checked": w.get("checked") or wiki.get("fetched", TODAY.isoformat()),
         }
         g["hubs"] = [s for s, (_, test) in GENRES.items() if ig and test(ig)]
         games.append(g)
@@ -201,14 +211,14 @@ def together(g, a, b):
 
 
 def family_match(g, fa, fb):
-    if g["discontinued"]:
+    if g["discontinued"] or not g["crossplay"]:
         return False
     A, B = FAMILIES[fa][1], FAMILIES[fb][1]
     return any(set(gr["platforms"]) & A and set(gr["platforms"]) & B for gr in g["groups"])
 
 
 def platform_match(g, k):
-    return not g["discontinued"] and any(k in gr["platforms"] and len(gr["platforms"]) >= 2 for gr in g["groups"])
+    return not g["discontinued"] and g["crossplay"] and any(k in gr["platforms"] and len(gr["platforms"]) >= 2 for gr in g["groups"])
 
 
 # ---------------------------------------------------------------- text
@@ -219,6 +229,11 @@ def verdict(g):
     if g["discontinued"]:
         pools = "; ".join(plist(gr["platforms"]) for gr in g["groups"])
         return "ended", "No longer", f"{t} used to support crossplay ({pools}), but that has been discontinued."
+    if not g["crossplay"]:
+        pools = [gr["platforms"] for gr in g["groups"] if len(gr["platforms"]) >= 2]
+        same = "; ".join(plist(p, short=True) + " players can play together" for p in pools)
+        return "no", "No", (f"{t} doesn't have crossplay: each platform family has its own players"
+                            + (f". {same[0].upper() + same[1:]}." if same else "."))
     if not cg:
         gr = g["groups"][0]
         return "no", "Not really", (f"{t} only connects players on {plist(gr['platforms'])}"
@@ -231,11 +246,18 @@ def verdict(g):
         word = "Yes" if not gr["partial"] else "Mostly"
         cloud = [k for k in gr["platforms"] if k in CLOUD]
         main = [k for k in gr["platforms"] if k not in CLOUD]
+        lone = [o["platforms"][0] for o in g["groups"] if len(o["platforms"]) == 1 and not o["pc_stores"]
+                and o["platforms"][0] not in gr["platforms"]]
+        if lone:
+            word = "Partly"
         return "yes", word, (f"{t} supports crossplay between {plist(main)}."
+                             + (f" {plist(lone)} {'is' if len(lone) == 1 else 'are'} separate." if lone else "")
                              + (f" You can also stream it via {plist(cloud)}." if cloud else ""))
     pools = "; ".join(plist([k for k in gr["platforms"] if k not in CLOUD]) for gr in cg)
+    lone = [o["platforms"][0] for o in g["groups"] if len(o["platforms"]) == 1 and not o["pc_stores"]]
     return "split", "Partly", (f"{t} has crossplay, but players are split into {len(cg)} separate groups "
-                               f"that can't meet: {pools}.")
+                               f"that can't meet: {pools}."
+                               + (f" {plist(lone)} {'has' if len(lone) == 1 else 'have'} no crossplay." if lone else ""))
 
 
 def pc_note(g):
@@ -402,7 +424,7 @@ def game_page(g, games):
     parts = []
 
     # Answer box
-    extra = []
+    extra = list(g["notes"])
     if pcn:
         extra.append(pcn)
     if g["outside"]:
@@ -420,7 +442,7 @@ def game_page(g, games):
     <h1>{e(t)} crossplay</h1>
     <p class="verdict"><span class="badge v-{kind}">{e(word)}</span> {e(summary)}</p>
     {"".join(f'<p>{e(x)}</p>' for x in extra)}
-    <p class="checked">Last checked {nice_date(load_json('wikipedia.json', {}).get('fetched', TODAY.isoformat()))}
+    <p class="checked">Last checked {nice_date(g["checked"])}
     {f' · Details last changed {nice_date(g["history"]["changed"])}' if g["history"].get("changed") and g["history"]["changed"] != g["history"].get("first_seen") else ''}</p>
   </div>
 </section>""")
@@ -428,7 +450,8 @@ def game_page(g, games):
     # Groups
     rows = []
     for i, gr in enumerate(g["groups"], 1):
-        label = f"Group {i}" if len(g["groups"]) > 1 else "Plays together"
+        label = (PLATFORMS[gr["platforms"][0]][1] + " only" if len(gr["platforms"]) == 1 and not gr["pc_stores"]
+                 and len(g["groups"]) > 1 else f"Group {i}" if len(g["groups"]) > 1 else "Plays together")
         stores = f'<p class="small">PC stores: {e(", ".join(gr["pc_stores"]))}</p>' if gr["pc_stores"] else ""
         partial = (f'<p class="small">Partial support: {e(plist(gr["partial"]))}</p>' if gr["partial"] else "")
         others = f'<p class="small">Also: {e(", ".join(gr["others"]))}</p>' if gr["others"] else ""
@@ -507,9 +530,12 @@ def game_page(g, games):
     # Sources
     refs = sorted({r for gr in g["groups"] for r in gr["refs"]})
     src = "".join(f'<li><a href="{e(r)}" rel="nofollow noopener" target="_blank">{e(domain(r))}</a></li>' for r in refs)
-    wiki = "https://en.wikipedia.org/wiki/List_of_video_games_that_support_cross-platform_play"
-    src += (f'<li><a href="{wiki}" rel="noopener" target="_blank">Wikipedia: List of video games that support '
-            f'cross-platform play</a> (CC BY-SA 4.0)</li>')
+    src += "".join(f'<li><a href="{e(s["url"])}" rel="nofollow noopener" target="_blank">{e(s["title"])}</a> '
+                   f'<span class="small">({e(domain(s["url"]))})</span></li>' for s in g["sources"])
+    if g["source"] == "wikipedia":
+        wiki = "https://en.wikipedia.org/wiki/List_of_video_games_that_support_cross-platform_play"
+        src += (f'<li><a href="{wiki}" rel="noopener" target="_blank">Wikipedia: List of video games that support '
+                f'cross-platform play</a> (CC BY-SA 4.0)</li>')
     if g["igdb"].get("url"):
         src += f'<li><a href="{e(g["igdb"]["url"])}" rel="noopener" target="_blank">IGDB entry</a> (release and multiplayer details)</li>'
     parts.append(f"""<section class="sources"><h2>Sources</h2><ul>{src}</ul>
@@ -582,7 +608,8 @@ def hub_page(path, title, h1, intro, games, crumbs, extra=""):
 
 def build():
     games, wiki, hist = load_games()
-    current = [g for g in games if not g["discontinued"]]
+    current = [g for g in games if not g["discontinued"] and g["crossplay"]]
+    nocross = [g for g in games if not g["discontinued"] and not g["crossplay"]]
     fetched = wiki.get("fetched", TODAY.isoformat())
     pages = {}
 
@@ -670,7 +697,10 @@ def build():
         f'cross-platform play, A to Z. Use the search box to jump straight to one.</p></section>'
         f'<section><h2>By genre</h2><nav class="pills">{gl}</nav></section>'
         f'<section><h2>A–Z</h2>{list_table(sorted(current, key=lambda g: g["title"].lower().lstrip("#")))}</section>'
-        f'<section><h2>Crossplay that has ended</h2><p>These games used to have crossplay, but it was switched off '
+        + (f'<section><h2>No crossplay</h2><p>Popular multiplayer games where each platform plays separately. '
+           f'We keep checking these in case that changes.</p>{list_table(sorted(nocross, key=lambda g: g["title"].lower()))}'
+           f'</section>' if nocross else "")
+        + f'<section><h2>Crossplay that has ended</h2><p>These games used to have crossplay, but it was switched off '
         f'or the servers closed.</p>{list_table(sorted(disc, key=lambda g: g["title"].lower()))}</section>',
         crumbs=[("Home", "/"), ("Games", "/games/")])
 
@@ -737,8 +767,9 @@ def build():
 <p><a href="{url('/crossplay/playstation-and-switch/')}">More PlayStation + Switch games →</a></p></section>
 <section><h2>Browse</h2><div class="plats">{pc}</div><nav class="pills" style="margin-top:1rem">{gl}</nav></section>
 {"<section><h2>Recently changed</h2><ul class='log'>" + "".join(f'<li><time>{nice_date(x["date"])}</time> <a href="{url("/games/" + slug_by_title[x["title"]] + "/")}">{e(x["title"])}</a>: {e(x["what"])}</li>' for x in recent) + "</ul></section>" if recent else ""}
-<section class="how"><h2>How this works</h2><p>Every night we re-read the community-maintained crossplay list,
-match each game to its official details and rebuild these pages. Each game page links the announcements and
+<section class="how"><h2>How this works</h2><p>We research the most-played games from publishers' own announcements,
+and every night we re-read the community-maintained crossplay list, match each game to its official details and
+rebuild these pages. Each game page links the announcements and
 patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></p></section>""",
                       [{"@context": "https://schema.org", "@type": "WebSite", "name": config.SITE_NAME,
                         "url": abs_url("/")}])
@@ -772,7 +803,8 @@ ABOUT = """
 <p class="lede">Short version: we track {n} games, re-check them every day, and show our sources on every page.</p></section>
 <section class="prose">
 <h2>Where the facts come from</h2>
-<p>Our starting point is Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_video_games_that_support_cross-platform_play">List
+<p>For the most-played games we research crossplay ourselves from the publisher's own announcements, patch
+notes and support pages, and link them on the game page. Our starting point for the rest is Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_video_games_that_support_cross-platform_play">List
 of video games that support cross-platform play</a>, which volunteers keep up to date and which cites the publisher
 announcements, patch notes and support pages behind each entry. We link those citations on every game page so you
 can check them yourself. The list is licensed CC BY-SA 4.0.</p>

@@ -1,4 +1,4 @@
-"""Match every Wikipedia crossplay game to IGDB and store facts in data/igdb.json.
+"""Match every crossplay game (Wikipedia and data/manual.json) to IGDB and store facts in data/igdb.json.
 
 Matches are cached by title, so the nightly run only searches for new titles.
 Fix a bad match by putting the right IGDB id (or null to skip) in data/igdb_overrides.json.
@@ -10,7 +10,7 @@ import argparse
 import re
 import time
 
-from common import IGDB, load_env, load_json, norm, save_json
+from common import IGDB, load_env, load_json, merged_games, norm, save_json
 
 FIELDS = ("name,slug,url,first_release_date,cover.image_id,platforms.name,platforms.abbreviation,"
           "genres.name,themes.name,game_modes.name,total_rating_count,hypes,game_type,"
@@ -67,9 +67,10 @@ def main():
     args = ap.parse_args()
     load_env("IGDB_CLIENT_ID", "IGDB_CLIENT_SECRET")
     igdb = IGDB()
-    wiki = load_json("wikipedia.json", {"games": []})["games"]
+    games = merged_games()[1]
     cache = load_json("igdb.json", {})          # title -> IGDB game (or None if no match)
     overrides = load_json("igdb_overrides.json", {})
+    overrides.update({g["igdb_key"]: g["igdb_id"] for g in games if g.get("igdb_id")})  # researched entries carry their id
 
     want_ids = {t: v for t, v in overrides.items() if v and (t not in cache or not cache[t] or cache[t]["id"] != v)}
     if args.refresh:
@@ -80,19 +81,19 @@ def main():
                 cache[t] = g
 
     new = 0
-    for w in wiki:
-        t = w["title"]
+    for w in games:
+        t = w["igdb_key"]
         if t in overrides and overrides[t] is None:
             cache[t] = None
             continue
         if t in cache:
             continue
-        cache[t] = search(igdb, t, w["wiki_link"])
+        cache[t] = search(igdb, t, w.get("wiki_link"))
         new += 1
         print(("  ✓ " if cache[t] else "  ✗ ") + t + (f" → {cache[t]['name']}" if cache[t] else ""))
         time.sleep(0.1)
 
-    titles = {w["title"] for w in wiki}
+    titles = {w["igdb_key"] for w in games}
     cache = {t: g for t, g in cache.items() if t in titles}
     save_json("igdb.json", cache)
     print(f"IGDB: {sum(1 for g in cache.values() if g)}/{len(cache)} matched, {new} searched this run")

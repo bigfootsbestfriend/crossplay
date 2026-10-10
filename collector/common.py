@@ -85,3 +85,33 @@ class IGDB:
     def query(self, endpoint, body):
         time.sleep(0.3)
         return http("POST", "https://api.igdb.com/v4/" + endpoint, self.headers, body)
+
+
+def merged_games():
+    """Wikipedia's list plus our own researched entries (data/manual.json), in one wiki-shaped list.
+
+    A manual entry replaces the Wikipedia row with the same title (or any title in its "replaces"),
+    so a researched entry always wins. data/title_overrides.json renames Wikipedia titles to the
+    name people search for ("Fortnite Battle Royale" -> "Fortnite"); IGDB data stays keyed by
+    the original title ("igdb_key").
+    """
+    wiki = load_json("wikipedia.json", {"games": []})
+    manual = load_json("manual.json", {"games": []})["games"]
+    renames = load_json("title_overrides.json", {})
+    replaced = {norm(m["title"]) for m in manual} | {norm(r) for m in manual for r in m.get("replaces", [])}
+    games = []
+    for w in wiki["games"]:
+        title = renames.get(w["title"], w["title"])
+        if not w["discontinued"] and (norm(w["title"]) in replaced or norm(title) in replaced):
+            continue
+        games.append({**w, "title": title, "igdb_key": w["title"], "source": "wikipedia"})
+    for m in manual:
+        games.append({
+            "title": m["title"], "igdb_key": m["title"], "igdb_id": m.get("igdb_id"), "source": "manual",
+            "wiki_link": None, "discontinued": m.get("discontinued", False),
+            "crossplay": m.get("crossplay", True), "separate": m.get("separate", []),
+            "groups": [{"platforms": gr["platforms"], "pc_stores": gr.get("pc_stores", []),
+                        "others": gr.get("others", []), "refs": []} for gr in m.get("groups", [])],
+            "notes": m.get("notes", []), "sources": m.get("sources", []), "checked": m.get("checked"),
+        })
+    return wiki, games

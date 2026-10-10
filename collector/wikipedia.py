@@ -13,7 +13,7 @@ import json
 import re
 import sys
 
-from common import http, load_json, save_json
+from common import http, load_json, merged_games, save_json
 
 PAGE = "List_of_video_games_that_support_cross-platform_play"
 API = ("https://en.wikipedia.org/w/api.php?action=parse&page=" + PAGE +
@@ -177,7 +177,7 @@ def main():
         raise SystemExit(f"Only {len(games)} games parsed; the page layout probably changed. Keeping old data.")
     today = datetime.date.today().isoformat()
     save_json("wikipedia.json", {"source": "https://en.wikipedia.org/wiki/" + PAGE, "fetched": today, "games": games})
-    track_changes(games, today)
+    track_changes(merged_games()[1], today)
     print(f"Wikipedia: {sum(not g['discontinued'] for g in games)} current, "
           f"{sum(g['discontinued'] for g in games)} discontinued")
 

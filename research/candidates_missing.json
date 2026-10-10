@@ -1,0 +1,6475 @@
+[
+ {
+  "igdb_id": 1020,
+  "name": "Grand Theft Auto V",
+  "in_wiki": false,
+  "score": 3987,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 25076,
+  "name": "Red Dead Redemption 2",
+  "in_wiki": false,
+  "score": 3917,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 732,
+  "name": "Grand Theft Auto: San Andreas",
+  "in_wiki": false,
+  "score": 3904,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   48
+  ]
+ },
+ {
+  "igdb_id": 119171,
+  "name": "Baldur's Gate III",
+  "in_wiki": false,
+  "score": 3898,
+  "platforms": [
+   3,
+   6,
+   14,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 119133,
+  "name": "Elden Ring",
+  "in_wiki": false,
+  "score": 3877,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 135243,
+  "name": "It Takes Two",
+  "in_wiki": false,
+  "score": 3864,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 1011,
+  "name": "Borderlands 2",
+  "in_wiki": false,
+  "score": 3781,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 125642,
+  "name": "Path of Exile 2",
+  "in_wiki": false,
+  "score": 3723,
+  "platforms": [
+   6,
+   14,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 185252,
+  "name": "Warhammer 40,000: Space Marine II",
+  "in_wiki": false,
+  "score": 3723,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 103020,
+  "name": "Fallout 76",
+  "in_wiki": false,
+  "score": 3633,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 3042,
+  "name": "Dying Light",
+  "in_wiki": false,
+  "score": 3591,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 2903,
+  "name": "Warframe",
+  "in_wiki": false,
+  "score": 3527,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 151665,
+  "name": "Palworld",
+  "in_wiki": false,
+  "score": 3506,
+  "platforms": [
+   6,
+   14,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 17000,
+  "name": "Stardew Valley",
+  "in_wiki": false,
+  "score": 3500,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130,
+   508
+  ]
+ },
+ {
+  "igdb_id": 3070,
+  "name": "Euro Truck Simulator 2",
+  "in_wiki": false,
+  "score": 3449,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1081,
+  "name": "The Elder Scrolls Online",
+  "in_wiki": false,
+  "score": 3370,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 104967,
+  "name": "Valheim",
+  "in_wiki": false,
+  "score": 3302,
+  "platforms": [
+   3,
+   6,
+   14,
+   49,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 9061,
+  "name": "Cuphead",
+  "in_wiki": false,
+  "score": 3292,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 132516,
+  "name": "Phasmophobia",
+  "in_wiki": false,
+  "score": 3273,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 7360,
+  "name": "Rainbow Six Siege",
+  "in_wiki": false,
+  "score": 3181,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 17131,
+  "name": "BeamNG.drive",
+  "in_wiki": false,
+  "score": 3123,
+  "platforms": [
+   6,
+   167
+  ]
+ },
+ {
+  "igdb_id": 7504,
+  "name": "The Forest",
+  "in_wiki": false,
+  "score": 3105,
+  "platforms": [
+   6,
+   48
+  ]
+ },
+ {
+  "igdb_id": 11162,
+  "name": "For Honor",
+  "in_wiki": false,
+  "score": 3088,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 9509,
+  "name": "Call of Duty: Black Ops III",
+  "in_wiki": false,
+  "score": 3083,
+  "platforms": [
+   6,
+   14,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 5574,
+  "name": "7 Days to Die",
+  "in_wiki": false,
+  "score": 3058,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 186725,
+  "name": "Vampire Survivors",
+  "in_wiki": false,
+  "score": 2860,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 33615,
+  "name": "VRChat",
+  "in_wiki": false,
+  "score": 2850,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 262186,
+  "name": "Delta Force",
+  "in_wiki": false,
+  "score": 2814,
+  "platforms": [
+   6,
+   34,
+   39,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1164,
+  "name": "Tomb Raider",
+  "in_wiki": false,
+  "score": 2800,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 325594,
+  "name": "Split Fiction",
+  "in_wiki": false,
+  "score": 2799,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 19698,
+  "name": "Albion Online",
+  "in_wiki": false,
+  "score": 2765,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   169
+  ]
+ },
+ {
+  "igdb_id": 90099,
+  "name": "Tom Clancy's The Division 2",
+  "in_wiki": false,
+  "score": 2758,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 248643,
+  "name": "Enshrouded",
+  "in_wiki": false,
+  "score": 2751,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 348330,
+  "name": "Forza Horizon 6",
+  "in_wiki": false,
+  "score": 2741,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 9667,
+  "name": "American Truck Simulator",
+  "in_wiki": false,
+  "score": 2741,
+  "platforms": [
+   3,
+   6,
+   14,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 7789,
+  "name": "The Binding of Isaac: Rebirth",
+  "in_wiki": false,
+  "score": 2729,
+  "platforms": [
+   3,
+   6,
+   14,
+   39,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 11133,
+  "name": "Dark Souls III",
+  "in_wiki": false,
+  "score": 2710,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 103380,
+  "name": "Bloons TD 6",
+  "in_wiki": false,
+  "score": 2698,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 126459,
+  "name": "Valorant",
+  "in_wiki": false,
+  "score": 2662,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 26401,
+  "name": "Star Wars Battlefront II",
+  "in_wiki": false,
+  "score": 2646,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 19130,
+  "name": "Sid Meier's Civilization VI",
+  "in_wiki": false,
+  "score": 2620,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 294041,
+  "name": "Marvel Rivals",
+  "in_wiki": false,
+  "score": 2608,
+  "platforms": [
+   6,
+   48,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 279661,
+  "name": "Monster Hunter Wilds",
+  "in_wiki": false,
+  "score": 2604,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 116975,
+  "name": "Marbles on Stream",
+  "in_wiki": false,
+  "score": 2593,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 103298,
+  "name": "Doom Eternal",
+  "in_wiki": false,
+  "score": 2586,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 142391,
+  "name": "Stumble Guys",
+  "in_wiki": false,
+  "score": 2577,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 2058,
+  "name": "Payday 2",
+  "in_wiki": false,
+  "score": 2570,
+  "platforms": [
+   3,
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 2155,
+  "name": "Dark Souls",
+  "in_wiki": false,
+  "score": 2569,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 36926,
+  "name": "Monster Hunter: World",
+  "in_wiki": false,
+  "score": 2540,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 28552,
+  "name": "Far Cry 5",
+  "in_wiki": false,
+  "score": 2536,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 353848,
+  "name": "EA Sports FC 26",
+  "in_wiki": false,
+  "score": 2521,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 545,
+  "name": "Call of Duty: Black Ops",
+  "in_wiki": false,
+  "score": 2518,
+  "platforms": [
+   6,
+   14,
+   48,
+   167
+  ]
+ },
+ {
+  "igdb_id": 7351,
+  "name": "Doom",
+  "in_wiki": false,
+  "score": 2517,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 214394,
+  "name": "Dune: Awakening",
+  "in_wiki": false,
+  "score": 2502,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1970,
+  "name": "Assassin's Creed IV Black Flag",
+  "in_wiki": false,
+  "score": 2497,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 2955,
+  "name": "Elite: Dangerous",
+  "in_wiki": false,
+  "score": 2466,
+  "platforms": [
+   6,
+   14,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 76253,
+  "name": "Devil May Cry 5",
+  "in_wiki": false,
+  "score": 2464,
+  "platforms": [
+   6,
+   48,
+   49,
+   508
+  ]
+ },
+ {
+  "igdb_id": 7323,
+  "name": "Rise of the Tomb Raider",
+  "in_wiki": false,
+  "score": 2455,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 1911,
+  "name": "Path of Exile",
+  "in_wiki": false,
+  "score": 2438,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   167
+  ]
+ },
+ {
+  "igdb_id": 1277,
+  "name": "Plants vs. Zombies",
+  "in_wiki": false,
+  "score": 2411,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 81085,
+  "name": "Dark Souls: Remastered",
+  "in_wiki": false,
+  "score": 2365,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 10919,
+  "name": "XCOM 2",
+  "in_wiki": false,
+  "score": 2360,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 9608,
+  "name": "Mount & Blade II: Bannerlord",
+  "in_wiki": false,
+  "score": 2357,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1985,
+  "name": "Metal Gear Solid V: The Phantom Pain",
+  "in_wiki": false,
+  "score": 2356,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 336964,
+  "name": "F1 25",
+  "in_wiki": false,
+  "score": 2344,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 256092,
+  "name": "EA Sports FC 24",
+  "in_wiki": false,
+  "score": 2289,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1121,
+  "name": "Watch Dogs",
+  "in_wiki": false,
+  "score": 2272,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 214417,
+  "name": "The Finals",
+  "in_wiki": false,
+  "score": 2266,
+  "platforms": [
+   6,
+   48,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 11182,
+  "name": "Enter the Gungeon",
+  "in_wiki": false,
+  "score": 2259,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 214414,
+  "name": "Where Winds Meet",
+  "in_wiki": false,
+  "score": 2245,
+  "platforms": [
+   6,
+   34,
+   39,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 90558,
+  "name": "Satisfactory",
+  "in_wiki": false,
+  "score": 2226,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 135998,
+  "name": "Warhammer 40,000: Darktide",
+  "in_wiki": false,
+  "score": 2226,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 83728,
+  "name": "Battlefield V",
+  "in_wiki": false,
+  "score": 2190,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 37777,
+  "name": "Shadow of the Tomb Raider",
+  "in_wiki": false,
+  "score": 2165,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 19441,
+  "name": "Watch Dogs 2",
+  "in_wiki": false,
+  "score": 2146,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 5597,
+  "name": "Assetto Corsa",
+  "in_wiki": false,
+  "score": 2141,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 11800,
+  "name": "Divinity: Original Sin II",
+  "in_wiki": false,
+  "score": 2137,
+  "platforms": [
+   6,
+   14,
+   39
+  ]
+ },
+ {
+  "igdb_id": 28512,
+  "name": "Risk of Rain 2",
+  "in_wiki": false,
+  "score": 2135,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 11582,
+  "name": "Stellaris",
+  "in_wiki": false,
+  "score": 2095,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 153700,
+  "name": "Ghost of Tsushima: Director's Cut",
+  "in_wiki": false,
+  "score": 2060,
+  "platforms": [
+   6,
+   48,
+   167
+  ]
+ },
+ {
+  "igdb_id": 17447,
+  "name": "Titanfall 2",
+  "in_wiki": false,
+  "score": 2051,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 165351,
+  "name": "Cult of the Lamb",
+  "in_wiki": false,
+  "score": 2032,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 202956,
+  "name": "Wuthering Waves",
+  "in_wiki": false,
+  "score": 2026,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 28489,
+  "name": "Ready or Not",
+  "in_wiki": false,
+  "score": 2026,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 27082,
+  "name": "Raft",
+  "in_wiki": false,
+  "score": 2019,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 79824,
+  "name": "Old School RuneScape",
+  "in_wiki": false,
+  "score": 1989,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 148228,
+  "name": "V Rising",
+  "in_wiki": false,
+  "score": 1958,
+  "platforms": [
+   6,
+   167
+  ]
+ },
+ {
+  "igdb_id": 337712,
+  "name": "RuneScape: Dragonwilds",
+  "in_wiki": false,
+  "score": 1952,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 204538,
+  "name": "Once Human",
+  "in_wiki": false,
+  "score": 1924,
+  "platforms": [
+   6,
+   34,
+   39,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 405028,
+  "name": "Meccha Chameleon",
+  "in_wiki": false,
+  "score": 1921,
+  "platforms": [
+   6,
+   508
+  ]
+ },
+ {
+  "igdb_id": 102584,
+  "name": "Dying Light 2: Stay Human",
+  "in_wiki": false,
+  "score": 1911,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 14761,
+  "name": "Rain World",
+  "in_wiki": false,
+  "score": 1896,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 381247,
+  "name": "Ace Combat 8: Wings of Theve",
+  "in_wiki": false,
+  "score": 1896,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 302156,
+  "name": "Call of Duty: Black Ops 6",
+  "in_wiki": false,
+  "score": 1894,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 306822,
+  "name": "Farming Simulator 25",
+  "in_wiki": false,
+  "score": 1888,
+  "platforms": [
+   6,
+   14,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 314265,
+  "name": "Reanimal",
+  "in_wiki": false,
+  "score": 1842,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 282566,
+  "name": "Smite 2",
+  "in_wiki": false,
+  "score": 1841,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 2117,
+  "name": "DayZ",
+  "in_wiki": false,
+  "score": 1837,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 281275,
+  "name": "Buckshot Roulette",
+  "in_wiki": false,
+  "score": 1828,
+  "platforms": [
+   3,
+   6,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1318,
+  "name": "XCOM: Enemy Unknown",
+  "in_wiki": false,
+  "score": 1828,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 208476,
+  "name": "The First Descendant",
+  "in_wiki": false,
+  "score": 1826,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 6801,
+  "name": "Far Cry 4",
+  "in_wiki": false,
+  "score": 1820,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1907,
+  "name": "Grim Dawn",
+  "in_wiki": false,
+  "score": 1817,
+  "platforms": [
+   6,
+   49
+  ]
+ },
+ {
+  "igdb_id": 11397,
+  "name": "Yakuza 0",
+  "in_wiki": false,
+  "score": 1815,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 55056,
+  "name": "Age of Empires II: Definitive Edition",
+  "in_wiki": false,
+  "score": 1810,
+  "platforms": [
+   6,
+   14,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1122,
+  "name": "Call of Duty: Black Ops II",
+  "in_wiki": false,
+  "score": 1806,
+  "platforms": [
+   6,
+   48,
+   167
+  ]
+ },
+ {
+  "igdb_id": 322158,
+  "name": "Active Matter",
+  "in_wiki": false,
+  "score": 1804,
+  "platforms": [
+   3,
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 308698,
+  "name": "EA Sports FC 25",
+  "in_wiki": false,
+  "score": 1801,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 26381,
+  "name": "TheHunter: Call of the Wild",
+  "in_wiki": false,
+  "score": 1801,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 213639,
+  "name": "My Hero Ultra Rumble",
+  "in_wiki": false,
+  "score": 1772,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   169
+  ]
+ },
+ {
+  "igdb_id": 127165,
+  "name": "The Outlast Trials",
+  "in_wiki": false,
+  "score": 1772,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 201789,
+  "name": "Arma Reforger",
+  "in_wiki": false,
+  "score": 1753,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 348220,
+  "name": "Call of Duty: Black Ops 7",
+  "in_wiki": false,
+  "score": 1751,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 11171,
+  "name": "Tom Clancy's Ghost Recon: Wildlands",
+  "in_wiki": false,
+  "score": 1746,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 7329,
+  "name": "Dead Island 2",
+  "in_wiki": false,
+  "score": 1734,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 5606,
+  "name": "Assassin's Creed Unity",
+  "in_wiki": false,
+  "score": 1733,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 16999,
+  "name": "Conan Exiles",
+  "in_wiki": false,
+  "score": 1733,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 197202,
+  "name": "Escape the Backrooms",
+  "in_wiki": false,
+  "score": 1721,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 1342,
+  "name": "Beyond: Two Souls",
+  "in_wiki": false,
+  "score": 1720,
+  "platforms": [
+   6,
+   48
+  ]
+ },
+ {
+  "igdb_id": 8222,
+  "name": "Dark Souls II: Scholar of the First Sin",
+  "in_wiki": false,
+  "score": 1712,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 159096,
+  "name": "eFootball",
+  "in_wiki": false,
+  "score": 1693,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 202279,
+  "name": "Marvel Snap",
+  "in_wiki": false,
+  "score": 1684,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 279051,
+  "name": "Inzoi",
+  "in_wiki": false,
+  "score": 1670,
+  "platforms": [
+   6,
+   14,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1887,
+  "name": "Dragon Age: Inquisition",
+  "in_wiki": false,
+  "score": 1636,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 325591,
+  "name": "Elden Ring Nightreign",
+  "in_wiki": false,
+  "score": 1632,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 308535,
+  "name": "NTE: Neverness to Everness",
+  "in_wiki": false,
+  "score": 1630,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   167
+  ]
+ },
+ {
+  "igdb_id": 5611,
+  "name": "RuneScape",
+  "in_wiki": false,
+  "score": 1623,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 228349,
+  "name": "Infinity Nikki",
+  "in_wiki": false,
+  "score": 1618,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   167
+  ]
+ },
+ {
+  "igdb_id": 12731,
+  "name": "Fishing Planet",
+  "in_wiki": false,
+  "score": 1615,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 143574,
+  "name": "Planet Crafter",
+  "in_wiki": false,
+  "score": 1587,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 252830,
+  "name": "Microsoft Flight Simulator 2024",
+  "in_wiki": false,
+  "score": 1578,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 126290,
+  "name": "Far Cry 6",
+  "in_wiki": false,
+  "score": 1572,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 18320,
+  "name": "Battlefield 1",
+  "in_wiki": false,
+  "score": 1569,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 362096,
+  "name": "Halloween: The Game",
+  "in_wiki": false,
+  "score": 1563,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 266382,
+  "name": "Football Manager 2024",
+  "in_wiki": false,
+  "score": 1556,
+  "platforms": [
+   6,
+   14,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 18090,
+  "name": "Shakes and Fidget",
+  "in_wiki": false,
+  "score": 1544,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 279624,
+  "name": "Big Walk",
+  "in_wiki": false,
+  "score": 1528,
+  "platforms": [
+   6,
+   14,
+   167,
+   508
+  ]
+ },
+ {
+  "igdb_id": 165352,
+  "name": "UFL",
+  "in_wiki": false,
+  "score": 1504,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 24654,
+  "name": "New World: Aeternum",
+  "in_wiki": false,
+  "score": 1494,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 205780,
+  "name": "FIFA 23",
+  "in_wiki": false,
+  "score": 1487,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 28204,
+  "name": "Call of Duty: WWII",
+  "in_wiki": false,
+  "score": 1466,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 143440,
+  "name": "IdleOn",
+  "in_wiki": false,
+  "score": 1466,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 314238,
+  "name": "Sniper Elite: Resistance",
+  "in_wiki": false,
+  "score": 1465,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 2114,
+  "name": "Tom Clancy's The Division",
+  "in_wiki": false,
+  "score": 1464,
+  "platforms": [
+   6,
+   48,
+   49,
+   167
+  ]
+ },
+ {
+  "igdb_id": 3012,
+  "name": "Osu!",
+  "in_wiki": false,
+  "score": 1448,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 138950,
+  "name": "Monster Hunter Rise",
+  "in_wiki": false,
+  "score": 1440,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 239920,
+  "name": "Blood Strike",
+  "in_wiki": false,
+  "score": 1438,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 7878,
+  "name": "Unturned",
+  "in_wiki": false,
+  "score": 1435,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 36897,
+  "name": "A Way Out",
+  "in_wiki": false,
+  "score": 1429,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 152123,
+  "name": "World War Z: Aftermath",
+  "in_wiki": false,
+  "score": 1423,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 18094,
+  "name": "Z1: Battle Royale",
+  "in_wiki": false,
+  "score": 1420,
+  "platforms": [
+   6,
+   48
+  ]
+ },
+ {
+  "igdb_id": 121998,
+  "name": "Medieval Dynasty",
+  "in_wiki": false,
+  "score": 1417,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 219126,
+  "name": "Abiotic Factor",
+  "in_wiki": false,
+  "score": 1415,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 24985,
+  "name": "Golf With Your Friends",
+  "in_wiki": false,
+  "score": 1398,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 95118,
+  "name": "Last Epoch",
+  "in_wiki": false,
+  "score": 1398,
+  "platforms": [
+   3,
+   6,
+   14,
+   167
+  ]
+ },
+ {
+  "igdb_id": 199116,
+  "name": "Brotato",
+  "in_wiki": false,
+  "score": 1387,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 144442,
+  "name": "Goose Goose Duck",
+  "in_wiki": false,
+  "score": 1383,
+  "platforms": [
+   6,
+   14,
+   34
+  ]
+ },
+ {
+  "igdb_id": 234256,
+  "name": "The Crew: Motorfest",
+  "in_wiki": false,
+  "score": 1380,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 127352,
+  "name": "Naraka: Bladepoint",
+  "in_wiki": false,
+  "score": 1378,
+  "platforms": [
+   6,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 119304,
+  "name": "Spiritfarer",
+  "in_wiki": false,
+  "score": 1354,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 116238,
+  "name": "Sniper Elite 5",
+  "in_wiki": false,
+  "score": 1351,
+  "platforms": [
+   6,
+   14,
+   39,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1352,
+  "name": "Journey",
+  "in_wiki": false,
+  "score": 1350,
+  "platforms": [
+   6,
+   39,
+   48
+  ]
+ },
+ {
+  "igdb_id": 408823,
+  "name": "NBA 2K27",
+  "in_wiki": false,
+  "score": 1344,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 7498,
+  "name": "Tekken 7",
+  "in_wiki": false,
+  "score": 1337,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 55189,
+  "name": "Warhammer: Vermintide 2",
+  "in_wiki": false,
+  "score": 1329,
+  "platforms": [
+   6,
+   48,
+   49,
+   167
+  ]
+ },
+ {
+  "igdb_id": 403310,
+  "name": "Call of Duty: Modern Warfare 4",
+  "in_wiki": false,
+  "score": 1323,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 138590,
+  "name": "PowerWash Simulator",
+  "in_wiki": false,
+  "score": 1297,
+  "platforms": [
+   6,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 115115,
+  "name": "Resident Evil 3",
+  "in_wiki": false,
+  "score": 1297,
+  "platforms": [
+   6,
+   14,
+   39,
+   48,
+   49,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 1979,
+  "name": "Battlefield 4",
+  "in_wiki": false,
+  "score": 1281,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 3772,
+  "name": "Wreckfest",
+  "in_wiki": false,
+  "score": 1275,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167
+  ]
+ },
+ {
+  "igdb_id": 52826,
+  "name": "Skate.",
+  "in_wiki": false,
+  "score": 1274,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 133344,
+  "name": "Wobbly Life",
+  "in_wiki": false,
+  "score": 1271,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 302147,
+  "name": "Permafrost",
+  "in_wiki": false,
+  "score": 1271,
+  "platforms": [
+   6,
+   167
+  ]
+ },
+ {
+  "igdb_id": 254871,
+  "name": "Hello Kitty Island Adventure",
+  "in_wiki": false,
+  "score": 1270,
+  "platforms": [
+   6,
+   14,
+   39,
+   48,
+   130,
+   167,
+   508
+  ]
+ },
+ {
+  "igdb_id": 55036,
+  "name": "Anno 1800",
+  "in_wiki": false,
+  "score": 1269,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 151467,
+  "name": "Palia",
+  "in_wiki": false,
+  "score": 1264,
+  "platforms": [
+   6,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 118218,
+  "name": "Tom Clancy's Ghost Recon: Breakpoint",
+  "in_wiki": false,
+  "score": 1256,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 27270,
+  "name": "Payday 3",
+  "in_wiki": false,
+  "score": 1255,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 368744,
+  "name": "Legend of Ymir",
+  "in_wiki": false,
+  "score": 1254,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 1968,
+  "name": "Rayman Legends",
+  "in_wiki": false,
+  "score": 1253,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 2025,
+  "name": "Mount & Blade: Warband",
+  "in_wiki": false,
+  "score": 1252,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 105322,
+  "name": "Pummel Party",
+  "in_wiki": false,
+  "score": 1252,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 156150,
+  "name": "Company of Heroes 3",
+  "in_wiki": false,
+  "score": 1235,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 120322,
+  "name": "Dinkum",
+  "in_wiki": false,
+  "score": 1234,
+  "platforms": [
+   6,
+   130,
+   508
+  ]
+ },
+ {
+  "igdb_id": 348648,
+  "name": "Waterpark Simulator",
+  "in_wiki": false,
+  "score": 1231,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 47101,
+  "name": "Wizard101",
+  "in_wiki": false,
+  "score": 1226,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 154986,
+  "name": "FIFA 22",
+  "in_wiki": false,
+  "score": 1210,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 34894,
+  "name": "Crossout",
+  "in_wiki": false,
+  "score": 1209,
+  "platforms": [
+   6,
+   48,
+   49,
+   167
+  ]
+ },
+ {
+  "igdb_id": 279634,
+  "name": "Dragon Ball: Sparking! Zero",
+  "in_wiki": false,
+  "score": 1165,
+  "platforms": [
+   6,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 146112,
+  "name": "Farming Simulator 22",
+  "in_wiki": false,
+  "score": 1158,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 18433,
+  "name": "Overcooked!",
+  "in_wiki": false,
+  "score": 1147,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 27436,
+  "name": "Kingdom Two Crowns",
+  "in_wiki": false,
+  "score": 1146,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 137989,
+  "name": "Party Animals",
+  "in_wiki": false,
+  "score": 1143,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 119305,
+  "name": "LEGO Star Wars: The Skywalker Saga",
+  "in_wiki": false,
+  "score": 1142,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 255788,
+  "name": "NBA 2K24",
+  "in_wiki": false,
+  "score": 1141,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 3239,
+  "name": "Space Engineers",
+  "in_wiki": false,
+  "score": 1134,
+  "platforms": [
+   6,
+   48,
+   49,
+   167
+  ]
+ },
+ {
+  "igdb_id": 21062,
+  "name": "Sonic Mania",
+  "in_wiki": false,
+  "score": 1131,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 28168,
+  "name": "Code Vein",
+  "in_wiki": false,
+  "score": 1119,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 294661,
+  "name": "Content Warning",
+  "in_wiki": false,
+  "score": 1119,
+  "platforms": [
+   6,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 152127,
+  "name": "Core Keeper",
+  "in_wiki": false,
+  "score": 1108,
+  "platforms": [
+   3,
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 6032,
+  "name": "Borderlands: The Pre-Sequel",
+  "in_wiki": false,
+  "score": 1107,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 1939,
+  "name": "Destiny",
+  "in_wiki": false,
+  "score": 1099,
+  "platforms": [
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 19241,
+  "name": "Unravel Two",
+  "in_wiki": false,
+  "score": 1098,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 103210,
+  "name": "Hitman 2",
+  "in_wiki": false,
+  "score": 1074,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 120,
+  "name": "Diablo III",
+  "in_wiki": false,
+  "score": 1066,
+  "platforms": [
+   6,
+   14,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 7349,
+  "name": "Mass Effect: Andromeda",
+  "in_wiki": false,
+  "score": 1064,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 51443,
+  "name": "CarX Drift Racing Online",
+  "in_wiki": false,
+  "score": 1057,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 361855,
+  "name": "LEGO Batman: Legacy of the Dark Knight",
+  "in_wiki": false,
+  "score": 1043,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 122666,
+  "name": "Teardown",
+  "in_wiki": false,
+  "score": 1042,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 32365,
+  "name": "Hell Let Loose",
+  "in_wiki": false,
+  "score": 1040,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 208417,
+  "name": "Ravenswatch",
+  "in_wiki": false,
+  "score": 1037,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 6748,
+  "name": "Killing Floor 2",
+  "in_wiki": false,
+  "score": 1035,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 203259,
+  "name": "Warhammer 40,000: Rogue Trader",
+  "in_wiki": false,
+  "score": 1022,
+  "platforms": [
+   6,
+   14,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 113598,
+  "name": "Deathloop",
+  "in_wiki": false,
+  "score": 1013,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 361890,
+  "name": "World of Tanks: Heat",
+  "in_wiki": false,
+  "score": 1011,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1334,
+  "name": "Brothers: A Tale of Two Sons",
+  "in_wiki": false,
+  "score": 1010,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 117297,
+  "name": "Aion 2",
+  "in_wiki": false,
+  "score": 1000,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 395525,
+  "name": "Minecraft Dungeons II",
+  "in_wiki": false,
+  "score": 997,
+  "platforms": [
+   6,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 400379,
+  "name": "Madden NFL 27",
+  "in_wiki": false,
+  "score": 996,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 2033,
+  "name": "Call of Duty: Ghosts",
+  "in_wiki": false,
+  "score": 995,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 305160,
+  "name": "Gears of War: E-Day",
+  "in_wiki": false,
+  "score": 990,
+  "platforms": [
+   6,
+   169
+  ]
+ },
+ {
+  "igdb_id": 7601,
+  "name": "Plague Inc: Evolved",
+  "in_wiki": false,
+  "score": 980,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 228374,
+  "name": "The Binding of Isaac: Repentance",
+  "in_wiki": false,
+  "score": 980,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 52189,
+  "name": "Grand Theft Auto VI",
+  "in_wiki": false,
+  "score": 979,
+  "platforms": [
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 381248,
+  "name": "Star Wars: Galactic Racer",
+  "in_wiki": false,
+  "score": 978,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 308034,
+  "name": "NBA 2K25",
+  "in_wiki": false,
+  "score": 972,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 290671,
+  "name": "Night Crows",
+  "in_wiki": false,
+  "score": 972,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 236664,
+  "name": "Fantasy Life i: The Girl Who Steals Time",
+  "in_wiki": false,
+  "score": 958,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 339985,
+  "name": "Shadowverse: Worlds Beyond",
+  "in_wiki": false,
+  "score": 958,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 388285,
+  "name": "Wardogs",
+  "in_wiki": false,
+  "score": 955,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 101461,
+  "name": "Green Hell",
+  "in_wiki": false,
+  "score": 953,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 144274,
+  "name": "The Bazaar",
+  "in_wiki": false,
+  "score": 953,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 256467,
+  "name": "Tomba! Special Edition",
+  "in_wiki": false,
+  "score": 949,
+  "platforms": [
+   6,
+   48,
+   130,
+   167
+  ]
+ },
+ {
+  "igdb_id": 78511,
+  "name": "Forza Motorsport",
+  "in_wiki": false,
+  "score": 948,
+  "platforms": [
+   6,
+   169
+  ]
+ },
+ {
+  "igdb_id": 133581,
+  "name": "Rise Online",
+  "in_wiki": false,
+  "score": 947,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 178282,
+  "name": "Honkai: Star Rail",
+  "in_wiki": false,
+  "score": 946,
+  "platforms": [
+   6,
+   34,
+   39,
+   167
+  ]
+ },
+ {
+  "igdb_id": 340570,
+  "name": "Nomad Drive",
+  "in_wiki": false,
+  "score": 946,
+  "platforms": [
+   3,
+   6,
+   167
+  ]
+ },
+ {
+  "igdb_id": 408819,
+  "name": "EA Sports FC 27",
+  "in_wiki": false,
+  "score": 944,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 353901,
+  "name": "NBA 2K26",
+  "in_wiki": false,
+  "score": 936,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 348202,
+  "name": "Aniimo",
+  "in_wiki": false,
+  "score": 936,
+  "platforms": [
+   6,
+   34,
+   39,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 400601,
+  "name": "EA Sports College Football 27",
+  "in_wiki": false,
+  "score": 931,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 172771,
+  "name": "eFootball 2022",
+  "in_wiki": false,
+  "score": 930,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 498,
+  "name": "Borderlands",
+  "in_wiki": false,
+  "score": 929,
+  "platforms": [
+   6,
+   14,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 278790,
+  "name": "Captain & Company",
+  "in_wiki": false,
+  "score": 928,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 373580,
+  "name": "RV There Yet?",
+  "in_wiki": false,
+  "score": 928,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 261146,
+  "name": "Titan Quest II",
+  "in_wiki": false,
+  "score": 924,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 215955,
+  "name": "MapleStory Worlds",
+  "in_wiki": false,
+  "score": 920,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 408771,
+  "name": "NHL 27",
+  "in_wiki": false,
+  "score": 919,
+  "platforms": [
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 325279,
+  "name": "Neon Abyss 2",
+  "in_wiki": false,
+  "score": 916,
+  "platforms": [
+   6,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 18819,
+  "name": "NBA 2K17",
+  "in_wiki": false,
+  "score": 911,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 387374,
+  "name": "MLB The Show 26",
+  "in_wiki": false,
+  "score": 908,
+  "platforms": [
+   6,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 3019,
+  "name": "Starbound",
+  "in_wiki": false,
+  "score": 901,
+  "platforms": [
+   3,
+   6,
+   14,
+   49,
+   169
+  ]
+ },
+ {
+  "igdb_id": 314239,
+  "name": "RoadCraft",
+  "in_wiki": false,
+  "score": 900,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 373021,
+  "name": "Avatar Legends: The Fighting Game",
+  "in_wiki": false,
+  "score": 888,
+  "platforms": [
+   6,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 288741,
+  "name": "9 Kings",
+  "in_wiki": false,
+  "score": 887,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 131890,
+  "name": "Sea of Stars",
+  "in_wiki": false,
+  "score": 883,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 63350,
+  "name": "GeoGuessr",
+  "in_wiki": false,
+  "score": 881,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 159029,
+  "name": "XDefiant",
+  "in_wiki": false,
+  "score": 875,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 305006,
+  "name": "Sid Meier's Civilization VII",
+  "in_wiki": false,
+  "score": 874,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 162235,
+  "name": "Mir 4",
+  "in_wiki": false,
+  "score": 874,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 109029,
+  "name": "Raid: Shadow Legends",
+  "in_wiki": false,
+  "score": 873,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 320141,
+  "name": "Mistfall Hunter",
+  "in_wiki": false,
+  "score": 871,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 7393,
+  "name": "World of Tanks: Blitz",
+  "in_wiki": false,
+  "score": 871,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   130
+  ]
+ },
+ {
+  "igdb_id": 141233,
+  "name": "Modern Warships",
+  "in_wiki": false,
+  "score": 866,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 387782,
+  "name": "WWE 2K26",
+  "in_wiki": false,
+  "score": 863,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 7292,
+  "name": "Mortal Kombat X",
+  "in_wiki": false,
+  "score": 861,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 371393,
+  "name": "Battlefield REDSEC",
+  "in_wiki": false,
+  "score": 852,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 50090,
+  "name": "Total Conquest",
+  "in_wiki": false,
+  "score": 852,
+  "platforms": [
+   6,
+   34
+  ]
+ },
+ {
+  "igdb_id": 75140,
+  "name": "Kards: The WWII Card Game",
+  "in_wiki": false,
+  "score": 851,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 228542,
+  "name": "Armored Core VI: Fires of Rubicon",
+  "in_wiki": false,
+  "score": 843,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 266041,
+  "name": "Popucom",
+  "in_wiki": false,
+  "score": 835,
+  "platforms": [
+   6,
+   130,
+   167
+  ]
+ },
+ {
+  "igdb_id": 348187,
+  "name": "Grounded 2",
+  "in_wiki": false,
+  "score": 835,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 7570,
+  "name": "Assassin's Creed Rogue",
+  "in_wiki": false,
+  "score": 834,
+  "platforms": [
+   6,
+   130
+  ]
+ },
+ {
+  "igdb_id": 216178,
+  "name": "Football Manager 2023",
+  "in_wiki": false,
+  "score": 830,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 36911,
+  "name": "Dragon Ball FighterZ",
+  "in_wiki": false,
+  "score": 825,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 72813,
+  "name": "Untitled Goose Game",
+  "in_wiki": false,
+  "score": 816,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 340595,
+  "name": "Heartopia",
+  "in_wiki": false,
+  "score": 815,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 115414,
+  "name": "Star Trek Fleet Command",
+  "in_wiki": false,
+  "score": 815,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 9806,
+  "name": "Hyper Light Drifter",
+  "in_wiki": false,
+  "score": 814,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 297683,
+  "name": "The Spell Brigade",
+  "in_wiki": false,
+  "score": 812,
+  "platforms": [
+   6,
+   167
+  ]
+ },
+ {
+  "igdb_id": 7584,
+  "name": "Star Trek Online",
+  "in_wiki": false,
+  "score": 812,
+  "platforms": [
+   6,
+   14,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 148427,
+  "name": "Super Bear Adventure",
+  "in_wiki": false,
+  "score": 812,
+  "platforms": [
+   34,
+   39,
+   130
+  ]
+ },
+ {
+  "igdb_id": 263544,
+  "name": "Paper io 2",
+  "in_wiki": false,
+  "score": 811,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 171816,
+  "name": "Pok\u00e9mon Trading Card Game Live",
+  "in_wiki": false,
+  "score": 810,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 358523,
+  "name": "UltFoot: Football Manager",
+  "in_wiki": false,
+  "score": 807,
+  "platforms": [
+   6,
+   34
+  ]
+ },
+ {
+  "igdb_id": 207393,
+  "name": "NBA 2K23",
+  "in_wiki": false,
+  "score": 806,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 295197,
+  "name": "Farm Together 2",
+  "in_wiki": false,
+  "score": 806,
+  "platforms": [
+   6,
+   14,
+   49,
+   130,
+   167
+  ]
+ },
+ {
+  "igdb_id": 403822,
+  "name": "Deadzone Rogue 2",
+  "in_wiki": false,
+  "score": 803,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 119969,
+  "name": "Shop Titans",
+  "in_wiki": false,
+  "score": 798,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 87210,
+  "name": "Farming Simulator 19",
+  "in_wiki": false,
+  "score": 788,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 92549,
+  "name": "Woozworld",
+  "in_wiki": false,
+  "score": 788,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 279627,
+  "name": "No Rest for the Wicked",
+  "in_wiki": false,
+  "score": 786,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 149340,
+  "name": "No More Room in Hell 2",
+  "in_wiki": false,
+  "score": 780,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 873,
+  "name": "Saints Row: The Third",
+  "in_wiki": false,
+  "score": 777,
+  "platforms": [
+   3,
+   6,
+   130
+  ]
+ },
+ {
+  "igdb_id": 440,
+  "name": "Medieval II: Total War",
+  "in_wiki": false,
+  "score": 774,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 117199,
+  "name": "Goddess of Victory: Nikke",
+  "in_wiki": false,
+  "score": 771,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 293572,
+  "name": "Shape of Dreams",
+  "in_wiki": false,
+  "score": 770,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 325605,
+  "name": "Game of Thrones: Kingsroad",
+  "in_wiki": false,
+  "score": 763,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 317695,
+  "name": "Liar's Bar",
+  "in_wiki": false,
+  "score": 762,
+  "platforms": [
+   6,
+   34
+  ]
+ },
+ {
+  "igdb_id": 224619,
+  "name": "Drug Dealer Simulator 2",
+  "in_wiki": false,
+  "score": 762,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 987,
+  "name": "Halo 3",
+  "in_wiki": false,
+  "score": 760,
+  "platforms": [
+   6,
+   49
+  ]
+ },
+ {
+  "igdb_id": 119342,
+  "name": "Chivalry 2",
+  "in_wiki": false,
+  "score": 759,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 19449,
+  "name": "Dragon Ball: Xenoverse 2",
+  "in_wiki": false,
+  "score": 756,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 191797,
+  "name": "House Flipper 2",
+  "in_wiki": false,
+  "score": 755,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 244178,
+  "name": "Go-Go Town!",
+  "in_wiki": false,
+  "score": 753,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 28856,
+  "name": "The Crew 2",
+  "in_wiki": false,
+  "score": 750,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 143964,
+  "name": "System Shock 2: 25th Anniversary Remaster",
+  "in_wiki": false,
+  "score": 747,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 103381,
+  "name": "CRSED: F.O.A.D.",
+  "in_wiki": false,
+  "score": 746,
+  "platforms": [
+   3,
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 279526,
+  "name": "Mecha Break",
+  "in_wiki": false,
+  "score": 744,
+  "platforms": [
+   6,
+   169
+  ]
+ },
+ {
+  "igdb_id": 55044,
+  "name": "Arena of Valor",
+  "in_wiki": false,
+  "score": 737,
+  "platforms": [
+   34,
+   39,
+   130
+  ]
+ },
+ {
+  "igdb_id": 1981,
+  "name": "Saints Row IV",
+  "in_wiki": false,
+  "score": 724,
+  "platforms": [
+   3,
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 121346,
+  "name": "Risk: Global Domination",
+  "in_wiki": false,
+  "score": 724,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 6705,
+  "name": "A Hat in Time",
+  "in_wiki": false,
+  "score": 720,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 352,
+  "name": "Battlefield: Bad Company 2",
+  "in_wiki": false,
+  "score": 718,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 287578,
+  "name": "F1 24",
+  "in_wiki": false,
+  "score": 717,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 344588,
+  "name": "Chained Beasts",
+  "in_wiki": false,
+  "score": 716,
+  "platforms": [
+   6,
+   14,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 7605,
+  "name": "S.T.A.L.K.E.R.: Call of Pripyat",
+  "in_wiki": false,
+  "score": 714,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 441,
+  "name": "Empire: Total War",
+  "in_wiki": false,
+  "score": 714,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 9531,
+  "name": "Gems of War",
+  "in_wiki": false,
+  "score": 710,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 335439,
+  "name": "PowerWash Simulator 2",
+  "in_wiki": false,
+  "score": 710,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 21642,
+  "name": "Totally Accurate Battle Simulator",
+  "in_wiki": false,
+  "score": 707,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 117294,
+  "name": "Throne and Liberty",
+  "in_wiki": false,
+  "score": 705,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 383019,
+  "name": "Way of the Hunter 2",
+  "in_wiki": false,
+  "score": 705,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 134584,
+  "name": "Returnal",
+  "in_wiki": false,
+  "score": 704,
+  "platforms": [
+   6,
+   167
+  ]
+ },
+ {
+  "igdb_id": 320,
+  "name": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+  "in_wiki": false,
+  "score": 703,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 301506,
+  "name": "Madden NFL 25",
+  "in_wiki": false,
+  "score": 696,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 414526,
+  "name": "Dumb Ways to Build",
+  "in_wiki": false,
+  "score": 696,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 986,
+  "name": "Halo 2",
+  "in_wiki": false,
+  "score": 695,
+  "platforms": [
+   6,
+   49
+  ]
+ },
+ {
+  "igdb_id": 990,
+  "name": "Halo: Reach",
+  "in_wiki": false,
+  "score": 693,
+  "platforms": [
+   6,
+   49
+  ]
+ },
+ {
+  "igdb_id": 654,
+  "name": "Company of Heroes",
+  "in_wiki": false,
+  "score": 691,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 122429,
+  "name": "Firestone: Online Idle RPG",
+  "in_wiki": false,
+  "score": 691,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 122927,
+  "name": "Path of Titans",
+  "in_wiki": false,
+  "score": 691,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 208166,
+  "name": "Hassle Online",
+  "in_wiki": false,
+  "score": 688,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 11059,
+  "name": "Naruto Shippuden: Ultimate Ninja Storm 4",
+  "in_wiki": false,
+  "score": 687,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 232699,
+  "name": "Granblue Fantasy Versus: Rising",
+  "in_wiki": false,
+  "score": 685,
+  "platforms": [
+   6,
+   48,
+   167
+  ]
+ },
+ {
+  "igdb_id": 387070,
+  "name": "Super Battle Golf",
+  "in_wiki": false,
+  "score": 684,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 232571,
+  "name": "Age of Wonders 4",
+  "in_wiki": false,
+  "score": 683,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 238765,
+  "name": "GoreBox",
+  "in_wiki": false,
+  "score": 682,
+  "platforms": [
+   6,
+   34
+  ]
+ },
+ {
+  "igdb_id": 323723,
+  "name": "Mu: Dark Epoch",
+  "in_wiki": false,
+  "score": 680,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 314252,
+  "name": "Dying Light: The Beast",
+  "in_wiki": false,
+  "score": 679,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 152257,
+  "name": "Wartales",
+  "in_wiki": false,
+  "score": 674,
+  "platforms": [
+   6,
+   130,
+   169
+  ]
+ },
+ {
+  "igdb_id": 110411,
+  "name": "Dirt Rally 2.0",
+  "in_wiki": false,
+  "score": 665,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 2682,
+  "name": "LEGO Star Wars: The Complete Saga",
+  "in_wiki": false,
+  "score": 662,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 1338,
+  "name": "Prison Architect",
+  "in_wiki": false,
+  "score": 662,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 5,
+  "name": "Baldur's Gate",
+  "in_wiki": false,
+  "score": 662,
+  "platforms": [
+   3,
+   6,
+   14,
+   39
+  ]
+ },
+ {
+  "igdb_id": 228918,
+  "name": "Haste",
+  "in_wiki": false,
+  "score": 662,
+  "platforms": [
+   3,
+   6,
+   14,
+   49,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 135818,
+  "name": "Pizza Tower",
+  "in_wiki": false,
+  "score": 660,
+  "platforms": [
+   6,
+   130
+  ]
+ },
+ {
+  "igdb_id": 222803,
+  "name": "Age of Mythology: Retold",
+  "in_wiki": false,
+  "score": 657,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 6632,
+  "name": "Call of Duty: Advanced Warfare",
+  "in_wiki": false,
+  "score": 650,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 185238,
+  "name": "The Texas Chain Saw Massacre",
+  "in_wiki": false,
+  "score": 650,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 140427,
+  "name": "My Time at Sandrock",
+  "in_wiki": false,
+  "score": 648,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 142803,
+  "name": "Diablo II: Resurrected",
+  "in_wiki": false,
+  "score": 646,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 314178,
+  "name": "Dragon Ball Gekishin Squadra",
+  "in_wiki": false,
+  "score": 641,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   130,
+   167
+  ]
+ },
+ {
+  "igdb_id": 75300,
+  "name": "One Piece: Bounty Rush",
+  "in_wiki": false,
+  "score": 640,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 250630,
+  "name": "Marathon",
+  "in_wiki": false,
+  "score": 635,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 244341,
+  "name": "Trackline Express",
+  "in_wiki": false,
+  "score": 633,
+  "platforms": [
+   3,
+   6,
+   14,
+   130
+  ]
+ },
+ {
+  "igdb_id": 134483,
+  "name": "Gunfire Reborn",
+  "in_wiki": false,
+  "score": 632,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 105512,
+  "name": "Identity V",
+  "in_wiki": false,
+  "score": 631,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 122120,
+  "name": "The Dark Pictures Anthology: Little Hope",
+  "in_wiki": false,
+  "score": 628,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 136042,
+  "name": "Phantasy Star Online 2 New Genesis",
+  "in_wiki": false,
+  "score": 625,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   169
+  ]
+ },
+ {
+  "igdb_id": 23975,
+  "name": "Bleach: Brave Souls",
+  "in_wiki": false,
+  "score": 614,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 10760,
+  "name": "Bloodstained: Ritual of the Night",
+  "in_wiki": false,
+  "score": 606,
+  "platforms": [
+   6,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 18968,
+  "name": "Call of Duty: Infinite Warfare",
+  "in_wiki": false,
+  "score": 605,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 188574,
+  "name": "Solo Leveling: Arise",
+  "in_wiki": false,
+  "score": 603,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 120176,
+  "name": "Teamfight Tactics",
+  "in_wiki": false,
+  "score": 598,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 1216,
+  "name": "Dead Space 3",
+  "in_wiki": false,
+  "score": 597,
+  "platforms": [
+   6,
+   49
+  ]
+ },
+ {
+  "igdb_id": 114287,
+  "name": "FIFA 20",
+  "in_wiki": false,
+  "score": 596,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 87352,
+  "name": "War Robots",
+  "in_wiki": false,
+  "score": 592,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   169
+  ]
+ },
+ {
+  "igdb_id": 194143,
+  "name": "The Seven Deadly Sins: Origin",
+  "in_wiki": false,
+  "score": 592,
+  "platforms": [
+   6,
+   34,
+   39,
+   167
+  ]
+ },
+ {
+  "igdb_id": 316979,
+  "name": "Deadzone: Rogue",
+  "in_wiki": false,
+  "score": 587,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 244040,
+  "name": "Bellwright",
+  "in_wiki": false,
+  "score": 584,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 133807,
+  "name": "Trackmania",
+  "in_wiki": false,
+  "score": 583,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 308099,
+  "name": "Planet Coaster 2",
+  "in_wiki": false,
+  "score": 582,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 404342,
+  "name": "Bombanana!",
+  "in_wiki": false,
+  "score": 581,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   167
+  ]
+ },
+ {
+  "igdb_id": 37062,
+  "name": "Skull and Bones",
+  "in_wiki": false,
+  "score": 579,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 130475,
+  "name": "PK XD",
+  "in_wiki": false,
+  "score": 577,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 18918,
+  "name": "Northgard",
+  "in_wiki": false,
+  "score": 573,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 152061,
+  "name": "Tiny Tina's Wonderlands",
+  "in_wiki": false,
+  "score": 570,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 400095,
+  "name": "EA Sports UFC 6",
+  "in_wiki": false,
+  "score": 567,
+  "platforms": [
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 194404,
+  "name": "The Quarry",
+  "in_wiki": false,
+  "score": 556,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 261269,
+  "name": "BlazBlue: Entropy Effect",
+  "in_wiki": false,
+  "score": 555,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   167
+  ]
+ },
+ {
+  "igdb_id": 151353,
+  "name": "PlateUp!",
+  "in_wiki": false,
+  "score": 554,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 5973,
+  "name": "Broforce",
+  "in_wiki": false,
+  "score": 553,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 29009,
+  "name": "Lords Mobile",
+  "in_wiki": false,
+  "score": 551,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 3751,
+  "name": "Peggle",
+  "in_wiki": false,
+  "score": 550,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 33663,
+  "name": "Governor of Poker 3",
+  "in_wiki": false,
+  "score": 548,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 20331,
+  "name": "For the King",
+  "in_wiki": false,
+  "score": 543,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 26950,
+  "name": "Marvel's Avengers",
+  "in_wiki": false,
+  "score": 541,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 119416,
+  "name": "Dota Underlords",
+  "in_wiki": false,
+  "score": 537,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 22788,
+  "name": "Granblue Fantasy: Relink",
+  "in_wiki": false,
+  "score": 533,
+  "platforms": [
+   6,
+   48,
+   167
+  ]
+ },
+ {
+  "igdb_id": 36662,
+  "name": "Need for Speed: Payback",
+  "in_wiki": false,
+  "score": 531,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 139858,
+  "name": "Action Taimanin",
+  "in_wiki": false,
+  "score": 530,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 342382,
+  "name": "Madden NFL 26",
+  "in_wiki": false,
+  "score": 526,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 438,
+  "name": "Rome: Total War",
+  "in_wiki": false,
+  "score": 524,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 381154,
+  "name": "Gear.Club Unlimited 3",
+  "in_wiki": false,
+  "score": 521,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 991,
+  "name": "Halo 4",
+  "in_wiki": false,
+  "score": 518,
+  "platforms": [
+   6,
+   49
+  ]
+ },
+ {
+  "igdb_id": 329690,
+  "name": "WWE 2K25",
+  "in_wiki": false,
+  "score": 518,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 318625,
+  "name": "Kernel Hearts",
+  "in_wiki": false,
+  "score": 516,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 68447,
+  "name": "Superliminal",
+  "in_wiki": false,
+  "score": 513,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 178361,
+  "name": "The Dark Pictures Anthology: The Devil in Me",
+  "in_wiki": false,
+  "score": 513,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 204360,
+  "name": "Goat Simulator 3",
+  "in_wiki": false,
+  "score": 506,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 375232,
+  "name": "Halo: Campaign Evolved",
+  "in_wiki": false,
+  "score": 505,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 5335,
+  "name": "Goat Simulator",
+  "in_wiki": false,
+  "score": 504,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 305155,
+  "name": "FragPunk",
+  "in_wiki": false,
+  "score": 503,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 134585,
+  "name": "Sackboy: A Big Adventure",
+  "in_wiki": false,
+  "score": 502,
+  "platforms": [
+   6,
+   48,
+   167
+  ]
+ },
+ {
+  "igdb_id": 171274,
+  "name": "Assetto Corsa Competizione",
+  "in_wiki": true,
+  "score": 499,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 330884,
+  "name": "Magic Chess: Go Go",
+  "in_wiki": false,
+  "score": 493,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 109096,
+  "name": "Krunker",
+  "in_wiki": false,
+  "score": 492,
+  "platforms": [
+   3,
+   6,
+   14,
+   34
+  ]
+ },
+ {
+  "igdb_id": 18366,
+  "name": "Sniper Elite 4",
+  "in_wiki": false,
+  "score": 492,
+  "platforms": [
+   6,
+   14,
+   39,
+   48,
+   49,
+   130,
+   167
+  ]
+ },
+ {
+  "igdb_id": 29667,
+  "name": "Trailmakers",
+  "in_wiki": false,
+  "score": 492,
+  "platforms": [
+   6,
+   48,
+   49,
+   167
+  ]
+ },
+ {
+  "igdb_id": 133409,
+  "name": "Labyrinthine",
+  "in_wiki": false,
+  "score": 492,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 325607,
+  "name": "Screamer",
+  "in_wiki": false,
+  "score": 489,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 174897,
+  "name": "Torchlight: Infinite",
+  "in_wiki": false,
+  "score": 483,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 153,
+  "name": "Star Wars: Jedi Knight - Jedi Academy",
+  "in_wiki": false,
+  "score": 482,
+  "platforms": [
+   6,
+   14,
+   48,
+   130
+  ]
+ },
+ {
+  "igdb_id": 114009,
+  "name": "Dragon Ball Z: Kakarot",
+  "in_wiki": false,
+  "score": 479,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 100413,
+  "name": "Watch Dogs: Legion",
+  "in_wiki": false,
+  "score": 477,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 28107,
+  "name": "Marvel Contest of Champions",
+  "in_wiki": false,
+  "score": 476,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 28278,
+  "name": "Catan Universe",
+  "in_wiki": false,
+  "score": 474,
+  "platforms": [
+   6,
+   14,
+   39,
+   130
+  ]
+ },
+ {
+  "igdb_id": 21593,
+  "name": "Lords of the Fallen",
+  "in_wiki": false,
+  "score": 467,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 273120,
+  "name": "Duet Night Abyss",
+  "in_wiki": false,
+  "score": 463,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 261144,
+  "name": "Oddsparks: An Automation Adventure",
+  "in_wiki": false,
+  "score": 463,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 7444,
+  "name": "Shovel Knight",
+  "in_wiki": false,
+  "score": 462,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 55047,
+  "name": "The Dark Pictures Anthology: Man of Medan",
+  "in_wiki": false,
+  "score": 462,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 300513,
+  "name": "Zwift",
+  "in_wiki": false,
+  "score": 462,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 146957,
+  "name": "Undisputed",
+  "in_wiki": false,
+  "score": 460,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 913,
+  "name": "Tony Hawk's Pro Skater 2",
+  "in_wiki": false,
+  "score": 459,
+  "platforms": [
+   6,
+   14,
+   39
+  ]
+ },
+ {
+  "igdb_id": 139391,
+  "name": "Blue Archive",
+  "in_wiki": false,
+  "score": 458,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 942,
+  "name": "World of Goo",
+  "in_wiki": false,
+  "score": 456,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   130
+  ]
+ },
+ {
+  "igdb_id": 260136,
+  "name": "Strinova",
+  "in_wiki": false,
+  "score": 445,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 27729,
+  "name": "Mordhau",
+  "in_wiki": false,
+  "score": 444,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 12595,
+  "name": "Yakuza Kiwami",
+  "in_wiki": false,
+  "score": 443,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 341592,
+  "name": "Dead as Disco",
+  "in_wiki": false,
+  "score": 442,
+  "platforms": [
+   6,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 9728,
+  "name": "Trove",
+  "in_wiki": false,
+  "score": 441,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 412990,
+  "name": "NASCAR 26",
+  "in_wiki": false,
+  "score": 437,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 12571,
+  "name": "Nioh",
+  "in_wiki": false,
+  "score": 433,
+  "platforms": [
+   6,
+   48
+  ]
+ },
+ {
+  "igdb_id": 16305,
+  "name": "My Singing Monsters",
+  "in_wiki": false,
+  "score": 433,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 3812,
+  "name": "Ryse: Son of Rome",
+  "in_wiki": false,
+  "score": 432,
+  "platforms": [
+   6,
+   49
+  ]
+ },
+ {
+  "igdb_id": 163456,
+  "name": "Lightyear Frontier",
+  "in_wiki": false,
+  "score": 430,
+  "platforms": [
+   6,
+   169
+  ]
+ },
+ {
+  "igdb_id": 328079,
+  "name": "PGA Tour 2K25",
+  "in_wiki": false,
+  "score": 430,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 2113,
+  "name": "Star Wars Battlefront",
+  "in_wiki": false,
+  "score": 427,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 262530,
+  "name": "Killing Floor III",
+  "in_wiki": false,
+  "score": 426,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 2720,
+  "name": "Bully",
+  "in_wiki": false,
+  "score": 421,
+  "platforms": [
+   6,
+   48
+  ]
+ },
+ {
+  "igdb_id": 109666,
+  "name": "Deadside",
+  "in_wiki": false,
+  "score": 418,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 314246,
+  "name": "Borderlands 4",
+  "in_wiki": false,
+  "score": 412,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 2112,
+  "name": "Mirror's Edge Catalyst",
+  "in_wiki": false,
+  "score": 411,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 358527,
+  "name": "Just Dance 2026 Edition",
+  "in_wiki": false,
+  "score": 409,
+  "platforms": [
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 54497,
+  "name": "Comedy Night",
+  "in_wiki": false,
+  "score": 407,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 989,
+  "name": "Halo 3: ODST",
+  "in_wiki": false,
+  "score": 405,
+  "platforms": [
+   6,
+   49
+  ]
+ },
+ {
+  "igdb_id": 30155,
+  "name": "Rocksmith 2014 Edition: Remastered",
+  "in_wiki": false,
+  "score": 404,
+  "platforms": [
+   6,
+   14,
+   49
+  ]
+ },
+ {
+  "igdb_id": 204122,
+  "name": "Placid Plastic Duck Simulator",
+  "in_wiki": false,
+  "score": 401,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 145439,
+  "name": "Escape Simulator",
+  "in_wiki": false,
+  "score": 400,
+  "platforms": [
+   3,
+   6,
+   14,
+   49,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1908,
+  "name": "Neverwinter",
+  "in_wiki": false,
+  "score": 395,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 4756,
+  "name": "Child of Light",
+  "in_wiki": false,
+  "score": 394,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 36198,
+  "name": "Children of Morta",
+  "in_wiki": false,
+  "score": 391,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 132185,
+  "name": "Punishing: Gray Raven",
+  "in_wiki": false,
+  "score": 386,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 144098,
+  "name": "Sun Haven",
+  "in_wiki": false,
+  "score": 385,
+  "platforms": [
+   6,
+   14,
+   130
+  ]
+ },
+ {
+  "igdb_id": 103337,
+  "name": "Divinity: Original Sin II - Definitive Edition",
+  "in_wiki": false,
+  "score": 382,
+  "platforms": [
+   6,
+   14,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 96209,
+  "name": "FIFA 19",
+  "in_wiki": false,
+  "score": 381,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 54538,
+  "name": "Magic: The Gathering Arena",
+  "in_wiki": false,
+  "score": 378,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 369991,
+  "name": "Dynasty Warriors 3: Complete Edition Remastered",
+  "in_wiki": false,
+  "score": 374,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 11287,
+  "name": "Beach Buggy Racing",
+  "in_wiki": false,
+  "score": 373,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 14758,
+  "name": "Ace Combat 7: Skies Unknown",
+  "in_wiki": false,
+  "score": 369,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 105254,
+  "name": "Codenames",
+  "in_wiki": false,
+  "score": 369,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 329371,
+  "name": "Cubic Odyssey",
+  "in_wiki": false,
+  "score": 366,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 279635,
+  "name": "The Casting of Frank Stone",
+  "in_wiki": false,
+  "score": 362,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 342721,
+  "name": "Gears of War: Reloaded",
+  "in_wiki": false,
+  "score": 362,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 200449,
+  "name": "Off The Grid",
+  "in_wiki": false,
+  "score": 361,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 219442,
+  "name": "Need for Speed: Unbound",
+  "in_wiki": false,
+  "score": 361,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 2668,
+  "name": "FlatOut 2",
+  "in_wiki": false,
+  "score": 357,
+  "platforms": [
+   3,
+   6,
+   14,
+   49
+  ]
+ },
+ {
+  "igdb_id": 1404,
+  "name": "Metal Slug",
+  "in_wiki": false,
+  "score": 356,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 119239,
+  "name": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+  "in_wiki": false,
+  "score": 353,
+  "platforms": [
+   6,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 282692,
+  "name": "Goblin Cleanup",
+  "in_wiki": false,
+  "score": 353,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 97494,
+  "name": "Umamusume: Pretty Derby",
+  "in_wiki": false,
+  "score": 350,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 32614,
+  "name": "Titan Quest Anniversary Edition",
+  "in_wiki": false,
+  "score": 348,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 113111,
+  "name": "Far Cry New Dawn",
+  "in_wiki": false,
+  "score": 346,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 410664,
+  "name": "Grizzy & the Lemmings: Crazy Party",
+  "in_wiki": false,
+  "score": 345,
+  "platforms": [
+   6,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 19577,
+  "name": "Star Wars: Galaxy of Heroes",
+  "in_wiki": false,
+  "score": 343,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 389428,
+  "name": "Crimson Moon",
+  "in_wiki": false,
+  "score": 341,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 279687,
+  "name": "Level Devil",
+  "in_wiki": false,
+  "score": 339,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 41621,
+  "name": "Football Manager 2019",
+  "in_wiki": false,
+  "score": 329,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 116174,
+  "name": "Axis & Allies 1942 Online",
+  "in_wiki": false,
+  "score": 328,
+  "platforms": [
+   3,
+   6,
+   14,
+   39
+  ]
+ },
+ {
+  "igdb_id": 36649,
+  "name": "Tropico 6",
+  "in_wiki": false,
+  "score": 327,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 248235,
+  "name": "JDM: Japanese Drift Master",
+  "in_wiki": false,
+  "score": 326,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 121586,
+  "name": "Wingspan",
+  "in_wiki": false,
+  "score": 324,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 220348,
+  "name": "Backrooms: Escape Together",
+  "in_wiki": false,
+  "score": 323,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 7725,
+  "name": "Resident Evil: Revelations 2",
+  "in_wiki": false,
+  "score": 322,
+  "platforms": [
+   6,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 188377,
+  "name": "Mabinogi Mobile",
+  "in_wiki": false,
+  "score": 320,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 262712,
+  "name": "Ananta",
+  "in_wiki": false,
+  "score": 314,
+  "platforms": [
+   6,
+   34,
+   39,
+   167
+  ]
+ },
+ {
+  "igdb_id": 1880,
+  "name": "Baldur's Gate: Enhanced Edition",
+  "in_wiki": false,
+  "score": 313,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 145341,
+  "name": "Rounds",
+  "in_wiki": false,
+  "score": 311,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 7886,
+  "name": "Crypt of the NecroDancer",
+  "in_wiki": false,
+  "score": 310,
+  "platforms": [
+   3,
+   6,
+   14,
+   39,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 152,
+  "name": "Star Wars: Jedi Knight II - Jedi Outcast",
+  "in_wiki": false,
+  "score": 308,
+  "platforms": [
+   6,
+   14,
+   48,
+   130
+  ]
+ },
+ {
+  "igdb_id": 252846,
+  "name": "Sand: Raiders Of Sophie",
+  "in_wiki": false,
+  "score": 306,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 124701,
+  "name": "Legends of Runeterra",
+  "in_wiki": false,
+  "score": 298,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 2050,
+  "name": "LEGO Marvel Super Heroes",
+  "in_wiki": false,
+  "score": 298,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 96476,
+  "name": "Horizon Chase Turbo",
+  "in_wiki": false,
+  "score": 293,
+  "platforms": [
+   3,
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 143000,
+  "name": "Across the Obelisk",
+  "in_wiki": false,
+  "score": 292,
+  "platforms": [
+   3,
+   6,
+   14,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 23314,
+  "name": "Asphalt Legends",
+  "in_wiki": false,
+  "score": 291,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   48,
+   49,
+   130,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 24920,
+  "name": "Call of Duty: Modern Warfare Remastered",
+  "in_wiki": false,
+  "score": 288,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 352188,
+  "name": "Tanks Blitz",
+  "in_wiki": false,
+  "score": 288,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 19470,
+  "name": "Injustice 2",
+  "in_wiki": false,
+  "score": 281,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 329146,
+  "name": "EA Sports College Football 26",
+  "in_wiki": false,
+  "score": 280,
+  "platforms": [
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 240558,
+  "name": "F1 23",
+  "in_wiki": false,
+  "score": 279,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 165055,
+  "name": "Splinterlands",
+  "in_wiki": false,
+  "score": 279,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 562,
+  "name": "Tom Clancy's Splinter Cell: Conviction",
+  "in_wiki": false,
+  "score": 278,
+  "platforms": [
+   6,
+   14,
+   34,
+   39,
+   49
+  ]
+ },
+ {
+  "igdb_id": 375887,
+  "name": "NBA The Run",
+  "in_wiki": false,
+  "score": 278,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 243017,
+  "name": "Void Crew",
+  "in_wiki": false,
+  "score": 276,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 188228,
+  "name": "Age of History II",
+  "in_wiki": false,
+  "score": 274,
+  "platforms": [
+   6,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 135999,
+  "name": "Tetris Effect: Connected",
+  "in_wiki": false,
+  "score": 273,
+  "platforms": [
+   6,
+   48,
+   49,
+   130,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 119422,
+  "name": "eFootball PES 2020",
+  "in_wiki": false,
+  "score": 271,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 7081,
+  "name": "Battlefield Hardline",
+  "in_wiki": false,
+  "score": 269,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 268010,
+  "name": "Earth Defense Force: World Brothers 2",
+  "in_wiki": false,
+  "score": 261,
+  "platforms": [
+   6,
+   48,
+   130,
+   167
+  ]
+ },
+ {
+  "igdb_id": 323090,
+  "name": "CarX Street",
+  "in_wiki": false,
+  "score": 258,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 127343,
+  "name": "Godfall",
+  "in_wiki": false,
+  "score": 257,
+  "platforms": [
+   6,
+   48,
+   49,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 1265,
+  "name": "PlanetSide 2",
+  "in_wiki": false,
+  "score": 253,
+  "platforms": [
+   6,
+   48
+  ]
+ },
+ {
+  "igdb_id": 331151,
+  "name": "Storebound",
+  "in_wiki": false,
+  "score": 251,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 4969,
+  "name": "LEGO The Lord of the Rings",
+  "in_wiki": false,
+  "score": 245,
+  "platforms": [
+   6,
+   14,
+   34,
+   39
+  ]
+ },
+ {
+  "igdb_id": 114455,
+  "name": "Pacify",
+  "in_wiki": false,
+  "score": 244,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130
+  ]
+ },
+ {
+  "igdb_id": 138560,
+  "name": "Slendytubbies III",
+  "in_wiki": false,
+  "score": 244,
+  "platforms": [
+   6,
+   34
+  ]
+ },
+ {
+  "igdb_id": 27310,
+  "name": "We Were Here",
+  "in_wiki": false,
+  "score": 243,
+  "platforms": [
+   6,
+   14,
+   48,
+   49,
+   130,
+   167
+  ]
+ },
+ {
+  "igdb_id": 293035,
+  "name": "Luma Island",
+  "in_wiki": false,
+  "score": 243,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 194950,
+  "name": "Solarpunk",
+  "in_wiki": false,
+  "score": 242,
+  "platforms": [
+   6,
+   167,
+   169,
+   508
+  ]
+ },
+ {
+  "igdb_id": 119207,
+  "name": "Aquapark.io",
+  "in_wiki": false,
+  "score": 242,
+  "platforms": [
+   6,
+   34,
+   39,
+   130
+  ]
+ },
+ {
+  "igdb_id": 28863,
+  "name": "WRC 7",
+  "in_wiki": false,
+  "score": 241,
+  "platforms": [
+   6,
+   48,
+   49
+  ]
+ },
+ {
+  "igdb_id": 152202,
+  "name": "Avatar: Frontiers of Pandora",
+  "in_wiki": false,
+  "score": 240,
+  "platforms": [
+   6,
+   167,
+   169
+  ]
+ },
+ {
+  "igdb_id": 55190,
+  "name": "Pikuniku",
+  "in_wiki": false,
+  "score": 236,
+  "platforms": [
+   3,
+   6,
+   14,
+   34,
+   39,
+   49,
+   130
+  ]
+ }
+]

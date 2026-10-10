@@ -1,0 +1,1485 @@
+{
+ "games": [
+  {
+   "title": "7 Days to Die",
+   "igdb_id": 5574,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "PC-to-console crossplay arrived with the V1.2 update. Turn on General → Crossplay Enabled; on PC the server also needs Easy Anti-Cheat on. Crossplay games are limited to 8 players."
+   ],
+   "sources": [
+    {
+     "title": "7 Days to Die 1.2 and beyond",
+     "url": "https://7d2d.net/7-days-to-die-1-2-and-beyond/"
+    },
+    {
+     "title": "7 Days to Die crossplay answered (Insider Gaming)",
+     "url": "https://insider-gaming.com/7-days-to-die-crossplay-answered/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Arma Reforger",
+   "igdb_id": 201789,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay depends on the server: it has to allow every platform, and PC-only mods can lock console players out. Consoles can't host their own dedicated servers."
+   ],
+   "sources": [
+    {
+     "title": "Cross-play brings a big rise in player numbers (Gameswelt)",
+     "url": "https://www.gameswelt.de/arma-reforger/news/cross-play-sorgt-fuer-deutlichen-anstieg-der-spielerzahlen-329364"
+    },
+    {
+     "title": "Arma Reforger crossplay: PC, Xbox & PS5",
+     "url": "https://xgamingserver.com/blog/arma-reforger-crossplay-pc-xbox-ps5/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Baldur's Gate 3",
+   "igdb_id": 119171,
+   "replaces": [
+    "Baldur's Gate III"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "GOG"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay arrived with Patch 8 in April 2025. Cross-platform lobbies are under Multiplayer → Cross-Play and use a Larian account.",
+    "Mods work in crossplay as long as everyone in the lobby has the same mods installed."
+   ],
+   "sources": [
+    {
+     "title": "Baldur's Gate 3 Patch 8 is now live, bringing cross-play",
+     "url": "https://www.rpgsite.net/news/17210-baldurs-gate-3-patch-8-notes-crossplay-12-subclasses-photo-mode-full-update"
+    },
+    {
+     "title": "Baldur's Gate 3 'Patch 8' now live on Xbox",
+     "url": "https://www.purexbox.com/news/2025/04/baldurs-gate-3-patch-8-now-live-on-xbox-the-games-final-major-update"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Call of Duty: Black Ops 6",
+   "igdb_id": 302156,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Battle.net",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay needs an Activision account, which also carries your progress across platforms.",
+    "Console players can limit matchmaking to consoles (including in Ranked). On PC, Steam and Battle.net players can't turn crossplay off; Xbox app players can."
+   ],
+   "sources": [
+    {
+     "title": "Crossplay in Black Ops 6 (Activision Support)",
+     "url": "https://support.activision.com/black-ops-6/articles/crossplay-in-black-ops-6"
+    },
+    {
+     "title": "Warzone and Black Ops 6 Ranked console-only cross-play explained (Sportskeeda)",
+     "url": "https://sportskeeda.com/call-of-duty-game/warzone-black-ops-6-ranked-play-console-cross-play-explained"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Call of Duty: Black Ops 7",
+   "igdb_id": 348220,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Battle.net"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay is on by default; you can turn it off in the settings to only match players on your own console family. Progress is tied to your Activision account, so it carries across platforms."
+   ],
+   "sources": [
+    {
+     "title": "Is Black Ops 7 cross-platform? (Digital Trends)",
+     "url": "https://www.digitaltrends.com/gaming/is-black-ops-7-cross-platform/"
+    },
+    {
+     "title": "Black Ops 7 crossplay and cross-progression explained (God is a Geek)",
+     "url": "https://godisageek.com/2026/09/black-ops-7-crossplay-explained/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Conan Exiles",
+   "igdb_id": 16999,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC, Xbox and PlayStation players can't join each other's servers; each console family plays across generations. Since the Enhanced (Unreal Engine 5) update in 2026, check that PC friends are on the same build."
+   ],
+   "sources": [
+    {
+     "title": "Is Conan Exiles cross-platform? (Prima Games)",
+     "url": "https://primagames.com/?p=251346"
+    },
+    {
+     "title": "Is Conan Exiles crossplay? PC, Xbox and PlayStation",
+     "url": "https://www.gameserverkings.com/knowledge-base/conan-exiles/conan-exiles-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Dead Island 2",
+   "igdb_id": 7329,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Dambuster's technical FAQ says Dead Island 2 won't support crossplay. Co-op works across console generations (PS4 with PS5, Xbox One with Series X|S), and Steam and Epic players can play together on PC."
+   ],
+   "sources": [
+    {
+     "title": "Dead Island 2 cross-play and co-op explained (GameSpot)",
+     "url": "https://gamespot.com/articles/dead-island-2-crossplay-and-co-op-explained/1100-6513005/"
+    },
+    {
+     "title": "Is Dead Island 2 crossplay on PlayStation, Xbox and PC? (GamesRadar)",
+     "url": "https://www.gamesradar.com/dead-island-2-crossplay"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Dune: Awakening",
+   "igdb_id": 214394,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "partial",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    }
+   ],
+   "separate": [
+    "ps5"
+   ],
+   "notes": [
+    "Xbox and the Microsoft Store version on PC play together (Xbox Play Anywhere). Steam and PS5 players aren't connected to other platforms yet. Funcom says full crossplay is coming after the console launch but hasn't given a date."
+   ],
+   "sources": [
+    {
+     "title": "Dune: Awakening's full console launch (RPG Site)",
+     "url": "https://www.rpgsite.net/news/21445-dune-awakenings-full-console-launch-arrives-tomorrow-new-single-player-mode-available-for-all"
+    },
+    {
+     "title": "Dune: Awakening will receive cross-play support after its console launch (KitGuru)",
+     "url": "https://www.kitguru.net/?p=745280"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "EA Sports FC 26",
+   "igdb_id": 353848,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "xone": "yes"
+     }
+    }
+   ],
+   "separate": [
+    "switch",
+    "switch2"
+   ],
+   "notes": [
+    "Crossplay is split by console generation: PS5, Xbox Series X|S and PC play together, while PS4 and Xbox One have their own pool. Switch and Switch 2 don't have crossplay.",
+    "Crossplay covers Ultimate Team, Clubs and online Seasons. Turn it on or off under Online Settings → Matchmaking Options."
+   ],
+   "sources": [
+    {
+     "title": "Is FC 26 cross-platform? (The Signal)",
+     "url": "https://signalscv.com/2025/11/is-fc-26-cross-platform-everything-you-need-to-know/"
+    },
+    {
+     "title": "EA FC 26: Crossplay, cross-platform and modes (Mein-MMO)",
+     "url": "https://mein-mmo.de/ea-fc-26-crossplay-crossprogression/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Elden Ring",
+   "igdb_id": 119133,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Co-op and invasions only work within one platform family: PS4 with PS5, and Xbox One with Xbox Series X|S. PC players only meet other PC players."
+   ],
+   "sources": [
+    {
+     "title": "Elden Ring crossplay: is there cross-platform multiplayer? (TechRadar)",
+     "url": "https://www.techradar.com/how-to/elden-ring-crossplay-does-the-game-support-crossplatform-multiplayer"
+    },
+    {
+     "title": "Elden Ring crossplay (GameRevolution)",
+     "url": "https://www.gamerevolution.com/guides/695099-elden-ring-crossplay-playstation-xbox-pc-cross-platform-multiplayer"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Elden Ring Nightreign",
+   "igdb_id": 325591,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Director Junya Ishizaki: \"Similar to the original Elden Ring, there will be cross-generational play but not cross-platform play.\" PS4 and PS5 play together, as do Xbox One and Xbox Series X|S."
+   ],
+   "sources": [
+    {
+     "title": "Elden Ring: Nightreign won't feature crossplay (MP1st)",
+     "url": "https://mp1st.com/news/elden-ring-nightreign-wont-feature-crossplay-for-multiplayer"
+    },
+    {
+     "title": "Does Elden Ring Nightreign have crossplay support? (Destructoid)",
+     "url": "https://destructoid.com/does-elden-ring-nightreign-have-crossplay"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "F1 25",
+   "igdb_id": 336964,
+   "replaces": [
+    "EA Sports F1 25"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay works in F1 World, Ranked, Unranked, Leagues and custom lobbies. Turn it off under Settings → Crossplay to only match players on your platform."
+   ],
+   "sources": [
+    {
+     "title": "How to use cross-play in EA Sports F1 25 (EA Help)",
+     "url": "https://help.ea.com/en/help/f1/f1-25/how-to-use-crossplay-in-f1-25/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Fallout 76",
+   "igdb_id": 103020,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "separate": [
+    "ps4",
+    "xone"
+   ],
+   "notes": [
+    "PC, Xbox and PlayStation players are on separate servers. On PC, linking one Bethesda.net account to both the Steam and Microsoft Store versions shares your characters between them.",
+    "Bethesda said in February 2026 that it is looking into crossplay but called it a big technical job with no timeline."
+   ],
+   "sources": [
+    {
+     "title": "Bethesda is looking into Fallout 76 crossplay (Hitmarker)",
+     "url": "https://hitmarker.net/news/bethesda-is-looking-into-fallout-76-crossplay-but-big-technical-hurdles-stand-in-its-way-1642386"
+    },
+    {
+     "title": "Bethesda revisits Fallout 76 cross-play (Notebookcheck)",
+     "url": "https://www.notebookcheck.net/Bethesda-revisits-Fallout-76-cross-play-and-cross-progression-demands-calls-it-a-huge-technical-lift.1130766.0.html"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Farming Simulator 25",
+   "igdb_id": 306822,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC, PS5 and Xbox Series players can farm together on the same server. PC mods that aren't on consoles will block console players from joining."
+   ],
+   "sources": [
+    {
+     "title": "Farming Simulator 25 crossplay (G-Portal wiki)",
+     "url": "https://www.g-portal.com/wiki/en/farming-simulator-25-crossplay"
+    },
+    {
+     "title": "Farming Simulator 25 (PC) on the Xbox store",
+     "url": "https://www.xbox.com/en-ZA/games/store/_/9PM709J61828"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "For Honor",
+   "igdb_id": 11162,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay joined the PC, PlayStation and Xbox matchmaking pools in March 2022 for PvP and PvE. Ranked, the campaign, training and arcade aren't crossplay.",
+    "Crossplay is on by default and can be turned off in the settings."
+   ],
+   "sources": [
+    {
+     "title": "For Honor crossplay FAQ (Ubisoft)",
+     "url": "https://www.ubisoft.com/en-gb/game/for-honor/news-updates/6CEiFtf2W76xTBJZPY2LGW/for-honor-crossplay-faq"
+    },
+    {
+     "title": "For Honor crossplay (TheGamer)",
+     "url": "https://www.thegamer.com/for-honor-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Grand Theft Auto V",
+   "igdb_id": 1020,
+   "crossplay": false,
+   "notes": [
+    "GTA Online keeps every platform on its own servers. On PC, the Enhanced and Legacy editions are separate as well."
+   ],
+   "sources": [
+    {
+     "title": "Does GTA Online have crossplay & cross-progression?",
+     "url": "https://www.ggrecon.com/guides/gta-online-crossplay-cross-platform-progression/"
+    },
+    {
+     "title": "GTA 5: Does the game support cross-platform?",
+     "url": "https://sportskeeda.com/esports/is-gta-5-cross-platform"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "It Takes Two",
+   "igdb_id": 135243,
+   "crossplay": false,
+   "notes": [
+    "It Takes Two's online co-op only works with a partner on the same platform, and that includes the Friend's Pass. Hazelight's next game, Split Fiction, does have crossplay."
+   ],
+   "sources": [
+    {
+     "title": "Split Fiction Friend Pass goes cross-platform (vs It Takes Two)",
+     "url": "https://stevivor.com/news/split-ficton-friend-pass-goes-cross-platform-letting-a-friend-play-for-free-anywhere"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Marvel Rivals",
+   "igdb_id": 294041,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Quick Play, Conquest and custom games mix every platform. Ranked is split: PC players only play ranked against PC, while PS5 and Xbox share a console ranked pool."
+   ],
+   "sources": [
+    {
+     "title": "Marvel Rivals crossplay and cross-progression guide (PCGamesN)",
+     "url": "https://www.pcgamesn.com/marvel-rivals/crossplay"
+    },
+    {
+     "title": "Is Marvel Rivals crossplay? (ProSettings)",
+     "url": "https://prosettings.net/blog/marvel-rivals-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Monster Hunter Wilds",
+   "igdb_id": 279661,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay is on by default (Options → Game Settings). There's no cross-save: Capcom keeps save data and paid DLC separate on each platform."
+   ],
+   "sources": [
+    {
+     "title": "Monster Hunter Wilds supports cross-play across PS5, Xbox Series X|S and Steam (RPG Site)",
+     "url": "https://www.rpgsite.net/news/15918-monster-hunter-wilds-supports-cross-play-across-ps5-xbox-series-xs-and-steam-when-it-launches-in-2025-worldwide-simultaneously"
+    },
+    {
+     "title": "Monster Hunter Wilds crossplay (PCGamesN)",
+     "url": "https://www.pcgamesn.com/monster-hunter-wilds/crossplay"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Once Human",
+   "igdb_id": 204538,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "The PS5 and Xbox versions launched in August 2026 with full crossplay and cross-progression. Existing PC and mobile players can link their accounts."
+   ],
+   "sources": [
+    {
+     "title": "Once Human launches on PlayStation 5 and Xbox Series X|S with crossplay support (Massively OP)",
+     "url": "https://massivelyop.com/2026/08/26/once-human-launches-on-playstation-5-and-xbox-series-xs-with-crossplay-support/"
+    },
+    {
+     "title": "Once Human launches on Xbox Series X and S with cross progression (Digital Citizen)",
+     "url": "https://www.digitalcitizen.life/once-human-launches-on-xbox-series-x-and-series-s-on-august-25-with-cross-progression/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Palworld",
+   "igdb_id": 151665,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay arrived in version 0.5.0 (March 2025) and covers every platform the game is on. Your saves don't carry over between platforms."
+   ],
+   "sources": [
+    {
+     "title": "Palworld's crossplay update now live on Xbox: full patch notes",
+     "url": "https://www.purexbox.com/news/2025/03/palworlds-crossplay-update-now-live-on-xbox-here-are-the-full-patch-notes"
+    },
+    {
+     "title": "Palworld Update 0.5.0 patch notes",
+     "url": "https://shacknews.com/article/143534/palworld-update-050-patch-notes"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Path of Exile 2",
+   "igdb_id": 125642,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Progress carries across platforms through cross-progression. Console players are matched with other console players unless they party up with someone on PC.",
+    "Console players can turn crossplay off in their system's privacy settings; PC has no off switch."
+   ],
+   "sources": [
+    {
+     "title": "Path of Exile 2 on consoles: couch co-op and simultaneous early access",
+     "url": "https://www.gamedeveloper.com/press-release/path-of-exile-2-on-consoles-couch-co-op-and-simultaneous-early-access"
+    },
+    {
+     "title": "Does Path of Exile 2 have crossplay and cross-progression?",
+     "url": "https://www.pcgamesn.com/path-of-exile-2/crossplay"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Payday 3",
+   "igdb_id": null,
+   "replaces": [
+    "PAYDAY 3"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay needs a Starbreeze account. You're offered crossplay on first launch, and you can change it later in the settings."
+   ],
+   "sources": [
+    {
+     "title": "Is Payday 3 crossplay? (Destructoid)",
+     "url": "https://destructoid.com/is-payday-3-crossplay"
+    },
+    {
+     "title": "Payday 3 crossplay (Digital Trends)",
+     "url": "https://uat4.www.digitaltrends.com/?p=3427365"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Phasmophobia",
+   "igdb_id": 132516,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay includes VR players on PC and PS VR2. To play with a friend on another platform, host a room and share its code; you both need to be on the same regional server."
+   ],
+   "sources": [
+    {
+     "title": "Phasmophobia coming to Xbox Series X, PS5 & PS VR2",
+     "url": "https://shacknews.com/article/135938/phasmophobia-xbox-ps5-release"
+    },
+    {
+     "title": "Phasmophobia coming to PS5, PS VR2 and Xbox Series (Gematsu)",
+     "url": "https://www.gematsu.com/2023/06/phasmophobia-coming-to-ps5-ps-vr2-and-xbox-series-in-early-access-in-august"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Ready or Not",
+   "igdb_id": 28489,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay arrived with the console launch on July 15, 2025. There's no cross-progression, so PC progress doesn't carry over to consoles."
+   ],
+   "sources": [
+    {
+     "title": "Ready or Not crossplay (Insider Gaming)",
+     "url": "https://insider-gaming.com/ready-or-not-crossplay/"
+    },
+    {
+     "title": "Ready or Not is out now on consoles (press release)",
+     "url": "https://gamespress.westeu-v2.propressroom.com/Ready-or-Not-the-hit-tactical-FPS-from-VOID-Interactive-is-OUT-NOW-on-"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Red Dead Redemption 2",
+   "igdb_id": 25076,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Red Dead Online has no crossplay or cross-progression. PS5 and Xbox Series players run the PS4 and Xbox One versions, so they can play with last-gen friends on the same console family."
+   ],
+   "sources": [
+    {
+     "title": "Is Red Dead Online cross-platform? (Dexerto)",
+     "url": "https://www.dexerto.com/guides/is-red-dead-online-cross-platform-1831133"
+    },
+    {
+     "title": "Is Red Dead Online cross platform? (esports.gg)",
+     "url": "https://esports.gg/news/gaming/is-red-dead-online-cross-platform/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Risk of Rain 2",
+   "igdb_id": 28512,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Steam and Epic players can play together once they link accounts. Consoles only play within their own family, and there's no PC-to-console crossplay or cross-progression."
+   ],
+   "sources": [
+    {
+     "title": "Is Risk of Rain 2 cross platform? Answered (Prima Games)",
+     "url": "https://primagames.com/tips/is-risk-of-rain-2-cross-platform-answered"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "RuneScape: Dragonwilds",
+   "igdb_id": 337712,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "switch2": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay arrived with the 1.0 launch on September 15, 2026. The host turns crossplay on when creating or loading a world. Worlds hold up to four players (six on dedicated servers), and there's no cross-save."
+   ],
+   "sources": [
+    {
+     "title": "RuneScape: Dragonwilds is now available on PS5, Xbox, Switch 2 and PC (RPG Site)",
+     "url": "https://www.rpgsite.net/news/21386-runescape-dragonwilds-download-ps5-xbox-switch-2-pc-steam"
+    },
+    {
+     "title": "RuneScape: Dragonwilds cross-play (FandomWire)",
+     "url": "https://fandomwire.com/runescape-dragonwilds-cross-play/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Satisfactory",
+   "igdb_id": 90558,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    },
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Steam and Epic players play together, and PS5 and Xbox players play together, but PC and console can't mix. Coffee Stain keeps them apart because PC mods and save edits can destabilise a session. Consoles need an Epic Games account to host or join."
+   ],
+   "sources": [
+    {
+     "title": "Console release (Official Satisfactory Wiki)",
+     "url": "https://satisfactory.wiki.gg/wiki/Console_release"
+    },
+    {
+     "title": "Is Satisfactory crossplay? PC, PS5 and Xbox explained",
+     "url": "https://www.gameserverkings.com/knowledge-base/satisfactory/satisfactory-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Smite 2",
+   "igdb_id": 282566,
+   "replaces": [
+    "SMITE 2"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Full crossplay and cross-progression: your unlocks follow your account between PC and console. There's no PS4 or Xbox One version."
+   ],
+   "sources": [
+    {
+     "title": "SMITE 2 (Xbox Store listing)",
+     "url": "https://xbox.com/en-IN/games/store/smite-2/9NV8W1KJSQLL"
+    },
+    {
+     "title": "SMITE 2 announced for PS5, Xbox Series and PC (Gematsu)",
+     "url": "https://gematsu.com/2024/01/smite-2-announced-for-ps5-xbox-series-and-pc"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Split Fiction",
+   "igdb_id": 325594,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "switch2": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Only one player needs to own the game: the other can join free with the Friend's Pass on any of these platforms. Invites go through the in-game EA friends list, so both players need an EA account."
+   ],
+   "sources": [
+    {
+     "title": "Split Fiction Friend's Pass (EA)",
+     "url": "https://www.ea.com/sv/games/split-fiction/split-fiction/features/friends-pass-playstation"
+    },
+    {
+     "title": "How to play Split Fiction (EA Help)",
+     "url": "https://help.ea.com/dk/help/split-fiction/how-to-play"
+    },
+    {
+     "title": "Split Fiction Friend Pass goes cross-platform",
+     "url": "https://stevivor.com/news/split-ficton-friend-pass-goes-cross-platform-letting-a-friend-play-for-free-anywhere"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Stardew Valley",
+   "igdb_id": 17000,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "GOG",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Computers can play together: Steam, GOG and Microsoft Store players on Windows, Mac and Linux. Consoles only play with the same console, and ConcernedApe has said the technical barriers to console crossplay are very high."
+   ],
+   "sources": [
+    {
+     "title": "Is Stardew Valley cross-platform? A complete overview (esports.gg)",
+     "url": "https://esports.gg/news/gaming/is-stardew-valley-cross-platform-a-complete-overview"
+    },
+    {
+     "title": "Pas de crossplay pour le multijoueur de Stardew Valley (ActuGaming)",
+     "url": "https://www.actugaming.net/?p=163274"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Stumble Guys",
+   "igdb_id": 142391,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch": "yes",
+      "ios": "yes",
+      "android": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Every version plays together, and progress carries across devices (cross-progression)."
+   ],
+   "sources": [
+    {
+     "title": "Stumble Guys arrives on Nintendo Switch (Scopely)",
+     "url": "https://www.scopely.com/en/news/stumble-guys-arrives-on-nintendo-switch"
+    },
+    {
+     "title": "Stumble Guys is now on PlayStation 4 and 5 with cross-progression (PocketGamer.biz)",
+     "url": "https://www.pocketgamer.biz/mobile-legend-stumble-guys-is-now-on-playstation-4-and-5-with-cross-progression"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "The Elder Scrolls Online",
+   "igdb_id": 1081,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC/Mac, Xbox and PlayStation each have their own megaservers (North America and Europe). ZeniMax says a team is working on crossplay, but it isn't coming in 2026."
+   ],
+   "sources": [
+    {
+     "title": "When is crossplay coming to Elder Scrolls Online? (Dot Esports)",
+     "url": "https://dotesports.com/the-elder-scrolls/news/when-is-crossplay-coming-to-elder-scrolls-online"
+    },
+    {
+     "title": "Elder Scrolls Online crossplay in development (Mein-MMO)",
+     "url": "https://mein-mmo.de/elder-scrolls-online-crossplay-in-entwicklung-pc-xbox-playstation/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "The Finals",
+   "igdb_id": 214417,
+   "replaces": [
+    "THE FINALS"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay is on by default; turning it off (Settings → Gameplay → Network) can mean longer queues. Link your platforms to an Embark ID and your progress follows you."
+   ],
+   "sources": [
+    {
+     "title": "Crossplay in THE FINALS (Embark help center)",
+     "url": "https://id.embark.games/the-finals/support/faq/65-crossplay-in-the-finals"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "The First Descendant",
+   "igdb_id": 208476,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Link your platforms to a Nexon account to share progress between them."
+   ],
+   "sources": [
+    {
+     "title": "Does The First Descendant have crossplay and cross-progression? (Windows Central)",
+     "url": "https://windowscentral.com/gaming/does-the-first-descendant-have-crossplay-and-cross-progression"
+    },
+    {
+     "title": "The First Descendant crossplay and cross-progression (Dexerto)",
+     "url": "https://www.dexerto.com/gaming/the-first-descendant-crossplay-cross-progression-2798777"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Tom Clancy's Rainbow Six Siege X",
+   "igdb_id": 7360,
+   "replaces": [
+    "Rainbow Six Siege",
+    "Tom Clancy's Rainbow Six Siege"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PlayStation and Xbox players are matched together by default. Console players can opt into the PC pool under Settings → Crossplay Matchmaking; PC players can't join console lobbies.",
+    "Ranked is tracked separately for PC and console. Your operators and cosmetics follow your Ubisoft account across platforms."
+   ],
+   "sources": [
+    {
+     "title": "Rainbow Six Siege is finally getting full crossplay",
+     "url": "https://insider-gaming.com/rainbow-six-siege-is-finally-getting-full-crossplay"
+    },
+    {
+     "title": "Is Rainbow Six Siege crossplay? Platforms, limits and cross-progression",
+     "url": "https://siege.gg/news/is-rainbow-six-siege-crossplay-platforms-limits-and-cross-progression-explained"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Tom Clancy's The Division 2",
+   "igdb_id": 90099,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay is coming in November 2026 for the series' 10th anniversary: PC moves to new servers around November 10, and Xbox and PlayStation are due to join in mid-November. Until then, each platform plays separately."
+   ],
+   "sources": [
+    {
+     "title": "The Division 2 crossplay update will begin rolling out in November (KitGuru)",
+     "url": "https://www.kitguru.net/desktop-pc/mustafa-mahmoud/the-division-2-crossplay-update-will-begin-rolling-out-in-november/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "V Rising",
+   "igdb_id": 148228,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "separate": [
+    "ps5"
+   ],
+   "notes": [
+    "PC and PS5 run on separate servers with no cross-progression. Stunlock declared V Rising content-complete in March 2026, so crossplay isn't expected."
+   ],
+   "sources": [
+    {
+     "title": "V Rising crossplay & PS5 support",
+     "url": "https://xgamingserver.com/docs/v-rising/crossplay-info"
+    },
+    {
+     "title": "V Rising launches on PS5 (Mein-MMO)",
+     "url": "https://mein-mmo.de/v-rising-startet-auf-ps5/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Valheim",
+   "igdb_id": 104967,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes",
+      "xseries": "yes",
+      "ps5": "yes",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "PlayStation 5 and Switch 2 joined crossplay with the 1.0 launch on September 9, 2026. Before that, crossplay covered Steam, the Xbox app and Xbox consoles."
+   ],
+   "sources": [
+    {
+     "title": "Valheim launches September 9 (Gematsu)",
+     "url": "https://www.gematsu.com/2026/06/valheim-launches-september-9"
+    },
+    {
+     "title": "Valheim 1.0 launches September 9 with The Deep North",
+     "url": "https://fullcleared.com/news/valheim-1-0-launches-september-9-with-the-deep-north/"
+    },
+    {
+     "title": "Valheim gets full PS5 release (Push Square)",
+     "url": "https://www.pushsquare.com/news/2026/06/how-about-one-more-game-for-your-september-schedule-valheim-gets-full-ps5-release"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Valorant",
+   "igdb_id": 126459,
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PS5 and Xbox players play together, but Riot keeps PC separate for competitive fairness. Your Riot account, skins, battle pass and progress are shared between PC and console."
+   ],
+   "sources": [
+    {
+     "title": "Valorant console launch on Xbox and PlayStation 5 (Variety)",
+     "url": "https://variety.com/2024/gaming/news/valorant-console-launch-xbox-playstation-5-1236093882"
+    },
+    {
+     "title": "Valorant is now out on PS5 and Xbox Series X/S (Tom's Guide)",
+     "url": "https://www.tomsguide.com/gaming/valorant-is-now-out-on-ps5-and-xbox-series-xs-as-beta-ends"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Vampire Survivors",
+   "igdb_id": 186725,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "xseries": "yes",
+      "xone": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Online co-op (added in update 1.14, October 2025) only works inside one ecosystem: Xbox consoles with the Microsoft Store/Game Pass PC version, and PS4 with PS5. Steam, Switch and mobile players only play with the same platform."
+   ],
+   "sources": [
+    {
+     "title": "Vampire Survivors online FAQ (poncle)",
+     "url": "https://poncle.games/vs-online-faq"
+    },
+    {
+     "title": "Vampire Survivors 1.14 update includes online co-op (Nintendo Wire)",
+     "url": "https://nintendowire.com/news/2025/10/29/vampire-survivors-1-14-update-set-for-release-on-october-31st-includes-online-co-op-dlc-updates-and-a-free-dlc-pack/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Warframe",
+   "igdb_id": 2903,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch": "yes",
+      "ios": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Turn crossplay on or off at the bottom of the Options menu. Cross Platform Save lets one account's progress follow you to every platform, linked through a PC account."
+   ],
+   "sources": [
+    {
+     "title": "Cross Platform Save (Warframe)",
+     "url": "https://www.warframe.com/news/cross-save"
+    },
+    {
+     "title": "Warframe cross-play and cross-save guide",
+     "url": "https://www.dexerto.com/gaming/warframe-cross-play-cross-save-guide-1636744"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Warhammer 40,000: Darktide",
+   "igdb_id": 135998,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Steam players can't opt out of crossplay. On Xbox and the Microsoft Store version you can turn it off in Account Settings to play only with Xbox players. Progress is shared between Xbox and the Microsoft Store version (Play Anywhere), but not with Steam or PS5."
+   ],
+   "sources": [
+    {
+     "title": "Warhammer 40K Darktide crossplay confirmed for PS5 release (Prima Games)",
+     "url": "https://primagames.com/news/warhammer-40k-darktide-crossplay-confirmed-for-ps5-release"
+    },
+    {
+     "title": "Darktide crossplay FAQ discussion (Steam Community)",
+     "url": "https://steamcommunity.com/app/1361210/discussions/0/5943120984231596707"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Warhammer 40,000: Space Marine 2",
+   "igdb_id": 185252,
+   "replaces": [
+    "Warhammer 40,000: Space Marine II"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Campaign and Operations (PvE) have full crossplay. In PvP (Eternal War), PC players and console players are matched in separate pools.",
+    "You can turn crossplay off in the settings, and progress carries across platforms."
+   ],
+   "sources": [
+    {
+     "title": "Space Marine 2 FAQ (Focus Entertainment)",
+     "url": "https://www.focus-entmt.com/en/news/warhammer-40000-space-marine-2-faq"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Wuthering Waves",
+   "igdb_id": 202956,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Progress is tied to your Kuro Games account and syncs across every platform. Co-op only works with players on the same server region (for example, America or Europe)."
+   ],
+   "sources": [
+    {
+     "title": "Wuthering Waves Version 3.5 now available alongside its Xbox Series debut (RPG Site)",
+     "url": "https://www.rpgsite.net/news/20891-wuthering-waves-version-3-5-update-now-available-xbox-series-x-console"
+    }
+   ],
+   "checked": "2026-10-10"
+  }
+ ]
+}
