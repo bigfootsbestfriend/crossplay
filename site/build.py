@@ -851,6 +851,26 @@ def list_table(games, show=None):
             '<th>Plays together</th><th>Year</th></tr></thead><tbody>' + "".join(rows) + "</tbody></table></div>")
 
 
+def together_tool(heading="h2"):
+    """Group finder: everyone picks their platform, the page lists games that put all of them in one lobby."""
+    plats = [k for k in CURRENT if k != "linux"]
+    opts = "".join(f'<option value="{k}">{e(PLATFORMS[k][1])}</option>' for k in plats)
+    genres = "".join(f'<option value="{k}">{e(v[0])}</option>' for k, v in GENRES.items())
+    return f"""<section class="together" data-together data-src="{url('/static/together.json')}">
+  {f"<{heading}>Who can I play with?</{heading}>" if heading else ""}
+  <p class="small">Pick everyone's platform. We'll list the games that put all of you in the same lobby.</p>
+  <div class="people" data-people data-opts='{e(opts)}'></div>
+  <div class="together-controls">
+    <button type="button" class="btn ghost" data-add>+ Add a friend</button>
+    <label>Genre <select data-genre><option value="">Any</option>{genres}</select></label>
+    <label class="check"><input type="checkbox" data-checked> Only games we've checked</label>
+  </div>
+  <p class="together-count" data-count aria-live="polite"></p>
+  <ul class="together-list" data-list></ul>
+  <button type="button" class="btn ghost" data-more hidden>Show more</button>
+</section>"""
+
+
 def hub_page(path, title, h1, intro, games, crumbs, extra=""):
     games = sorted(games, key=lambda g: -g["popularity"])
     # Only games we've checked by hand are presented as verified; the rest come straight from the Wikipedia list.
@@ -1061,6 +1081,28 @@ unless you ask.</p>
     recent = [x for x in log if x["title"] in slug_by_title][:6]
     opts = "".join(f'<option value="{f}">{e(FAMILIES[f][0])}</option>' for f in FAMILIES)
     pairs_json = e(json.dumps({s: True for s, *_ in pair_links}))
+    tg = []
+    for g in sorted(current, key=lambda g: -g["popularity"]):
+        if g.get("verdict") or g["discontinued"]:
+            continue
+        groups = [[k for k in gr["platforms"] if k in CURRENT] for gr in g["groups"]]
+        groups = [x for x in groups if x]
+        if not groups:
+            continue
+        tg.append({"t": g["title"], "s": g["slug"], "c": 1 if g.get("audited") else 0, "h": g["hubs"], "g": groups,
+                   "q": sorted({k for gr in g["groups"] for k in gr["partial"]})})
+    together_json = json.dumps({"base": url("/games/"), "games": tg}, separators=(",", ":"))
+    pages["/who-can-i-play-with/"] = page(
+        "/who-can-i-play-with/", "Who Can I Play With? Crossplay Games for Your Whole Group",
+        "Pick each friend's platform (PS5, Xbox, Switch, PC or mobile) and see every game that puts all of you in the same lobby.",
+        f'''<section class="hub-head"><h1>Who can I play with?</h1><p class="lede">Got friends on different consoles? Add
+everyone's platform and we'll search {len(tg)} crossplay games for the ones that let all of you play together.</p></section>
+{together_tool(None)}
+<section class="prose"><h2>How the matching works</h2><p>A game shows up only if one crossplay group on its page includes every
+platform you picked, so everyone can be in the same match. Games marked <strong>Checked</strong> were researched against official
+sources; the others come from the community-maintained Wikipedia list. "With limits" means at least one platform only has partial
+crossplay, such as some modes only. Always open the game's page for details like PC store and account requirements.</p></section>''',
+        crumbs=[("Home", "/"), ("Who can I play with?", "/who-can-i-play-with/")])
     pages["/"] = page("/", f"{config.SITE_NAME}: Is It Cross-Platform? Crossplay Checker for {len(current)} Games",
                       f"Check if a game has crossplay between PS5, Xbox, Switch, PC and mobile. "
                       f"{len(current)} games, checked daily, with sources.",
@@ -1081,6 +1123,7 @@ unless you ask.</p>
     <a class="btn" data-go href="{url('/crossplay/pc-and-playstation/')}">Show games</a>
   </div>
 </section>
+{together_tool()}
 <section><h2>Popular crossplay games</h2>{grid(popular)}</section>
 <section><h2>Works on PC, PlayStation, Xbox <em>and</em> Switch</h2>
 <p>The full house: these games put every major platform in the same lobby.</p>{grid(full[:8])}
@@ -1106,6 +1149,7 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
     index = [{"t": g["title"], "s": g["slug"], "d": g["discontinued"],
               "p": [PLATFORMS[k][1] for k in order({k for gr in g["groups"] for k in gr["platforms"]}) if k not in CLOUD][:6]}
              for g in sorted(games, key=lambda g: -g["popularity"])]
+    (OUT / "static" / "together.json").write_text(together_json)
     (OUT / "static" / "search.json").write_text(json.dumps({"base": url("/games/"), "games": index}, separators=(",", ":")))
     urls = [p for p in pages if not p.endswith(".html") and p not in NOINDEX]
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

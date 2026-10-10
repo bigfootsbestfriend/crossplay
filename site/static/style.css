@@ -305,3 +305,18 @@ a.chip:hover, a.chip:focus-visible { filter: brightness(.94); box-shadow: 0 0 0 
 .signup input[type=email] { flex: 1 1 220px; min-width: 0; font: 1rem var(--body); padding: .6rem .8rem; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); color: var(--ink); }
 .signup .btn { border: 0; cursor: pointer; font: 600 1rem var(--body); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Group finder */
+.together { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 1.2rem; }
+.together h2, .together h1 { margin-top: 0; }
+.people { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .6rem; margin: .8rem 0; }
+.person { display: flex; flex-direction: column; gap: .2rem; position: relative; min-width: 0; }
+.person label { font-size: .8rem; color: var(--ink-2); font-weight: 600; }
+.person select { width: 100%; }
+.person .x { position: absolute; top: -.2rem; right: 0; border: 0; background: none; color: var(--ink-2); font-size: 1.1rem; cursor: pointer; line-height: 1; }
+.together-controls { display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; }
+.together-controls label { display: flex; gap: .4rem; align-items: center; font-size: .9rem; }
+.together-count { font-weight: 600; margin: 1rem 0 .4rem; }
+.together-list { list-style: none; padding: 0; margin: 0 0 .8rem; columns: 2 260px; column-gap: 1.5rem; }
+.together-list li { break-inside: avoid; padding: .3rem 0; border-bottom: 1px solid var(--line); }
+.btn.ghost { background: transparent; color: var(--blue) !important; border: 1.5px solid var(--blue); }

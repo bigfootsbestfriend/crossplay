@@ -2,6 +2,50 @@
   const root = document.querySelector('link[rel="icon"]').getAttribute("href").replace(/static\/favicon\.svg$/, "");
   let index = null;
 
+  // Group finder ("Who can I play with?"): a game matches when one of its crossplay groups holds every
+  // platform picked. Data loads on first use.
+  document.querySelectorAll("[data-together]").forEach(box => {
+    const people = box.querySelector("[data-people]"), list = box.querySelector("[data-list]");
+    const count = box.querySelector("[data-count]"), more = box.querySelector("[data-more]");
+    const genre = box.querySelector("[data-genre]"), onlyChecked = box.querySelector("[data-checked]");
+    const opts = people.dataset.opts, names = ["You", "Friend 1", "Friend 2", "Friend 3", "Friend 4", "Friend 5"];
+    let data = null, shown = 24, picks;
+    try { picks = JSON.parse(localStorage.getItem("together") || "null"); } catch (e) { picks = null; }
+    if (!Array.isArray(picks) || picks.length < 2) picks = ["ps5", "pc"];
+    const label = {};
+    people.insertAdjacentHTML("beforeend", "<select hidden>" + opts + "</select>");
+    people.lastChild.querySelectorAll("option").forEach(o => label[o.value] = o.textContent);
+    people.lastChild.remove();
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const drawPeople = () => {
+      people.innerHTML = picks.map((p, i) => `<div class="person"><label for="tp-${i}">${names[i]}</label>
+        <select id="tp-${i}" data-i="${i}">${opts}</select>${i > 1 ? `<button type="button" class="x" data-rm="${i}" aria-label="Remove ${names[i]}">×</button>` : ""}</div>`).join("");
+      people.querySelectorAll("select").forEach(s => s.value = picks[+s.dataset.i]);
+      box.querySelector("[data-add]").hidden = picks.length >= names.length;
+    };
+    const run = async () => {
+      try { localStorage.setItem("together", JSON.stringify(picks)); } catch (e) {}
+      if (!data) { count.textContent = "Loading games…"; data = await fetch(box.dataset.src).then(r => r.json()); }
+      const need = [...new Set(picks)];
+      if (need.length < 2) { count.textContent = `Everyone's on ${label[need[0]]}, so any online multiplayer game works. Pick different platforms to check crossplay.`; list.innerHTML = ""; more.hidden = true; return; }
+      const g = genre.value, oc = onlyChecked.checked;
+      const hits = data.games.filter(x => (!g || x.h.includes(g)) && (!oc || x.c) && x.g.some(gr => need.every(k => gr.includes(k))));
+      hits.sort((a, b) => b.c - a.c);
+      count.textContent = hits.length ? `${hits.length} game${hits.length === 1 ? "" : "s"} let ${need.map(k => label[k]).join(" + ")} play together` : `No games we know of put ${need.map(k => label[k]).join(" + ")} in one lobby${g || oc ? " with these filters" : ""}.`;
+      list.innerHTML = hits.slice(0, shown).map(x => `<li><a href="${data.base}${x.s}/">${esc(x.t)}</a>` +
+        (x.c ? ' <span class="tag v-yes">Checked</span>' : "") +
+        (need.some(k => x.q.includes(k)) ? ' <span class="tag v-partial">With limits</span>' : "") + "</li>").join("");
+      more.hidden = hits.length <= shown;
+    };
+    people.addEventListener("change", e => { if (e.target.dataset.i) { picks[+e.target.dataset.i] = e.target.value; shown = 24; run(); } });
+    people.addEventListener("click", e => { if (e.target.dataset.rm) { picks.splice(+e.target.dataset.rm, 1); drawPeople(); run(); } });
+    box.querySelector("[data-add]").addEventListener("click", () => { picks.push(picks[picks.length - 1]); drawPeople(); people.querySelector(`[data-i="${picks.length - 1}"]`).focus(); run(); });
+    genre.addEventListener("change", () => { shown = 24; run(); });
+    onlyChecked.addEventListener("change", () => { shown = 24; run(); });
+    more.addEventListener("click", () => { shown += 48; run(); });
+    drawPeople(); run();
+  });
+
   // Contact: the address is stored reversed as char codes and only assembled here, so it never appears
   // in the page source. Links to /contact/?about=Game become mailto links with a subject line.
   const mailEl = document.querySelector("[data-mail]");
