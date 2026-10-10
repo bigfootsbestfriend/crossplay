@@ -746,10 +746,44 @@
    "title": "Call of Duty: Black Ops III",
    "igdb_id": 9509,
    "crossplay": false,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
    "notes": [
-    "Black Ops III came out in 2015, before Call of Duty added crossplay, so each platform has its own players."
+    "Black Ops III came out in 2015, before Call of Duty added crossplay, so PC, PlayStation and Xbox each have their own multiplayer and Zombies players. Treyarch hasn't added crossplay since.",
+    "PS5 and Xbox Series X|S run the PS4 and Xbox One version through backward compatibility, so they play with PS4 and Xbox One players.",
+    "The PS3 and Xbox 360 versions were separate ports with Multiplayer and Zombies only (no campaign), and they only play with the same console."
    ],
    "sources": [
+    {
+     "title": "Details for the PS3 and Xbox 360 versions of Black Ops III (Activision Support)",
+     "url": "https://support.activision.com/tw/zh/call-of-duty--black-ops-iii/articles/details-for-the-playstation-3-and-xbox-360-versions-of-call-of-duty-black-ops-iii"
+    },
+    {
+     "title": "Call of Duty: Black Ops III on Steam",
+     "url": "https://store.steampowered.com/app/311210/"
+    },
     {
      "title": "Is Black Ops 3 cross-platform? (esports.net)",
      "url": "https://www.esports.net/wiki/guides/black-ops-3-cross-platform-crossplay/"
