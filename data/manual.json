@@ -1504,6 +1504,43 @@
    "crossprog": "partial"
   },
   {
+   "title": "Delta Force",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Delta Force is free to play. PC players and console players on PS5 and Xbox Series X|S (since the August 19, 2025 console launch) can play with and against each other; console players can choose a matchmaking pool of only their own platform instead.",
+    "A mobile version launched on April 21, 2026. Your account, level, operators and purchases are shared across PC, console and mobile, but it isn't clearly confirmed that mobile players join PC and console matches."
+   ],
+   "sources": [
+    {
+     "title": "Delta Force: free tactical shooter on Xbox and PlayStation (TheXboxHub)",
+     "url": "https://www.thexboxhub.com/no-one-gets-left-behind-delta-force-is-a-free-tactical-shooter-on-xbox-and-playstation-including-black-hawk-down/"
+    },
+    {
+     "title": "Delta Force mobile version deploys April 21 (Game Developer press release)",
+     "url": "https://www.gamedeveloper.com/press-release/delta-force-mobile-version-and-new-season-eclipse-vigil-deploys-on-april-21-new-pre-registration-reward-unlocked"
+    },
+    {
+     "title": "Delta Force last-gen version and crossplay (MP1st)",
+     "url": "https://mp1st.com/news/delta-force-last-gen-version-wont-be-released-the-same-time-as-ps5-xbox-series-expect-crossplay-to-work-similar-to-other-popular-titles"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Destiny",
    "igdb_id": null,
    "crossplay": false,
@@ -2995,6 +3032,36 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Gran Turismo 7",
+   "igdb_id": null,
+   "crossplay": true,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "ps4": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Gran Turismo 7 is a PlayStation game, and PS4 and PS5 players race together online. Creator Kazunori Yamauchi confirmed cross-generation play before launch.",
+    "There's no Xbox, Switch or PC version. Polyphony has said it's considering PC, but nothing has been announced. Your progress is tied to your PSN account, so it carries between PS4 and PS5."
+   ],
+   "sources": [
+    {
+     "title": "Gran Turismo 7 will let PS5 and PS4 players race against each other (TechRadar)",
+     "url": "https://www.techradar.com/news/gran-turismo-7-will-let-ps5-and-ps4-players-to-race-against-each-other"
+    },
+    {
+     "title": "Kazunori Yamauchi hints at PC release for Gran Turismo 7 (RacingGames.gg)",
+     "url": "https://racinggames.gg/article/kazunori-yamauchi-hints-at-pc-release-for-gran-turismo-7"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Granblue Fantasy Versus: Rising",
    "igdb_id": null,
    "groups": [
@@ -3881,7 +3948,8 @@
     }
    ],
    "notes": [
-    "All three versions play together, and linking an MLB The Show account shares progress between them. Stubs bought on one platform stay on that platform. Switch 2 plays the Switch version."
+    "PS5, Xbox Series X|S and Switch players all play together (Switch 2 runs the Switch version). There's no PS4, Xbox One or PC version; PC players can stream it through Xbox Cloud Gaming.",
+    "Linking your consoles to one MLB The Show account shares your progress and Diamond Dynasty collection between them, but Stubs bought with real money stay on the platform where you bought them."
    ],
    "sources": [
     {
@@ -3889,11 +3957,17 @@
      "url": "https://www.playstation.com/en-ca/support/games/mlb-the-show-26-support/"
     },
     {
+     "title": "What is cross progression account linking? (MLB The Show Support)",
+     "url": "https://theshow.sonysandiegostudio.games/hc/en-us/articles/12567779115931-What-is-cross-progression-account-linking-and-how-do-I-link-or-unlink-my-account-"
+    },
+    {
      "title": "MLB The Show 26 (Nintendo eShop)",
      "url": "https://www.nintendo.com/us/store/products/mlb-the-show-26-switch/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "partial",
+   "audited": "2026-10-10"
   },
   {
    "title": "Monster Hunter Rise",
@@ -5066,6 +5140,42 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Raft",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Raft came to PS5 and Xbox Series X|S on December 4, 2024. Crossplay with PC was in testing on a Steam beta branch until the Raft 1.1 update on March 10, 2026, which made it standard: PC, PlayStation and Xbox players can now join each other's rafts.",
+    "If crossplay causes problems, Steam players can switch to the older '1.09_precrossplayupdate' branch, but they then can't join console players."
+   ],
+   "sources": [
+    {
+     "title": "Raft 1.1: cross-play sails to the default branch (patched.gg, March 2026)",
+     "url": "https://patched.gg/games/raft/raft-11-cross-play-sails-to-the-default-branch"
+    },
+    {
+     "title": "Raft coming to PS5 and Xbox Series on December 4 (Gematsu)",
+     "url": "https://www.gematsu.com/2024/12/survival-adventure-game-raft-coming-to-ps5-xbox-series-on-december-4"
+    },
+    {
+     "title": "Raft patch notes (SteamDB)",
+     "url": "https://steamdb.info/patchnotes/20419076"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Raid: Shadow Legends",
    "igdb_id": null,
    "groups": [
@@ -5519,6 +5629,37 @@
     {
      "title": "Is Satisfactory crossplay? PC, PS5 and Xbox explained",
      "url": "https://www.gameserverkings.com/knowledge-base/satisfactory/satisfactory-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Schedule I",
+   "igdb_id": null,
+   "crossplay": false,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Schedule I is only on PC (Steam, in Early Access since March 2025), so there's nothing to crossplay with yet. Its online co-op supports up to four players.",
+    "The developer has said consoles might come later if the game does well, but no PlayStation, Xbox or Switch version has been announced."
+   ],
+   "sources": [
+    {
+     "title": "Is Schedule I cross-platform? Crossplay guide 2026 (Explosion)",
+     "url": "https://www.explosion.com/game-guides/is-schedule-i-cross-platform-crossplay-guide-2026/"
+    },
+    {
+     "title": "Schedule I on Steam",
+     "url": "https://store.steampowered.com/app/3164500/"
     }
    ],
    "checked": "2026-10-10"
@@ -7511,6 +7652,48 @@
     {
      "title": "Wuthering Waves Version 3.5 now available alongside its Xbox Series debut (RPG Site)",
      "url": "https://www.rpgsite.net/news/20891-wuthering-waves-version-3-5-update-now-available-xbox-series-x-console"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "WWE 2K26",
+   "igdb_id": null,
+   "crossplay": true,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes",
+      "switch2": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "WWE 2K26 (March 13, 2026) has crossplay between consoles: PS5, Xbox Series X|S and Switch 2 players can wrestle together. PC players only match with other PC players.",
+    "Community Creations (custom wrestlers, arenas and more) can be shared across platforms, including Switch 2."
+   ],
+   "sources": [
+    {
+     "title": "WWE 2K26 (Dexerto)",
+     "url": "https://www.dexerto.com/wikis/wwe-2k26/"
+    },
+    {
+     "title": "WWE 2K26 announced for Nintendo Switch 2 with cross-platform Community Creations (Nintendo Everything)",
+     "url": "https://nintendoeverything.com/wwe-2k26-announced-for-nintendo-switch-2-full-details-touchscreen-mouse-support-gameshare-single-joy-con-play-image-uploader-and-cross-platform-community-creations-more/"
+    },
+    {
+     "title": "WWE 2K26 (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/WWE_2K26"
     }
    ],
    "checked": "2026-10-10"
