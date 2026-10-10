@@ -12,7 +12,7 @@ SITE_URL = "https://crossplayguide.com"
 [[d1_databases]]
 binding = "DB"
 database_name = "crossplay-community"
-database_id = "REPLACE_AFTER_wrangler_d1_create"
+database_id = "35295391-a1b8-4323-9bd9-71c45b985d7b"
 
 # Secrets (set with `npx wrangler secret put NAME`, never committed):
 #   ADMIN_PASSWORD    password for /admin (user name: admin)
