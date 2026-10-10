@@ -4171,39 +4171,11 @@
      "url": "https://www.pocketgamer.com/kards/official-launch-android-ios/"
     }
    ],
-   "checked": "2026-10-10"
-  },
-  {
-   "title": "Kards: The WWII Card Game",
-   "igdb_id": null,
-   "crossprog": "yes",
-   "groups": [
-    {
-     "platforms": {
-      "pc": "yes",
-      "ios": "yes",
-      "android": "yes"
-     },
-     "pc_stores": [
-      "Steam",
-      "Epic"
-     ]
-    }
-   ],
-   "notes": [
-    "PC and mobile players are matched together, and your KARDS account carries your collection and progress between devices."
-   ],
-   "sources": [
-    {
-     "title": "KARDS FAQ (1939 Games)",
-     "url": "https://decks.kards.com/faq"
-    },
-    {
-     "title": "KARDS official launch on Android and iOS (Pocket Gamer)",
-     "url": "https://www.pocketgamer.com/kards/official-launch-android-ios/"
-    }
-   ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "replaces": [
+    "Kards: The WWII Card Game",
+    "Kards"
+   ]
   },
   {
    "title": "Killing Floor 2",
