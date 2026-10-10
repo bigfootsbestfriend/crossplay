@@ -9073,7 +9073,8 @@
    ],
    "notes": [
     "PS5 and Xbox Series X|S players share every server type.",
-    "PC players can join console players on official PvE servers and on unofficial servers that allow crossplay, but Studio Wildcard has kept PC off console official PvP servers since early 2024 because of cheating."
+    "PC players can join console players on official PvE servers and on unofficial servers that allow crossplay, but Studio Wildcard has kept PC off console official PvP servers since early 2024 because of cheating.",
+    "Crossplay needs a dedicated server: a non-dedicated session hosted from one player's game only takes players on the same platform. Server admins pick which platforms can join, and console players can only use mods marked as crossplay-compatible."
    ],
    "sources": [
     {
@@ -9083,10 +9084,15 @@
     {
      "title": "Studio Wildcard temporarily disables PC crossplay PvP (MMORPG.com)",
      "url": "https://www.mmorpg.com/news/ark-survival-ascended-developer-studio-wildcard-temporarily-disables-pc-crossplay-pvp-due-to-rampant-cheating-2000129640"
+    },
+    {
+     "title": "ARK: Survival Ascended crossplay setup (Supercraft)",
+     "url": "https://supercraft.host/wiki/ark/ark_asa_crossplay_setup/"
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "ARK: Survival Evolved",
@@ -9117,7 +9123,7 @@
     "switch"
    ],
    "notes": [
-    "Steam and Epic players can play together only on dedicated servers started with crossplay turned on, and those servers can't run mods.",
+    "Steam and Epic players can play together only on dedicated servers started with crossplay turned on, and those servers can't run mods. Non-dedicated sessions hosted from a player's game have no crossplay.",
     "The Microsoft Store/Xbox app PC version plays with Xbox One; the Steam version can't join them. PlayStation and Switch players only play with their own platform.",
     "Studio Wildcard shut the official servers for PC, Xbox and PlayStation in September 2023 when ARK: Survival Ascended launched, and the Switch official servers closed on August 31, 2026. Single-player, non-dedicated and unofficial servers still work."
    ],
@@ -9140,7 +9146,8 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Grounded",
@@ -9174,7 +9181,8 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Human: Fall Flat",
@@ -9202,7 +9210,8 @@
    ],
    "notes": [
     "A May 2021 update added crossplay between Xbox One, Xbox Series X|S and the Windows PC version from the Microsoft Store/Xbox app.",
-    "We found no official source saying the Steam, PlayStation, Switch or mobile versions cross-play with anyone else; guides report PS4 and PS5 play together."
+    "We found no official source saying the Steam, PlayStation, Switch or mobile versions cross-play with anyone else; guides report PS4 and PS5 play together.",
+    "Human: Fall Flat VR is a separate game and doesn't play with the regular version."
    ],
    "sources": [
     {
@@ -9215,7 +9224,8 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Brawlhalla",
@@ -9255,7 +9265,8 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Gang Beasts",
@@ -9270,17 +9281,30 @@
      "pc_stores": [
       "Steam"
      ]
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
     }
    ],
    "separate": [
     "ps4",
-    "xone",
     "switch"
    ],
    "notes": [
-    "Boneloaf's August 2025 update laid groundwork for crossplay, but no update since has switched it on, so each platform only plays with itself for now."
+    "Xbox players can play with the PC version from the Microsoft Store/Xbox app; that came with the game's Game Pass launch in July 2021. Steam players (Windows, Mac and Linux) only play with Steam, and PlayStation and Switch players only with their own platform.",
+    "Boneloaf's August 2025 update laid groundwork for wider crossplay, but no update since has switched it on."
    ],
    "sources": [
+    {
+     "title": "Gang Beasts crossplay between Xbox and PC (COGconnected)",
+     "url": "https://cogconnected.com/2021/06/gang-beasts-crossplay-xbox-pc/"
+    },
     {
      "title": "Improved Glass Destruction (Update 1.27) (Gang Beasts)",
      "url": "https://gangbeasts.game/posts/2025/8/11/improved-glass-destruction-update-127"
@@ -9291,7 +9315,12 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no",
+   "progress": [
+    "Unlocks and progress don't carry over between platforms."
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "DC Universe Online",
@@ -9317,7 +9346,7 @@
    ],
    "crossprog": "no",
    "progress": [
-    "Characters and purchases stay on the platform account you made them on; Daybreak doesn't offer transfers."
+    "Characters, Marketplace cash, memberships and purchases stay on the platform account you made them on; Daybreak doesn't offer transfers."
    ],
    "sources": [
     {
@@ -9334,7 +9363,8 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Mortal Kombat 11",
@@ -9373,7 +9403,8 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Deep Rock Galactic",
@@ -9414,7 +9445,8 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   }
  ]
 }
