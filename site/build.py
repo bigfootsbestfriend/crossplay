@@ -21,6 +21,9 @@ import config  # noqa: E402
 from common import load_json, merged_games, norm, slugify, trailer_candidates  # noqa: E402
 
 OUT = HERE.parent / "_site"
+GA_TAG = (f'<script async src="https://www.googletagmanager.com/gtag/js?id={config.GA_ID}"></script>\n'
+          f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}"
+          f"gtag('js',new Date());gtag('config','{config.GA_ID}');</script>\n") if config.GA_ID else ""
 # Cache-busting: a short hash of each file's contents, so browsers refetch the moment it changes.
 ASSET_V = {n: __import__("hashlib").sha1((HERE / "static" / n).read_bytes()).hexdigest()[:10]
            for n in ("style.css", "site.js")}
@@ -364,7 +367,7 @@ def page(path, title, desc, body, schema=None, crumbs=None):
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="{url('/static/style.css')}?v={ASSET_V['style.css']}">
 {config.AD_SCRIPT}
-{ld}</head>
+{GA_TAG}{ld}</head>
 <body>
 <header class="top">
   <div class="wrap top-in">

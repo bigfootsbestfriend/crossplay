@@ -4419,6 +4419,298 @@
    }
   ]
  },
+ "Anno 1800": {
+  "collections": [
+   {
+    "id": 158,
+    "name": "Anno"
+   }
+  ],
+  "cover": {
+   "id": 81871,
+   "image_id": "co1r67"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 1938467,
+    "uid": "B089F1DMY4"
+   },
+   {
+    "external_game_source": 3,
+    "id": 186641,
+    "uid": "61028"
+   },
+   {
+    "external_game_source": 1,
+    "id": 1717750,
+    "uid": "916440"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2118691,
+    "uid": "96561148-cf0d-459c-84d9-660f9ac07b0b"
+   },
+   {
+    "external_game_source": 14,
+    "id": 1707325,
+    "uid": "498638"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2628483,
+    "uid": "eed4647340be4921ae5547a0fe0de421"
+   }
+  ],
+  "first_release_date": 1555372800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 11,
+    "name": "Real Time Strategy (RTS)"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   }
+  ],
+  "hypes": 29,
+  "id": 55036,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 19099,
+     "name": "Ubisoft Blue Byte"
+    },
+    "developer": true,
+    "id": 137160,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 697,
+     "name": "Ubisoft Bucharest"
+    },
+    "developer": false,
+    "id": 155396,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 104,
+     "name": "Ubisoft Entertainment"
+    },
+    "developer": false,
+    "id": 204514,
+    "publisher": true
+   }
+  ],
+  "name": "Anno 1800",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 2160,
+    "id": 256068,
+    "image_id": "omwfvpfdyw1mz8mbrp1v",
+    "width": 3840
+   },
+   {
+    "height": 749,
+    "id": 118714,
+    "image_id": "hqlniqkqss1gmsodr2mq",
+    "width": 1332
+   },
+   {
+    "height": 749,
+    "id": 118718,
+    "image_id": "gcenyfqfbvionhekeiiu",
+    "width": 1332
+   },
+   {
+    "height": 749,
+    "id": 118716,
+    "image_id": "sy4i91p6be3lsjydrenp",
+    "width": 1332
+   },
+   {
+    "height": 1440,
+    "id": 256060,
+    "image_id": "lkddzgvst0bwhrqzqngr",
+    "width": 2560
+   },
+   {
+    "height": 2160,
+    "id": 256063,
+    "image_id": "i2k05y7sqnrdcghmymph",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 256065,
+    "image_id": "eslhjvnnkbyyavqih9xq",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 256064,
+    "image_id": "ai5hmvmmc1iyftzhp4bk",
+    "width": 3840
+   },
+   {
+    "height": 961,
+    "id": 487204,
+    "image_id": "scafxg",
+    "width": 1708
+   },
+   {
+    "height": 815,
+    "id": 487205,
+    "image_id": "scafxh",
+    "width": 1449
+   }
+  ],
+  "slug": "anno-1800",
+  "themes": [
+   {
+    "id": 22,
+    "name": "Historical"
+   },
+   {
+    "id": 28,
+    "name": "Business"
+   }
+  ],
+  "total_rating_count": 145,
+  "url": "https://www.igdb.com/games/anno-1800",
+  "videos": [
+   {
+    "id": 20597,
+    "name": "Trailer",
+    "video_id": "DZ3TOOvRfOE"
+   },
+   {
+    "id": 15599,
+    "name": "Announcement Trailer",
+    "video_id": "AIGMu1mctpY"
+   },
+   {
+    "id": 15600,
+    "name": "Development Diary",
+    "video_id": "VOQ_p7khsE4"
+   },
+   {
+    "id": 26142,
+    "name": "Trailer",
+    "video_id": "cMBfsjdX4EA"
+   },
+   {
+    "id": 21739,
+    "name": "Trailer",
+    "video_id": "o2hLWQ8-JB8"
+   },
+   {
+    "id": 26491,
+    "name": "Trailer",
+    "video_id": "B8ZspVPX6zI"
+   }
+  ],
+  "websites": [
+   {
+    "id": 184434,
+    "type": 18,
+    "url": "https://discord.gg/V4xhZ8Z"
+   },
+   {
+    "id": 54662,
+    "type": 1,
+    "url": "https://www.ubisoft.com/en-gb/game/anno-1800/"
+   },
+   {
+    "id": 113250,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Anno_1800"
+   },
+   {
+    "id": 184436,
+    "type": 2,
+    "url": "https://anno1800.fandom.com/wiki/Anno_1800_Wiki"
+   },
+   {
+    "id": 753535,
+    "type": 16,
+    "url": "https://www.epicgames.com/store/en-US/product/anno-1800/"
+   },
+   {
+    "id": 184435,
+    "type": 14,
+    "url": "https://www.reddit.com/r/anno1800"
+   },
+   {
+    "id": 105532,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/916440"
+   },
+   {
+    "id": 738350,
+    "type": 8,
+    "url": "https://www.instagram.com/annogame/"
+   },
+   {
+    "id": 86835,
+    "type": 5,
+    "url": "https://twitter.com/ANNO_EN"
+   },
+   {
+    "id": 184433,
+    "type": 4,
+    "url": "https://www.facebook.com/groups/1800community/about"
+   },
+   {
+    "id": 512932,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Anno%201800"
+   },
+   {
+    "id": 1123129,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/anno-1800/9p1vnx9z03n5"
+   }
+  ]
+ },
  "Apex Legends": {
   "collections": [
    {
@@ -19174,6 +19466,459 @@
    }
   ]
  },
+ "Call of Duty: WWII": {
+  "collections": [
+   {
+    "id": 107,
+    "name": "Call of Duty"
+   }
+  ],
+  "cover": {
+   "id": 82135,
+   "image_id": "co1rdj"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 1928454,
+    "uid": "B071DHJC43"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1936907,
+    "uid": "B075F935B8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1935125,
+    "uid": "B07254346J"
+   },
+   {
+    "external_game_source": 11,
+    "id": 212257,
+    "uid": "BV0NSD4NN4V4"
+   },
+   {
+    "external_game_source": 10,
+    "id": 189729,
+    "uid": "UCPCClwhn8wDS-qiLv57Ncdw"
+   },
+   {
+    "external_game_source": 3,
+    "id": 102818,
+    "uid": "59203"
+   },
+   {
+    "external_game_source": 1,
+    "id": 188733,
+    "uid": "476600"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1929104,
+    "uid": "B071QY1WLY"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1929735,
+    "uid": "B072NQJCW5"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1934154,
+    "uid": "B071N9SDXL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1934485,
+    "uid": "B06ZZHRXYZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1936319,
+    "uid": "B0718WXRRX"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1936577,
+    "uid": "B0772STHQS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1936545,
+    "uid": "B077687NVQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1937248,
+    "uid": "B075FGWW31"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1937938,
+    "uid": "B071DJNGVV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3225173,
+    "uid": "B07DZCNNKF"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1928564,
+    "uid": "B071RFSHCN"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3218926,
+    "uid": "B08DY4BCQP"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2172151,
+    "uid": "227115"
+   },
+   {
+    "external_game_source": 14,
+    "id": 251187,
+    "uid": "496712"
+   },
+   {
+    "external_game_source": 1,
+    "id": 222773,
+    "uid": "476620"
+   }
+  ],
+  "first_release_date": 1509580800,
+  "franchises": [
+   {
+    "id": 726,
+    "name": "Call of Duty"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 4,
+    "name": "Split screen"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   }
+  ],
+  "hypes": 192,
+  "id": 28204,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 659,
+     "name": "Sledgehammer Games"
+    },
+    "developer": true,
+    "id": 46048,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 432,
+     "name": "Beenox"
+    },
+    "developer": false,
+    "id": 397451,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 71,
+     "name": "Raven Software"
+    },
+    "developer": false,
+    "id": 192011,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 66,
+     "name": "Activision"
+    },
+    "developer": false,
+    "id": 324811,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 32221,
+    "lancoop": false,
+    "offlinecoop": true,
+    "offlinecoopmax": 2,
+    "offlinemax": 2,
+    "onlinecoop": true,
+    "onlinecoopmax": 2,
+    "onlinemax": 18,
+    "splitscreen": true
+   }
+  ],
+  "name": "Call of Duty: WWII",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1559,
+    "id": 211438,
+    "image_id": "m7j8nno7wpfdvxrvnam3",
+    "width": 2772
+   },
+   {
+    "height": 1440,
+    "id": 1377967,
+    "image_id": "sctj8v",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1377968,
+    "image_id": "sctj8w",
+    "width": 2560
+   },
+   {
+    "height": 1559,
+    "id": 211130,
+    "image_id": "snkucsvixsexyfcvi1ks",
+    "width": 2772
+   },
+   {
+    "height": 1559,
+    "id": 211131,
+    "image_id": "uaxzlzruz9be57tq5ayf",
+    "width": 2772
+   },
+   {
+    "height": 1559,
+    "id": 211132,
+    "image_id": "ijoenntauq5gfurpayt1",
+    "width": 2772
+   },
+   {
+    "height": 1080,
+    "id": 42190,
+    "image_id": "zum4prw3m27jsqv2lobq",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 42191,
+    "image_id": "mno7spxuafapa8ajvixm",
+    "width": 1920
+   },
+   {
+    "height": 1559,
+    "id": 211129,
+    "image_id": "ccxizgajbolu4kw5iild",
+    "width": 2772
+   },
+   {
+    "height": 1080,
+    "id": 42192,
+    "image_id": "vdmxnihoegzdbyahjpat",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 42193,
+    "image_id": "o9mbl0rabu0sazsbxiji",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 42199,
+    "image_id": "qslsn7dl1nmjvlidmlc6",
+    "width": 1920
+   },
+   {
+    "height": 1559,
+    "id": 211437,
+    "image_id": "duzljmjdctiljgu4bzkt",
+    "width": 2772
+   },
+   {
+    "height": 1559,
+    "id": 211436,
+    "image_id": "fvyd4c4ybhw5asidd0tk",
+    "width": 2772
+   },
+   {
+    "height": 1440,
+    "id": 1377969,
+    "image_id": "sctj8x",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1377970,
+    "image_id": "sctj8y",
+    "width": 2560
+   }
+  ],
+  "slug": "call-of-duty-wwii",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 22,
+    "name": "Historical"
+   },
+   {
+    "id": 39,
+    "name": "Warfare"
+   }
+  ],
+  "total_rating_count": 628,
+  "url": "https://www.igdb.com/games/call-of-duty-wwii",
+  "videos": [
+   {
+    "id": 15083,
+    "name": "Trailer",
+    "video_id": "xSB0WCruGgo"
+   },
+   {
+    "id": 14422,
+    "name": "Gameplay Interview",
+    "video_id": "DfaCoLn7m4E"
+   },
+   {
+    "id": 13461,
+    "name": "Trailer",
+    "video_id": "D4Q_XYVescc"
+   },
+   {
+    "id": 16558,
+    "name": "PGW 2017 Trailer",
+    "video_id": "6Fywv4x5OrI"
+   },
+   {
+    "id": 15608,
+    "name": "Headquarters Reveal Trailer",
+    "video_id": "k9YMZoNGXlM"
+   },
+   {
+    "id": 14642,
+    "name": "E3 2017: Multiplayer Reveal Trailer",
+    "video_id": "W_Y6F1c30To"
+   },
+   {
+    "id": 15966,
+    "name": "Story Trailer",
+    "video_id": "NnT-AKSRtF4"
+   }
+  ],
+  "websites": [
+   {
+    "id": 21628,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/476600"
+   },
+   {
+    "id": 812358,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/call-of-duty-wwii/bv0nsd4nn4v4"
+   },
+   {
+    "id": 812359,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/227115"
+   },
+   {
+    "id": 21624,
+    "type": 5,
+    "url": "https://twitter.com/callofduty"
+   },
+   {
+    "id": 21627,
+    "type": 9,
+    "url": "https://www.youtube.com/user/callofduty"
+   },
+   {
+    "id": 21622,
+    "type": 2,
+    "url": "http://callofduty.wikia.com/wiki/Call_of_Duty:_World_War_II"
+   },
+   {
+    "id": 57668,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_WWII"
+   },
+   {
+    "id": 338265,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Call%20of%20Duty:%20WWII"
+   },
+   {
+    "id": 21621,
+    "type": 1,
+    "url": "https://www.callofduty.com/wwii"
+   },
+   {
+    "id": 21623,
+    "type": 4,
+    "url": "https://www.facebook.com/CallofDuty"
+   },
+   {
+    "id": 21626,
+    "type": 8,
+    "url": "https://www.instagram.com/callofduty"
+   },
+   {
+    "id": 319254,
+    "type": 18,
+    "url": "https://discord.gg/invite/callofduty"
+   },
+   {
+    "id": 319255,
+    "type": 14,
+    "url": "https://www.reddit.com/r/CallOfDuty"
+   },
+   {
+    "id": 1067690,
+    "type": 19,
+    "url": "https://bsky.app/profile/callofduty.com"
+   }
+  ]
+ },
  "Call of Duty: Warzone": {
   "collections": [
    {
@@ -28666,6 +29411,355 @@
     "id": 572797,
     "type": 2,
     "url": "https://deeprockgalactic.wiki.gg/wiki/Deep_Rock_Galactic_Wiki"
+   }
+  ]
+ },
+ "Destiny": {
+  "collections": [
+   {
+    "id": 2406,
+    "name": "Destiny"
+   }
+  ],
+  "cover": {
+   "id": 82104,
+   "image_id": "co1rco"
+  },
+  "external_games": [
+   {
+    "external_game_source": 10,
+    "id": 1185086,
+    "uid": "UCYC5Lsx5J8vPKD86RysP9Yg"
+   },
+   {
+    "external_game_source": 3,
+    "id": 124296,
+    "uid": "36067"
+   },
+   {
+    "external_game_source": 10,
+    "id": 189119,
+    "uid": "UCcX6fXN5-Fmm3R6uEOLTpIw"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1930410,
+    "uid": "B00BGA9Y3W"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1934307,
+    "uid": "B00CX9T598"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1935290,
+    "uid": "B00LGFCS4E"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1937789,
+    "uid": "B00BJ3CYZG"
+   },
+   {
+    "external_game_source": 31,
+    "id": 2162696,
+    "uid": "66acd000-77fe-1000-9115-d802415608f8"
+   },
+   {
+    "external_game_source": 11,
+    "id": 213420,
+    "uid": "xbox36066acd000-77fe-1000-9115-d802415608f8"
+   },
+   {
+    "external_game_source": 14,
+    "id": 245111,
+    "uid": "280721"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2171900,
+    "uid": "200959"
+   }
+  ],
+  "first_release_date": 1410220800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   }
+  ],
+  "hypes": 24,
+  "id": 1939,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 66,
+     "name": "Activision"
+    },
+    "developer": false,
+    "id": 17796,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 1702,
+     "name": "ND Games"
+    },
+    "developer": false,
+    "id": 17797,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 620,
+     "name": "Bungie"
+    },
+    "developer": true,
+    "id": 17795,
+    "publisher": false
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 14740,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 8,
+    "onlinemax": 16,
+    "platform": 9,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 14741,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 8,
+    "onlinemax": 16,
+    "platform": 12,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 14742,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 8,
+    "onlinemax": 16,
+    "platform": 48,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 14743,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 8,
+    "onlinemax": 16,
+    "platform": 49,
+    "splitscreen": false
+   }
+  ],
+  "name": "Destiny",
+  "platforms": [
+   {
+    "abbreviation": "PS3",
+    "id": 9,
+    "name": "PlayStation 3"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "X360",
+    "id": 12,
+    "name": "Xbox 360"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 2704,
+    "image_id": "s25pfzjhkybwjsoy6qgi",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 2707,
+    "image_id": "zgxik2xssyvvqtqxmp9y",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 2706,
+    "image_id": "juj7w8dsnbwdpyq0ntm4",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 2705,
+    "image_id": "vnvmzlecqpkvftprasv7",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 2703,
+    "image_id": "fva4jrbuuw2ejijtsoj8",
+    "width": 1920
+   }
+  ],
+  "slug": "destiny",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 18,
+    "name": "Science fiction"
+   },
+   {
+    "id": 39,
+    "name": "Warfare"
+   }
+  ],
+  "total_rating_count": 504,
+  "url": "https://www.igdb.com/games/destiny",
+  "videos": [
+   {
+    "id": 2344,
+    "name": "Devils Lair Gameplay",
+    "video_id": "j6YHtaccWlg"
+   },
+   {
+    "id": 2189,
+    "name": "Story Trailer",
+    "video_id": "RH3S0eZQeQw"
+   },
+   {
+    "id": 6072,
+    "name": "Live Action Trailer",
+    "video_id": "SKwc_WSgrf0"
+   },
+   {
+    "id": 6071,
+    "name": "Pathways Out Of Darkness",
+    "video_id": "CdkCxnqD7Nk"
+   },
+   {
+    "id": 49385,
+    "name": "Launch Trailer",
+    "video_id": "jv7vqCmt6wY"
+   },
+   {
+    "id": 120199,
+    "name": "Gameplay Reveal Trailer",
+    "video_id": "gIp7vZuYzoA"
+   },
+   {
+    "id": 120384,
+    "name": "Trailer",
+    "video_id": "BhmNltVxOm0"
+   },
+   {
+    "id": 141698,
+    "name": "VGX 2013 Gameplay Trailer",
+    "video_id": "2kff1e0zZ54"
+   }
+  ],
+  "websites": [
+   {
+    "id": 41269,
+    "type": 9,
+    "url": "https://www.youtube.com/user/destinygame/home"
+   },
+   {
+    "id": 784473,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/200959"
+   },
+   {
+    "id": 41267,
+    "type": 6,
+    "url": "https://www.twitch.tv/bungie"
+   },
+   {
+    "id": 182086,
+    "type": 2,
+    "url": "https://destiny.fandom.com/wiki/Destiny"
+   },
+   {
+    "id": 8189,
+    "type": 4,
+    "url": "https://www.facebook.com/DestinyTheGame/"
+   },
+   {
+    "id": 8187,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Destiny_(video_game)"
+   },
+   {
+    "id": 41266,
+    "type": 5,
+    "url": "https://twitter.com/DestinyTheGame"
+   },
+   {
+    "id": 41268,
+    "type": 8,
+    "url": "https://www.instagram.com/destinythegame"
+   },
+   {
+    "id": 421,
+    "type": 1,
+    "url": "http://www.destinythegame.com/"
    }
   ]
  },
@@ -38163,6 +39257,636 @@
    }
   ]
  },
+ "EA Sports FC 24": {
+  "collections": [
+   {
+    "id": 10199,
+    "name": "EA Sports FC"
+   }
+  ],
+  "cover": {
+   "id": 314578,
+   "image_id": "co6qqa"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 3190469,
+    "uid": "B0CR1JK295"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2749315,
+    "uid": "B0CCXBSSK2"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3219057,
+    "uid": "B0CK6JHG9N"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720398,
+    "uid": "B0CB6W8F93"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720158,
+    "uid": "B0CB6VRVTG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720188,
+    "uid": "B0CB6X98S9"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720203,
+    "uid": "B0CB6XYZHW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720376,
+    "uid": "B0CB6VCFC2"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725561,
+    "uid": "B0CB5DN13P"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725697,
+    "uid": "B0C9VSVY6R"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725821,
+    "uid": "B0C9WBM4J1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725713,
+    "uid": "B0CB6WJWMW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725792,
+    "uid": "B0CB6TWNVT"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725805,
+    "uid": "B0CB6WLK8J"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725906,
+    "uid": "B0CB6SZKDS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725872,
+    "uid": "B0CBLBNMY3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725921,
+    "uid": "B0CB5B97TZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725894,
+    "uid": "B0CB6VCFC2"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2747308,
+    "uid": "B0CCXDG3DF"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752292,
+    "uid": "B0CH1495TV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3190388,
+    "uid": "B0CBTV3SQM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3190427,
+    "uid": "B0CBTWT8LN"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2749427,
+    "uid": "B0CCXDG3DF"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2748661,
+    "uid": "B0CK1B1PGL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725609,
+    "uid": "B0CB6XYZHW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725634,
+    "uid": "B0C9VW9RBY"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725642,
+    "uid": "B0C9VW1KGR"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725698,
+    "uid": "B0CB6VXYDQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725707,
+    "uid": "B0CB6WK2CP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725714,
+    "uid": "B0CBLCNG9B"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725743,
+    "uid": "B0CB6VYVY9"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720144,
+    "uid": "B0CB6TQVX5"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720173,
+    "uid": "B0CB6WK2CP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725846,
+    "uid": "B0CB6W8F93"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720199,
+    "uid": "B0CB6SZKDS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720227,
+    "uid": "B0CB6VYVY9"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720311,
+    "uid": "B0CB5F4K9X"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720318,
+    "uid": "B0CB6WJWMW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720326,
+    "uid": "B0CB6SS2JQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720180,
+    "uid": "B0CB6TN4G2"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725856,
+    "uid": "B0CB6VZ3YW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725567,
+    "uid": "B0CB6YGPHG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725647,
+    "uid": "B0CB6V2FSZ"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2925567,
+    "uid": "9P5H37NXML9D"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2747193,
+    "uid": "B0CCXBSSK2"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2722009,
+    "uid": "0b5dc6079193494faa62acad0e9373d8"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2747675,
+    "uid": "9PJHKHWQQ3NB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725622,
+    "uid": "B0CB6TN4G2"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725745,
+    "uid": "B0CB6VB1MC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725574,
+    "uid": "B0CB6SS2JQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725760,
+    "uid": "B0CB5F4K9X"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725558,
+    "uid": "B0CB6TSFGL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725873,
+    "uid": "B0CB6W9JSH"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725898,
+    "uid": "B0CBLBKJDC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725870,
+    "uid": "B0CB6TQVX5"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725928,
+    "uid": "B0CB6VZ1ZZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725820,
+    "uid": "B0CB6X98S9"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725824,
+    "uid": "B0CB6VRVTG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720355,
+    "uid": "B0CB6WS9Q2"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725907,
+    "uid": "B0CB6SBFHT"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720368,
+    "uid": "B0CB5B97TZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720374,
+    "uid": "B0CB5DN13P"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2720389,
+    "uid": "B0CB6TSFGL"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2925564,
+    "uid": "9NN6QW1NPCKN"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2854259,
+    "uid": "9NW6LTVQFCC8"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2748226,
+    "uid": "05ae92c0bda14ba788114e87ca5af446"
+   },
+   {
+    "external_game_source": 54,
+    "id": 2925149,
+    "uid": "9P5H37NXML9D"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2721138,
+    "uid": "2195250"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2721589,
+    "uid": "10007176"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3223078,
+    "uid": "B0CK4VP96C"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725780,
+    "uid": "B0CB6WS9Q2"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3223136,
+    "uid": "B0CBTVQJM4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3223148,
+    "uid": "B0CJYDV57K"
+   },
+   {
+    "external_game_source": 54,
+    "id": 2925145,
+    "uid": "9NN6QW1NPCKN"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2720418,
+    "uid": "143106037"
+   }
+  ],
+  "first_release_date": 1695945600,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "id": 256092,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 4148,
+     "name": "EA Romania"
+    },
+    "developer": true,
+    "id": 222609,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 27222,
+     "name": "EA Vancouver"
+    },
+    "developer": true,
+    "id": 248832,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 248833,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 28037,
+    "lancoop": false,
+    "offlinecoop": true,
+    "offlinecoopmax": 4,
+    "offlinemax": 4,
+    "onlinecoop": true,
+    "onlinecoopmax": 2,
+    "onlinemax": 22,
+    "splitscreen": false
+   }
+  ],
+  "name": "EA Sports FC 24",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1087914,
+    "image_id": "scnbfu",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1087911,
+    "image_id": "scnbfr",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1087913,
+    "image_id": "scnbft",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1087912,
+    "image_id": "scnbfs",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1087910,
+    "image_id": "scnbfq",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1087915,
+    "image_id": "scnbfv",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1087916,
+    "image_id": "scnbfw",
+    "width": 1920
+   }
+  ],
+  "slug": "ea-sports-fc-24",
+  "themes": [
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "total_rating_count": 146,
+  "url": "https://www.igdb.com/games/ea-sports-fc-24",
+  "videos": [
+   {
+    "id": 93440,
+    "name": "Announcement Trailer",
+    "video_id": "-vL01jbgENE"
+   },
+   {
+    "id": 93660,
+    "name": "Gameplay Trailer",
+    "video_id": "XhP3Xh4LMA8"
+   },
+   {
+    "id": 119771,
+    "name": "Launch Trailer",
+    "video_id": "N91EB85mq4E"
+   }
+  ],
+  "websites": [
+   {
+    "id": 564577,
+    "type": 16,
+    "url": "https://store.epicgames.com/en-US/p/ea-sports-fc-24"
+   },
+   {
+    "id": 763052,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/ea-sports-fc-24-xbox-series-x|s/9NN6QW1NPCKN"
+   },
+   {
+    "id": 763053,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10007176"
+   },
+   {
+    "id": 763051,
+    "type": 24,
+    "url": "https://www.nintendo.com/store/products/ea-sports-fc-24-switch/"
+   },
+   {
+    "id": 681879,
+    "type": 8,
+    "url": "https://www.instagram.com/easportsfc"
+   },
+   {
+    "id": 681878,
+    "type": 4,
+    "url": "https://www.facebook.com/easportsfc"
+   },
+   {
+    "id": 564053,
+    "type": 1,
+    "url": "https://www.ea.com/games/ea-sports-fc/fc-24"
+   },
+   {
+    "id": 564576,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2195250"
+   },
+   {
+    "id": 564581,
+    "type": 5,
+    "url": "https://twitter.com/EASPORTSFC"
+   },
+   {
+    "id": 564579,
+    "type": 6,
+    "url": "https://www.twitch.tv/easportsfc"
+   },
+   {
+    "id": 564580,
+    "type": 9,
+    "url": "https://www.youtube.com/@easportsfc"
+   },
+   {
+    "id": 564582,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/EA_FC_24"
+   },
+   {
+    "id": 1080523,
+    "type": 18,
+    "url": "https://discord.gg/invite/easportsfc"
+   }
+  ]
+ },
  "EA Sports FC 25": {
   "collections": [
    {
@@ -42421,6 +44145,691 @@
    }
   ]
  },
+ "FIFA 22": {
+  "collections": [
+   {
+    "id": 91,
+    "name": "FIFA"
+   }
+  ],
+  "cover": {
+   "id": 157846,
+   "image_id": "co3dsm"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 2064484,
+    "uid": "B094W2J74M"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064525,
+    "uid": "B094W59KQV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064576,
+    "uid": "B094NVJ1LJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075455,
+    "uid": "B0976GD6TB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075473,
+    "uid": "B098KVYWQD"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075499,
+    "uid": "B098KVCFM8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075533,
+    "uid": "B094NS7HHZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2080636,
+    "uid": "B098KVSF9R"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2167711,
+    "uid": "B0976HD7HS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2167565,
+    "uid": "B0976GD6TB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2167567,
+    "uid": "B0976GD6TB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2167676,
+    "uid": "B0976G3MQ3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2163143,
+    "uid": "B09HHCPNMP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2122697,
+    "uid": "B09G53P844"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2071895,
+    "uid": "B094W2J74M"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2071903,
+    "uid": "B094W59KQV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2071909,
+    "uid": "B094P1T3JM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2071988,
+    "uid": "B094NW8374"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072012,
+    "uid": "B094NS7HHZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2071906,
+    "uid": "B094NVJ1LJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2632516,
+    "uid": "B09HHCPNMP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072555,
+    "uid": "B098PLF1B8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072536,
+    "uid": "B094W59KQV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072567,
+    "uid": "B0976G3MQ3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072607,
+    "uid": "B0976HD7HS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2062847,
+    "uid": "B094NVJ1LJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2063027,
+    "uid": "B094NS7HHZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064498,
+    "uid": "B094NS7HHZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064479,
+    "uid": "B094P1T3JM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064616,
+    "uid": "B094NW8374"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072459,
+    "uid": "B098P8M8ZQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072491,
+    "uid": "B094W2J74M"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072507,
+    "uid": "B094NS7HHZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075391,
+    "uid": "B099KVZFN9"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075435,
+    "uid": "B0992JQB79"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075405,
+    "uid": "B0992HDH6Q"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075415,
+    "uid": "B094NVJ1LJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075488,
+    "uid": "B0976HD7HS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075523,
+    "uid": "B0976G3MQ3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075506,
+    "uid": "B0992H9Z3H"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075559,
+    "uid": "B098PN75WC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075570,
+    "uid": "B098P8M8ZQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2119370,
+    "uid": "B09FKH9QCT"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2120138,
+    "uid": "B09FKH9QCT"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2167614,
+    "uid": "B0976FRST1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2167677,
+    "uid": "B0976G3MQ3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2167710,
+    "uid": "B0976HD7HS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2436432,
+    "uid": "B098KVCFM8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2914559,
+    "uid": "B098PTL6T3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075411,
+    "uid": "B094W59KQV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2135057,
+    "uid": "B09J1RJRBK"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072444,
+    "uid": "B0976GD6TB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075426,
+    "uid": "B098KVSF9R"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2879097,
+    "uid": "B0992LLR2J"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2881022,
+    "uid": "B098KVSF9R"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2128097,
+    "uid": "B098PH422Z"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075530,
+    "uid": "B098KS12NL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2063001,
+    "uid": "B094NW8374"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2122586,
+    "uid": "B09G5NL147"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075489,
+    "uid": "B0976FRST1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075406,
+    "uid": "B094W2J74M"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2080694,
+    "uid": "B098KVCFM8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072576,
+    "uid": "B098PLHMVD"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072587,
+    "uid": "B098PN75WC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075509,
+    "uid": "B098PLHMVD"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072616,
+    "uid": "B098PH422Z"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075416,
+    "uid": "B094P1T3JM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2170428,
+    "uid": "B0976FRST1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075565,
+    "uid": "B0992JHMSX"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075410,
+    "uid": "B099KPJ15H"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2178441,
+    "uid": "B0976GD6TB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2062857,
+    "uid": "B094P1T3JM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072492,
+    "uid": "B0976FRST1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2120526,
+    "uid": "B09FKFHL7B"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072618,
+    "uid": "B094NW8374"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2167616,
+    "uid": "B0976FRST1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2712925,
+    "uid": "B098KVHZ3P"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2062835,
+    "uid": "B094W2J74M"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2062845,
+    "uid": "B094W59KQV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072578,
+    "uid": "B094NVJ1LJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075409,
+    "uid": "B098PH422Z"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075466,
+    "uid": "B098PLF1B8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2119426,
+    "uid": "B09FKFHL7B"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521788,
+    "uid": "B098KVSF9R"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075508,
+    "uid": "B0992HPPJX"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075518,
+    "uid": "B094NW8374"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2855632,
+    "uid": "B098KVHZ3P"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072487,
+    "uid": "B094P1T3JM"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2175667,
+    "uid": "10002538"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2654786,
+    "uid": "9P6088C05PFJ"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2127379,
+    "uid": "9N1CS194W1Q6"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2072378,
+    "uid": "1869092879"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2072634,
+    "uid": "1506830"
+   }
+  ],
+  "first_release_date": 1633046400,
+  "franchises": [
+   {
+    "id": 1110,
+    "name": "FIFA"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 4,
+    "name": "Split screen"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 3,
+  "id": 154986,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 206306,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 27222,
+     "name": "EA Vancouver"
+    },
+    "developer": true,
+    "id": 206307,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 4148,
+     "name": "EA Romania"
+    },
+    "developer": false,
+    "id": 290856,
+    "publisher": false
+   }
+  ],
+  "name": "FIFA 22",
+  "platforms": [
+   {
+    "abbreviation": "Stadia",
+    "id": 170,
+    "name": "Google Stadia"
+   },
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 2160,
+    "id": 515417,
+    "image_id": "scb1p5",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 515418,
+    "image_id": "scb1p6",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 515419,
+    "image_id": "scb1p7",
+    "width": 3840
+   }
+  ],
+  "slug": "fifa-22",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "total_rating_count": 109,
+  "url": "https://www.igdb.com/games/fifa-22",
+  "videos": [
+   {
+    "id": 52492,
+    "name": "Gameplay Trailer",
+    "video_id": "rqTBAw2tInc"
+   },
+   {
+    "id": 52493,
+    "name": "Dev Diary",
+    "video_id": "OGyaaltvL-o"
+   },
+   {
+    "id": 52033,
+    "name": "Trailer",
+    "video_id": "o1igaMv46SY"
+   },
+   {
+    "id": 129328,
+    "name": "Launch Trailer",
+    "video_id": "SYsi5QuOJNE"
+   }
+  ],
+  "websites": [
+   {
+    "id": 228554,
+    "type": 14,
+    "url": "https://www.reddit.com/r/FIFA"
+   },
+   {
+    "id": 461328,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/FIFA%2022"
+   },
+   {
+    "id": 771274,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10002538"
+   },
+   {
+    "id": 197141,
+    "type": 1,
+    "url": "https://www.ea.com/games/fifa/fifa-22"
+   },
+   {
+    "id": 203369,
+    "type": 4,
+    "url": "https://www.facebook.com/easportsfifa"
+   },
+   {
+    "id": 203372,
+    "type": 18,
+    "url": "https://discord.gg/easportsfifa"
+   },
+   {
+    "id": 203371,
+    "type": 8,
+    "url": "https://www.instagram.com/easportsfifa"
+   },
+   {
+    "id": 203370,
+    "type": 5,
+    "url": "https://twitter.com/easportsfifa"
+   },
+   {
+    "id": 228555,
+    "type": 2,
+    "url": "https://fifa.fandom.com/wiki/FIFA_22"
+   },
+   {
+    "id": 228556,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/FIFA_22"
+   },
+   {
+    "id": 197140,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1506830"
+   }
+  ]
+ },
  "FIFA 23": {
   "collections": [
    {
@@ -45168,6 +47577,571 @@
     "id": 75722,
     "type": 4,
     "url": "https://www.facebook.com/FantasyStrike"
+   }
+  ]
+ },
+ "Far Cry 5": {
+  "collections": [
+   {
+    "id": 103,
+    "name": "Far Cry"
+   }
+  ],
+  "cover": {
+   "id": 94974,
+   "image_id": "co21a6"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 3190436,
+    "uid": "B078G9XKR7"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1935822,
+    "uid": "B072BY57PZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1935703,
+    "uid": "B076BN2376"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2565123,
+    "uid": "137a9f1b-7799-47e3-8648-faa95b09cf07"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1935960,
+    "uid": "B071Z9DB65"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1936974,
+    "uid": "B07178LQB6"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1937071,
+    "uid": "B0719VXFVC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1937338,
+    "uid": "B071FLZD4B"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1937922,
+    "uid": "B072C5RB6F"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1938075,
+    "uid": "B072VJKFR3"
+   },
+   {
+    "external_game_source": 3,
+    "id": 102470,
+    "uid": "59557"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1937955,
+    "uid": "B071776CG3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1928900,
+    "uid": "B071ZF5L32"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1929288,
+    "uid": "B07L3YGJMY"
+   },
+   {
+    "external_game_source": 10,
+    "id": 1184714,
+    "uid": "UCbImrgxnQpzyis9xxxcEx8A"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2082457,
+    "uid": "BR7X7MVBBQKM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1928875,
+    "uid": "B071J1S2M7"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1938418,
+    "uid": "B0725Z5FMF"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2626900,
+    "uid": "2c9dda5ae74e4c36ab5763933935888a"
+   },
+   {
+    "external_game_source": 1,
+    "id": 3183157,
+    "uid": "379060"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3222259,
+    "uid": "B078GGJFPN"
+   },
+   {
+    "external_game_source": 11,
+    "id": 210506,
+    "uid": "BXPXT1GKHPC1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1932832,
+    "uid": "B071SGXMVM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1929434,
+    "uid": "B07DMZFHYB"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2654799,
+    "uid": "9MVQXW1RJVCN"
+   },
+   {
+    "external_game_source": 14,
+    "id": 250419,
+    "uid": "497078"
+   },
+   {
+    "external_game_source": 23,
+    "id": 2075951,
+    "uid": "amzn1.adg.product.4f8389f9-b699-4759-9138-12b878050dc7"
+   },
+   {
+    "external_game_source": 54,
+    "id": 2607319,
+    "uid": "BR7X7MVBBQKM"
+   },
+   {
+    "external_game_source": 1,
+    "id": 370492,
+    "uid": "552520"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2175941,
+    "uid": "221692"
+   }
+  ],
+  "first_release_date": 1522022400,
+  "franchises": [
+   {
+    "id": 1466,
+    "name": "Far Cry"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 93,
+  "id": 28552,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 717,
+     "name": "Red Storm Entertainment"
+    },
+    "developer": false,
+    "id": 311073,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 104,
+     "name": "Ubisoft Entertainment"
+    },
+    "developer": false,
+    "id": 311069,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 398,
+     "name": "Ubisoft Shanghai"
+    },
+    "developer": false,
+    "id": 311068,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 2921,
+     "name": "Ubisoft Kyiv"
+    },
+    "developer": false,
+    "id": 311070,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 847,
+     "name": "Ubisoft Toronto"
+    },
+    "developer": false,
+    "id": 311071,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 38,
+     "name": "Ubisoft Montreal"
+    },
+    "developer": true,
+    "id": 311072,
+    "publisher": false
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 8075,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 0,
+    "onlinemax": 12,
+    "platform": 49,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": false,
+    "id": 17382,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 1,
+    "offlinemax": 1,
+    "onlinecoop": true,
+    "onlinecoopmax": 2,
+    "onlinemax": 12,
+    "platform": 6,
+    "splitscreen": false
+   }
+  ],
+  "name": "Far Cry 5",
+  "platforms": [
+   {
+    "abbreviation": "Stadia",
+    "id": 170,
+    "name": "Google Stadia"
+   },
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 440,
+    "id": 43448,
+    "image_id": "b2k0cvfbzprnuizutgow",
+    "width": 783
+   },
+   {
+    "height": 440,
+    "id": 43449,
+    "image_id": "xeqtlwx9f80ekqiyh25w",
+    "width": 783
+   },
+   {
+    "height": 1080,
+    "id": 43453,
+    "image_id": "ikk26u9j3qpug39snuoj",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 43454,
+    "image_id": "xrbujdrkuyta8cneqipz",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 208181,
+    "image_id": "g1jcmromr4x3jwunyb0b",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 208182,
+    "image_id": "rg4qqcigwxd9aa7zbsos",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 208183,
+    "image_id": "sfchhwjgcyxtm8ceyj17",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 193166,
+    "image_id": "xqw9h7z7psiuktt9dgos",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1379357,
+    "image_id": "sctkbh",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1379358,
+    "image_id": "sctkbi",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1379359,
+    "image_id": "sctkbj",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 208180,
+    "image_id": "r72spvqvrzfyqncgbspw",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 193164,
+    "image_id": "ndceepit98cuj5fbgjrs",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 193165,
+    "image_id": "aa66xisnbagxsepnx2el",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 43457,
+    "image_id": "u5ldoak74o1yhl2gt6y7",
+    "width": 1920
+   }
+  ],
+  "slug": "far-cry-5",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 21,
+    "name": "Survival"
+   },
+   {
+    "id": 38,
+    "name": "Open world"
+   }
+  ],
+  "total_rating_count": 879,
+  "url": "https://www.igdb.com/games/far-cry-5",
+  "videos": [
+   {
+    "id": 16556,
+    "name": "PGW 2017 Announce Trailer",
+    "video_id": "DW6lQSwL8oA"
+   },
+   {
+    "id": 17183,
+    "name": "The Resistance Trailer",
+    "video_id": "P3La92ethq4"
+   },
+   {
+    "id": 14582,
+    "name": "Announcement Trailer",
+    "video_id": "q2Ma9HstasU"
+   },
+   {
+    "id": 14580,
+    "name": "E3 2017 Gameplay Trailer",
+    "video_id": "invCtVgUlyA"
+   },
+   {
+    "id": 14338,
+    "name": "Far Cry 5 Full Presentation",
+    "video_id": "m1kF9rz2ric"
+   },
+   {
+    "id": 16581,
+    "name": "PGW17 Co-Op Trailer",
+    "video_id": "65eh4YdWfHI"
+   },
+   {
+    "id": 15589,
+    "name": "Commented Extended Walkthrough Trailer",
+    "video_id": "imKO65TTBBo"
+   },
+   {
+    "id": 18090,
+    "name": "Story Trailer",
+    "video_id": "TgT2r-hB4pw"
+   },
+   {
+    "id": 18805,
+    "name": "Launch Trailer",
+    "video_id": "ZOSesIeUHCM"
+   },
+   {
+    "id": 14581,
+    "name": "E3 2017: The Father's Amazing Grace Trailer",
+    "video_id": "hJHLjaqhmyY"
+   },
+   {
+    "id": 18501,
+    "name": "The Baptism Live Action Trailer",
+    "video_id": "UA4KoqTICog"
+   },
+   {
+    "id": 18523,
+    "name": "Post Launch Trailer",
+    "video_id": "-Se1hEYRDik"
+   },
+   {
+    "id": 120941,
+    "name": "Gameplay Video",
+    "video_id": "WX_h8rneDxU"
+   },
+   {
+    "id": 121157,
+    "name": "E3 2018 Discovery Tour Trailer",
+    "video_id": "Kan6Iz26R4E"
+   }
+  ],
+  "websites": [
+   {
+    "id": 95546,
+    "type": 9,
+    "url": "https://www.youtube.com/playlist?list=PLpwyzkZha0Z6i7hGiMlsERz4mQd5RoafB"
+   },
+   {
+    "id": 768408,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/far-cry-5/BR7X7MVBBQKM"
+   },
+   {
+    "id": 768411,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/221692"
+   },
+   {
+    "id": 27347,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/552520/Far_Cry_5"
+   },
+   {
+    "id": 27356,
+    "type": 2,
+    "url": "http://farcry.wikia.com/wiki/Far_Cry_5"
+   },
+   {
+    "id": 309331,
+    "type": 16,
+    "url": "https://www.epicgames.com/store/p/far-cry-5"
+   },
+   {
+    "id": 512600,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Far%20Cry%205"
+   },
+   {
+    "id": 658490,
+    "type": 14,
+    "url": "https://www.reddit.com/r/FarCry"
+   },
+   {
+    "id": 27360,
+    "type": 8,
+    "url": "https://www.instagram.com/farcrygame_us"
+   },
+   {
+    "id": 27355,
+    "type": 1,
+    "url": "http://farcry.com/"
+   },
+   {
+    "id": 27359,
+    "type": 5,
+    "url": "https://twitter.com/FarCrygame"
+   },
+   {
+    "id": 27358,
+    "type": 4,
+    "url": "https://www.facebook.com/farcry.usa"
+   },
+   {
+    "id": 27357,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Far_Cry_5"
    }
   ]
  },
@@ -62633,6 +65607,285 @@
    }
   ]
  },
+ "Hello Kitty Island Adventure": {
+  "cover": {
+   "id": 506430,
+   "image_id": "coauri"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 2962606,
+    "uid": "2495100"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3225020,
+    "uid": "B0FJYHNRRY"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2717487,
+    "uid": "614806865"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3084833,
+    "uid": "10008904"
+   }
+  ],
+  "first_release_date": 1690502400,
+  "franchises": [
+   {
+    "id": 160,
+    "name": "Hello Kitty"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "id": 254871,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 42156,
+     "name": "Sunblink"
+    },
+    "developer": true,
+    "id": 360288,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": true,
+    "id": 23739,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 2,
+    "onlinemax": 2,
+    "platform": 39,
+    "splitscreen": false
+   }
+  ],
+  "name": "Hello Kitty Island Adventure",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "Switch 2",
+    "id": 508,
+    "name": "Nintendo Switch 2"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1350,
+    "id": 1080369,
+    "image_id": "scn5m9",
+    "width": 2400
+   },
+   {
+    "height": 1350,
+    "id": 1080373,
+    "image_id": "scn5md",
+    "width": 2400
+   },
+   {
+    "height": 1350,
+    "id": 1080372,
+    "image_id": "scn5mc",
+    "width": 2400
+   },
+   {
+    "height": 1350,
+    "id": 1080370,
+    "image_id": "scn5ma",
+    "width": 2400
+   },
+   {
+    "height": 1350,
+    "id": 1080371,
+    "image_id": "scn5mb",
+    "width": 2400
+   },
+   {
+    "height": 1290,
+    "id": 1574227,
+    "image_id": "scxqoj",
+    "width": 2796
+   },
+   {
+    "height": 1290,
+    "id": 1574225,
+    "image_id": "scxqoh",
+    "width": 2796
+   },
+   {
+    "height": 1290,
+    "id": 1574226,
+    "image_id": "scxqoi",
+    "width": 2796
+   }
+  ],
+  "slug": "hello-kitty-island-adventure",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 38,
+    "name": "Open world"
+   }
+  ],
+  "total_rating_count": 19,
+  "url": "https://www.igdb.com/games/hello-kitty-island-adventure",
+  "videos": [
+   {
+    "id": 92714,
+    "name": "Trailer",
+    "video_id": "IUTCrbGkmZg"
+   },
+   {
+    "id": 116648,
+    "name": "Announcement Trailer",
+    "video_id": "VcOeBW92ioU"
+   },
+   {
+    "id": 129550,
+    "name": "Trailer",
+    "video_id": "7WQoa5GL1nM"
+   },
+   {
+    "id": 135536,
+    "name": "Release Date Trailer",
+    "video_id": "1WtDlmTD6w0"
+   },
+   {
+    "id": 169233,
+    "name": "Launch Trailer",
+    "video_id": "T9NMv6jrviY"
+   }
+  ],
+  "websites": [
+   {
+    "id": 824188,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/hello-kitty-island-adventure-switch/"
+   },
+   {
+    "id": 561286,
+    "type": 11,
+    "url": "https://apps.apple.com/us/app/hello-kitty-island-adventure/id1553505132"
+   },
+   {
+    "id": 842673,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10008904"
+   },
+   {
+    "id": 561288,
+    "type": 18,
+    "url": "https://discord.gg/hellokittyislandadventure"
+   },
+   {
+    "id": 561287,
+    "type": 1,
+    "url": "http://hellokittyislandadventure.com/"
+   },
+   {
+    "id": 561285,
+    "type": 10,
+    "url": "https://apps.apple.com/us/app/hello-kitty-island-adventure/id1553505132"
+   },
+   {
+    "id": 698823,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/hello-kitty-island-adventure"
+   },
+   {
+    "id": 698822,
+    "type": 5,
+    "url": "https://twitter.com/SunblinkGameDev"
+   },
+   {
+    "id": 698821,
+    "type": 9,
+    "url": "https://www.youtube.com/@SunblinkGameDev"
+   },
+   {
+    "id": 698820,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2495100"
+   },
+   {
+    "id": 1080790,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Hello_Kitty_Island_Adventure"
+   }
+  ]
+ },
  "Hero Siege": {
   "cover": {
    "id": 165647,
@@ -66568,6 +69821,209 @@
    }
   ]
  },
+ "Kards: The WWII Card Game": {
+  "cover": {
+   "id": 480628,
+   "image_id": "coaaus"
+  },
+  "external_games": [
+   {
+    "external_game_source": 3,
+    "id": 188414,
+    "uid": "62260"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2439575,
+    "uid": "217e9962-e812-46df-9d42-e6c6ba9acf4f"
+   },
+   {
+    "external_game_source": 14,
+    "id": 252932,
+    "uid": "499790"
+   },
+   {
+    "external_game_source": 1,
+    "id": 1715936,
+    "uid": "544810"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2624577,
+    "uid": "ce3d557abdd44db2972717f3157492d0"
+   }
+  ],
+  "first_release_date": 1586908800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 16,
+    "name": "Turn-based strategy (TBS)"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   },
+   {
+    "id": 35,
+    "name": "Card & Board Game"
+   }
+  ],
+  "hypes": 1,
+  "id": 75140,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 17702,
+     "name": "1939 Games"
+    },
+    "developer": true,
+    "id": 103653,
+    "publisher": true
+   }
+  ],
+  "name": "Kards: The WWII Card Game",
+  "platforms": [
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 628,
+    "id": 298160,
+    "image_id": "sc6e28",
+    "width": 1200
+   },
+   {
+    "height": 1020,
+    "id": 298158,
+    "image_id": "sc6e26",
+    "width": 1920
+   },
+   {
+    "height": 428,
+    "id": 298157,
+    "image_id": "sc6e25",
+    "width": 800
+   },
+   {
+    "height": 413,
+    "id": 298159,
+    "image_id": "sc6e27",
+    "width": 801
+   }
+  ],
+  "slug": "kards-the-wwii-card-game",
+  "themes": [
+   {
+    "id": 39,
+    "name": "Warfare"
+   }
+  ],
+  "total_rating_count": 14,
+  "url": "https://www.igdb.com/games/kards-the-wwii-card-game",
+  "videos": [
+   {
+    "id": 38406,
+    "name": "Trailer",
+    "video_id": "0F_qLypUg8Y"
+   }
+  ],
+  "websites": [
+   {
+    "id": 105505,
+    "type": 1,
+    "url": "https://www.kards.com/"
+   },
+   {
+    "id": 283042,
+    "type": 8,
+    "url": "https://www.instagram.com/kards_game/"
+   },
+   {
+    "id": 105504,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/544810"
+   },
+   {
+    "id": 283037,
+    "type": 16,
+    "url": "https://store.epicgames.com/p/kards-the-world-war-ii-card-game"
+   },
+   {
+    "id": 283043,
+    "type": 9,
+    "url": "https://www.youtube.com/channel/UCVp6iL4xiS8ra1JvNfEd7a"
+   },
+   {
+    "id": 283044,
+    "type": 18,
+    "url": "https://discord.gg/kards"
+   },
+   {
+    "id": 283045,
+    "type": 5,
+    "url": "https://twitter.com/KARDSccg"
+   },
+   {
+    "id": 283046,
+    "type": 4,
+    "url": "https://www.facebook.com/KARDSccg/"
+   },
+   {
+    "id": 556520,
+    "type": 10,
+    "url": "http://itunes.apple.com/us/app/id1595845063#?platform=iphone"
+   },
+   {
+    "id": 556521,
+    "type": 11,
+    "url": "http://itunes.apple.com/us/app/id1595845063#?platform=ipad"
+   },
+   {
+    "id": 570087,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.android1939.kards"
+   },
+   {
+    "id": 339945,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Kards:%20The%20World%20War%20II%20Collectible%20Card%20Game"
+   },
+   {
+    "id": 1081280,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Kards"
+   }
+  ]
+ },
  "Killer Instinct": {
   "collections": [
    {
@@ -70075,6 +73531,192 @@
     "id": 376598,
     "type": 6,
     "url": "https://www.twitch.tv/directory/game/Lucadian%20Chronicles"
+   }
+  ]
+ },
+ "MIR4": {
+  "cover": {
+   "id": 164238,
+   "image_id": "co3iq6"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 2522826,
+    "uid": "1707210"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2088725,
+    "uid": "1623660"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2080015,
+    "uid": "966704637"
+   }
+  ],
+  "first_release_date": 1628121600,
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "id": 162235,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 36573,
+     "name": "Wemade Co Ltd"
+    },
+    "developer": true,
+    "id": 143871,
+    "publisher": true
+   }
+  ],
+  "name": "Mir 4",
+  "platforms": [
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 597088,
+    "image_id": "sccsps",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 597090,
+    "image_id": "sccspu",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 597082,
+    "image_id": "sccspm",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 597078,
+    "image_id": "sccspi",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 597084,
+    "image_id": "sccspo",
+    "width": 1920
+   }
+  ],
+  "slug": "mir-4",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   },
+   {
+    "id": 38,
+    "name": "Open world"
+   },
+   {
+    "id": 39,
+    "name": "Warfare"
+   }
+  ],
+  "total_rating_count": 5,
+  "url": "https://www.igdb.com/games/mir-4",
+  "videos": [
+   {
+    "id": 53160,
+    "name": "Trailer",
+    "video_id": "MpZor0yZ6F4"
+   }
+  ],
+  "websites": [
+   {
+    "id": 209555,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.wemade.mir4global"
+   },
+   {
+    "id": 209556,
+    "type": 10,
+    "url": "https://apps.apple.com/us/app/MIR4/id1566500955"
+   },
+   {
+    "id": 209557,
+    "type": 11,
+    "url": "https://apps.apple.com/us/app/MIR4/id1566500955"
+   },
+   {
+    "id": 209558,
+    "type": 1,
+    "url": "https://www.mir4global.com/"
+   },
+   {
+    "id": 209560,
+    "type": 4,
+    "url": "https://www.facebook.com/mir4global"
+   },
+   {
+    "id": 961935,
+    "type": 18,
+    "url": "https://discord.gg/c3TxjUtyRG"
+   },
+   {
+    "id": 465218,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/MIR4"
+   },
+   {
+    "id": 209554,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1623660/MIR4"
+   },
+   {
+    "id": 209559,
+    "type": 9,
+    "url": "https://www.youtube.com/channel/UCzSwNf9pTgRxEU5peKOnnPw"
    }
   ]
  },
@@ -81637,6 +85279,456 @@
    }
   ]
  },
+ "NBA 2K24": {
+  "collections": [
+   {
+    "id": 659,
+    "name": "NBA 2K"
+   }
+  ],
+  "cover": {
+   "id": 401788,
+   "image_id": "co8m0s"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 3190472,
+    "uid": "B0CFV2W1ZW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2905078,
+    "uid": "B0CB1CPMGS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2749975,
+    "uid": "B0CDZMPMM1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2905074,
+    "uid": "B0CB1CPMGS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2905076,
+    "uid": "B0CB1CPMGS"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2740898,
+    "uid": "9NT7FNZ0WJM1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2879167,
+    "uid": "B0CBYZS4ZG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725801,
+    "uid": "B0CCJXFJFM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2749842,
+    "uid": "B0CDYNX978"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2740905,
+    "uid": "9PDHMB2N0V34"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2750119,
+    "uid": "B0CFZW1T85"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752824,
+    "uid": "B0CB19DDNH"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752826,
+    "uid": "B0CB19DDNH"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752961,
+    "uid": "B0CB19W23Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752957,
+    "uid": "B0CB19W23Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2754202,
+    "uid": "B0CBL3RPCC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2855522,
+    "uid": "B0CBL4LWWQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2855527,
+    "uid": "B0CBL4LWWQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882847,
+    "uid": "B0CT8V4NXH"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882911,
+    "uid": "B0CSSYRZV3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2895289,
+    "uid": "B0CBL4DMNZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2890948,
+    "uid": "B0CVWF8BVS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725630,
+    "uid": "B0CCJYBBZT"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725671,
+    "uid": "B0CBPYPTGY"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725706,
+    "uid": "B0CBCS2THV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725916,
+    "uid": "B0CBQ1SFMP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2857538,
+    "uid": "B0CBL4KJJW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2857540,
+    "uid": "B0CBL4KJJW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752954,
+    "uid": "B0CB19W23Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752825,
+    "uid": "B0CB19DDNH"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725808,
+    "uid": "B0CBCQNWV7"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752841,
+    "uid": "B0CB1FCPBW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2890921,
+    "uid": "B0CVWZDDL8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2891059,
+    "uid": "B0CHK2D974"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2881114,
+    "uid": "B0CSG3MB34"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2750474,
+    "uid": "B0CFZX18S9"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725723,
+    "uid": "B0CBQ13MYL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2749903,
+    "uid": "B0CFZX18S9"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2750485,
+    "uid": "B0CFZW1T85"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752839,
+    "uid": "B0CB1FCPBW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752838,
+    "uid": "B0CB1FCPBW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2754192,
+    "uid": "B0CBL3RPCC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2754196,
+    "uid": "B0CBL3RPCC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2887144,
+    "uid": "B0CVBFLJP9"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2912986,
+    "uid": "B0CBYXSN2Q"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2895288,
+    "uid": "B0CBL4DMNZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725565,
+    "uid": "B0CBQ1VCM3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725917,
+    "uid": "B0CCJY6Q73"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725874,
+    "uid": "B0CBCR6X1L"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725752,
+    "uid": "B0CBCSQ7WC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2857539,
+    "uid": "B0CBL4KJJW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2895290,
+    "uid": "B0CBL4DMNZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3190482,
+    "uid": "B0CFV4396T"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2719745,
+    "uid": "10007788"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2719798,
+    "uid": "2338770"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2719974,
+    "uid": "623879571"
+   }
+  ],
+  "first_release_date": 1694131200,
+  "franchises": [
+   {
+    "id": 16,
+    "name": "NBA"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "id": 255788,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 694,
+     "name": "Visual Concepts"
+    },
+    "developer": true,
+    "id": 222197,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 20228,
+     "name": "2K"
+    },
+    "developer": false,
+    "id": 222198,
+    "publisher": true
+   }
+  ],
+  "name": "NBA 2K24",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1085046,
+    "image_id": "scn986",
+    "width": 1920
+   },
+   {
+    "height": 675,
+    "id": 1117195,
+    "image_id": "scny17",
+    "width": 1200
+   },
+   {
+    "height": 673,
+    "id": 1117196,
+    "image_id": "scny18",
+    "width": 1200
+   },
+   {
+    "height": 675,
+    "id": 1117197,
+    "image_id": "scny19",
+    "width": 1200
+   },
+   {
+    "height": 675,
+    "id": 1117198,
+    "image_id": "scny1a",
+    "width": 1200
+   }
+  ],
+  "slug": "nba-2k24",
+  "themes": [
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "total_rating_count": 27,
+  "url": "https://www.igdb.com/games/nba-2k24",
+  "videos": [
+   {
+    "id": 155586,
+    "name": "Launch Trailer",
+    "video_id": "BZvwJpvEjWE"
+   }
+  ],
+  "websites": [
+   {
+    "id": 829824,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10007788"
+   },
+   {
+    "id": 829825,
+    "type": 24,
+    "url": "https://www.nintendo.com/store/products/nba-2k24-kobe-bryant-edition-switch/"
+   },
+   {
+    "id": 563457,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2338770"
+   },
+   {
+    "id": 573901,
+    "type": 1,
+    "url": "https://nba.2k.com/2k24/"
+   }
+  ]
+ },
  "NBA 2K25": {
   "collections": [
    {
@@ -86006,6 +90098,152 @@
     "id": 48147,
     "type": 1,
     "url": "http://www.nidhogggame.com"
+   }
+  ]
+ },
+ "Night Crows": {
+  "cover": {
+   "id": 368096,
+   "image_id": "co7w0w"
+  },
+  "external_games": [
+   {
+    "external_game_source": 14,
+    "id": 2896483,
+    "uid": "450732811"
+   }
+  ],
+  "first_release_date": 1710201600,
+  "game_modes": [
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "id": 290671,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 36573,
+     "name": "Wemade Co Ltd"
+    },
+    "developer": false,
+    "id": 257923,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 53512,
+     "name": "Madngine"
+    },
+    "developer": true,
+    "id": 257931,
+    "publisher": false
+   }
+  ],
+  "name": "Night Crows",
+  "platforms": [
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1265527,
+    "image_id": "scr4hj",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1265528,
+    "image_id": "scr4hk",
+    "width": 1920
+   }
+  ],
+  "slug": "night-crows--1",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 38,
+    "name": "Open world"
+   }
+  ],
+  "total_rating_count": 12,
+  "url": "https://www.igdb.com/games/night-crows--1",
+  "videos": [
+   {
+    "id": 109063,
+    "name": "Trailer",
+    "video_id": "mSUc7-TpxrA"
+   },
+   {
+    "id": 108890,
+    "name": "Trailer",
+    "video_id": "ihEhbaOBzds"
+   }
+  ],
+  "websites": [
+   {
+    "id": 621093,
+    "type": 9,
+    "url": "https://www.youtube.com/@WEMADEGlobal"
+   },
+   {
+    "id": 982806,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/night-crows"
+   },
+   {
+    "id": 621091,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.wemade.nightcrowsglobal"
+   },
+   {
+    "id": 621159,
+    "type": 10,
+    "url": "https://apps.apple.com/us/app/night-crows/id6459364511"
+   },
+   {
+    "id": 621819,
+    "type": 18,
+    "url": "https://discord.gg/nightcrowsglobal"
+   },
+   {
+    "id": 621818,
+    "type": 4,
+    "url": "https://www.facebook.com/NightCrowsGlobal"
+   },
+   {
+    "id": 621817,
+    "type": 1,
+    "url": "https://www.nightcrows.com/"
    }
   ]
  },
@@ -104040,6 +108278,264 @@
    }
   ]
  },
+ "RoadCraft": {
+  "cover": {
+   "id": 458741,
+   "image_id": "co9tyt"
+  },
+  "external_games": [
+   {
+    "external_game_source": 26,
+    "id": 3019202,
+    "uid": "b2c2b3173a3c4a7d931f8c69b3909777"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3062890,
+    "uid": "6b787d67a0eb4384bf994bc50d14726e"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2940710,
+    "uid": "1106985046"
+   },
+   {
+    "external_game_source": 54,
+    "id": 3118590,
+    "uid": "9N4J937WLFPZ"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2940851,
+    "uid": "2104890"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3223174,
+    "uid": "B0DQVTFS95"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2979689,
+    "uid": "10006025"
+   }
+  ],
+  "first_release_date": 1747699200,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 24,
+  "id": 314239,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 946,
+     "name": "Saber Interactive"
+    },
+    "developer": true,
+    "id": 282793,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 110,
+     "name": "Focus Entertainment"
+    },
+    "developer": false,
+    "id": 282794,
+    "publisher": true
+   }
+  ],
+  "name": "RoadCraft",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1384686,
+    "image_id": "sctofi",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1384687,
+    "image_id": "sctofj",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1384688,
+    "image_id": "sctofk",
+    "width": 1920
+   },
+   {
+    "height": 1069,
+    "id": 1384689,
+    "image_id": "sctofl",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1384684,
+    "image_id": "sctofg",
+    "width": 1920
+   },
+   {
+    "height": 1069,
+    "id": 1384690,
+    "image_id": "sctofm",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1384682,
+    "image_id": "sctofe",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1384683,
+    "image_id": "sctoff",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1384685,
+    "image_id": "sctofh",
+    "width": 1920
+   }
+  ],
+  "slug": "roadcraft",
+  "themes": [
+   {
+    "id": 33,
+    "name": "Sandbox"
+   }
+  ],
+  "total_rating_count": 14,
+  "url": "https://www.igdb.com/games/roadcraft",
+  "videos": [
+   {
+    "id": 150489,
+    "name": "Launch Trailer",
+    "video_id": "0YxFJTFi0Os"
+   },
+   {
+    "id": 123367,
+    "name": "Trailer",
+    "video_id": "Ajbx_1Sk1Wo"
+   },
+   {
+    "id": 138943,
+    "name": "Gameplay Trailer",
+    "video_id": "7ldax1af5Wk"
+   },
+   {
+    "id": 143864,
+    "name": "Gameplay Trailer",
+    "video_id": "LPmCz4ilKmk"
+   },
+   {
+    "id": 148625,
+    "name": "Trailer",
+    "video_id": "N69C6m3k9OU"
+   }
+  ],
+  "websites": [
+   {
+    "id": 665788,
+    "type": 4,
+    "url": "https://www.facebook.com/FocusEntertainmentOfficial"
+   },
+   {
+    "id": 845764,
+    "type": 8,
+    "url": "https://www.instagram.com/focus_entmt/"
+   },
+   {
+    "id": 794356,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10006025"
+   },
+   {
+    "id": 794357,
+    "type": 22,
+    "url": "https://www.xbox.com/en-US/games/store/roadcraft/9n4j937wlfpz"
+   },
+   {
+    "id": 738938,
+    "type": 16,
+    "url": "https://epicgames.com/p/roadcraft-b65690"
+   },
+   {
+    "id": 665832,
+    "type": 1,
+    "url": "https://www.focus-entmt.com/games/roadcraft"
+   },
+   {
+    "id": 665787,
+    "type": 9,
+    "url": "https://www.youtube.com/@FocusEntertainmentOfficial/videos"
+   },
+   {
+    "id": 665789,
+    "type": 5,
+    "url": "https://twitter.com/Focus_Entmt"
+   },
+   {
+    "id": 665790,
+    "type": 18,
+    "url": "https://discord.gg/focusentmt"
+   },
+   {
+    "id": 665822,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/roadcraft"
+   },
+   {
+    "id": 665831,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2104890"
+   }
+  ]
+ },
  "Roblox": {
   "cover": {
    "id": 584456,
@@ -116845,6 +121341,227 @@
     "id": 38653,
     "type": 1,
     "url": "http://www.squareheroes.com"
+   }
+  ]
+ },
+ "Star Trek Fleet Command": {
+  "cover": {
+   "id": 197526,
+   "image_id": "co48eu"
+  },
+  "external_games": [
+   {
+    "external_game_source": 3,
+    "id": 1744360,
+    "uid": "71244"
+   },
+   {
+    "external_game_source": 14,
+    "id": 1709709,
+    "uid": "510530"
+   }
+  ],
+  "first_release_date": 1543449600,
+  "franchises": [
+   {
+    "id": 18,
+    "name": "Star Trek"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   }
+  ],
+  "id": 115414,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 18062,
+     "name": "Digit Game Studios"
+    },
+    "developer": true,
+    "id": 74622,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 16219,
+     "name": "Scopely"
+    },
+    "developer": false,
+    "id": 154889,
+    "publisher": true
+   }
+  ],
+  "name": "Star Trek Fleet Command",
+  "platforms": [
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1600,
+    "id": 828880,
+    "image_id": "schrkg",
+    "width": 2560
+   },
+   {
+    "height": 1600,
+    "id": 828885,
+    "image_id": "schrkl",
+    "width": 2560
+   },
+   {
+    "height": 1600,
+    "id": 828869,
+    "image_id": "schrk5",
+    "width": 2560
+   },
+   {
+    "height": 1600,
+    "id": 828884,
+    "image_id": "schrkk",
+    "width": 2560
+   },
+   {
+    "height": 1600,
+    "id": 828882,
+    "image_id": "schrki",
+    "width": 2560
+   },
+   {
+    "height": 1600,
+    "id": 828871,
+    "image_id": "schrk7",
+    "width": 2560
+   },
+   {
+    "height": 1600,
+    "id": 828874,
+    "image_id": "schrka",
+    "width": 2560
+   }
+  ],
+  "slug": "star-trek-fleet-command",
+  "themes": [
+   {
+    "id": 18,
+    "name": "Science fiction"
+   },
+   {
+    "id": 41,
+    "name": "4X (explore, expand, exploit, and exterminate)"
+   }
+  ],
+  "total_rating_count": 12,
+  "url": "https://www.igdb.com/games/star-trek-fleet-command",
+  "videos": [
+   {
+    "id": 25025,
+    "name": "Gameplay video",
+    "video_id": "rjut4UlO0pc"
+   },
+   {
+    "id": 25023,
+    "name": "Trailer",
+    "video_id": "t4jjg4TIWs0"
+   }
+  ],
+  "websites": [
+   {
+    "id": 100792,
+    "type": 11,
+    "url": "https://itunes.apple.com/us/app/star-trek-fleet-command/id1427744264#?platform=ipad"
+   },
+   {
+    "id": 100788,
+    "type": 5,
+    "url": "https://twitter.com/StarTrekFleet"
+   },
+   {
+    "id": 100789,
+    "type": 8,
+    "url": "https://www.instagram.com/startrekfleetcommand"
+   },
+   {
+    "id": 100790,
+    "type": 9,
+    "url": "https://www.youtube.com/channel/UCaPdLI1d-6LveN5w0kmtroA"
+   },
+   {
+    "id": 100786,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Star_Trek_Fleet_Command"
+   },
+   {
+    "id": 121069,
+    "type": 17,
+    "url": "https://www.gog.com/game/star_trek_starfleet_academy"
+   },
+   {
+    "id": 244801,
+    "type": 18,
+    "url": "https://discord.gg/invite/stfc"
+   },
+   {
+    "id": 244799,
+    "type": 1,
+    "url": "https://www.startrekfleetcommand.com/"
+   },
+   {
+    "id": 100791,
+    "type": 10,
+    "url": "https://itunes.apple.com/us/app/star-trek-fleet-command/id1427744264#?platform=iphone"
+   },
+   {
+    "id": 522511,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Star%20Trek%20Fleet%20Command"
+   },
+   {
+    "id": 100787,
+    "type": 4,
+    "url": "https://www.facebook.com/StarTrekFleetCommand"
+   },
+   {
+    "id": 100785,
+    "type": 2,
+    "url": "http://star-trek-fleet-command.wikia.com/wiki/Star_Trek:_Fleet_Command_Wiki"
+   },
+   {
+    "id": 100793,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.scopely.startrek"
    }
   ]
  },

@@ -25,3 +25,6 @@ Needs a better source before adding:
 - Teardown: console multiplayer due Sep 15 2026; PC↔console crossplay unknown.
 - Shadowverse: Worlds Beyond: account link PC/mobile confirmed; shared matchmaking not confirmed.
 - XDefiant: shut down June 2025 — skip.
+- RV There Yet?: Xbox/Game Pass-only crossplay at launch, full crossplay "planned"; PS5 later in 2026.
+- Titan Quest II: 1.0 Jan 19 2027 on PC/PS5/Xbox; crossplay unknown.
+- Aion 2: KR/TW PC+mobile crossplay; global is PC-only. Decide how to present regional split.

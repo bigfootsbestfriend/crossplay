@@ -31,3 +31,6 @@ else:
 # Leave API_URL empty to hide them. TURNSTILE_SITEKEY is optional (Cloudflare's free anti-bot check).
 API_URL = os.environ.get("CROSSPLAY_API_URL", "https://crossplay-community.crossplayguide.workers.dev")  # env override is for local previews
 TURNSTILE_SITEKEY = ""
+
+# Google Analytics 4 measurement ID (looks like "G-XXXXXXXXXX"). Empty = no analytics tag.
+GA_ID = ""

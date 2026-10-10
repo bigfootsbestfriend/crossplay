@@ -168,6 +168,22 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Anno 1800",
+   "igdb_id": null,
+   "crossplay": false,
+   "crossprog": "partial",
+   "notes": [
+    "Multiplayer (up to 16 players) only matches players on the same platform, and the Console Edition can't play with PC. Cross-progression works between PS5 and Xbox Series X|S."
+   ],
+   "sources": [
+    {
+     "title": "Revealing the Anno 1800 Console Edition (Anno Union)",
+     "url": "https://anno-union.com/revealing-anno-1800-console-edition/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Arma Reforger",
    "igdb_id": 201789,
    "groups": [
@@ -619,6 +635,21 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Call of Duty: WWII",
+   "igdb_id": null,
+   "crossplay": false,
+   "notes": [
+    "WWII came out before Call of Duty added crossplay (Modern Warfare, 2019), so PC, PlayStation and Xbox players are matched separately."
+   ],
+   "sources": [
+    {
+     "title": "Is Call of Duty: World War 2 cross-platform? (Sportskeeda)",
+     "url": "https://www.sportskeeda.com/call-of-duty-game/is-call-duty-world-war-2-cross-platform"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "CarX Drift Racing Online",
    "igdb_id": null,
    "groups": [
@@ -986,6 +1017,25 @@
    "crossprog": "partial"
   },
   {
+   "title": "Destiny",
+   "igdb_id": null,
+   "crossplay": false,
+   "notes": [
+    "The original Destiny never had crossplay: PlayStation and Xbox players are separate. Destiny 2 added crossplay in 2021."
+   ],
+   "sources": [
+    {
+     "title": "Is Destiny 1 crossplay? (ExpertBeacon)",
+     "url": "https://expertbeacon.com/is-destiny-1-crossplay/"
+    },
+    {
+     "title": "Cross play included in future plans for Destiny (DestinyTracker)",
+     "url": "https://destinytracker.com/article/642/cross-play-included-in-future-plans-for-desti"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Diablo II: Resurrected",
    "igdb_id": null,
    "crossplay": false,
@@ -1303,6 +1353,43 @@
     {
      "title": "Cross-play in EA Sports College Football (EA Help)",
      "url": "https://help.ea.com/en/articles/ea-sports-college-football/cross-play/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "EA Sports FC 24",
+   "igdb_id": null,
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "xone": "yes"
+     }
+    }
+   ],
+   "separate": [
+    "switch"
+   ],
+   "notes": [
+    "Crossplay is split by generation: PS5, Xbox Series and PC play together, and PS4 and Xbox One play together. Switch has none. Clubs, Co-Op Seasons, VOLTA and Ultimate Team co-op are included. It's on by default and can be turned off. PC has its own Ultimate Team transfer market."
+   ],
+   "sources": [
+    {
+     "title": "EA Sports FC 24 cross-play update (EA)",
+     "url": "https://www.ea.com/games/ea-sports-fc/pitch-notes/news/fc24crossplayupdate"
+    },
+    {
+     "title": "EA Sports FC 24 crossplay (PCGamesN)",
+     "url": "https://www.pcgamesn.com/ea-sports-fc-24/crossplay"
     }
    ],
    "checked": "2026-10-10"
@@ -1632,6 +1719,25 @@
    "crossprog": "yes"
   },
   {
+   "title": "Far Cry 5",
+   "igdb_id": null,
+   "crossplay": false,
+   "notes": [
+    "Online co-op only works with friends on the same platform, and PS4/PS5 and Xbox One/Series players can't team up across generations either. There's no split-screen."
+   ],
+   "sources": [
+    {
+     "title": "Is Far Cry 5 cross-platform? (SVG)",
+     "url": "https://www.svg.com/913900/is-far-cry-5-cross-platform/"
+    },
+    {
+     "title": "Far Cry 5: is it cross-platform? (Twinfinite)",
+     "url": "https://twinfinite.net/guides/far-cry-5-is-it-cross-platform/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Far Cry 6",
    "igdb_id": 126290,
    "crossplay": false,
@@ -1725,6 +1831,38 @@
     {
      "title": "Farming Simulator 25 (PC) on the Xbox store",
      "url": "https://www.xbox.com/en-ZA/games/store/_/9PM709J61828"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "FIFA 22",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "partial",
+      "xseries": "partial"
+     }
+    }
+   ],
+   "separate": [
+    "pc",
+    "ps4",
+    "xone",
+    "switch"
+   ],
+   "notes": [
+    "FIFA 22 launched with no crossplay. EA later added a crossplay test between PS5, Xbox Series X|S and Stadia, limited to Online Seasons and Online Friendlies; Ultimate Team was left out. PC and last-gen consoles never got it."
+   ],
+   "sources": [
+    {
+     "title": "Is FIFA 22 cross platform for PS4 and PS5? (GamesRadar)",
+     "url": "https://gamesradar.com/fifa-22-cross-platform-ps4-ps5"
+    },
+    {
+     "title": "FIFA 22 cross-play test announced for PS5, Xbox Series X/S and Stadia (EGM)",
+     "url": "https://egmnow.com/fifa-22-cross-play-test-announced-for-ps5-xbox-series-x-s-and-stadia/"
     }
    ],
    "checked": "2026-10-10"
@@ -2159,6 +2297,22 @@
    "crossprog": "no"
   },
   {
+   "title": "Hello Kitty Island Adventure",
+   "igdb_id": null,
+   "crossplay": false,
+   "crossprog": "no",
+   "notes": [
+    "The Switch, PC and Apple Arcade versions are all separate, so friends can only visit your island from the same platform, and saves don't carry over. Switch online play needs Nintendo Switch Online."
+   ],
+   "sources": [
+    {
+     "title": "Hello Kitty Island Adventure has no crossplay or cross-save (Kotaku)",
+     "url": "https://kotaku.com/hello-kitty-island-adventure-crossplay-cross-save--1851755126"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Hunt: Showdown 1896",
    "igdb_id": null,
    "groups": [
@@ -2227,6 +2381,38 @@
     {
      "title": "Account linking guide for KARDS and cross-platform play (KARDS)",
      "url": "https://decks.kards.com/account_linking"
+    },
+    {
+     "title": "KARDS official launch on Android and iOS (Pocket Gamer)",
+     "url": "https://www.pocketgamer.com/kards/official-launch-android-ios/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Kards: The WWII Card Game",
+   "igdb_id": null,
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ios": "yes",
+      "android": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "PC and mobile players are matched together, and your KARDS account carries your collection and progress between devices."
+   ],
+   "sources": [
+    {
+     "title": "KARDS FAQ (1939 Games)",
+     "url": "https://decks.kards.com/faq"
     },
     {
      "title": "KARDS official launch on Android and iOS (Pocket Gamer)",
@@ -2603,6 +2789,33 @@
    "crossprog": "no"
   },
   {
+   "title": "MIR4",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC and mobile players share the same servers and can play together."
+   ],
+   "sources": [
+    {
+     "title": "MIR4 (Steam)",
+     "url": "https://store.steampowered.com/app/1623660/MIR4/"
+    },
+    {
+     "title": "MIR4 developer interview on the global launch (Inven Global)",
+     "url": "https://www.invenglobal.com/articles/14925/interview-with-mir4-dev"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "MLB The Show 26",
    "igdb_id": null,
    "groups": [
@@ -2829,6 +3042,39 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "NBA 2K24",
+   "igdb_id": null,
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "separate": [
+    "pc",
+    "ps4",
+    "xone",
+    "switch"
+   ],
+   "notes": [
+    "Only PS5 and Xbox Series X|S have crossplay. PC, PS4, Xbox One and Switch players are matched only with their own platform. MyTEAM progress moves between generations within one console family (e.g. PS4 to PS5), not across brands."
+   ],
+   "sources": [
+    {
+     "title": "Is NBA 2K24 crossplay for PC, Xbox and more? (WePC)",
+     "url": "https://www.wepc.com/gaming/nba-2k24-crossplay-cross-progression/"
+    },
+    {
+     "title": "NBA 2K24 crossplay and cross-progression (GGRecon)",
+     "url": "https://ggrecon.com/guides/nba-2k24-crossplay-cross-progression"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "NBA 2K25",
    "igdb_id": null,
    "groups": [
@@ -3022,6 +3268,33 @@
     {
      "title": "NHL cross-play (EA Help)",
      "url": "https://help.ea.com/en/help/nhl/nhl-cross-play/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Night Crows",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC and mobile players play together in real time on the same servers."
+   ],
+   "sources": [
+    {
+     "title": "Night Crows global launch (Business Wire)",
+     "url": "https://www.businesswire.com/news/home/20240311799600/en"
+    },
+    {
+     "title": "WeMade's Night Crows cross-platform MMORPG (GamerBraves)",
+     "url": "https://gamerbraves.com/?p=172715"
     }
    ],
    "checked": "2026-10-10"
@@ -3752,6 +4025,38 @@
    "crossprog": "no"
   },
   {
+   "title": "RoadCraft",
+   "igdb_id": null,
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Co-op for up to 4 players works across PC, PS5 and Xbox Series, and crossplay can be turned off in the settings. Saves don't move between platforms."
+   ],
+   "sources": [
+    {
+     "title": "RoadCraft is out (Focus Entertainment)",
+     "url": "https://community.focus-entmt.com/focus-entertainment/roadcraft/blogs/210-roadcraft-is-out"
+    },
+    {
+     "title": "Does RoadCraft have crossplay and cross-progression? (Prima Games)",
+     "url": "https://primagames.com/tips/roadcraft-crossplay-cross-progression"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "RuneScape",
    "igdb_id": null,
    "groups": [
@@ -4214,6 +4519,34 @@
     {
      "title": "Splitgate 2 cross-progression (Siege.gg)",
      "url": "https://siege.gg/news/splitgate-2-cross-progression"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Star Trek Fleet Command",
+   "igdb_id": null,
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC and mobile players share servers, alliances and the battle pass, and you can switch devices and carry on with the same account."
+   ],
+   "sources": [
+    {
+     "title": "The hit mobile game Star Trek Fleet Command is now available on PC (Scopely)",
+     "url": "https://www.scopely.com/en/news/the-hit-mobile-game-star-trek-fleet-command-is-now-available-on-pc"
+    },
+    {
+     "title": "Star Trek Fleet Command warps from mobile to PC (Space.com)",
+     "url": "https://www.space.com/star-trek-fleet-command-pc"
     }
    ],
    "checked": "2026-10-10"
