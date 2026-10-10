@@ -4049,15 +4049,22 @@
     }
    ],
    "notes": [
-    "Lethal Company is still in Early Access on Steam, made by one developer (Zeekerss), and no console versions have been announced."
+    "Lethal Company is only on Windows PC through Steam, so there's no crossplay: everyone plays on Steam. It's still in Early Access, made by one developer (Zeekerss).",
+    "No console versions have been announced. Zeekerss has said a console port isn't out of the question, but likely not before the game leaves Early Access."
    ],
    "sources": [
     {
      "title": "Is Lethal Company coming to consoles? (Prima Games)",
      "url": "https://primagames.com/tips/is-lethal-company-coming-to-consoles-xbox-playstation-nintendo-switch"
+    },
+    {
+     "title": "Does Lethal Company have crossplay? (Prima Games)",
+     "url": "https://primagames.com/tips/does-lethal-company-have-crossplay-answered"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Liar's Bar",
