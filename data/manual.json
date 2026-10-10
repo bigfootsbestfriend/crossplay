@@ -430,27 +430,42 @@
    "groups": [
     {
      "platforms": {
-      "pc": "yes",
-      "mac": "yes"
-     }
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
     }
    ],
    "separate": [
+    "mac",
+    "linux",
     "ps4",
     "xone",
     "switch"
    ],
    "notes": [
-    "Aspyr's update lets Mac and PC players play together, but consoles only play with the same console. Gearbox wanted console crossplay at launch, but the platform holders refused."
+    "On Windows, Steam and Epic Games Store players can play together: link a SHiFT account and add each other as SHiFT friends.",
+    "Mac and Linux players can no longer join Windows players. A 2020 Windows update broke it, and Aspyr, which made the Mac and Linux versions, said no more updates were planned for them.",
+    "Consoles only play with the same console. Gearbox wanted console crossplay at launch, but the platform holders refused."
    ],
    "sources": [
     {
-     "title": "Borderlands 2 could have had cross-platform multiplayer (Softpedia)",
-     "url": "https://games.softpedia.com/blog/Borderlands-2-Could-Have-Had-Cross-Platform-Multiplayer-307696.shtml"
+     "title": "Borderlands 2 will see no further updates for Linux and macOS from Aspyr (GamingOnLinux)",
+     "url": "https://gamingonlinux.com/2020/09/borderlands-2-will-see-no-further-updates-for-linux-macos-from-aspyr-media"
     },
     {
-     "title": "Is Borderlands 2 cross-platform? (Gamer Journalist)",
-     "url": "https://gamerjournalist.com/is-borderlands-2-cross-platform/"
+     "title": "Borderlands 2 on Steam (requires a SHiFT account)",
+     "url": "https://store.steampowered.com/app/49520/"
+    },
+    {
+     "title": "Steam and Epic players via SHiFT (Steam Community discussion)",
+     "url": "https://steamcommunity.com/app/49520/discussions/0/2954915322316518428"
+    },
+    {
+     "title": "Borderlands 2 could have had cross-platform multiplayer (Softpedia)",
+     "url": "https://games.softpedia.com/blog/Borderlands-2-Could-Have-Had-Cross-Platform-Multiplayer-307696.shtml"
     }
    ],
    "checked": "2026-10-10"
