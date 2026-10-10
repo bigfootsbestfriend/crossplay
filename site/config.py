@@ -17,7 +17,7 @@ PREVIEW_URL = "https://bigfootsbestfriend.github.io/crossplay"
 INDEXABLE = False
 
 # Where readers send corrections. Empty = link to GitHub issues instead.
-CONTACT_EMAIL = ""
+CONTACT_EMAIL = "hello@crossplayguide.com"
 
 # Paste Raptive's site script here once the site is approved (it goes in <head>).
 AD_SCRIPT = ""
