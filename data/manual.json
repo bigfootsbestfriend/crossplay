@@ -6185,7 +6185,8 @@
     }
    ],
    "notes": [
-    "Steam and Epic players play together, and PS5 and Xbox players play together, but PC and console can't mix. Coffee Stain keeps them apart because PC mods and save edits can destabilise a session. Consoles need an Epic Games account to host or join."
+    "Steam and Epic players play together, and PS5 and Xbox Series X|S players play together, but PC and console can't mix. Coffee Stain keeps them apart because PC mods and save edits can destabilise a session. Consoles need an Epic Games account (Epic Online Services) to host or join.",
+    "Consoles don't have dedicated servers: a console game is hosted by one player for up to four, and it ends when the host quits. PC players on Steam or Epic can use dedicated servers. Save files don't transfer between PC and console."
    ],
    "sources": [
     {
@@ -6195,9 +6196,15 @@
     {
      "title": "Is Satisfactory crossplay? PC, PS5 and Xbox explained",
      "url": "https://www.gameserverkings.com/knowledge-base/satisfactory/satisfactory-crossplay/"
+    },
+    {
+     "title": "Satisfactory crossplay: Steam, Epic, Xbox & PS5 (XGamingServer)",
+     "url": "https://xgamingserver.com/blog/satisfactory-crossplay-cross-platform-guide/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Schedule I",
