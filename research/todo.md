@@ -9,3 +9,8 @@ Needs a better source before adding:
 - DayZ: Update 1.29 (2026) reportedly put Xbox app PC and Xbox on shared servers; find Bohemia's own patch notes.
 - Raft: console launch Dec 2024 reportedly with crossplay; find Redbeet's own announcement.
 - Naraka: Bladepoint: rules changed after the PS5/F2P relaunch; reports of region locks and Xbox only with the Microsoft Store version.
+- Infinity Nikki: sources disagree on whether there's any crossplay multiplayer.
+- eFootball: Konami's 2021 plan promised full crossplay including mobile; confirm what's live now.
+- Fishing Planet: limited combinations (Xbox with Microsoft Store PC); unclear.
+- Ghost Recon Breakpoint: sources disagree on whether crossplay was added. Pummel Party, Wobbly Life: unclear.
+- WWE 2K26: sources conflict (console-only crossplay vs none). Football Manager 26: console crossplay Xbox/PS5; PC unclear.
