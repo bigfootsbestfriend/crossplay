@@ -1521,12 +1521,22 @@
      "platforms": {
       "pc": "yes"
      }
+    },
+    {
+     "platforms": {
+      "switch2": "yes"
+     }
     }
    ],
    "notes": [
-    "Co-op and invasions only work within one platform family: PS4 with PS5, and Xbox One with Xbox Series X|S. PC players only meet other PC players."
+    "Co-op and invasions only work within one platform family: PS4 with PS5, and Xbox One with Xbox Series X|S. PC (Steam only) players only meet other PC players.",
+    "The Nintendo Switch 2 version (Tarnished Edition, released August 28, 2026, with Shadow of the Erdtree included) is also separate: Switch 2 players only meet other Switch 2 players, and online play needs Nintendo Switch Online."
    ],
    "sources": [
+    {
+     "title": "ELDEN RING Tarnished Edition (Nintendo)",
+     "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/ELDEN-RING-Tarnished-Edition-2791969.html"
+    },
     {
      "title": "Elden Ring crossplay: is there cross-platform multiplayer? (TechRadar)",
      "url": "https://www.techradar.com/how-to/elden-ring-crossplay-does-the-game-support-crossplatform-multiplayer"
@@ -1562,7 +1572,7 @@
     }
    ],
    "notes": [
-    "Director Junya Ishizaki: \"Similar to the original Elden Ring, there will be cross-generational play but not cross-platform play.\" PS4 and PS5 play together, as do Xbox One and Xbox Series X|S."
+    "Director Junya Ishizaki: \"Similar to the original Elden Ring, there will be cross-generational play but not cross-platform play.\" PS4 and PS5 play together, as do Xbox One and Xbox Series X|S. PC (Steam) players only meet other PC players."
    ],
    "sources": [
     {
