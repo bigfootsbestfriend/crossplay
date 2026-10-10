@@ -184,6 +184,52 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Apex Legends",
+   "igdb_id": 114795,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "EA app"
+     ]
+    }
+   ],
+   "notes": [
+    "PC (Steam and EA app), PlayStation, Xbox and Switch 2 all play together, and crossplay is on by default. A party with PC and console players is matched into PC lobbies.",
+    "Console players can turn crossplay off in Settings > Cross Platform Play; they'll then only match with players on the same platform who've also turned it off. PC players can't turn it off.",
+    "The original Switch version stopped working on August 4, 2026 (Season 30). Progress, cosmetics and Apex Coins follow your EA account, so they carry over to Switch 2 and every other platform."
+   ],
+   "sources": [
+    {
+     "title": "How to add friends for Apex Legends cross-play (EA Help)",
+     "url": "https://help.ea.com/en/help/apex-legends/apex-legends/apex-legends-cross-play/"
+    },
+    {
+     "title": "Apex Legends for Switch to end service on August 4 (Gematsu)",
+     "url": "https://www.gematsu.com/2026/01/apex-legends-for-switch-to-end-service-on-august-4"
+    },
+    {
+     "title": "Apex Legends to end Switch service, Switch 2 version to continue (GoNintendo)",
+     "url": "https://gonintendo.com/contents/57213-apex-legends-to-end-switch-service-on-aug-4th-2026-switch-2-version-to-continue"
+    },
+    {
+     "title": "How to turn off crossplay in Apex Legends (Charlie INTEL)",
+     "url": "https://www.charlieintel.com/apex-legends/how-to-turn-off-crossplay-in-apex-legends-74813/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Arma Reforger",
    "igdb_id": 201789,
    "groups": [
@@ -2651,6 +2697,44 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "no"
+  },
+  {
+   "title": "Helldivers 2",
+   "igdb_id": 250616,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "PC (Steam), PS5 and Xbox Series X|S all play together. The Xbox version arrived on August 26, 2025 with crossplay from day one. Crossplay is on by default and can be turned off in Options (players report it sometimes switches back on after a patch).",
+    "To squad up across platforms, swap the eight-digit friend codes from the Social tab in Options. Linking a PSN account on PC is optional now.",
+    "There's no cross-progression or cross-save: each platform has its own progress, and Arrowhead says linking Steam and PSN doesn't copy your data."
+   ],
+   "sources": [
+    {
+     "title": "Does Helldivers 2 have cross-progression? (Arrowhead Support)",
+     "url": "https://arrowhead.zendesk.com/hc/en-us/articles/12517679456156-Does-Helldivers-2-have-cross-progression-Can-I-transfer-my-stuff-to-another-account"
+    },
+    {
+     "title": "Helldivers 2 on Xbox confirms cross-play (Game Rant)",
+     "url": "https://gamerant.com/helldivers-2-xbox-cross-play-feature/"
+    },
+    {
+     "title": "Will Helldivers 2 have crossplay between Xbox, PlayStation, and PC? (Shacknews)",
+     "url": "https://www.shacknews.com/article/145002/helldivers-2-crossplay-pc-xbox-playstation"
+    }
+   ],
+   "checked": "2026-10-10"
   },
   {
    "title": "Hello Kitty Island Adventure",
@@ -6536,6 +6620,47 @@
     {
      "title": "Cross-play guide (World of Tanks Modern Armor)",
      "url": "https://modernarmor.worldoftanks.com/cms/guides/cross-play/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "World War Z",
+   "igdb_id": 20910,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "World War Z and its expanded version, World War Z: Aftermath, have crossplay between PC (Steam and Epic), PS4, PS5, Xbox One and Xbox Series X|S. The Switch version only plays with other Switch players.",
+    "You can turn crossplay off in Settings (Game tab) to match only with your own platform.",
+    "There's no cross-progression, but Saber offers a one-time save transfer between platforms through its saber.games account system."
+   ],
+   "sources": [
+    {
+     "title": "World War Z: Aftermath FAQ (Saber Support)",
+     "url": "https://support.saber.games/hc/en/world-war-z-aftermath/articles/world-war-z-aftermath-faq-1"
+    },
+    {
+     "title": "World War Z: Aftermath (PlayStation)",
+     "url": "https://www.playstation.com/en-us/games/world-war-z/"
+    },
+    {
+     "title": "Is World War Z: Aftermath cross-platform? (LagoFast)",
+     "url": "https://www.lagofast.com/en/blog/world-war-z-aftermath-crossplay/"
     }
    ],
    "checked": "2026-10-10"
