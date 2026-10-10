@@ -1757,19 +1757,56 @@
    "igdb_id": null,
    "crossplay": false,
    "notes": [
-    "Online co-op only works with friends on the same platform, and PS4/PS5 and Xbox One/Series players can't team up across generations either. There's no split-screen."
+    "Online co-op only works within one platform family. PS5 and Xbox Series X|S players run the PS4 and Xbox One version (updated for 60fps in 2023), so PS5 plays with PS4 and Xbox Series X|S plays with Xbox One.",
+    "On PC, every copy runs through Ubisoft Connect, so Steam, Epic and Ubisoft Connect players can co-op once they're friends on their Ubisoft accounts. There's no split-screen."
    ],
    "sources": [
     {
-     "title": "Is Far Cry 5 cross-platform? (SVG)",
-     "url": "https://www.svg.com/913900/is-far-cry-5-cross-platform/"
+     "title": "Far Cry 5 gets 60 FPS patch for Xbox Series X|S and PS5 (Ubisoft News)",
+     "url": "https://news.ubisoft.com/en-us/article/6b7bacKsgYhFEhoamVRmx2/far-cry-5-gets-60-fps-patch-for-xbox-series-xs-ps5"
     },
     {
-     "title": "Far Cry 5: is it cross-platform? (Twinfinite)",
-     "url": "https://twinfinite.net/guides/far-cry-5-is-it-cross-platform/"
+     "title": "Play Far Cry 5 in 60 FPS for free (Ubisoft News)",
+     "url": "https://news.ubisoft.com/en-ca/article/1oy1kM1Y8oPOGVQjE4PIr1/play-far-cry-5-in-60-fps-for-free-through-march-27"
+    },
+    {
+     "title": "Far Cry 5 for PS4 and Xbox One updated to run at 60fps on PS5 and Xbox Series (Gematsu)",
+     "url": "https://gematsu.com/2023/03/far-cry-5-for-ps4-and-xbox-one-updated-to-run-at-60-frames-per-second-on-ps5-and-xbox-series"
+    },
+    {
+     "title": "Co-op with Ubisoft friends across PC stores (Steam Community discussion)",
+     "url": "https://steamcommunity.com/app/552520/discussions/0/1698294337780394886"
+    },
+    {
+     "title": "Is Far Cry 5 cross-platform? (SVG)",
+     "url": "https://www.svg.com/913900/is-far-cry-5-cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "Ubisoft Connect"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    }
+   ]
   },
   {
    "title": "Far Cry 6",
