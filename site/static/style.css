@@ -287,3 +287,8 @@ select { font: inherit; padding: .45rem .6rem; border-radius: 10px; border: 1.5p
 a.chip { text-decoration: none; transition: filter .15s, box-shadow .15s; }
 a.chip:hover, a.chip:focus-visible { filter: brightness(.94); box-shadow: 0 0 0 2px currentColor inset; }
 .facts dd .chips { display: inline-flex; flex-wrap: wrap; gap: .3rem; justify-content: flex-end; }
+.shots-label { margin: .8rem 0 0; font-weight: 600; }
+.shots a { position: relative; }
+.shots a[hidden] { display: none; }
+.more-shots { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  background: rgba(10, 13, 30, .62); color: #fff; font: 700 1.05rem var(--head); }

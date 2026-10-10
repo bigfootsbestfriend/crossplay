@@ -94,7 +94,7 @@
       i = (n + links.length) % links.length;
       img.src = links[i].href;
       img.alt = links[i].querySelector("img").alt;
-      count.textContent = `${i + 1} / ${links.length}`;
+      count.textContent = `${box.dataset.title || "Screenshot"} · ${i + 1} of ${links.length}`;
     };
     links.forEach((a, n) => a.addEventListener("click", ev => { ev.preventDefault(); show(n); dlg.showModal(); }));
     dlg.querySelector(".lb-prev").addEventListener("click", () => show(i - 1));

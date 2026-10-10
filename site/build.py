@@ -210,7 +210,7 @@ def load_games():
             "checked": w.get("checked") or wiki.get("fetched", TODAY.isoformat()),
             "crossprog": w.get("crossprog"),
             "trailer": next((v for v in trailer_candidates(ig)[:4] if trailers.get(v)), None),
-            "shots": [x["image_id"] for x in ig.get("screenshots", []) if x.get("image_id")][:4],
+            "shots": [x["image_id"] for x in ig.get("screenshots", []) if x.get("image_id")][:8],
         }
         ms_ids = {x["uid"].upper() for x in ig.get("external_games", [])
                   if x.get("external_game_source") == 11 and x.get("uid")}
@@ -561,13 +561,23 @@ def game_page(g, games):
                       f'<img src="https://i.ytimg.com/vi/{e(g["trailer"])}/hqdefault.jpg" width="480" height="360" '
                       f'alt="{e(t)} trailer" loading="lazy"><span class="yt-play" aria-hidden="true"></span></button>')
         if g["shots"]:
-            media += '<div class="shots" data-lightbox>' + "".join(
-                f'<a href="https://images.igdb.com/igdb/image/upload/t_1080p/{s}.jpg" target="_blank" rel="noopener">'
-                f'<img src="https://images.igdb.com/igdb/image/upload/t_screenshot_med/{s}.jpg" width="569" height="320" '
-                f'alt="{e(t)} screenshot {i}" loading="lazy"></a>' for i, s in enumerate(g["shots"], 1)) + "</div>"
+            n = len(g["shots"])
+            thumbs = []
+            for i, s in enumerate(g["shots"], 1):
+                more = f'<span class="more-shots">+{n - 4} more</span>' if i == 4 and n > 4 else ""
+                thumbs.append(
+                    f'<a href="https://images.igdb.com/igdb/image/upload/t_1080p/{s}.jpg" target="_blank" rel="noopener"'
+                    f'{" hidden" if i > 4 else ""} aria-label="{e(t)} screenshot {i} of {n}">'
+                    f'<img src="https://images.igdb.com/igdb/image/upload/t_screenshot_med/{s}.jpg" width="569" height="320" '
+                    f'alt="{e(t)} screenshot {i} of {n}" loading="lazy">{more}</a>')
+            media += (f'<p class="shots-label">{n} screenshot{"s" if n != 1 else ""}'
+                      f'<span class="small"> · tap to enlarge</span></p>'
+                      f'<div class="shots" data-lightbox data-title="{e(t)}">' + "".join(thumbs) + "</div>")
         head = "trailer and screenshots" if g["trailer"] and g["shots"] else "trailer" if g["trailer"] else "screenshots"
         parts.append(f'<section class="media"><h2>{e(t)} {head}</h2>{media}'
-                     + ('<p class="small">The trailer plays from YouTube when you press play.</p>' if g["trailer"] else "")
+                     + ('<p class="small">The trailer plays from YouTube when you press play.'
+                        + (' Screenshots via IGDB.' if g["shots"] else '') + '</p>' if g["trailer"]
+                        else '<p class="small">Screenshots via IGDB.</p>')
                      + "</section>")
 
     # Player reports (only when the community API is configured)
