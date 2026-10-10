@@ -1194,6 +1194,58 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "DayZ",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "xseries": "yes",
+      "xone": "yes",
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    },
+    {
+     "platforms": {
+      "ps5": "yes",
+      "ps4": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Since Update 1.29 (April 8, 2026), Xbox players and PC players using the Xbox app version share servers. Owning DayZ on Xbox also gets you the Windows version through Xbox Play Anywhere.",
+    "The Steam version is separate: it runs its own build and servers, so Steam players can't join Xbox or Xbox app servers. PlayStation is separate too, though PS4 and PS5 players share servers, as do Xbox One and Xbox Series X|S players.",
+    "Characters don't carry over between platforms."
+   ],
+   "sources": [
+    {
+     "title": "DayZ now supports crossplay: what's possible on PC, Xbox and PS5 (Guided)",
+     "url": "https://guided.news/en/gaming/dayz-crossplay-pc-ps4-xbox-one-whats-the-situation/"
+    },
+    {
+     "title": "PC Game Pass DayZ and Steam DayZ compatible? (Steam Community)",
+     "url": "https://steamcommunity.com/app/221100/discussions/0/842879726527731985/"
+    },
+    {
+     "title": "Is DayZ cross-platform in 2026? (Supercraft)",
+     "url": "https://supercraft.host/wiki/dayz/is_dayz_cross_platform/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Dead Island 2",
    "igdb_id": 7329,
    "crossplay": false,
@@ -1809,6 +1861,68 @@
     {
      "title": "EA FC 27 cross-play (Team Gullit)",
      "url": "https://www.teamgullit.com/ea-fc-27/cross-play"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "EA Sports UFC 5",
+   "igdb_id": null,
+   "crossplay": false,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "separate": [
+    "ps5",
+    "xseries"
+   ],
+   "notes": [
+    "UFC 5 has no crossplay or cross-progression: PS5 players only fight PS5 players, and Xbox Series X|S players only fight Xbox players. EA's help centre confirms this. There's no PS4, Xbox One or PC version.",
+    "The sequel, EA Sports UFC 6 (June 19, 2026), is the first in the series with crossplay between PS5 and Xbox Series X|S."
+   ],
+   "sources": [
+    {
+     "title": "How to get started in EA SPORTS UFC 5 (EA Help)",
+     "url": "https://help.ea.com/en/articles/ufc/ufc-5/intro-to-ufc-5/"
+    },
+    {
+     "title": "UFC 5 developers explain decision to omit crossplay & last-gen editions (Dexerto)",
+     "url": "https://www.dexerto.com/gaming/ufc-5-developers-explain-decision-to-omit-crossplay-and-last-gen-editions-2282205/"
+    },
+    {
+     "title": "Is EA Sports UFC 5 crossplay? (Destructoid)",
+     "url": "https://www.destructoid.com/is-ea-sports-ufc-5-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "EA Sports UFC 6",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "UFC 6 (June 19, 2026) is the first UFC game with crossplay: PS5 and Xbox Series X|S players can fight each other in its online multiplayer modes. It's on by default (Settings > Gameplay > Crossplay); on Xbox, the console's own cross-network setting also has to allow it.",
+    "Add friends on the other console from the Online tab with Invite A Friend, searching by EA ID, Xbox gamertag or PSN ID. There's no PS4 or Xbox One version, and a PC version hasn't been dated."
+   ],
+   "sources": [
+    {
+     "title": "How to use cross-play in EA SPORTS UFC 6 (EA Help)",
+     "url": "https://help.ea.com/en/articles/ufc/ufc-6/cross-play/"
+    },
+    {
+     "title": "EA SPORTS UFC 6 arrives June 19 (UFC.com)",
+     "url": "https://www.ufc.com/news/fight-your-fight-ea-sports-ufc-6-arrives-june-19-delivering-next-level-fighter-individuality"
+    },
+    {
+     "title": "EA Sports UFC 6 (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/EA_Sports_UFC_6"
     }
    ],
    "checked": "2026-10-10"
@@ -4730,6 +4844,40 @@
    "crossprog": "no"
   },
   {
+   "title": "Rematch",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "PC, PS5 and Xbox Series X|S all play together. Crossplay wasn't in the June 2025 launch; it arrived with Patch 3 in September 2025, alongside 3v3 Ranked. It's on by default and can be switched off in Settings > Online.",
+    "There's no cross-progression: rank, cosmetics and unlocks stay on the platform where you earned them, and Sloclap says it has no plans to change that."
+   ],
+   "sources": [
+    {
+     "title": "New Rematch patch adds cross-play and ranked mode (GameSpot)",
+     "url": "https://www.gamespot.com/articles/new-rematch-patch-adds-cross-play-and-ranked-mode/1100-6534834/"
+    },
+    {
+     "title": "\"No plans\" for Rematch cross-platform progression (Insider Gaming)",
+     "url": "https://insider-gaming.com/no-plans-for-rematch-cross-platform-progression/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Risk of Rain 2",
    "igdb_id": 28512,
    "crossplay": false,
@@ -5554,6 +5702,43 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "yes"
+  },
+  {
+   "title": "Subnautica 2",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Subnautica 2 has been in Early Access since May 14, 2026 on PC and Xbox Series X|S, and every version plays together in co-op for up to four players: Steam, Epic, the Xbox app and Game Pass on PC, plus Xbox Series X|S.",
+    "There's no PS5 or Switch version yet. The game is updated often during Early Access, so everyone in a session needs to be on the same build."
+   ],
+   "sources": [
+    {
+     "title": "Subnautica 2 (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Subnautica_2"
+    },
+    {
+     "title": "Subnautica 2 crossplay & cross-platform, explained (Dot Esports)",
+     "url": "https://dotesports.com/general/news/subnautica-2-crossplay-cross-platform"
+    },
+    {
+     "title": "Subnautica 2 multiplayer: crossplay and cross-platform explained (esports.gg)",
+     "url": "https://esports.gg/guides/gaming/subnautica-2-multiplayer-crossplay-and-cross-platform-explained/"
+    }
+   ],
+   "checked": "2026-10-10"
   },
   {
    "title": "Tekken 7",
