@@ -27,4 +27,8 @@ Dated changes to re-check. The "Crossplay watch" routine reads this file twice a
 - **Dragon Ball: Sparking! Zero** — check from 2027-06-01. Crossplay beta (PS5, Xbox Series X|S, Steam)
   "after Summer 2027".
 
+- **Forza Horizon 6** — check every run. PS5 version due "later in 2026"; Playground says it joins
+  Xbox/PC crossplay and cross-save at launch. When a date is announced, note it; when it ships, add ps5 to
+  the group and rewrite the note in past tense.
+
 ## Done
