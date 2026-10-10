@@ -293,9 +293,23 @@
    "igdb_id": null,
    "crossplay": false,
    "notes": [
-    "Each platform has its own servers, and PS3 and Xbox 360 players can't play with PS4 and Xbox One players. On PC, Steam and EA app players share servers."
+    "Each platform family has its own servers: PS4 and PS5 (through backward compatibility) play together, as do Xbox One and Xbox Series X|S. On PC, Steam copies run through the EA app, so Steam and EA app players share the same servers.",
+    "Online play on PS3 and Xbox 360 ended on November 7, 2024, when EA shut those servers down. Those versions are now single-player only.",
+    "Multiplayer progress and unlocks don't carry over between platforms."
    ],
    "sources": [
+    {
+     "title": "Battlefield 3, BF4, Hardline on PS3 and Xbox 360 servers to shut down on Nov. 7, 2024 (MP1st)",
+     "url": "https://mp1st.com/news/battlefield-3-bf4-hardline-on-ps3-and-xbox-360-servers-to-shut-down-on-nov-7-2024-games-to-be-delisted-on-july-31"
+    },
+    {
+     "title": "EA is delisting and shutting down three Battlefield games (Press Start)",
+     "url": "https://press-start.com.au/news/2024/07/04/ea-is-delisting-and-shutting-down-three-battlefield-games"
+    },
+    {
+     "title": "Battlefield 4 on PlayStation Store (playable on PS5)",
+     "url": "https://store.playstation.com/en-us/concept/200449"
+    },
     {
      "title": "Battlefield 4 won't feature cross-gen play or saves (PSU)",
      "url": "https://www.psu.com/news/battlefield-4-wont-feature-cross-gen-play-or-saves/"
@@ -305,7 +319,31 @@
      "url": "https://steamcommunity.com/app/1238860/discussions/0/3081006600718533792"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "EA app"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "crossprog": "no"
   },
   {
    "title": "Battlefield REDSEC",
