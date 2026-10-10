@@ -33,4 +33,4 @@ API_URL = os.environ.get("CROSSPLAY_API_URL", "https://crossplay-community.cross
 TURNSTILE_SITEKEY = ""
 
 # Google Analytics 4 measurement ID (looks like "G-XXXXXXXXXX"). Empty = no analytics tag.
-GA_ID = ""
+GA_ID = "G-SQ13RNQQNR"
