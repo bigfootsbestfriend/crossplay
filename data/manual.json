@@ -722,7 +722,7 @@
     }
    ],
    "notes": [
-    "Battlefield V never got crossplay or cross-progression. Battlefield 2042 and Battlefield 6 do have crossplay."
+    "Battlefield V never got crossplay or cross-progression, and DICE has moved on, so it isn't coming. PC players only play with PC, PS4 and PS5 share the PlayStation servers (PS5 runs the PS4 version), and Xbox One and Series X|S share the Xbox ones. Battlefield 2042 and Battlefield 6 do have crossplay."
    ],
    "sources": [
     {
@@ -731,7 +731,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Blood Strike",
@@ -7074,18 +7075,28 @@
     {
      "platforms": {
       "xone": "yes",
-      "xseries": "yes"
-     }
+      "xseries": "yes",
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
     },
     {
      "platforms": {
       "pc": "yes",
       "mac": "yes"
-     }
+     },
+     "pc_stores": [
+      "Steam",
+      "ESO launcher"
+     ]
     }
    ],
    "notes": [
-    "PC/Mac, Xbox and PlayStation each have their own megaservers (North America and Europe). ZeniMax says a team is working on crossplay, but it isn't coming in 2026."
+    "ESO has six separate megaserver groups: PC/Mac, PlayStation and Xbox, each with a North America and a Europe server. PS4 and PS5 share the PlayStation servers, and Xbox One and Series X|S share the Xbox ones, but PlayStation, Xbox and PC players can't play together.",
+    "Since June 2, 2026 ESO is an Xbox Play Anywhere game and on PC Game Pass. The Microsoft Store / Xbox app version on PC plays on the Xbox servers with your Xbox characters, Crowns and DLC, so that's real cross-progression between Xbox and PC. Steam and ESO launcher accounts stay on the PC/Mac servers, and characters can't be transferred between servers.",
+    "ZeniMax says a team is building full crossplay and cross-progression, but it isn't coming in 2026 and there's no release window."
    ],
    "sources": [
     {
@@ -7095,9 +7106,23 @@
     {
      "title": "Elder Scrolls Online crossplay in development (Mein-MMO)",
      "url": "https://mein-mmo.de/elder-scrolls-online-crossplay-in-entwicklung-pc-xbox-playstation/"
+    },
+    {
+     "title": "ESO PC Game Pass guide (Hack the Minotaur)",
+     "url": "https://hacktheminotaur.com/eso-guides/eso-pc-game-pass-guide-everything-you-need-to-know/"
+    },
+    {
+     "title": "The Elder Scrolls Online is coming to PC Game Pass in June (TechRadar)",
+     "url": "https://www.techradar.com/gaming/the-elder-scrolls-online-is-coming-to-pc-game-pass-in-june-and-its-free-right-now-with-playstation-plus"
+    },
+    {
+     "title": "When is crossplay coming to Elder Scrolls Online? (Dot Esports)",
+     "url": "https://dotesports.com/the-elder-scrolls/news/when-is-crossplay-coming-to-elder-scrolls-online"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "partial"
   },
   {
    "title": "The Finals",
