@@ -2158,19 +2158,43 @@
    "igdb_id": 1020,
    "crossplay": false,
    "notes": [
-    "GTA Online keeps every platform on its own servers. On PC, the Enhanced and Legacy editions are separate as well."
+    "There's no crossplay between PC, PlayStation and Xbox. GTA Online is also split by console generation: PS4 and PS5 players don't meet, and neither do Xbox One and Xbox Series X|S players.",
+    "On PC, Steam, Epic Games Store, Rockstar Games Launcher and Xbox app (including PC Game Pass) players share the same sessions, as long as everyone runs the same edition. GTAV Enhanced and GTAV Legacy players can't join each other.",
+    "Progress doesn't sync between platforms, but there are two one-time moves: a GTA Online profile can be migrated from PS4 or Xbox One to PS5 or Xbox Series X|S (even across brands, such as PS4 to Xbox Series X|S; unspent purchased GTA$ doesn't transfer), and from PC Legacy to PC Enhanced. Moves between console and PC aren't supported."
    ],
    "sources": [
     {
-     "title": "Does GTA Online have crossplay & cross-progression?",
-     "url": "https://www.ggrecon.com/guides/gta-online-crossplay-cross-platform-progression/"
+     "title": "Migrating your GTA Online profile from PS4 or Xbox One to PS5 or Xbox Series X|S (Rockstar Support)",
+     "url": "https://support.rockstargames.com/articles/18gGCbIVmslXytEyNj6rCP"
     },
     {
-     "title": "GTA 5: Does the game support cross-platform?",
-     "url": "https://sportskeeda.com/esports/is-gta-5-cross-platform"
+     "title": "Migrating your Online profile from GTAV Legacy to GTAV Enhanced on PC (Rockstar Support)",
+     "url": "https://support.rockstargames.com/articles/259ZyI1It8EACcCuOk5u4z/migrating-your-online-profile-from-gtav-legacy-to-gtav-enhanced-on-pc"
+    },
+    {
+     "title": "Grand Theft Auto V coming to Game Pass and PC Game Pass on April 15 (Xbox Wire)",
+     "url": "https://news.xbox.com/en-us/2025/04/03/grand-theft-auto-v-game-pass-gtav-enhanced-april-15/"
+    },
+    {
+     "title": "Does GTA Online have crossplay & cross-progression?",
+     "url": "https://www.ggrecon.com/guides/gta-online-crossplay-cross-platform-progression/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic Games Store",
+      "Rockstar Games Launcher",
+      "Xbox app"
+     ]
+    }
+   ],
+   "crossprog": "no"
   },
   {
    "title": "Green Hell",
@@ -4603,13 +4627,15 @@
   {
    "title": "Stardew Valley",
    "igdb_id": 17000,
-   "crossplay": false,
+   "crossplay": true,
    "groups": [
     {
      "platforms": {
       "pc": "yes",
       "mac": "yes",
-      "linux": "yes"
+      "linux": "yes",
+      "ios": "partial",
+      "android": "partial"
      },
      "pc_stores": [
       "Steam",
@@ -4619,9 +4645,18 @@
     }
    ],
    "notes": [
-    "Computers can play together: Steam, GOG and Microsoft Store players on Windows, Mac and Linux. Consoles only play with the same console, and ConcernedApe has said the technical barriers to console crossplay are very high."
+    "Computers play together: Windows, Mac and Linux players on Steam, GOG and the Xbox app (PC Game Pass) can join each other's farms. Consoles only play with the same console family, and ConcernedApe has said the technical barriers to console crossplay are very high.",
+    "Phones and tablets have experimental multiplayer: an iOS or Android player can join a PC-hosted farm by typing in the host's IP address, ideally on the same Wi-Fi network. It's hidden behind a code on the title screen, has no farm browser, and isn't in the Apple Arcade version (Stardew Valley+)."
    ],
    "sources": [
+    {
+     "title": "Experimental Mobile Multiplayer Guide (ConcernedApe)",
+     "url": "https://www.stardewvalley.net/mobile-multiplayer-guide/"
+    },
+    {
+     "title": "Stardew Valley now available on Game Pass (ConcernedApe)",
+     "url": "https://www.stardewvalley.net/stardew-valley-now-available-on-game-pass/"
+    },
     {
      "title": "Is Stardew Valley cross-platform? A complete overview (esports.gg)",
      "url": "https://esports.gg/news/gaming/is-stardew-valley-cross-platform-a-complete-overview"

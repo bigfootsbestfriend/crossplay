@@ -263,7 +263,7 @@ def verdict(g):
         return "ended", "No longer", f"{t} used to support crossplay ({pools}), but that has been discontinued."
     if not g["crossplay"]:
         plats = order({k for gr in g["groups"] for k in gr["platforms"]})
-        if plats == ["pc"]:
+        if plats == ["pc"] and not g["outside"]:
             return "no", "No", f"{t} is only on PC, so there's no other platform to cross-play with yet."
         pools = [gr["platforms"] for gr in g["groups"] if len(gr["platforms"]) >= 2]
         same = "; ".join(plist(p, short=True) + " players can play together" for p in pools)
@@ -484,7 +484,10 @@ def game_page(g, games):
     extra = list(g["notes"])
     if pcn:
         extra.append(pcn)
-    if g["outside"]:
+    if g["outside"] and g["source"] == "manual":
+        extra.append(f"The {plist(g['outside'])} version{'s' if len(g['outside']) > 1 else ''} "
+                     f"{'doesn' if len(g['outside']) == 1 else 'don'}'t have crossplay with other platforms.")
+    elif g["outside"]:
         extra.append(f"{t} has also been released on {plist(g['outside'])}, but our sources don't list "
                      f"crossplay for {'that version' if len(g['outside']) == 1 else 'those versions'}. "
                      f"Check before you buy for that platform.")
@@ -523,9 +526,11 @@ def game_page(g, games):
                     f'{"".join(chip(k, "partial" if k in gr["partial"] else "", link=True) for k in gr["platforms"])}</div>'
                     f'{stores}{partial}{others}</div>')
     if g["outside"]:
-        rows.append(f'<div class="pool outside"><h3>Not confirmed</h3><div class="chips big">'
+        known = g["source"] == "manual"
+        rows.append(f'<div class="pool outside"><h3>{"No crossplay" if known else "Not confirmed"}</h3><div class="chips big">'
                     f'{"".join(chip(k, link=True) for k in g["outside"])}</div>'
-                    f'<p class="small">Released here, but no crossplay source lists this version (or it may no longer be sold).</p></div>')
+                    + ('<p class="small">These versions don't have crossplay with other platforms. See the notes above for details.</p></div>'
+                       if known else '<p class="small">Released here, but no crossplay source lists this version (or it may no longer be sold).</p></div>'))
     heading = "Who can play with whom" if len(g["groups"]) > 1 or g["outside"] else "Platforms that play together"
     parts.append(f'<section><h2>{heading}</h2><div class="pools">{"".join(rows)}</div></section>')
 
