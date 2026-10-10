@@ -3781,11 +3781,15 @@
     {
      "platforms": {
       "pc": "yes"
-     }
+     },
+     "pc_stores": [
+      "Steam"
+     ]
     }
    ],
    "notes": [
-    "PC has no crossplay with consoles. PS5 and Xbox players can be matched into the same lobbies when crossplay is on, but they can't invite each other or form parties."
+    "PC (Steam) has no crossplay with consoles. PS5 and Xbox Series X|S players can be matched into the same lobbies when crossplay is on, but they can't invite each other or form parties, so the only way to team up across brands is to queue at the same time and hope.",
+    "There's no cross-progression: a second copy on another platform starts from scratch, skins and event progress included. The PS4 and Xbox One versions were shut down when 1896 launched in August 2024."
    ],
    "sources": [
     {
@@ -3795,9 +3799,15 @@
     {
      "title": "Hunt Showdown crossplay guide (GGRecon)",
      "url": "https://www.ggrecon.com/guides/hunt-showdown-crossplay/"
+    },
+    {
+     "title": "Crossplay in Hunt: Showdown 1896 (PC, Xbox, PS5) explained (Gamepressure)",
+     "url": "https://www.gamepressure.com/newsroom/crossplay-in-hunt-showdown-1896-pc-xbox-ps5-explained/z57716"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "It Takes Two",
