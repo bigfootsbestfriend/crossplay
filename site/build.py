@@ -432,6 +432,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
       <a href="{url('/about/')}">About</a>
       <a href="{url('/guides/crossplay-not-working/')}">Crossplay not working?</a>
       <a href="{url('/updates/')}">Recent changes</a>
+      <a href="{url('/for-developers/')}">For developers</a>
       <a href="{url('/feed.xml')}">RSS feed</a>
       <a href="{url('/privacy/')}">Privacy</a>
       <a href="{correction_link()}">Report a mistake</a>
@@ -1114,6 +1115,13 @@ def build():
 (patch notes, a support page or an official post). We read everything, and we credit nothing to you publicly
 unless you ask.</p>
 </section>''', noindex=True, crumbs=[("Home", "/"), ("Contact", "/contact/")])
+        pages["/for-developers/"] = page(
+            "/for-developers/", "For Developers and Publishers: Add Your Game or Partner With Us",
+            "Developers and publishers can send crossplay details for their games, or get in touch about sponsorships "
+            "and partnerships with Crossplay Guide.",
+            FORDEVS.format(codes=codes, user=e(user), domain=e(domain.replace(".", " (dot) ")),
+                           n=len([g for g in games if g.get("audited")]), about=url("/about/")),
+            crumbs=[("Home", "/"), ("For developers", "/for-developers/")])
     pages["/privacy/"] = page("/privacy/", "Privacy Policy", "How this site handles your data.",
                               PRIVACY.format(site=e(config.SITE_NAME), contact=correction_link(), date=nice_date(TODAY),
                                              community=PRIVACY_COMMUNITY if config.API_URL else "",
@@ -1331,6 +1339,41 @@ the fastest place to check. If our page for the game is wrong or out of date, <a
 safety guide for parents</a>; <a href="https://support.rockstargames.com/articles/6oMA7pOtwFAzgFCmRK40BR/unable-to-enter-grand-theft-auto-online-on-the-xbox-app-on-pc">Rockstar
 Support on Xbox app privacy settings</a>; <a href="https://www.videogameschronicle.com/news/xbox-live-gold-is-no-longer-required-to-play-free-to-play-multiplayer-games">VGC
 on Xbox free-to-play online play</a>. Menu names can change with system updates.</p>
+</section>
+"""
+
+FORDEVS = """
+<section class="hub-head"><h1>For developers and publishers</h1>
+<p class="lede">Make a crossplay game? Tell us how it works and we'll get it right on Crossplay Guide. Thinking about
+reaching players who are looking for games to play with friends? Let's talk.</p></section>
+<section class="prose">
+<h2 id="add">Add or update your game</h2>
+<p>Every game page here says which platforms play together, any limits, and whether progress carries over, with a
+link to the source for each claim. If your game is missing, out of date or about to change, send us:</p>
+<ul>
+<li>The game's name and every platform it's on (including PC stores such as Steam, Epic, the Xbox app or your own
+launcher).</li>
+<li>Which platforms play together, and whether that differs by mode (co-op, PvP, ranked, custom lobbies).</li>
+<li>Whether crossplay can be turned off, and where the setting is.</li>
+<li>Whether progress, purchases or currency carry over between platforms, and what's needed (for example an account
+link).</li>
+<li>A public link that confirms it: patch notes, a support article, a store page or an official post.</li>
+</ul>
+<p>Listing and updates are free, and always will be. We only publish what a public source confirms, so if your
+crossplay news is under embargo, tell us the date and we'll publish once it's out.</p>
+<p><a class="btn" data-mail="{codes}" data-subject="Game submission: " href="#">Email us about your game</a></p>
+<h2 id="partner">Sponsorships and partnerships</h2>
+<p>Crossplay Guide covers {n} researched games, and people come here when they're deciding what to play with friends
+on other platforms. We're open to:</p>
+<ul>
+<li>Sponsoring our weekly crossplay email.</li>
+<li>Launch or update features for a crossplay game.</li>
+<li>Other partnerships that help players find games they can play together.</li>
+</ul>
+<p>Paid placements are always labelled as sponsored. They never change what a game page says: crossplay facts come
+from public sources and nobody can pay for a verdict (more on <a href="{about}">how we check</a>).</p>
+<p><a class="btn" data-mail="{codes}" data-subject="Partnership: " href="#">Email us about a partnership</a></p>
+<p class="small">Email: <span>{user} (at) {domain}</span></p>
 </section>
 """
 

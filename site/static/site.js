@@ -49,13 +49,14 @@
 
   // Contact: the address is stored reversed as char codes and only assembled here, so it never appears
   // in the page source. Links to /contact/?about=Game become mailto links with a subject line.
-  const mailEl = document.querySelector("[data-mail]");
-  const addr = mailEl ? mailEl.dataset.mail.split(",").reverse().map(c => String.fromCharCode(+c)).join("") : null;
-  if (mailEl) {
+  // Buttons with data-subject keep their own label and use that subject instead.
+  document.querySelectorAll("[data-mail]").forEach(mailEl => {
+    const addr = mailEl.dataset.mail.split(",").reverse().map(c => String.fromCharCode(+c)).join("");
     const about = new URLSearchParams(location.search).get("about");
-    mailEl.textContent = addr;
-    mailEl.href = "mailto:" + addr + "?subject=" + encodeURIComponent(about ? "Correction: " + about : "Crossplay Guide");
-  }
+    const subject = mailEl.dataset.subject || (about ? "Correction: " + about : "Crossplay Guide");
+    if (!mailEl.dataset.subject) mailEl.textContent = addr;
+    mailEl.href = "mailto:" + addr + "?subject=" + encodeURIComponent(subject);
+  });
 
   // Search: loads a small JSON index on first focus.
   const load = () => index || (index = fetch(root + "static/search.json").then(r => r.json()));
