@@ -168,6 +168,54 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Among Us",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch": "yes",
+      "switch2": "yes",
+      "ios": "yes",
+      "android": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Every version plays together: PC, phones and tablets, Switch (since December 2020) and PlayStation and Xbox (since December 14, 2021). Switch 2 runs the Switch version.",
+    "To play with friends on another platform, host a private lobby and share its room code. Everyone has to pick the same server region (North America, Europe or Asia). Online play on Switch needs Nintendo Switch Online."
+   ],
+   "sources": [
+    {
+     "title": "Among Us finally hits PlayStation and Xbox this December (Game Informer)",
+     "url": "https://www.gameinformer.com/2021/10/22/among-us-finally-hits-playstation-and-xbox-consoles-this-december"
+    },
+    {
+     "title": "Among Us is out on Xbox and PlayStation with cross-play (PCGamesN)",
+     "url": "https://www.pcgamesn.com/among-us/console-cross-play-update"
+    },
+    {
+     "title": "Among Us available on Nintendo Switch with cross-play (GameSpot)",
+     "url": "https://gamespot.com/articles/among-us-available-on-nintendo-switch-with-cross-play/1100-6485548/"
+    },
+    {
+     "title": "How crossplay works in Among Us (PC Gamer)",
+     "url": "https://pcgamer.com/among-us-crossplay-pc-and-mobile"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Anno 1800",
    "igdb_id": null,
    "crossplay": false,
@@ -819,7 +867,8 @@
      "url": "https://jeu.video/en/article/borderlands-4-release-date"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Buckshot Roulette",
@@ -1400,6 +1449,50 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Dead by Daylight",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch": "yes",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "PC (Steam, Epic and the Xbox app), PlayStation, Xbox and Switch all play together; crossplay has been on by default since August 2020. Switch 2 runs the Switch version.",
+    "The mobile version, Dead by Daylight Mobile, is separate: iOS and Android players only play with each other.",
+    "Cross-progression arrived on July 22, 2024 through a Behaviour account: link each platform and import its progress. DLC and paid currency bought on Switch don't carry over to other platforms, though purchases from other platforms do carry over to Switch."
+   ],
+   "sources": [
+    {
+     "title": "DBD cross progression and crossplay explained (PCGamesN)",
+     "url": "https://pcgamesn.com/dead-by-daylight/cross-progression-crossplay"
+    },
+    {
+     "title": "Dead by Daylight gets cross-progression next week (Shacknews)",
+     "url": "https://www.shacknews.com/article/140587/dead-by-daylight-cross-progression"
+    },
+    {
+     "title": "Dead by Daylight crossplay live for consoles and PC (TheSixthAxis)",
+     "url": "https://www.thesixthaxis.com/?p=362720"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Dead Island 2",
    "igdb_id": 7329,
    "crossplay": false,
@@ -1594,6 +1687,47 @@
     {
      "title": "Is Diablo 3 cross-platform? (Dexerto)",
      "url": "https://www.dexerto.com/diablo/is-diablo-3-cross-platform-1623033/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Diablo IV",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Battle.net",
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "PC (Battle.net and Steam), PS4, PS5, Xbox One and Xbox Series X|S all play together. Console players link their PlayStation or Xbox account to a Battle.net account to play with other platforms.",
+    "You can turn it off in Options > Social > Cross-Network Play; you then won't see or group with players on other platforms, and clans are blocked. A separate toggle turns off cross-platform chat only.",
+    "Characters and account progress follow your Battle.net account across platforms, but you need to buy the game on each platform you play on."
+   ],
+   "sources": [
+    {
+     "title": "How to enable cross-play in Diablo IV (Siliconera)",
+     "url": "https://www.siliconera.com/how-to-enable-cross-play-in-diablo-iv/"
+    },
+    {
+     "title": "Diablo 4 beta: crossplay multiplayer explained (Den of Geek)",
+     "url": "https://www.denofgeek.com/?p=822508"
+    },
+    {
+     "title": "Is Diablo 4 cross platform? (ExitLag)",
+     "url": "https://www.exitlag.com/blog/is-diablo-4-cross-platform/"
     }
    ],
    "checked": "2026-10-10"
@@ -4104,6 +4238,40 @@
     {
      "title": "Mordhau has introduced console and PC crossplay (COGconnected)",
      "url": "https://cogconnected.com/2024/06/mordhau-has-introduced-console-and-pc-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Mortal Kombat 1",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Krossplay connects PS5, Xbox Series X|S and PC (Steam and Epic) in Ranked Kombat League, Kasual Versus, King of the Hill and private matches. It wasn't there at launch and was added in a later update.",
+    "Turn it on in Settings > Online > Enable Krossplay and sign in to a WB Games account; link your platforms on the WB Games profile page to share progress between them. The Switch version has no Krossplay or Kross-Progression."
+   ],
+   "sources": [
+    {
+     "title": "Mortal Kombat 1 Krossplay & Kross-Progression FAQ (WB Games Support)",
+     "url": "https://mortalkombatgamessupport.wbgames.com/hc/en-us/articles/23618817821203-Mortal-Kombat-1-Krossplay-Kross-Progression-FAQ"
+    },
+    {
+     "title": "Mortal Kombat 1 crossplay (GGRecon)",
+     "url": "https://www.ggrecon.com/guides/mortal-kombat-1-crossplay/"
     }
    ],
    "checked": "2026-10-10"
@@ -7318,7 +7486,8 @@
      "url": "https://www.dexerto.com/gaming/warframe-cross-play-cross-save-guide-1636744"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Warhammer 40,000: Darktide",
