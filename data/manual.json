@@ -278,6 +278,44 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "ARC Raiders",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "PC (Steam and Epic), PS5 and Xbox Series X|S all play together, and parties of up to three can mix platforms. Crossplay is on by default and can be switched off in Settings; there's no console-only option, so turning it off limits you to your own platform (PS5 with PS5, Xbox with Xbox).",
+    "Progress, skins and gear follow your Embark account across every platform you own the game on, but you need to buy it again on each platform."
+   ],
+   "sources": [
+    {
+     "title": "Crossplay explained for ARC Raiders (God is a Geek)",
+     "url": "https://godisageek.com/?p=312743"
+    },
+    {
+     "title": "ARC Raiders crossplay and cross-save explained (Icy Veins)",
+     "url": "https://wp-prod.icy-veins.com/arc-raiders-crossplay-and-cross-save-explained/"
+    },
+    {
+     "title": "ARC Raiders: crossplay & cross-progression (Mein-MMO)",
+     "url": "https://mein-mmo.de/arc-raiders-crossplay-cross-progression-multiplayer/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Arma Reforger",
    "igdb_id": 201789,
    "groups": [
@@ -427,7 +465,8 @@
      "url": "https://www.purexbox.com/news/2025/04/baldurs-gate-3-patch-8-now-live-on-xbox-the-games-final-major-update"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Battlefield 1",
@@ -1109,6 +1148,47 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Call of Duty: Warzone",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "partial",
+      "xseries": "yes",
+      "xone": "partial"
+     },
+     "pc_stores": [
+      "Battle.net",
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Warzone is free to play and every platform plays together. Console players can choose crossplay with everyone, consoles only (no PC players) or off. On PC, Steam and Battle.net players can't turn crossplay off; Xbox app players can through the Xbox app's settings. You need an Activision account.",
+    "PS4 and Xbox One are being phased out: Warzone was removed from their stores on June 4, 2026, the in-game store there closed on June 25, and the servers are due to shut down later in 2026. Progress carries to PS5, Xbox Series X|S or PC through your Activision account, but COD Points only move within the same console family."
+   ],
+   "sources": [
+    {
+     "title": "Call of Duty: Warzone for PS4 and Xbox One is being delisted and will shut down later (Game Informer)",
+     "url": "https://gameinformer.com/2026/05/29/call-of-duty-warzone-for-ps4-and-xbox-one-is-being-delisted-and-will-shut-down-later"
+    },
+    {
+     "title": "Crossplay in Black Ops 6 (Activision Support)",
+     "url": "https://support.activision.com/black-ops-6/articles/crossplay-in-black-ops-6"
+    },
+    {
+     "title": "Call of Duty's Xbox update adds 'consoles only' crossplay (Pure Xbox)",
+     "url": "https://www.purexbox.com/news/2025/04/call-of-dutys-new-xbox-update-adds-crossplay-matchmaking-options-for-consoles-only"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Call of Duty: WWII",
    "igdb_id": null,
    "crossplay": false,
@@ -1648,6 +1728,42 @@
     {
      "title": "Cross play included in future plans for Destiny (DestinyTracker)",
      "url": "https://destinytracker.com/article/642/cross-play-included-in-future-plans-for-desti"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Destiny 2",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "partial",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "PvE activities and social spaces mix every platform. Crucible and Gambit are split: consoles (PlayStation and Xbox) share one pool and PC has its own, and a fireteam with any PC player goes into the PC pool. If you turn crossplay off, you only match with players on your platform who have also turned it off.",
+    "Cross Save keeps your Guardians and progress across platforms once you link your accounts on Bungie's website, but expansions don't transfer: you need to buy them on each platform."
+   ],
+   "sources": [
+    {
+     "title": "Is Destiny 2 crossplay? (Digital Trends)",
+     "url": "https://www.digitaltrends.com/gaming/is-destiny-2-crossplay/"
+    },
+    {
+     "title": "Destiny 2 cross play explained (High Ground Gaming)",
+     "url": "https://www.highgroundgaming.com/destiny-2-cross-play-explained/"
     }
    ],
    "checked": "2026-10-10"
@@ -5650,6 +5766,46 @@
     {
      "title": "Does RoadCraft have crossplay and cross-progression? (Prima Games)",
      "url": "https://primagames.com/tips/roadcraft-crossplay-cross-progression"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Roblox",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ios": "yes",
+      "android": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "quest": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Roblox works across Windows, Mac, iPhone and iPad, Android, Xbox, PlayStation (since October 2023) and Meta Quest, and most experiences put all of them in the same servers. Individual experiences can limit which devices can join.",
+    "Your account, Robux, items and friends list are the same on every device. PlayStation players can turn cross-platform play off in Roblox's settings. There's no Switch version."
+   ],
+   "sources": [
+    {
+     "title": "Is Roblox cross platform? (esports.net)",
+     "url": "https://www.esports.net/wiki/guides/roblox-cross-platform-crossplay/"
+    },
+    {
+     "title": "Roblox PS5 version (The Spike)",
+     "url": "https://www.thespike.gg/roblox/beginner-guides/roblox-ps5-version"
+    },
+    {
+     "title": "Roblox platforms: a complete guide (ExitLag)",
+     "url": "https://www.exitlag.com/blog/roblox-platforms/"
     }
    ],
    "checked": "2026-10-10"
