@@ -2826,7 +2826,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Escape the Backrooms",
@@ -2881,7 +2882,8 @@
      "url": "https://help.ea.com/en/help/f1/f1-25/how-to-use-crossplay-in-f1-25/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Fall Guys",
@@ -3009,7 +3011,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "Far Cry 5",
@@ -3152,7 +3155,8 @@
      "url": "https://shacknews.com/article/127926/is-farming-simulator-22-cross-platform"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Farming Simulator 25",
@@ -3179,7 +3183,8 @@
      "url": "https://www.xbox.com/en-ZA/games/store/_/9PM709J61828"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "FIFA 22",
@@ -3211,7 +3216,11 @@
      "url": "https://egmnow.com/fifa-22-cross-play-test-announced-for-ps5-xbox-series-x-s-and-stadia/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "toggle": [
+    "On PS5 or Xbox Series X|S, press R2 or RT on the main menu to open the friends panel, open the crossplay settings and make sure crossplay is on, then search for your friend's EA ID to invite them."
+   ]
   },
   {
    "title": "FIFA 23",
@@ -3235,7 +3244,8 @@
     "switch"
    ],
    "notes": [
-    "Crossplay works within each console generation, in Ultimate Team and online friendlies and seasons. Pro Clubs and co-op modes don't have crossplay. It's on by default and can be turned off."
+    "Crossplay is split by generation: PS5, Xbox Series X|S and PC play together, and PS4 and Xbox One play together. A PS5 or Xbox Series running the last-gen version joins the last-gen pool. Each pool shares its own Ultimate Team Transfer Market.",
+    "Crossplay covers Ultimate Team (Division Rivals solo, FUT Champions, Online Draft, FUT Friendlies and Play a Friend), Online Friendlies and Online Seasons. Co-op Division Rivals, Pro Clubs and VOLTA don't have crossplay. Switch has none."
    ],
    "sources": [
     {
@@ -3243,7 +3253,11 @@
      "url": "https://www.ea.com/games/fifa/news/pitch-notes-fifa-23-cross-play-deep-dive"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default. Press R2 or RT on the main menu to open the social panel, press Options/Start for Social Settings, then Matchmaking Options → Cross-play enabled. Add cross-platform friends by EA ID under Player Search."
+   ]
   },
   {
    "title": "For Honor",
@@ -3273,7 +3287,8 @@
      "url": "https://www.thegamer.com/for-honor-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Fortnite",
@@ -3442,7 +3457,8 @@
      "url": "https://support.forza.net/hc/en-us/articles/21425443020179-Forza-Motorsport-Cross-Play-and-Cross-Progression"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "FragPunk",
@@ -3470,7 +3486,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "Garry's Mod",
@@ -3496,7 +3513,8 @@
      "url": "https://www.explosion.com/game-guides/is-garrys-mod-cross-platform-crossplay-guide-2026/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Gears 5",
@@ -3621,14 +3639,16 @@
      "url": "https://gematsu.com/2024/04/ghost-on-tsushima-directors-cut-for-pc-details-cross-play-playstation-overlay-and-system-requirements"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Golf With Your Friends",
    "igdb_id": null,
    "crossplay": false,
    "notes": [
-    "The original game has no crossplay between PC and consoles. The sequel, Golf With Your Friends 2, was announced with full cross-platform play on PS5, Xbox Series, Switch 2 and PC."
+    "The original game has no crossplay: Steam, Xbox (including the Microsoft Store PC version), PlayStation and Switch players each play on their own platform.",
+    "The sequel, Golf With Your Friends 2, is due in fall 2026 on PS5, Xbox Series X|S, Switch 2 and PC (Steam), with full cross-platform play for up to 12 players."
    ],
    "sources": [
     {
@@ -3638,9 +3658,14 @@
     {
      "title": "Golf With Your Friends 2 launches this fall for PS5, Xbox Series, Switch 2 and PC (Gematsu)",
      "url": "https://www.gematsu.com/2026/04/golf-with-your-friends-2-launches-this-fall-for-ps5-xbox-series-switch-2-and-pc"
+    },
+    {
+     "title": "Golf With Your Friends 2 launches this fall for PS5, Xbox Series, Switch 2, and PC (Gematsu)",
+     "url": "https://www.gematsu.com/2026/04/golf-with-your-friends-2-launches-this-fall-for-ps5-xbox-series-switch-2-and-pc"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Goose Goose Duck",
@@ -3671,7 +3696,8 @@
      "url": "https://twinfinite.net/guides/is-goose-goose-duck-crossplay-answered/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Gran Turismo 7",
@@ -3734,7 +3760,8 @@
      "url": "https://seekingtech.com/how-to-turn-off-crossplay-in-granblue-fantasy-versus-rising/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Grand Theft Auto V",
@@ -3834,7 +3861,8 @@
      "url": "https://www.gematsu.com/2024/07/green-hell-coming-to-ps5-xbox-series-on-august-14"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Grim Dawn",
@@ -3867,7 +3895,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Grounded 2",
@@ -4055,7 +4084,8 @@
      "url": "https://kotaku.com/hello-kitty-island-adventure-crossplay-cross-save--1851755126"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Hunt: Showdown 1896",
@@ -4175,7 +4205,8 @@
    "replaces": [
     "Kards: The WWII Card Game",
     "Kards"
-   ]
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "Killing Floor 2",
@@ -4209,7 +4240,8 @@
      "url": "https://gameslikefinder.com/article/killing-floor-2-multiplayer/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Killing Floor 3",
@@ -4240,7 +4272,8 @@
      "url": "https://www.sportskeeda.com/esports/is-killing-floor-3-cross-platform"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Last Epoch",
@@ -4257,7 +4290,8 @@
     }
    ],
    "notes": [
-    "Last Epoch is a PC game, and even there the Steam and Epic versions can't play together. Eleventh Hour Games plans console versions but hasn't given a date."
+    "Last Epoch is a PC game for now, and even there the Steam and Epic versions can't play together. Online co-op is for up to 4 players.",
+    "A PS5 version was announced in September 2025, launching together with the Orobyss expansion. There's no release date yet, and Eleventh Hour Games hasn't said whether it will have crossplay with PC."
    ],
    "sources": [
     {
@@ -4267,9 +4301,14 @@
     {
      "title": "Is Last Epoch coming to console? (GGRecon)",
      "url": "https://ggrecon.com/guides/last-epoch-console"
+    },
+    {
+     "title": "Last Epoch coming to PS5 alongside Orobyss expansion (Gematsu)",
+     "url": "https://www.gematsu.com/2025/09/last-epoch-coming-to-ps5-alongside-orobyss-expansion"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Lethal Company",
@@ -4316,7 +4355,8 @@
      "url": "https://store.steampowered.com/app/3097560/Liars_Bar/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Madden NFL 26",
@@ -4390,7 +4430,8 @@
      "url": "https://help.ea.com/articles/madden-nfl/madden-cross-play/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Marathon",
@@ -4418,7 +4459,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "Marvel Rivals",
@@ -4481,7 +4523,8 @@
      "url": "https://esports.gg/news/mobile/how-to-link-your-marvel-snap-account-google-apple-and-steam"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Mecha Break",
@@ -4508,7 +4551,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Medieval Dynasty",
@@ -4538,7 +4582,8 @@
      "url": "https://co-optimus.com/article/17581/online-co-op-will-come-to-medieval-dynasty-for-consoles-on-june-27.html"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Microsoft Flight Simulator 2024",
@@ -4568,7 +4613,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Minecraft",
@@ -4653,7 +4699,8 @@
      "url": "https://www.invenglobal.com/articles/14925/interview-with-mir4-dev"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "MLB The Show 26",
@@ -4694,8 +4741,18 @@
   {
    "title": "Monster Hunter Rise",
    "igdb_id": 138950,
-   "crossplay": false,
+   "crossplay": null,
    "groups": [
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes",
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    },
     {
      "platforms": {
       "ps4": "yes",
@@ -4704,14 +4761,11 @@
     },
     {
      "platforms": {
-      "xone": "yes",
-      "xseries": "yes"
-     }
-    },
-    {
-     "platforms": {
       "pc": "yes"
-     }
+     },
+     "pc_stores": [
+      "Steam"
+     ]
     },
     {
      "platforms": {
@@ -4720,7 +4774,7 @@
     }
    ],
    "notes": [
-    "No crossplay or cross-save: Switch, PC, PlayStation and Xbox players each hunt separately. PS4 and PS5 play together, as do Xbox One and Xbox Series X|S."
+    "Xbox One, Xbox Series X|S and the Xbox app version on PC (PC Game Pass) hunt together. PS4 and PS5 players are one community. Steam and Switch players only play with their own platform, and Capcom says there's no crossplay or cross-save with the Switch version."
    ],
    "sources": [
     {
@@ -4730,10 +4784,18 @@
     {
      "title": "Monster Hunter Rise crossplay on PS5, PS4, Xbox (LevelUp)",
      "url": "https://www.levelup.com/noticias/monster-hunter-rise-tendra-crossplay-en-ps5-ps4-xbox-series-xs-y-xbox-one/"
+    },
+    {
+     "title": "Monster Hunter Rise ascends to new heights on Xbox (Xbox Wire)",
+     "url": "https://news.xbox.com/en-us/2022/12/01/monster-hunter-rise-ascends-to-new-heights-on-xbox/"
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "partial",
+   "audited": "2026-10-10",
+   "progress": [
+    "Progress carries between Xbox and the Xbox app version on PC. Steam, PlayStation and Switch saves stay on their own platforms."
+   ]
   },
   {
    "title": "Monster Hunter Wilds",
@@ -4803,7 +4865,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Mordhau",
@@ -4832,7 +4895,8 @@
      "url": "https://cogconnected.com/2024/06/mordhau-has-introduced-console-and-pc-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Mortal Kombat 1",
@@ -4881,7 +4945,8 @@
      "url": "https://fictionhorizon.com/is-mortal-kombat-x-cross-platform-crossplay-on-pc-ps4-xbox-and-switch/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Mount & Blade II: Bannerlord",
@@ -4964,7 +5029,8 @@
      "url": "https://ggrecon.com/guides/nba-2k24-crossplay-cross-progression"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "NBA 2K25",
@@ -4996,7 +5062,8 @@
      "url": "https://nba.2k.com/2k25/faq/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "NBA 2K26",
@@ -5069,7 +5136,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Need for Speed Unbound",
@@ -5093,7 +5161,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "New World: Aeternum",
