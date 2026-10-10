@@ -299,6 +299,53 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Asphalt Legends",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "replaces": [
+    "Asphalt 9: Legends"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch": "yes",
+      "ios": "yes",
+      "android": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Asphalt Legends (called Asphalt Legends Unite at its July 2024 launch, and the successor to Asphalt 9: Legends) has crossplay across every version: PC, Mac, PlayStation, Xbox, Switch, iPhone and Android. It was the first Asphalt game with cross-platform play.",
+    "Your progress follows your Gameloft ID between platforms, and progress from Asphalt 9 carried over."
+   ],
+   "sources": [
+    {
+     "title": "Asphalt Legends Unite launch (Gameloft)",
+     "url": "https://www.gameloft.com/newsroom/asphalt-legends-unite-launch"
+    },
+    {
+     "title": "Asphalt Legends Unite crossplay: all details confirmed (RacingGames.gg)",
+     "url": "https://racinggames.gg/article/asphalt-legends-unite-crossplay-all-crossplay-details-confirmed"
+    },
+    {
+     "title": "Asphalt Legends Unite launch (Pocket Gamer)",
+     "url": "https://www.pocketgamer.com/asphalt-legends-unite/launch"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Baldur's Gate 3",
    "igdb_id": 119171,
    "replaces": [
@@ -2093,6 +2140,41 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "eFootball",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Since the April 2025 update (version 4.4.0), PlayStation, Xbox, Steam and Windows players can play co-op and friend matches together, and matchmake against each other in Events and the eFootball League, which now share one ranking across platforms.",
+    "Mobile players weren't part of that update. eFootball was the free-to-play replacement for Pro Evolution Soccer (PES)."
+   ],
+   "sources": [
+    {
+     "title": "eFootball is adding crossplay and AI opponents in a major update this week (VGC, April 2025)",
+     "url": "https://www.videogameschronicle.com/news/efootball-is-adding-crossplay-and-ai-opponents-in-a-major-update-this-week"
+    },
+    {
+     "title": "Konami unveils major update 4.4.0 for eFootball (Gamereactor)",
+     "url": "https://www.gamereactor.eu/konami-unveils-major-update-440-for-efootball-1530173/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Elden Ring",
    "igdb_id": 119133,
    "crossplay": false,
@@ -2777,6 +2859,57 @@
     {
      "title": "Is Garry's Mod cross-platform? Crossplay guide 2026 (Explosion)",
      "url": "https://www.explosion.com/game-guides/is-garrys-mod-cross-platform-crossplay-guide-2026/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Generation Zero",
+   "igdb_id": null,
+   "crossplay": true,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes",
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Xbox players and PC players on the Xbox app (Microsoft Store / Game Pass) play together; this came with the Resistance update when the game joined Game Pass.",
+    "The Steam version can't join Xbox players, and Avalanche has said Steam crossplay isn't being worked on. PlayStation is separate too; PS5 runs the PS4 version with a free 60fps upgrade, so PS4 and PS5 players play together."
+   ],
+   "sources": [
+    {
+     "title": "Generation Zero now on Xbox Game Pass with Resistance update and cross-play (Windows Central)",
+     "url": "https://windowscentral.com/generation-zero-now-available-xbox-game-pass-alongside-resistance-update-and-crossplay"
+    },
+    {
+     "title": "Generation Zero crossplay question (Steam Community)",
+     "url": "https://steamcommunity.com/app/704270/discussions/0/3721691844085601678"
+    },
+    {
+     "title": "Generation Zero (PlayStation Store)",
+     "url": "https://store.playstation.com/concept/231068"
     }
    ],
    "checked": "2026-10-10"
@@ -5092,6 +5225,43 @@
     {
      "title": "\"No plans\" for Rematch cross-platform progression (Insider Gaming)",
      "url": "https://insider-gaming.com/no-plans-for-rematch-cross-platform-progression/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Remnant II",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Since the February 29, 2024 update, PC, PS5 and Xbox Series X|S players can play co-op together in the campaign and DLC. It's on by default on consoles; you can't see games from players whose crossplay setting differs from yours.",
+    "On PC, frame generation can block the Epic Online Services overlay that crossplay invites use; accept invites through the Epic launcher before starting the game if that happens."
+   ],
+   "sources": [
+    {
+     "title": "Remnant 2 gets crossplay in its latest update (Shacknews)",
+     "url": "https://www.shacknews.com/article/138941/remnant-2-crossplay-update"
+    },
+    {
+     "title": "Remnant 2 adds crossplay via new update (God is a Geek)",
+     "url": "https://www.godisageek.com/2024/02/remnant-2-adds-crossplay-balance-changes-and-new-aberration-event-via-new-update"
+    },
+    {
+     "title": "Two major Xbox games are adding crossplay with PS5 and PC (Pure Xbox)",
+     "url": "https://www.purexbox.com/news/2024/02/two-major-xbox-games-are-adding-crossplay-support-with-ps5-and-pc"
     }
    ],
    "checked": "2026-10-10"
