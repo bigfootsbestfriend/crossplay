@@ -74,3 +74,16 @@ Wikipedia's list misses many of the most-played games, so we research those ours
 - **The repo is public,** so commits use the no-reply email 209829115+bigfootsbestfriend@users.noreply.github.com.
 - **Secrets:** IGDB_CLIENT_ID and IGDB_CLIENT_SECRET are set as Actions secrets. The local `.env` is gitignored.
 - **The site uses `/crossplay` as its base path** while on the github.io preview. Setting `DOMAIN` switches that to `/` and writes a CNAME file.
+
+## Media, Game Pass, cross-progression, community (added 2026-10-10)
+
+- `collector/media.py` (nightly): picks a playable YouTube trailer per game from IGDB videos (`data/trailers.json`
+  caches oEmbed checks) and pulls the Xbox Game Pass PC and console catalogues (`data/gamepass.json`; free-to-play
+  games are flagged and ignored). Game pages show a click-to-load trailer (no YouTube cookies until play), up to 4
+  IGDB screenshots, and a "Game Pass" fact; `/game-pass/` lists crossplay games on Game Pass.
+- `crossprog` ("yes" | "partial" | "no") on researched entries shows a cross-progression tag in the answer box.
+- `/feed.xml` is an RSS feed of the updates log.
+- Community features live in `worker/` (see worker/README.md). They're hidden until `API_URL` is set in config.
+- Discovery signals for future research: Xbox store products carry `XblCrossPlatformMultiPlayer` (crossplay with
+  *something*, not which platforms) and Steam has a "Cross-Platform Multiplayer" category. RAWG's API is free for
+  commercial use under 500k page views/month with a link back; Giant Bomb's API is non-commercial; MobyGames' is paid.

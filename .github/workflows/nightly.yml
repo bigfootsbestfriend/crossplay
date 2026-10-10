@@ -41,6 +41,10 @@ jobs:
           else
             python3 collector/igdb_match.py
           fi
+      - name: Refresh trailers and Game Pass
+        if: github.event_name != 'push'
+        continue-on-error: true   # a broken Microsoft/YouTube feed keeps yesterday's data rather than failing the deploy
+        run: python3 collector/media.py
       - name: Commit data changes
         if: github.event_name != 'push'
         run: |

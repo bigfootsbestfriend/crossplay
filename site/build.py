@@ -18,7 +18,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent / "collector"))
 import config  # noqa: E402
-from common import load_json, merged_games, slugify  # noqa: E402
+from common import load_json, merged_games, norm, slugify, trailer_candidates  # noqa: E402
 
 OUT = HERE.parent / "_site"
 TODAY = datetime.date.today()
@@ -56,6 +56,11 @@ IGDB_PLATFORMS = {6: "pc", 48: "ps4", 167: "ps5", 49: "xone", 169: "xseries", 13
                   14: "mac", 3: "linux", 39: "ios", 34: "android", 9: "ps3", 46: "vita", 12: "x360",
                   41: "wiiu", 37: "3ds", 8: "ps2", 38: "psp", 23: "dreamcast", 74: "winphone", 170: "stadia",
                   384: "quest", 386: "quest", 471: "quest"}
+GAMEPASS = ("console", "pc")
+GP_DATE = load_json("gamepass.json", {}).get("fetched")
+CROSSPROG = {"yes": ("Yes", "your progress follows your account between platforms."),
+             "partial": ("Partly", "only some platforms share progress; see the notes above."),
+             "no": ("No", "progress stays on the platform you played on.")}
 CURRENT = ["pc", "ps5", "ps4", "xseries", "xone", "switch2", "switch", "mac", "linux", "ios", "android"]
 
 # Families for the pair hubs ("PlayStation and PC crossplay games").
@@ -137,10 +142,22 @@ def domain(u):
 
 # ---------------------------------------------------------------- data model
 
+def gp_key(title):
+    """Match key for Game Pass catalogue titles: drop trademark signs, platform suffixes and edition words."""
+    t = re.sub(r"[\u2122\u00ae\u00a9]", "", (title or "").lower())
+    t = re.sub(r"\s*[-\u2013\u2014:(]\s*(for )?(xbox series x\|s|xbox one|windows( 10| pc)?|pc)\)?\s*$", "", t)
+    t = re.sub(r"\b(standard|deluxe|game of the year|goty|definitive|complete|ultimate|digital|enhanced) edition\b", "", t)
+    return norm(t)
+
+
 def load_games():
     wiki, merged = merged_games()
     igdb = load_json("igdb.json", {})
     hist = load_json("history.json", {"games": {}, "log": []})
+    trailers = load_json("trailers.json", {})
+    gp = load_json("gamepass.json", {})
+    gp_ids = {k: {p["id"].upper() for p in gp.get(k, []) if not p.get("free")} for k in GAMEPASS}
+    gp_titles = {k: {gp_key(p["title"]) for p in gp.get(k, []) if not p.get("free")} for k in GAMEPASS}
     games, slugs = [], set()
     for w in merged:
         ig = igdb.get(w["igdb_key"]) or {}
@@ -188,7 +205,14 @@ def load_games():
             "source": w["source"], "crossplay": w.get("crossplay", True), "notes": w.get("notes", []),
             "sources": w.get("sources", []),
             "checked": w.get("checked") or wiki.get("fetched", TODAY.isoformat()),
+            "crossprog": w.get("crossprog"),
+            "trailer": next((v for v in trailer_candidates(ig)[:4] if trailers.get(v)), None),
+            "shots": [x["image_id"] for x in ig.get("screenshots", []) if x.get("image_id")][:4],
         }
+        ms_ids = {x["uid"].upper() for x in ig.get("external_games", [])
+                  if x.get("external_game_source") == 11 and x.get("uid")}
+        g["gamepass"] = [] if w["discontinued"] else [
+            k for k in GAMEPASS if ms_ids & gp_ids[k] or {gp_key(w["title"]), gp_key(ig.get("name"))} & gp_titles[k]]
         g["hubs"] = [s for s, (_, test) in GENRES.items() if ig and test(ig)]
         games.append(g)
     return games, wiki, hist
@@ -331,6 +355,7 @@ def page(path, title, desc, body, schema=None, crumbs=None):
 <meta property="og:type" content="website">
 <link rel="icon" href="{url('/static/favicon.svg')}" type="image/svg+xml">
 <link rel="apple-touch-icon" href="{url('/static/apple-touch-icon.png')}">
+<link rel="alternate" type="application/rss+xml" title="{e(config.SITE_NAME)} updates" href="{url('/feed.xml')}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
@@ -373,6 +398,7 @@ def page(path, title, desc, body, schema=None, crumbs=None):
     <nav>
       <a href="{url('/about/')}">How we check</a>
       <a href="{url('/updates/')}">Recent changes</a>
+      <a href="{url('/feed.xml')}">RSS feed</a>
       <a href="{url('/privacy/')}">Privacy</a>
       <a href="{correction_link()}">Report a mistake</a>
     </nav>
@@ -437,6 +463,10 @@ def game_page(g, games):
     if any(gr["partial"] for gr in g["groups"]):
         extra.append("Some platforms are marked as partial support: crossplay works with limits "
                      "(for example only some modes, or an opt-in setting).")
+    xprog = ""
+    if g["crossprog"]:
+        w_, why = CROSSPROG[g["crossprog"]]
+        xprog = f'<p class="xprog"><span class="tag x-{g["crossprog"]}">Cross-progression: {w_}</span> {e(why[0].upper() + why[1:])}</p>'
     parts.append(f"""
 <section class="answer v-{kind}">
   <div class="answer-cover">{cover(g)}</div>
@@ -445,6 +475,7 @@ def game_page(g, games):
     <h1>{e(t)} crossplay</h1>
     <p class="verdict"><span class="badge v-{kind}">{e(word)}</span> {e(summary)}</p>
     {"".join(f'<p>{e(x)}</p>' for x in extra)}
+    {xprog}
     <p class="checked">Last checked {nice_date(g["checked"])}
     {f' · Details last changed {nice_date(g["history"]["changed"])}' if g["history"].get("changed") and g["history"]["changed"] != g["history"].get("first_seen") else ''}</p>
   </div>
@@ -507,6 +538,59 @@ def game_page(g, games):
                 f'<div class="qa r-{r}"><dt>{e(q)}</dt><dd><span class="dot"></span>{e(a)}</dd></div>'
                 for q, a, r in items) + "</dl></section>")
 
+    # Trailer + screenshots. The YouTube player only loads on click (site.js), so pages stay fast and
+    # YouTube sets no cookies until a reader asks for the video.
+    if g["trailer"] or g["shots"]:
+        media = ""
+        if g["trailer"]:
+            media += (f'<button class="yt" type="button" data-yt="{e(g["trailer"])}" aria-label="Play the {e(t)} trailer">'
+                      f'<img src="https://i.ytimg.com/vi/{e(g["trailer"])}/hqdefault.jpg" width="480" height="360" '
+                      f'alt="{e(t)} trailer" loading="lazy"><span class="yt-play" aria-hidden="true"></span></button>')
+        if g["shots"]:
+            media += '<div class="shots">' + "".join(
+                f'<a href="https://images.igdb.com/igdb/image/upload/t_1080p/{s}.jpg" target="_blank" rel="noopener">'
+                f'<img src="https://images.igdb.com/igdb/image/upload/t_screenshot_med/{s}.jpg" width="569" height="320" '
+                f'alt="{e(t)} screenshot {i}" loading="lazy"></a>' for i, s in enumerate(g["shots"], 1)) + "</div>"
+        head = "trailer and screenshots" if g["trailer"] and g["shots"] else "trailer" if g["trailer"] else "screenshots"
+        parts.append(f'<section class="media"><h2>{e(t)} {head}</h2>{media}'
+                     + ('<p class="small">The trailer plays from YouTube when you press play.</p>' if g["trailer"] else "")
+                     + "</section>")
+
+    # Player reports (only when the community API is configured)
+    if config.API_URL and not g["discontinued"]:
+        plats = {k: PLATFORMS[k][0] for k in avail} if len(avail) >= 2 else {k: PLATFORMS[k][0] for k in g["available"] if k not in CLOUD}
+        cdata = json.dumps({"slug": g["slug"], "title": t, "plats": plats, "api": config.API_URL,
+                            "turnstile": config.TURNSTILE_SITEKEY})
+        parts.append(f"""
+<section class="community" data-community='{e(cdata)}' hidden>
+  <h2>Did crossplay work for you?</h2>
+  <form class="vote" data-vote>
+    <label>I played on <select name="a"></select></label>
+    <label>with someone on <select name="b"></select></label>
+    <span class="vote-btns"><button type="submit" name="result" value="yes" class="btn yes">It worked</button>
+    <button type="submit" name="result" value="no" class="btn no">It didn't</button></span>
+  </form>
+  <p class="tally" data-tally aria-live="polite"></p>
+  <h2>Player tips</h2>
+  <div class="tips" data-tips></div>
+  <details class="tipform">
+    <summary>Add a tip or report a problem</summary>
+    <form data-post>
+      <label>Type <select name="kind"><option value="review">Tip or short review</option>
+        <option value="report">Something on this page is wrong</option></select></label>
+      <label>Your name <input name="name" maxlength="40" placeholder="Shown with your tip (optional)"></label>
+      <label>Platform you play on <select name="platform"></select></label>
+      <label>Your tip <textarea name="body" maxlength="600" rows="4" required
+        placeholder="e.g. Crossplay only worked after we both linked an EA account."></textarea></label>
+      <input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div data-ts></div>
+      <button class="btn" type="submit">Send</button>
+      <p class="small">Tips are checked by a person before they appear. Don't include personal details.</p>
+      <p class="sent" data-sent aria-live="polite"></p>
+    </form>
+  </details>
+</section>""")
+
     # Multiplayer + game facts
     mp = multiplayer_facts(g)
     facts = []
@@ -520,6 +604,11 @@ def game_page(g, games):
         facts.append(("Genre", ", ".join(g["genres"][:3])))
     if g["available"]:
         facts.append(("Platforms", plist([k for k in g["available"] if k not in CLOUD], short=True)))
+    if g["gamepass"]:
+        facts.append(("Game Pass", {("console", "pc"): "Console and PC", ("console",): "Console",
+                                    ("pc",): "PC"}[tuple(g["gamepass"])] + f" (as of {nice_date(GP_DATE)})"))
+    if g["crossprog"]:
+        facts.append(("Cross-progression", CROSSPROG[g["crossprog"]][0]))
     if mp or facts:
         parts.append('<section class="two"><div>' +
                      ('<h2>Multiplayer at a glance</h2><dl class="facts">' +
@@ -678,6 +767,17 @@ def build():
             [("Home", "/"), ("Games", "/games/"), (f"Crossplay {name.lower()}", f"/genre/{slug}/")])
         genre_links.append((slug, name, len(matched)))
 
+    # Game Pass hub
+    gp_games = sorted([g for g in current if g["gamepass"]], key=lambda g: -g["popularity"])
+    if gp_games and GP_DATE:
+        pages["/game-pass/"] = hub_page(
+            "/game-pass/", f"Crossplay Games on Xbox Game Pass ({len(gp_games)} Games)",
+            "Crossplay games on Game Pass",
+            f"{len(gp_games)} crossplay games are in the Xbox Game Pass library right now (checked {nice_date(GP_DATE)}), "
+            f"so a Game Pass subscriber can play them with friends on PlayStation, Switch or Steam. "
+            f"Free-to-play games aren't listed here, since they don't need Game Pass.",
+            gp_games, [("Home", "/"), ("Platforms", "/platforms/"), ("Game Pass", "/game-pass/")])
+
     # Platforms index
     pc = "".join(f'<a class="plat p-{k}" href="{url("/platforms/" + PLATFORMS[k][2] + "/")}">'
                  f'<b>{e(PLATFORMS[k][1])}</b><span>{n} games</span></a>' for k, n in plat_cards)
@@ -688,7 +788,9 @@ def build():
                                 f'<section class="hub-head"><h1>Crossplay by platform</h1><p class="lede">Pick your '
                                 f'platform, or a pair of them, to see every game that lets you play together.</p></section>'
                                 f'<section><div class="plats">{pc}</div></section>'
-                                f'<section><h2>Two platforms</h2><nav class="pills">{pl}</nav></section>',
+                                f'<section><h2>Two platforms</h2><nav class="pills">{pl}</nav></section>'
+                                + (f'<section><h2>Subscriptions</h2><nav class="pills"><a class="pill" href="{url("/game-pass/")}">'
+                                   f'Crossplay games on Game Pass <small>{len(gp_games)}</small></a></nav></section>' if gp_games else ""),
                                 crumbs=[("Home", "/"), ("Platforms", "/platforms/")])
 
     # All games
@@ -726,12 +828,24 @@ def build():
                               f'every game daily. Last check: {nice_date(fetched)}.</p></section><section>{upd}</section>',
                               crumbs=[("Home", "/"), ("Updates", "/updates/")])
 
+    # RSS feed of the updates log
+    feed_items = "".join(
+        f"<item><title>{e(x['title'])}: {e(x['what'])}</title>"
+        f"<link>{abs_url('/games/' + slug_by_title[x['title']] + '/') if x['title'] in slug_by_title else abs_url('/updates/')}</link>"
+        f"<guid isPermaLink=\"false\">{e(x['date'] + ':' + x['title'] + ':' + x['what'])}</guid>"
+        f"<pubDate>{datetime.datetime.combine(datetime.date.fromisoformat(x['date']), datetime.time(9)).strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate></item>"
+        for x in log[:50])
+    feed = (f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>{e(config.SITE_NAME)}: crossplay updates</title>'
+            f'<link>{abs_url("/updates/")}</link><description>New crossplay games and changes to existing ones.</description>'
+            f'<language>en</language>{feed_items}</channel></rss>\n')
+
     # Static pages
     pages["/about/"] = page("/about/", "How We Check Crossplay", "Where our crossplay data comes from and how often we check it.",
                             ABOUT.format(n=len(current), contact=correction_link(), fetched=nice_date(fetched)),
                             crumbs=[("Home", "/"), ("How we check", "/about/")])
     pages["/privacy/"] = page("/privacy/", "Privacy Policy", "How this site handles your data.",
-                              PRIVACY.format(site=e(config.SITE_NAME), contact=correction_link(), date=nice_date(TODAY)),
+                              PRIVACY.format(site=e(config.SITE_NAME), contact=correction_link(), date=nice_date(TODAY),
+                                             community=PRIVACY_COMMUNITY if config.API_URL else ""),
                               crumbs=[("Home", "/"), ("Privacy", "/privacy/")])
     pages["/404.html"] = page("/404.html", "Page not found", "That page doesn't exist.",
                               '<section class="hub-head"><h1>Game over (404)</h1><p class="lede">That page doesn\'t '
@@ -795,6 +909,7 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
                                      + "".join(f"<url><loc>{abs_url(p)}</loc></url>\n" for p in sorted(urls)) + "</urlset>\n")
     robots = "User-agent: *\n" + ("Allow: /\n" if config.INDEXABLE else "Disallow: /\n") + f"Sitemap: {abs_url('/sitemap.xml')}\n"
     (OUT / "robots.txt").write_text(robots)
+    (OUT / "feed.xml").write_text(feed)
     (OUT / ".nojekyll").write_text("")
     if config.DOMAIN:
         (OUT / "CNAME").write_text(config.DOMAIN + "\n")
@@ -844,11 +959,19 @@ your consent first, and you can change your choice at any time.</p>
 <h2>Analytics</h2>
 <p>We may use privacy-friendly analytics to count visits and see which pages are useful. This data is aggregated.</p>
 <h2>Third-party content</h2>
-<p>Game cover images load from IGDB, and fonts load from Google Fonts. Those services receive your IP address when
-your browser fetches the files.</p>
+<p>Game cover images and screenshots load from IGDB, trailer preview images load from YouTube, and fonts load from
+Google Fonts. Those services receive your IP address when your browser fetches the files. Trailers only load the
+YouTube player (which may set YouTube cookies) after you press play.</p>
+{community}
 <h2>Contact</h2>
 <p>Questions about privacy? <a href="{contact}">Get in touch</a>.</p>
 </section>"""
+
+PRIVACY_COMMUNITY = """<h2>Player reports and tips</h2>
+<p>If you tell us whether crossplay worked for you, or send a tip, we store what you sent, the time, and a one-way
+hashed version of your IP address (so one person can't vote many times). We never store the IP address itself.
+Tips are read by a person before they're published, and we publish only the name you typed (if any) and the tip.
+Spam protection may use Cloudflare Turnstile.</p>"""
 
 
 if __name__ == "__main__":

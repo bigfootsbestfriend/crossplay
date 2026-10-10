@@ -68,4 +68,76 @@
     };
     fa.addEventListener("change", update); fb.addEventListener("change", update); update();
   });
+  // Trailer: swap the thumbnail for YouTube's player only when pressed.
+  document.querySelectorAll("[data-yt]").forEach(btn => btn.addEventListener("click", () => {
+    const f = document.createElement("iframe");
+    f.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(btn.dataset.yt)}?autoplay=1&rel=0`;
+    f.title = btn.getAttribute("aria-label");
+    f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+    f.allowFullscreen = true;
+    btn.replaceWith(f);
+  }));
+
+  // Community: "did crossplay work for you?" votes and moderated player tips (Cloudflare Worker API).
+  document.querySelectorAll("[data-community]").forEach(async el => {
+    const d = JSON.parse(el.dataset.community);
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    const api = (path, body) => fetch(d.api + path, body ? {
+      method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body)
+    } : {}).then(async r => { const j = await r.json().catch(() => ({})); if (!r.ok) throw new Error(j.error || r.status); return j; });
+    const opts = Object.entries(d.plats).map(([k, n]) => `<option value="${k}">${esc(n)}</option>`).join("");
+    const vote = el.querySelector("[data-vote]"), post = el.querySelector("[data-post]");
+    vote.a.innerHTML = opts; vote.b.innerHTML = opts; post.platform.innerHTML = `<option value="">Prefer not to say</option>${opts}`;
+    if (vote.b.options.length > 1) vote.b.selectedIndex = 1;
+    const tally = el.querySelector("[data-tally]"), tips = el.querySelector("[data-tips]"), sent = el.querySelector("[data-sent]");
+    const showTally = v => {
+      const n = v.yes + v.no;
+      if (!n) { tally.textContent = "No player reports yet. Be the first!"; return; }
+      const pct = Math.round(100 * v.yes / n);
+      tally.innerHTML = `<b>${v.yes}</b> of ${n} player${n === 1 ? "" : "s"} said crossplay worked for them.`
+        + `<span class="bar" role="img" aria-label="${pct}% said it worked"><i style="width:${pct}%"></i></span>`;
+    };
+    try {
+      const data = await api(`/api/game/${d.slug}`);
+      showTally(data.votes);
+      tips.innerHTML = data.tips.length ? data.tips.map(t => `<div class="tip"><p>${esc(t.body)}</p><p class="small">`
+        + `${esc(t.name || "A player")}${t.platform && d.plats[t.platform] ? " on " + esc(d.plats[t.platform]) : ""}`
+        + ` · ${new Date(t.created * 1000).toLocaleDateString(undefined, { month: "short", year: "numeric" })}</p></div>`).join("")
+        : `<p class="small">No tips yet. Know a trick for getting crossplay working in ${esc(d.title)}? Share it below.</p>`;
+      el.hidden = false;
+    } catch (err) { return; }  // API down: leave the section hidden
+
+    vote.addEventListener("submit", async ev => {
+      ev.preventDefault();
+      const result = ev.submitter && ev.submitter.value;
+      vote.querySelectorAll("button").forEach(b => b.disabled = true);
+      try {
+        showTally((await api("/api/vote", { slug: d.slug, result, a: vote.a.value, b: vote.b.value })).votes);
+        tally.insertAdjacentHTML("afterbegin", "<b>Thanks!</b> ");
+      } catch (err) { tally.textContent = "Couldn't save that, please try again later."; }
+      vote.querySelectorAll("button").forEach(b => b.disabled = false);
+    });
+
+    let tsToken = "";
+    if (d.turnstile) {
+      el.querySelector(".tipform").addEventListener("toggle", () => {
+        if (window.turnstile || document.getElementById("ts-js")) return;
+        window.onTs = () => window.turnstile.render(el.querySelector("[data-ts]"), { sitekey: d.turnstile, callback: t => tsToken = t });
+        const sc = document.createElement("script");
+        sc.id = "ts-js"; sc.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onTs"; sc.async = true;
+        document.head.appendChild(sc);
+      }, { once: true });
+    }
+    post.addEventListener("submit", async ev => {
+      ev.preventDefault();
+      const btn = post.querySelector("button"); btn.disabled = true; sent.className = "sent";
+      try {
+        await api("/api/post", { slug: d.slug, kind: post.kind.value, name: post.name.value, platform: post.platform.value,
+          body: post.body.value, website: post.website.value, token: tsToken });
+        sent.textContent = post.kind.value === "report" ? "Thanks, we'll check it." : "Thanks! Your tip will appear once it's been checked.";
+        post.body.value = "";
+      } catch (err) { sent.className = "sent err"; sent.textContent = "Couldn't send that: " + err.message; }
+      btn.disabled = false;
+    });
+  });
 })();

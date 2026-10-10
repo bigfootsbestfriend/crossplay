@@ -112,6 +112,22 @@ def merged_games():
             "crossplay": m.get("crossplay", True), "separate": m.get("separate", []),
             "groups": [{"platforms": gr["platforms"], "pc_stores": gr.get("pc_stores", []),
                         "others": gr.get("others", []), "refs": []} for gr in m.get("groups", [])],
-            "notes": m.get("notes", []), "sources": m.get("sources", []), "checked": m.get("checked"),
+            "notes": m.get("notes", []), "sources": m.get("sources", []), "checked": m.get("checked"), "crossprog": m.get("crossprog"),
         })
     return wiki, games
+
+
+TRAILER_ORDER = ("launch trailer", "release trailer", "release date trailer", "trailer", "gameplay trailer",
+                 "announcement trailer", "reveal trailer", "official trailer")
+
+
+def trailer_candidates(igdb_entry):
+    """IGDB video ids for a game, best trailer first (launch/release trailers before teasers and dev diaries)."""
+    vids = [v for v in (igdb_entry or {}).get("videos", []) if v.get("video_id")]
+
+    def rank(v):
+        name = (v.get("name") or "").lower().strip()
+        if name in TRAILER_ORDER:
+            return TRAILER_ORDER.index(name)
+        return len(TRAILER_ORDER) + (0 if "trailer" in name else 1)
+    return [v["video_id"] for v in sorted(vids, key=rank)]

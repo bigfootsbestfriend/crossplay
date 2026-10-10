@@ -1,4 +1,5 @@
 """Site settings. Change the name or attach a domain here; everything else follows."""
+import os
 
 SITE_NAME = "Crossplay Guide"
 LOGO_KICKER = "Can we play?"   # small mono line above the wordmark
@@ -25,3 +26,8 @@ if DOMAIN:
     BASE_URL, BASE_PATH = "https://" + DOMAIN, ""
 else:
     BASE_URL, BASE_PATH = PREVIEW_URL, "/crossplay"
+
+# Community features (player crossplay reports and moderated tips) need the Cloudflare Worker in worker/.
+# Leave API_URL empty to hide them. TURNSTILE_SITEKEY is optional (Cloudflare's free anti-bot check).
+API_URL = os.environ.get("CROSSPLAY_API_URL", "")  # env override is for local previews
+TURNSTILE_SITEKEY = ""

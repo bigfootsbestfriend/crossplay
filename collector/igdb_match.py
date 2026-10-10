@@ -19,7 +19,8 @@ FIELDS = ("name,slug,url,first_release_date,cover.image_id,platforms.name,platfo
           "multiplayer_modes.onlinemax,multiplayer_modes.offlinecoop,multiplayer_modes.offlinecoopmax,"
           "multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,multiplayer_modes.splitscreenonline,"
           "multiplayer_modes.lancoop,multiplayer_modes.campaigncoop,multiplayer_modes.dropin,"
-          "franchises.name,collections.name,websites.url,websites.type,external_games.uid,external_games.external_game_source")
+          "franchises.name,collections.name,websites.url,websites.type,external_games.uid,external_games.external_game_source,"
+          "videos.video_id,videos.name,screenshots.image_id,screenshots.width,screenshots.height")
 MAIN_TYPES = (0, 8, 9, 10, 11)  # main game, remake, remaster, expanded game, port
 
 
@@ -74,7 +75,7 @@ def main():
 
     want_ids = {t: v for t, v in overrides.items() if v and (t not in cache or not cache[t] or cache[t]["id"] != v)}
     if args.refresh:
-        want_ids.update({t: g["id"] for t, g in cache.items() if g and t not in overrides})
+        want_ids.update({t: g["id"] for t, g in cache.items() if g and t not in want_ids})
     for g in by_id(igdb, sorted(set(want_ids.values()))).values():
         for t, v in want_ids.items():
             if v == g["id"]:

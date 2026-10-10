@@ -134,7 +134,8 @@
      "url": "https://support.ageofempires.com/hc/en-us/articles/34796625645844-Age-of-Mythology-Retold-on-PlayStation-5-FAQ"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Albion Online",
@@ -349,7 +350,8 @@
      "url": "https://primagames.com/gaming/does-battlefield-5-have-crossplay-answered"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Blood Strike",
@@ -698,7 +700,8 @@
      "url": "https://ggrecon.com/guides/company-of-heroes-3-console"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Conan Exiles",
@@ -979,7 +982,8 @@
      "url": "https://www.dualshockers.com/does-deathloop-have-crossplay-between-ps5-and-pc/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "partial"
   },
   {
    "title": "Diablo II: Resurrected",
@@ -998,7 +1002,8 @@
      "url": "https://www.dualshockers.com/does-diablo-2-resurrected-have-crossplay-or-cross-progression/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Diablo III",
@@ -1051,7 +1056,8 @@
      "url": "https://www.nme.com/news/divinity-original-sin-2-now-offers-cross-saves-between-steam-and-ipad-3037103"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "partial"
   },
   {
    "title": "Don't Starve Together",
@@ -1335,7 +1341,8 @@
      "url": "https://insider-gaming.com/is-ea-sports-fc-25-cross-platform-answered/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "EA Sports FC 26",
@@ -1499,7 +1506,8 @@
      "url": "https://www.tweaktown.com/news/47435/elite-dangerous-soon-xbox-one-pc-cross-platform-play/index.html"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Escape the Backrooms",
@@ -1620,7 +1628,8 @@
      "url": "https://www.rpgsite.net/news/21144-fantasy-life-i-mobile-download-android-ios-price"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Far Cry 6",
@@ -1810,7 +1819,8 @@
      "url": "https://primagames.com/tips/forza-horizon-6-have-crossplay-cross-saves"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Forza Motorsport",
@@ -1866,7 +1876,8 @@
      "url": "https://www.esports.net/news/gaming/fragpunk-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Garry's Mod",
@@ -2072,7 +2083,8 @@
      "url": "https://forums.crateentertainment.com/t/another-xbox-one-suggestion-crossplay/93544"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Grounded 2",
@@ -2143,7 +2155,8 @@
      "url": "https://primagames.com/gaming/is-hell-let-loose-crossplay-friendly-answered"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Hunt: Showdown 1896",
@@ -2438,7 +2451,8 @@
      "url": "https://www.shacknews.com/article/148194/does-marathon-have-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Marvel Rivals",
@@ -2525,7 +2539,8 @@
      "url": "https://www.sportskeeda.com/esports/mecha-break-crossplay-everything-know"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Medieval Dynasty",
@@ -2584,7 +2599,8 @@
      "url": "https://msfsaddons.com/2025/10/10/new-insights-on-the-ps5-version-of-microsoft-flight-simulator-cross-play-peripherals-and-more/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "MLB The Show 26",
@@ -2654,7 +2670,8 @@
      "url": "https://www.levelup.com/noticias/monster-hunter-rise-tendra-crossplay-en-ps5-ps4-xbox-series-xs-y-xbox-one/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Monster Hunter Wilds",
@@ -2684,7 +2701,8 @@
      "url": "https://www.pcgamesn.com/monster-hunter-wilds/crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Monster Hunter: World",
@@ -2718,7 +2736,8 @@
      "url": "https://primagames.com/tips/does-monster-hunter-world-have-cross-platform-play"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Mordhau",
@@ -2898,7 +2917,8 @@
      "url": "https://support.nba2k.com/hc/en-us/articles/54270764244371-NBA-2K27-Crossplay-FAQ"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Need for Speed Unbound",
@@ -2921,7 +2941,8 @@
      "url": "https://help.ea.com/en/articles/need-for-speed/need-for-speed-unbound/cross-play/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "New World: Aeternum",
@@ -2954,7 +2975,8 @@
      "url": "https://mein-mmo.de/new-world-aeternum-open-offene-beta-september-start-dauer-termin/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "NHL 26",
@@ -3059,7 +3081,8 @@
      "url": "https://www.digitalcitizen.life/once-human-launches-on-xbox-series-x-and-series-s-on-august-25-with-cross-progression/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Overcooked! 2",
@@ -3138,7 +3161,8 @@
      "url": "https://shacknews.com/article/143534/palworld-update-050-patch-notes"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Party Animals",
@@ -3170,7 +3194,8 @@
      "url": "https://www.levelup.com/noticias/este-popular-juego-multijugador-termina-su-exclusividad-con-xbox-y-llega-a-ps5/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Path of Exile",
@@ -3226,7 +3251,8 @@
      "url": "https://www.pcgamesn.com/path-of-exile-2/crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Path of Titans",
@@ -3345,7 +3371,8 @@
      "url": "https://support.2k.com/hc/en-us/articles/38686591498899-PGA-TOUR-2K25-Crossplay-Between-Platforms"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Phasmophobia",
@@ -3400,7 +3427,8 @@
      "url": "https://www.bluestacks.com/blog/news/pokemon-tcg-live-release-announcement-en.html"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Pokémon Unite",
@@ -3496,7 +3524,8 @@
      "url": "https://www.sportskeeda.com/esports/is-powerwash-simulator-2-crossplay-cross-platform"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "PUBG Mobile",
@@ -3579,7 +3608,8 @@
      "url": "https://www.businesswire.com/news/home/20200121005041/en/Plarium-Releases-Acclaimed-Collection-RPG-RAID-Shadow-Legends-on-PC"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Ravenswatch",
@@ -3640,7 +3670,8 @@
      "url": "https://gamespress.westeu-v2.propressroom.com/Ready-or-Not-the-hit-tactical-FPS-from-VOID-Interactive-is-OUT-NOW-on-"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Red Dead Redemption 2",
@@ -3678,7 +3709,8 @@
      "url": "https://esports.gg/news/gaming/is-red-dead-online-cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Risk of Rain 2",
@@ -3716,7 +3748,8 @@
      "url": "https://primagames.com/tips/is-risk-of-rain-2-cross-platform-answered"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "RuneScape",
@@ -3739,7 +3772,8 @@
      "url": "https://jagex.com/news/runescape-launches-on-ios-and-android"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "RuneScape: Dragonwilds",
@@ -3767,7 +3801,8 @@
      "url": "https://fandomwire.com/runescape-dragonwilds-cross-play/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Rust",
@@ -3800,7 +3835,8 @@
      "url": "https://www.shacknews.com/article/122160/is-rust-cross-platform"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Satisfactory",
@@ -3966,7 +4002,8 @@
      "url": "https://gamesradar.com/skull-and-bones-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Smite 2",
@@ -4000,7 +4037,8 @@
      "url": "https://gematsu.com/2024/01/smite-2-announced-for-ps5-xbox-series-and-pc"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Sniper Elite 5",
@@ -4029,7 +4067,8 @@
      "url": "https://www.purexbox.com/guides/sniper-elite-5-cross-play-cross-platform-cross-progression-details"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Sniper Elite: Resistance",
@@ -4058,7 +4097,8 @@
      "url": "https://deltiasgaming.com/?p=129736"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Sons of the Forest",
@@ -4293,7 +4333,8 @@
      "url": "https://www.pocketgamer.biz/mobile-legend-stumble-guys-is-now-on-playstation-4-and-5-with-cross-progression"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Tekken 7",
@@ -4510,7 +4551,8 @@
      "url": "https://www.esports.net/wiki/guides/the-forest-cross-platform-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "The Outlast Trials",
@@ -4539,7 +4581,8 @@
      "url": "https://primagames.com/tips/is-the-outlast-trials-crossplay-answered"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "The Planet Crafter",
@@ -4603,7 +4646,8 @@
      "url": "https://primagames.com/gaming/is-the-texas-chainsaw-massacre-game-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "theHunter: Call of the Wild",
@@ -4660,7 +4704,8 @@
      "url": "https://www.playthroneandliberty.com/en-us/game/faq"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Tiny Tina's Wonderlands",
@@ -4881,7 +4926,8 @@
      "url": "https://news.ubisoft.com/en-au/article/5nuH3hEk11McSpf59WJsNY/trackmania-available-now-on-playstation-and-xbox-consoles"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "UFL",
@@ -4908,7 +4954,8 @@
      "url": "https://www.invenglobal.com/articles/19859/ufl-early-access-comes-to-pc-november-7-with-ranked-play-cross-play-and-rewards-bundles"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Undisputed",
@@ -4975,7 +5022,8 @@
      "url": "https://www.gfinityesports.com/guides/unturned-cross-platform"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "V Rising",
@@ -5007,7 +5055,8 @@
      "url": "https://mein-mmo.de/v-rising-startet-auf-ps5/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Valheim",
@@ -5301,7 +5350,8 @@
      "url": "https://www.focus-entmt.com/en/news/warhammer-40000-space-marine-2-faq"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Warhammer: Vermintide 2",
@@ -5320,7 +5370,8 @@
      "url": "https://www.gamewatcher.com/will-warhammer-vermintide-2-support-cross-platform-play"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Where Winds Meet",
@@ -5386,7 +5437,8 @@
      "url": "https://gematsu.com/2024/08/free-to-play-magic-school-mmorpg-wizard101-coming-to-ps4-xbox-one-and-switch"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "partial"
   },
   {
    "title": "World of Tanks Blitz",
@@ -5415,7 +5467,8 @@
      "url": "https://mein-mmo.de/en/world-of-tanks-blitz-pc-gegen-mobile,124254"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "World of Tanks: Modern Armor",
