@@ -24,6 +24,8 @@ OUT = HERE.parent / "_site"
 GA_TAG = (f'<script async src="https://www.googletagmanager.com/gtag/js?id={config.GA_ID}"></script>\n'
           f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}"
           f"gtag('js',new Date());gtag('config','{config.GA_ID}');</script>\n") if config.GA_ID else ""
+CLICKY_TAG = (f'<script async data-id="{config.CLICKY_ID}" src="https://static.getclicky.com/js"></script>\n'
+              if config.CLICKY_ID else "")
 # Cache-busting: a short hash of each file's contents, so browsers refetch the moment it changes.
 ASSET_V = {n: __import__("hashlib").sha1((HERE / "static" / n).read_bytes()).hexdigest()[:10]
            for n in ("style.css", "site.js")}
@@ -367,7 +369,7 @@ def page(path, title, desc, body, schema=None, crumbs=None):
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="{url('/static/style.css')}?v={ASSET_V['style.css']}">
 {config.AD_SCRIPT}
-{GA_TAG}{ld}</head>
+{GA_TAG}{CLICKY_TAG}{ld}</head>
 <body>
 <header class="top">
   <div class="wrap top-in">
@@ -986,7 +988,7 @@ address unless you contact us.</p>
 based on your visits to this and other websites, and to measure how ads perform. Where the law requires it, we ask for
 your consent first, and you can change your choice at any time.</p>
 <h2>Analytics</h2>
-<p>We may use privacy-friendly analytics to count visits and see which pages are useful. This data is aggregated.</p>
+<p>We use Google Analytics and Clicky to count visits and see which pages are useful. They set cookies and receive your IP address, browser details and the pages you view; we only look at aggregated reports. See <a href="https://policies.google.com/privacy">Google's</a> and <a href="https://clicky.com/terms/privacy">Clicky's</a> privacy policies.</p>
 <h2>Third-party content</h2>
 <p>Game cover images and screenshots load from IGDB, trailer preview images load from YouTube, and fonts load from
 Google Fonts. Those services receive your IP address when your browser fetches the files. Trailers only load the

@@ -34,3 +34,4 @@ TURNSTILE_SITEKEY = ""
 
 # Google Analytics 4 measurement ID (looks like "G-XXXXXXXXXX"). Empty = no analytics tag.
 GA_ID = "G-SQ13RNQQNR"
+CLICKY_ID = "101513000"
