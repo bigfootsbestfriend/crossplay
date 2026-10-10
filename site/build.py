@@ -301,10 +301,17 @@ def verdict(g):
                                + (f" {plist(lone)} {'has' if len(lone) == 1 else 'have'} no crossplay." if lone else ""))
 
 
+def single_platform(g):
+    """True when the game is only on one platform, so there's no one to cross-play with."""
+    return len(g["groups"]) == 1 and len(g["groups"][0]["platforms"]) == 1 and not g["outside"]
+
+
 def pc_note(g):
     stores = sorted({s for gr in g["groups"] if "pc" in gr["platforms"] for s in gr["pc_stores"]})
     if not stores:
         return ""
+    if single_platform(g):
+        return f"On PC it's sold on {' and '.join(stores) if len(stores) < 3 else ', '.join(stores[:-1]) + ' and ' + stores[-1]}."
     if len(stores) == 1:
         return f"On PC, the crossplay version is the {stores[0]} one."
     return f"On PC, crossplay covers {', '.join(stores[:-1])} and {stores[-1]}."
@@ -597,7 +604,8 @@ def game_page(g, games):
     rows = []
     for i, gr in enumerate(g["groups"], 1):
         label = (PLATFORMS[gr["platforms"][0]][1] + " only" if len(gr["platforms"]) == 1 and not gr["pc_stores"]
-                 and len(g["groups"]) > 1 else f"Group {i}" if len(g["groups"]) > 1 else "Plays together")
+                 and len(g["groups"]) > 1 else f"Group {i}" if len(g["groups"]) > 1
+                 else "Only on" if single_platform(g) else "Plays together")
         stores = f'<p class="small">PC stores: {e(", ".join(gr["pc_stores"]))}</p>' if gr["pc_stores"] else ""
         partial = (f'<p class="small">Partial support: {e(plist(gr["partial"]))}</p>' if gr["partial"] else "")
         others = f'<p class="small">Also: {e(", ".join(gr["others"]))}</p>' if gr["others"] else ""
@@ -610,7 +618,8 @@ def game_page(g, games):
                     f'{"".join(chip(k, link=True) for k in g["outside"])}</div>'
                     + ('<p class="small">These versions don&#39;t have crossplay with other platforms. See the notes above for details.</p></div>'
                        if known else '<p class="small">Released here, but no crossplay source lists this version (or it may no longer be sold).</p></div>'))
-    heading = "Who can play with whom" if len(g["groups"]) > 1 or g["outside"] else "Platforms that play together"
+    heading = ("Who can play with whom" if len(g["groups"]) > 1 or g["outside"]
+               else "Where you can play it" if single_platform(g) else "Platforms that play together")
     if not g.get("verdict"):
         parts.append(f'<section><h2>{heading}</h2><div class="pools">{"".join(rows)}</div></section>')
 

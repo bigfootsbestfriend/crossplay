@@ -6,6 +6,7 @@ import json
 import os
 import re
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -58,7 +59,9 @@ def norm(name):
 
 
 def slugify(name):
-    s = re.sub(r"[^a-z0-9]+", "-", (name or "").lower().replace("&", "and").replace("'", "")).strip("-")
+    # Fold accents first so "Pokémon" becomes "pokemon", not "pok-mon".
+    name = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode()
+    s = re.sub(r"[^a-z0-9]+", "-", name.lower().replace("&", "and").replace("'", "")).strip("-")
     return s or "game"
 
 

@@ -4961,7 +4961,8 @@
      "url": "https://jeu.video/en/guide/bannerlord-crossplay-en"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "My Hero Ultra Rumble",
@@ -5196,7 +5197,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "NHL 26",
@@ -5218,7 +5220,8 @@
      "url": "https://help.ea.com/fi/articles/nhl/cross-play/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "NHL 27",
@@ -5244,7 +5247,8 @@
      "url": "https://help.ea.com/en/help/nhl/nhl-cross-play/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Night Crows",
@@ -5271,7 +5275,8 @@
      "url": "https://gamerbraves.com/?p=172715"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Old School RuneScape",
@@ -5299,7 +5304,8 @@
      "url": "https://toucharcade.com/2017/07/17/runescape-mobile-announced/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Once Human",
@@ -5329,7 +5335,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "Overcooked! 2",
@@ -5449,7 +5456,8 @@
      "url": "https://Gamespot.com/articles/palia-cross-play-and-cross-saves-explained/1100-6522200/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Palworld",
@@ -5519,7 +5527,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Path of Exile",
@@ -5593,20 +5602,24 @@
     {
      "platforms": {
       "pc": "yes",
+      "mac": "yes",
       "ps5": "yes",
       "ps4": "yes",
       "xseries": "yes",
       "xone": "yes",
       "ios": "yes",
-      "android": "yes"
-     }
+      "android": "yes",
+      "switch": "partial",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Alderon Games Launcher"
+     ]
     }
    ],
-   "separate": [
-    "switch"
-   ],
    "notes": [
-    "PC, mobile, PlayStation and Xbox share servers. Switch crossplay is waiting on Nintendo to approve an update, and Alderon hasn't given a date."
+    "PC, Mac, Linux, mobile, PlayStation and Xbox share the same servers, up to 200 players each. On PC it's sold through the Alderon Games Launcher, not Steam.",
+    "Switch only joins in when its version matches everyone else's. Nintendo has to approve each update, which can take weeks or months, so Switch crossplay comes and goes. Alderon says there's no workaround while Switch is behind."
    ],
    "sources": [
     {
@@ -5614,11 +5627,25 @@
      "url": "https://support.alderongames.com/hc/en-us/articles/47868217196441-Nintendo-Switch-Crossplay-FAQ"
     },
     {
+     "title": "Consoles FAQ (Alderon Games Support)",
+     "url": "https://support.alderongames.com/hc/en-us/articles/8807399875993"
+    },
+    {
      "title": "Path of Titans console release (Path of Titans)",
      "url": "https://pathoftitans.com/blog/console-release"
+    },
+    {
+     "title": "Path of Titans beta on PlayStation, Xbox, PC, Mac, Linux and mobile (WorthPlaying)",
+     "url": "https://www.worthplaying.com/article/2022/7/27/news/132878-path-of-titans-closed-founders-edition-beta-available-on-playstation-xbox-pc-mac-linux-and-mobile-trailer/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "yes",
+   "progress": [
+    "Link your console account to an Alderon Games account and you keep the same characters and progress on PC, mobile and console. You can unlink later, but only relink to the same Alderon account.",
+    "Consoles are still in beta and need a Founder's Pack even if you own the game elsewhere; Alderon plans cross-purchase once the beta ends."
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "Payday 2",
@@ -5768,7 +5795,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Phasmophobia",
@@ -5825,7 +5853,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "Pokémon Unite",
@@ -5855,7 +5884,8 @@
      "url": "https://www.imore.com/does-pokemon-unite-support-crossplay-between-mobile-and-switch"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "PowerWash Simulator",
@@ -5891,7 +5921,8 @@
      "url": "https://ggrecon.com/guides/powerwash-simulator-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "PowerWash Simulator 2",
@@ -5922,7 +5953,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "PUBG Mobile",
@@ -5948,7 +5980,8 @@
      "url": "https://twinfinite.net/guides/pubg-mobile-cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "PUBG: Battlegrounds",
@@ -6013,9 +6046,13 @@
     }
    ],
    "notes": [
-    "semiwork says it will look at consoles, and crossplay, after the game leaves Early Access."
+    "Semiwork has said it will look at consoles, and crossplay, after the game leaves Early Access. There's no official PlayStation or Xbox version; R.E.P.O.-looking games on console stores are from other publishers."
    ],
    "sources": [
+    {
+     "title": "Is R.E.P.O. coming to consoles? (GamesRadar+)",
+     "url": "https://www.gamesradar.com/games/horror/repo-ps5-xbox-consoles/"
+    },
     {
      "title": "Is R.E.P.O. cross-platform? Crossplay guide 2026 (Explosion)",
      "url": "https://www.explosion.com/game-guides/is-r-e-p-o-cross-platform-crossplay-guide-2026/"
@@ -6025,7 +6062,8 @@
      "url": "https://gamewave.fr/repo/repo-sortira-t-il-sur-consoles-ps4-ps5-xbox-one-ou-series/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Raft",
@@ -6073,11 +6111,17 @@
       "mac": "yes",
       "ios": "yes",
       "android": "yes"
-     }
+     },
+     "pc_stores": [
+      "Plarium Play",
+      "Steam",
+      "Microsoft Store"
+     ]
     }
    ],
    "notes": [
-    "Link a Plarium ID and your progress, purchases and settings sync between PC, Mac and mobile. Arena and clan battles include players on every platform."
+    "Everyone plays on the same servers, so Arena and clan battles include players on PC, Mac and mobile.",
+    "You can only be logged in on one device at a time."
    ],
    "sources": [
     {
@@ -6087,10 +6131,19 @@
     {
      "title": "Plarium releases RAID: Shadow Legends on PC (Business Wire)",
      "url": "https://www.businesswire.com/news/home/20200121005041/en/Plarium-Releases-Acclaimed-Collection-RPG-RAID-Shadow-Legends-on-PC"
+    },
+    {
+     "title": "Linking Steam and Plarium accounts (Steam Community, developer replies)",
+     "url": "https://steamcommunity.com/app/2333480/discussions/0/4041483920925910761"
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "progress": [
+    "Link a Plarium ID and your progress, purchases and settings sync between PC, Mac and mobile. Steam players link through the Plarium Play app first.",
+    "Set up your Plarium ID before opening the game on a new device; starting fresh there can create a separate, empty account."
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "Ravenswatch",
@@ -6120,7 +6173,8 @@
      "url": "https://gamespress.westeu-v2.propressroom.com/The-Action-Roguelike-Game-Ravenswatch-Is-Now-Available-on-Nintendo-Swi"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Ready or Not",
@@ -6488,7 +6542,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "RuneScape: Dragonwilds",
@@ -6517,7 +6572,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Rust",
@@ -6850,7 +6906,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "Smite 2",
@@ -6885,7 +6942,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "Sniper Elite 5",
@@ -6915,7 +6973,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Sniper Elite: Resistance",
@@ -6945,7 +7004,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Sons of the Forest",
@@ -7004,7 +7064,8 @@
      "url": "https://spaceengineersgame.com/space-engineers-playstation"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Split Fiction",
@@ -7099,7 +7160,8 @@
      "url": "https://www.space.com/star-trek-fleet-command-pc"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Star Trek Online",
@@ -7114,7 +7176,8 @@
      "url": "https://vip-develop.destructoid.com/?p=207269"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Star Wars Battlefront II",
@@ -7292,7 +7355,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "Subnautica 2",
@@ -7527,7 +7591,8 @@
      "url": "https://www.purexbox.com/news/2021/07/tetris_effect_connected_gets_cross-platform_multiplayer_next_month"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "The Crew 2",
@@ -7542,7 +7607,8 @@
      "url": "https://www.esports.net/br/guias/the-crew-2-tem-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "The Crew Motorfest",
@@ -7571,7 +7637,8 @@
      "url": "https://traxion.gg/the-crew-motorfest-cross-platform-play-guide/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "The Elder Scrolls Online",
@@ -7706,7 +7773,8 @@
      "url": "https://www.dexerto.com/gaming/the-first-descendant-crossplay-cross-progression-2798777"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "The Forest",
@@ -7833,7 +7901,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "theHunter: Call of the Wild",
@@ -7905,7 +7974,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Tiny Tina's Wonderlands",
@@ -7934,7 +8004,8 @@
      "url": "https://mp1st.com/news/tiny-tinas-wonderlands-crossplay-details-pc-requirements-revealed"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Titanfall 2",
@@ -8005,7 +8076,8 @@
      "url": "https://expertbeacon.com/does-ghost-recon-wildlands-have-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Tom Clancy's Rainbow Six Siege X",
@@ -8105,7 +8177,8 @@
      "url": "https://steamcommunity.com/app/508440/discussions/0/2653115771063272744"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Trackmania",
@@ -8136,7 +8209,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "UFL",
@@ -8164,7 +8238,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "Undisputed",
@@ -8191,7 +8266,8 @@
      "url": "https://www.sportsgamersonline.com/news/undisputed-2-0-update-adds-new-fighters-venues-and-crossplay/amp/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Unturned",
@@ -8232,7 +8308,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "V Rising",
@@ -8315,7 +8392,8 @@
      "url": "https://www.pushsquare.com/news/2026/06/how-about-one-more-game-for-your-september-schedule-valheim-gets-full-ps5-release"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Valorant",
@@ -8387,9 +8465,19 @@
     {
      "title": "Vampire Survivors 1.14 update includes online co-op (Nintendo Wire)",
      "url": "https://nintendowire.com/news/2025/10/29/vampire-survivors-1-14-update-set-for-release-on-october-31st-includes-online-co-op-dlc-updates-and-a-free-dlc-pack/"
+    },
+    {
+     "title": "PS5, PS4 locked out of Vampire Survivors cross-save (Push Square)",
+     "url": "https://www.pushsquare.com/news/2025/04/ps5-ps4-locked-out-of-vampire-survivors-cross-save-due-to-mysterious-legal-issue"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "partial",
+   "progress": [
+    "Cross-saves go through a free poncle account on PC, Xbox, Android and iOS. Saving to and loading from the cloud slot is manual, and DLC doesn't carry over.",
+    "PlayStation is left out: poncle cited a legal issue and says support there is very unlikely."
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "VRChat",
@@ -8417,7 +8505,8 @@
      "url": "https://roadtovr.com/vrchat-android-ios-release-user-surge/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "War Thunder",
@@ -8518,7 +8607,8 @@
      "url": "https://steamcommunity.com/app/1361210/discussions/0/5943120984231596707"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Warhammer 40,000: Rogue Trader",
@@ -8527,22 +8617,28 @@
    "groups": [
     {
      "platforms": {
-      "pc": "yes",
-      "mac": "yes"
+      "pc": "yes"
      },
      "pc_stores": [
       "Steam",
       "GOG",
       "Epic"
      ]
+    },
+    {
+     "platforms": {
+      "mac": "partial"
+     }
     }
    ],
    "separate": [
     "ps5",
-    "xseries"
+    "xseries",
+    "switch2"
    ],
    "notes": [
-    "Co-op works between Steam, GOG and Epic players in any combination. Owlcat says console-to-PC crossplay most likely won't happen, and the PC Game Pass version can't join Steam players."
+    "Co-op works between Steam, GOG and Epic players in any combination. Mac players can only team up with other Mac players (across stores, with some limits).",
+    "Owlcat says console-to-PC crossplay most likely won't happen, and the PC Game Pass version can't join Steam players. We found nothing saying the Switch 2 version (December 2025) cross-plays with anything either."
    ],
    "sources": [
     {
@@ -8550,11 +8646,16 @@
      "url": "https://steamcommunity.com/app/2186680/discussions/0/4327475456437150158"
     },
     {
+     "title": "Rogue Trader coming to Switch 2 (Gematsu)",
+     "url": "https://www.gematsu.com/2025/10/warhammer-40000-rogue-trader-coming-to-switch-2"
+    },
+    {
      "title": "Warhammer 40,000: Rogue Trader co-op (GameWatcher)",
      "url": "https://www.gamewatcher.com/news/warhammer-40-000-rogue-trader-co-op"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Warhammer 40,000: Space Marine 2",
@@ -8607,7 +8708,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Where Winds Meet",
@@ -8639,7 +8741,8 @@
      "url": "https://insider-gaming.com/where-winds-meet-crossplay-cross-progression/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Wizard101",
@@ -8674,7 +8777,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "partial"
+   "crossprog": "partial",
+   "audited": "2026-10-10"
   },
   {
    "title": "World of Tanks Blitz",
@@ -8704,7 +8808,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10"
   },
   {
    "title": "World of Tanks: Modern Armor",
