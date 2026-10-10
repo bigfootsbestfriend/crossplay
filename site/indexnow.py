@@ -4,7 +4,7 @@
   indexnow.py diff   compare each sitemap page in _site with the live copy; print the URLs that differ
   indexnow.py ping   read URLs on stdin and submit them
 
-Run `diff` before deploying (the live site is still the old version) and `ping` after.
+The nightly workflow runs `diff` before deploying (the live site is still the old version) and `ping` after.
 """
 import hashlib
 import json
@@ -21,8 +21,8 @@ UA = {"User-Agent": "crossplay-indexnow/1.0"}
 
 
 def norm(html):
-    # Ignore the cache-busting query strings on static assets, which change on every build.
-    return hashlib.sha1(re.sub(r"\?v=[0-9a-f]+", "", html).encode()).hexdigest()
+    # Ignore cache-busting query strings on static assets, which can change on every build.
+    return hashlib.sha1(re.sub(r"\?v=[0-9A-Za-z]+", "", html).encode()).hexdigest()
 
 
 def diff():
@@ -36,7 +36,7 @@ def diff():
             with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=20) as r:
                 live = r.read().decode("utf-8", "replace")
         except Exception:
-            live = ""  # new page (404) or fetch error: report it
+            live = ""  # new page (404) or a fetch error: report it
         if norm(live) != norm(local.read_text()):
             print(u)
 
@@ -44,7 +44,7 @@ def diff():
 def ping():
     urls = [l.strip() for l in sys.stdin if l.strip()][:10000]
     if not urls or not config.INDEXNOW_KEY or not config.INDEXABLE:
-        print("nothing to submit")
+        print("IndexNow: nothing to submit")
         return
     body = json.dumps({"host": config.DOMAIN, "key": config.INDEXNOW_KEY,
                        "keyLocation": f"{config.BASE_URL}/{config.INDEXNOW_KEY}.txt", "urlList": urls}).encode()

@@ -24,6 +24,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.changed.outputs.urls }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -55,6 +57,13 @@ jobs:
           git push
       - name: Build site
         run: python3 site/build.py
+      - name: List pages that changed (compared with the live site, before deploying)
+        id: changed
+        continue-on-error: true
+        run: |
+          python3 site/indexnow.py diff > changed.txt
+          echo "$(wc -l < changed.txt) changed pages"
+          { echo "urls<<EOF"; cat changed.txt; echo "EOF"; } >> "$GITHUB_OUTPUT"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
@@ -68,3 +77,11 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+        if: needs.build.outputs.changed != ''
+      - name: Tell IndexNow (Bing and others) about changed pages
+        if: needs.build.outputs.changed != ''
+        continue-on-error: true
+        env:
+          CHANGED: ${{ needs.build.outputs.changed }}
+        run: printf '%s\n' "$CHANGED" | python3 site/indexnow.py ping
