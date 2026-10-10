@@ -32,6 +32,95 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Abiotic Factor",
+   "igdb_id": 219126,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Consoles arrived with 1.0 in July 2025, and servers allow every platform by default. Console players find servers by name in the in-game browser. Mods are off when playing with console players."
+   ],
+   "sources": [
+    {
+     "title": "Abiotic Factor crossplay and cross-platform (Insider Gaming)",
+     "url": "https://insider-gaming.com/abiotic-factor-crossplay-cross-platform/"
+    },
+    {
+     "title": "Abiotic Factor heads to PlayStation and Xbox (Gaming Trend)",
+     "url": "https://gamingtrend.com/news/abiotic-factor-heads-to-playstation-and-xbox/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Age of Empires II: Definitive Edition",
+   "igdb_id": 55056,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "The PS5 version (May 2025) joined the existing PC and Xbox crossplay. Online play on PS5 needs PS Plus."
+   ],
+   "sources": [
+    {
+     "title": "Age of Empires 2: Definitive Edition and Age of Mythology: Retold are coming to PS5 (TechRadar)",
+     "url": "https://www.techradar.com/gaming/age-of-empires-2-definitive-edition-and-age-of-mythology-retold-are-coming-to-ps5-this-year"
+    },
+    {
+     "title": "Age of Empires II: Definitive Edition (PlayStation Store)",
+     "url": "https://store.playstation.com/concept/10009261"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Albion Online",
+   "igdb_id": 19698,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes",
+      "ios": "yes",
+      "android": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "One world for every platform. The Xbox version (April 2026) shares the same servers, and existing players can carry their character over by linking accounts."
+   ],
+   "sources": [
+    {
+     "title": "Albion Online comes to Xbox Series X|S today (Xbox Wire)",
+     "url": "https://news.xbox.com/en-us/2026/04/21/albion-online-xbox-series-x-s-launch/"
+    },
+    {
+     "title": "Albion Online cross-platform PvP MMO architecture (Unity)",
+     "url": "https://unity.com/blog/albion-online-cross-platform-pvp-mmo-architecture"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Arma Reforger",
    "igdb_id": 201789,
    "groups": [
@@ -94,6 +183,100 @@
     {
      "title": "Baldur's Gate 3 'Patch 8' now live on Xbox",
      "url": "https://www.purexbox.com/news/2025/04/baldurs-gate-3-patch-8-now-live-on-xbox-the-games-final-major-update"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Battlefield V",
+   "igdb_id": 83728,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Battlefield V never got crossplay or cross-progression. Battlefield 2042 and Battlefield 6 do have crossplay."
+   ],
+   "sources": [
+    {
+     "title": "Does Battlefield 5 have crossplay? (Prima Games)",
+     "url": "https://primagames.com/gaming/does-battlefield-5-have-crossplay-answered"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Bloons TD 6",
+   "igdb_id": 103380,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC and mobile players can play co-op together using a lobby's invite code, and a Ninja Kiwi account carries progress between them."
+   ],
+   "sources": [
+    {
+     "title": "Bloons TD 6 crossplay support (GameWatcher)",
+     "url": "https://www.gamewatcher.com/bloons-td-6-crossplay-support"
+    },
+    {
+     "title": "Is BTD6 cross platform? (Prima Games)",
+     "url": "https://primagames.com/tips/is-btd6-cross-platform-answered"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Borderlands 4",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay runs through a SHiFT account. The Switch 2 version (October 3, 2025) launched with four-player crossplay."
+   ],
+   "sources": [
+    {
+     "title": "Borderlands 4 confirms Nintendo Switch 2 release date (NME)",
+     "url": "https://www.nme.com/news/gaming-news/borderlands-4-confirms-nintendo-switch-2-release-date-3880172"
+    },
+    {
+     "title": "Borderlands 4 release date and platforms (jeu.video)",
+     "url": "https://jeu.video/en/article/borderlands-4-release-date"
     }
    ],
    "checked": "2026-10-10"
@@ -167,6 +350,65 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Call of Duty: Mobile",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "iPhone and Android players play together. CoD Mobile doesn't connect to the PC or console Call of Duty games."
+   ],
+   "sources": [
+    {
+     "title": "Is Call of Duty Mobile cross-platform? (Sportskeeda)",
+     "url": "https://sportskeeda.com/call-of-duty-game/is-call-duty-mobile-cross-platform"
+    },
+    {
+     "title": "Is COD Mobile cross platform? (esports.net)",
+     "url": "https://www.esports.net/news/mobile-games/is-cod-mobile-cross-platform/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Chivalry 2",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Matchmaking mixes every platform. Partying up with friends on a different platform was added later than matchmaking crossplay, so check that everyone has crossplay turned on."
+   ],
+   "sources": [
+    {
+     "title": "Chivalry 2 is coming to consoles with cross-play (Torn Banner)",
+     "url": "https://chivalry2.com/2020/06/11/chivalry-2-is-coming-to-consoles-with-cross-play/"
+    },
+    {
+     "title": "Chivalry 2 supports full cross-play (Windows Central)",
+     "url": "https://www.windowscentral.com/chivalry-2-consoles-full-cross-play"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Conan Exiles",
    "igdb_id": 16999,
    "crossplay": false,
@@ -200,6 +442,87 @@
     {
      "title": "Is Conan Exiles crossplay? PC, Xbox and PlayStation",
      "url": "https://www.gameserverkings.com/knowledge-base/conan-exiles/conan-exiles-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Core Keeper",
+   "igdb_id": null,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "switch": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC stores play together, and each console family plays across generations, but PC and console players can't join each other."
+   ],
+   "sources": [
+    {
+     "title": "Is Core Keeper cross-platform? (Sportskeeda)",
+     "url": "https://sportskeeda.com/mmo/is-core-keeper-cross-platform-crossplay-cross-progression-explored"
+    },
+    {
+     "title": "Core Keeper tem crossplay? (TecMundo)",
+     "url": "https://www.tecmundo.com.br/voxel/294833-core-keeper-tem-crossplay-entenda-gameplay-cruzado-entre-consoles-pc.htm"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Dark Souls III",
+   "igdb_id": 11133,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Summoning and invasions stay within one platform's network."
+   ],
+   "sources": [
+    {
+     "title": "Is Dark Souls III cross-platform? Crossplay guide 2026 (Explosion)",
+     "url": "https://www.explosion.com/game-guides/is-dark-souls-iii-cross-platform-crossplay-guide-2026/"
     }
    ],
    "checked": "2026-10-10"
@@ -247,6 +570,70 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Don't Starve Together",
+   "igdb_id": null,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "switch": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Windows, Mac and Linux players can play together. Consoles only play with the same console family."
+   ],
+   "sources": [
+    {
+     "title": "Is Don't Starve Together cross-platform? (Twinfinite)",
+     "url": "https://twinfinite.net/guides/is-dont-starve-together-cross-platform-answered/"
+    },
+    {
+     "title": "Is Don't Starve Together cross-platform? (BerryByte)",
+     "url": "https://blog.berrybyte.net/is-dont-starve-together-cross-platform/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Dragon Ball: Sparking! Zero",
+   "igdb_id": null,
+   "crossplay": false,
+   "notes": [
+    "Online matches only pair players on the same platform. The Switch 2 update improved the Switch version's visuals but didn't add crossplay."
+   ],
+   "sources": [
+    {
+     "title": "Does Dragon Ball: Sparking Zero have cross-play? (Sportskeeda)",
+     "url": "https://sportskeeda.com/esports/does-dragon-ball-sparking-zero-cross-play"
+    },
+    {
+     "title": "Visual update for the Switch version on Switch 2 (GoNintendo)",
+     "url": "https://gonintendo.com/contents/54762-bandai-namco-details-visual-update-for-switch-version-of-dragon-ball-sparking-zero"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Dune: Awakening",
    "igdb_id": 214394,
    "groups": [
@@ -274,6 +661,32 @@
     {
      "title": "Dune: Awakening will receive cross-play support after its console launch (KitGuru)",
      "url": "https://www.kitguru.net/?p=745280"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "EA Sports College Football 26",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay covers Dynasty, Road to the College Football Playoff, Ultimate Team and Play a Friend, but not the Ultimate Team Auction House. Add friends through EA Connect using their EA ID, gamertag or PSN ID."
+   ],
+   "sources": [
+    {
+     "title": "EA Sports College Football 26 Cross-Play FAQ (EA)",
+     "url": "https://www.ea.com/games/ea-sports-college-football/college-football-26/faq"
+    },
+    {
+     "title": "Will College Football 26 have crossplay? (Insider Gaming)",
+     "url": "https://insider-gaming.com/will-college-football-26-have-crossplay-cross-platform-status-explained/"
     }
    ],
    "checked": "2026-10-10"
@@ -454,6 +867,44 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Far Cry 6",
+   "igdb_id": 126290,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Online co-op works across console generations (PS4 with PS5, Xbox One with Series X|S) but not between PC, PlayStation and Xbox. Co-op unlocks after the prologue on Isla Santuario."
+   ],
+   "sources": [
+    {
+     "title": "Far Cry 6: how to invite friends to co-op (PowerPyx)",
+     "url": "https://www.powerpyx.com/far-cry-6-how-to-invite-friends-to-co-op/"
+    },
+    {
+     "title": "Far Cry 6 co-op mode (GamePro)",
+     "url": "https://www.gamepro.de/artikel/far-cry-6-koop-modus,3373077.html"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Farming Simulator 25",
    "igdb_id": 306822,
    "groups": [
@@ -511,6 +962,123 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Forza Horizon 6",
+   "igdb_id": 348330,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Xbox and PC have crossplay and cross-save from launch (May 19, 2026). Playground says the PS5 version will join crossplay and cross-save when it releases later in 2026; link the same Microsoft account to carry your progress over."
+   ],
+   "sources": [
+    {
+     "title": "Forza Horizon 6 will support full cross-saves between PC and consoles (Shacknews)",
+     "url": "https://www.shacknews.com/article/147737/forza-horizon-6-cross-progression"
+    },
+    {
+     "title": "Does Forza Horizon 6 have crossplay and cross-saves? (Prima Games)",
+     "url": "https://primagames.com/tips/forza-horizon-6-have-crossplay-cross-saves"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Garry's Mod",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Windows, Mac and Linux players join the same Steam servers. There has never been a console version. The Mac version needs an Intel Mac."
+   ],
+   "sources": [
+    {
+     "title": "Is Garry's Mod cross-platform? Crossplay guide 2026 (Explosion)",
+     "url": "https://www.explosion.com/game-guides/is-garrys-mod-cross-platform-crossplay-guide-2026/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Ghost of Tsushima",
+   "igdb_id": 153700,
+   "replaces": [
+    "Ghost of Tsushima: Director's Cut"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay covers Legends, the online co-op mode: PC players can team up with PS4 and PS5 players and use voice chat. PC players need to sign in with a PlayStation Network account."
+   ],
+   "sources": [
+    {
+     "title": "Ghost of Tsushima Director's Cut PC cross-play revealed (PlayStation Blog)",
+     "url": "https://blog.playstation.com/2024/04/17/ghost-of-tsushima-directors-cut-pc-cross-play-and-system-requirements-revealed/comment-page-2/"
+    },
+    {
+     "title": "Ghost of Tsushima PC details cross-play (Gematsu)",
+     "url": "https://gematsu.com/2024/04/ghost-on-tsushima-directors-cut-for-pc-details-cross-play-playstation-overlay-and-system-requirements"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Goose Goose Duck",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ios": "yes",
+      "android": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay is always on: share a lobby code and friends on any platform can join."
+   ],
+   "sources": [
+    {
+     "title": "Goose Goose Duck (Steam)",
+     "url": "https://store.steampowered.com/app/1568590/Goose_Goose_Duck/"
+    },
+    {
+     "title": "Is Goose Goose Duck crossplay? (Twinfinite)",
+     "url": "https://twinfinite.net/guides/is-goose-goose-duck-crossplay-answered/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Grand Theft Auto V",
    "igdb_id": 1020,
    "crossplay": false,
@@ -530,6 +1098,108 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Grounded 2",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Every player needs a free Microsoft account. Crossplay is on by default on Xbox and the Xbox app; on Steam you link your Microsoft account in the options menu. Saves only sync automatically between Xbox and the Xbox app."
+   ],
+   "sources": [
+    {
+     "title": "Cross Platform Support (Obsidian Support)",
+     "url": "https://support.obsidian.net/article/239-crossplatform-support"
+    },
+    {
+     "title": "Does Grounded 2 have crossplay? (PCGamesN)",
+     "url": "https://www.pcgamesn.com/grounded-2/crossplay"
+    },
+    {
+     "title": "Grounded 2 on PS5: crossplay and cross-save (GameOverdrive)",
+     "url": "https://gameoverdrive.com.br/grounded-2-ps5-crossplay-cross-save/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Hell Let Loose",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app",
+      "Epic"
+     ]
+    },
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Team17: crossplay is PC-to-PC (Steam, Game Pass and Epic) and console-to-console (PS5 and Xbox) only, with no plans for PC-console crossplay and no cross-progression."
+   ],
+   "sources": [
+    {
+     "title": "Does Hell Let Loose have cross-progression or cross-platform features? (Team17 Support)",
+     "url": "https://support.team17.com/hell-let-loose/en/articles/319026-does-hell-let-loose-have-cross-progression-or-cross-platform-features"
+    },
+    {
+     "title": "Is Hell Let Loose crossplay? (Prima Games)",
+     "url": "https://primagames.com/gaming/is-hell-let-loose-crossplay-friendly-answered"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Hunt: Showdown 1896",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "partial",
+      "xseries": "partial"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC has no crossplay with consoles. PS5 and Xbox players can be matched into the same lobbies when crossplay is on, but they can't invite each other or form parties."
+   ],
+   "sources": [
+    {
+     "title": "Does Hunt: Showdown 1896 have crossplay? (Sportskeeda)",
+     "url": "https://sportskeeda.com/esports/does-hunt-showdown-1896-crossplay"
+    },
+    {
+     "title": "Hunt Showdown crossplay guide (GGRecon)",
+     "url": "https://www.ggrecon.com/guides/hunt-showdown-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "It Takes Two",
    "igdb_id": 135243,
    "crossplay": false,
@@ -540,6 +1210,92 @@
     {
      "title": "Split Fiction Friend Pass goes cross-platform (vs It Takes Two)",
      "url": "https://stevivor.com/news/split-ficton-friend-pass-goes-cross-platform-letting-a-friend-play-for-free-anywhere"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Killing Floor 3",
+   "igdb_id": 262530,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Full crossplay since launch. Toggle it under Settings → Gameplay → Matchmaking."
+   ],
+   "sources": [
+    {
+     "title": "Tripwire unleashes new Killing Floor 3 trailer, confirms crossplay (press release)",
+     "url": "https://press.plaion.com/Tripwire-Interactive-Unleashes-New-Gameplay-Trailer-for-Killing-Floor-"
+    },
+    {
+     "title": "Is Killing Floor 3 cross-platform? (Sportskeeda)",
+     "url": "https://www.sportskeeda.com/esports/is-killing-floor-3-cross-platform"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Lethal Company",
+   "igdb_id": null,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Lethal Company is still in Early Access on Steam, made by one developer (Zeekerss), and no console versions have been announced."
+   ],
+   "sources": [
+    {
+     "title": "Is Lethal Company coming to consoles? (Prima Games)",
+     "url": "https://primagames.com/tips/is-lethal-company-coming-to-consoles-xbox-playstation-nintendo-switch"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Madden NFL 26",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "separate": [
+    "switch2"
+   ],
+   "notes": [
+    "Crossplay covers online Head-to-Head, Franchise, Ultimate Team and Superstar modes, and it's on by default. Xbox players opt out in the console's system settings; PC and PS5 players use the in-game settings. The Switch 2 version doesn't have crossplay."
+   ],
+   "sources": [
+    {
+     "title": "Madden NFL 26 Cross-Play FAQ (EA)",
+     "url": "https://www.ea.com/sv/games/madden-nfl/madden-nfl-26/faq"
+    },
+    {
+     "title": "How to use cross-play in Madden NFL 26 (EA Help)",
+     "url": "https://help.ea.com/it/articles/madden-nfl/madden-nfl-25/how-to-use-cross-play/"
     }
    ],
    "checked": "2026-10-10"
@@ -576,6 +1332,135 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Marvel Snap",
+   "igdb_id": 202279,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ios": "yes",
+      "android": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "PC and mobile players share the same matchmaking. Sign in with the same account (Google, Apple or Steam, linked together) to sync your collection and progress."
+   ],
+   "sources": [
+    {
+     "title": "Award-winning game Marvel Snap comes to PC (Marvel)",
+     "url": "https://marvel.com/articles/games/award-winning-game-marvel-snap-comes-to-pc"
+    },
+    {
+     "title": "How to link your Marvel Snap account: Google, Apple and Steam (esports.gg)",
+     "url": "https://esports.gg/news/mobile/how-to-link-your-marvel-snap-account-google-apple-and-steam"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Microsoft Flight Simulator 2024",
+   "igdb_id": 252830,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "separate": [
+    "ps5"
+   ],
+   "notes": [
+    "PC and Xbox share multiplayer servers. The PS5 version (December 2025) doesn't use Xbox sign-in, so it has its own servers, and progress and Marketplace purchases don't carry over."
+   ],
+   "sources": [
+    {
+     "title": "New insights on the PS5 version of Microsoft Flight Simulator: cross-play, peripherals and more",
+     "url": "https://msfsaddons.com/2025/10/10/new-insights-on-the-ps5-version-of-microsoft-flight-simulator-cross-play-peripherals-and-more/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "MLB The Show 26",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes",
+      "switch": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "All three versions play together, and linking an MLB The Show account shares progress between them. Stubs bought on one platform stay on that platform. Switch 2 plays the Switch version."
+   ],
+   "sources": [
+    {
+     "title": "MLB The Show 26 Support (PlayStation)",
+     "url": "https://www.playstation.com/en-ca/support/games/mlb-the-show-26-support/"
+    },
+    {
+     "title": "MLB The Show 26 (Nintendo eShop)",
+     "url": "https://www.nintendo.com/us/store/products/mlb-the-show-26-switch/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Monster Hunter Rise",
+   "igdb_id": 138950,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "switch": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "No crossplay or cross-save: Switch, PC, PlayStation and Xbox players each hunt separately. PS4 and PS5 play together, as do Xbox One and Xbox Series X|S."
+   ],
+   "sources": [
+    {
+     "title": "Does Monster Hunter Rise have crossplay? (Twinfinite)",
+     "url": "https://twinfinite.net/guides/does-monster-hunter-rise-have-crossplay-answered/"
+    },
+    {
+     "title": "Monster Hunter Rise crossplay on PS5, PS4, Xbox (LevelUp)",
+     "url": "https://www.levelup.com/noticias/monster-hunter-rise-tendra-crossplay-en-ps5-ps4-xbox-series-xs-y-xbox-one/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Monster Hunter Wilds",
    "igdb_id": 279661,
    "groups": [
@@ -601,6 +1486,101 @@
     {
      "title": "Monster Hunter Wilds crossplay (PCGamesN)",
      "url": "https://www.pcgamesn.com/monster-hunter-wilds/crossplay"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Monster Hunter: World",
+   "igdb_id": 36926,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Hunters only team up within one platform family. PS5 and Xbox Series players run the last-gen versions, so they can play with PS4 and Xbox One friends. There's no cross-save."
+   ],
+   "sources": [
+    {
+     "title": "Does Monster Hunter: World have cross-platform play? (Prima Games)",
+     "url": "https://primagames.com/tips/does-monster-hunter-world-have-cross-platform-play"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "NBA 2K26",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "separate": [
+    "pc",
+    "switch2",
+    "ps4",
+    "xone",
+    "switch"
+   ],
+   "notes": [
+    "Only PS5 and Xbox Series X|S have crossplay, in any online mode. PC, Switch 2 and last-gen consoles only play with the same platform. MyTEAM progress and VC are shared within one console family (for example PS4 and PS5), not across brands."
+   ],
+   "sources": [
+    {
+     "title": "NBA 2K26: Crossplay and Cross Gen FAQ (2K Support)",
+     "url": "https://support.nba2k.com/hc/en-us/articles/43946360636563-NBA-2K26-Crossplay-and-Cross-Gen-FAQ"
+    },
+    {
+     "title": "NBA 2K26 crossplay and cross-progression explained (Destructoid)",
+     "url": "https://www.destructoid.com/nba-2k26-crossplay-and-cross-progression-explained/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Old School RuneScape",
+   "igdb_id": 79824,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "The mobile app connects to the same game worlds as PC, so you play the same character, with the same people, on any device."
+   ],
+   "sources": [
+    {
+     "title": "RuneScape and Old School RuneScape are coming to mobile with full PC cross play (God is a Geek)",
+     "url": "https://godisageek.com/2017/07/runescape-school-runescape-coming-mobile-full-pc-cross-play/"
+    },
+    {
+     "title": "RuneScape mobile announced (TouchArcade)",
+     "url": "https://toucharcade.com/2017/07/17/runescape-mobile-announced/"
     }
    ],
    "checked": "2026-10-10"
@@ -667,6 +1647,38 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Party Animals",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "PS5 joined the PC and Xbox crossplay in January 2025. There's no cross-progression, so your unlocks stay on each platform."
+   ],
+   "sources": [
+    {
+     "title": "Does Party Animals have cross-play? (GameSpot)",
+     "url": "https://gamespot.com/articles/does-party-animals-have-cross-play/1100-6517887/"
+    },
+    {
+     "title": "Party Animals ends its Xbox exclusivity and comes to PS5 (LevelUp)",
+     "url": "https://www.levelup.com/noticias/este-popular-juego-multijugador-termina-su-exclusividad-con-xbox-y-llega-a-ps5/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Path of Exile 2",
    "igdb_id": 125642,
    "groups": [
@@ -726,6 +1738,38 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Peak",
+   "igdb_id": null,
+   "replaces": [
+    "PEAK"
+   ],
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Console versions are in the works: Landfall and Aggro Crab say console players will share matchmaking with the Steam community, but no platforms or date have been announced."
+   ],
+   "sources": [
+    {
+     "title": "Does PEAK have crossplay? (Dexerto)",
+     "url": "https://www.dexerto.com/gaming/does-peak-have-crossplay-3218443/"
+    },
+    {
+     "title": "Is PEAK available on consoles? (Destructoid)",
+     "url": "https://www.destructoid.com/is-peak-available-on-consoles/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Phasmophobia",
    "igdb_id": 132516,
    "groups": [
@@ -748,6 +1792,91 @@
     {
      "title": "Phasmophobia coming to PS5, PS VR2 and Xbox Series (Gematsu)",
      "url": "https://www.gematsu.com/2023/06/phasmophobia-coming-to-ps5-ps-vr2-and-xbox-series-in-early-access-in-august"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Pokémon Unite",
+   "igdb_id": null,
+   "replaces": [
+    "Pokemon Unite"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "switch": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Switch and mobile players play together. Log in with a Nintendo Account or Pokémon Trainer Club account to use the same profile on both. Online play doesn't need Nintendo Switch Online."
+   ],
+   "sources": [
+    {
+     "title": "Does Pokémon Unite have crossplay? (Shacknews)",
+     "url": "https://www.shacknews.com/article/125756/does-pokemon-unite-have-crossplay"
+    },
+    {
+     "title": "Does Pokémon Unite support crossplay between mobile and Switch? (iMore)",
+     "url": "https://www.imore.com/does-pokemon-unite-support-crossplay-between-mobile-and-switch"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "PUBG Mobile",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "iPhone and Android players are matched together automatically. PUBG Mobile is a separate game from PUBG: Battlegrounds, so it doesn't connect to PC or console, and emulator players are matched with other emulator players."
+   ],
+   "sources": [
+    {
+     "title": "PUBG Mobile cross-platform guide (Newsweek)",
+     "url": "https://newsweek.com/pubg-mobile-cross-platform-guide-who-android-ios-play-855343"
+    },
+    {
+     "title": "PUBG Mobile cross-platform (Twinfinite)",
+     "url": "https://twinfinite.net/guides/pubg-mobile-cross-platform/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "R.E.P.O.",
+   "igdb_id": null,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "semiwork says it will look at consoles, and crossplay, after the game leaves Early Access."
+   ],
+   "sources": [
+    {
+     "title": "Is R.E.P.O. cross-platform? Crossplay guide 2026 (Explosion)",
+     "url": "https://www.explosion.com/game-guides/is-r-e-p-o-cross-platform-crossplay-guide-2026/"
+    },
+    {
+     "title": "Will R.E.P.O. come to consoles? (GameWave)",
+     "url": "https://gamewave.fr/repo/repo-sortira-t-il-sur-consoles-ps4-ps5-xbox-one-ou-series/"
     }
    ],
    "checked": "2026-10-10"
@@ -888,6 +2017,39 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Rust",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Rust Console Edition (made by Double Eleven) has PlayStation-Xbox crossplay: look for the crossplay icon in the server browser. PC Rust is a separate game from Facepunch, so PC and console players can't meet, and progress doesn't transfer."
+   ],
+   "sources": [
+    {
+     "title": "Is Rust cross-platform? Crossplay on Xbox, PS5 & PC (Dexerto)",
+     "url": "https://www.dexerto.com/guides/is-rust-cross-platform-crossplay-on-xbox-ps5-pc-1831359"
+    },
+    {
+     "title": "Is Rust cross-platform? (Shacknews)",
+     "url": "https://www.shacknews.com/article/122160/is-rust-cross-platform"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Satisfactory",
    "igdb_id": 90558,
    "groups": [
@@ -918,6 +2080,44 @@
     {
      "title": "Is Satisfactory crossplay? PC, PS5 and Xbox explained",
      "url": "https://www.gameserverkings.com/knowledge-base/satisfactory/satisfactory-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Sid Meier's Civilization VII",
+   "igdb_id": null,
+   "replaces": [
+    "Civilization VII"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch": "partial",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Turn on crossplay in the settings and sign in with a 2K account. Games that include original-Switch players are limited to Tiny or Small maps and the Switch's lower player counts; the Switch 2 Edition raises those limits."
+   ],
+   "sources": [
+    {
+     "title": "Civilization VII: Crossplay and Progression (2K Support)",
+     "url": "https://support.civilization.com/hc/en-us/articles/37314702519187-Civilization-VII-Crossplay-and-Progression"
+    },
+    {
+     "title": "Civilization VII – Nintendo Switch 2 Edition (2K)",
+     "url": "https://civilization.2k.com/en-GB/civ-vii/news/nintendo-switch-2-edition/"
     }
    ],
    "checked": "2026-10-10"
@@ -957,6 +2157,35 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Sons of the Forest",
+   "igdb_id": null,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Endnight has said it would like to bring the game to consoles, but has no concrete plans. Multiplayer supports up to eight PC players."
+   ],
+   "sources": [
+    {
+     "title": "Is Sons of the Forest cross-platform? (esports.gg)",
+     "url": "https://esports.gg/news/gaming/is-sons-of-the-forest-cross-platform/"
+    },
+    {
+     "title": "Sons of the Forest on PS5, Xbox and Switch: what the developers say (Mein-MMO)",
+     "url": "https://mein-mmo.de/en/sons-of-the-forest-release-for-ps5-xbox-and-nintendo-switch-this-is-what-the-developers-say,951357/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Split Fiction",
    "igdb_id": 325594,
    "groups": [
@@ -984,6 +2213,68 @@
     {
      "title": "Split Fiction Friend Pass goes cross-platform",
      "url": "https://stevivor.com/news/split-ficton-friend-pass-goes-cross-platform-letting-a-friend-play-for-free-anywhere"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Splitgate 2",
+   "igdb_id": 308978,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay can be turned off if you only want to queue with your own platform. Stats and unlocks carry over between platforms.",
+    "1047 Games has since relaunched Splitgate 2 as Splitgate: Arena Reloaded."
+   ],
+   "sources": [
+    {
+     "title": "Splitgate 2 crossplay (Siege.gg)",
+     "url": "https://siege.gg/news/splitgate-2-crossplay"
+    },
+    {
+     "title": "Splitgate 2 cross-progression (Siege.gg)",
+     "url": "https://siege.gg/news/splitgate-2-cross-progression"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Star Wars Battlefront II",
+   "igdb_id": 26401,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC, PlayStation and Xbox each play separately."
+   ],
+   "sources": [
+    {
+     "title": "Star Wars Battlefront 2 crossplay (Twinfinite)",
+     "url": "https://twinfinite.net/guides/star-wars-battlefront-2-crossplay/"
     }
    ],
    "checked": "2026-10-10"
@@ -1052,6 +2343,35 @@
     {
      "title": "Stumble Guys is now on PlayStation 4 and 5 with cross-progression (PocketGamer.biz)",
      "url": "https://www.pocketgamer.biz/mobile-legend-stumble-guys-is-now-on-playstation-4-and-5-with-cross-progression"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "The Crew Motorfest",
+   "igdb_id": 234256,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "partial",
+      "ps5": "partial",
+      "ps4": "partial",
+      "xseries": "partial",
+      "xone": "partial"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay only covers the Grand Race and Demolition Royale PvP modes. Co-op and the open world only connect players on the same platform."
+   ],
+   "sources": [
+    {
+     "title": "Is The Crew Motorfest crossplay? (RacingGames.gg)",
+     "url": "https://racinggames.gg/crew/is-the-crew-motorfest-crossplay"
+    },
+    {
+     "title": "The Crew Motorfest cross-platform play guide (Traxion)",
+     "url": "https://traxion.gg/the-crew-motorfest-cross-platform-play-guide/"
     }
    ],
    "checked": "2026-10-10"
@@ -1158,6 +2478,69 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "The Outlast Trials",
+   "igdb_id": 127165,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Add players on other platforms with the in-game friend code. There's no cross-progression, except that the Xbox versions share a cloud save."
+   ],
+   "sources": [
+    {
+     "title": "Is The Outlast Trials crossplay or cross-platform? (Dot Esports)",
+     "url": "https://dotesports.com/general/news/is-the-outlast-trials-crossplay-or-cross-platform"
+    },
+    {
+     "title": "Is The Outlast Trials crossplay? (Prima Games)",
+     "url": "https://primagames.com/tips/is-the-outlast-trials-crossplay-answered"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Titanfall 2",
+   "igdb_id": 17447,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Titanfall 2 never had crossplay; each platform has its own servers."
+   ],
+   "sources": [
+    {
+     "title": "Is Titanfall 2 cross-platform? (esports.gg)",
+     "url": "https://esports.gg/news/gaming/is-titanfall-2-cross-platform/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Tom Clancy's Rainbow Six Siege X",
    "igdb_id": 7360,
    "replaces": [
@@ -1221,6 +2604,46 @@
     {
      "title": "The Division 2 crossplay update will begin rolling out in November (KitGuru)",
      "url": "https://www.kitguru.net/desktop-pc/mustafa-mahmoud/the-division-2-crossplay-update-will-begin-rolling-out-in-november/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Unturned",
+   "igdb_id": 7878,
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC Unturned is built around Steam Workshop content that consoles can't load, so PC and console players can't meet, and progress doesn't carry over."
+   ],
+   "sources": [
+    {
+     "title": "Is Unturned crossplay or cross-platform? (Dot Esports)",
+     "url": "https://dotesports.com/general/news/is-unturned-crossplay-or-cross-platform"
+    },
+    {
+     "title": "Is Unturned cross-platform? (Gfinity)",
+     "url": "https://www.gfinityesports.com/guides/unturned-cross-platform"
     }
    ],
    "checked": "2026-10-10"
@@ -1364,6 +2787,34 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "VRChat",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "quest": "yes",
+      "android": "yes",
+      "ios": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC VR, desktop, Meta Quest, Android and iPhone players share the same instances. Worlds and avatars need a version built for each platform, so some PC-only content won't load on Quest or phones."
+   ],
+   "sources": [
+    {
+     "title": "Cross-platform setup (VRChat Creator Docs)",
+     "url": "https://creators.vrchat.com/platforms/android/cross-platform-setup"
+    },
+    {
+     "title": "VRChat officially releases on Android & iOS (Road to VR)",
+     "url": "https://roadtovr.com/vrchat-android-ios-release-user-surge/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Warframe",
    "igdb_id": 2903,
    "groups": [
@@ -1457,6 +2908,35 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "World War Z: Aftermath",
+   "igdb_id": 152123,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Focus Entertainment advertises full crossplay between PC and consoles for co-op of up to four players."
+   ],
+   "sources": [
+    {
+     "title": "World War Z: Aftermath (Focus Entertainment)",
+     "url": "https://www.focus-entmt.com/games/world-war-z"
+    },
+    {
+     "title": "World War Z: Aftermath (PlayStation)",
+     "url": "https://www.playstation.com/en-th/games/world-war-z"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Wuthering Waves",
    "igdb_id": 202956,
    "groups": [
@@ -1477,6 +2957,34 @@
     {
      "title": "Wuthering Waves Version 3.5 now available alongside its Xbox Series debut (RPG Site)",
      "url": "https://www.rpgsite.net/news/20891-wuthering-waves-version-3-5-update-now-available-xbox-series-x-console"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Zenless Zone Zero",
+   "igdb_id": null,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Multiplayer is limited to a few modes, and you can turn crossplay off in the settings. Your HoYoverse account carries progress between platforms."
+   ],
+   "sources": [
+    {
+     "title": "Zenless Zone Zero cross-platform crossplay (Dexerto)",
+     "url": "https://www.dexerto.com/gaming/zenless-zone-zero-cross-platform-crossplay-pc-playstation-ios-android-2812286/"
+    },
+    {
+     "title": "Does Zenless Zone Zero feature cross-play and cross-progression? (Prima Games)",
+     "url": "https://primagames.com/tips/does-zenless-zone-zero-feature-cross-play-and-cross-progression"
     }
    ],
    "checked": "2026-10-10"

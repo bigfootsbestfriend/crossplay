@@ -159,8 +159,8 @@ def load_games():
         # Researched entries can name platforms confirmed to have no crossplay ("separate"), or say the
         # game has none at all; each such platform becomes its own one-platform group.
         lone = set(w.get("separate", []))
-        if w.get("crossplay") is False:
-            lone |= (on & set(CURRENT)) - {k for gr in groups for k in gr["platforms"]}
+        if w.get("crossplay") is False and not groups:
+            lone |= on & set(CURRENT)  # "no crossplay" with no detail: every released platform is on its own
         for k in order(lone):
             groups.append({"platforms": [k], "partial": [], "pc_stores": [], "others": [], "refs": []})
         if not groups:
@@ -230,6 +230,9 @@ def verdict(g):
         pools = "; ".join(plist(gr["platforms"]) for gr in g["groups"])
         return "ended", "No longer", f"{t} used to support crossplay ({pools}), but that has been discontinued."
     if not g["crossplay"]:
+        plats = order({k for gr in g["groups"] for k in gr["platforms"]})
+        if plats == ["pc"]:
+            return "no", "No", f"{t} is only on PC, so there's no other platform to cross-play with yet."
         pools = [gr["platforms"] for gr in g["groups"] if len(gr["platforms"]) >= 2]
         same = "; ".join(plist(p, short=True) + " players can play together" for p in pools)
         return "no", "No", (f"{t} doesn't have crossplay: each platform family has its own players"
@@ -543,7 +546,8 @@ def game_page(g, games):
 <a href="{correction_link(t)}">tell us</a> and we'll fix it.</p></section>""")
 
     # Related
-    same = [x for x in games if x is not g and not x["discontinued"] and set(x["hubs"]) & set(g["hubs"])]
+    same = [x for x in games if x is not g and not x["discontinued"] and x["crossplay"]
+            and set(x["hubs"]) & set(g["hubs"])]
     same.sort(key=lambda x: (-len(set(x["hubs"]) & set(g["hubs"])), -x["popularity"]))
     if same:
         parts.append(f'<section><h2>More crossplay games like {e(t)}</h2>{grid(same[:6])}</section>')

@@ -40,11 +40,27 @@ Built overnight 2026-10-09/10. To carry on in Claude Code: open this repo and sa
      - apply to Raptive and paste their script into `AD_SCRIPT`
 3. **Corrections inbox.** Set `CONTACT_EMAIL`, e.g. a Namecheap forward. Until then, "Report a mistake" links to GitHub issues.
 
+## Researched games (data/manual.json)
+
+Wikipedia's list misses many of the most-played games, so we research those ourselves.
+
+- `data/manual.json` holds researched entries: crossplay groups, platforms with no crossplay
+  (`separate`), `crossplay: false` for games without it, notes, sources and a `checked` date.
+  A researched entry replaces the Wikipedia row with the same title (or any title in `replaces`).
+- `data/title_overrides.json` renames Wikipedia titles to what people search for
+  (e.g. "Fortnite Battle Royale" becomes "Fortnite").
+- `research/candidates_missing.json` is the to-do list: popular multiplayer games (IGDB play counts,
+  Steam peak players, Twitch hours) that aren't covered yet, most popular first.
+- Add or update entries with `research/add.py` (pipe a JSON list on stdin). Then run
+  `collector/igdb_match.py` for covers and facts, and rebuild.
+- `research/todo.md` lists games skipped because sources conflicted or a change was imminent.
+- `research/stale.py [days]` lists entries not re-checked recently. Re-check them every 3 months.
+- Sources: prefer the publisher's FAQ, support pages or patch notes; otherwise use reputable press.
+  PCGamingWiki is CC BY-NC-SA (no commercial use), so don't copy from it.
+
 ## Known limits and next steps
 
-- **Coverage is the main limit:** 304 current games is only Wikipedia's list.
-  - The best way to grow it is PCGamingWiki's crossplay fields. Their licence is CC BY-NC-SA, and NC (non-commercial) clashes with ads, so that needs a decision first.
-  - Other options: publisher crossplay FAQ pages, Steam's "Cross-Platform Multiplayer" tag (doesn't say which platforms), or adding games by hand to a `data/manual.json` (not built yet).
+- **Coverage:** about 94 researched games plus Wikipedia's list. Keep working down `candidates_missing.json`.
 - **"Not confirmed" platforms** are ones IGDB says the game is on but no crossplay group includes, e.g. Terraria on Switch. The page words these carefully ("our sources don't list crossplay for that version") rather than saying "no".
 - **The Wikipedia list has no Switch 2 column.** Switch 2 is assumed to share the Switch group.
 - **Bad IGDB matches:** add `"Wikipedia title": igdb_id` (or `null`) to `data/igdb_overrides.json`.

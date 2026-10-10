@@ -7,3 +7,5 @@ Needs a better source before adding:
 - Payday 2: sources disagree on which console/PC combinations work.
 - Cult of the Lamb: a dev reply on Steam (Aug 2024) said crossplay isn't planned; find the exact post URL.
 - DayZ: Update 1.29 (2026) reportedly put Xbox app PC and Xbox on shared servers; find Bohemia's own patch notes.
+- Raft: console launch Dec 2024 reportedly with crossplay; find Redbeet's own announcement.
+- Naraka: Bladepoint: rules changed after the PS5/F2P relaunch; reports of region locks and Xbox only with the Microsoft Store version.
