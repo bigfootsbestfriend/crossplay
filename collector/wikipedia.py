@@ -13,7 +13,7 @@ import json
 import re
 import sys
 
-from common import http, load_json, merged_games, save_json
+from common import http, load_json, merged_games, norm, save_json
 
 PAGE = "List_of_video_games_that_support_cross-platform_play"
 API = ("https://en.wikipedia.org/w/api.php?action=parse&page=" + PAGE +
@@ -164,8 +164,21 @@ def track_changes(games, today):
         elif old["hash"] != h:
             old.update(changed=today, hash=h)
             hist["log"].append({"date": today, "title": g["title"], "what": "crossplay details changed"})
+    # A title that only changed name (title_overrides.json, a manual "replaces", or punctuation such as
+    # "Overcooked 2" -> "Overcooked! 2") wasn't removed: carry its history over and log nothing.
+    renames = load_json("title_overrides.json", {})
+    for m in load_json("manual.json", {"games": []})["games"]:
+        for r in m.get("replaces", []):
+            renames[r] = m["title"]
+    by_norm = {norm(k): k for k in seen}
     for key in [k for k in hist["games"] if k not in seen]:
-        del hist["games"][key]
+        old = hist["games"].pop(key)
+        new = renames.get(key) if renames.get(key) in seen else by_norm.get(norm(renames.get(key, key)))
+        if new:
+            hist["games"][new]["first_seen"] = min(old["first_seen"], hist["games"][new]["first_seen"])
+            hist["log"] = [x for x in hist["log"] if not (x["date"] == today and x["title"] == new
+                                                          and x["what"] == "added")]
+            continue
         hist["log"].append({"date": today, "title": key, "what": "removed from the source list"})
     hist["log"] = hist["log"][-300:]
     save_json("history.json", hist)

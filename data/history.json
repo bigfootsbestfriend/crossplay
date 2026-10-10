@@ -742,7 +742,7 @@
   },
   "Fall Guys": {
    "changed": "2026-10-10",
-   "first_seen": "2026-10-10",
+   "first_seen": "2026-10-09",
    "hash": "f0842a9161d3"
   },
   "Fallout 76": {
@@ -787,7 +787,7 @@
   },
   "Final Fantasy XIV": {
    "changed": "2026-10-10",
-   "first_seen": "2026-10-10",
+   "first_seen": "2026-10-09",
    "hash": "0200afb71bb6"
   },
   "Final Fantasy XV": {
@@ -817,7 +817,7 @@
   },
   "Fortnite": {
    "changed": "2026-10-10",
-   "first_seen": "2026-10-10",
+   "first_seen": "2026-10-09",
    "hash": "bd6f5f6d6c43"
   },
   "Forza Horizon 3": {
@@ -1532,7 +1532,7 @@
   },
   "Overcooked! 2": {
    "changed": "2026-10-10",
-   "first_seen": "2026-10-10",
+   "first_seen": "2026-10-09",
    "hash": "97d170e1550e"
   },
   "Overcooked: All You Can Eat": {
@@ -2624,21 +2624,6 @@
  "log": [
   {
    "date": "2026-10-10",
-   "title": "Fall Guys",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Final Fantasy XIV",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Fortnite",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
    "title": "7 Days to Die",
    "what": "added"
   },
@@ -3224,11 +3209,6 @@
   },
   {
    "date": "2026-10-10",
-   "title": "Overcooked! 2",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
    "title": "Palia",
    "what": "added"
   },
@@ -3636,26 +3616,6 @@
    "date": "2026-10-10",
    "title": "Zenless Zone Zero",
    "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Fall Guys: Ultimate Knockout",
-   "what": "removed from the source list"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Final Fantasy XIV: A Realm Reborn",
-   "what": "removed from the source list"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Fortnite Battle Royale",
-   "what": "removed from the source list"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Overcooked 2",
-   "what": "removed from the source list"
   }
  ]
 }
