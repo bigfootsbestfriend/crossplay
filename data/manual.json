@@ -2197,7 +2197,8 @@
      "url": "https://insider-gaming.com/will-college-football-26-have-crossplay-cross-platform-status-explained/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "EA Sports College Football 27",
@@ -5308,11 +5309,12 @@
      "url": "https://destructoid.com/is-payday-3-crossplay"
     },
     {
-     "title": "Payday 3 crossplay (Digital Trends)",
-     "url": "https://uat4.www.digitaltrends.com/?p=3427365"
+     "title": "Will Payday 3 support crossplay and cross-progression? (GGRecon)",
+     "url": "https://www.ggrecon.com/guides/payday-3-crossplay-cross-progression/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Peak",
@@ -6108,12 +6110,14 @@
     },
     {
      "platforms": {
-      "pc": "yes"
+      "pc": "yes",
+      "mac": "yes"
      }
     }
    ],
    "notes": [
-    "Rust Console Edition (made by Double Eleven) has PlayStation-Xbox crossplay: look for the crossplay icon in the server browser. PC Rust is a separate game from Facepunch, so PC and console players can't meet, and progress doesn't transfer."
+    "Rust Console Edition (made by Double Eleven) has crossplay between PlayStation (PS4 and PS5) and Xbox (Xbox One and Series X|S), but only on servers marked with the crossplay icon (two intertwined arrows) in the server browser.",
+    "PC Rust (Windows and Mac, from Facepunch) is a separate game on its own update schedule, so PC and console players can't meet, and progress doesn't transfer."
    ],
    "sources": [
     {
@@ -6123,10 +6127,15 @@
     {
      "title": "Is Rust cross-platform? (Shacknews)",
      "url": "https://www.shacknews.com/article/122160/is-rust-cross-platform"
+    },
+    {
+     "title": "Rust Console multiplayer guide: how to play with friends (Attack of the Fanboy)",
+     "url": "https://attackofthefanboy.com/guides/rust-console-multiplayer-guide-how-to-play-with-friends/"
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Satisfactory",
