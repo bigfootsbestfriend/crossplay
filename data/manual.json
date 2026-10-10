@@ -286,7 +286,8 @@
    ],
    "progress": [
     "Progress, cosmetics and Apex Coins follow your EA account, so they carry over to Switch 2 and every other platform."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "ARC Raiders",
@@ -447,7 +448,8 @@
    "checked": "2026-10-10",
    "progress": [
     "Your progress follows your Gameloft ID between platforms, and progress from Asphalt 9 carried over."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "Baldur's Gate 3",
@@ -1240,7 +1242,8 @@
    ],
    "progress": [
     "Progress carries to PS5, Xbox Series X|S or PC through your Activision account, but COD Points only move within the same console family."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "Call of Duty: WWII",
@@ -1776,7 +1779,8 @@
      "url": "https://mp1st.com/news/delta-force-last-gen-version-wont-be-released-the-same-time-as-ps5-xbox-series-expect-crossplay-to-work-similar-to-other-popular-titles"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "f2p": true
   },
   {
    "title": "Destiny",
@@ -1836,7 +1840,8 @@
    ],
    "progress": [
     "Cross Save keeps your Guardians and progress across platforms once you link your accounts on Bungie's website, but expansions don't transfer: you need to buy them on each platform."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "Diablo II: Resurrected",
@@ -2583,7 +2588,8 @@
      "url": "https://www.gamereactor.eu/konami-unveils-major-update-440-for-efootball-1530173/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "f2p": true
   },
   {
    "title": "Elden Ring",
@@ -2795,7 +2801,8 @@
    "checked": "2026-10-10",
    "progress": [
     "Link each platform to one Epic account to carry your progress, level and cosmetics everywhere; you can only link one account per platform, and you can't be signed in on two platforms at once."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "Fallout 76",
@@ -3202,7 +3209,8 @@
    "progress": [
     "Your skins, Battle Pass and progress follow your Epic account everywhere.",
     "Purchased V-Bucks are shared across PlayStation, Xbox, PC, mobile and cloud, but not with Nintendo Switch (V-Bucks earned in-game are shared everywhere)."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "Forza Horizon 5",
@@ -3815,7 +3823,8 @@
    "checked": "2026-10-10",
    "progress": [
     "Progress, unlocks and rank follow your Xbox account between PC and Xbox."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "Hell Let Loose",
@@ -4344,7 +4353,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "f2p": true
   },
   {
    "title": "Marvel Snap",
@@ -4823,7 +4833,8 @@
    "audited": "2026-10-10",
    "toggle": [
     "Turn it on or off under Menu → Settings on the title screen."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "NBA 2K24",
@@ -5243,7 +5254,8 @@
    ],
    "progress": [
     "Every platform needs a Battle.net account, which also carries your cosmetics, currency and progress across platforms (Competitive ranks stay separate for PC and console)."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "Palia",
@@ -6232,7 +6244,8 @@
    "checked": "2026-10-10",
    "toggle": [
     "PlayStation players can turn cross-platform play off in Roblox's settings."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "Rocket League",
@@ -6278,7 +6291,8 @@
    "progress": [
     "Link your PlayStation, Xbox, Switch and Steam accounts to one Epic account to share your inventory and progress.",
     "Competitive rank and Rocket Pass progress come from the platform you set as primary."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "RuneScape",
@@ -6619,7 +6633,8 @@
    "audited": "2026-10-10",
    "toggle": [
     "Xbox players who blocked cross-network play need to allow it again in the console settings."
-   ]
+   ],
+   "f2p": true
   },
   {
    "title": "Skull and Bones",
@@ -6866,7 +6881,8 @@
    "progress": [
     "Stats and unlocks carry over between platforms."
    ],
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "f2p": true
   },
   {
    "title": "Star Trek Fleet Command",
@@ -7468,7 +7484,8 @@
    "progress": [
     "Link your platforms to an Embark ID and your progress follows you."
    ],
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "f2p": true
   },
   {
    "title": "The First Descendant",
@@ -8138,7 +8155,8 @@
    "progress": [
     "Your Riot account, skins, battle pass and progress are shared between PC and console."
    ],
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "f2p": true
   },
   {
    "title": "Vampire Survivors",
@@ -8235,7 +8253,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "f2p": true
   },
   {
    "title": "Warframe",
@@ -8271,7 +8290,8 @@
    "progress": [
     "Cross Platform Save lets one account's progress follow you to every platform, linked through a PC account."
    ],
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "f2p": true
   },
   {
    "title": "Warhammer 40,000: Darktide",

@@ -330,3 +330,12 @@ a.chip:hover, a.chip:focus-visible { filter: brightness(.94); box-shadow: 0 0 0 
 @media (max-width: 560px) { .up { grid-template-columns: 1fr; gap: .3rem; } }
 .mainnav a { white-space: nowrap; }
 @media (max-width: 720px) { .mainnav { overflow-x: auto; scrollbar-width: none; padding-bottom: .2rem; } }
+/* Best-of lists */
+.bestlist { list-style: none; padding: 0; margin: 0; display: grid; gap: .2rem; }
+.best { display: grid; grid-template-columns: 2rem 90px 1fr; gap: 1rem; align-items: start; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.best-n { font: 700 1.4rem var(--display, inherit); color: var(--blue); text-align: right; }
+.best img { border-radius: 8px; width: 90px; height: auto; }
+.best-body { min-width: 0; }
+.best-body h2 { margin: 0 0 .4rem; font-size: 1.2rem; }
+.best-body p { margin: .4rem 0 0; }
+@media (max-width: 520px) { .best { grid-template-columns: 1.6rem 64px 1fr; gap: .7rem; } .best img { width: 64px; } }

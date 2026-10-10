@@ -7,7 +7,7 @@
   document.querySelectorAll("[data-together]").forEach(box => {
     const people = box.querySelector("[data-people]"), list = box.querySelector("[data-list]");
     const count = box.querySelector("[data-count]"), more = box.querySelector("[data-more]");
-    const genre = box.querySelector("[data-genre]"), onlyChecked = box.querySelector("[data-checked]");
+    const genre = box.querySelector("[data-genre]"), onlyChecked = box.querySelector("[data-checked]"), free = box.querySelector("[data-free]");
     const opts = people.dataset.opts, names = ["You", "Friend 1", "Friend 2", "Friend 3", "Friend 4", "Friend 5"];
     let data = null, shown = 24, picks;
     try { picks = JSON.parse(localStorage.getItem("together") || "null"); } catch (e) { picks = null; }
@@ -28,12 +28,12 @@
       if (!data) { count.textContent = "Loading games…"; data = await fetch(box.dataset.src).then(r => r.json()); }
       const need = [...new Set(picks)];
       if (need.length < 2) { count.textContent = `Everyone's on ${label[need[0]]}, so any online multiplayer game works. Pick different platforms to check crossplay.`; list.innerHTML = ""; more.hidden = true; return; }
-      const g = genre.value, oc = onlyChecked.checked;
-      const hits = data.games.filter(x => (!g || x.h.includes(g)) && (!oc || x.c) && x.g.some(gr => need.every(k => gr.includes(k))));
+      const g = genre.value, oc = onlyChecked.checked, fr = free.checked;
+      const hits = data.games.filter(x => (!g || x.h.includes(g)) && (!oc || x.c) && (!fr || x.f) && x.g.some(gr => need.every(k => gr.includes(k))));
       hits.sort((a, b) => b.c - a.c);
-      count.textContent = hits.length ? `${hits.length} game${hits.length === 1 ? "" : "s"} let ${need.map(k => label[k]).join(" + ")} play together` : `No games we know of put ${need.map(k => label[k]).join(" + ")} in one lobby${g || oc ? " with these filters" : ""}.`;
+      count.textContent = hits.length ? `${hits.length} game${hits.length === 1 ? "" : "s"} let ${need.map(k => label[k]).join(" + ")} play together` : `No games we know of put ${need.map(k => label[k]).join(" + ")} in one lobby${g || oc || fr ? " with these filters" : ""}.`;
       list.innerHTML = hits.slice(0, shown).map(x => `<li><a href="${data.base}${x.s}/">${esc(x.t)}</a>` +
-        (x.c ? ' <span class="tag v-yes">Checked</span>' : "") +
+        (x.c ? ' <span class="tag v-yes">Checked</span>' : "") + (x.f ? ' <span class="tag">Free</span>' : "") +
         (need.some(k => x.q.includes(k)) ? ' <span class="tag v-partial">With limits</span>' : "") + "</li>").join("");
       more.hidden = hits.length <= shown;
     };
@@ -42,6 +42,7 @@
     box.querySelector("[data-add]").addEventListener("click", () => { picks.push(picks[picks.length - 1]); drawPeople(); people.querySelector(`[data-i="${picks.length - 1}"]`).focus(); run(); });
     genre.addEventListener("change", () => { shown = 24; run(); });
     onlyChecked.addEventListener("change", () => { shown = 24; run(); });
+    free.addEventListener("change", () => { shown = 24; run(); });
     more.addEventListener("click", () => { shown += 48; run(); });
     drawPeople(); run();
   });

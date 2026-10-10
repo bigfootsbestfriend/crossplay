@@ -216,7 +216,7 @@ def load_games():
             "source": w["source"], "crossplay": w.get("crossplay", True), "notes": w.get("notes", []),
             "sources": w.get("sources", []),
             "checked": w.get("checked") or wiki.get("fetched", TODAY.isoformat()),
-            "crossprog": w.get("crossprog"), "audited": w.get("audited"), "verdict": w.get("verdict"), "toggle": w.get("toggle") or [], "progress": w.get("progress") or [],
+            "crossprog": w.get("crossprog"), "audited": w.get("audited"), "verdict": w.get("verdict"), "toggle": w.get("toggle") or [], "progress": w.get("progress") or [], "f2p": bool(w.get("f2p")),
             "trailer": next((v for v in trailer_candidates(ig)[:4] if trailers.get(v)), None),
             "shots": [x["image_id"] for x in ig.get("screenshots", []) if x.get("image_id")][:8],
         }
@@ -866,11 +866,40 @@ def together_tool(heading="h2"):
     <button type="button" class="btn ghost" data-add>+ Add a friend</button>
     <label>Genre <select data-genre><option value="">Any</option>{genres}</select></label>
     <label class="check"><input type="checkbox" data-checked> Only games we've checked</label>
+    <label class="check"><input type="checkbox" data-free> Free to play</label>
   </div>
   <p class="together-count" data-count aria-live="polite"></p>
   <ul class="together-list" data-list></ul>
   <button type="button" class="btn ghost" data-more hidden>Show more</button>
 </section>"""
+
+
+def best_page(path, title, h1, intro, games, crumbs, note=""):
+    """A ranked list built only from games we've checked, with the facts that matter for choosing one."""
+    games = sorted(games, key=lambda g: -g["popularity"])[:25]
+    items = []
+    for i, g in enumerate(games, 1):
+        plats = order({k for gr in cross_groups(g) or g["groups"] for k in gr["platforms"] if k not in CLOUD})
+        facts = []
+        if g.get("f2p"):
+            facts.append("Free to play" + (" (multiplayer)" if g["title"] == "Halo Infinite" else ""))
+        if g["crossprog"]:
+            facts.append("Cross-progression: " + CROSSPROG[g["crossprog"]][0].lower())
+        if "co-op" in g["hubs"]:
+            facts.append("Co-op")
+        first = re.split(r"(?<=[.!?])\s+", g["notes"][0])[0] if g["notes"] else ""
+        items.append(f'''<li class="best"><span class="best-n">{i}</span>{cover(g, "t_cover_big", 90, 120)}<div class="best-body">
+<h2><a href="{url("/games/" + g["slug"] + "/")}">{e(g["title"])}</a></h2>
+<div class="chips">{"".join(chip(k) for k in plats)}</div>
+{f'<p class="small">{" · ".join(facts)}</p>' if facts else ""}<p>{e(first)}</p></div></li>''')
+    body = (f'<section class="hub-head"><h1>{e(h1)}</h1><p class="lede">{intro}</p></section>'
+            f'<section><ol class="bestlist">{"".join(items)}</ol>'
+            f'<p class="small">Ranked by popularity (IGDB player and search interest), and limited to games we\'ve checked against '
+            f'official sources. {note}Each game\'s page has the full crossplay details and sources.</p></section>')
+    schema = [{"@context": "https://schema.org", "@type": "ItemList", "name": h1, "numberOfItems": len(games),
+               "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": g["title"],
+                                    "url": abs_url("/games/" + g["slug"] + "/")} for i, g in enumerate(games)]}]
+    return page(path, title, re.sub("<[^>]+>", "", intro)[:300], body, schema, crumbs)
 
 
 def hub_page(path, title, h1, intro, games, crumbs, extra=""):
@@ -1091,7 +1120,7 @@ unless you ask.</p>
         groups = [x for x in groups if x]
         if not groups:
             continue
-        tg.append({"t": g["title"], "s": g["slug"], "c": 1 if g.get("audited") else 0, "h": g["hubs"], "g": groups,
+        tg.append({"t": g["title"], "s": g["slug"], "c": 1 if g.get("audited") else 0, "f": 1 if g.get("f2p") else 0, "h": g["hubs"], "g": groups,
                    "q": sorted({k for gr in g["groups"] for k in gr["partial"]})})
     together_json = json.dumps({"base": url("/games/"), "games": tg}, separators=(",", ":"))
     pages["/who-can-i-play-with/"] = page(
@@ -1129,6 +1158,28 @@ the game's page.</p></section>
 <p class="small">Know about a change we've missed? <a href="{correction_link()}">Tell us</a>. Past changes are on the
 <a href="{url('/updates/')}">recent changes</a> page.</p></section>''',
         crumbs=[("Home", "/"), ("Coming soon", "/coming-soon/")])
+    checked_cross = [g for g in current if g.get("audited") and not g.get("verdict") and cross_groups(g)]
+    def plays(g, a, b): return together(g, a, b) == "yes"
+    BEST = [
+        ("crossplay-games-ps5-pc", "Best Crossplay Games for PS5 and PC", "The best crossplay games for PS5 and PC",
+         "Games where PlayStation 5 and PC players share the same matches, so you can play with friends on either.",
+         [g for g in checked_cross if plays(g, "ps5", "pc")]),
+        ("free-crossplay-games", "Best Free Crossplay Games (PC, PS5, Xbox, Switch)", "The best free crossplay games",
+         "Free-to-play games with crossplay, so nobody in your group has to buy anything to join in. Online play in free "
+         "games doesn't need PlayStation Plus or Game Pass.", [g for g in checked_cross if g.get("f2p")]),
+        ("crossplay-co-op-games", "Best Crossplay Co-op Games", "The best crossplay co-op games",
+         "Co-op games where friends on different platforms can team up instead of playing against each other.",
+         [g for g in checked_cross if "co-op" in g["hubs"]]),
+        ("crossplay-games-switch", "Best Crossplay Games for Nintendo Switch and Switch 2", "The best crossplay games on Switch",
+         "Games where Switch or Switch 2 players can play with friends on PC, PlayStation or Xbox.",
+         [g for g in checked_cross if any(("switch" in gr["platforms"] or "switch2" in gr["platforms"]) and len(gr["platforms"]) > 1 for gr in g["groups"])]),
+    ]
+    best_links = []
+    for slug, title, h1, intro, gl in BEST:
+        if len(gl) >= 5:
+            pages[f"/best/{slug}/"] = best_page(f"/best/{slug}/", title, h1, intro, gl,
+                                                [("Home", "/"), (h1, f"/best/{slug}/")])
+            best_links.append(f'<a class="pill" href="{url("/best/" + slug + "/")}">{e(h1[4:].capitalize())}</a>')
     pages["/"] = page("/", f"{config.SITE_NAME}: Is It Cross-Platform? Crossplay Checker for {len(current)} Games",
                       f"Check if a game has crossplay between PS5, Xbox, Switch, PC and mobile. "
                       f"{len(current)} games, checked daily, with sources.",
@@ -1154,7 +1205,7 @@ the game's page.</p></section>
 <section><h2>Works on PC, PlayStation, Xbox <em>and</em> Switch</h2>
 <p>The full house: these games put every major platform in the same lobby.</p>{grid(full[:8])}
 <p><a href="{url('/crossplay/playstation-and-switch/')}">More PlayStation + Switch games →</a></p></section>
-<section><h2>Browse</h2><div class="plats">{pc}</div><nav class="pills" style="margin-top:1rem">{gl}</nav></section>
+<section><h2>Browse</h2>{"<nav class=pills>" + "".join(best_links) + "</nav>" if best_links else ""}<div class="plats">{pc}</div><nav class="pills" style="margin-top:1rem">{gl}</nav></section>
 {"<section><h2>Recently changed</h2><ul class='log'>" + "".join(f'<li><time>{nice_date(x["date"])}</time> <a href="{url("/games/" + slug_by_title[x["title"]] + "/")}">{e(x["title"])}</a>: {e(x["what"])}</li>' for x in recent) + "</ul></section>" if recent else ""}
 {signup_box("home")}
 <section class="how"><h2>How this works</h2><p>We research the most-played games from publishers' own announcements,
