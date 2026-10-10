@@ -2404,17 +2404,42 @@
   {
    "title": "It Takes Two",
    "igdb_id": 135243,
-   "crossplay": false,
+   "crossplay": true,
    "notes": [
-    "It Takes Two's online co-op only works with a partner on the same platform, and that includes the Friend's Pass. Hazelight's next game, Split Fiction, does have crossplay."
+    "Crossplay arrives on October 15, 2026, alongside the Nintendo Switch 2 version: PC, PlayStation 5, PlayStation 4, Xbox Series X|S, Xbox One and Switch 2 players can all play together. Before that, online co-op only worked within one platform family (PS4 with PS5, Xbox One with Xbox Series X|S).",
+    "Only one player needs to own the game: EA says a partner on another platform can join with the free Friend's Pass.",
+    "The original Switch version isn't part of crossplay. Switch owners get the Switch 2 version as a free upgrade, and a Switch 1 player can only play online with a Switch 2 player who switches back to the original Switch version."
    ],
    "sources": [
     {
-     "title": "Split Fiction Friend Pass goes cross-platform (vs It Takes Two)",
-     "url": "https://stevivor.com/news/split-ficton-friend-pass-goes-cross-platform-letting-a-friend-play-for-free-anywhere"
+     "title": "Time to Collaborate! It Takes Two comes to Nintendo Switch 2 (EA, September 9, 2026)",
+     "url": "https://www.ea.com/games/it-takes-two/it-takes-two/news/launching-on-nintendo-switch-2"
+    },
+    {
+     "title": "It Takes Two hops onto Switch 2 next week, with cross-play (Nintendo Life)",
+     "url": "https://www.nintendolife.com/news/2026/10/it-takes-two-hops-onto-switch-2-next-week-marrying-visual-upgrades-and-cross-play"
+    },
+    {
+     "title": "It Takes Two Friend's Pass (EA)",
+     "url": "https://www.ea.com/games/it-takes-two/about/friends-pass"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch2": "yes"
+     }
+    }
+   ],
+   "separate": [
+    "switch"
+   ]
   },
   {
    "title": "KARDS",
