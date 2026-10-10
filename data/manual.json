@@ -2657,6 +2657,40 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Grand Theft Auto VI",
+   "igdb_id": null,
+   "crossplay": false,
+   "audited": "2026-10-10",
+   "verdict": {
+    "kind": "ended",
+    "word": "Not announced",
+    "summary": "Grand Theft Auto VI comes out on November 19, 2026 for PS5 and Xbox Series X|S, and Rockstar hasn't said whether it will have crossplay."
+   },
+   "notes": [
+    "Rockstar has confirmed PS5 (including PS5 Pro) and Xbox Series X|S for launch. There's no PC release date yet; Rockstar has usually brought its games to PC a year or more after consoles.",
+    "Rockstar hasn't announced crossplay, or any details of the online mode yet. GTA V never had crossplay between PlayStation, Xbox and PC, so don't count on it until Rockstar says otherwise. We'll update this page when it does."
+   ],
+   "sources": [
+    {
+     "title": "Grand Theft Auto 6 delayed again, but it'll still ship in 2026 (TechRadar)",
+     "url": "https://www.techradar.com/gaming/grand-theft-auto-6-delayed-again-but-itll-still-ship-in-2026"
+    },
+    {
+     "title": "GTA 6: everything we know so far (Tom's Guide)",
+     "url": "https://www.tomsguide.com/us/grand-theft-auto-6-release-date-rumors,news-25578.html"
+    },
+    {
+     "title": "GTA 6 PC release date estimate, rumors, and news (GameSpot)",
+     "url": "https://www.gamespot.com/articles/gta-6-pc-release-date-estimate-rumors-and-news/"
+    }
+   ],
+   "checked": "2026-10-10",
+   "separate": [
+    "ps5",
+    "xseries"
+   ]
+  },
+  {
    "title": "Green Hell",
    "igdb_id": null,
    "crossplay": false,
@@ -3336,6 +3370,64 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "no"
+  },
+  {
+   "title": "Minecraft",
+   "igdb_id": 121,
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "switch": "yes",
+      "switch2": "yes",
+      "ios": "yes",
+      "android": "yes"
+     },
+     "pc_stores": [
+      "Minecraft Launcher",
+      "Xbox app"
+     ]
+    },
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Minecraft Launcher"
+     ]
+    }
+   ],
+   "notes": [
+    "Minecraft comes in two editions that can't play together. Bedrock Edition (the version on consoles, phones, tablets and Windows) has crossplay across all of them. Java Edition (Windows, Mac and Linux) only plays with other Java players. Buying on PC now gets you both editions.",
+    "Bedrock crossplay needs a free Microsoft account, including on PlayStation and Switch. Realms work the same way: Bedrock Realms connect every Bedrock platform, Java Realms are separate.",
+    "PS5 has a native version that plays with PS4 and every other Bedrock platform. A native Switch 2 version is due on October 27, 2026; until then Switch 2 runs the Switch version, which already has crossplay."
+   ],
+   "sources": [
+    {
+     "title": "Minecraft Realms & Realms Plus (Mojang)",
+     "url": "https://www.minecraft.net/en-us/realms"
+    },
+    {
+     "title": "Minecraft for Switch 2 launches October 27 (Gematsu)",
+     "url": "https://gematsu.com/2026/08/minecraft-for-switch-2-launches-october-27"
+    },
+    {
+     "title": "Minecraft is finally getting a native PS5 version (Game Informer)",
+     "url": "https://gameinformer.com/news/2024/06/21/minecraft-is-finally-getting-a-native-ps5-version"
+    },
+    {
+     "title": "Is Minecraft cross-platform? Bedrock, Java, and console cross-play explained (Digital Trends)",
+     "url": "https://www.digitaltrends.com/gaming/is-minecraft-cross-platform/"
+    }
+   ],
+   "checked": "2026-10-10"
   },
   {
    "title": "MIR4",

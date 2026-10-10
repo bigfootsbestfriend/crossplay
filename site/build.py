@@ -213,7 +213,7 @@ def load_games():
             "source": w["source"], "crossplay": w.get("crossplay", True), "notes": w.get("notes", []),
             "sources": w.get("sources", []),
             "checked": w.get("checked") or wiki.get("fetched", TODAY.isoformat()),
-            "crossprog": w.get("crossprog"), "audited": w.get("audited"),
+            "crossprog": w.get("crossprog"), "audited": w.get("audited"), "verdict": w.get("verdict"),
             "trailer": next((v for v in trailer_candidates(ig)[:4] if trailers.get(v)), None),
             "shots": [x["image_id"] for x in ig.get("screenshots", []) if x.get("image_id")][:8],
         }
@@ -258,6 +258,9 @@ def platform_match(g, k):
 def verdict(g):
     t = g["title"]
     cg = cross_groups(g)
+    if g.get("verdict"):  # researched override, e.g. unreleased games with no crossplay announcement
+        v = g["verdict"]
+        return v.get("kind", "no"), v["word"], v["summary"]
     if g["discontinued"]:
         pools = "; ".join(plist(gr["platforms"]) for gr in g["groups"])
         return "ended", "No longer", f"{t} used to support crossplay ({pools}), but that has been discontinued."
@@ -532,7 +535,8 @@ def game_page(g, games):
                     + ('<p class="small">These versions don&#39;t have crossplay with other platforms. See the notes above for details.</p></div>'
                        if known else '<p class="small">Released here, but no crossplay source lists this version (or it may no longer be sold).</p></div>'))
     heading = "Who can play with whom" if len(g["groups"]) > 1 or g["outside"] else "Platforms that play together"
-    parts.append(f'<section><h2>{heading}</h2><div class="pools">{"".join(rows)}</div></section>')
+    if not g.get("verdict"):
+        parts.append(f'<section><h2>{heading}</h2><div class="pools">{"".join(rows)}</div></section>')
 
     # Checker + pair table
     items = []
@@ -542,7 +546,7 @@ def game_page(g, games):
     for i, a in enumerate(avail):
         for b in avail[i + 1:]:
             pairs.append((a, b, together(g, a, b)))
-    if len(avail) >= 2 and not g["discontinued"]:
+    if len(avail) >= 2 and not g["discontinued"] and not g.get("verdict"):
         opts = "".join(f'<option value="{k}">{e(PLATFORMS[k][0])}</option>' for k in avail)
         data = json.dumps({"groups": [{"p": gr["platforms"], "x": gr["partial"]} for gr in g["groups"]],
                            "names": {k: PLATFORMS[k][0] for k in avail}, "title": t})
