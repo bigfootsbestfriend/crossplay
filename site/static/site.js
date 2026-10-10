@@ -78,6 +78,43 @@
     btn.replaceWith(f);
   }));
 
+  // Screenshots: open in a lightbox (arrows, swipe, Esc). Falls back to opening the image if <dialog> is missing.
+  document.querySelectorAll("[data-lightbox]").forEach(box => {
+    const links = [...box.querySelectorAll("a")];
+    if (!window.HTMLDialogElement) return;
+    const dlg = document.createElement("dialog");
+    dlg.className = "lightbox";
+    dlg.innerHTML = `<div class="lb-in"><img alt=""><button class="lb-prev" aria-label="Previous screenshot">‹</button>
+      <button class="lb-next" aria-label="Next screenshot">›</button><button class="lb-close" aria-label="Close">×</button>
+      <p class="lb-count"></p></div>`;
+    document.body.appendChild(dlg);
+    const img = dlg.querySelector("img"), count = dlg.querySelector(".lb-count");
+    let i = 0;
+    const show = n => {
+      i = (n + links.length) % links.length;
+      img.src = links[i].href;
+      img.alt = links[i].querySelector("img").alt;
+      count.textContent = `${i + 1} / ${links.length}`;
+    };
+    links.forEach((a, n) => a.addEventListener("click", ev => { ev.preventDefault(); show(n); dlg.showModal(); }));
+    dlg.querySelector(".lb-prev").addEventListener("click", () => show(i - 1));
+    dlg.querySelector(".lb-next").addEventListener("click", () => show(i + 1));
+    dlg.querySelector(".lb-close").addEventListener("click", () => dlg.close());
+    dlg.addEventListener("click", ev => { if (ev.target === dlg || ev.target.classList.contains("lb-in")) dlg.close(); });
+    dlg.addEventListener("keydown", ev => {
+      if (ev.key === "ArrowLeft") show(i - 1);
+      if (ev.key === "ArrowRight") show(i + 1);
+    });
+    let x0 = null;
+    dlg.addEventListener("touchstart", ev => { x0 = ev.touches[0].clientX; }, { passive: true });
+    dlg.addEventListener("touchend", ev => {
+      if (x0 === null) return;
+      const dx = ev.changedTouches[0].clientX - x0;
+      if (Math.abs(dx) > 40) show(i + (dx < 0 ? 1 : -1));
+      x0 = null;
+    });
+  });
+
   // Community: "did crossplay work for you?" votes and moderated player tips (Cloudflare Worker API).
   document.querySelectorAll("[data-community]").forEach(async el => {
     const d = JSON.parse(el.dataset.community);

@@ -21,6 +21,9 @@ import config  # noqa: E402
 from common import load_json, merged_games, norm, slugify, trailer_candidates  # noqa: E402
 
 OUT = HERE.parent / "_site"
+# Cache-busting: a short hash of each file's contents, so browsers refetch the moment it changes.
+ASSET_V = {n: __import__("hashlib").sha1((HERE / "static" / n).read_bytes()).hexdigest()[:10]
+           for n in ("style.css", "site.js")}
 TODAY = datetime.date.today()
 
 # key: (display name, short name, hub slug)
@@ -359,7 +362,7 @@ def page(path, title, desc, body, schema=None, crumbs=None):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
-<link rel="stylesheet" href="{url('/static/style.css')}?v={TODAY.isoformat()}">
+<link rel="stylesheet" href="{url('/static/style.css')}?v={ASSET_V['style.css']}">
 {config.AD_SCRIPT}
 {ld}</head>
 <body>
@@ -404,7 +407,7 @@ def page(path, title, desc, body, schema=None, crumbs=None):
     </nav>
   </div>
 </footer>
-<script src="{url('/static/site.js')}?v={TODAY.isoformat()}" defer></script>
+<script src="{url('/static/site.js')}?v={ASSET_V['site.js']}" defer></script>
 </body>
 </html>
 """
@@ -547,7 +550,7 @@ def game_page(g, games):
                       f'<img src="https://i.ytimg.com/vi/{e(g["trailer"])}/hqdefault.jpg" width="480" height="360" '
                       f'alt="{e(t)} trailer" loading="lazy"><span class="yt-play" aria-hidden="true"></span></button>')
         if g["shots"]:
-            media += '<div class="shots">' + "".join(
+            media += '<div class="shots" data-lightbox>' + "".join(
                 f'<a href="https://images.igdb.com/igdb/image/upload/t_1080p/{s}.jpg" target="_blank" rel="noopener">'
                 f'<img src="https://images.igdb.com/igdb/image/upload/t_screenshot_med/{s}.jpg" width="569" height="320" '
                 f'alt="{e(t)} screenshot {i}" loading="lazy"></a>' for i, s in enumerate(g["shots"], 1)) + "</div>"
