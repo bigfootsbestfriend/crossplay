@@ -215,7 +215,7 @@ def load_games():
             "source": w["source"], "crossplay": w.get("crossplay", True), "notes": w.get("notes", []),
             "sources": w.get("sources", []),
             "checked": w.get("checked") or wiki.get("fetched", TODAY.isoformat()),
-            "crossprog": w.get("crossprog"), "audited": w.get("audited"), "verdict": w.get("verdict"),
+            "crossprog": w.get("crossprog"), "audited": w.get("audited"), "verdict": w.get("verdict"), "toggle": w.get("toggle") or [], "progress": w.get("progress") or [],
             "trailer": next((v for v in trailer_candidates(ig)[:4] if trailers.get(v)), None),
             "shots": [x["image_id"] for x in ig.get("screenshots", []) if x.get("image_id")][:8],
         }
@@ -414,6 +414,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
     </div>
     <nav>
       <a href="{url('/about/')}">About</a>
+      <a href="{url('/guides/crossplay-not-working/')}">Crossplay not working?</a>
       <a href="{url('/updates/')}">Recent changes</a>
       <a href="{url('/feed.xml')}">RSS feed</a>
       <a href="{url('/privacy/')}">Privacy</a>
@@ -502,7 +503,7 @@ def game_page(g, games):
     byline = (f'Researched by <a href="{url('/about/')}#who">{e(config.AUTHOR)}</a> · '
               if g["source"] == "manual" and config.AUTHOR else "")
     xprog = ""
-    if g["crossprog"]:
+    if g["crossprog"] and not g["progress"]:
         w_, why = CROSSPROG[g["crossprog"]]
         xprog = f'<p class="xprog"><span class="tag x-{g["crossprog"]}">Cross-progression: {w_}</span> {e(why[0].upper() + why[1:])}</p>'
     parts.append(f"""
@@ -539,6 +540,22 @@ def game_page(g, games):
     heading = "Who can play with whom" if len(g["groups"]) > 1 or g["outside"] else "Platforms that play together"
     if not g.get("verdict"):
         parts.append(f'<section><h2>{heading}</h2><div class="pools">{"".join(rows)}</div></section>')
+
+    # Settings and progression get their own headings: they match the searches people make after
+    # "is it crossplay" ("how to turn off crossplay in X", "X cross progression").
+    fix_link = (f'<p class="small">Crossplay not working even with the setting on? '
+                f'<a href="{url("/guides/crossplay-not-working/")}">Check these console and PC settings</a>.</p>')
+    if g["toggle"] and not g.get("verdict"):
+        parts.append(f'<section id="settings"><h2>How to turn crossplay on or off in {e(t)}</h2>'
+                     + "".join(f"<p>{e(x)}</p>" for x in g["toggle"]) + fix_link + "</section>")
+    if g["progress"] and not g.get("verdict"):
+        tag = ""
+        if g["crossprog"]:
+            tag = f'<p class="xprog"><span class="tag x-{g["crossprog"]}">Cross-progression: {CROSSPROG[g["crossprog"]][0]}</span></p>'
+        parts.append(f'<section id="progress"><h2>Does {e(t)} have cross-progression?</h2>{tag}'
+                     + "".join(f"<p>{e(x)}</p>" for x in g["progress"]) + "</section>")
+    if kind in ("yes", "partial") and not g["toggle"] and not g.get("verdict"):
+        parts.append(f'<section class="fix">{fix_link}</section>')
 
     # Checker + pair table
     items = []
@@ -714,6 +731,18 @@ def game_page(g, games):
             {"@type": "Question", "name": f"Is {t} cross-platform?",
              "acceptedAnswer": {"@type": "Answer", "text": summary}}] + [
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a, _ in items[:6]]}]
+    if not g.get("verdict") and (g["toggle"] or g["progress"]):
+        extra_q = []
+        if g["toggle"]:
+            extra_q.append((f"How do I turn crossplay on or off in {t}?", " ".join(g["toggle"])))
+        if g["progress"]:
+            lead = CROSSPROG[g["crossprog"]][0] + ". " if g["crossprog"] else ""
+            extra_q.append((f"Does {t} have cross-progression?", lead + " ".join(g["progress"])))
+        qs = [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in extra_q]
+        if faq_schema:
+            faq_schema[0]["mainEntity"] += qs
+        else:
+            faq_schema = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": qs}]
     vg = {"@context": "https://schema.org", "@type": "VideoGame", "name": t,
           "gamePlatform": [PLATFORMS[k][0] for k in g["available"]], "url": abs_url("/games/" + g["slug"] + "/")}
     if g["cover"]:
@@ -911,6 +940,11 @@ def build():
                                              "image": abs_url("/static/mike-johnston.jpg"),
                                              "url": abs_url("/about/") + "#who"}}],
                             crumbs=[("Home", "/"), ("About", "/about/")])
+    pages["/guides/crossplay-not-working/"] = page(
+        "/guides/crossplay-not-working/", "Crossplay Not Working? 9 Settings to Check on PS5, Xbox, Switch and PC",
+        "Crossplay on but you still can't find your friend? Check these console, account and network settings on PlayStation, Xbox, Switch and PC.",
+        FIXGUIDE.format(contact=correction_link()),
+        crumbs=[("Home", "/"), ("Crossplay not working", "/guides/crossplay-not-working/")])
     pages["/privacy/"] = page("/privacy/", "Privacy Policy", "How this site handles your data.",
                               PRIVACY.format(site=e(config.SITE_NAME), contact=correction_link(), date=nice_date(TODAY),
                                              community=PRIVACY_COMMUNITY if config.API_URL else ""),
@@ -986,6 +1020,77 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
     print(f"Built {len(pages)} pages ({len(games)} games, {len(plat_cards)} platform hubs, "
           f"{len(pair_links)} pair hubs, {len(genre_links)} genre hubs) → {OUT}")
 
+
+FIXGUIDE = """
+<section class="hub-head"><h1>Crossplay not working? Check these settings</h1>
+<p class="lede">The game says it has crossplay, but you and your friend still can't find each other. Work through
+this list on both sides: most problems come from a console setting, a missing account link, or one player being on
+an older version.</p></section>
+<section class="prose">
+<h2>1. Turn crossplay on in the game, on both sides</h2>
+<p>Most games have their own crossplay setting, usually in the game's Settings or Options menu under Gameplay,
+Online or Network. Both players need it on. In some games, players who turn it off only match with others who also
+turned it off, and on consoles it's sometimes off by default. Some games only apply the change after a restart.
+Each game page here has a "How to turn crossplay on or off" section when we know the exact menu.</p>
+
+<h2>2. Check the Xbox cross-network setting</h2>
+<p>On Xbox, a system setting can block crossplay in every game, whatever the game's own setting says. Press the
+Xbox button, then go to <strong>Profile &amp; system &rarr; Settings &rarr; Account &rarr; Privacy &amp; online
+safety &rarr; Xbox privacy &rarr; View details &amp; customize &rarr; Communication &amp; multiplayer</strong>, and
+set <strong>You can join cross-network play</strong> to Allow. <strong>You can join multiplayer games</strong> has
+to be allowed too. Voice and text chat with other platforms is a separate setting on the same screen.</p>
+<p>For a child account, only the family organizer can change these, from the Xbox Family Settings app or
+account.microsoft.com, and players report the change can take a while to reach the console. The Xbox app on PC uses
+the same privacy settings for your Microsoft account.</p>
+
+<h2>3. Check parental controls on PlayStation and Switch</h2>
+<p>On PlayStation, crossplay is set inside each game, not in the system settings. On a child account, though, the
+family manager can restrict communication with other players and content made by other players, which can block
+chat or invites. Check it under <strong>Settings &rarr; Family and Parental Controls</strong>, or in Family
+Management on the PlayStation website.</p>
+<p>On Nintendo Switch, the Parental Controls app can restrict communication with other players for a child. If a
+child's account can't invite or chat with friends on other platforms, check it there.</p>
+
+<h2>4. Make sure everyone has the online subscription</h2>
+<p>Online play in paid games needs PlayStation Plus on PlayStation, a Game Pass plan with online play on Xbox, and
+Nintendo Switch Online on Switch. Free-to-play games such as Fortnite, Warzone and Apex Legends don't need PlayStation
+Plus or Game Pass. A lapsed subscription on one side is a common reason a party invite silently fails.</p>
+
+<h2>5. Link the publisher account</h2>
+<p>A lot of crossplay runs through the publisher's own account rather than PlayStation Network, Xbox or Steam: for
+example an EA account, an Epic Games account, Ubisoft Connect, an Activision or Battle.net account, a Bungie account or
+an Embark ID. If one of you hasn't linked it (or linked a different one), you won't see each other. Check the
+game's account or social menu on both sides.</p>
+
+<h2>6. Add each other through the game, not the console</h2>
+<p>Your PlayStation, Xbox, Switch or Steam friends list doesn't carry across platforms. Cross-platform friends are
+added inside the game, usually by the publisher account name or a friend code. Party invites sent through the
+console's own menus generally only reach friends on the same platform.</p>
+
+<h2>7. Update everyone to the same version</h2>
+<p>Patches sometimes land on PC a day or more before consoles (or the other way round). Players on different
+versions can't join each other. Check for an update on every device and restart the game.</p>
+
+<h2>8. Check you're on versions that actually play together</h2>
+<p>Crossplay is often only between some platforms, modes or store versions. Some PC games only cross with Xbox in
+the Microsoft Store version, not on Steam; some games keep PS4 and PS5, or ranked and casual, apart; some only mix
+consoles. Look up the game here: the "Who can play with whom" section shows exactly which versions share players.</p>
+
+<h2>9. Check your network</h2>
+<p>A strict NAT type can stop you joining a friend's party even when matchmaking works. On PS5, run
+<strong>Settings &rarr; Network &rarr; Connection Status &rarr; Test Internet Connection</strong>; on Xbox,
+<strong>Settings &rarr; General &rarr; Network settings</strong> shows your NAT type. If it's strict, your router's
+UPnP setting or your internet provider is the usual place to fix it.</p>
+
+<h2>Still stuck?</h2>
+<p>Some games have known crossplay bugs after a patch. The game's official support site, status page or Discord is
+the fastest place to check. If our page for the game is wrong or out of date, <a href="{contact}">let us know</a>.</p>
+<p class="small">Sources: <a href="https://www.playstation.com/en-gb/support/account/safety-parents-guide/">PlayStation
+safety guide for parents</a>; <a href="https://support.rockstargames.com/articles/6oMA7pOtwFAzgFCmRK40BR/unable-to-enter-grand-theft-auto-online-on-the-xbox-app-on-pc">Rockstar
+Support on Xbox app privacy settings</a>; <a href="https://www.videogameschronicle.com/news/xbox-live-gold-is-no-longer-required-to-play-free-to-play-multiplayer-games">VGC
+on Xbox free-to-play online play</a>. Menu names can change with system updates.</p>
+</section>
+"""
 
 ABOUT = """
 <section class="hub-head"><h1>About Crossplay Guide</h1>

@@ -17,7 +17,7 @@
     }
    ],
    "notes": [
-    "PC-to-console crossplay arrived with the V1.2 update. Turn on General → Crossplay Enabled; on PC the server also needs Easy Anti-Cheat on. Crossplay games are limited to 8 players."
+    "PC-to-console crossplay arrived with the V1.2 update. Crossplay games are limited to 8 players."
    ],
    "sources": [
     {
@@ -30,7 +30,10 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "Turn on General → Crossplay Enabled; on PC the server also needs Easy Anti-Cheat on."
+   ]
   },
   {
    "title": "A Way Out",
@@ -256,8 +259,7 @@
    ],
    "notes": [
     "PC (Steam and EA app), PlayStation, Xbox and Switch 2 all play together, and crossplay is on by default. A party with PC and console players is matched into PC lobbies.",
-    "Console players can turn crossplay off in Settings > Cross Platform Play; they'll then only match with players on the same platform who've also turned it off. PC players can't turn it off.",
-    "The original Switch version stopped working on August 4, 2026 (Season 30). Progress, cosmetics and Apex Coins follow your EA account, so they carry over to Switch 2 and every other platform."
+    "The original Switch version stopped working on August 4, 2026 (Season 30)."
    ],
    "sources": [
     {
@@ -277,7 +279,14 @@
      "url": "https://www.charlieintel.com/apex-legends/how-to-turn-off-crossplay-in-apex-legends-74813/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "Console players can turn crossplay off in Settings > Cross Platform Play; they'll then only match with players on the same platform who've also turned it off.",
+    "PC players can't turn it off."
+   ],
+   "progress": [
+    "Progress, cosmetics and Apex Coins follow your EA account, so they carry over to Switch 2 and every other platform."
+   ]
   },
   {
    "title": "ARC Raiders",
@@ -298,8 +307,7 @@
     }
    ],
    "notes": [
-    "PC (Steam and Epic), PS5 and Xbox Series X|S all play together, and parties of up to three can mix platforms. Crossplay is on by default and can be switched off in Settings; there's no console-only option, so turning it off limits you to your own platform (PS5 with PS5, Xbox with Xbox).",
-    "Progress, skins and gear follow your Embark account across every platform you own the game on, but you need to buy it again on each platform."
+    "PC (Steam and Epic), PS5 and Xbox Series X|S all play together, and parties of up to three can mix platforms."
    ],
    "sources": [
     {
@@ -315,7 +323,13 @@
      "url": "https://mein-mmo.de/arc-raiders-crossplay-cross-progression-multiplayer/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default and can be switched off in Settings; there's no console-only option, so turning it off limits you to your own platform (PS5 with PS5, Xbox with Xbox)."
+   ],
+   "progress": [
+    "Progress, skins and gear follow your Embark account across every platform you own the game on, but you need to buy it again on each platform."
+   ]
   },
   {
    "title": "Arma Reforger",
@@ -414,8 +428,7 @@
     }
    ],
    "notes": [
-    "Asphalt Legends (called Asphalt Legends Unite at its July 2024 launch, and the successor to Asphalt 9: Legends) has crossplay across every version: PC, Mac, PlayStation, Xbox, Switch, iPhone and Android. It was the first Asphalt game with cross-platform play.",
-    "Your progress follows your Gameloft ID between platforms, and progress from Asphalt 9 carried over."
+    "Asphalt Legends (called Asphalt Legends Unite at its July 2024 launch, and the successor to Asphalt 9: Legends) has crossplay across every version: PC, Mac, PlayStation, Xbox, Switch, iPhone and Android. It was the first Asphalt game with cross-platform play."
    ],
    "sources": [
     {
@@ -431,7 +444,10 @@
      "url": "https://www.pocketgamer.com/asphalt-legends-unite/launch"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Your progress follows your Gameloft ID between platforms, and progress from Asphalt 9 carried over."
+   ]
   },
   {
    "title": "Baldur's Gate 3",
@@ -454,7 +470,7 @@
     }
    ],
    "notes": [
-    "Crossplay arrived with Patch 8 in April 2025. Cross-platform lobbies are under Multiplayer → Cross-Play and use a Larian account.",
+    "Crossplay arrived with Patch 8 in April 2025.",
     "Mods work in crossplay as long as everyone in the lobby has the same mods installed."
    ],
    "sources": [
@@ -468,7 +484,10 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "Cross-platform lobbies are under Multiplayer → Cross-Play and use a Larian account."
+   ]
   },
   {
    "title": "Battlefield 1",
@@ -501,8 +520,7 @@
    ],
    "notes": [
     "Battlefield 1 (2016) has no crossplay: PC, PlayStation and Xbox each have their own servers.",
-    "PS5 and Xbox Series X|S run the PS4 and Xbox One version through backward compatibility, so they share servers with PS4 and Xbox One players. On PC, Steam copies need an EA account and play on the same EA servers as EA app players.",
-    "Progress doesn't carry over between platforms."
+    "PS5 and Xbox Series X|S run the PS4 and Xbox One version through backward compatibility, so they share servers with PS4 and Xbox One players. On PC, Steam copies need an EA account and play on the same EA servers as EA app players."
    ],
    "sources": [
     {
@@ -518,7 +536,10 @@
      "url": "https://en.wikipedia.org/wiki/Battlefield_1"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Progress doesn't carry over between platforms."
+   ]
   },
   {
    "title": "Battlefield 2042",
@@ -547,7 +568,7 @@
    ],
    "notes": [
     "Crossplay is split by console generation. PC, PS5 and Xbox Series X|S share 128-player matches; PS4 and Xbox One share their own 64-player matches. A PS4 player can't join a PS5 friend, and the PS4 or Xbox One version stays in the last-gen pool even when played on a newer console.",
-    "You can turn crossplay off from the main menu (on Xbox, you also have to block cross-network play in the console's privacy settings). The party host's setting applies to the whole party.",
+    "The party host's setting applies to the whole party.",
     "Rank, weapons, attachments and cosmetics follow your EA account across platforms and generations, as long as each platform is linked to the same EA account."
    ],
    "sources": [
@@ -568,7 +589,10 @@
      "url": "https://twinfinite.net/guides/battlefield-2042-crossplay-how-turn-off-cross-platform-play-turn-on-again/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "You can turn crossplay off from the main menu (on Xbox, you also have to block cross-network play in the console's privacy settings)."
+   ]
   },
   {
    "title": "Battlefield 4",
@@ -576,8 +600,7 @@
    "crossplay": false,
    "notes": [
     "Each platform family has its own servers: PS4 and PS5 (through backward compatibility) play together, as do Xbox One and Xbox Series X|S. On PC, Steam copies run through the EA app, so Steam and EA app players share the same servers.",
-    "Online play on PS3 and Xbox 360 ended on November 7, 2024, when EA shut those servers down. Those versions are now single-player only.",
-    "Multiplayer progress and unlocks don't carry over between platforms."
+    "Online play on PS3 and Xbox 360 ended on November 7, 2024, when EA shut those servers down. Those versions are now single-player only."
    ],
    "sources": [
     {
@@ -626,7 +649,10 @@
     }
    ],
    "crossprog": "no",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Multiplayer progress and unlocks don't carry over between platforms."
+   ]
   },
   {
    "title": "Battlefield 6",
@@ -648,9 +674,9 @@
     }
    ],
    "notes": [
-    "Crossplay is on by default. On PS5 and Xbox you can turn PC crossplay off (Settings > System) to play only with console players, and the game already favours console-only servers, but EA says long wait times may override that preference. PC players can't turn crossplay off.",
+    "Crossplay is on by default.",
     "Every PC store plays together. You need an EA account on every platform; Steam players don't need the EA app, but Epic players do.",
-    "Progress and unlocks follow your EA account across platforms, and the free RedSec mode shares progression with the main game. There's no PS4, Xbox One or Switch 2 version, and EA says there are no Switch 2 plans."
+    "There's no PS4, Xbox One or Switch 2 version, and EA says there are no Switch 2 plans."
    ],
    "sources": [
     {
@@ -670,7 +696,14 @@
      "url": "https://www.gamesradar.com/games/battlefield/battlefield-6-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "On PS5 and Xbox you can turn PC crossplay off (Settings > System) to play only with console players, and the game already favours console-only servers, but EA says long wait times may override that preference.",
+    "PC players can't turn crossplay off."
+   ],
+   "progress": [
+    "Progress and unlocks follow your EA account across platforms, and the free RedSec mode shares progression with the main game."
+   ]
   },
   {
    "title": "Battlefield REDSEC",
@@ -861,7 +894,7 @@
    "notes": [
     "PC (Steam and Epic), Mac, PS4, PS5, Xbox One and Xbox Series X|S all play together through Gearbox's SHiFT matchmaking. PlayStation joined in June 2022, so older articles saying PlayStation is left out are out of date.",
     "Crossplay is opt-in: choose Enable Crossplay at launch, sign in with a free SHiFT account and pick a unique crossplay display name.",
-    "The Switch version only plays with other Switch players. Characters stay on the platform where you made them, except that you can move between the Steam and Epic versions on PC."
+    "The Switch version only plays with other Switch players."
    ],
    "sources": [
     {
@@ -877,7 +910,10 @@
      "url": "https://www.destructoid.com/borderlands-3-switch-impressions/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Characters stay on the platform where you made them, except that you can move between the Steam and Epic versions on PC."
+   ]
   },
   {
    "title": "Borderlands 4",
@@ -971,7 +1007,7 @@
    ],
    "notes": [
     "Crossplay needs an Activision account, which also carries your progress across platforms.",
-    "Console players can limit matchmaking to consoles (including in Ranked). On PC, Steam and Battle.net players can't turn crossplay off; Xbox app players can."
+    "Console players can limit matchmaking to consoles (including in Ranked)."
    ],
    "sources": [
     {
@@ -984,7 +1020,10 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "On PC, Steam and Battle.net players can't turn crossplay off; Xbox app players can."
+   ]
   },
   {
    "title": "Call of Duty: Black Ops 7",
@@ -1005,7 +1044,7 @@
     }
    ],
    "notes": [
-    "Crossplay is on by default; you can turn it off in the settings to only match players on your own console family. Progress is tied to your Activision account, so it carries across platforms."
+    "Crossplay is on by default; you can turn it off in the settings to only match players on your own console family."
    ],
    "sources": [
     {
@@ -1018,7 +1057,11 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Progress is tied to your Activision account, so it carries across platforms."
+   ],
+   "crossprog": "yes"
   },
   {
    "title": "Call of Duty: Black Ops II",
@@ -1174,8 +1217,8 @@
     }
    ],
    "notes": [
-    "Warzone is free to play and every platform plays together. Console players can choose crossplay with everyone, consoles only (no PC players) or off. On PC, Steam and Battle.net players can't turn crossplay off; Xbox app players can through the Xbox app's settings. You need an Activision account.",
-    "PS4 and Xbox One are being phased out: Warzone was removed from their stores on June 4, 2026, the in-game store there closed on June 25, and the servers are due to shut down later in 2026. Progress carries to PS5, Xbox Series X|S or PC through your Activision account, but COD Points only move within the same console family."
+    "Warzone is free to play and every platform plays together. Console players can choose crossplay with everyone, consoles only (no PC players) or off. You need an Activision account.",
+    "PS4 and Xbox One are being phased out: Warzone was removed from their stores on June 4, 2026, the in-game store there closed on June 25, and the servers are due to shut down later in 2026."
    ],
    "sources": [
     {
@@ -1191,7 +1234,13 @@
      "url": "https://www.purexbox.com/news/2025/04/call-of-dutys-new-xbox-update-adds-crossplay-matchmaking-options-for-consoles-only"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "On PC, Steam and Battle.net players can't turn crossplay off; Xbox app players can through the Xbox app's settings."
+   ],
+   "progress": [
+    "Progress carries to PS5, Xbox Series X|S or PC through your Activision account, but COD Points only move within the same console family."
+   ]
   },
   {
    "title": "Call of Duty: WWII",
@@ -1514,8 +1563,7 @@
    ],
    "notes": [
     "Since Update 1.29 (April 8, 2026), Xbox players and PC players using the Xbox app version share servers. Owning DayZ on Xbox also gets you the Windows version through Xbox Play Anywhere.",
-    "The Steam version is separate: it runs its own build and servers, so Steam players can't join Xbox or Xbox app servers. PlayStation is separate too, though PS4 and PS5 players share servers, as do Xbox One and Xbox Series X|S players.",
-    "Characters don't carry over between platforms."
+    "The Steam version is separate: it runs its own build and servers, so Steam players can't join Xbox or Xbox app servers. PlayStation is separate too, though PS4 and PS5 players share servers, as do Xbox One and Xbox Series X|S players."
    ],
    "sources": [
     {
@@ -1531,7 +1579,10 @@
      "url": "https://supercraft.host/wiki/dayz/is_dayz_cross_platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Characters don't carry over between platforms."
+   ]
   },
   {
    "title": "Dead by Daylight",
@@ -1558,8 +1609,7 @@
    ],
    "notes": [
     "PC (Steam, Epic and the Xbox app), PlayStation, Xbox and Switch all play together; crossplay has been on by default since August 2020. Switch 2 runs the Switch version.",
-    "The mobile version, Dead by Daylight Mobile, is separate: iOS and Android players only play with each other.",
-    "Cross-progression arrived on July 22, 2024 through a Behaviour account: link each platform and import its progress. DLC and paid currency bought on Switch don't carry over to other platforms, though purchases from other platforms do carry over to Switch."
+    "The mobile version, Dead by Daylight Mobile, is separate: iOS and Android players only play with each other."
    ],
    "sources": [
     {
@@ -1575,7 +1625,11 @@
      "url": "https://www.thesixthaxis.com/?p=362720"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Cross-progression arrived on July 22, 2024 through a Behaviour account: link each platform and import its progress.",
+    "DLC and paid currency bought on Switch don't carry over to other platforms, though purchases from other platforms do carry over to Switch."
+   ]
   },
   {
    "title": "Dead Island 2",
@@ -1606,7 +1660,7 @@
    ],
    "notes": [
     "Dambuster's technical FAQ says Dead Island 2 doesn't support crossplay between PC and consoles, or between PlayStation and Xbox.",
-    "Co-op works across console generations (PS4 with PS5, Xbox One with Xbox Series X|S). On PC, Steam and Epic players can play together once they link an Epic Games account in the game's options."
+    "Co-op works across console generations (PS4 with PS5, Xbox One with Xbox Series X|S)."
    ],
    "sources": [
     {
@@ -1620,7 +1674,10 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "no",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "On PC, Steam and Epic players can play together once they link an Epic Games account in the game's options."
+   ]
   },
   {
    "title": "Deadside",
@@ -1761,8 +1818,7 @@
     }
    ],
    "notes": [
-    "PvE activities and social spaces mix every platform. Crucible and Gambit are split: consoles (PlayStation and Xbox) share one pool and PC has its own, and a fireteam with any PC player goes into the PC pool. If you turn crossplay off, you only match with players on your platform who have also turned it off.",
-    "Cross Save keeps your Guardians and progress across platforms once you link your accounts on Bungie's website, but expansions don't transfer: you need to buy them on each platform."
+    "PvE activities and social spaces mix every platform. Crucible and Gambit are split: consoles (PlayStation and Xbox) share one pool and PC has its own, and a fireteam with any PC player goes into the PC pool."
    ],
    "sources": [
     {
@@ -1774,7 +1830,13 @@
      "url": "https://www.highgroundgaming.com/destiny-2-cross-play-explained/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "If you turn crossplay off, you only match with players on your platform who have also turned it off."
+   ],
+   "progress": [
+    "Cross Save keeps your Guardians and progress across platforms once you link your accounts on Bungie's website, but expansions don't transfer: you need to buy them on each platform."
+   ]
   },
   {
    "title": "Diablo II: Resurrected",
@@ -1837,9 +1899,7 @@
     }
    ],
    "notes": [
-    "PC (Battle.net and Steam), PS4, PS5, Xbox One and Xbox Series X|S all play together. Console players link their PlayStation or Xbox account to a Battle.net account to play with other platforms.",
-    "You can turn it off in Options > Social > Cross-Network Play; you then won't see or group with players on other platforms, and clans are blocked. A separate toggle turns off cross-platform chat only.",
-    "Characters and account progress follow your Battle.net account across platforms, but you need to buy the game on each platform you play on."
+    "PC (Battle.net and Steam), PS4, PS5, Xbox One and Xbox Series X|S all play together. Console players link their PlayStation or Xbox account to a Battle.net account to play with other platforms."
    ],
    "sources": [
     {
@@ -1855,7 +1915,14 @@
      "url": "https://www.exitlag.com/blog/is-diablo-4-cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "You can turn it off in Options > Social > Cross-Network Play; you then won't see or group with players on other platforms, and clans are blocked.",
+    "A separate toggle turns off cross-platform chat only."
+   ],
+   "progress": [
+    "Characters and account progress follow your Battle.net account across platforms, but you need to buy the game on each platform you play on."
+   ]
   },
   {
    "title": "Dinkum",
@@ -1923,8 +1990,7 @@
     }
    ],
    "notes": [
-    "Steam players on Windows, Mac and Linux play together. Consoles only play within their own family: PS4 with PS5, Xbox One with Series X|S, and Switch on its own. Klei keeps PC and console apart because of mods, events and different update schedules.",
-    "Link your platforms to one Klei account to share character skins, cosmetics and other unlocks between them. Your worlds and saves stay on the platform where you made them."
+    "Steam players on Windows, Mac and Linux play together. Consoles only play within their own family: PS4 with PS5, Xbox One with Series X|S, and Switch on its own. Klei keeps PC and console apart because of mods, events and different update schedules."
    ],
    "sources": [
     {
@@ -1942,7 +2008,11 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10",
-   "crossprog": "partial"
+   "crossprog": "partial",
+   "progress": [
+    "Link your platforms to one Klei account to share character skins, cosmetics and other unlocks between them.",
+    "Your worlds and saves stay on the platform where you made them."
+   ]
   },
   {
    "title": "Doom Eternal",
@@ -2353,8 +2423,8 @@
    ],
    "notes": [
     "Crossplay is split by console generation: PS5, Xbox Series X|S and PC play together, and PS4 and Xbox One have their own pool. The two pools never match each other, and Switch and Switch 2 don't have crossplay at all.",
-    "Crossplay covers Ultimate Team (Division Rivals, Champions, Draft, Rush and friendlies), Clubs, and online Seasons and friendlies. It's on by default; switch it under Settings → Online Settings → Matchmaking Options, or in EA Connect.",
-    "The Ultimate Team Transfer Market is shared between PlayStation and Xbox, but PC and Switch each have their own. Ultimate Team progress (players, coins, FC Points) moves between PS4 and PS5, or Xbox One and Series X|S, but not between brands or to and from PC."
+    "Crossplay covers Ultimate Team (Division Rivals, Champions, Draft, Rush and friendlies), Clubs, and online Seasons and friendlies.",
+    "The Ultimate Team Transfer Market is shared between PlayStation and Xbox, but PC and Switch each have their own."
    ],
    "sources": [
     {
@@ -2376,7 +2446,13 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10",
-   "crossprog": "partial"
+   "crossprog": "partial",
+   "toggle": [
+    "It's on by default; switch it under Settings → Online Settings → Matchmaking Options, or in EA Connect."
+   ],
+   "progress": [
+    "Ultimate Team progress (players, coins, FC Points) moves between PS4 and PS5, or Xbox One and Series X|S, but not between brands or to and from PC."
+   ]
   },
   {
    "title": "EA Sports FC 27",
@@ -2452,7 +2528,7 @@
     }
    ],
    "notes": [
-    "UFC 6 (June 19, 2026) is the first UFC game with crossplay: PS5 and Xbox Series X|S players can fight each other in its online multiplayer modes. It's on by default (Settings > Gameplay > Crossplay); on Xbox, the console's own cross-network setting also has to allow it.",
+    "UFC 6 (June 19, 2026) is the first UFC game with crossplay: PS5 and Xbox Series X|S players can fight each other in its online multiplayer modes.",
     "Add friends on the other console from the Online tab with Invite A Friend, searching by EA ID, Xbox gamertag or PSN ID. There's no PS4 or Xbox One version, and a PC version hasn't been dated."
    ],
    "sources": [
@@ -2469,7 +2545,10 @@
      "url": "https://en.wikipedia.org/wiki/EA_Sports_UFC_6"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "It's on by default (Settings > Gameplay > Crossplay); on Xbox, the console's own cross-network setting also has to allow it."
+   ]
   },
   {
    "title": "eFootball",
@@ -2579,8 +2658,7 @@
     }
    ],
    "notes": [
-    "Director Junya Ishizaki: \"Similar to the original Elden Ring, there will be cross-generational play but not cross-platform play.\" PS4 and PS5 play together, as do Xbox One and Xbox Series X|S. PC (Steam) players only meet other PC players.",
-    "Saves and progress don't carry over between PlayStation, Xbox and PC."
+    "Director Junya Ishizaki: \"Similar to the original Elden Ring, there will be cross-generational play but not cross-platform play.\" PS4 and PS5 play together, as do Xbox One and Xbox Series X|S. PC (Steam) players only meet other PC players."
    ],
    "sources": [
     {
@@ -2594,7 +2672,10 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "no",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Saves and progress don't carry over between PlayStation, Xbox and PC."
+   ]
   },
   {
    "title": "Elite Dangerous",
@@ -2695,7 +2776,7 @@
    ],
    "notes": [
     "Fall Guys has been free to play since 2022, and PC (Epic and Steam), PlayStation, Xbox and Switch players all play together. Switch 2 runs the Switch version.",
-    "Link each platform to one Epic account to carry your progress, level and cosmetics everywhere; you can only link one account per platform, and you can't be signed in on two platforms at once. There's no mobile version outside China."
+    "There's no mobile version outside China."
    ],
    "sources": [
     {
@@ -2711,7 +2792,10 @@
      "url": "https://store.epicgames.com/news/fall-guys-launches-season-free-for-all-coming-to-the-epic-games-store-on-june-21"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Link each platform to one Epic account to carry your progress, level and cosmetics everywhere; you can only link one account per platform, and you can't be signed in on two platforms at once."
+   ]
   },
   {
    "title": "Fallout 76",
@@ -2881,8 +2965,7 @@
     }
    ],
    "notes": [
-    "Online co-op works across console generations (PS4 with PS5, Xbox One with Series X|S), and PC players on Ubisoft Connect, Epic and Steam play together through Ubisoft Connect. PlayStation, Xbox and PC can't play with each other. Co-op unlocks after the prologue on Isla Santuario.",
-    "Cross-progression works across all platforms, but it's manual: upload your save to the cloud from the New Game menu, then load it from the cloud on the other platform while signed in to the same Ubisoft account. DLC, Far Cry Credits and store purchases stay with the store you bought them from."
+    "Online co-op works across console generations (PS4 with PS5, Xbox One with Series X|S), and PC players on Ubisoft Connect, Epic and Steam play together through Ubisoft Connect. PlayStation, Xbox and PC can't play with each other. Co-op unlocks after the prologue on Isla Santuario."
    ],
    "sources": [
     {
@@ -2900,7 +2983,11 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "progress": [
+    "Cross-progression works across all platforms, but it's manual: upload your save to the cloud from the New Game menu, then load it from the cloud on the other platform while signed in to the same Ubisoft account.",
+    "DLC, Far Cry Credits and store purchases stay with the store you bought them from."
+   ]
   },
   {
    "title": "Farming Simulator 22",
@@ -3086,9 +3173,8 @@
    ],
    "notes": [
     "Every current platform plays together, including Switch 2, phones and cloud streaming. On PC, Fortnite is only on the Epic Games Store, and you need an Epic account to play.",
-    "On PlayStation and Xbox you can turn crossplay off (Settings > Account and Privacy > Gameplay Privacy; on Xbox, also the console's cross-network setting). Epic warns this means much longer queues and some modes may only work in Solo. Switch, PC and mobile players can't turn it off.",
-    "Fortnite is back on the iPhone App Store: in the US since May 2025 and in most other markets since May 2026 (Australia was still excluded). The old native Mac version hasn't been updated since 2020 and can't join current matches; Mac players use cloud gaming instead.",
-    "Your skins, Battle Pass and progress follow your Epic account everywhere. Purchased V-Bucks are shared across PlayStation, Xbox, PC, mobile and cloud, but not with Nintendo Switch (V-Bucks earned in-game are shared everywhere)."
+    "Epic warns this means much longer queues and some modes may only work in Solo.",
+    "Fortnite is back on the iPhone App Store: in the US since May 2025 and in most other markets since May 2026 (Australia was still excluded). The old native Mac version hasn't been updated since 2020 and can't join current matches; Mac players use cloud gaming instead."
    ],
    "sources": [
     {
@@ -3108,7 +3194,15 @@
      "url": "https://www.pocketgamer.com/fortnite/back-on-the-app-store-may-2026/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "On PlayStation and Xbox you can turn crossplay off (Settings > Account and Privacy > Gameplay Privacy; on Xbox, also the console's cross-network setting).",
+    "Switch, PC and mobile players can't turn it off."
+   ],
+   "progress": [
+    "Your skins, Battle Pass and progress follow your Epic account everywhere.",
+    "Purchased V-Bucks are shared across PlayStation, Xbox, PC, mobile and cloud, but not with Nintendo Switch (V-Bucks earned in-game are shared everywhere)."
+   ]
   },
   {
    "title": "Forza Horizon 5",
@@ -3131,8 +3225,8 @@
     }
    ],
    "notes": [
-    "PC (Steam and the Xbox app), Xbox One, Xbox Series X|S and PS5 all play together. The PS5 version launched in April 2025 with crossplay from the start; PS5 players need to link a Microsoft account to play online. Crossplay is on by default and can be turned off.",
-    "Progress only carries over between Xbox and the Xbox app on PC (Xbox Play Anywhere). Steam and PS5 keep their own separate saves, and PS5 can't import a save from another platform."
+    "PC (Steam and the Xbox app), Xbox One, Xbox Series X|S and PS5 all play together. The PS5 version launched in April 2025 with crossplay from the start; PS5 players need to link a Microsoft account to play online.",
+    "Steam and PS5 keep their own separate saves, and PS5 can't import a save from another platform."
    ],
    "sources": [
     {
@@ -3148,7 +3242,13 @@
      "url": "https://primagames.com/tips/forza-horizon-5-have-crossplay-cross-progression-ps5"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default and can be turned off."
+   ],
+   "progress": [
+    "Progress only carries over between Xbox and the Xbox app on PC (Xbox Play Anywhere)."
+   ]
   },
   {
    "title": "Forza Horizon 6",
@@ -3284,8 +3384,8 @@
     }
    ],
    "notes": [
-    "Xbox and PC (Steam and the Xbox app) players play together in campaign co-op, Versus, Horde and Escape. Xbox players can opt out of crossplay for ranked Versus only.",
-    "Campaign saves and multiplayer progress carry between Xbox and PC through your Xbox account, but a Steam copy doesn't include the Xbox version (and vice versa). Gears 5 isn't on PlayStation; Gears of War: Reloaded (2025) is the Gears game with PS5 crossplay."
+    "Xbox and PC (Steam and the Xbox app) players play together in campaign co-op, Versus, Horde and Escape.",
+    "Gears 5 isn't on PlayStation; Gears of War: Reloaded (2025) is the Gears game with PS5 crossplay."
    ],
    "sources": [
     {
@@ -3301,7 +3401,13 @@
      "url": "https://store.playstation.com/concept/10008829"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "Xbox players can opt out of crossplay for ranked Versus only."
+   ],
+   "progress": [
+    "Campaign saves and multiplayer progress carry between Xbox and PC through your Xbox account, but a Steam copy doesn't include the Xbox version (and vice versa)."
+   ]
   },
   {
    "title": "Generation Zero",
@@ -3450,7 +3556,7 @@
    ],
    "notes": [
     "Gran Turismo 7 is a PlayStation game, and PS4 and PS5 players race together online. Creator Kazunori Yamauchi confirmed cross-generation play before launch.",
-    "There's no Xbox, Switch or PC version. Polyphony has said it's considering PC, but nothing has been announced. Your progress is tied to your PSN account, so it carries between PS4 and PS5."
+    "There's no Xbox, Switch or PC version. Polyphony has said it's considering PC, but nothing has been announced."
    ],
    "sources": [
     {
@@ -3462,7 +3568,10 @@
      "url": "https://racinggames.gg/article/kazunori-yamauchi-hints-at-pc-release-for-gran-turismo-7"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Your progress is tied to your PSN account, so it carries between PS4 and PS5."
+   ]
   },
   {
    "title": "Granblue Fantasy Versus: Rising",
@@ -3501,7 +3610,7 @@
    "notes": [
     "There's no crossplay between PC, PlayStation and Xbox. GTA Online is also split by console generation: PS4 and PS5 players don't meet, and neither do Xbox One and Xbox Series X|S players.",
     "On PC, Steam, Epic Games Store, Rockstar Games Launcher and Xbox app (including PC Game Pass) players share the same sessions, as long as everyone runs the same edition. GTAV Enhanced and GTAV Legacy players can't join each other.",
-    "Progress doesn't sync between platforms, but there are two one-time moves: a GTA Online profile can be migrated from PS4 or Xbox One to PS5 or Xbox Series X|S (even across brands, such as PS4 to Xbox Series X|S; unspent purchased GTA$ doesn't transfer), and from PC Legacy to PC Enhanced. Moves between console and PC aren't supported."
+    "Moves between console and PC aren't supported."
    ],
    "sources": [
     {
@@ -3536,7 +3645,10 @@
     }
    ],
    "crossprog": "no",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Progress doesn't sync between platforms, but there are two one-time moves: a GTA Online profile can be migrated from PS4 or Xbox One to PS5 or Xbox Series X|S (even across brands, such as PS4 to Xbox Series X|S; unspent purchased GTA$ doesn't transfer), and from PC Legacy to PC Enhanced."
+   ]
   },
   {
    "title": "Grand Theft Auto VI",
@@ -3641,7 +3753,7 @@
     }
    ],
    "notes": [
-    "Every player needs a free Microsoft account. Crossplay is on by default on Xbox and the Xbox app; on Steam you link your Microsoft account in the options menu. Saves only sync automatically between Xbox and the Xbox app."
+    "Every player needs a free Microsoft account. Saves only sync automatically between Xbox and the Xbox app."
    ],
    "sources": [
     {
@@ -3658,7 +3770,10 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default on Xbox and the Xbox app; on Steam you link your Microsoft account in the options menu."
+   ]
   },
   {
    "title": "Halo Infinite",
@@ -3681,7 +3796,7 @@
    ],
    "notes": [
     "Xbox One, Xbox Series X|S and PC (Steam and the Xbox app) all play together, in multiplayer and in campaign co-op. Halo Infinite isn't on PlayStation or Switch (the PS5 Halo coming in 2026 is a different game, Halo: Campaign Evolved).",
-    "Ranked is split by input, not platform: the Open queue mixes controller and mouse players, while Solo/Duo makes you pick one input. Progress, unlocks and rank follow your Xbox account between PC and Xbox."
+    "Ranked is split by input, not platform: the Open queue mixes controller and mouse players, while Solo/Duo makes you pick one input."
    ],
    "sources": [
     {
@@ -3697,7 +3812,10 @@
      "url": "https://gameranx.com/updates/id/222795/article/microsoft-confirms-halo-infinite-has-cross-play-and-cross-progression/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Progress, unlocks and rank follow your Xbox account between PC and Xbox."
+   ]
   },
   {
    "title": "Hell Let Loose",
@@ -3722,7 +3840,7 @@
    ],
    "notes": [
     "PS5 and Xbox Series X|S players play together, and console players can switch crossplay off in the game settings to match only with their own platform. PC players (Steam, PC Game Pass and Epic) play with each other but never with consoles.",
-    "There's no cross-progression: levels and unlocks stay on the platform and launcher you play on. Hell Let Loose: Vietnam is a separate game with full PC and console crossplay."
+    "Hell Let Loose: Vietnam is a separate game with full PC and console crossplay."
    ],
    "sources": [
     {
@@ -3740,7 +3858,10 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "no",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "There's no cross-progression: levels and unlocks stay on the platform and launcher you play on."
+   ]
   },
   {
    "title": "Helldivers 2",
@@ -3760,9 +3881,8 @@
     }
    ],
    "notes": [
-    "PC (Steam), PS5 and Xbox Series X|S all play together. The Xbox version arrived on August 26, 2025 with crossplay from day one. Crossplay is on by default and can be turned off in Options (players report it sometimes switches back on after a patch).",
-    "To squad up across platforms, swap the eight-digit friend codes from the Social tab in Options. Linking a PSN account on PC is optional now.",
-    "There's no cross-progression or cross-save: each platform has its own progress, and Arrowhead says linking Steam and PSN doesn't copy your data."
+    "PC (Steam), PS5 and Xbox Series X|S all play together. The Xbox version arrived on August 26, 2025 with crossplay from day one.",
+    "Linking a PSN account on PC is optional now."
    ],
    "sources": [
     {
@@ -3778,7 +3898,14 @@
      "url": "https://www.shacknews.com/article/145002/helldivers-2-crossplay-pc-xbox-playstation"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default and can be turned off in Options (players report it sometimes switches back on after a patch).",
+    "To squad up across platforms, swap the eight-digit friend codes from the Social tab in Options."
+   ],
+   "progress": [
+    "There's no cross-progression or cross-save: each platform has its own progress, and Arrowhead says linking Steam and PSN doesn't copy your data."
+   ]
   },
   {
    "title": "Hello Kitty Island Adventure",
@@ -3817,7 +3944,7 @@
    ],
    "notes": [
     "PC (Steam) has no crossplay with consoles. PS5 and Xbox Series X|S players can be matched into the same lobbies when crossplay is on, but they can't invite each other or form parties, so the only way to team up across brands is to queue at the same time and hope.",
-    "There's no cross-progression: a second copy on another platform starts from scratch, skins and event progress included. The PS4 and Xbox One versions were shut down when 1896 launched in August 2024."
+    "The PS4 and Xbox One versions were shut down when 1896 launched in August 2024."
    ],
    "sources": [
     {
@@ -3835,7 +3962,10 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "progress": [
+    "There's no cross-progression: a second copy on another platform starts from scratch, skins and event progress included."
+   ]
   },
   {
    "title": "It Takes Two",
@@ -4099,7 +4229,7 @@
    ],
    "notes": [
     "PS5, Xbox Series X|S and PC play together in online Head-to-Head, Franchise (new or existing cloud leagues), Ultimate Team, Superstar KO and Superstar Showdown. Madden 26 isn't on PS4 or Xbox One, and the Switch 2 version only plays with other Switch 2 players.",
-    "The Ultimate Team Auction House isn't shared, so you only trade with players on your own system. Find cross-platform friends in EA Connect by EA ID, gamertag or PSN ID. Crossplay is on by default: Xbox players opt out in the console's system settings, PC and PS5 players in the game settings. Superstar progress and gear carry across platforms; Ultimate Team coins don't."
+    "The Ultimate Team Auction House isn't shared, so you only trade with players on your own system. Find cross-platform friends in EA Connect by EA ID, gamertag or PSN ID."
    ],
    "sources": [
     {
@@ -4121,7 +4251,13 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10",
-   "crossprog": "partial"
+   "crossprog": "partial",
+   "toggle": [
+    "Crossplay is on by default: Xbox players opt out in the console's system settings, PC and PS5 players in the game settings."
+   ],
+   "progress": [
+    "Superstar progress and gear carry across platforms; Ultimate Team coins don't."
+   ]
   },
   {
    "title": "Madden NFL 27",
@@ -4425,8 +4561,7 @@
     }
    ],
    "notes": [
-    "PS5, Xbox Series X|S and Switch players all play together (Switch 2 runs the Switch version). There's no PS4, Xbox One or PC version; PC players can stream it through Xbox Cloud Gaming.",
-    "Linking your consoles to one MLB The Show account shares your progress and Diamond Dynasty collection between them, but Stubs bought with real money stay on the platform where you bought them."
+    "PS5, Xbox Series X|S and Switch players all play together (Switch 2 runs the Switch version). There's no PS4, Xbox One or PC version; PC players can stream it through Xbox Cloud Gaming."
    ],
    "sources": [
     {
@@ -4444,7 +4579,10 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "partial",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Linking your consoles to one MLB The Show account shares your progress and Diamond Dynasty collection between them, but Stubs bought with real money stay on the platform where you bought them."
+   ]
   },
   {
    "title": "Monster Hunter Rise",
@@ -4506,7 +4644,7 @@
     }
    ],
    "notes": [
-    "Crossplay is on by default (Options → Game Settings). There's no cross-save: Capcom keeps save data and paid DLC separate on each platform."
+    "Crossplay is on by default (Options → Game Settings)."
    ],
    "sources": [
     {
@@ -4520,7 +4658,10 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "no",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "There's no cross-save: Capcom keeps save data and paid DLC separate on each platform."
+   ]
   },
   {
    "title": "Monster Hunter: World",
@@ -4666,7 +4807,7 @@
     }
    ],
    "notes": [
-    "Crossplay arrived in Season 10 (March 2025). Turn it on or off under Menu → Settings on the title screen."
+    "Crossplay arrived in Season 10 (March 2025)."
    ],
    "sources": [
     {
@@ -4679,7 +4820,10 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "Turn it on or off under Menu → Settings on the title screen."
+   ]
   },
   {
    "title": "NBA 2K24",
@@ -4766,8 +4910,7 @@
    ],
    "notes": [
     "Only PS5 and Xbox Series X|S have crossplay, and it covers every online mode, including co-op and online tournaments. PC (Steam), Switch, Switch 2, PS4 and Xbox One only play with the same platform.",
-    "Crossplay is on by default: check Features > Settings (at the bottom). To team up, open the Social menu in-game (L1+R1 on PlayStation, LB+RB on Xbox) and add friends by their 2K username.",
-    "MyTEAM progress and your VC wallet are shared within one console family (PS4 with PS5, Xbox One with Xbox Series X|S), but nothing transfers between PlayStation, Xbox, PC and Switch."
+    "To team up, open the Social menu in-game (L1+R1 on PlayStation, LB+RB on Xbox) and add friends by their 2K username."
    ],
    "sources": [
     {
@@ -4785,7 +4928,13 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "partial",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default: check Features > Settings (at the bottom)."
+   ],
+   "progress": [
+    "MyTEAM progress and your VC wallet are shared within one console family (PS4 with PS5, Xbox One with Xbox Series X|S), but nothing transfers between PlayStation, Xbox, PC and Switch."
+   ]
   },
   {
    "title": "NBA 2K27",
@@ -5068,8 +5217,7 @@
    ],
    "notes": [
     "Blizzard dropped the \"2\" in February 2026, so the game is now officially just called Overwatch. A native Switch 2 version arrived on April 14, 2026.",
-    "Quick Play, Arcade and custom games mix every platform. Competitive is split: console players using a controller have their own pool, while PC players and console players using mouse and keyboard share another. A party with both PC and console players goes into the PC pool.",
-    "Console players can turn crossplay off to match only with their own console family; PC players can't. Every platform needs a Battle.net account, which also carries your cosmetics, currency and progress across platforms (Competitive ranks stay separate for PC and console)."
+    "Quick Play, Arcade and custom games mix every platform. Competitive is split: console players using a controller have their own pool, while PC players and console players using mouse and keyboard share another. A party with both PC and console players goes into the PC pool."
    ],
    "sources": [
     {
@@ -5089,7 +5237,13 @@
      "url": "https://www.gamerevolution.com/?p=684397"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "Console players can turn crossplay off to match only with their own console family; PC players can't."
+   ],
+   "progress": [
+    "Every platform needs a Battle.net account, which also carries your cosmetics, currency and progress across platforms (Competitive ranks stay separate for PC and console)."
+   ]
   },
   {
    "title": "Palia",
@@ -5137,7 +5291,7 @@
     }
    ],
    "notes": [
-    "Crossplay arrived in version 0.5.0 (March 2025) and covers every platform the game is on. Your saves don't carry over between platforms."
+    "Crossplay arrived in version 0.5.0 (March 2025) and covers every platform the game is on."
    ],
    "sources": [
     {
@@ -5151,7 +5305,10 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "no",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Your saves don't carry over between platforms."
+   ]
   },
   {
    "title": "Party Animals",
@@ -5227,8 +5384,7 @@
     }
    ],
    "notes": [
-    "Progress carries across platforms through cross-progression. Console players are matched with other console players unless they party up with someone on PC.",
-    "Console players can turn crossplay off in their system's privacy settings; PC has no off switch."
+    "Progress carries across platforms through cross-progression. Console players are matched with other console players unless they party up with someone on PC."
    ],
    "sources": [
     {
@@ -5242,7 +5398,10 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "yes",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "Console players can turn crossplay off in their system's privacy settings; PC has no off switch."
+   ]
   },
   {
    "title": "Path of Titans",
@@ -5348,7 +5507,7 @@
     }
    ],
    "notes": [
-    "Crossplay needs a Starbreeze account. You're offered crossplay on first launch, and you can change it later in the settings."
+    "Crossplay needs a Starbreeze account."
    ],
    "sources": [
     {
@@ -5361,7 +5520,10 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "You're offered crossplay on first launch, and you can change it later in the settings."
+   ]
   },
   {
    "title": "Peak",
@@ -5794,7 +5956,7 @@
     }
    ],
    "notes": [
-    "Crossplay arrived with the console launch on July 15, 2025. There's no cross-progression, so PC progress doesn't carry over to consoles."
+    "Crossplay arrived with the console launch on July 15, 2025."
    ],
    "sources": [
     {
@@ -5808,7 +5970,10 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "no",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "There's no cross-progression, so PC progress doesn't carry over to consoles."
+   ]
   },
   {
    "title": "Red Dead Redemption 2",
@@ -5869,8 +6034,7 @@
     }
    ],
    "notes": [
-    "PC, PS5 and Xbox Series X|S all play together. Crossplay wasn't in the June 2025 launch; it arrived with Patch 3 in September 2025, alongside 3v3 Ranked. It's on by default and can be switched off in Settings > Online.",
-    "There's no cross-progression: rank, cosmetics and unlocks stay on the platform where you earned them, and Sloclap says it has no plans to change that."
+    "PC, PS5 and Xbox Series X|S all play together. Crossplay wasn't in the June 2025 launch; it arrived with Patch 3 in September 2025, alongside 3v3 Ranked."
    ],
    "sources": [
     {
@@ -5882,7 +6046,13 @@
      "url": "https://insider-gaming.com/no-plans-for-rematch-cross-platform-progression/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "It's on by default and can be switched off in Settings > Online."
+   ],
+   "progress": [
+    "There's no cross-progression: rank, cosmetics and unlocks stay on the platform where you earned them, and Sloclap says it has no plans to change that."
+   ]
   },
   {
    "title": "Remnant II",
@@ -5902,7 +6072,7 @@
     }
    ],
    "notes": [
-    "Since the February 29, 2024 update, PC, PS5 and Xbox Series X|S players can play co-op together in the campaign and DLC. It's on by default on consoles; you can't see games from players whose crossplay setting differs from yours.",
+    "Since the February 29, 2024 update, PC, PS5 and Xbox Series X|S players can play co-op together in the campaign and DLC.",
     "On PC, frame generation can block the Epic Online Services overlay that crossplay invites use; accept invites through the Epic launcher before starting the game if that happens."
    ],
    "sources": [
@@ -5919,7 +6089,10 @@
      "url": "https://www.purexbox.com/news/2024/02/two-major-xbox-games-are-adding-crossplay-support-with-ps5-and-pc"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "It's on by default on consoles; you can't see games from players whose crossplay setting differs from yours."
+   ]
   },
   {
    "title": "Risk of Rain 2",
@@ -5956,10 +6129,9 @@
     }
    ],
    "notes": [
-    "On PC, Steam and Epic players can play together. Crossplay is opt-in: turn it on when the game asks (or later in Options), link your Steam and Epic accounts from the Options menu, then restart the game. Players with crossplay on can't join players who have it off.",
+    "On PC, Steam and Epic players can play together. Players with crossplay on can't join players who have it off.",
     "There's no crossplay between PC and consoles, or between PlayStation, Xbox and Switch.",
-    "Cross-generation play is ending. 2K has said future content goes only to PC, PS5 and Xbox Series X|S, and that the next PlayStation and Xbox update will stop PS4 players joining PS5 players and Xbox One players joining Xbox Series X|S players. PS4 and Xbox One owners get the newer version free if they upgrade consoles. The Switch version also gets no more content.",
-    "There's no cross-save; the PS5 version could import a PS4 save once when it launched in 2024."
+    "Cross-generation play is ending. 2K has said future content goes only to PC, PS5 and Xbox Series X|S, and that the next PlayStation and Xbox update will stop PS4 players joining PS5 players and Xbox One players joining Xbox Series X|S players. PS4 and Xbox One owners get the newer version free if they upgrade consoles. The Switch version also gets no more content."
    ],
    "sources": [
     {
@@ -5979,7 +6151,13 @@
      "url": "https://primagames.com/tips/is-risk-of-rain-2-cross-platform-answered"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "Crossplay is opt-in: turn it on when the game asks (or later in Options), link your Steam and Epic accounts from the Options menu, then restart the game."
+   ],
+   "progress": [
+    "There's no cross-save; the PS5 version could import a PS4 save once when it launched in 2024."
+   ]
   },
   {
    "title": "RoadCraft",
@@ -6035,7 +6213,7 @@
    ],
    "notes": [
     "Roblox works across Windows, Mac, iPhone and iPad, Android, Xbox, PlayStation (since October 2023) and Meta Quest, and most experiences put all of them in the same servers. Individual experiences can limit which devices can join.",
-    "Your account, Robux, items and friends list are the same on every device. PlayStation players can turn cross-platform play off in Roblox's settings. There's no Switch version."
+    "Your account, Robux, items and friends list are the same on every device. There's no Switch version."
    ],
    "sources": [
     {
@@ -6051,7 +6229,10 @@
      "url": "https://www.exitlag.com/blog/roblox-platforms/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "PlayStation players can turn cross-platform play off in Roblox's settings."
+   ]
   },
   {
    "title": "Rocket League",
@@ -6077,8 +6258,7 @@
    ],
    "notes": [
     "Every platform plays together in all online match types, including Ranked, and crossplay is on by default (you can turn it off in Settings). PS5, Xbox Series X|S and Switch 2 run the PS4, Xbox One and Switch versions.",
-    "Rocket League has been free to play since 2020, and new PC players download it from the Epic Games Store. Steam players who owned it before then still play on the same servers. Mac and Linux online play ended in 2020.",
-    "Link your PlayStation, Xbox, Switch and Steam accounts to one Epic account to share your inventory and progress. Competitive rank and Rocket Pass progress come from the platform you set as primary."
+    "Rocket League has been free to play since 2020, and new PC players download it from the Epic Games Store. Steam players who owned it before then still play on the same servers. Mac and Linux online play ended in 2020."
    ],
    "sources": [
     {
@@ -6094,7 +6274,11 @@
      "url": "https://www.thespike.gg/rocket-league/beginner-guides/is-rocket-league-cross-platform"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Link your PlayStation, Xbox, Switch and Steam accounts to one Epic account to share your inventory and progress.",
+    "Competitive rank and Rocket Pass progress come from the platform you set as primary."
+   ]
   },
   {
    "title": "RuneScape",
@@ -6285,8 +6469,8 @@
    ],
    "notes": [
     "PC (Steam and the Xbox app), Xbox One, Xbox Series X|S and PS5 all play together, and PS5 has been part of crossplay since it launched there in April 2024. There's no PS4 or Switch version.",
-    "Crossplay is on by default. Console players using a controller can opt out of crossplay matchmaking (on Xbox through the console's cross-network privacy setting); PC players can't opt out, but can choose to match with players using the same input. Invite mixed crews by Xbox gamertag.",
-    "Your progress (level, reputation, gold and cosmetics) follows your Microsoft account across platforms, so PlayStation and Steam players need to link one. You still need to own the game on each platform, and platform-exclusive cosmetics stay on their platform."
+    "Invite mixed crews by Xbox gamertag.",
+    "You still need to own the game on each platform, and platform-exclusive cosmetics stay on their platform."
    ],
    "sources": [
     {
@@ -6310,7 +6494,14 @@
      "url": "https://gamerant.com/sea-of-thieves-cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default.",
+    "Console players using a controller can opt out of crossplay matchmaking (on Xbox through the console's cross-network privacy setting); PC players can't opt out, but can choose to match with players using the same input."
+   ],
+   "progress": [
+    "Your progress (level, reputation, gold and cosmetics) follows your Microsoft account across platforms, so PlayStation and Steam players need to link one."
+   ]
   },
   {
    "title": "Sid Meier's Civilization VI",
@@ -6416,7 +6607,7 @@
     }
    ],
    "notes": [
-    "Crossplay is on automatically; add friends on other platforms from the Social & Spectate menu. Xbox players who blocked cross-network play need to allow it again in the console settings."
+    "Crossplay is on automatically; add friends on other platforms from the Social & Spectate menu."
    ],
    "sources": [
     {
@@ -6425,7 +6616,10 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "toggle": [
+    "Xbox players who blocked cross-network play need to allow it again in the console settings."
+   ]
   },
   {
    "title": "Skull and Bones",
@@ -6654,7 +6848,7 @@
     }
    ],
    "notes": [
-    "Crossplay can be turned off if you only want to queue with your own platform. Stats and unlocks carry over between platforms.",
+    "Crossplay can be turned off if you only want to queue with your own platform.",
     "1047 Games has since relaunched Splitgate 2 as Splitgate: Arena Reloaded."
    ],
    "sources": [
@@ -6668,7 +6862,11 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Stats and unlocks carry over between platforms."
+   ],
+   "crossprog": "yes"
   },
   {
    "title": "Star Trek Fleet Command",
@@ -6745,8 +6943,7 @@
    ],
    "notes": [
     "PC, PlayStation and Xbox each play separately. This is the 2017 game from EA and DICE; the 2005 Battlefront II is a different game.",
-    "PS5 and Xbox Series X|S run the PS4 and Xbox One version through backward compatibility, so they share servers with PS4 and Xbox One players. On PC, Steam, Epic and EA app copies all use EA's servers and play together.",
-    "Progress doesn't carry over between platform families, even with the same EA account."
+    "PS5 and Xbox Series X|S run the PS4 and Xbox One version through backward compatibility, so they share servers with PS4 and Xbox One players. On PC, Steam, Epic and EA app copies all use EA's servers and play together."
    ],
    "sources": [
     {
@@ -6762,7 +6959,10 @@
      "url": "https://store.steampowered.com/app/1237950/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "progress": [
+    "Progress doesn't carry over between platform families, even with the same EA account."
+   ]
   },
   {
    "title": "Stardew Valley",
@@ -6829,8 +7029,7 @@
     }
    ],
    "notes": [
-    "PC (Steam), PS4, PS5 and Xbox Series X|S players fight each other in ranked and casual matches, and Capcom confirmed the Switch 2 version (Years 1-2 Fighters Edition) joins crossplay too. You need a Capcom ID linked to your platform for online play and friend codes.",
-    "You can limit matches to your own platform in the Platform Permission settings. There's no cross-progression: unlocks, Fighter Coins and DLC stay on the platform where you got them."
+    "PC (Steam), PS4, PS5 and Xbox Series X|S players fight each other in ranked and casual matches, and Capcom confirmed the Switch 2 version (Years 1-2 Fighters Edition) joins crossplay too. You need a Capcom ID linked to your platform for online play and friend codes."
    ],
    "sources": [
     {
@@ -6846,7 +7045,13 @@
      "url": "https://esports.gg/guides/street-fighter-6/street-fighter-6-is-there-cross-progression-in-sf6"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "You can limit matches to your own platform in the Platform Permission settings."
+   ],
+   "progress": [
+    "There's no cross-progression: unlocks, Fighter Coins and DLC stay on the platform where you got them."
+   ]
   },
   {
    "title": "Stumble Guys",
@@ -6983,8 +7188,8 @@
    ],
    "notes": [
     "PS5, Xbox Series X|S and PC (Steam) players play together in Quick Match, Ranked and player matches. It's the first Tekken with crossplay, and it uses rollback netcode.",
-    "You choose at first launch and can switch crossplay off any time in Options > Game Option Settings. When you search for a Quick or Ranked match you can also restrict matches to your own platform.",
-    "Progress and unlocks stay on the platform where you earned them. There's no PS4, Xbox One or Switch 2 version."
+    "When you search for a Quick or Ranked match you can also restrict matches to your own platform.",
+    "There's no PS4, Xbox One or Switch 2 version."
    ],
    "sources": [
     {
@@ -7004,7 +7209,13 @@
      "url": "https://en.wikipedia.org/wiki/Tekken_8"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "You choose at first launch and can switch crossplay off any time in Options > Game Option Settings."
+   ],
+   "progress": [
+    "Progress and unlocks stay on the platform where you earned them."
+   ]
   },
   {
    "title": "Terraria",
@@ -7191,8 +7402,7 @@
    ],
    "notes": [
     "ESO has six separate megaserver groups: PC/Mac, PlayStation and Xbox, each with a North America and a Europe server. PS4 and PS5 share the PlayStation servers, and Xbox One and Series X|S share the Xbox ones, but PlayStation, Xbox and PC players can't play together.",
-    "Since June 2, 2026 ESO is an Xbox Play Anywhere game and on PC Game Pass. The Microsoft Store / Xbox app version on PC plays on the Xbox servers with your Xbox characters, Crowns and DLC, so that's real cross-progression between Xbox and PC. Steam and ESO launcher accounts stay on the PC/Mac servers, and characters can't be transferred between servers.",
-    "ZeniMax says a team is building full crossplay and cross-progression, but it isn't coming in 2026 and there's no release window."
+    "Since June 2, 2026 ESO is an Xbox Play Anywhere game and on PC Game Pass."
    ],
    "sources": [
     {
@@ -7218,7 +7428,12 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10",
-   "crossprog": "partial"
+   "crossprog": "partial",
+   "progress": [
+    "The Microsoft Store / Xbox app version on PC plays on the Xbox servers with your Xbox characters, Crowns and DLC, so that's real cross-progression between Xbox and PC.",
+    "Steam and ESO launcher accounts stay on the PC/Mac servers, and characters can't be transferred between servers.",
+    "ZeniMax says a team is building full crossplay and cross-progression, but it isn't coming in 2026 and there's no release window."
+   ]
   },
   {
    "title": "The Finals",
@@ -7240,7 +7455,7 @@
     }
    ],
    "notes": [
-    "Crossplay is on by default; turning it off (Settings → Gameplay → Network) can mean longer queues. Link your platforms to an Embark ID and your progress follows you."
+    "Crossplay is on by default; turning it off (Settings → Gameplay → Network) can mean longer queues."
    ],
    "sources": [
     {
@@ -7249,7 +7464,11 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Link your platforms to an Embark ID and your progress follows you."
+   ],
+   "crossprog": "yes"
   },
   {
    "title": "The First Descendant",
@@ -7320,7 +7539,7 @@
     }
    ],
    "notes": [
-    "Add players on other platforms with the in-game friend code. There's no cross-progression, except that the Xbox versions share a cloud save."
+    "Add players on other platforms with the in-game friend code."
    ],
    "sources": [
     {
@@ -7334,7 +7553,10 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "no",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "There's no cross-progression, except that the Xbox versions share a cloud save."
+   ]
   },
   {
    "title": "The Planet Crafter",
@@ -7430,8 +7652,7 @@
     }
    ],
    "notes": [
-    "PC players on Steam, Epic and the Microsoft Store (including PC Game Pass) hunt together through Apex Connect; the player sending invites needs a free Full Apex Connect account. PS4 plays with PS5 and Xbox One with Series X|S, but PlayStation, Xbox and PC can't share a lobby.",
-    "Progress and DLC don't transfer between platforms."
+    "PC players on Steam, Epic and the Microsoft Store (including PC Game Pass) hunt together through Apex Connect; the player sending invites needs a free Full Apex Connect account. PS4 plays with PS5 and Xbox One with Series X|S, but PlayStation, Xbox and PC can't share a lobby."
    ],
    "sources": [
     {
@@ -7445,7 +7666,10 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "progress": [
+    "Progress and DLC don't transfer between platforms."
+   ]
   },
   {
    "title": "Throne and Liberty",
@@ -7897,7 +8121,7 @@
     }
    ],
    "notes": [
-    "PS5 and Xbox players play together, but Riot keeps PC separate for competitive fairness. Your Riot account, skins, battle pass and progress are shared between PC and console."
+    "PS5 and Xbox players play together, but Riot keeps PC separate for competitive fairness."
    ],
    "sources": [
     {
@@ -7910,7 +8134,11 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Your Riot account, skins, battle pass and progress are shared between PC and console."
+   ],
+   "crossprog": "yes"
   },
   {
    "title": "Vampire Survivors",
@@ -8026,7 +8254,7 @@
     }
    ],
    "notes": [
-    "Turn crossplay on or off at the bottom of the Options menu. Cross Platform Save lets one account's progress follow you to every platform, linked through a PC account."
+    "Turn crossplay on or off at the bottom of the Options menu."
    ],
    "sources": [
     {
@@ -8039,7 +8267,11 @@
     }
    ],
    "checked": "2026-10-10",
-   "audited": "2026-10-10"
+   "audited": "2026-10-10",
+   "progress": [
+    "Cross Platform Save lets one account's progress follow you to every platform, linked through a PC account."
+   ],
+   "crossprog": "yes"
   },
   {
    "title": "Warhammer 40,000: Darktide",
@@ -8307,9 +8539,7 @@
     }
    ],
    "notes": [
-    "World War Z and its expanded version, World War Z: Aftermath, have crossplay between PC (Steam and Epic), PS4, PS5, Xbox One and Xbox Series X|S. The Switch version only plays with other Switch players.",
-    "You can turn crossplay off in Settings (Game tab) to match only with your own platform.",
-    "There's no cross-progression, but Saber offers a one-time save transfer between platforms through its saber.games account system."
+    "World War Z and its expanded version, World War Z: Aftermath, have crossplay between PC (Steam and Epic), PS4, PS5, Xbox One and Xbox Series X|S. The Switch version only plays with other Switch players."
    ],
    "sources": [
     {
@@ -8325,7 +8555,13 @@
      "url": "https://www.lagofast.com/en/blog/world-war-z-aftermath-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "You can turn crossplay off in Settings (Game tab) to match only with your own platform."
+   ],
+   "progress": [
+    "There's no cross-progression, but Saber offers a one-time save transfer between platforms through its saber.games account system."
+   ]
   },
   {
    "title": "World War Z: Aftermath",
@@ -8472,8 +8708,7 @@
     }
    ],
    "notes": [
-    "Hell Let Loose: Vietnam launched on August 13, 2026 with full crossplay: PC (Steam, Epic and the Microsoft Store), PS5 and Xbox Series X|S players share one pool. Friends and invites go through Epic's cross-platform system.",
-    "Crossplay is on by default. Turn it off under Settings → General → Crossplay (press Apply, or it won't stick), or use the Server Type filter in the server list; consoles get a Console Only option. Progress from the original Hell Let Loose doesn't carry over."
+    "Hell Let Loose: Vietnam launched on August 13, 2026 with full crossplay: PC (Steam, Epic and the Microsoft Store), PS5 and Xbox Series X|S players share one pool. Friends and invites go through Epic's cross-platform system."
    ],
    "sources": [
     {
@@ -8488,6 +8723,13 @@
      "title": "Hell Let Loose: Vietnam gets Xbox release date (Windows Report)",
      "url": "https://windowsreport.com/hell-let-loose-vietnam-gets-xbox-release-date/"
     }
+   ],
+   "toggle": [
+    "Crossplay is on by default.",
+    "Turn it off under Settings → General → Crossplay (press Apply, or it won't stick), or use the Server Type filter in the server list; consoles get a Console Only option."
+   ],
+   "progress": [
+    "Progress from the original Hell Let Loose doesn't carry over."
    ]
   }
  ]
