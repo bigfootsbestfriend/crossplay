@@ -902,12 +902,21 @@
     }
    ],
    "notes": [
-    "Summoning and invasions stay within one platform's network."
+    "Summoning and invasions stay within one platform family: PS4 with PS5 (via backward compatibility), and Xbox One with Xbox Series X|S. PC (Steam) players only meet other PC players.",
+    "On PC, the fan-made Seamless Co-op mod (in alpha) lets up to six friends play the whole campaign together without the usual co-op limits. It's PC-only, so it doesn't add crossplay, and it runs separately from official online play."
    ],
    "sources": [
     {
      "title": "Is Dark Souls III cross-platform? Crossplay guide 2026 (Explosion)",
      "url": "https://www.explosion.com/game-guides/is-dark-souls-iii-cross-platform-crossplay-guide-2026/"
+    },
+    {
+     "title": "Seamless Co-op (Dark Souls III) on Nexus Mods",
+     "url": "https://www.nexusmods.com/darksouls3/mods/1895"
+    },
+    {
+     "title": "Seamless co-op mod lands for Dark Souls 3 (Neowin)",
+     "url": "https://www.neowin.net/news/seamless-co-op-mod-lands-for-dark-souls-3-making-enitre-campaign-playable-with-friends/"
     }
    ],
    "checked": "2026-10-10"
