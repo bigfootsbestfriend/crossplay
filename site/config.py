@@ -35,6 +35,9 @@ if DOMAIN:
 else:
     BASE_URL, BASE_PATH = PREVIEW_URL, "/crossplay"
 
+# Weekly email signups go through the shared newsletter Worker (~/Work/newsletter). Empty hides the signup boxes.
+NEWSLETTER_API = ""
+
 # Community features (player crossplay reports and moderated tips) need the Cloudflare Worker in worker/.
 # Leave API_URL empty to hide them. TURNSTILE_SITEKEY is optional (Cloudflare's free anti-bot check).
 API_URL = os.environ.get("CROSSPLAY_API_URL", "https://crossplay-community.crossplayguide.workers.dev")  # env override is for local previews

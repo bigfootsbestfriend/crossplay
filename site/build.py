@@ -429,6 +429,75 @@ def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
 """
 
 
+NEWSLETTER_STATES = {
+    "check": "Almost done: check your inbox for a confirmation email and click the button in it.",
+    "invalid": "That email address doesn't look right. Please try again.",
+    "confirming": "Confirming your subscription…",
+    "confirmed": "You're subscribed. The next weekly email will land in your inbox.",
+    "expired": "That confirmation link has expired. Sign up again below and we'll send a new one.",
+    "error": "Something went wrong on our side. Please try again in a few minutes.",
+}
+
+
+def signup_box(uid):
+    if not config.NEWSLETTER_API:
+        return ""
+    return f"""<section class="signup"><h2>New crossplay games, once a week</h2>
+<p>Which games added crossplay this week, and what changed. One short email, unsubscribe in one click.</p>
+<form action="{e(config.NEWSLETTER_API)}/subscribe" method="post"><input type="hidden" name="site" value="crossplay">
+<input class="sr" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<label for="email-{uid}" class="sr">Email address</label>
+<input id="email-{uid}" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
+<button type="submit" class="btn">Sign me up</button></form></section>"""
+
+
+def newsletter_page():
+    states = "".join(f'<p class="lede" data-state="{k}" hidden><strong>{e(v)}</strong></p>' for k, v in NEWSLETTER_STATES.items())
+    script = f"""<script>
+(() => {{
+  const show = s => document.querySelectorAll("[data-state]").forEach(p => p.hidden = p.dataset.state !== s);
+  const t = new URLSearchParams(location.search).get("confirm");
+  if (t) {{
+    show("confirming");
+    history.replaceState(null, "", location.pathname);
+    fetch({json.dumps(config.NEWSLETTER_API + "/confirm")}, {{method: "POST", headers: {{"content-type": "application/json"}}, body: JSON.stringify({{t}})}})
+      .then(r => r.json()).then(d => show(d.state === "invalid" ? "expired" : d.state)).catch(() => show("error"));
+  }} else if (location.hash) show(location.hash.slice(1));
+}})();
+</script>"""
+    body = (f'<section class="hub-head"><h1>The {e(config.SITE_NAME)} weekly email</h1>{states}'
+            f'<p class="lede">Every week: games that just added crossplay, crossplay that changed or ended, and the '
+            f'biggest updates. No spam.</p></section>{signup_box("page")}{script}')
+    return page("/newsletter/", f"The {config.SITE_NAME} Weekly Email",
+                "A weekly email with new crossplay games and changes to existing ones.", body,
+                crumbs=[("Home", "/"), ("Newsletter", "/newsletter/")])
+
+
+def newsletter_json(log, slug_by_title):
+    """This week's content for the weekly email; the newsletter repo turns it into a Resend broadcast."""
+    since = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
+    week = [x for x in log if x["date"] >= since and x["title"] in slug_by_title]
+    labels = {"added": "New crossplay games", "crossplay details changed": "Crossplay changes"}
+    sections = []
+    for what, title in labels.items():
+        items = [x for x in week if x["what"] == what]
+        if not items:
+            continue
+        shown = [{"title": x["title"], "url": abs_url("/games/" + slug_by_title[x["title"]] + "/"), "note": nice_date(x["date"])}
+                 for x in items[:12]]
+        if len(items) > 12:
+            shown.append({"title": f"…and {len(items) - 12} more", "url": abs_url("/updates/"), "note": "See every change"})
+        sections.append({"title": title, "items": shown})
+    added = sum(1 for x in week if x["what"] == "added")
+    return json.dumps({
+        "site": "crossplay",
+        "date": datetime.date.today().isoformat(),
+        "subject": f"{added} new crossplay game{'s' if added != 1 else ''} this week" if added else "Crossplay this week",
+        "intro": "Here's what changed in crossplay this week.",
+        "sections": sections,
+    }, indent=1)
+
+
 def correction_link(title=None):
     if config.CONTACT_EMAIL:
         # The address itself is assembled by site.js (see /contact/), so it never appears in the HTML.
@@ -762,6 +831,7 @@ def game_page(g, games):
     desc = summary + (" " + pcn if pcn else "")
     # Only researched pages that have passed the deep audit (research/audit.md) go to search engines; the rest
     # stay visible to readers but are noindexed until audited.
+    parts.append(signup_box("game"))
     return page("/games/" + g["slug"] + "/", title, desc[:300], "\n".join(parts), [vg] + faq_schema,
                 [("Home", "/"), ("Games", "/games/"), (t, "/games/" + g["slug"] + "/")],
                 noindex=not g.get("audited"))
@@ -919,7 +989,7 @@ def build():
     pages["/updates/"] = page("/updates/", "Crossplay Updates: Recent Changes",
                               "New crossplay games and changes to existing ones, checked every day.",
                               f'<section class="hub-head"><h1>Recent crossplay changes</h1><p class="lede">We re-check '
-                              f'every game daily. Last check: {nice_date(fetched)}.</p></section><section>{upd}</section>',
+                              f'every game daily. Last check: {nice_date(fetched)}.</p></section>{signup_box("updates")}<section>{upd}</section>',
                               crumbs=[("Home", "/"), ("Updates", "/updates/")])
 
     # RSS feed of the updates log
@@ -929,6 +999,9 @@ def build():
         f"<guid isPermaLink=\"false\">{e(x['date'] + ':' + x['title'] + ':' + x['what'])}</guid>"
         f"<pubDate>{datetime.datetime.combine(datetime.date.fromisoformat(x['date']), datetime.time(9)).strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate></item>"
         for x in log[:50])
+    if config.NEWSLETTER_API:
+        pages["/newsletter/"] = newsletter_page()
+    NEWSLETTER_JSON = newsletter_json(log, slug_by_title)
     feed = (f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>{e(config.SITE_NAME)}: crossplay updates</title>'
             f'<link>{abs_url("/updates/")}</link><description>New crossplay games and changes to existing ones.</description>'
             f'<language>en</language>{feed_items}</channel></rss>\n')
@@ -962,7 +1035,8 @@ unless you ask.</p>
 </section>''', noindex=True, crumbs=[("Home", "/"), ("Contact", "/contact/")])
     pages["/privacy/"] = page("/privacy/", "Privacy Policy", "How this site handles your data.",
                               PRIVACY.format(site=e(config.SITE_NAME), contact=correction_link(), date=nice_date(TODAY),
-                                             community=PRIVACY_COMMUNITY if config.API_URL else ""),
+                                             community=PRIVACY_COMMUNITY if config.API_URL else "",
+                                             newsletter=PRIVACY_NEWSLETTER if config.NEWSLETTER_API else ""),
                               crumbs=[("Home", "/"), ("Privacy", "/privacy/")])
     pages["/404.html"] = page("/404.html", "Page not found", "That page doesn't exist.",
                               '<section class="hub-head"><h1>Game over (404)</h1><p class="lede">That page doesn\'t '
@@ -1002,6 +1076,7 @@ unless you ask.</p>
 <p><a href="{url('/crossplay/playstation-and-switch/')}">More PlayStation + Switch games →</a></p></section>
 <section><h2>Browse</h2><div class="plats">{pc}</div><nav class="pills" style="margin-top:1rem">{gl}</nav></section>
 {"<section><h2>Recently changed</h2><ul class='log'>" + "".join(f'<li><time>{nice_date(x["date"])}</time> <a href="{url("/games/" + slug_by_title[x["title"]] + "/")}">{e(x["title"])}</a>: {e(x["what"])}</li>' for x in recent) + "</ul></section>" if recent else ""}
+{signup_box("home")}
 <section class="how"><h2>How this works</h2><p>We research the most-played games from publishers' own announcements,
 and every night we re-read the community-maintained crossplay list, match each game to its official details and
 rebuild these pages. Each game page links the announcements and
@@ -1026,6 +1101,7 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
                                      + "".join(f"<url><loc>{abs_url(p)}</loc></url>\n" for p in sorted(urls)) + "</urlset>\n")
     robots = "User-agent: *\n" + ("Allow: /\n" if config.INDEXABLE else "Disallow: /\n") + f"Sitemap: {abs_url('/sitemap.xml')}\n"
     (OUT / "robots.txt").write_text(robots)
+    (OUT / "newsletter.json").write_text(NEWSLETTER_JSON)
     if config.INDEXNOW_KEY:
         (OUT / f"{config.INDEXNOW_KEY}.txt").write_text(config.INDEXNOW_KEY)
     (OUT / "feed.xml").write_text(feed)
@@ -1149,11 +1225,17 @@ the <a href="../updates/">recent changes</a> page. Last check: {fetched}.</p>
 <a href="{contact}">tell us</a> with a link to the official announcement and we'll fix it.</p>
 </section>"""
 
+PRIVACY_NEWSLETTER = """<h2>Weekly email</h2>
+<p>If you subscribe, we store your email address with <a href="https://resend.com/legal/privacy-policy">Resend</a>,
+the service that sends the email, and use it only to send the weekly email. We ask you to confirm by clicking a link
+first. Every email has a one-click unsubscribe link, and we never sell or share the list.</p>"""
+
 PRIVACY = """
 <section class="hub-head"><h1>Privacy policy</h1><p class="lede">Last updated {date}.</p></section>
 <section class="prose">
-<p>{site} is a free, ad-supported website. We don't ask you to sign up and we don't collect your name or email
-address unless you contact us.</p>
+<p>{site} is a free, ad-supported website. We don't ask you to sign up, and we only have your email address if
+you contact us or subscribe to the weekly email.</p>
+{newsletter}
 <h2>Advertising and cookies</h2>
 <p>We may show ads from third-party advertising partners. They may use cookies and similar technologies to show ads
 based on your visits to this and other websites, and to measure how ads perform. Where the law requires it, we ask for
