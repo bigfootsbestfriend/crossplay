@@ -320,3 +320,13 @@ a.chip:hover, a.chip:focus-visible { filter: brightness(.94); box-shadow: 0 0 0 
 .together-list { list-style: none; padding: 0; margin: 0 0 .8rem; columns: 2 260px; column-gap: 1.5rem; }
 .together-list li { break-inside: avoid; padding: .3rem 0; border-bottom: 1px solid var(--line); }
 .btn.ghost { background: transparent; color: var(--blue) !important; border: 1.5px solid var(--blue); }
+/* Coming soon */
+.upcoming { list-style: none; padding: 0; margin: 0; display: grid; gap: .2rem; }
+.up { display: grid; grid-template-columns: 11rem 1fr; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.up-when time { font-family: var(--mono, ui-monospace, monospace); font-weight: 600; color: var(--blue); }
+.up-body { min-width: 0; }
+.up-body h3 { margin: 0 0 .3rem; font-size: 1.15rem; }
+.up-body p { margin: 0; }
+@media (max-width: 560px) { .up { grid-template-columns: 1fr; gap: .3rem; } }
+.mainnav a { white-space: nowrap; }
+@media (max-width: 720px) { .mainnav { overflow-x: auto; scrollbar-width: none; padding-bottom: .2rem; } }

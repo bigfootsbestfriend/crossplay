@@ -2,6 +2,8 @@
 
 Dated changes to re-check. The "Crossplay watch" routine reads this file twice a week, handles items whose
 "check from" date has passed, and moves them to Done. Add new items in the same format.
+Also keep data/upcoming.json (the public /coming-soon/ page) in step: when an item here ships or is
+cancelled, delete its entry from upcoming.json; when a date firms up, update its "date"/"when"/"sort".
 
 ## Open
 

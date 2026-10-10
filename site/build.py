@@ -390,6 +390,8 @@ def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
     <nav class="mainnav">
       <a href="{url('/platforms/')}">Platforms</a>
       <a href="{url('/games/')}">All games</a>
+      <a href="{url('/who-can-i-play-with/')}">Play together</a>
+      <a href="{url('/coming-soon/')}">Coming soon</a>
       <a href="{url('/updates/')}">Updates</a>
     </nav>
     <form class="search" role="search" action="{url('/games/')}" onsubmit="return false">
@@ -1103,6 +1105,30 @@ platform you picked, so everyone can be in the same match. Games marked <strong>
 sources; the others come from the community-maintained Wikipedia list. "With limits" means at least one platform only has partial
 crossplay, such as some modes only. Always open the game's page for details like PC store and account requirements.</p></section>''',
         crumbs=[("Home", "/"), ("Who can I play with?", "/who-can-i-play-with/")])
+    up = load_json("upcoming.json", {}).get("items", [])
+    up.sort(key=lambda x: (x.get("sort") or x.get("date") or "9999", x["title"]))
+    by_title = {g["title"]: g for g in games}
+    KIND = {"adds": ("Crossplay coming", "yes"), "ends": ("Crossplay ending", "no"), "launch": ("New version", "partial")}
+    rows = []
+    for x in up:
+        g = by_title.get(x["title"])
+        label, cls = KIND.get(x.get("kind"), ("Change", "partial"))
+        when = x.get("when") or nice_date(x["date"])
+        passed = x.get("date") and x["date"] <= TODAY.isoformat()
+        name = (f'<a href="{url("/games/" + g["slug"] + "/")}">{e(x["title"])}</a>' if g else e(x["title"]))
+        rows.append(f'<li class="up"><div class="up-when"><time>{e(when)}</time>'
+                    f'{"<span class=small> (due now, checking)</span>" if passed else ""}</div>'
+                    f'<div class="up-body"><h3>{name} <span class="tag v-{cls}">{label}</span></h3><p>{e(x["what"])}</p></div></li>')
+    pages["/coming-soon/"] = page(
+        "/coming-soon/", "Crossplay Coming Soon: Upcoming Crossplay Updates and Launches",
+        "Games getting crossplay soon, new versions joining crossplay, and crossplay that's ending, with dates where they're announced.",
+        f'''<section class="hub-head"><h1>Crossplay coming soon</h1><p class="lede">Announced crossplay changes we're tracking:
+games adding it, new versions joining it, and crossplay that's ending. We re-check each one when its date arrives and update
+the game's page.</p></section>
+<section><ul class="upcoming">{"".join(rows)}</ul>
+<p class="small">Know about a change we've missed? <a href="{correction_link()}">Tell us</a>. Past changes are on the
+<a href="{url('/updates/')}">recent changes</a> page.</p></section>''',
+        crumbs=[("Home", "/"), ("Coming soon", "/coming-soon/")])
     pages["/"] = page("/", f"{config.SITE_NAME}: Is It Cross-Platform? Crossplay Checker for {len(current)} Games",
                       f"Check if a game has crossplay between PS5, Xbox, Switch, PC and mobile. "
                       f"{len(current)} games, checked daily, with sources.",
