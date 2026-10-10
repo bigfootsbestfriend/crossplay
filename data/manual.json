@@ -6578,7 +6578,9 @@
       "xseries": "yes",
       "xone": "yes",
       "switch": "partial",
-      "switch2": "yes"
+      "switch2": "yes",
+      "mac": "yes",
+      "linux": "yes"
      },
      "pc_stores": [
       "Steam",
@@ -6587,7 +6589,9 @@
     }
    ],
    "notes": [
-    "Turn on crossplay in the settings and sign in with a 2K account. Games that include original-Switch players are limited to Tiny or Small maps and the Switch's lower player counts; the Switch 2 Edition raises those limits."
+    "PC (Steam and Epic, including Mac and Linux), PlayStation, Xbox and Switch players can all play multiplayer together once each player links a 2K account.",
+    "Player counts: up to 5 players in the Antiquity and Exploration Ages and 8 in the Modern Age. The original Switch is limited to Tiny or Small maps and 4 (then 6) players, and any game with an original-Switch player has to use those limits; the Switch 2 Edition supports every map size and up to 8 players.",
+    "The Apple Arcade edition (iPhone, iPad and Mac through Apple Arcade) is separate: it only plays with other Apple Arcade players."
    ],
    "sources": [
     {
@@ -6597,9 +6601,21 @@
     {
      "title": "Civilization VII – Nintendo Switch 2 Edition (2K)",
      "url": "https://civilization.2k.com/en-GB/civ-vii/news/nintendo-switch-2-edition/"
+    },
+    {
+     "title": "Civilization VII on Apple Arcade (2K)",
+     "url": "https://civilization.2k.com/en-GB/civ-vii/apple-arcade/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "toggle": [
+    "Crossplay is on by default once you're signed in to your 2K account; you can switch it off in the game's settings."
+   ],
+   "progress": [
+    "Link your 2K account on each platform and you can pick up progress from another platform when you load in. You still need a copy of the game on each platform; the first account you link becomes your primary one."
+   ]
   },
   {
    "title": "Skate.",
