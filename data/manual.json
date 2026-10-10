@@ -9056,6 +9056,365 @@
    "progress": [
     "Progress from the original Hell Let Loose doesn't carry over."
    ]
+  },
+  {
+   "title": "ARK: Survival Ascended",
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "PS5 and Xbox Series X|S players share every server type.",
+    "PC players can join console players on official PvE servers and on unofficial servers that allow crossplay, but Studio Wildcard has kept PC off console official PvP servers since early 2024 because of cheating."
+   ],
+   "sources": [
+    {
+     "title": "Ark: Survival Ascended disables PC crossplay on official PvP (PCGamesN)",
+     "url": "https://www.pcgamesn.com/ark-survival-ascended/crossplay-disabled"
+    },
+    {
+     "title": "Studio Wildcard temporarily disables PC crossplay PvP (MMORPG.com)",
+     "url": "https://www.mmorpg.com/news/ark-survival-ascended-developer-studio-wildcard-temporarily-disables-pc-crossplay-pvp-due-to-rampant-cheating-2000129640"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "ARK: Survival Evolved",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    }
+   ],
+   "separate": [
+    "ps4",
+    "switch"
+   ],
+   "notes": [
+    "Steam and Epic players can play together only on dedicated servers started with crossplay turned on, and those servers can't run mods.",
+    "The Microsoft Store/Xbox app PC version plays with Xbox One; the Steam version can't join them. PlayStation and Switch players only play with their own platform.",
+    "Studio Wildcard shut the official servers for PC, Xbox and PlayStation in September 2023 when ARK: Survival Ascended launched, and the Switch official servers closed on August 31, 2026. Single-player, non-dedicated and unofficial servers still work."
+   ],
+   "sources": [
+    {
+     "title": "Xbox Play Anywhere and cross-play come to Ark (Xbox Wire)",
+     "url": "https://news.xbox.com/en-us/2017/12/20/xbox-play-anywhere-support-comes-ark-survival-evolved/"
+    },
+    {
+     "title": "Allowing crossplay with the Epic version of ARK (Nodecraft)",
+     "url": "https://nodecraft.com/support/games/ark/allowing-crossplay-with-players-from-the-epic-games-version-of-ark-survival-evolved"
+    },
+    {
+     "title": "ARK: Survival Evolved official servers shutting down, replaced by Ascended (Delisted Games)",
+     "url": "https://delistedgames.com/?p=21035"
+    },
+    {
+     "title": "ARK Switch official servers shut down this month (VGC)",
+     "url": "https://www.videogameschronicle.com/news/official-online-servers-for-the-switch-version-of-ark-survival-evolved-will-shut-down-this-month/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Grounded",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Full crossplay arrived with the Fully Yoked update on April 16, 2024, the same day Grounded launched on PlayStation and Switch: Steam, Xbox app, Xbox, PlayStation and Switch players can all join each other."
+   ],
+   "sources": [
+    {
+     "title": "PC players of Grounded can now team up across platforms (Windows Experience Blog)",
+     "url": "https://blogs.windows.com/windowsexperience/2024/04/17/pc-players-of-grounded-can-now-team-up-with-others-across-platforms/"
+    },
+    {
+     "title": "Grounded gets Fully Yoked as it arrives on Switch and PlayStation (VGC)",
+     "url": "https://www.videogameschronicle.com/news/grounded-gets-its-final-huge-update-fully-yoked-as-it-arrives-on-switch-and-playstation"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Human: Fall Flat",
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    }
+   ],
+   "separate": [
+    "switch"
+   ],
+   "notes": [
+    "A May 2021 update added crossplay between Xbox One, Xbox Series X|S and the Windows PC version from the Microsoft Store/Xbox app.",
+    "We found no official source saying the Steam, PlayStation, Switch or mobile versions cross-play with anyone else; guides report PS4 and PS5 play together."
+   ],
+   "sources": [
+    {
+     "title": "Human: Fall Flat optimized for Xbox Series X|S, adds cross-play (Xbox Wire)",
+     "url": "https://news.xbox.com/en-us/2021/05/27/human-fall-flat-now-optimized-for-xbox-series-xs/"
+    },
+    {
+     "title": "Is Human: Fall Flat cross platform? (Explosion)",
+     "url": "https://www.explosion.com/151412/is-human-fall-flat-cross-platform/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Brawlhalla",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "switch": "yes",
+      "ios": "yes",
+      "android": "yes",
+      "mac": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Every platform shares matchmaking, including mobile. Mac players use the same Steam version as Windows."
+   ],
+   "crossprog": "yes",
+   "progress": [
+    "Link each platform to one Ubisoft account and your XP, ranked Elo, Battle Pass missions, Gold, Glory and most items carry across. Mammoth Coins and platform-exclusive items don't, and you can't be signed in on two linked platforms at once."
+   ],
+   "sources": [
+    {
+     "title": "Cross-progression FAQ (Brawlhalla)",
+     "url": "https://brawlhalla.com/news/cross-progression"
+    },
+    {
+     "title": "Where to play (Brawlhalla)",
+     "url": "https://www.brawlhalla.com/play/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Gang Beasts",
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "separate": [
+    "ps4",
+    "xone",
+    "switch"
+   ],
+   "notes": [
+    "Boneloaf's August 2025 update laid groundwork for crossplay, but no update since has switched it on, so each platform only plays with itself for now."
+   ],
+   "sources": [
+    {
+     "title": "Improved Glass Destruction (Update 1.27) (Gang Beasts)",
+     "url": "https://gangbeasts.game/posts/2025/8/11/improved-glass-destruction-update-127"
+    },
+    {
+     "title": "Gang Beasts news (Gang Beasts)",
+     "url": "https://gangbeasts.game/posts"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "DC Universe Online",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "separate": [
+    "xone",
+    "xseries",
+    "switch"
+   ],
+   "notes": [
+    "PC and PlayStation share servers for groups, leagues, On Duty content and the open world. Xbox and Switch each run on their own separate servers."
+   ],
+   "crossprog": "no",
+   "progress": [
+    "Characters and purchases stay on the platform account you made them on; Daybreak doesn't offer transfers."
+   ],
+   "sources": [
+    {
+     "title": "PC/PS4/PS3 crossplay now available in DC Universe Online (Wccftech)",
+     "url": "https://wccftech.com/pcps4ps3-crossplay-dc-universe-online-works/"
+    },
+    {
+     "title": "DC Universe Online coming to Xbox One, but without cross-play (Wccftech)",
+     "url": "https://wccftech.com/dc-universe-online-coming-xbox-crossplay/"
+    },
+    {
+     "title": "Nintendo Switch FAQ (DC Universe Online)",
+     "url": "https://www.dcuniverseonline.com/guides/dcuo-nintendo-switch-faq"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Mortal Kombat 11",
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    }
+   ],
+   "separate": [
+    "switch"
+   ],
+   "notes": [
+    "Krossplay covers Kasual Versus matchmaking and designated Krossplay Online Rooms, not ranked.",
+    "PlayStation and Xbox players meet each other. The Microsoft Store PC version only meets Xbox players, not PlayStation. Steam and Switch have no crossplay."
+   ],
+   "toggle": [
+    "Go to Online, highlight the Kasual modes, and switch Krossplay on or off at the top right of the screen."
+   ],
+   "crossprog": "no",
+   "progress": [
+    "Progress, unlocks and purchases stay on the platform you started on; they only carry over from PS4 to PS5 or Xbox One to Xbox Series."
+   ],
+   "sources": [
+    {
+     "title": "Krossplay FAQ (WB Games Support)",
+     "url": "https://mortalkombatgamessupport.wbgames.com/hc/en-us/articles/360040410273"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Deep Rock Galactic",
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Xbox plays with the Microsoft Store/Xbox app PC version, and progress carries between them. Steam players only play with Steam, and PlayStation players only with PlayStation."
+   ],
+   "crossprog": "partial",
+   "progress": [
+    "Saves carry over between Xbox and the Microsoft Store PC version only."
+   ],
+   "sources": [
+    {
+     "title": "Crossplay info (Ghost Ship Games)",
+     "url": "https://www.deeprockgalactic.com/crossplay-info"
+    },
+    {
+     "title": "Deep Rock Galactic crossplay (GGRecon)",
+     "url": "https://www.ggrecon.com/guides/deep-rock-galactic-crossplay-platform/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
   }
  ]
 }

@@ -310,6 +310,8 @@ def pc_note(g):
     stores = sorted({s for gr in g["groups"] if "pc" in gr["platforms"] for s in gr["pc_stores"]})
     if not stores:
         return ""
+    if not g["crossplay"] and len(stores) == 1:
+        return ""
     if single_platform(g):
         return f"On PC it's sold on {' and '.join(stores) if len(stores) < 3 else ', '.join(stores[:-1]) + ' and ' + stores[-1]}."
     if len(stores) == 1:
