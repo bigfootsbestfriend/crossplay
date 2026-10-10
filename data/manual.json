@@ -4390,6 +4390,8 @@
    "title": "Risk of Rain 2",
    "igdb_id": 28512,
    "crossplay": false,
+   "audited": "2026-10-10",
+   "crossprog": "no",
    "groups": [
     {
      "platforms": {
@@ -4402,28 +4404,47 @@
     },
     {
      "platforms": {
-      "ps4": "yes",
-      "ps5": "yes"
+      "ps5": "yes",
+      "ps4": "partial"
      }
     },
     {
      "platforms": {
-      "xone": "yes",
-      "xseries": "yes"
+      "xseries": "yes",
+      "xone": "partial"
+     }
+    },
+    {
+     "platforms": {
+      "switch": "yes"
      }
     }
    ],
    "notes": [
-    "Steam and Epic players can play together once they link accounts. Consoles only play within their own family, and there's no PC-to-console crossplay or cross-progression."
+    "On PC, Steam and Epic players can play together. Crossplay is opt-in: turn it on when the game asks (or later in Options), link your Steam and Epic accounts from the Options menu, then restart the game. Players with crossplay on can't join players who have it off.",
+    "There's no crossplay between PC and consoles, or between PlayStation, Xbox and Switch.",
+    "Cross-generation play is ending. 2K has said future content goes only to PC, PS5 and Xbox Series X|S, and that the next PlayStation and Xbox update will stop PS4 players joining PS5 players and Xbox One players joining Xbox Series X|S players. PS4 and Xbox One owners get the newer version free if they upgrade consoles. The Switch version also gets no more content.",
+    "There's no cross-save; the PS5 version could import a PS4 save once when it launched in 2024."
    ],
    "sources": [
+    {
+     "title": "Risk of Rain 2: The future of Risk of Rain 2 on Gen 8 consoles (2K Support)",
+     "url": "https://support.2k.com/hc/en-us/articles/48628339700371-Risk-of-Rain-2-The-Future-of-Risk-of-Rain-2-on-Gen-8-Consoles"
+    },
+    {
+     "title": "Risk of Rain 2: Crossplay and you, an Epic tale (2K Support)",
+     "url": "https://support.2k.com/hc/en-us/articles/35232640119443-Risk-of-Rain-2-Crossplay-and-You-An-Epic-Tale"
+    },
+    {
+     "title": "Risk of Rain 2 coming to PS5 and Xbox Series on August 27 (Gematsu)",
+     "url": "https://gematsu.com/2024/08/risk-of-rain-2-coming-to-ps5-xbox-series-on-august-27-alongside-dlc-seekers-of-the-storm"
+    },
     {
      "title": "Is Risk of Rain 2 cross platform? Answered (Prima Games)",
      "url": "https://primagames.com/tips/is-risk-of-rain-2-cross-platform-answered"
     }
    ],
-   "checked": "2026-10-10",
-   "crossprog": "no"
+   "checked": "2026-10-10"
   },
   {
    "title": "RoadCraft",
