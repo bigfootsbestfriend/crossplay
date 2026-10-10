@@ -853,12 +853,23 @@ def list_table(games, show=None):
 
 def hub_page(path, title, h1, intro, games, crumbs, extra=""):
     games = sorted(games, key=lambda g: -g["popularity"])
-    body = (f'<section class="hub-head"><h1>{e(h1)}</h1><p class="lede">{intro}</p></section>'
-            + (f'<section><h2>Most popular</h2>{grid(games[:8])}</section>' if len(games) > 8 else "")
-            + f'<section><h2>All {len(games)} games</h2>{list_table(games)}</section>' + extra)
-    schema = [{"@context": "https://schema.org", "@type": "ItemList", "name": h1, "numberOfItems": len(games),
+    # Only games we've checked by hand are presented as verified; the rest come straight from the Wikipedia list.
+    checked = [g for g in games if g.get("audited")]
+    rest = [g for g in games if not g.get("audited")]
+    body = f'<section class="hub-head"><h1>{e(h1)}</h1><p class="lede">{intro}</p></section>'
+    if checked:
+        body += (f'<section><h2>Checked by us ({len(checked)})</h2>'
+                 f'<p class="small">We researched these against official sources and re-check them regularly.</p>'
+                 + (grid(checked[:8]) if len(checked) > 4 else "") + list_table(checked) + "</section>")
+    if rest:
+        body += (f'<section><h2>{"Not yet verified" if checked else "All games"} ({len(rest)})</h2>'
+                 f'<p class="small">These come from the community-maintained Wikipedia crossplay list and we '
+                 f'haven&#39;t checked them by hand yet. Check before you buy.</p>{list_table(rest)}</section>')
+    body += extra
+    listed = checked or games
+    schema = [{"@context": "https://schema.org", "@type": "ItemList", "name": h1, "numberOfItems": len(listed),
                "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": g["title"],
-                                    "url": abs_url("/games/" + g["slug"] + "/")} for i, g in enumerate(games[:50])]}]
+                                    "url": abs_url("/games/" + g["slug"] + "/")} for i, g in enumerate(listed[:50])]}]
     return page(path, title, re.sub("<[^>]+>", "", intro)[:300], body, schema, crumbs)
 
 
