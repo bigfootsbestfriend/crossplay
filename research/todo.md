@@ -28,3 +28,14 @@ Needs a better source before adding:
 - RV There Yet?: Xbox/Game Pass-only crossplay at launch, full crossplay "planned"; PS5 later in 2026.
 - Titan Quest II: 1.0 Jan 19 2027 on PC/PS5/Xbox; crossplay unknown.
 - Aion 2: KR/TW PC+mobile crossplay; global is PC-only. Decide how to present regional split.
+
+## Audit follow-ups (2026-10-10)
+- **Uno (Ubisoft, 2016)**: our page is the 2008 Xbox 360/PC Uno. Ubisoft help (June 2026) says "UNO also supports crossplay!" but names no platforms; guides all say no crossplay. Needs a hands-on test or an official platform list before writing it up.
+- **WWE 2K25**: sources conflict (same-generation crossplay incl. PC in last-gen pool vs. none; 2K pulled its crossplay page at launch). WWE 2K26 is done.
+- **Wobbly Life**: mobile↔PC via Google Play Games confirmed; Xbox/PS/Switch crossplay unclear.
+- **Identity V**: PC + mobile only; no source on whether PC and mobile share servers.
+- **Risk of Rain 2**: re-check when the next console update ships (ends PS4↔PS5 / XB1↔Series play).
+- **It Takes Two**: confirm crossplay went live on Oct 15, 2026.
+- **Terraria**: update when Crossplay Phase One (1.4.6) ships.
+- **GTA VI**: update after Nov 19, 2026 launch.
+- **Minecraft**: native Switch 2 version due Oct 27, 2026.
