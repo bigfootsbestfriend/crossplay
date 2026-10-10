@@ -1600,7 +1600,8 @@
     }
    ],
    "notes": [
-    "Dambuster's technical FAQ says Dead Island 2 won't support crossplay. Co-op works across console generations (PS4 with PS5, Xbox One with Series X|S), and Steam and Epic players can play together on PC."
+    "Dambuster's technical FAQ says Dead Island 2 doesn't support crossplay between PC and consoles, or between PlayStation and Xbox.",
+    "Co-op works across console generations (PS4 with PS5, Xbox One with Xbox Series X|S). On PC, Steam and Epic players can play together once they link an Epic Games account in the game's options."
    ],
    "sources": [
     {
@@ -1612,7 +1613,9 @@
      "url": "https://www.gamesradar.com/dead-island-2-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Deadside",
