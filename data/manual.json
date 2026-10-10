@@ -2522,14 +2522,22 @@
       "Steam",
       "Xbox app"
      ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
     }
    ],
-   "separate": [
-    "ps4",
-    "xone"
-   ],
    "notes": [
-    "PC, Xbox and PlayStation players are on separate servers. On PC, linking one Bethesda.net account to both the Steam and Microsoft Store versions shares your characters between them.",
+    "There's no crossplay: PC, Xbox and PlayStation players are on separate servers. PS5 and Xbox Series X|S run the PS4 and Xbox One version, so they play with PS4 and Xbox One players. On PC, Steam and Xbox app (PC Game Pass) players play together, and linking one Bethesda.net account to both shares your characters between them.",
     "Bethesda said in February 2026 that it is looking into crossplay but called it a big technical job with no timeline."
    ],
    "sources": [
@@ -2540,9 +2548,15 @@
     {
      "title": "Bethesda revisits Fallout 76 cross-play (Notebookcheck)",
      "url": "https://www.notebookcheck.net/Bethesda-revisits-Fallout-76-cross-play-and-cross-progression-demands-calls-it-a-huge-technical-lift.1130766.0.html"
+    },
+    {
+     "title": "Is Fallout 76 cross-platform? (Fallout Builds)",
+     "url": "https://www.falloutbuilds.com/fo76/cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Fantasy Life i: The Girl Who Steals Time",
@@ -3388,7 +3402,8 @@
      "url": "https://gameoverdrive.com.br/grounded-2-ps5-crossplay-cross-save/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Hell Let Loose",
