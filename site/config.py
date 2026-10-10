@@ -14,7 +14,11 @@ PREVIEW_URL = "https://bigfootsbestfriend.github.io/crossplay"
 
 # Keep False until a person has reviewed the site (Raptive and Google both expect real human
 # oversight). False adds <meta name="robots" content="noindex"> to every page.
-INDEXABLE = False
+INDEXABLE = True
+
+# Search engine ownership tags (content values only). Empty = no tag.
+GOOGLE_VERIFY = ""
+BING_VERIFY = ""
 
 # Where readers send corrections. Empty = link to GitHub issues instead.
 CONTACT_EMAIL = "hello@crossplayguide.com"

@@ -24,6 +24,8 @@ OUT = HERE.parent / "_site"
 GA_TAG = (f'<script async src="https://www.googletagmanager.com/gtag/js?id={config.GA_ID}"></script>\n'
           f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}"
           f"gtag('js',new Date());gtag('config','{config.GA_ID}');</script>\n") if config.GA_ID else ""
+VERIFY_TAGS = ((f'<meta name="google-site-verification" content="{config.GOOGLE_VERIFY}">\n' if config.GOOGLE_VERIFY else "")
+               + (f'<meta name="msvalidate.01" content="{config.BING_VERIFY}">\n' if config.BING_VERIFY else ""))
 CLICKY_TAG = (f'<script async data-id="{config.CLICKY_ID}" src="https://static.getclicky.com/js"></script>\n'
               if config.CLICKY_ID else "")
 # Cache-busting: a short hash of each file's contents, so browsers refetch the moment it changes.
@@ -376,7 +378,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="{url('/static/style.css')}?v={ASSET_V['style.css']}">
 {config.AD_SCRIPT}
-{GA_TAG}{CLICKY_TAG}{ld}</head>
+{VERIFY_TAGS}{GA_TAG}{CLICKY_TAG}{ld}</head>
 <body>
 <header class="top">
   <div class="wrap top-in">
