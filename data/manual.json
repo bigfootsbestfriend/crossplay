@@ -48,7 +48,8 @@
      "url": "https://www.gameskinny.com/tips/a-way-out-guide-how-to-invite-friends-and-use-friend-pass/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Abiotic Factor",
@@ -2831,11 +2832,17 @@
     {
      "platforms": {
       "pc": "yes"
-     }
+     },
+     "pc_stores": [
+      "Ubisoft Connect",
+      "Epic",
+      "Steam"
+     ]
     }
    ],
    "notes": [
-    "Online co-op works across console generations (PS4 with PS5, Xbox One with Series X|S) but not between PC, PlayStation and Xbox. Co-op unlocks after the prologue on Isla Santuario."
+    "Online co-op works across console generations (PS4 with PS5, Xbox One with Series X|S), and PC players on Ubisoft Connect, Epic and Steam play together through Ubisoft Connect. PlayStation, Xbox and PC can't play with each other. Co-op unlocks after the prologue on Isla Santuario.",
+    "Cross-progression works across all platforms, but it's manual: upload your save to the cloud from the New Game menu, then load it from the cloud on the other platform while signed in to the same Ubisoft account. DLC, Far Cry Credits and store purchases stay with the store you bought them from."
    ],
    "sources": [
     {
@@ -2845,9 +2852,15 @@
     {
      "title": "Far Cry 6 co-op mode (GamePro)",
      "url": "https://www.gamepro.de/artikel/far-cry-6-koop-modus,3373077.html"
+    },
+    {
+     "title": "Far Cry 6 Title Update 6 patch notes (Ubisoft)",
+     "url": "https://www.ubisoft.com/en-gb/game/far-cry/far-cry-6/news-updates/3qMtnMKNOJfHRjc3KGKhpJ/title-update-6-patch-notes-november"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "yes"
   },
   {
    "title": "Farming Simulator 22",
@@ -3667,7 +3680,8 @@
     }
    ],
    "notes": [
-    "Team17: crossplay is PC-to-PC (Steam, Game Pass and Epic) and console-to-console (PS5 and Xbox) only, with no plans for PC-console crossplay and no cross-progression."
+    "PS5 and Xbox Series X|S players play together, and console players can switch crossplay off in the game settings to match only with their own platform. PC players (Steam, PC Game Pass and Epic) play with each other but never with consoles.",
+    "There's no cross-progression: levels and unlocks stay on the platform and launcher you play on. Hell Let Loose: Vietnam is a separate game with full PC and console crossplay."
    ],
    "sources": [
     {
@@ -3677,10 +3691,15 @@
     {
      "title": "Is Hell Let Loose crossplay? (Prima Games)",
      "url": "https://primagames.com/gaming/is-hell-let-loose-crossplay-friendly-answered"
+    },
+    {
+     "title": "Is Hell Let Loose crossplay? (Sportskeeda)",
+     "url": "https://sportskeeda.com/esports/is-hell-let-loose-crossplay"
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Helldivers 2",
@@ -4021,7 +4040,8 @@
     "switch2"
    ],
    "notes": [
-    "Crossplay covers online Head-to-Head, Franchise, Ultimate Team and Superstar modes, and it's on by default. Xbox players opt out in the console's system settings; PC and PS5 players use the in-game settings. The Switch 2 version doesn't have crossplay."
+    "PS5, Xbox Series X|S and PC play together in online Head-to-Head, Franchise (new or existing cloud leagues), Ultimate Team, Superstar KO and Superstar Showdown. Madden 26 isn't on PS4 or Xbox One, and the Switch 2 version only plays with other Switch 2 players.",
+    "The Ultimate Team Auction House isn't shared, so you only trade with players on your own system. Find cross-platform friends in EA Connect by EA ID, gamertag or PSN ID. Crossplay is on by default: Xbox players opt out in the console's system settings, PC and PS5 players in the game settings. Superstar progress and gear carry across platforms; Ultimate Team coins don't."
    ],
    "sources": [
     {
@@ -4031,9 +4051,19 @@
     {
      "title": "How to use cross-play in Madden NFL 26 (EA Help)",
      "url": "https://help.ea.com/it/articles/madden-nfl/madden-nfl-25/how-to-use-cross-play/"
+    },
+    {
+     "title": "Madden NFL 26 cross-play FAQ (EA)",
+     "url": "https://www.ea.com/games/madden-nfl/madden-nfl-26/faq"
+    },
+    {
+     "title": "How to use cross-play in Madden NFL 26 (EA Help)",
+     "url": "https://help.ea.com/en/articles/madden-nfl/madden-cross-play/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "partial"
   },
   {
    "title": "Madden NFL 27",
@@ -4589,7 +4619,8 @@
      "url": "https://www.siliconera.com/my-hero-ultra-rumble-game-finally-gets-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "NBA 2K24",
@@ -4918,9 +4949,10 @@
   {
    "title": "Overcooked! 2",
    "igdb_id": null,
-   "crossplay": false,
+   "crossplay": null,
    "notes": [
-    "Steam and Epic players can play together on the \"crossplay\" beta branch, but consoles have no crossplay. For crossplay across consoles and PC, buy Overcooked! All You Can Eat."
+    "Overcooked! 2 only has crossplay between PC stores: Steam, Epic and GOG players join each other through Team17's in-game friend system, but everyone has to opt into the crossplay_branch beta (Steam: right-click the game → Properties → Betas). PlayStation, Xbox and Switch only play within their own family; a PS5 or Xbox Series runs the last-gen version and plays with PS4 or Xbox One.",
+    "Saves and unlocks don't transfer between platforms. For crossplay between consoles and PC, everyone needs Overcooked! All You Can Eat instead; it can't be mixed with Overcooked! 2, and progress doesn't carry over from it."
    ],
    "sources": [
     {
@@ -4932,7 +4964,26 @@
      "url": "https://support.team17.com/en/articles/319397-overcooked-2-cross-play-steam-epic"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "GOG"
+     ]
+    }
+   ],
+   "separate": [
+    "ps4",
+    "xone",
+    "switch"
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "Overwatch 2",
@@ -5689,7 +5740,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Red Dead Redemption 2",
@@ -6191,7 +6243,11 @@
       "pc": "yes",
       "mac": "yes",
       "linux": "yes"
-     }
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
     }
    ],
    "separate": [
@@ -6200,7 +6256,8 @@
     "switch"
    ],
    "notes": [
-    "Windows, Mac and Linux players can play multiplayer together. The console versions have never had crossplay with each other or with PC."
+    "Windows, Mac and Linux players can play multiplayer together, and Steam and Epic copies can join each other. Everyone needs the same game version and the same DLC turned on, or the game won't let you in.",
+    "The console versions (PlayStation, Xbox and Switch) have never had crossplay with each other or with PC; each only plays with its own platform."
    ],
    "sources": [
     {
@@ -6210,9 +6267,14 @@
     {
      "title": "Civilization VI cross-play to return June 25 with a huge update (GamingOnLinux)",
      "url": "https://gamingonlinux.com/2020/06/civilization-vi-cross-play-to-return-june-25-with-a-huge-update"
+    },
+    {
+     "title": "Civilization VI Steam and Epic cross-play (Steam Community)",
+     "url": "https://steamcommunity.com/app/289070/discussions/4/2243301553208283356"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Sid Meier's Civilization VII",
@@ -7093,7 +7155,8 @@
    "igdb_id": null,
    "crossplay": false,
    "notes": [
-    "PC and PS4 players can't play together, and saves don't transfer. The sequel, Sons of the Forest, is on PC only."
+    "PC (Steam) and PlayStation players can't play together, and saves don't transfer. On PlayStation the game is a PS4 release that also runs on PS5, so PS4 and PS5 owners can play together.",
+    "Co-op takes up to eight players, as long as everyone is on the same platform. The sequel, Sons of the Forest, is on PC only."
    ],
    "sources": [
     {
@@ -7106,7 +7169,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "The Outlast Trials",
@@ -7223,19 +7287,31 @@
     {
      "platforms": {
       "pc": "yes"
-     }
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "Microsoft Store"
+     ]
     }
    ],
    "notes": [
-    "PC, Xbox and PlayStation hunters can't share a lobby, and Expansive Worlds has cited technical and platform restrictions."
+    "PC players on Steam, Epic and the Microsoft Store (including PC Game Pass) hunt together through Apex Connect; the player sending invites needs a free Full Apex Connect account. PS4 plays with PS5 and Xbox One with Series X|S, but PlayStation, Xbox and PC can't share a lobby.",
+    "Progress and DLC don't transfer between platforms."
    ],
    "sources": [
     {
      "title": "theHunter: Call of the Wild crossplay (jeu.video)",
      "url": "https://jeu.video/en/guide/thehunter-call-of-the-wild-crossplay-en"
+    },
+    {
+     "title": "Apex Connect FAQ (Avalanche Studios)",
+     "url": "https://avalanchestudios.com/stories/apex-connect"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Throne and Liberty",
@@ -7789,7 +7865,8 @@
      "url": "https://noping.com/blog/is-war-thunder-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Warframe",
@@ -8231,6 +8308,45 @@
     }
    ],
    "checked": "2026-10-10"
+  },
+  {
+   "title": "Hell Let Loose: Vietnam",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "checked": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Hell Let Loose: Vietnam launched on August 13, 2026 with full crossplay: PC (Steam, Epic and the Microsoft Store), PS5 and Xbox Series X|S players share one pool. Friends and invites go through Epic's cross-platform system.",
+    "Crossplay is on by default. Turn it off under Settings → General → Crossplay (press Apply, or it won't stick), or use the Server Type filter in the server list; consoles get a Console Only option. Progress from the original Hell Let Loose doesn't carry over."
+   ],
+   "sources": [
+    {
+     "title": "How to turn off crossplay in Hell Let Loose: Vietnam (All Things How)",
+     "url": "https://allthings.how/how-to-turn-off-crossplay-in-hell-let-loose-vietnam/"
+    },
+    {
+     "title": "Hell Let Loose: Vietnam: how to play with friends and set up crossplay (All Things How)",
+     "url": "https://allthings.how/hell-let-loose-vietnam-how-to-play-with-friends-and-set-up-crossplay/"
+    },
+    {
+     "title": "Hell Let Loose: Vietnam gets Xbox release date (Windows Report)",
+     "url": "https://windowsreport.com/hell-let-loose-vietnam-gets-xbox-release-date/"
+    }
+   ]
   }
  ]
 }
