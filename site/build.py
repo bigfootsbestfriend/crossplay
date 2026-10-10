@@ -170,11 +170,15 @@ def load_games():
     gp_ids = {k: {p["id"].upper() for p in gp.get(k, []) if not p.get("free")} for k in GAMEPASS}
     gp_titles = {k: {gp_key(p["title"]) for p in gp.get(k, []) if not p.get("free")} for k in GAMEPASS}
     games, slugs = [], set()
+    # A current game gets the plain slug even when an old discontinued version shares its name.
+    live = {slugify(w["title"]) for w in merged if not w["discontinued"]}
     for w in merged:
         ig = igdb.get(w["igdb_key"]) or {}
         key = w["title"] + (" (discontinued)" if w["discontinued"] else "")
         slug = slugify(w["title"])
-        if slug in slugs:
+        if w["discontinued"] and slug in live:
+            slug += "-discontinued"
+        elif slug in slugs:
             slug += "-discontinued" if w["discontinued"] else "-2"
         slugs.add(slug)
         groups = []

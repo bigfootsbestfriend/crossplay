@@ -9447,6 +9447,164 @@
    "igdb_id": null,
    "checked": "2026-10-10",
    "audited": "2026-10-10"
+  },
+  {
+   "title": "UNO",
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Ubisoft Connect"
+     ]
+    }
+   ],
+   "separate": [
+    "ps4",
+    "xone",
+    "switch"
+   ],
+   "notes": [
+    "Ubisoft's UNO has no crossplay: PC, PlayStation, Xbox and Switch players each play only with their own platform. A PS5 or Xbox Series console runs the PS4 or Xbox One version and plays with those players.",
+    "The mobile UNO! app is a different game from Mattel163 and doesn't connect to these versions. The older 2007 UNO for Xbox 360 and PC used Games for Windows Live, which shut down in 2014."
+   ],
+   "replaces": [
+    "Uno"
+   ],
+   "sources": [
+    {
+     "title": "Crossplay? (Steam Community, Ubisoft Support replies)",
+     "url": "https://steamcommunity.com/app/470220/discussions/1/3101264555073215788/"
+    },
+    {
+     "title": "Is UNO cross-platform? (TechShout)",
+     "url": "https://www.techshout.com/is-uno-cross-platform/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "WWE 2K25",
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "xone": "yes",
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay is split by generation: PS5 and Xbox Series X|S players play together, and PS4, Xbox One and Steam players play together. The two groups can't meet; 2K tied the split to The Island, a mode only on PS5 and Xbox Series.",
+    "Community Creations are shared the same way."
+   ],
+   "crossprog": "partial",
+   "progress": [
+    "Progress and your VC wallet carry over within a console family only: PS4 to PS5, or Xbox One to Xbox Series X|S. DLC doesn't move between generations, and nothing carries over between PlayStation, Xbox and Steam."
+   ],
+   "sources": [
+    {
+     "title": "WWE 2K25: Cross-progression and cross-platform sharing (2K Support)",
+     "url": "https://support.wwe2k.com/hc/en-us/articles/39378788736019-WWE-2K25-Cross-Progression-and-Cross-Platform-Sharing"
+    },
+    {
+     "title": "Is WWE 2K25 cross-play and cross-progression? (Windows Central)",
+     "url": "https://windowscentral.com/gaming/is-wwe-2k25-cross-play-and-cross-progression"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Wobbly Life",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "switch": "yes",
+      "switch2": "yes",
+      "luna": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    },
+    {
+     "platforms": {
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay arrived in update 1.1 on August 27, 2026: Steam, Xbox, PlayStation, Switch, Switch 2 and Amazon Luna players can all play together, and you can join a friend with an invite code.",
+    "Steam players choose crossplay mode or mod mode when the game starts; Workshop mods only work in mod mode.",
+    "The mobile version (also new in August 2026) plays with other iPhone and Android players; RubberBand lists mobile as its own crossplay group."
+   ],
+   "sources": [
+    {
+     "title": "Major Update v1.1 - Crossplay (Steam news)",
+     "url": "https://steamcommunity.com/games/1211020/announcements/detail/687507645965272805/"
+    },
+    {
+     "title": "Wobbly Life (RubberBandGames)",
+     "url": "https://www.rubberbandgames.com/wobbly-life/"
+    },
+    {
+     "title": "Update 1.1.0 (Crossplay) (Wobbly Life Wiki)",
+     "url": "https://wobblylife.wiki.gg/wiki/Update_1.1.0_(Crossplay)"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Identity V",
+   "groups": [
+    {
+     "platforms": {
+      "ios": "yes",
+      "android": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "NetEase launcher"
+     ]
+    }
+   ],
+   "notes": [
+    "iPhone and Android players share servers. NetEase's own PC client uses the same account, and since November 30, 2023 PC and mobile players share matchmaking in Blackjack mode, with a cross-platform matchmaking option in Five-player mode. Other modes may keep PC and mobile apart.",
+    "Servers are split by region, and the China version (id5.163.com) is separate from the global one."
+   ],
+   "sources": [
+    {
+     "title": "November 30 update notes (Identity V)",
+     "url": "https://idv.163.com/en/news/announcement/20231130/35288_1122907.html"
+    },
+    {
+     "title": "Identity V official website (NetEase)",
+     "url": "https://idv.163.com/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10"
   }
  ]
 }
