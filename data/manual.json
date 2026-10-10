@@ -289,6 +289,56 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Battlefield 2042",
+   "igdb_id": 125166,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "EA app",
+      "Epic"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "xone": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay is split by console generation. PC, PS5 and Xbox Series X|S share 128-player matches; PS4 and Xbox One share their own 64-player matches. A PS4 player can't join a PS5 friend, and the PS4 or Xbox One version stays in the last-gen pool even when played on a newer console.",
+    "You can turn crossplay off from the main menu (on Xbox, you also have to block cross-network play in the console's privacy settings). The party host's setting applies to the whole party.",
+    "Rank, weapons, attachments and cosmetics follow your EA account across platforms and generations, as long as each platform is linked to the same EA account."
+   ],
+   "sources": [
+    {
+     "title": "Battlefield 2042 cross-play (EA Help)",
+     "url": "https://help.ea.com/en/help/battlefield/battlefield-2042/battlefield-2042-cross-play/"
+    },
+    {
+     "title": "Is Battlefield 2042 cross-platform on PS5, PS4, Xbox, and PC? (GamesRadar+)",
+     "url": "https://www.gamesradar.com/battlefield-2042-cross-platform/"
+    },
+    {
+     "title": "Is Battlefield 2042 cross platform? Cross-play, cross-progression, platforms (Dexerto)",
+     "url": "https://www.dexerto.com/battlefield/is-battlefield-2042-cross-platform-cross-play-cross-progression-platforms-1673980/"
+    },
+    {
+     "title": "How to turn off cross-platform play in Battlefield 2042 (Twinfinite)",
+     "url": "https://twinfinite.net/guides/battlefield-2042-crossplay-how-turn-off-cross-platform-play-turn-on-again/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Battlefield 4",
    "igdb_id": null,
    "crossplay": false,
@@ -2120,6 +2170,60 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Fortnite",
+   "igdb_id": 1905,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "replaces": [
+    "Fortnite Battle Royale"
+   ],
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch2": "yes",
+      "switch": "yes",
+      "ios": "yes",
+      "android": "yes",
+      "geforcenow": "yes",
+      "xcloud": "yes"
+     },
+     "pc_stores": [
+      "Epic"
+     ]
+    }
+   ],
+   "notes": [
+    "Every current platform plays together, including Switch 2, phones and cloud streaming. On PC, Fortnite is only on the Epic Games Store, and you need an Epic account to play.",
+    "On PlayStation and Xbox you can turn crossplay off (Settings > Account and Privacy > Gameplay Privacy; on Xbox, also the console's cross-network setting). Epic warns this means much longer queues and some modes may only work in Solo. Switch, PC and mobile players can't turn it off.",
+    "Fortnite is back on the iPhone App Store: in the US since May 2025 and in most other markets since May 2026 (Australia was still excluded). The old native Mac version hasn't been updated since 2020 and can't join current matches; Mac players use cloud gaming instead.",
+    "Your skins, Battle Pass and progress follow your Epic account everywhere. Purchased V-Bucks are shared across PlayStation, Xbox, PC, mobile and cloud, but not with Nintendo Switch (V-Bucks earned in-game are shared everywhere)."
+   ],
+   "sources": [
+    {
+     "title": "How do I turn Fortnite crossplay on or off from my console? (Epic Games Support)",
+     "url": "https://www.epicgames.com/help/fortnite-battle-royale-c-202300000001636/gameplay-c-202300000001721/how-do-i-turn-fortnite-crossplay-on-or-off-from-my-console-a202300000013093?lang=en-US"
+    },
+    {
+     "title": "What content is shared between my platforms in Fortnite? (Epic Games Support)",
+     "url": "https://www.epicgames.com/help/en-US/c-Category_Fortnite/c-Fortnite_Gameplay/what-content-is-shared-between-my-platforms-in-fortnite-a000093002"
+    },
+    {
+     "title": "V-Bucks purchased on PlayStation join Fortnite Shared Wallet (Epic)",
+     "url": "https://www.fortnite.com/news/v-bucks-purchased-on-playstation-join-fortnite-shared-wallet"
+    },
+    {
+     "title": "Fortnite makes grand return to iOS App Store (Pocket Gamer, May 2026)",
+     "url": "https://www.pocketgamer.com/fortnite/back-on-the-app-store-may-2026/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Forza Horizon 6",
    "igdb_id": 348330,
    "groups": [
@@ -3367,7 +3471,9 @@
     "switch"
    ],
    "notes": [
-    "Only PS5 and Xbox Series X|S have crossplay, in any online mode. PC, Switch 2 and last-gen consoles only play with the same platform. MyTEAM progress and VC are shared within one console family (for example PS4 and PS5), not across brands."
+    "Only PS5 and Xbox Series X|S have crossplay, and it covers every online mode, including co-op and online tournaments. PC (Steam), Switch, Switch 2, PS4 and Xbox One only play with the same platform.",
+    "Crossplay is on by default: check Features > Settings (at the bottom). To team up, open the Social menu in-game (L1+R1 on PlayStation, LB+RB on Xbox) and add friends by their 2K username.",
+    "MyTEAM progress and your VC wallet are shared within one console family (PS4 with PS5, Xbox One with Xbox Series X|S), but nothing transfers between PlayStation, Xbox, PC and Switch."
    ],
    "sources": [
     {
@@ -3375,11 +3481,17 @@
      "url": "https://support.nba2k.com/hc/en-us/articles/43946360636563-NBA-2K26-Crossplay-and-Cross-Gen-FAQ"
     },
     {
+     "title": "NBA 2K26 FAQs (2K)",
+     "url": "https://nba.2k.com/2k26/faq/"
+    },
+    {
      "title": "NBA 2K26 crossplay and cross-progression explained (Destructoid)",
      "url": "https://www.destructoid.com/nba-2k26-crossplay-and-cross-progression-explained/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "partial",
+   "audited": "2026-10-10"
   },
   {
    "title": "NBA 2K27",
@@ -3614,6 +3726,53 @@
     {
      "title": "Overcooked! 2 cross play: Steam and Epic (Team17 Support)",
      "url": "https://support.team17.com/en/articles/319397-overcooked-2-cross-play-steam-epic"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Overwatch 2",
+   "igdb_id": 125174,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch": "yes",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Battle.net",
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Blizzard dropped the \"2\" in February 2026, so the game is now officially just called Overwatch. A native Switch 2 version arrived on April 14, 2026.",
+    "Quick Play, Arcade and custom games mix every platform. Competitive is split: console players using a controller have their own pool, while PC players and console players using mouse and keyboard share another. A party with both PC and console players goes into the PC pool.",
+    "Console players can turn crossplay off to match only with their own console family; PC players can't. Every platform needs a Battle.net account, which also carries your cosmetics, currency and progress across platforms (Competitive ranks stay separate for PC and console)."
+   ],
+   "sources": [
+    {
+     "title": "Overwatch (2023 video game) (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Overwatch_(2023_video_game)"
+    },
+    {
+     "title": "Is Overwatch 2 competitive crossplay? (Dot Esports)",
+     "url": "https://dotesports.com/overwatch/news/does-overwatch-2-competitive-have-crossplay"
+    },
+    {
+     "title": "Competitive PC and console cross play (Blizzard forums)",
+     "url": "https://us.forums.blizzard.com/en/overwatch/t/competitive-pc-and-console-cross-play/777041"
+    },
+    {
+     "title": "Overwatch cross-play is coming, but it's not everything fans wanted (GameRevolution)",
+     "url": "https://www.gamerevolution.com/?p=684397"
     }
    ],
    "checked": "2026-10-10"
@@ -4812,7 +4971,19 @@
    "title": "Star Wars Battlefront II",
    "igdb_id": 26401,
    "crossplay": false,
+   "audited": "2026-10-10",
+   "crossprog": "no",
    "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "EA app"
+     ]
+    },
     {
      "platforms": {
       "ps4": "yes",
@@ -4824,20 +4995,25 @@
       "xone": "yes",
       "xseries": "yes"
      }
-    },
-    {
-     "platforms": {
-      "pc": "yes"
-     }
     }
    ],
    "notes": [
-    "PC, PlayStation and Xbox each play separately."
+    "PC, PlayStation and Xbox each play separately. This is the 2017 game from EA and DICE; the 2005 Battlefront II is a different game.",
+    "PS5 and Xbox Series X|S run the PS4 and Xbox One version through backward compatibility, so they share servers with PS4 and Xbox One players. On PC, Steam, Epic and EA app copies all use EA's servers and play together.",
+    "Progress doesn't carry over between platform families, even with the same EA account."
    ],
    "sources": [
     {
      "title": "Star Wars Battlefront 2 crossplay (Twinfinite)",
      "url": "https://twinfinite.net/guides/star-wars-battlefront-2-crossplay/"
+    },
+    {
+     "title": "STAR WARS Battlefront II on PlayStation (playable on PS5)",
+     "url": "https://www.playstation.com/games/star-wars-battlefront-ii/"
+    },
+    {
+     "title": "Star Wars Battlefront II on Steam",
+     "url": "https://store.steampowered.com/app/1237950/"
     }
    ],
    "checked": "2026-10-10"
@@ -4938,6 +5114,48 @@
     {
      "title": "Is Tekken 7 crossplay? (esports.net)",
      "url": "https://www.esports.net/news/fighting-games/is-tekken-7-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Tekken 8",
+   "igdb_id": 217590,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "PS5, Xbox Series X|S and PC (Steam) players play together in Quick Match, Ranked and player matches. It's the first Tekken with crossplay, and it uses rollback netcode.",
+    "You choose at first launch and can switch crossplay off any time in Options > Game Option Settings. When you search for a Quick or Ranked match you can also restrict matches to your own platform.",
+    "Progress and unlocks stay on the platform where you earned them. There's no PS4, Xbox One or Switch 2 version."
+   ],
+   "sources": [
+    {
+     "title": "Tekken 8 crossplay confirmed by game director Harada (Dexerto)",
+     "url": "https://www.dexerto.com/tekken/tekken-8-crossplay-confirmed-game-director-harada-2109834/"
+    },
+    {
+     "title": "Is Tekken 8 crossplay between PlayStation, Xbox, and PC? (GamesRadar+)",
+     "url": "https://www.gamesradar.com/tekken-8-crossplay/"
+    },
+    {
+     "title": "Tekken 8 crossplay guide: how to enable or disable crossplay (Game Rant)",
+     "url": "https://gamerant.com/tekken-8-how-to-enable-disable-crossplay-guide-cross-platform/"
+    },
+    {
+     "title": "Tekken 8 (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Tekken_8"
     }
    ],
    "checked": "2026-10-10"
