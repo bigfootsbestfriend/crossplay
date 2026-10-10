@@ -779,14 +779,15 @@ def game_page(g, games):
     if g["crossprog"]:
         facts.append(("Cross-progression", CROSSPROG[g["crossprog"]][0]))
     if mp or facts:
-        parts.append('<section class="two"><div>' +
+        # Only use two columns when both panels have something in them; otherwise the left one sits empty.
+        parts.append(f'<section class="{"two" if mp and facts else "one"}"><div>' +
                      ('<h2>Multiplayer at a glance</h2><dl class="facts">' +
                       "".join(f"<div><dt>{e(a)}</dt><dd>{e(b)}</dd></div>" for a, b in mp) +
                       '</dl><p class="small">From IGDB\'s multiplayer data; modes can differ by platform.</p>'
                       if mp else "") +
-                     '</div><div><h2>Game details</h2><dl class="facts">' +
+                     '</div><div>' + ('<h2>Game details</h2><dl class="facts">' +
                      "".join(f"<div><dt>{e(a)}</dt><dd>{b if isinstance(b, Raw) else e(b)}</dd></div>" for a, b in facts) +
-                     "</dl></div></section>")
+                     "</dl>" if facts else "") + "</div></section>")
 
     # Sources
     refs = sorted({r for gr in g["groups"] for r in gr["refs"]})

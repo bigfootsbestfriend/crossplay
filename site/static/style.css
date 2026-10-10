@@ -162,6 +162,7 @@ select { font: inherit; padding: .45rem .6rem; border-radius: 10px; border: 1.5p
 
 /* Facts */
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.one { max-width: 46rem; }
 @media (max-width: 720px) { .two { grid-template-columns: 1fr; } }
 .facts { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
 .facts div { display: flex; justify-content: space-between; gap: 1rem; padding: .6rem 1rem; border-bottom: 1px solid var(--line); }
