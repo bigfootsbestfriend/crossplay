@@ -2631,6 +2631,48 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Fall Guys",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "switch": "yes",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Fall Guys has been free to play since 2022, and PC (Epic and Steam), PlayStation, Xbox and Switch players all play together. Switch 2 runs the Switch version.",
+    "Link each platform to one Epic account to carry your progress, level and cosmetics everywhere; you can only link one account per platform, and you can't be signed in on two platforms at once. There's no mobile version outside China."
+   ],
+   "sources": [
+    {
+     "title": "How to play Fall Guys crossplay and cross-platform (GamesRadar+)",
+     "url": "https://gamesradar.com/fall-guys-crossplay"
+    },
+    {
+     "title": "Fall Guys: how to enable crossplay and cross-progression (Den of Geek)",
+     "url": "https://www.denofgeek.com/?p=769840"
+    },
+    {
+     "title": "Fall Guys launches Season Free for All (Epic Games Store)",
+     "url": "https://store.epicgames.com/news/fall-guys-launches-season-free-for-all-coming-to-the-epic-games-store-on-june-21"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Fallout 76",
    "igdb_id": 103020,
    "crossplay": false,
@@ -3170,6 +3212,44 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Gears 5",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Xbox and PC (Steam and the Xbox app) players play together in campaign co-op, Versus, Horde and Escape. Xbox players can opt out of crossplay for ranked Versus only.",
+    "Campaign saves and multiplayer progress carry between Xbox and PC through your Xbox account, but a Steam copy doesn't include the Xbox version (and vice versa). Gears 5 isn't on PlayStation; Gears of War: Reloaded (2025) is the Gears game with PS5 crossplay."
+   ],
+   "sources": [
+    {
+     "title": "Gears 5 on PC (Gears of War)",
+     "url": "https://www.gearsofwar.com/gears-5-pc"
+    },
+    {
+     "title": "Does Gears 5 support cross-play and cross-save? (Windows Central)",
+     "url": "https://windowscentral.com/does-gears-5-support-cross-play-and-cross-save"
+    },
+    {
+     "title": "Gears of War: Reloaded (PlayStation Store)",
+     "url": "https://store.playstation.com/concept/10008829"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Generation Zero",
    "igdb_id": null,
    "crossplay": true,
@@ -3525,6 +3605,45 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10"
+  },
+  {
+   "title": "Halo Infinite",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "xcloud": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Xbox One, Xbox Series X|S and PC (Steam and the Xbox app) all play together, in multiplayer and in campaign co-op. Halo Infinite isn't on PlayStation or Switch (the PS5 Halo coming in 2026 is a different game, Halo: Campaign Evolved).",
+    "Ranked is split by input, not platform: the Open queue mixes controller and mouse players, while Solo/Duo makes you pick one input. Progress, unlocks and rank follow your Xbox account between PC and Xbox."
+   ],
+   "sources": [
+    {
+     "title": "How crossplay works in Halo Infinite (PC Gamer)",
+     "url": "https://pcgamer.com/how-crossplay-works-in-halo-infinite"
+    },
+    {
+     "title": "Halo Infinite ranked will separate controller and mouse players (GGRecon)",
+     "url": "https://www.ggrecon.com/articles/halo-infinite-will-separate-controller-and-mouse-players-ranked"
+    },
+    {
+     "title": "Microsoft confirms Halo Infinite has cross-play and cross-progression (Gameranx)",
+     "url": "https://gameranx.com/updates/id/222795/article/microsoft-confirms-halo-infinite-has-cross-play-and-cross-progression/"
+    }
+   ],
+   "checked": "2026-10-10"
   },
   {
    "title": "Hell Let Loose",
@@ -6543,6 +6662,45 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10"
+  },
+  {
+   "title": "Street Fighter 6",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "PC (Steam), PS4, PS5 and Xbox Series X|S players fight each other in ranked and casual matches, and Capcom confirmed the Switch 2 version (Years 1-2 Fighters Edition) joins crossplay too. You need a Capcom ID linked to your platform for online play and friend codes.",
+    "You can limit matches to your own platform in the Platform Permission settings. There's no cross-progression: unlocks, Fighter Coins and DLC stay on the platform where you got them."
+   ],
+   "sources": [
+    {
+     "title": "Is Street Fighter 6 crossplay? Cross progression & platforms (GGRecon)",
+     "url": "https://www.ggrecon.com/guides/street-fighter-6-cross-play-cross-progression/"
+    },
+    {
+     "title": "Street Fighter 6 on Nintendo Switch 2 will support cross-play (Loot Level Chill)",
+     "url": "https://lootlevelchill.com/?p=3895"
+    },
+    {
+     "title": "Is there cross progression in Street Fighter 6? (esports.gg)",
+     "url": "https://esports.gg/guides/street-fighter-6/street-fighter-6-is-there-cross-progression-in-sf6"
+    }
+   ],
+   "checked": "2026-10-10"
   },
   {
    "title": "Stumble Guys",
