@@ -9476,6 +9476,14 @@
    ],
    "sources": [
     {
+     "title": "UNO support: connectivity and performance (Ubisoft Help)",
+     "url": "https://www.ubisoft.com/en-us/help/uno/connectivity-and-performance"
+    },
+    {
+     "title": "Crossplay and cross-progression in Ubisoft games (Ubisoft Help)",
+     "url": "https://www.ubisoft.com/en-us/help/article/000061177"
+    },
+    {
      "title": "Crossplay? (Steam Community, Ubisoft Support replies)",
      "url": "https://steamcommunity.com/app/470220/discussions/1/3101264555073215788/"
     },
@@ -9485,7 +9493,12 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "partial",
+   "progress": [
+    "Sign in with the same Ubisoft account and your progress carries over between consoles of the same family (PS4 and PS5, or Xbox One and Xbox Series X|S), along with some in-game content. It doesn't move between PlayStation, Xbox, Switch and PC."
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "WWE 2K25",
@@ -9526,7 +9539,8 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Wobbly Life",
@@ -9573,7 +9587,11 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "toggle": [
+    "On Steam, pick Play Crossplay when the game starts (mod mode has no crossplay). Open your world, find your invite code in the Multiplayer menu, and have friends on other platforms choose Join Game and enter it."
+   ],
+   "audited": "2026-10-10"
   },
   {
    "title": "Identity V",
@@ -9604,7 +9622,8 @@
     }
    ],
    "igdb_id": null,
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   }
  ]
 }
