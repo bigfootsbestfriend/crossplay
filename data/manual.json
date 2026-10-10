@@ -1798,7 +1798,8 @@
     }
    ],
    "notes": [
-    "Director Junya Ishizaki: \"Similar to the original Elden Ring, there will be cross-generational play but not cross-platform play.\" PS4 and PS5 play together, as do Xbox One and Xbox Series X|S. PC (Steam) players only meet other PC players."
+    "Director Junya Ishizaki: \"Similar to the original Elden Ring, there will be cross-generational play but not cross-platform play.\" PS4 and PS5 play together, as do Xbox One and Xbox Series X|S. PC (Steam) players only meet other PC players.",
+    "Saves and progress don't carry over between PlayStation, Xbox and PC."
    ],
    "sources": [
     {
@@ -1810,7 +1811,9 @@
      "url": "https://destructoid.com/does-elden-ring-nightreign-have-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Elite Dangerous",
@@ -4513,6 +4516,49 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Rocket League",
+   "igdb_id": 11198,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "switch": "yes",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Epic",
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Every platform plays together in all online match types, including Ranked, and crossplay is on by default (you can turn it off in Settings). PS5, Xbox Series X|S and Switch 2 run the PS4, Xbox One and Switch versions.",
+    "Rocket League has been free to play since 2020, and new PC players download it from the Epic Games Store. Steam players who owned it before then still play on the same servers. Mac and Linux online play ended in 2020.",
+    "Link your PlayStation, Xbox, Switch and Steam accounts to one Epic account to share your inventory and progress. Competitive rank and Rocket Pass progress come from the platform you set as primary."
+   ],
+   "sources": [
+    {
+     "title": "How do I play Rocket League with a friend on a different platform? (Epic Games Support)",
+     "url": "https://www.epicgames.com/help/en-US/rocket-league-c5719357623323/gameplay-c7262179951387/how-do-i-play-rocket-league-with-a-friend-on-a-different-platform-a5720138887195"
+    },
+    {
+     "title": "Cross-platform progression with free to play: a closer look (Rocket League)",
+     "url": "https://www.rocketleague.com/news/cross-platform-progression-with-free-to-play--a-closer-look"
+    },
+    {
+     "title": "Is Rocket League cross platform? (The Spike)",
+     "url": "https://www.thespike.gg/rocket-league/beginner-guides/is-rocket-league-cross-platform"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "RuneScape",
    "igdb_id": null,
    "groups": [
@@ -4630,6 +4676,55 @@
     {
      "title": "Is Satisfactory crossplay? PC, PS5 and Xbox explained",
      "url": "https://www.gameserverkings.com/knowledge-base/satisfactory/satisfactory-crossplay/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Sea of Thieves",
+   "igdb_id": 11137,
+   "audited": "2026-10-10",
+   "crossprog": "yes",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xseries": "yes",
+      "xone": "yes",
+      "ps5": "yes",
+      "xcloud": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "PC (Steam and the Xbox app), Xbox One, Xbox Series X|S and PS5 all play together, and PS5 has been part of crossplay since it launched there in April 2024. There's no PS4 or Switch version.",
+    "Crossplay is on by default. Console players using a controller can opt out of crossplay matchmaking (on Xbox through the console's cross-network privacy setting); PC players can't opt out, but can choose to match with players using the same input. Invite mixed crews by Xbox gamertag.",
+    "Your progress (level, reputation, gold and cosmetics) follows your Microsoft account across platforms, so PlayStation and Steam players need to link one. You still need to own the game on each platform, and platform-exclusive cosmetics stay on their platform."
+   ],
+   "sources": [
+    {
+     "title": "Sea of Thieves (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Sea_of_Thieves"
+    },
+    {
+     "title": "Is Sea of Thieves cross-play? (Windows Central)",
+     "url": "https://windowscentral.com/sea-thieves-cross-play"
+    },
+    {
+     "title": "Sea of Thieves crossplay (Digital Trends)",
+     "url": "https://digitaltrends.com/?p=2619550"
+    },
+    {
+     "title": "Crossplay in Sea of Thieves explained (Sportskeeda)",
+     "url": "https://sportskeeda.com/mmo/crossplay-sea-thieves-explained-can-play-across-pc-xbox-playstation"
+    },
+    {
+     "title": "Is Sea of Thieves cross-platform? (Game Rant)",
+     "url": "https://gamerant.com/sea-of-thieves-cross-platform/"
     }
    ],
    "checked": "2026-10-10"
@@ -5963,6 +6058,8 @@
    "title": "V Rising",
    "igdb_id": 148228,
    "crossplay": false,
+   "audited": "2026-10-10",
+   "crossprog": "no",
    "groups": [
     {
      "platforms": {
@@ -5971,15 +6068,26 @@
      "pc_stores": [
       "Steam"
      ]
+    },
+    {
+     "platforms": {
+      "ps5": "yes"
+     }
     }
    ],
-   "separate": [
-    "ps5"
-   ],
    "notes": [
-    "PC and PS5 run on separate servers with no cross-progression. Stunlock declared V Rising content-complete in March 2026, so crossplay isn't expected."
+    "PC (Steam) and PS5 run on separate servers, and characters and saves can't move between them. Stunlock has said PC-to-PS5 crossplay is unlikely, partly because of PvP balance and PC mods, and it declared V Rising content-complete in March 2026.",
+    "V Rising is only on PC and PS5. There's no Xbox or Switch version, and none has been announced."
    ],
    "sources": [
+    {
+     "title": "V Rising interview (Tech4Gamers, May 2024)",
+     "url": "https://tech4gamers.com/v-rising-interview-2/"
+    },
+    {
+     "title": "Is V Rising cross-platform? (Insider Gaming)",
+     "url": "https://insider-gaming.com/is-v-rising-cross-platform-answered/"
+    },
     {
      "title": "V Rising crossplay & PS5 support",
      "url": "https://xgamingserver.com/docs/v-rising/crossplay-info"
@@ -5989,8 +6097,7 @@
      "url": "https://mein-mmo.de/v-rising-startet-auf-ps5/"
     }
    ],
-   "checked": "2026-10-10",
-   "crossprog": "no"
+   "checked": "2026-10-10"
   },
   {
    "title": "Valheim",
