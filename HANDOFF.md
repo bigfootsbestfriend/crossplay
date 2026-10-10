@@ -87,3 +87,7 @@ Wikipedia's list misses many of the most-played games, so we research those ours
 - Discovery signals for future research: Xbox store products carry `XblCrossPlatformMultiPlayer` (crossplay with
   *something*, not which platforms) and Steam has a "Cross-Platform Multiplayer" category. RAWG's API is free for
   commercial use under 500k page views/month with a link back; Giant Bomb's API is non-commercial; MobyGames' is paid.
+- Community API is LIVE at https://crossplay-community.crossplayguide.workers.dev (Cloudflare account
+  Mike@thekitchenmagpie.com, D1 `crossplay-community`). Moderate at /admin (user `admin`). Deploy creds:
+  API token in ~/.config/kitchen-magpie/cloudflare.env; admin password and IP-hash salt in
+  ~/.config/kitchen-magpie/crossplay-admin.env (never commit either).
