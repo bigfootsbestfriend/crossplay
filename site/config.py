@@ -9,7 +9,7 @@ TAGLINE = "Can you play together? Crossplay checks for every platform."
 # Leave DOMAIN empty for the GitHub Pages preview. Once a domain is bought and pointed at
 # GitHub Pages, set it (e.g. "crossplayguide.com"): links drop the /crossplay prefix and a
 # CNAME file is written.
-DOMAIN = ""
+DOMAIN = "crossplayguide.com"
 PREVIEW_URL = "https://bigfootsbestfriend.github.io/crossplay"
 
 # Keep False until a person has reviewed the site (Raptive and Google both expect real human
