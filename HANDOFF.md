@@ -91,3 +91,9 @@ Wikipedia's list misses many of the most-played games, so we research those ours
   Mike@thekitchenmagpie.com, D1 `crossplay-community`). Moderate at /admin (user `admin`). Deploy creds:
   API token in ~/.config/kitchen-magpie/cloudflare.env; admin password and IP-hash salt in
   ~/.config/kitchen-magpie/crossplay-admin.env (never commit either).
+
+## Search-quality guardrails (2026-10-10)
+- Only researched (`source == "manual"`) game pages are indexable and in the sitemap; list-only (Wikipedia) pages get
+  `noindex` via `page(..., noindex=True)` and become indexable automatically once researched.
+- Researched pages carry a "Researched by {config.AUTHOR}" byline linking to /about/#who (photo: static/mike-johnston.jpg).
+- The About page discloses that AI tools help find and read sources.

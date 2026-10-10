@@ -329,13 +329,17 @@ def multiplayer_facts(g):
 
 # ---------------------------------------------------------------- layout
 
+NOINDEX = set()
+
 FONTS = ("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&"
          "family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@600;700&display=swap")
 
 
-def page(path, title, desc, body, schema=None, crumbs=None):
+def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
     canonical = abs_url(path)
-    robots = "" if config.INDEXABLE else '<meta name="robots" content="noindex">\n'
+    if noindex:
+        NOINDEX.add(path)
+    robots = "" if config.INDEXABLE and not noindex else '<meta name="robots" content="noindex">\n'
     ld = ""
     blocks = list(schema or [])
     if crumbs:
@@ -404,7 +408,7 @@ def page(path, title, desc, body, schema=None, crumbs=None):
       all trademarks belong to their owners.</p>
     </div>
     <nav>
-      <a href="{url('/about/')}">How we check</a>
+      <a href="{url('/about/')}">About</a>
       <a href="{url('/updates/')}">Recent changes</a>
       <a href="{url('/feed.xml')}">RSS feed</a>
       <a href="{url('/privacy/')}">Privacy</a>
@@ -464,6 +468,11 @@ def grid(games):
 
 # ---------------------------------------------------------------- pages
 
+def plist_words(xs):
+    xs = list(xs)
+    return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1]
+
+
 def game_page(g, games):
     t = g["title"]
     kind, word, summary = verdict(g)
@@ -482,6 +491,8 @@ def game_page(g, games):
     if any(gr["partial"] for gr in g["groups"]):
         extra.append("Some platforms are marked as partial support: crossplay works with limits "
                      "(for example only some modes, or an opt-in setting).")
+    byline = (f'Researched by <a href="{url('/about/')}#who">{e(config.AUTHOR)}</a> · '
+              if g["source"] == "manual" and config.AUTHOR else "")
     xprog = ""
     if g["crossprog"]:
         w_, why = CROSSPROG[g["crossprog"]]
@@ -495,7 +506,7 @@ def game_page(g, games):
     <p class="verdict"><span class="badge v-{kind}">{e(word)}</span> {e(summary)}</p>
     {"".join(f'<p>{e(x)}</p>' for x in extra)}
     {xprog}
-    <p class="checked">Last checked {nice_date(g["checked"])}
+    <p class="checked">{byline}Last checked {nice_date(g["checked"])}
     {f' · Details last changed {nice_date(g["history"]["changed"])}' if g["history"].get("changed") and g["history"]["changed"] != g["history"].get("first_seen") else ''}</p>
   </div>
 </section>""")
@@ -547,8 +558,15 @@ def game_page(g, games):
             q = f"Can {PLATFORMS[a][1]} and {PLATFORMS[b][1]} players play {t} together?"
             if r == "yes":
                 ans = f"Yes. {PLATFORMS[a][1]} and {PLATFORMS[b][1]} are in the same crossplay group."
+                gr = next(gr for gr in g["groups"] if a in gr["platforms"] and b in gr["platforms"])
+                if "pc" in (a, b) and gr["pc_stores"]:
+                    ans += f" On PC that covers {plist_words(gr['pc_stores'])}."
+                if g["crossprog"] == "yes":
+                    ans += " Your progress also carries over between them."
             elif r == "partial":
-                ans = "Partly. Crossplay between them is listed with limits."
+                lim = [k for k in (a, b) if any(k in gr["partial"] for gr in g["groups"])]
+                ans = (f"Partly. Crossplay works with limits on {plist(lim)}"
+                       + (f". {g['notes'][0]}" if g["notes"] and len(g["notes"][0]) < 200 else ".") if lim else "Partly. Crossplay between them is listed with limits.")
             else:
                 ans = f"No. {PLATFORMS[a][1]} and {PLATFORMS[b][1]} players are matched separately."
             items.append((q, ans, r))
@@ -700,8 +718,11 @@ def game_page(g, games):
     if g["discontinued"]:
         title = f"Is {t} Still Cross-Platform? (Crossplay Ended)"
     desc = summary + (" " + pcn if pcn else "")
+    # Only pages we researched ourselves go to search engines; list-only pages stay visible to readers but
+    # are noindexed until a research batch covers them.
     return page("/games/" + g["slug"] + "/", title, desc[:300], "\n".join(parts), [vg] + faq_schema,
-                [("Home", "/"), ("Games", "/games/"), (t, "/games/" + g["slug"] + "/")])
+                [("Home", "/"), ("Games", "/games/"), (t, "/games/" + g["slug"] + "/")],
+                noindex=g["source"] != "manual")
 
 
 def list_table(games, show=None):
@@ -871,9 +892,14 @@ def build():
             f'<language>en</language>{feed_items}</channel></rss>\n')
 
     # Static pages
-    pages["/about/"] = page("/about/", "How We Check Crossplay", "Where our crossplay data comes from and how often we check it.",
-                            ABOUT.format(n=len(current), contact=correction_link(), fetched=nice_date(fetched)),
-                            crumbs=[("Home", "/"), ("How we check", "/about/")])
+    pages["/about/"] = page("/about/", "About Crossplay Guide and How We Check", "Who runs Crossplay Guide, where our crossplay data comes from and how often we check it.",
+                            ABOUT.format(n=len(current), contact=correction_link(), fetched=nice_date(fetched),
+                                         photo=url("/static/mike-johnston.jpg")),
+                            [{"@context": "https://schema.org", "@type": "AboutPage", "url": abs_url("/about/"),
+                              "mainEntity": {"@type": "Person", "name": config.AUTHOR,
+                                             "image": abs_url("/static/mike-johnston.jpg"),
+                                             "url": abs_url("/about/") + "#who"}}],
+                            crumbs=[("Home", "/"), ("About", "/about/")])
     pages["/privacy/"] = page("/privacy/", "Privacy Policy", "How this site handles your data.",
                               PRIVACY.format(site=e(config.SITE_NAME), contact=correction_link(), date=nice_date(TODAY),
                                              community=PRIVACY_COMMUNITY if config.API_URL else ""),
@@ -935,7 +961,7 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
               "p": [PLATFORMS[k][1] for k in order({k for gr in g["groups"] for k in gr["platforms"]}) if k not in CLOUD][:6]}
              for g in sorted(games, key=lambda g: -g["popularity"])]
     (OUT / "static" / "search.json").write_text(json.dumps({"base": url("/games/"), "games": index}, separators=(",", ":")))
-    urls = [p for p in pages if not p.endswith(".html")]
+    urls = [p for p in pages if not p.endswith(".html") and p not in NOINDEX]
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                      + "".join(f"<url><loc>{abs_url(p)}</loc></url>\n" for p in sorted(urls)) + "</urlset>\n")
     robots = "User-agent: *\n" + ("Allow: /\n" if config.INDEXABLE else "Disallow: /\n") + f"Sitemap: {abs_url('/sitemap.xml')}\n"
@@ -949,12 +975,27 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
 
 
 ABOUT = """
-<section class="hub-head"><h1>How we check crossplay</h1>
+<section class="hub-head"><h1>About Crossplay Guide</h1>
 <p class="lede">Short version: we track {n} games, re-check them every day, and show our sources on every page.</p></section>
 <section class="prose">
+<div class="author" id="who">
+<img src="{photo}" width="160" height="160" alt="Mike Johnston">
+<div><h2>Who runs this site</h2>
+<p>Crossplay Guide is run by Mike Johnston. My day job is running the tech side of
+<a href="https://www.thekitchenmagpie.com/">The Kitchen Magpie</a>, a food blog. I built this site because finding out
+whether you can play with a friend on a different console usually means digging through forum threads and old patch
+notes.</p>
+<p>The site is independent. It isn't affiliated with any platform holder or publisher, and nobody pays for a
+verdict.</p></div>
+</div>
+<h2>How a game gets researched</h2>
+<p>For each game I go to the publisher's own announcements, patch notes and support pages, and write up which platforms
+play together, any limits (for example only some modes, or an opt-in setting), and whether progress carries over. I use
+AI tools to help find and read those sources, and every claim on a researched page links the source it came from so you
+can check it yourself. Pages I've researched say "Researched by Mike Johnston" next to the date they were last
+checked.</p>
 <h2>Where the facts come from</h2>
-<p>For the most-played games we research crossplay ourselves from the publisher's own announcements, patch
-notes and support pages, and link them on the game page. Our starting point for the rest is Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_video_games_that_support_cross-platform_play">List
+<p>Games that haven't been researched yet come from Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_video_games_that_support_cross-platform_play">List
 of video games that support cross-platform play</a>, which volunteers keep up to date and which cites the publisher
 announcements, patch notes and support pages behind each entry. We link those citations on every game page so you
 can check them yourself. The list is licensed CC BY-SA 4.0.</p>
@@ -973,9 +1014,6 @@ the <a href="../updates/">recent changes</a> page. Last check: {fetched}.</p>
 <h2>Corrections</h2>
 <p>Crossplay changes with patches and new ports, and sources lag behind. If you spot something wrong,
 <a href="{contact}">tell us</a> with a link to the official announcement and we'll fix it.</p>
-<h2>Who runs this site</h2>
-<p>We're a small independent team who got tired of digging through forum threads to find out whether we could play
-with friends on other consoles. We're not affiliated with any platform holder or publisher.</p>
 </section>"""
 
 PRIVACY = """
