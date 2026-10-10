@@ -914,6 +914,237 @@
    }
   ]
  },
+ "A Way Out": {
+  "cover": {
+   "id": 87274,
+   "image_id": "co1vca"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 1937700,
+    "uid": "B0787HCKD4"
+   },
+   {
+    "external_game_source": 10,
+    "id": 1184716,
+    "uid": "UCykHmxIVDjSzZyab1me-wDg"
+   },
+   {
+    "external_game_source": 3,
+    "id": 102162,
+    "uid": "59870"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1928622,
+    "uid": "B079V7C335"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2031635,
+    "uid": "1222700"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1930747,
+    "uid": "B077YD7NWJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1931584,
+    "uid": "B077Y5M9MK"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1931888,
+    "uid": "B07DGL3SKP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1934001,
+    "uid": "B078GQQ77Q"
+   },
+   {
+    "external_game_source": 11,
+    "id": 306956,
+    "uid": "BWVBNCMF22ZK"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2654939,
+    "uid": "9P698GM5GR3W"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3020037,
+    "uid": "044bcd5a6b694e4e9a8e2b7c9357972e"
+   },
+   {
+    "external_game_source": 14,
+    "id": 251778,
+    "uid": "497388"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2175622,
+    "uid": "227061"
+   }
+  ],
+  "first_release_date": 1521763200,
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 4,
+    "name": "Split screen"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 31,
+  "id": 36897,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 12901,
+     "name": "Hazelight Studios"
+    },
+    "developer": true,
+    "id": 58894,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 1,
+     "name": "Electronic Arts"
+    },
+    "developer": false,
+    "id": 58893,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": true,
+    "dropin": false,
+    "id": 28376,
+    "lancoop": false,
+    "offlinecoop": true,
+    "offlinecoopmax": 2,
+    "offlinemax": 2,
+    "onlinecoop": true,
+    "onlinecoopmax": 2,
+    "onlinemax": 2,
+    "splitscreen": true
+   }
+  ],
+  "name": "A Way Out",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "slug": "a-way-out",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   }
+  ],
+  "total_rating_count": 689,
+  "url": "https://www.igdb.com/games/a-way-out",
+  "websites": [
+   {
+    "id": 63762,
+    "type": 5,
+    "url": "https://twitter.com/HazelightGames"
+   },
+   {
+    "id": 63763,
+    "type": 8,
+    "url": "https://www.instagram.com/hazelightgames"
+   },
+   {
+    "id": 79146,
+    "type": 14,
+    "url": "https://www.reddit.com/r/AWayOut"
+   },
+   {
+    "id": 833755,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/a-way-out/BWVBNCMF22ZK"
+   },
+   {
+    "id": 743873,
+    "type": 18,
+    "url": "https://discord.gg/Hazelight"
+   },
+   {
+    "id": 833756,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/227061"
+   },
+   {
+    "id": 636517,
+    "type": 16,
+    "url": "https://store.epicgames.com/en-US/p/a-way-out-635680"
+   },
+   {
+    "id": 145052,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1222700/A_Way_Out/"
+   },
+   {
+    "id": 63759,
+    "type": 1,
+    "url": "http://www.awayoutgame.com/"
+   },
+   {
+    "id": 63761,
+    "type": 4,
+    "url": "https://www.facebook.com/HazelightGames"
+   },
+   {
+    "id": 79145,
+    "type": 2,
+    "url": "http://awayout.wikia.com/wiki/A_Way_Out"
+   },
+   {
+    "id": 338831,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/A%20Way%20Out"
+   },
+   {
+    "id": 63760,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/A_Way_Out_(video_game)"
+   }
+  ]
+ },
  "A-Men": {
   "collections": [
    {
@@ -7128,6 +7359,308 @@
    }
   ]
  },
+ "Battlefield 4": {
+  "collections": [
+   {
+    "id": 34,
+    "name": "Battlefield"
+   }
+  ],
+  "cover": {
+   "id": 77271,
+   "image_id": "co1nmf"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 1934987,
+    "uid": "B00BXONG7G"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1935785,
+    "uid": "B07F2951L6"
+   },
+   {
+    "external_game_source": 11,
+    "id": 213218,
+    "uid": "xbox36066acd000-77fe-1000-9115-d802454109ba"
+   },
+   {
+    "external_game_source": 11,
+    "id": 210328,
+    "uid": "BP15SF17LH13"
+   },
+   {
+    "external_game_source": 3,
+    "id": 121598,
+    "uid": "39035"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1930658,
+    "uid": "B00EFFW0HC"
+   },
+   {
+    "external_game_source": 10,
+    "id": 188966,
+    "uid": "UC8-e0TubJ-BwWRoO2PYAVxw"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1929742,
+    "uid": "B00DS0MQUQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1929800,
+    "uid": "B00EFFVZP0"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1929851,
+    "uid": "B00CXCCB64"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1933218,
+    "uid": "B00BT9DTCM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1935409,
+    "uid": "B00DBRWGU6"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1937850,
+    "uid": "B00D7BN5HE"
+   },
+   {
+    "external_game_source": 20,
+    "id": 1938248,
+    "uid": "B00DM5N8IQ"
+   },
+   {
+    "external_game_source": 31,
+    "id": 2162470,
+    "uid": "66acd000-77fe-1000-9115-d802454109ba"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3225112,
+    "uid": "B00HR4GJDE"
+   },
+   {
+    "external_game_source": 14,
+    "id": 245736,
+    "uid": "66402"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2175631,
+    "uid": "200449"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3223139,
+    "uid": "B00C2P2RO8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3223331,
+    "uid": "B00BM2LLPS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3223333,
+    "uid": "B0FGJGYKH3"
+   },
+   {
+    "external_game_source": 54,
+    "id": 3133009,
+    "uid": "BP15SF17LH13"
+   }
+  ],
+  "first_release_date": 1383004800,
+  "franchises": [
+   {
+    "id": 1036,
+    "name": "Battlefield"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   }
+  ],
+  "hypes": 16,
+  "id": 1979,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 94,
+     "name": "EA Digital Illusions CE"
+    },
+    "developer": true,
+    "id": 9381,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 1,
+     "name": "Electronic Arts"
+    },
+    "developer": false,
+    "id": 17527,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 7993,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": false,
+    "onlinecoopmax": 0,
+    "onlinemax": 64,
+    "platform": 49,
+    "splitscreen": false
+   }
+  ],
+  "name": "Battlefield 4",
+  "platforms": [
+   {
+    "abbreviation": "PS3",
+    "id": 9,
+    "name": "PlayStation 3"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "X360",
+    "id": 12,
+    "name": "Xbox 360"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "slug": "battlefield-4",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 39,
+    "name": "Warfare"
+   }
+  ],
+  "total_rating_count": 919,
+  "url": "https://www.igdb.com/games/battlefield-4",
+  "websites": [
+   {
+    "id": 14581,
+    "type": 4,
+    "url": "https://www.facebook.com/battlefield"
+   },
+   {
+    "id": 788081,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/200449"
+   },
+   {
+    "id": 788080,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/battlefield-4/BP15SF17LH13"
+   },
+   {
+    "id": 14580,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Battlefield_4"
+   },
+   {
+    "id": 14578,
+    "type": 1,
+    "url": "http://www.battlefield.com/battlefield-4"
+   },
+   {
+    "id": 14582,
+    "type": 5,
+    "url": "https://twitter.com/Battlefield"
+   },
+   {
+    "id": 193783,
+    "type": 2,
+    "url": "https://battlefield.fandom.com/wiki/Battlefield_4"
+   },
+   {
+    "id": 522968,
+    "type": 18,
+    "url": "https://discord.gg/invite/battlefield"
+   },
+   {
+    "id": 332983,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Battlefield%204"
+   },
+   {
+    "id": 14585,
+    "type": 9,
+    "url": "https://www.youtube.com/Battlefield"
+   },
+   {
+    "id": 14584,
+    "type": 8,
+    "url": "https://www.instagram.com/battlefield"
+   },
+   {
+    "id": 522969,
+    "type": 14,
+    "url": "https://www.reddit.com/r/battlefield4"
+   },
+   {
+    "id": 1123155,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1238860/"
+   }
+  ]
+ },
  "Battlefield 6": {
   "collections": [
    {
@@ -8609,6 +9142,160 @@
     "id": 540081,
     "type": 10,
     "url": "http://itunes.apple.com/us/app/id1134700840#?platform=iphone"
+   }
+  ]
+ },
+ "Blood Strike": {
+  "cover": {
+   "id": 429046,
+   "image_id": "co971y"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 2948982,
+    "uid": "3199170"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2679390,
+    "uid": "32736074"
+   }
+  ],
+  "first_release_date": 1694736000,
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 6,
+    "name": "Battle Royale"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 2,
+  "id": 239920,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 5501,
+     "name": "NetEase Games"
+    },
+    "developer": true,
+    "id": 267027,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 27966,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 5,
+    "onlinemax": 100,
+    "platform": 39,
+    "splitscreen": false
+   }
+  ],
+  "name": "Blood Strike",
+  "platforms": [
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   }
+  ],
+  "slug": "blood-strike--2",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   }
+  ],
+  "total_rating_count": 28,
+  "url": "https://www.igdb.com/games/blood-strike--2",
+  "websites": [
+   {
+    "id": 634551,
+    "type": 8,
+    "url": "https://www.instagram.com/bloodstrike_official/"
+   },
+   {
+    "id": 534329,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.netease.newspike"
+   },
+   {
+    "id": 984008,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/project-bloodstrike"
+   },
+   {
+    "id": 634550,
+    "type": 5,
+    "url": "https://twitter.com/bloodstrike_EN"
+   },
+   {
+    "id": 634548,
+    "type": 1,
+    "url": "https://www.blood-strike.com/"
+   },
+   {
+    "id": 634547,
+    "type": 10,
+    "url": "https://apps.apple.com/id/app/blood-strike-fps-untuk-semua/id1637059453?l=id"
+   },
+   {
+    "id": 632443,
+    "type": 18,
+    "url": "https://discord.gg/invite/bloodstrike"
+   },
+   {
+    "id": 632442,
+    "type": 4,
+    "url": "https://www.facebook.com/OfficialBloodStrikeNetEase"
+   },
+   {
+    "id": 634549,
+    "type": 9,
+    "url": "https://www.youtube.com/@bloodstrike_official/"
+   },
+   {
+    "id": 676760,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/3199170"
    }
   ]
  },
@@ -14498,6 +15185,198 @@
    }
   ]
  },
+ "CarX Drift Racing Online": {
+  "collections": [
+   {
+    "id": 10498,
+    "name": "CarX"
+   }
+  ],
+  "cover": {
+   "id": 491962,
+   "image_id": "coajlm"
+  },
+  "external_games": [
+   {
+    "external_game_source": 3,
+    "id": 101328,
+    "uid": "60722"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2083260,
+    "uid": "9N6FTC4QJMWN"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3017997,
+    "uid": "b5866511b3304145b931bb909cfd3bc7"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2176280,
+    "uid": "10000161"
+   },
+   {
+    "external_game_source": 1,
+    "id": 72219,
+    "uid": "635260"
+   },
+   {
+    "external_game_source": 14,
+    "id": 281506,
+    "uid": "498289"
+   }
+  ],
+  "first_release_date": 1499385600,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 10,
+    "name": "Racing"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   },
+   {
+    "id": 33,
+    "name": "Arcade"
+   }
+  ],
+  "id": 51443,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 24250,
+     "name": "CarX Technologies"
+    },
+    "developer": true,
+    "id": 108393,
+    "publisher": true
+   }
+  ],
+  "name": "CarX Drift Racing Online",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "slug": "carx-drift-racing-online",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "total_rating_count": 9,
+  "url": "https://www.igdb.com/games/carx-drift-racing-online",
+  "websites": [
+   {
+    "id": 729028,
+    "type": 4,
+    "url": "https://www.facebook.com/carx2/"
+   },
+   {
+    "id": 745467,
+    "type": 8,
+    "url": "https://www.instagram.com/carx_tech/"
+   },
+   {
+    "id": 745466,
+    "type": 5,
+    "url": "https://twitter.com/carx_technology"
+   },
+   {
+    "id": 877781,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/carx-drift-racing-online/9N6FTC4QJMWN"
+   },
+   {
+    "id": 877782,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10000161"
+   },
+   {
+    "id": 877783,
+    "type": 24,
+    "url": "https://www.nintendo.com/games/detail/carx-drift-racing-online-switch/"
+   },
+   {
+    "id": 729032,
+    "type": 18,
+    "url": "https://discord.gg/YhpGHffuP6"
+   },
+   {
+    "id": 729030,
+    "type": 9,
+    "url": "https://www.youtube.com/Anatol3D/"
+   },
+   {
+    "id": 52289,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/635260"
+   },
+   {
+    "id": 87887,
+    "type": 1,
+    "url": "http://carx-online.com"
+   },
+   {
+    "id": 341761,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/CarX%20Drift%20Racing%20Online"
+   },
+   {
+    "id": 700328,
+    "type": 16,
+    "url": "https://store.epicgames.com/en-US/p/carx-drift-racing-online-540527"
+   }
+  ]
+ },
  "Chess Ultra": {
   "cover": {
    "id": 97048,
@@ -15236,6 +16115,240 @@
     "id": 108311,
     "type": 9,
     "url": "https://www.youtube.com/user/TornBannerStudios"
+   }
+  ]
+ },
+ "Company of Heroes 3": {
+  "collections": [
+   {
+    "id": 296,
+    "name": "Company of Heroes"
+   }
+  ],
+  "cover": {
+   "id": 441184,
+   "image_id": "co9gf4"
+  },
+  "external_games": [
+   {
+    "external_game_source": 11,
+    "id": 2708423,
+    "uid": "9N2515MQZMFD"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2711095,
+    "uid": "9P014G2W3L83"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2694459,
+    "uid": "B0C2HP6W7S"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2694503,
+    "uid": "B0C2DFDG8W"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2694568,
+    "uid": "B0C2DHW4GD"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2694587,
+    "uid": "B0C2HRPPQD"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2725749,
+    "uid": "B0C2DHW4GD"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2748064,
+    "uid": "B0C2DFDG8W"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2076762,
+    "uid": "1677280"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2073262,
+    "uid": "1931776829"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2696477,
+    "uid": "10002606"
+   }
+  ],
+  "first_release_date": 1677110400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 11,
+    "name": "Real Time Strategy (RTS)"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 16,
+    "name": "Turn-based strategy (TBS)"
+   },
+   {
+    "id": 24,
+    "name": "Tactical"
+   }
+  ],
+  "hypes": 5,
+  "id": 156150,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 196,
+     "name": "Relic Entertainment"
+    },
+    "developer": true,
+    "id": 141512,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 112,
+     "name": "Sega"
+    },
+    "developer": false,
+    "id": 141513,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 15599,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "platform": 6,
+    "splitscreen": false
+   }
+  ],
+  "name": "Company of Heroes 3",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "slug": "company-of-heroes-3",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 22,
+    "name": "Historical"
+   },
+   {
+    "id": 39,
+    "name": "Warfare"
+   }
+  ],
+  "total_rating_count": 24,
+  "url": "https://www.igdb.com/games/company-of-heroes-3",
+  "websites": [
+   {
+    "id": 198777,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1677280/Company_of_Heroes_3"
+   },
+   {
+    "id": 461959,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Company%20of%20Heroes%203"
+   },
+   {
+    "id": 732718,
+    "type": 18,
+    "url": "https://discord.gg/relicentertainment"
+   },
+   {
+    "id": 822460,
+    "type": 19,
+    "url": "https://bsky.app/profile/companyofheroes.com"
+   },
+   {
+    "id": 768231,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10002606"
+   },
+   {
+    "id": 296765,
+    "type": 4,
+    "url": "https://www.facebook.com/companyofheroes"
+   },
+   {
+    "id": 296764,
+    "type": 9,
+    "url": "https://www.youtube.com/user/CoHOfficial"
+   },
+   {
+    "id": 198778,
+    "type": 1,
+    "url": "https://www.companyofheroes.com/"
+   },
+   {
+    "id": 296766,
+    "type": 8,
+    "url": "https://instagram.com/companyofheroes"
+   },
+   {
+    "id": 198780,
+    "type": 5,
+    "url": "https://twitter.com/CompanyOfHeroes"
+   },
+   {
+    "id": 705927,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Company_of_Heroes_3"
+   },
+   {
+    "id": 1106494,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/company-of-heroes-3/9N2515MQZMFD"
    }
   ]
  },
@@ -23612,6 +24725,211 @@
    }
   ]
  },
+ "Divinity: Original Sin II": {
+  "collections": [
+   {
+    "id": 1024,
+    "name": "Divinity"
+   }
+  ],
+  "cover": {
+   "id": 90931,
+   "image_id": "co1y5v"
+  },
+  "external_games": [
+   {
+    "external_game_source": 10,
+    "id": 189120,
+    "uid": "UCcXDEY2jcFJTYTx7-YKFPuw"
+   },
+   {
+    "external_game_source": 3,
+    "id": 110413,
+    "uid": "50803"
+   },
+   {
+    "external_game_source": 1,
+    "id": 6148,
+    "uid": "435150"
+   },
+   {
+    "external_game_source": 14,
+    "id": 246993,
+    "uid": "490644"
+   },
+   {
+    "external_game_source": 5,
+    "id": 76976,
+    "uid": "1584823040"
+   }
+  ],
+  "first_release_date": 1505347200,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 22,
+  "id": 11800,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 510,
+     "name": "Larian Studios"
+    },
+    "developer": true,
+    "id": 84884,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 3757,
+     "name": "Elverils LLC"
+    },
+    "developer": true,
+    "id": 199144,
+    "publisher": false
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 9764,
+    "lancoop": true,
+    "offlinecoop": true,
+    "offlinecoopmax": 4,
+    "offlinemax": 4,
+    "onlinecoop": true,
+    "onlinecoopmax": 4,
+    "onlinemax": 4,
+    "platform": 6,
+    "splitscreen": true
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 9766,
+    "lancoop": true,
+    "offlinecoop": true,
+    "offlinecoopmax": 4,
+    "offlinemax": 4,
+    "onlinecoop": true,
+    "onlinecoopmax": 4,
+    "onlinemax": 4,
+    "platform": 14,
+    "splitscreen": true
+   }
+  ],
+  "name": "Divinity: Original Sin II",
+  "platforms": [
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   }
+  ],
+  "slug": "divinity-original-sin-ii",
+  "themes": [
+   {
+    "id": 17,
+    "name": "Fantasy"
+   }
+  ],
+  "total_rating_count": 480,
+  "url": "https://www.igdb.com/games/divinity-original-sin-ii",
+  "websites": [
+   {
+    "id": 57598,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Divinity:_Original_Sin_II"
+   },
+   {
+    "id": 66111,
+    "type": 1,
+    "url": "http://divinity.game"
+   },
+   {
+    "id": 804657,
+    "type": 4,
+    "url": "https://www.facebook.com/LarianStudios/"
+   },
+   {
+    "id": 804658,
+    "type": 5,
+    "url": "https://x.com/larianstudios"
+   },
+   {
+    "id": 804659,
+    "type": 9,
+    "url": "https://www.youtube.com/LarianStudios/"
+   },
+   {
+    "id": 17385,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/435150"
+   },
+   {
+    "id": 516455,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Divinity%3A%20Original%20Sin%20II"
+   },
+   {
+    "id": 119236,
+    "type": 17,
+    "url": "https://www.gog.com/game/divinity_original_sin_2"
+   },
+   {
+    "id": 906817,
+    "type": 8,
+    "url": "https://www.instagram.com/larianstudios/"
+   },
+   {
+    "id": 906818,
+    "type": 14,
+    "url": "https://reddit.com/r/Divinity"
+   },
+   {
+    "id": 906819,
+    "type": 18,
+    "url": "https://discordapp.com/invite/larianstudios"
+   }
+  ]
+ },
  "Dofus": {
   "collections": [
    {
@@ -27339,6 +28657,423 @@
    }
   ]
  },
+ "EA Sports College Football 27": {
+  "collections": [
+   {
+    "id": 2195,
+    "name": "NCAA Football"
+   }
+  ],
+  "cover": {
+   "id": 568396,
+   "image_id": "coc6ks"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 3181806,
+    "uid": "4032350"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3182715,
+    "uid": "10016592"
+   },
+   {
+    "external_game_source": 14,
+    "id": 3172673,
+    "uid": "1678532194"
+   }
+  ],
+  "first_release_date": 1783555200,
+  "franchises": [
+   {
+    "id": 222,
+    "name": "NCAA"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 3,
+  "id": 400601,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 555,
+     "name": "EA Orlando"
+    },
+    "developer": true,
+    "id": 392244,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 392055,
+    "publisher": true
+   }
+  ],
+  "name": "EA Sports College Football 27",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "slug": "ea-sports-college-football-27",
+  "themes": [
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "total_rating_count": 2,
+  "url": "https://www.igdb.com/games/ea-sports-college-football-27",
+  "websites": [
+   {
+    "id": 1051770,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10016592"
+   },
+   {
+    "id": 1051807,
+    "type": 1,
+    "url": "https://www.ea.com/games/ea-sports-college-football/college-football-27"
+   },
+   {
+    "id": 1051808,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/ea-sports-college-football-27/9n2r753h6wqd"
+   },
+   {
+    "id": 1065042,
+    "type": 16,
+    "url": "https://store.epicgames.com/p/college-football-27-35bf19"
+   },
+   {
+    "id": 1065043,
+    "type": 6,
+    "url": "https://www.twitch.tv/easportscollege"
+   },
+   {
+    "id": 1065044,
+    "type": 5,
+    "url": "https://www.twitter.com/easportscollege"
+   },
+   {
+    "id": 1065045,
+    "type": 4,
+    "url": "https://www.facebook.com/easportscollege"
+   },
+   {
+    "id": 1065046,
+    "type": 8,
+    "url": "https://www.instagram.com/easportscollege"
+   },
+   {
+    "id": 1065047,
+    "type": 9,
+    "url": "https://www.youtube.com/@EASPORTSCollege"
+   },
+   {
+    "id": 1065481,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/4032350"
+   }
+  ]
+ },
+ "EA Sports FC 25": {
+  "collections": [
+   {
+    "id": 10199,
+    "name": "EA Sports FC"
+   }
+  ],
+  "cover": {
+   "id": 475817,
+   "image_id": "coa755"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 3222203,
+    "uid": "B0DB4NMK2X"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3190476,
+    "uid": "B0D9NFTBTB"
+   },
+   {
+    "external_game_source": 54,
+    "id": 3141955,
+    "uid": "9N436FQM30HX"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3225163,
+    "uid": "B0FGV88Q9D"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3018855,
+    "uid": "88d7e33248ec4acebb187a2241333eea"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3018854,
+    "uid": "65cc2660d186450985dfb01412f399a4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3218952,
+    "uid": "B0D94S1NW7"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2950466,
+    "uid": "9MVK78MGD737"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2931543,
+    "uid": "10009762"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3223045,
+    "uid": "B0D9NDTTS4"
+   },
+   {
+    "external_game_source": 54,
+    "id": 3132550,
+    "uid": "9NNPSTWT06VM"
+   },
+   {
+    "external_game_source": 23,
+    "id": 3072456,
+    "uid": "amzn1.adg.product.02633ba0-0ac8-43bd-bfaf-5f627c613060"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2930548,
+    "uid": "2669320"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3190380,
+    "uid": "B0D9NCPRJZ"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2931274,
+    "uid": "2011938005"
+   }
+  ],
+  "first_release_date": 1727395200,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 8,
+  "id": 308698,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 276683,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 4148,
+     "name": "EA Romania"
+    },
+    "developer": false,
+    "id": 276687,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 27222,
+     "name": "EA Vancouver"
+    },
+    "developer": true,
+    "id": 276686,
+    "publisher": false
+   }
+  ],
+  "name": "EA Sports FC 25",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "slug": "ea-sports-fc-25",
+  "themes": [
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "total_rating_count": 94,
+  "url": "https://www.igdb.com/games/ea-sports-fc-25",
+  "websites": [
+   {
+    "id": 727962,
+    "type": 4,
+    "url": "https://www.facebook.com/easportsfc/"
+   },
+   {
+    "id": 824366,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/ea-sports-fc-25-standard-edition-xbox-one-&-xbox-series-x|s/9MVK78MGD737"
+   },
+   {
+    "id": 824368,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/ea-sports-fc-25-switch/"
+   },
+   {
+    "id": 824367,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10009762"
+   },
+   {
+    "id": 682539,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/ea-sports-fc-25"
+   },
+   {
+    "id": 653989,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2669320/EA_SPORTS_FC_25/"
+   },
+   {
+    "id": 653993,
+    "type": 1,
+    "url": "https://www.ea.com/games/ea-sports-fc/fc-25"
+   },
+   {
+    "id": 653990,
+    "type": 16,
+    "url": "https://store.epicgames.com/en-US/p/ea-sports-fc-25"
+   },
+   {
+    "id": 653991,
+    "type": 9,
+    "url": "https://www.youtube.com/@easportsfc"
+   },
+   {
+    "id": 653992,
+    "type": 5,
+    "url": "https://twitter.com/EASPORTSFC"
+   },
+   {
+    "id": 1080522,
+    "type": 18,
+    "url": "https://discord.gg/invite/easportsfc"
+   },
+   {
+    "id": 1080521,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/EA_Sports_FC_25"
+   },
+   {
+    "id": 1080520,
+    "type": 8,
+    "url": "https://www.instagram.com/easportsfc"
+   }
+  ]
+ },
  "EA Sports FC 26": {
   "collections": [
    {
@@ -27601,6 +29336,215 @@
     "id": 1029223,
     "type": 4,
     "url": "https://www.facebook.com/easportsfc"
+   }
+  ]
+ },
+ "EA Sports FC 27": {
+  "collections": [
+   {
+    "id": 10199,
+    "name": "EA Sports FC"
+   }
+  ],
+  "cover": {
+   "id": 587631,
+   "image_id": "coclf3"
+  },
+  "external_games": [
+   {
+    "external_game_source": 14,
+    "id": 3198059,
+    "uid": "123184772"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3218878,
+    "uid": "B0HBC91DXW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3219049,
+    "uid": "B0HBC8MH59"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3218929,
+    "uid": "B0HBCFHL36"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3218984,
+    "uid": "B0HBCCQ41Y"
+   },
+   {
+    "external_game_source": 1,
+    "id": 3197775,
+    "uid": "4080220"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3200416,
+    "uid": "10017332"
+   }
+  ],
+  "first_release_date": 1790294400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 6,
+  "id": 408819,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 4148,
+     "name": "EA Romania"
+    },
+    "developer": false,
+    "id": 404999,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 405000,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 27222,
+     "name": "EA Vancouver"
+    },
+    "developer": true,
+    "id": 404998,
+    "publisher": false
+   }
+  ],
+  "name": "EA Sports FC 27",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "Switch 2",
+    "id": 508,
+    "name": "Nintendo Switch 2"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "slug": "ea-sports-fc-27",
+  "themes": [
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "url": "https://www.igdb.com/games/ea-sports-fc-27",
+  "websites": [
+   {
+    "id": 1080552,
+    "type": 1,
+    "url": "https://www.ea.com/games/ea-sports-fc/fc-27"
+   },
+   {
+    "id": 1080553,
+    "type": 5,
+    "url": "https://twitter.com/EASPORTSFC"
+   },
+   {
+    "id": 1080554,
+    "type": 4,
+    "url": "https://www.facebook.com/easportsfc"
+   },
+   {
+    "id": 1080555,
+    "type": 8,
+    "url": "https://www.instagram.com/easportsfc"
+   },
+   {
+    "id": 1080556,
+    "type": 9,
+    "url": "https://www.youtube.com/@easportsfc"
+   },
+   {
+    "id": 1080557,
+    "type": 18,
+    "url": "https://discord.gg/invite/easportsfc"
+   },
+   {
+    "id": 1080558,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/EA_Sports_FC_27"
+   },
+   {
+    "id": 1088264,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/4080220/EA_SPORTS_FC_27/"
+   },
+   {
+    "id": 1088265,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10017332"
+   },
+   {
+    "id": 1090905,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/ea-sports-fc-27-switch/"
+   },
+   {
+    "id": 1122071,
+    "type": 22,
+    "url": "https://www.xbox.com/en-US/games/store/ea-sports-fc-27-ultimate-edition-xbox-one-xbox-series-xs/9pgkx0gj9vxm"
    }
   ]
  },
@@ -28515,6 +30459,255 @@
     "id": 168897,
     "type": 1,
     "url": "http://rpgeko.com/en/"
+   }
+  ]
+ },
+ "Elite Dangerous": {
+  "collections": [
+   {
+    "id": 544,
+    "name": "Elite"
+   }
+  ],
+  "cover": {
+   "id": 398615,
+   "image_id": "co8jkn"
+  },
+  "external_games": [
+   {
+    "external_game_source": 10,
+    "id": 188988,
+    "uid": "UC9i_g9h8L8iC236U7EJgaNA"
+   },
+   {
+    "external_game_source": 3,
+    "id": 120266,
+    "uid": "40419"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2587370,
+    "uid": "7372c9a4-a710-497a-928c-d460d24a3ae9"
+   },
+   {
+    "external_game_source": 11,
+    "id": 210489,
+    "uid": "C3LW50BQJ878"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2626797,
+    "uid": "7b002177046841a69da1adc0e1d0c98f"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2175817,
+    "uid": "221902"
+   },
+   {
+    "external_game_source": 1,
+    "id": 8925,
+    "uid": "359320"
+   },
+   {
+    "external_game_source": 54,
+    "id": 3174356,
+    "uid": "C3LW50BQJ878"
+   },
+   {
+    "external_game_source": 14,
+    "id": 246262,
+    "uid": "80607"
+   }
+  ],
+  "first_release_date": 1418688000,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 3,
+  "id": 2955,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 208,
+     "name": "Frontier Developments"
+    },
+    "developer": true,
+    "id": 42551,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 29207,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 8,
+    "onlinemax": 0,
+    "splitscreen": false
+   }
+  ],
+  "name": "Elite: Dangerous",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "Steam VR",
+    "id": 163,
+    "name": "SteamVR"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   },
+   {
+    "id": 385,
+    "name": "Oculus Rift"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "slug": "elite-dangerous",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 18,
+    "name": "Science fiction"
+   },
+   {
+    "id": 33,
+    "name": "Sandbox"
+   },
+   {
+    "id": 38,
+    "name": "Open world"
+   }
+  ],
+  "total_rating_count": 206,
+  "url": "https://www.igdb.com/games/elite-dangerous",
+  "websites": [
+   {
+    "id": 22754,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Elite:_Dangerous"
+   },
+   {
+    "id": 66312,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/359320"
+   },
+   {
+    "id": 22755,
+    "type": 4,
+    "url": "https://www.facebook.com/EliteDangerousOfficial"
+   },
+   {
+    "id": 835481,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/221902"
+   },
+   {
+    "id": 172404,
+    "type": 16,
+    "url": "https://www.epicgames.com/p/elite-dangerous"
+   },
+   {
+    "id": 22756,
+    "type": 5,
+    "url": "https://twitter.com/EliteDangerous"
+   },
+   {
+    "id": 172411,
+    "type": 2,
+    "url": "https://elite-dangerous.fandom.com/wiki/Elite_Dangerous"
+   },
+   {
+    "id": 172405,
+    "type": 1,
+    "url": "https://www.elitedangerous.com/"
+   },
+   {
+    "id": 333491,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Elite:%20Dangerous"
+   },
+   {
+    "id": 172407,
+    "type": 9,
+    "url": "https://www.youtube.com/elitedangerous"
+   },
+   {
+    "id": 172410,
+    "type": 14,
+    "url": "https://www.reddit.com/r/EliteDangerous"
+   },
+   {
+    "id": 172408,
+    "type": 8,
+    "url": "https://www.instagram.com/elitedangerous"
+   },
+   {
+    "id": 1098766,
+    "type": 18,
+    "url": "https://discord.gg/invite/frontierunlocked"
    }
   ]
  },
@@ -29868,6 +32061,562 @@
     "id": 724707,
     "type": 9,
     "url": "https://www.youtube.com/@EASPORTSF1/"
+   }
+  ]
+ },
+ "FIFA 23": {
+  "collections": [
+   {
+    "id": 91,
+    "name": "FIFA"
+   }
+  ],
+  "cover": {
+   "id": 233141,
+   "image_id": "co4zw5"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 2748081,
+    "uid": "B0B6CHRTGJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2452692,
+    "uid": "B0B23N6GV4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2635172,
+    "uid": "B0BFFF6G85"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2635459,
+    "uid": "B0BFFD56SG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2635461,
+    "uid": "B0BFFD56SG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2606577,
+    "uid": "B0BGJZG5RT"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2606587,
+    "uid": "B0BGJZ9WZW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521880,
+    "uid": "B0B3LFZSXM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521871,
+    "uid": "B0B6CHRTGJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521862,
+    "uid": "B0B6JR3YDW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521763,
+    "uid": "B0B3LY6F5D"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2747294,
+    "uid": "B0B6CHRTGJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2450778,
+    "uid": "B0B23N6GV4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519113,
+    "uid": "B0B3LY6F5D"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521877,
+    "uid": "B0B6JLBYCW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2855500,
+    "uid": "B0B6CFX35R"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519237,
+    "uid": "B0B3M8NQGG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2517519,
+    "uid": "B0B23YVZ9Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2517327,
+    "uid": "B0B23QS2B3"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2624004,
+    "uid": "76ec3e438cab4064b8e1de921ee4755a"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2517298,
+    "uid": "B0B3LY6F5D"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519114,
+    "uid": "B0B6CDSTV1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519116,
+    "uid": "B0B3M3S65G"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519178,
+    "uid": "B0B23YVZ9Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519213,
+    "uid": "B0B3LXNFRF"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519298,
+    "uid": "B0B6CND86D"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519269,
+    "uid": "B0B6CHRTGJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519304,
+    "uid": "B0B23QS2B3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521772,
+    "uid": "B0B6CLHD4P"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521764,
+    "uid": "B0B6CDSTV1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521768,
+    "uid": "B0B3M3S65G"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521849,
+    "uid": "B0B3M8NQGG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521839,
+    "uid": "B0B6CL82VT"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521842,
+    "uid": "B0B6JPYB27"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521874,
+    "uid": "B0B6JQHB4P"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521888,
+    "uid": "B0B6CND86D"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2635171,
+    "uid": "B0BFFF6G85"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2635173,
+    "uid": "B0BFFF6G85"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2752931,
+    "uid": "B0B6CHRTGJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2855504,
+    "uid": "B0B6CFX35R"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2855658,
+    "uid": "B0B6CHRTGJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2517278,
+    "uid": "B0B3LFZSXM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2517309,
+    "uid": "B0B3LXNFRF"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2517377,
+    "uid": "B0B3M491XY"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2517494,
+    "uid": "B0B23N6GV4"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2615366,
+    "uid": "1962391"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2636121,
+    "uid": "B0BFFD56SG"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2520389,
+    "uid": "10004336"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3220079,
+    "uid": "B0B7B9MMHN"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521827,
+    "uid": "B0B3LXNFRF"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521850,
+    "uid": "B0B23N6GV4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521894,
+    "uid": "B0B6CKDP1J"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2517487,
+    "uid": "B0B3M8NQGG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2452579,
+    "uid": "B0B23QS2B3"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2520470,
+    "uid": "bdfef6f8-8b26-4d94-a708-2d9a1a7656ab"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2452716,
+    "uid": "B0B23YVZ9Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2450786,
+    "uid": "B0B23YVZ9Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519224,
+    "uid": "B0B6CL82VT"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519157,
+    "uid": "B0B6CKG1MH"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2450831,
+    "uid": "B0B23QS2B3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519305,
+    "uid": "B0B6CKDP1J"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519197,
+    "uid": "B0B6CF79DL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519126,
+    "uid": "B0B6CLHD4P"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519332,
+    "uid": "B0B6C9ZFQ8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519239,
+    "uid": "B0B3M491XY"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519230,
+    "uid": "B0B23N6GV4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521897,
+    "uid": "B0B23QS2B3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521921,
+    "uid": "B0B6CG57MB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519288,
+    "uid": "B0B3LFZSXM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2519366,
+    "uid": "B0B6CG57MB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521804,
+    "uid": "B0B23YVZ9Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521851,
+    "uid": "B0B3M491XY"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2521911,
+    "uid": "B0B6C9ZFQ8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2635460,
+    "uid": "B0BFFD56SG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2517401,
+    "uid": "B0B3M3S65G"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2749412,
+    "uid": "B0B6CHRTGJ"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2605648,
+    "uid": "9N4K3F9558RP"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2451105,
+    "uid": "1745202732"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3190378,
+    "uid": "B0B79YX5TV"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2520376,
+    "uid": "1811260"
+   }
+  ],
+  "first_release_date": 1664496000,
+  "franchises": [
+   {
+    "id": 1110,
+    "name": "FIFA"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 1,
+  "id": 205780,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 27222,
+     "name": "EA Vancouver"
+    },
+    "developer": true,
+    "id": 206301,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 206300,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 4148,
+     "name": "EA Romania"
+    },
+    "developer": false,
+    "id": 206302,
+    "publisher": false
+   }
+  ],
+  "name": "FIFA 23",
+  "platforms": [
+   {
+    "abbreviation": "Stadia",
+    "id": 170,
+    "name": "Google Stadia"
+   },
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "slug": "fifa-23",
+  "themes": [
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "total_rating_count": 107,
+  "url": "https://www.igdb.com/games/fifa-23",
+  "websites": [
+   {
+    "id": 826367,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/ea-sports-fifa-23-standard-edition-xbox-series-x-s/9N4K3F9558RP"
+   },
+   {
+    "id": 826025,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10004336"
+   },
+   {
+    "id": 299776,
+    "type": 16,
+    "url": "https://www.epicgames.com/store/p/fifa-23"
+   },
+   {
+    "id": 305020,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/FIFA_23"
+   },
+   {
+    "id": 494600,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/FIFA%2023"
+   },
+   {
+    "id": 297998,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1811260"
+   },
+   {
+    "id": 299797,
+    "type": 1,
+    "url": "https://www.ea.com/games/fifa/fifa-23?utm_source=youtube&ts=1658369688853&cid=73912&utm_campaign=fifa23_hd_ww_ic_soco_yt_fifa-23-homepage-yt&utm_medium=social"
    }
   ]
  },
@@ -31839,6 +34588,382 @@
     "id": 1119501,
     "type": 18,
     "url": "https://discord.gg/invite/farcry"
+   }
+  ]
+ },
+ "Farming Simulator 22": {
+  "collections": [
+   {
+    "id": 576,
+    "name": "Farming-Simulator"
+   }
+  ],
+  "cover": {
+   "id": 198447,
+   "image_id": "co494f"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 2064427,
+    "uid": "B097NQBY5Z"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064439,
+    "uid": "B097NPSHLL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075452,
+    "uid": "B099BJQRF5"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075505,
+    "uid": "B099BRN2BT"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2071927,
+    "uid": "B0988G8FWN"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2891131,
+    "uid": "B097QPR9C1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064596,
+    "uid": "B097QN8LFV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075596,
+    "uid": "B098412TMV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2170683,
+    "uid": "B09GYGQHL4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2170644,
+    "uid": "B098895S3P"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2754247,
+    "uid": "B099BGS5ZK"
+   },
+   {
+    "external_game_source": 23,
+    "id": 3083808,
+    "uid": "amzn1.adg.product.0d54e970-37b8-4493-b842-ba7dcd3c6529"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064589,
+    "uid": "B097QN1J74"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064425,
+    "uid": "B097NR5C9X"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064579,
+    "uid": "B097QPR9C1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075561,
+    "uid": "B099BGS5ZK"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2713027,
+    "uid": "B099BGS5ZK"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2864397,
+    "uid": "B097YJYY18"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2077380,
+    "uid": "B099SF86WP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2905127,
+    "uid": "B097NR5C9X"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2077405,
+    "uid": "B099SJMLFQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064563,
+    "uid": "B097QNDNVM"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2181791,
+    "uid": "9P6SRW1HVW9K"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2071917,
+    "uid": "B0988GNKVG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2072047,
+    "uid": "B0988HQ2J5"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2071999,
+    "uid": "B098895S3P"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075446,
+    "uid": "B0972TKPMW"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2071969,
+    "uid": "B0988GLRN9"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2118574,
+    "uid": "965242c7-baf4-4a2a-b29c-f1d733aba543"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2064561,
+    "uid": "B097NS1DSR"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2075569,
+    "uid": "B099C46JH4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2653429,
+    "uid": "B0988GNKVG"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2442607,
+    "uid": "9NBBCKL3LTRH"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2176181,
+    "uid": "10001771"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2628408,
+    "uid": "91468918931c44148b837e76d34bf75a"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2003178,
+    "uid": "1241582824"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2064031,
+    "uid": "1248130"
+   }
+  ],
+  "first_release_date": 1637539200,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   }
+  ],
+  "id": 146112,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 1527,
+     "name": "Giants Software"
+    },
+    "developer": true,
+    "id": 143093,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 24314,
+    "lancoop": true,
+    "offlinecoop": false,
+    "offlinecoopmax": 1,
+    "offlinemax": 1,
+    "onlinecoop": true,
+    "onlinecoopmax": 6,
+    "onlinemax": 6,
+    "platform": 49,
+    "splitscreen": false
+   }
+  ],
+  "name": "Farming Simulator 22",
+  "platforms": [
+   {
+    "abbreviation": "Stadia",
+    "id": 170,
+    "name": "Google Stadia"
+   },
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "slug": "farming-simulator-22",
+  "themes": [
+   {
+    "id": 28,
+    "name": "Business"
+   },
+   {
+    "id": 33,
+    "name": "Sandbox"
+   },
+   {
+    "id": 38,
+    "name": "Open world"
+   }
+  ],
+  "total_rating_count": 33,
+  "url": "https://www.igdb.com/games/farming-simulator-22",
+  "websites": [
+   {
+    "id": 836122,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/farming-simulator-22/9P6SRW1HVW9K"
+   },
+   {
+    "id": 836123,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10001771"
+   },
+   {
+    "id": 178806,
+    "type": 1,
+    "url": "https://farming-simulator.com/"
+   },
+   {
+    "id": 215455,
+    "type": 16,
+    "url": "https://www.epicgames.com/store/en-US/p/farming-simulator-22"
+   },
+   {
+    "id": 246685,
+    "type": 14,
+    "url": "https://www.reddit.com/r/farmingsimulator"
+   },
+   {
+    "id": 246684,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Farming%20Simulator%2022"
+   },
+   {
+    "id": 253248,
+    "type": 18,
+    "url": "https://discord.gg/giantssoftware"
+   },
+   {
+    "id": 188115,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1248130/Farming_Simulator_22"
+   },
+   {
+    "id": 246686,
+    "type": 2,
+    "url": "https://farmingsimulator.fandom.com/wiki/Farming_Simulator_22"
+   },
+   {
+    "id": 178811,
+    "type": 8,
+    "url": "https://www.instagram.com/farmingsimulator"
+   },
+   {
+    "id": 246687,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Farming_Simulator"
+   },
+   {
+    "id": 178810,
+    "type": 5,
+    "url": "https://twitter.com/farmingsim"
+   },
+   {
+    "id": 178809,
+    "type": 4,
+    "url": "https://www.facebook.com/giants.farming.simulator"
+   },
+   {
+    "id": 178808,
+    "type": 9,
+    "url": "https://www.youtube.com/channel/UCOmANDuJs2IHiEq8p9Ll5tw"
    }
   ]
  },
@@ -38470,6 +41595,299 @@
     "id": 1116121,
     "type": 2,
     "url": "http://godeater.fandom.com/wiki/God_Eater_Resurrection"
+   }
+  ]
+ },
+ "Golf With Your Friends": {
+  "collections": [
+   {
+    "id": 8163,
+    "name": "Golf with your Friends"
+   }
+  ],
+  "cover": {
+   "id": 480808,
+   "image_id": "coaazs"
+  },
+  "external_games": [
+   {
+    "external_game_source": 10,
+    "id": 190091,
+    "uid": "UCWQv5zjL7s2vkVzcudjdzKQ"
+   },
+   {
+    "external_game_source": 54,
+    "id": 3141969,
+    "uid": "9N14G09PWG74"
+   },
+   {
+    "external_game_source": 3,
+    "id": 206971,
+    "uid": "52572"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2084500,
+    "uid": "B09CGYR8VC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2747956,
+    "uid": "B09G3Q8YGM"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2160253,
+    "uid": "9MVK5W0HMRP7"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2125111,
+    "uid": "B09GVQLFS8"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2747960,
+    "uid": "B09G3Q8YGM"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2081784,
+    "uid": "9N14G09PWG74"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2175168,
+    "uid": "235061"
+   },
+   {
+    "external_game_source": 14,
+    "id": 245362,
+    "uid": "491381"
+   },
+   {
+    "external_game_source": 5,
+    "id": 2988940,
+    "uid": "1265338731"
+   },
+   {
+    "external_game_source": 1,
+    "id": 6344,
+    "uid": "431240"
+   },
+   {
+    "external_game_source": 22,
+    "id": 3202791,
+    "uid": "amzn1.adg.product.df0e4fb3-96e6-4464-94c8-7d432576ecb0"
+   },
+   {
+    "external_game_source": 23,
+    "id": 3130271,
+    "uid": "amzn1.adg.product.df0e4fb3-96e6-4464-94c8-7d432576ecb0"
+   }
+  ],
+  "first_release_date": 1589846400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 24,
+    "name": "Tactical"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "id": 24985,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 10230,
+     "name": "Blacklight Interactive"
+    },
+    "developer": true,
+    "id": 96868,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 16437,
+     "name": "Team17"
+    },
+    "developer": false,
+    "id": 129019,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 38591,
+     "name": "Pingle Game Studio"
+    },
+    "developer": false,
+    "id": 232080,
+    "publisher": false
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 13420,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": false,
+    "onlinemax": 12,
+    "splitscreen": false
+   }
+  ],
+  "name": "Golf With Your Friends",
+  "platforms": [
+   {
+    "abbreviation": "Stadia",
+    "id": 170,
+    "name": "Google Stadia"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "Linux",
+    "id": 3,
+    "name": "Linux"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "slug": "golf-with-your-friends",
+  "themes": [
+   {
+    "id": 35,
+    "name": "Kids"
+   },
+   {
+    "id": 40,
+    "name": "Party"
+   }
+  ],
+  "total_rating_count": 141,
+  "url": "https://www.igdb.com/games/golf-with-your-friends",
+  "websites": [
+   {
+    "id": 834550,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/golf-with-your-friends/9N14G09PWG74"
+   },
+   {
+    "id": 832145,
+    "type": 17,
+    "url": "https://www.gog.com/en/game/golf_with_your_friends"
+   },
+   {
+    "id": 834553,
+    "type": 19,
+    "url": "https://bsky.app/profile/team17.com"
+   },
+   {
+    "id": 834551,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/235061"
+   },
+   {
+    "id": 23000,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/431240"
+   },
+   {
+    "id": 298778,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Golf_with_Your_Friends"
+   },
+   {
+    "id": 1062871,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/golf-with-your-friends-switch/"
+   },
+   {
+    "id": 1062872,
+    "type": 1,
+    "url": "https://gwyf.golf/"
+   },
+   {
+    "id": 1062873,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/golf-with-your-friends"
+   },
+   {
+    "id": 1062874,
+    "type": 5,
+    "url": "https://x.com/GolfWYF"
+   },
+   {
+    "id": 1062875,
+    "type": 4,
+    "url": "https://www.facebook.com/GolfWYF/"
+   },
+   {
+    "id": 1062877,
+    "type": 9,
+    "url": "https://www.youtube.com/@blacklightinteractive"
+   },
+   {
+    "id": 1062879,
+    "type": 18,
+    "url": "https://discord.gg/9VTx8WqX72"
+   },
+   {
+    "id": 1062876,
+    "type": 8,
+    "url": "https://www.instagram.com/thegolfwithyourfriends/"
+   },
+   {
+    "id": 1062878,
+    "type": 14,
+    "url": "https://www.reddit.com/r/GWYF/"
    }
   ]
  },
@@ -50206,6 +53624,189 @@
    }
   ]
  },
+ "Madden NFL 27": {
+  "collections": [
+   {
+    "id": 4740,
+    "name": "Madden NFL"
+   }
+  ],
+  "cover": {
+   "id": 569282,
+   "image_id": "coc79e"
+  },
+  "external_games": [
+   {
+    "external_game_source": 14,
+    "id": 3171253,
+    "uid": "670138298"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3182744,
+    "uid": "10016736"
+   },
+   {
+    "external_game_source": 1,
+    "id": 3170593,
+    "uid": "3940610"
+   }
+  ],
+  "first_release_date": 1786579200,
+  "franchises": [
+   {
+    "id": 3213,
+    "name": "Madden"
+   },
+   {
+    "id": 224,
+    "name": "NFL"
+   },
+   {
+    "id": 5290,
+    "name": "NFL Players Association"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 4,
+    "name": "Split screen"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   }
+  ],
+  "hypes": 2,
+  "id": 400379,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 384321,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 555,
+     "name": "EA Orlando"
+    },
+    "developer": true,
+    "id": 384322,
+    "publisher": false
+   }
+  ],
+  "name": "Madden NFL 27",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "Switch 2",
+    "id": 508,
+    "name": "Nintendo Switch 2"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "slug": "madden-nfl-27",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   }
+  ],
+  "total_rating_count": 1,
+  "url": "https://www.igdb.com/games/madden-nfl-27",
+  "websites": [
+   {
+    "id": 1050977,
+    "type": 16,
+    "url": "https://store.epicgames.com/p/madden-nfl-27-855a9c"
+   },
+   {
+    "id": 1050978,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/ea-sports-madden-nfl-27/9nj6f163vf8c"
+   },
+   {
+    "id": 1050979,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10016736"
+   },
+   {
+    "id": 1050980,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/3940610"
+   },
+   {
+    "id": 1050981,
+    "type": 1,
+    "url": "https://www.ea.com/games/madden-nfl/madden-nfl-27"
+   },
+   {
+    "id": 1050983,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/ea-sports-madden-nfl-27-switch-2/"
+   },
+   {
+    "id": 1050984,
+    "type": 5,
+    "url": "https://x.com/EAMaddenNFL"
+   },
+   {
+    "id": 1050985,
+    "type": 4,
+    "url": "https://www.facebook.com/EASPORTSMADDENNFL/"
+   },
+   {
+    "id": 1050986,
+    "type": 8,
+    "url": "https://www.instagram.com/eamaddennfl/?hl=en"
+   },
+   {
+    "id": 1050987,
+    "type": 9,
+    "url": "https://www.youtube.com/@EAMaddenNFL"
+   }
+  ]
+ },
  "Mantis Burn Racing": {
   "cover": {
    "id": 99760,
@@ -57957,6 +61558,212 @@
    }
   ]
  },
+ "NBA 2K25": {
+  "collections": [
+   {
+    "id": 659,
+    "name": "NBA 2K"
+   }
+  ],
+  "cover": {
+   "id": 411336,
+   "image_id": "co8te0"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 3222175,
+    "uid": "B0DFC1NB6Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3224931,
+    "uid": "B0DFC5DG6P"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2946128,
+    "uid": "9PL2XQ4GF10R"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3219862,
+    "uid": "B0D96QNZWH"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3220067,
+    "uid": "B0D9C2438C"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3223155,
+    "uid": "B0D96G3NBY"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2930680,
+    "uid": "2068583461"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2929355,
+    "uid": "2878980"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2929034,
+    "uid": "10010481"
+   }
+  ],
+  "first_release_date": 1725580800,
+  "franchises": [
+   {
+    "id": 16,
+    "name": "NBA"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 5,
+  "id": 308034,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 20228,
+     "name": "2K"
+    },
+    "developer": false,
+    "id": 275640,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 694,
+     "name": "Visual Concepts"
+    },
+    "developer": true,
+    "id": 275639,
+    "publisher": false
+   }
+  ],
+  "name": "NBA 2K25",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "slug": "nba-2k25",
+  "total_rating_count": 31,
+  "url": "https://www.igdb.com/games/nba-2k25",
+  "websites": [
+   {
+    "id": 757681,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/nba-2k25-switch/"
+   },
+   {
+    "id": 757682,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/nba-2k25-standard-edition/9PL2XQ4GF10R"
+   },
+   {
+    "id": 757683,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10010481"
+   },
+   {
+    "id": 652834,
+    "type": 8,
+    "url": "https://www.instagram.com/nba2k/"
+   },
+   {
+    "id": 652835,
+    "type": 18,
+    "url": "https://discord.gg/nba2k"
+   },
+   {
+    "id": 652693,
+    "type": 1,
+    "url": "https://nba.2k.com/2k25/"
+   },
+   {
+    "id": 652752,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2878980/NBA_2K25/"
+   },
+   {
+    "id": 652830,
+    "type": 6,
+    "url": "https://twitch.tv/nba2k/"
+   },
+   {
+    "id": 652833,
+    "type": 5,
+    "url": "https://twitter.com/nba2k"
+   },
+   {
+    "id": 652831,
+    "type": 9,
+    "url": "https://www.youtube.com/@nba2k/"
+   },
+   {
+    "id": 652832,
+    "type": 4,
+    "url": "https://www.facebook.com/NBA2K"
+   }
+  ]
+ },
  "NBA 2K26": {
   "collections": [
    {
@@ -58199,6 +62006,193 @@
    }
   ]
  },
+ "NBA 2K27": {
+  "collections": [
+   {
+    "id": 659,
+    "name": "NBA 2K"
+   }
+  ],
+  "cover": {
+   "id": 585949,
+   "image_id": "cock4d"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 3197364,
+    "uid": "4356430"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3222232,
+    "uid": "B0HDV33KSH"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3219816,
+    "uid": "B0HDTXDV1L"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3208226,
+    "uid": "10018502"
+   },
+   {
+    "external_game_source": 14,
+    "id": 3197776,
+    "uid": "602040818"
+   }
+  ],
+  "first_release_date": 1788480000,
+  "franchises": [
+   {
+    "id": 16,
+    "name": "NBA"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 1,
+  "id": 408823,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 694,
+     "name": "Visual Concepts"
+    },
+    "developer": true,
+    "id": 399614,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 20228,
+     "name": "2K"
+    },
+    "developer": false,
+    "id": 399615,
+    "publisher": true
+   }
+  ],
+  "name": "NBA 2K27",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "Switch 2",
+    "id": 508,
+    "name": "Nintendo Switch 2"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "slug": "nba-2k27",
+  "themes": [
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "total_rating_count": 1,
+  "url": "https://www.igdb.com/games/nba-2k27",
+  "websites": [
+   {
+    "id": 1080566,
+    "type": 1,
+    "url": "https://nba.2k.com/2k27/"
+   },
+   {
+    "id": 1080568,
+    "type": 5,
+    "url": "https://twitter.com/nba2k"
+   },
+   {
+    "id": 1080569,
+    "type": 4,
+    "url": "https://www.facebook.com/NBA2K/"
+   },
+   {
+    "id": 1080570,
+    "type": 8,
+    "url": "https://www.instagram.com/nba2k/"
+   },
+   {
+    "id": 1080571,
+    "type": 9,
+    "url": "https://www.youtube.com/nba2k"
+   },
+   {
+    "id": 1080572,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/NBA_2K27"
+   },
+   {
+    "id": 1080573,
+    "type": 18,
+    "url": "https://discord.gg/nba2k"
+   },
+   {
+    "id": 1087753,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/4356430/NBA_2K27/"
+   },
+   {
+    "id": 1087761,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10018502"
+   },
+   {
+    "id": 1088012,
+    "type": 22,
+    "url": "https://www.xbox.com/en-US/games/store/nba-2k27/9MTX99PFKLWD"
+   },
+   {
+    "id": 1088013,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/nba-2k27-switch-2/"
+   },
+   {
+    "id": 1088014,
+    "type": 6,
+    "url": "https://twitch.tv/nba2k"
+   }
+  ]
+ },
  "NHL 26": {
   "collections": [
    {
@@ -58313,6 +62307,118 @@
     "id": 846682,
     "type": 1,
     "url": "https://www.ea.com/games/nhl/nhl-26"
+   }
+  ]
+ },
+ "NHL 27": {
+  "collections": [
+   {
+    "id": 3001,
+    "name": "EA Sports NHL"
+   }
+  ],
+  "cover": {
+   "id": 587912,
+   "image_id": "coclmw"
+  },
+  "external_games": [
+   {
+    "external_game_source": 14,
+    "id": 3192671,
+    "uid": "518584827"
+   }
+  ],
+  "first_release_date": 1789084800,
+  "franchises": [
+   {
+    "id": 220,
+    "name": "NHL"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 1,
+  "id": 408771,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 27222,
+     "name": "EA Vancouver"
+    },
+    "developer": true,
+    "id": 399493,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 399494,
+    "publisher": true
+   }
+  ],
+  "name": "NHL 27",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "slug": "nhl-27",
+  "themes": [
+   {
+    "id": 32,
+    "name": "Non-fiction"
+   }
+  ],
+  "total_rating_count": 1,
+  "url": "https://www.igdb.com/games/nhl-27",
+  "websites": [
+   {
+    "id": 1080273,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10017367/"
+   },
+   {
+    "id": 1080274,
+    "type": 22,
+    "url": "https://www.xbox.com/en-US/games/store/nhl-27/9P35LHV1MLPC"
+   },
+   {
+    "id": 1080275,
+    "type": 1,
+    "url": "https://www.ea.com/games/nhl/nhl-27"
    }
   ]
  },
@@ -65442,6 +69548,263 @@
    }
   ]
  },
+ "Path of Exile": {
+  "collections": [
+   {
+    "id": 10011,
+    "name": "Path of Exile"
+   }
+  ],
+  "cover": {
+   "id": 76712,
+   "image_id": "co1n6w"
+  },
+  "external_games": [
+   {
+    "external_game_source": 11,
+    "id": 210769,
+    "uid": "BWC95BZPFBS7"
+   },
+   {
+    "external_game_source": 10,
+    "id": 189500,
+    "uid": "UCKU8OdsbxrZMrYJ047DliqA"
+   },
+   {
+    "external_game_source": 3,
+    "id": 127440,
+    "uid": "32562"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2627021,
+    "uid": "0e8695f8a0a648a78f20e3412cd501e5"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2591676,
+    "uid": "946fb519-cfd1-4138-9712-9454015d44a3"
+   },
+   {
+    "external_game_source": 14,
+    "id": 245117,
+    "uid": "29307"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2176355,
+    "uid": "231987"
+   },
+   {
+    "external_game_source": 1,
+    "id": 12608,
+    "uid": "238960"
+   }
+  ],
+  "first_release_date": 1382486400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 25,
+    "name": "Hack and slash/Beat 'em up"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 3,
+  "id": 1911,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 919,
+     "name": "Grinding Gear Games"
+    },
+    "developer": true,
+    "id": 279203,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 8196,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 0,
+    "onlinemax": 6,
+    "platform": 49,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 958,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 6,
+    "onlinemax": 0,
+    "platform": 6,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 21831,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 6,
+    "onlinemax": 0,
+    "platform": 14,
+    "splitscreen": false
+   }
+  ],
+  "name": "Path of Exile",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "slug": "path-of-exile",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   },
+   {
+    "id": 19,
+    "name": "Horror"
+   }
+  ],
+  "total_rating_count": 497,
+  "url": "https://www.igdb.com/games/path-of-exile",
+  "websites": [
+   {
+    "id": 781995,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/231987"
+   },
+   {
+    "id": 139145,
+    "type": 18,
+    "url": "https://discordapp.com/invite/zC6s5nT"
+   },
+   {
+    "id": 78687,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Path_of_Exile"
+   },
+   {
+    "id": 112315,
+    "type": 4,
+    "url": "https://www.facebook.com/pathofexile"
+   },
+   {
+    "id": 15275,
+    "type": 1,
+    "url": "http://www.pathofexile.com"
+   },
+   {
+    "id": 112319,
+    "type": 14,
+    "url": "https://www.reddit.com/r/pathofexile"
+   },
+   {
+    "id": 240129,
+    "type": 16,
+    "url": "https://www.epicgames.com/store/en-US/p/path-of-exile"
+   },
+   {
+    "id": 513521,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Path%20of%20Exile"
+   },
+   {
+    "id": 624894,
+    "type": 2,
+    "url": "https://www.poewiki.net/wiki/Path_of_Exile_Wiki"
+   },
+   {
+    "id": 112316,
+    "type": 5,
+    "url": "https://twitter.com/pathofexile"
+   },
+   {
+    "id": 15276,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/238960"
+   },
+   {
+    "id": 513522,
+    "type": 8,
+    "url": "https://www.instagram.com/playpathofexile"
+   },
+   {
+    "id": 112318,
+    "type": 9,
+    "url": "https://www.youtube.com/channel/UCA7X5unt1JrIiVReQDUbl_A"
+   }
+  ]
+ },
  "Path of Exile 2": {
   "collections": [
    {
@@ -67940,6 +72303,141 @@
     "id": 833855,
     "type": 14,
     "url": "https://www.reddit.com/r/psbattleroyale/"
+   }
+  ]
+ },
+ "Pokémon Trading Card Game Live": {
+  "cover": {
+   "id": 269282,
+   "image_id": "co5rs2"
+  },
+  "external_games": [
+   {
+    "external_game_source": 14,
+    "id": 2122951,
+    "uid": "155409827"
+   }
+  ],
+  "first_release_date": 1645056000,
+  "franchises": [
+   {
+    "id": 60,
+    "name": "Pokémon"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 35,
+    "name": "Card & Board Game"
+   }
+  ],
+  "hypes": 2,
+  "id": 171816,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 13187,
+     "name": "The Pokémon Company International"
+    },
+    "developer": true,
+    "id": 220155,
+    "publisher": true
+   }
+  ],
+  "name": "Pokémon Trading Card Game Live",
+  "platforms": [
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   }
+  ],
+  "slug": "pokemon-trading-card-game-live",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   },
+   {
+    "id": 18,
+    "name": "Science fiction"
+   },
+   {
+    "id": 35,
+    "name": "Kids"
+   }
+  ],
+  "total_rating_count": 19,
+  "url": "https://www.igdb.com/games/pokemon-trading-card-game-live",
+  "websites": [
+   {
+    "id": 469807,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Pok%C3%A9mon%20Trading%20Card%20Game%20Live"
+   },
+   {
+    "id": 519700,
+    "type": 11,
+    "url": "http://itunes.apple.com/us/app/id1557962344#?platform=ipad"
+   },
+   {
+    "id": 644432,
+    "type": 14,
+    "url": "https://www.reddit.com/r/PTCGL/"
+   },
+   {
+    "id": 226906,
+    "type": 1,
+    "url": "https://tcg.pokemon.com/tcgl"
+   },
+   {
+    "id": 644433,
+    "type": 2,
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game_Live"
+   },
+   {
+    "id": 519699,
+    "type": 10,
+    "url": "http://itunes.apple.com/us/app/id1557962344#?platform=iphone"
+   },
+   {
+    "id": 615781,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.pokemon.pokemontcgl"
    }
   ]
  },
@@ -70687,6 +75185,189 @@
     "id": 318445,
     "type": 3,
     "url": "https://en.wikipedia.org/wiki/Ragnarok_Odyssey"
+   }
+  ]
+ },
+ "Raid: Shadow Legends": {
+  "cover": {
+   "id": 99998,
+   "image_id": "co255q"
+  },
+  "external_games": [
+   {
+    "external_game_source": 3,
+    "id": 1458459,
+    "uid": "69647"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2722684,
+    "uid": "9cba914a413940f880c3e08bcc3f1588"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2159636,
+    "uid": "9P1VWDPC7FNQ"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2871125,
+    "uid": "2333480"
+   },
+   {
+    "external_game_source": 14,
+    "id": 1707272,
+    "uid": "508948"
+   }
+  ],
+  "first_release_date": 1532822400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 16,
+    "name": "Turn-based strategy (TBS)"
+   }
+  ],
+  "id": 109029,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 25194,
+     "name": "Plarium Games"
+    },
+    "developer": true,
+    "id": 101485,
+    "publisher": true
+   }
+  ],
+  "name": "Raid: Shadow Legends",
+  "platforms": [
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   }
+  ],
+  "slug": "raid-shadow-legends",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   }
+  ],
+  "total_rating_count": 25,
+  "url": "https://www.igdb.com/games/raid-shadow-legends",
+  "websites": [
+   {
+    "id": 139940,
+    "type": 8,
+    "url": "https://www.instagram.com/plarium"
+   },
+   {
+    "id": 656496,
+    "type": 14,
+    "url": "https://www.reddit.com/r/RaidShadowLegends/"
+   },
+   {
+    "id": 139941,
+    "type": 9,
+    "url": "https://www.youtube.com/user/PlariumGames"
+   },
+   {
+    "id": 125512,
+    "type": 1,
+    "url": "https://plarium.com/forum/en/raid-shadow-legends/"
+   },
+   {
+    "id": 139939,
+    "type": 4,
+    "url": "https://www.facebook.com/PlariumGames"
+   },
+   {
+    "id": 351277,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Raid:%20Shadow%20Legends"
+   },
+   {
+    "id": 258582,
+    "type": 11,
+    "url": "https://itunes.apple.com/us/app/id1371565796#?platform=ipad"
+   },
+   {
+    "id": 566513,
+    "type": 16,
+    "url": "https://store.epicgames.com/en-US/p/raid-shadow-legends-b70e14"
+   },
+   {
+    "id": 125513,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/RAID:_Shadow_Legends"
+   },
+   {
+    "id": 125514,
+    "type": 5,
+    "url": "https://twitter.com/RaidRPG"
+   },
+   {
+    "id": 125515,
+    "type": 10,
+    "url": "https://apps.apple.com/us/app/raid-shadow-legends/id1371565796"
+   },
+   {
+    "id": 125516,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.plarium.raidlegends&hl=en"
+   },
+   {
+    "id": 603152,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2333480"
+   },
+   {
+    "id": 656497,
+    "type": 2,
+    "url": "https://raidshadowlegends.fandom.com/wiki/Raid:_Shadow_Legends_Wiki"
+   },
+   {
+    "id": 566514,
+    "type": 18,
+    "url": "https://discord.gg/raidshadowlegends"
    }
   ]
  },
@@ -74708,6 +79389,222 @@
     "id": 184277,
     "type": 14,
     "url": "https://www.reddit.com/r/RogueCompany"
+   }
+  ]
+ },
+ "RuneScape": {
+  "collections": [
+   {
+    "id": 821,
+    "name": "RuneScape"
+   }
+  ],
+  "cover": {
+   "id": 528001,
+   "image_id": "cobbep"
+  },
+  "external_games": [
+   {
+    "external_game_source": 3,
+    "id": 154948,
+    "uid": "2268"
+   },
+   {
+    "external_game_source": 10,
+    "id": 189176,
+    "uid": "UCE7EiNXFpDIapOuIRSfqGNg"
+   },
+   {
+    "external_game_source": 3,
+    "id": 509628,
+    "uid": "23411"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2049550,
+    "uid": "1343400"
+   },
+   {
+    "external_game_source": 14,
+    "id": 245109,
+    "uid": "2083"
+   }
+  ],
+  "first_release_date": 978566400,
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "id": 5611,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 16404,
+     "name": "Jagex"
+    },
+    "developer": true,
+    "id": 331006,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": true,
+    "id": 18065,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 10,
+    "onlinemax": 2000,
+    "splitscreen": false
+   }
+  ],
+  "name": "RuneScape",
+  "platforms": [
+   {
+    "abbreviation": "browser",
+    "id": 82,
+    "name": "Web browser"
+   },
+   {
+    "abbreviation": "Linux",
+    "id": 3,
+    "name": "Linux"
+   },
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   }
+  ],
+  "slug": "runescape",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   },
+   {
+    "id": 28,
+    "name": "Business"
+   },
+   {
+    "id": 33,
+    "name": "Sandbox"
+   },
+   {
+    "id": 38,
+    "name": "Open world"
+   }
+  ],
+  "total_rating_count": 144,
+  "url": "https://www.igdb.com/games/runescape",
+  "websites": [
+   {
+    "id": 64237,
+    "type": 8,
+    "url": "https://www.instagram.com/runescape"
+   },
+   {
+    "id": 154069,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.jagex.runescape.android"
+   },
+   {
+    "id": 264032,
+    "type": 10,
+    "url": "https://apps.apple.com/us/app/runescape/id1332022656"
+   },
+   {
+    "id": 746151,
+    "type": 5,
+    "url": "https://x.com/RuneScape"
+   },
+   {
+    "id": 746152,
+    "type": 9,
+    "url": "https://www.youtube.com/runescape/"
+   },
+   {
+    "id": 746150,
+    "type": 1,
+    "url": "https://www.RuneScape.com"
+   },
+   {
+    "id": 153964,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1343400"
+   },
+   {
+    "id": 332384,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/RuneScape"
+   },
+   {
+    "id": 64234,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/RuneScape"
+   },
+   {
+    "id": 264033,
+    "type": 11,
+    "url": "https://apps.apple.com/us/app/runescape/id1332022656"
+   },
+   {
+    "id": 116672,
+    "type": 14,
+    "url": "https://www.reddit.com/r/runescape"
+   },
+   {
+    "id": 597921,
+    "type": 2,
+    "url": "https://runescape.wiki/w/RuneScape"
+   },
+   {
+    "id": 1066124,
+    "type": 4,
+    "url": "https://facebook.com/runescape"
+   },
+   {
+    "id": 1066125,
+    "type": 18,
+    "url": "https://discord.gg/rs"
    }
   ]
  },
@@ -83139,6 +88036,257 @@
     "id": 38653,
     "type": 1,
     "url": "http://www.squareheroes.com"
+   }
+  ]
+ },
+ "Star Trek Online": {
+  "collections": [
+   {
+    "id": 3440,
+    "name": "Star Trek"
+   }
+  ],
+  "cover": {
+   "id": 77908,
+   "image_id": "co1o44"
+  },
+  "external_games": [
+   {
+    "external_game_source": 10,
+    "id": 188884,
+    "uid": "UC4rKnB4ZoRMipk0C2Y-nRmg"
+   },
+   {
+    "external_game_source": 3,
+    "id": 137258,
+    "uid": "21810"
+   },
+   {
+    "external_game_source": 11,
+    "id": 210929,
+    "uid": "C3LF9PCRP9RP"
+   },
+   {
+    "external_game_source": 1,
+    "id": 14805,
+    "uid": "9900"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2626695,
+    "uid": "c97c99cb46a244db9447cfaf60e0ec3b"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2118361,
+    "uid": "4daef7d6-afa8-4a29-bb57-832ce43dc319"
+   },
+   {
+    "external_game_source": 14,
+    "id": 245517,
+    "uid": "19858"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2176325,
+    "uid": "222446"
+   }
+  ],
+  "first_release_date": 1265068800,
+  "franchises": [
+   {
+    "id": 18,
+    "name": "Star Trek"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 24,
+    "name": "Tactical"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "id": 7584,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 916,
+     "name": "Cryptic Studios"
+    },
+    "developer": true,
+    "id": 33256,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 917,
+     "name": "Perfect World Entertainment"
+    },
+    "developer": false,
+    "id": 35247,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 2406,
+     "name": "Atari, Inc."
+    },
+    "developer": false,
+    "id": 98020,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 8265,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 0,
+    "offlinemax": 0,
+    "onlinecoop": true,
+    "onlinecoopmax": 0,
+    "onlinemax": 5,
+    "platform": 49,
+    "splitscreen": false
+   }
+  ],
+  "name": "Star Trek Online",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "slug": "star-trek-online",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 18,
+    "name": "Science fiction"
+   },
+   {
+    "id": 39,
+    "name": "Warfare"
+   }
+  ],
+  "total_rating_count": 48,
+  "url": "https://www.igdb.com/games/star-trek-online",
+  "websites": [
+   {
+    "id": 788538,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/222446"
+   },
+   {
+    "id": 19010,
+    "type": 5,
+    "url": "https://twitter.com/trekonlinegame"
+   },
+   {
+    "id": 19008,
+    "type": 2,
+    "url": "http://startrekonline.wikia.com"
+   },
+   {
+    "id": 19009,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Star_Trek_Online"
+   },
+   {
+    "id": 67044,
+    "type": 1,
+    "url": "http://www.startrekonline.com"
+   },
+   {
+    "id": 222642,
+    "type": 16,
+    "url": "https://www.epicgames.com/store/p/star-trek-online"
+   },
+   {
+    "id": 222643,
+    "type": 4,
+    "url": "https://www.facebook.com/StarTrekOnlineGame/"
+   },
+   {
+    "id": 19011,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/9900"
+   },
+   {
+    "id": 332778,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Star%20Trek%20Online"
+   },
+   {
+    "id": 1017004,
+    "type": 18,
+    "url": "https://discord.gg/XHeEbM4qZb"
+   },
+   {
+    "id": 1017005,
+    "type": 14,
+    "url": "https://www.reddit.com/r/sto/"
+   },
+   {
+    "id": 1017007,
+    "type": 9,
+    "url": "https://www.youtube.com/@StarTrekOnlineGame"
+   },
+   {
+    "id": 1103090,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/star-trek-online/C3LF9PCRP9RP"
    }
   ]
  },
@@ -92104,6 +97252,189 @@
     "id": 633231,
     "type": 9,
     "url": "https://www.youtube.com/channel/UCRjkGad-W6aGpLcZ0AKealg"
+   }
+  ]
+ },
+ "The Forest": {
+  "collections": [
+   {
+    "id": 9812,
+    "name": "The Forest"
+   }
+  ],
+  "cover": {
+   "id": 557934,
+   "image_id": "cobyi6"
+  },
+  "external_games": [
+   {
+    "external_game_source": 10,
+    "id": 188795,
+    "uid": "UC1FmDC0aitSDxQdRpMbguEg"
+   },
+   {
+    "external_game_source": 3,
+    "id": 150036,
+    "uid": "7675"
+   },
+   {
+    "external_game_source": 1,
+    "id": 12556,
+    "uid": "242760"
+   },
+   {
+    "external_game_source": 14,
+    "id": 245246,
+    "uid": "7022"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2175899,
+    "uid": "231416"
+   }
+  ],
+  "first_release_date": 1525046400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 9,
+    "name": "Puzzle"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "hypes": 2,
+  "id": 7504,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 3108,
+     "name": "Endnight Games Ltd"
+    },
+    "developer": true,
+    "id": 69292,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 17267,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinecoopmax": 1,
+    "offlinemax": 1,
+    "onlinecoop": true,
+    "onlinecoopmax": 8,
+    "onlinemax": 8,
+    "platform": 6,
+    "splitscreen": false
+   }
+  ],
+  "name": "The Forest",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "Steam VR",
+    "id": 163,
+    "name": "SteamVR"
+   }
+  ],
+  "slug": "the-forest",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 19,
+    "name": "Horror"
+   },
+   {
+    "id": 21,
+    "name": "Survival"
+   },
+   {
+    "id": 38,
+    "name": "Open world"
+   }
+  ],
+  "total_rating_count": 399,
+  "url": "https://www.igdb.com/games/the-forest",
+  "websites": [
+   {
+    "id": 44973,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/The_Forest_(video_game)"
+   },
+   {
+    "id": 828836,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/231416"
+   },
+   {
+    "id": 13974,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/242760"
+   },
+   {
+    "id": 66596,
+    "type": 1,
+    "url": "http://survivetheforest.com/"
+   },
+   {
+    "id": 332515,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/The%20Forest"
+   },
+   {
+    "id": 657505,
+    "type": 14,
+    "url": "https://www.reddit.com/r/TheForest/"
+   },
+   {
+    "id": 662018,
+    "type": 2,
+    "url": "https://theforest.fandom.com/wiki/The_Forest"
+   },
+   {
+    "id": 1097666,
+    "type": 18,
+    "url": "https://discord.gg/sotf"
    }
   ]
  },
@@ -106160,6 +111491,185 @@
     "id": 187751,
     "type": 3,
     "url": "https://en.wikipedia.org/wiki/Wipeout_HD"
+   }
+  ]
+ },
+ "Wizard101": {
+  "cover": {
+   "id": 547602,
+   "image_id": "cobqj6"
+  },
+  "external_games": [
+   {
+    "external_game_source": 3,
+    "id": 136138,
+    "uid": "23092"
+   },
+   {
+    "external_game_source": 1,
+    "id": 1484047,
+    "uid": "799960"
+   },
+   {
+    "external_game_source": 14,
+    "id": 1974672,
+    "uid": "20941"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3109338,
+    "uid": "10010939"
+   }
+  ],
+  "first_release_date": 1220313600,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "id": 47101,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 20518,
+     "name": "KingsIsle Entertainment"
+    },
+    "developer": true,
+    "id": 79917,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 39990,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "splitscreen": false
+   }
+  ],
+  "name": "Wizard101",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "slug": "wizard101",
+  "themes": [
+   {
+    "id": 17,
+    "name": "Fantasy"
+   }
+  ],
+  "total_rating_count": 30,
+  "url": "https://www.igdb.com/games/wizard101",
+  "websites": [
+   {
+    "id": 746185,
+    "type": 1,
+    "url": "https://www.wizard101.com/game"
+   },
+   {
+    "id": 89633,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/799960"
+   },
+   {
+    "id": 108410,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Wizard101"
+   },
+   {
+    "id": 893555,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10010939"
+   },
+   {
+    "id": 804887,
+    "type": 22,
+    "url": "https://www.xbox.com/en-US/games/store/wizard101-game-preview/9NHKG3JGD9Z3/0010"
+   },
+   {
+    "id": 746186,
+    "type": 5,
+    "url": "https://x.com/Wizard101"
+   },
+   {
+    "id": 727935,
+    "type": 9,
+    "url": "https://www.youtube.com/KingsIsle/"
+   },
+   {
+    "id": 807452,
+    "type": 18,
+    "url": "https://discord.gg/wizard101"
+   },
+   {
+    "id": 108411,
+    "type": 4,
+    "url": "https://www.facebook.com/wizard101"
+   },
+   {
+    "id": 431115,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Wizard101"
+   },
+   {
+    "id": 989815,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/wizard101-switch/"
    }
   ]
  },

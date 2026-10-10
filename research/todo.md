@@ -20,3 +20,8 @@ Needs a better source before adding:
 - Super Battle Golf: consoles (PS5, Xbox Series, Switch 2) announced for summer 2026; crossplay unknown.
 - Gunfire Reborn: Steam separate from Xbox/Game Pass (different publisher); PS/Switch/mobile unclear.
 - Strinova: no crossplay info found.
+- Wreckfest: PS4/PS5 cross-gen; PC cross-store (Steam/GOG/Epic) reported; PC↔console unclear.
+- Battlefield 1: likely no crossplay but only forum sources found.
+- Teardown: console multiplayer due Sep 15 2026; PC↔console crossplay unknown.
+- Shadowverse: Worlds Beyond: account link PC/mobile confirmed; shared matchmaking not confirmed.
+- XDefiant: shut down June 2025 — skip.
