@@ -428,7 +428,18 @@ def cover(g, size="t_cover_big", w=264, h=352, cls="cover"):
     return f'<div class="{cls} cover-blank" aria-hidden="true"><span>{e(initials)}</span></div>'
 
 
-def chip(k, cls=""):
+HUBS = set()  # platform keys that have a hub page; filled in build() before game pages are rendered
+
+
+class Raw(str):
+    """Fact value that is already HTML (so it isn't escaped again)."""
+
+
+def chip(k, cls="", link=False):
+    """Platform chip. link=True makes it a link to the platform's hub (not inside cards, which are links already)."""
+    if link and k in HUBS:
+        return (f'<a class="chip p-{k} {cls}" href="{url("/platforms/" + PLATFORMS[k][2] + "/")}" '
+                f'title="All {e(PLATFORMS[k][1])} crossplay games">{e(PLATFORMS[k][1])}</a>')
     return f'<span class="chip p-{k} {cls}">{e(PLATFORMS[k][1])}</span>'
 
 
@@ -493,11 +504,11 @@ def game_page(g, games):
         partial = (f'<p class="small">Partial support: {e(plist(gr["partial"]))}</p>' if gr["partial"] else "")
         others = f'<p class="small">Also: {e(", ".join(gr["others"]))}</p>' if gr["others"] else ""
         rows.append(f'<div class="pool"><h3>{label}</h3><div class="chips big">'
-                    f'{"".join(chip(k, "partial" if k in gr["partial"] else "") for k in gr["platforms"])}</div>'
+                    f'{"".join(chip(k, "partial" if k in gr["partial"] else "", link=True) for k in gr["platforms"])}</div>'
                     f'{stores}{partial}{others}</div>')
     if g["outside"]:
         rows.append(f'<div class="pool outside"><h3>Not confirmed</h3><div class="chips big">'
-                    f'{"".join(chip(k) for k in g["outside"])}</div>'
+                    f'{"".join(chip(k, link=True) for k in g["outside"])}</div>'
                     f'<p class="small">Released here, but no crossplay source lists this version (or it may no longer be sold).</p></div>')
     heading = "Who can play with whom" if len(g["groups"]) > 1 or g["outside"] else "Platforms that play together"
     parts.append(f'<section><h2>{heading}</h2><div class="pools">{"".join(rows)}</div></section>')
@@ -606,7 +617,8 @@ def game_page(g, games):
     if g["genres"]:
         facts.append(("Genre", ", ".join(g["genres"][:3])))
     if g["available"]:
-        facts.append(("Platforms", plist([k for k in g["available"] if k not in CLOUD], short=True)))
+        facts.append(("Platforms", Raw('<span class="chips">' + "".join(
+            chip(k, link=True) for k in g["available"] if k not in CLOUD) + "</span>")))
     if g["gamepass"]:
         facts.append(("Game Pass", {("console", "pc"): "Console and PC", ("console",): "Console",
                                     ("pc",): "PC"}[tuple(g["gamepass"])] + f" (as of {nice_date(GP_DATE)})"))
@@ -619,7 +631,7 @@ def game_page(g, games):
                       '</dl><p class="small">From IGDB\'s multiplayer data; modes can differ by platform.</p>'
                       if mp else "") +
                      '</div><div><h2>Game details</h2><dl class="facts">' +
-                     "".join(f"<div><dt>{e(a)}</dt><dd>{e(b)}</dd></div>" for a, b in facts) +
+                     "".join(f"<div><dt>{e(a)}</dt><dd>{b if isinstance(b, Raw) else e(b)}</dd></div>" for a, b in facts) +
                      "</dl></div></section>")
 
     # Sources
@@ -709,6 +721,7 @@ def build():
     fetched = wiki.get("fetched", TODAY.isoformat())
     pages = {}
 
+    HUBS.update(k for k in CURRENT if PLATFORMS[k][2] and sum(1 for g in current if platform_match(g, k)) >= 3)
     for g in games:
         pages["/games/" + g["slug"] + "/"] = game_page(g, games)
 

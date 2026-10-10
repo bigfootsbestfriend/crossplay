@@ -282,3 +282,8 @@ select { font: inherit; padding: .45rem .6rem; border-radius: 10px; border: 1.5p
 .hp { position: absolute; left: -9999px; width: 1px; height: 1px; }
 .sent { margin: 0; font-weight: 600; color: var(--yes); }
 .sent.err { color: var(--no); }
+
+/* Linked platform chips on game pages */
+a.chip { text-decoration: none; transition: filter .15s, box-shadow .15s; }
+a.chip:hover, a.chip:focus-visible { filter: brightness(.94); box-shadow: 0 0 0 2px currentColor inset; }
+.facts dd .chips { display: inline-flex; flex-wrap: wrap; gap: .3rem; justify-content: flex-end; }
