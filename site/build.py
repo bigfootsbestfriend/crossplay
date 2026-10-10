@@ -977,6 +977,8 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
                                      + "".join(f"<url><loc>{abs_url(p)}</loc></url>\n" for p in sorted(urls)) + "</urlset>\n")
     robots = "User-agent: *\n" + ("Allow: /\n" if config.INDEXABLE else "Disallow: /\n") + f"Sitemap: {abs_url('/sitemap.xml')}\n"
     (OUT / "robots.txt").write_text(robots)
+    if config.INDEXNOW_KEY:
+        (OUT / f"{config.INDEXNOW_KEY}.txt").write_text(config.INDEXNOW_KEY)
     (OUT / "feed.xml").write_text(feed)
     (OUT / ".nojekyll").write_text("")
     if config.DOMAIN:

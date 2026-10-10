@@ -18,7 +18,9 @@ INDEXABLE = True
 
 # Search engine ownership tags (content values only). Empty = no tag.
 GOOGLE_VERIFY = ""
-BING_VERIFY = ""
+BING_VERIFY = "166ED942B039ECB32E7BF3985158FC36"
+# IndexNow key (public by design: served at /<key>.txt so Bing and others accept URL pings).
+INDEXNOW_KEY = "c24c67d2ddaa434f8deb5fe4c68c0578"
 
 # Where readers send corrections. Empty = link to GitHub issues instead.
 CONTACT_EMAIL = "hello@crossplayguide.com"
