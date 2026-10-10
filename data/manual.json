@@ -335,6 +335,56 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Battlefield 1",
+   "igdb_id": null,
+   "crossplay": false,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "EA app"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Battlefield 1 (2016) has no crossplay: PC, PlayStation and Xbox each have their own servers.",
+    "PS5 and Xbox Series X|S run the PS4 and Xbox One version through backward compatibility, so they share servers with PS4 and Xbox One players. On PC, Steam copies need an EA account and play on the same EA servers as EA app players.",
+    "Progress doesn't carry over between platforms."
+   ],
+   "sources": [
+    {
+     "title": "Battlefield 1 on Steam (requires an EA account)",
+     "url": "https://store.steampowered.com/app/1238840/"
+    },
+    {
+     "title": "Battlefield 1 on PlayStation (playable on PS5)",
+     "url": "https://www.playstation.com/games/battlefield-1/"
+    },
+    {
+     "title": "Battlefield 1 (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Battlefield_1"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
    "title": "Battlefield 2042",
    "igdb_id": 125166,
    "audited": "2026-10-10",
@@ -826,6 +876,63 @@
     {
      "title": "Black Ops 7 crossplay and cross-progression explained (God is a Geek)",
      "url": "https://godisageek.com/2026/09/black-ops-7-crossplay-explained/"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Call of Duty: Black Ops II",
+   "igdb_id": null,
+   "crossplay": false,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ps4": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Black Ops II (2012) has no crossplay: PC, PlayStation and Xbox each have their own players.",
+    "Activision re-released it on PS4 and PS5 on July 9, 2026 (without DLC, Ranked, leaderboards or Theater). PS4 and PS5 copies of the re-release don't play together, and neither connects to the original PS3 version. A September 2026 update moved PlayStation multiplayer to dedicated servers.",
+    "On Xbox, the Xbox 360 version plays on Xbox One and Xbox Series X|S through backward compatibility, using the same Xbox 360 servers and stats."
+   ],
+   "sources": [
+    {
+     "title": "Black Ops and Black Ops 2 are now available on PS5 and PS4 (MP1st)",
+     "url": "https://mp1st.com/news/black-ops-black-ops-2-available-ps5-ps4-but-they-are-supremely-underwhelming"
+    },
+    {
+     "title": "Black Ops 2 update 1.10 adds dedicated servers (MP1st, September 2026)",
+     "url": "https://mp1st.com/?p=314208"
+    },
+    {
+     "title": "Call of Duty: Black Ops II now available via Xbox One backward compatibility (Xbox Wire)",
+     "url": "https://news.xbox.com/en-us/?p=56694"
+    },
+    {
+     "title": "Does Black Ops 2 support crossplay on Xbox and PS5? (Sportskeeda)",
+     "url": "https://www.sportskeeda.com/call-of-duty-game/does-call-duty-black-ops-2-support-crossplay-xbox-ps5"
     }
    ],
    "checked": "2026-10-10"
@@ -1645,6 +1752,64 @@
     {
      "title": "Dune: Awakening will receive cross-play support after its console launch (KitGuru)",
      "url": "https://www.kitguru.net/?p=745280"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Dying Light",
+   "igdb_id": null,
+   "crossplay": true,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "GOG"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "switch": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "On computers, Steam, Epic and GOG players on Windows, Mac and Linux can all play co-op together; Techland added this when the game came to the Epic Games Store.",
+    "There's no crossplay between consoles or with PC. PS5 and Xbox Series X|S run the PS4 and Xbox One version with a free next-gen update, so they play with PS4 and Xbox One players. The Switch version is separate.",
+    "The sequels are different: Dying Light 2 has crossplay between PC stores only, and Dying Light: The Beast launched without crossplay."
+   ],
+   "sources": [
+    {
+     "title": "Dying Light arrives on the Epic Games Store with PC crossplay (EGM)",
+     "url": "https://egmnow.com/dying-light-arrives-on-the-epic-games-store-with-pc-crossplay/"
+    },
+    {
+     "title": "Dying Light gets next-gen patch on PlayStation 5 (Gfinity)",
+     "url": "https://www.gfinityesports.com/article/dying-light-next-gen-patch-ps5"
+    },
+    {
+     "title": "Dying Light: The Beast crossplay (Insider Gaming)",
+     "url": "https://insider-gaming.com/dying-light-the-beast-crossplay/"
     }
    ],
    "checked": "2026-10-10"
@@ -4367,6 +4532,60 @@
     {
      "title": "Path of Titans console release (Path of Titans)",
      "url": "https://pathoftitans.com/blog/console-release"
+    }
+   ],
+   "checked": "2026-10-10"
+  },
+  {
+   "title": "Payday 2",
+   "igdb_id": null,
+   "crossplay": false,
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "switch": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "On PC, Steam and Epic players can play together. That's the only crossplay: PlayStation, Xbox and Switch each have their own players.",
+    "PS5 and Xbox Series X|S run the PS4 and Xbox One versions, so they play with PS4 and Xbox One players."
+   ],
+   "sources": [
+    {
+     "title": "Is Payday 2 cross platform in 2026? (Of Zen and Computing)",
+     "url": "https://ofzenandcomputing.com/is-payday-2-cross-platform/"
+    },
+    {
+     "title": "Is Payday 2 cross platform? (Talk Esport)",
+     "url": "https://www.talkesport.com/guides/is-payday-2-cross-platform/"
+    },
+    {
+     "title": "PAYDAY 2 on Steam",
+     "url": "https://store.steampowered.com/app/218620/"
     }
    ],
    "checked": "2026-10-10"
