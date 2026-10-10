@@ -1175,9 +1175,9 @@ the game's page.</p></section>
          [g for g in checked_cross if any(("switch" in gr["platforms"] or "switch2" in gr["platforms"]) and len(gr["platforms"]) > 1 for gr in g["groups"])]),
     ]
     best_links = []
-    for slug, title, h1, intro, gl in BEST:
-        if len(gl) >= 5:
-            pages[f"/best/{slug}/"] = best_page(f"/best/{slug}/", title, h1, intro, gl,
+    for slug, title, h1, intro, best_games in BEST:
+        if len(best_games) >= 5:
+            pages[f"/best/{slug}/"] = best_page(f"/best/{slug}/", title, h1, intro, best_games,
                                                 [("Home", "/"), (h1, f"/best/{slug}/")])
             best_links.append(f'<a class="pill" href="{url("/best/" + slug + "/")}">{e(h1[4:].capitalize())}</a>')
     pages["/"] = page("/", f"{config.SITE_NAME}: Is It Cross-Platform? Crossplay Checker for {len(current)} Games",
