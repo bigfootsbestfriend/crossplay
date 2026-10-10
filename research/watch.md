@@ -1,0 +1,26 @@
+# Crossplay watch list
+
+Dated changes to re-check. The "Crossplay watch" routine reads this file twice a week, handles items whose
+"check from" date has passed, and moves them to Done. Add new items in the same format.
+
+## Open
+
+- **It Takes Two** — check from 2026-10-16. EA: full crossplay (PC, PS5, PS4, Xbox Series X|S, Xbox One,
+  Switch 2) launches Oct 15, 2026 with the Switch 2 version. Confirm it went live; reword the note from
+  "arrives on" to past tense; drop anything that didn't ship.
+- **Minecraft** — check from 2026-10-28. Native Switch 2 version due Oct 27, 2026. Confirm launch and
+  crossplay with Bedrock; update the note.
+- **Tom Clancy's The Division 2** — check from 2026-11-11, again from 2026-11-20. Crossplay rollout: PC to
+  new servers ~Nov 10, Xbox and PlayStation mid-November. Once live on all platforms, set groups to one
+  crossplay group and rewrite the note.
+- **Grand Theft Auto VI** — check from 2026-11-20. Launches Nov 19, 2026 (PS5, Xbox Series X|S). Replace the
+  "Not announced" verdict with what's known (crossplay yes/no, GTA Online status). Remove `verdict` once
+  there are real groups.
+- **Terraria** — check every run. Crossplay Phase One (update 1.4.6) "in the near future" as of
+  2026-09-24. When it ships, record which platforms it connects and how (LAN/IP vs invites).
+- **Risk of Rain 2** — check every run. 2K: the next PlayStation/Xbox update ends PS4↔PS5 and
+  XB1↔Series play. When it ships, split those groups and date the change.
+- **Dragon Ball: Sparking! Zero** — check from 2027-06-01. Crossplay beta (PS5, Xbox Series X|S, Steam)
+  "after Summer 2027".
+
+## Done
