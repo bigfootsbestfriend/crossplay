@@ -23,7 +23,9 @@ BING_VERIFY = "166ED942B039ECB32E7BF3985158FC36"
 INDEXNOW_KEY = "c24c67d2ddaa434f8deb5fe4c68c0578"
 
 # Where readers send corrections. Empty = link to GitHub issues instead.
-CONTACT_EMAIL = "hello@crossplayguide.com"
+# Never printed into pages: links go to /contact/, and site.js builds the mailto in the browser so
+# scrapers reading the HTML (or this file) don't get a plain address.
+CONTACT_EMAIL = "hello" + chr(64) + "crossplayguide.com"
 
 # Paste Raptive's site script here once the site is approved (it goes in <head>).
 AD_SCRIPT = ""

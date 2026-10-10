@@ -5,6 +5,7 @@
 Pages: home, one page per game, platform hubs, platform-pair hubs, genre hubs, updates,
 about/methodology, privacy, 404, sitemap and a small search index.
 """
+import urllib.parse
 import datetime
 import html
 import json
@@ -429,9 +430,10 @@ def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
 
 
 def correction_link(title=None):
-    subject = f"Correction: {title}" if title else "Correction"
     if config.CONTACT_EMAIL:
-        return f"mailto:{config.CONTACT_EMAIL}?subject={e(subject)}"
+        # The address itself is assembled by site.js (see /contact/), so it never appears in the HTML.
+        return url("/contact/") + ("?about=" + urllib.parse.quote(title) if title else "")
+    subject = f"Correction: {title}" if title else "Correction"
     return "https://github.com/bigfootsbestfriend/crossplay/issues/new?title=" + e(subject.replace(" ", "+"))
 
 
@@ -945,6 +947,19 @@ def build():
         "Crossplay on but you still can't find your friend? Check these console, account and network settings on PlayStation, Xbox, Switch and PC.",
         FIXGUIDE.format(contact=correction_link()),
         crumbs=[("Home", "/"), ("Crossplay not working", "/guides/crossplay-not-working/")])
+    if config.CONTACT_EMAIL:
+        user, domain = config.CONTACT_EMAIL.split(chr(64))
+        codes = ",".join(str(ord(c)) for c in config.CONTACT_EMAIL[::-1])
+        pages["/contact/"] = page("/contact/", "Contact Crossplay Guide",
+            "Report a mistake or ask a question about a game's crossplay.",
+            f'''<section class="hub-head"><h1>Contact us</h1>
+<p class="lede">Spotted a mistake, or know about a crossplay change we've missed? Send it over and we'll check it.</p></section>
+<section class="prose">
+<p>Email: <a data-mail="{codes}" href="#">{e(user)} (at) {e(domain.replace(".", " (dot) "))}</a></p>
+<p>If it's about a specific game, include the game's name and, if you can, a link to where you saw the change
+(patch notes, a support page or an official post). We read everything, and we credit nothing to you publicly
+unless you ask.</p>
+</section>''', noindex=True, crumbs=[("Home", "/"), ("Contact", "/contact/")])
     pages["/privacy/"] = page("/privacy/", "Privacy Policy", "How this site handles your data.",
                               PRIVACY.format(site=e(config.SITE_NAME), contact=correction_link(), date=nice_date(TODAY),
                                              community=PRIVACY_COMMUNITY if config.API_URL else ""),

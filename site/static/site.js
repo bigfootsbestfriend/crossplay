@@ -2,6 +2,16 @@
   const root = document.querySelector('link[rel="icon"]').getAttribute("href").replace(/static\/favicon\.svg$/, "");
   let index = null;
 
+  // Contact: the address is stored reversed as char codes and only assembled here, so it never appears
+  // in the page source. Links to /contact/?about=Game become mailto links with a subject line.
+  const mailEl = document.querySelector("[data-mail]");
+  const addr = mailEl ? mailEl.dataset.mail.split(",").reverse().map(c => String.fromCharCode(+c)).join("") : null;
+  if (mailEl) {
+    const about = new URLSearchParams(location.search).get("about");
+    mailEl.textContent = addr;
+    mailEl.href = "mailto:" + addr + "?subject=" + encodeURIComponent(about ? "Correction: " + about : "Crossplay Guide");
+  }
+
   // Search: loads a small JSON index on first focus.
   const load = () => index || (index = fetch(root + "static/search.json").then(r => r.json()));
   const norm = s => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, "");
