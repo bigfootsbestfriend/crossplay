@@ -80,7 +80,8 @@
      "url": "https://gamingtrend.com/news/abiotic-factor-heads-to-playstation-and-xbox/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Age of Empires II: Definitive Edition",
@@ -112,7 +113,8 @@
      "url": "https://store.playstation.com/concept/10009261"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Age of Mythology: Retold",
@@ -140,7 +142,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Albion Online",
@@ -170,7 +173,8 @@
      "url": "https://unity.com/blog/albion-online-cross-platform-pvp-mmo-architecture"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Among Us",
@@ -226,7 +230,7 @@
    "crossplay": false,
    "crossprog": "partial",
    "notes": [
-    "Multiplayer (up to 16 players) only matches players on the same platform, and the Console Edition can't play with PC. Cross-progression works between PS5 and Xbox Series X|S."
+    "PC players on Steam, Epic and Ubisoft Connect play together, because multiplayer (up to 16 players) runs through your Ubisoft account. The Console Edition only matches players on the same console: PS5 with PS5, Xbox Series X|S with Xbox Series X|S, and never with PC."
    ],
    "sources": [
     {
@@ -234,7 +238,27 @@
      "url": "https://anno-union.com/revealing-anno-1800-console-edition/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "Ubisoft Connect"
+     ]
+    }
+   ],
+   "separate": [
+    "ps5",
+    "xseries"
+   ],
+   "progress": [
+    "The Console Edition shares progress between PS5 and Xbox Series X|S when you sign in with the same Ubisoft account, and PC progress follows your Ubisoft account across the PC stores. PC and console progress don't mix."
+   ]
   },
   {
    "title": "Apex Legends",
@@ -361,7 +385,8 @@
      "url": "https://xgamingserver.com/blog/arma-reforger-crossplay-pc-xbox-ps5/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Armored Core VI: Fires of Rubicon",
@@ -399,7 +424,8 @@
      "url": "https://samurai-gamers.com/armored-core-6-fires-of-rubicon/does-the-game-have-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Asphalt Legends",
@@ -732,7 +758,8 @@
      "url": "https://dotesports.com/battlefield/news/battlefield-redsec-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Battlefield V",
@@ -794,7 +821,8 @@
      "url": "https://gamemarket.gg/news/blood-strike/blood-strike-on-pc-and-console-requirements-controls-and-crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Bloons TD 6",
@@ -822,7 +850,8 @@
      "url": "https://primagames.com/tips/is-btd6-cross-platform-answered"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Borderlands 2",
@@ -958,7 +987,8 @@
      "platforms": {
       "xseries": "yes",
       "xone": "yes",
-      "pc": "partial"
+      "pc": "partial",
+      "xcloud": "yes"
      },
      "pc_stores": [
       "Xbox app"
@@ -974,7 +1004,8 @@
     }
    ],
    "notes": [
-    "Multiplayer (up to four players) arrived with the Xbox version in July 2026. Xbox consoles and the Microsoft Store/Xbox app PC version play together; the Steam version can't join them."
+    "Online multiplayer is for two to four players. Since the Xbox version launched on July 8, 2026, Xbox Series X|S, Xbox One, Xbox Cloud Gaming and the Xbox app on PC play together through Xbox Play Anywhere.",
+    "The Steam version (Windows and Linux) has had multiplayer since a 2025 update, but it's a separate pool: Steam players can't join Xbox lobbies. Online play on Xbox consoles needs a Game Pass plan with online play."
    ],
    "sources": [
     {
@@ -984,9 +1015,14 @@
     {
      "title": "Buckshot Roulette (Xbox Store)",
      "url": "https://www.xbox.com/en-US/games/store/-/9P5B8CPQ9S7F"
+    },
+    {
+     "title": "Buckshot Roulette joins Xbox Game Pass today (Xbox Wire)",
+     "url": "https://news.xbox.com/en-us/2026/07/08/buckshot-roulette-xbox-game-pass/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Call of Duty: Black Ops 6",
@@ -1195,7 +1231,8 @@
      "url": "https://www.esports.net/news/mobile-games/is-cod-mobile-cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Call of Duty: Warzone",
@@ -1258,7 +1295,8 @@
      "url": "https://www.sportskeeda.com/call-of-duty-game/is-call-duty-world-war-2-cross-platform"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "CarX Drift Racing Online",
@@ -1290,7 +1328,8 @@
      "url": "https://traxion.gg/carx-drift-racing-online-now-supports-cross-platform-multiplayer-on-switch/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Chivalry 2",
@@ -1323,7 +1362,8 @@
      "url": "https://www.windowscentral.com/chivalry-2-consoles-full-cross-play"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Company of Heroes 3",
@@ -1343,7 +1383,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10"
   },
   {
    "title": "Conan Exiles",
@@ -1381,7 +1422,8 @@
      "url": "https://www.gameserverkings.com/knowledge-base/conan-exiles/conan-exiles-crossplay/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Content Warning",
@@ -1411,7 +1453,8 @@
      "url": "https://patched.gg/games/content-warning/content-warning-crossplay-update"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Core Keeper",
@@ -1424,7 +1467,9 @@
      },
      "pc_stores": [
       "Steam",
-      "Epic"
+      "Epic",
+      "GOG",
+      "Microsoft Store"
      ]
     },
     {
@@ -1446,7 +1491,7 @@
     }
    ],
    "notes": [
-    "PC stores play together, and each console family plays across generations, but PC and console players can't join each other."
+    "PC players play together across Steam, Epic, GOG and the Microsoft Store (PC Game Pass), though some players report trouble connecting Game Pass and Steam copies. Each console family plays across generations (PS4 with PS5, Xbox One with Series X|S), and Switch plays with Switch, but consoles and PC can't join each other."
    ],
    "sources": [
     {
@@ -1458,7 +1503,12 @@
      "url": "https://www.tecmundo.com.br/voxel/294833-core-keeper-tem-crossplay-entenda-gameplay-cruzado-entre-consoles-pc.htm"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "progress": [
+    "Saves don't transfer between platforms."
+   ]
   },
   {
    "title": "Crossout",
@@ -1479,7 +1529,8 @@
     }
    ],
    "notes": [
-    "PlayStation and Xbox players share matches, but PC has its own servers. Crossout Mobile is a separate game."
+    "PS4, PS5, Xbox One and Xbox Series X|S players share matchmaking for PvP, PvE raids, clan wars and brawls, and share one exhibition of vehicle designs. Chat, the market and leaderboards stay separate per platform, and you can't party up with a friend on the other console brand.",
+    "The PC version has its own servers, and Crossout Mobile is a separate game that doesn't connect to either."
    ],
    "sources": [
     {
@@ -1487,7 +1538,9 @@
      "url": "https://old.crossout.net/en/news/2675/current/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "Dark Souls III",
@@ -1709,7 +1762,12 @@
      "url": "https://tinybuild.com/single-post/deadside-adds-100k-new-players-in-7-days"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "progress": [
+    "There's no cross-progression: gear, bases and characters stay on the platform where you made them."
+   ]
   },
   {
    "title": "Deathloop",
@@ -1742,7 +1800,8 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "partial"
+   "crossprog": "partial",
+   "audited": "2026-10-10"
   },
   {
    "title": "Delta Force",
@@ -1799,7 +1858,8 @@
      "url": "https://destinytracker.com/article/642/cross-play-included-in-future-plans-for-desti"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Destiny 2",
@@ -1848,7 +1908,7 @@
    "igdb_id": null,
    "crossplay": false,
    "notes": [
-    "Blizzard left crossplay out because each platform has a different interface and controls. Cross-progression works: link Battle.net on each platform to carry your characters between PC, PlayStation, Xbox and Switch."
+    "Blizzard left crossplay out because each platform has a different interface and controls: you can't play or trade online with friends on another platform. Consoles do play across generations of the same family (PS4 with PS5, Xbox One with Series X|S)."
    ],
    "sources": [
     {
@@ -1861,7 +1921,38 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "yes"
+   "crossprog": "yes",
+   "audited": "2026-10-10",
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Battle.net"
+     ]
+    },
+    {
+     "platforms": {
+      "switch": "yes"
+     }
+    }
+   ],
+   "progress": [
+    "Link Battle.net on each platform to carry your online characters between PC, PlayStation, Xbox and Switch."
+   ]
   },
   {
    "title": "Diablo III",
@@ -1942,14 +2033,15 @@
      "url": "https://support.krafton.com/hc/en-us/articles/53062342919577-Cross-Platform-Updates"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Divinity: Original Sin II",
    "igdb_id": null,
    "crossplay": false,
    "notes": [
-    "There's no multiplayer between PC and consoles. The Definitive Edition has cross-save between Steam and both Switch and iPad, so you can carry a campaign across."
+    "Online co-op only works with players on the same platform family: Steam and GOG players on PC and Mac play together, but there's no multiplayer between PC and consoles. Larian released free current-gen versions for PS5, Xbox Series X|S and Switch 2 in December 2025; they didn't add crossplay."
    ],
    "sources": [
     {
@@ -1959,10 +2051,18 @@
     {
      "title": "Divinity: Original Sin 2 now offers cross saves between Steam and iPad (NME)",
      "url": "https://www.nme.com/news/divinity-original-sin-2-now-offers-cross-saves-between-steam-and-ipad-3037103"
+    },
+    {
+     "title": "Larian launches Divinity: Original Sin 2 Definitive Edition for Switch 2 and current-gen consoles (KitGuru)",
+     "url": "https://www.kitguru.net/gaming/joao-silva/larian-launches-divnity-original-sin-2-definitive-edition-for-switch-2-and-current-gen-consoles/"
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "partial"
+   "crossprog": "partial",
+   "audited": "2026-10-10",
+   "progress": [
+    "The Definitive Edition has cross-save between Steam and both Switch and iPad, so you can carry a campaign across."
+   ]
   },
   {
    "title": "Don't Starve Together",
@@ -2036,7 +2136,8 @@
      "url": "https://www.pcgamesn.com/doom-eternal/cross-play"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Dragon Ball FighterZ",
@@ -2112,7 +2213,8 @@
      "url": "https://opencritic.com/news/33576/dragon-ball-xenoverse-3-is-fixing-xv2s-biggest-mistake-by-making-crossplay-an-absolute-priority-"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Dragon Ball: Sparking! Zero",
@@ -2195,7 +2297,9 @@
      "url": "https://www.kitguru.net/?p=745280"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "partial"
   },
   {
    "title": "Dying Light",
@@ -2328,7 +2432,8 @@
      "url": "https://help.ea.com/en/articles/ea-sports-college-football/cross-play/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "EA Sports FC 24",
@@ -2365,7 +2470,11 @@
      "url": "https://www.pcgamesn.com/ea-sports-fc-24/crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default. Open EA Connect from the main menu (R2 on PlayStation, RT on Xbox, Tab on PC), go to the social settings and set Cross-play Enabled to Yes or No."
+   ]
   },
   {
    "title": "EA Sports FC 25",
@@ -2376,7 +2485,12 @@
       "pc": "yes",
       "ps5": "yes",
       "xseries": "yes"
-     }
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "EA app"
+     ]
     },
     {
      "platforms": {
@@ -2402,7 +2516,11 @@
     }
    ],
    "checked": "2026-10-10",
-   "crossprog": "no"
+   "crossprog": "no",
+   "audited": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default. Change it under Settings → Online Settings → Matchmaking Options → Cross-play Enabled, or from EA Connect."
+   ]
   },
   {
    "title": "EA Sports FC 26",
@@ -2488,7 +2606,11 @@
      "url": "https://www.teamgullit.com/ea-fc-27/cross-play"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "toggle": [
+    "Crossplay is on by default; switch it under the online matchmaking options. Add cross-platform friends in EA Connect (R2/RT) → Player Search by EA ID, then invite them from a crossplay mode. On Xbox, the console's cross-network setting also has to allow it."
+   ]
   },
   {
    "title": "EA Sports UFC 5",
@@ -5380,7 +5502,12 @@
      "url": "https://www.pcgamesn.com/path-of-exile-2/crossplay"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no",
+   "progress": [
+    "Characters, progress and purchases don't move between PC, PlayStation and Xbox in the original Path of Exile."
+   ]
   },
   {
    "title": "Path of Exile 2",
@@ -6201,7 +6328,8 @@
      "url": "https://primagames.com/tips/roadcraft-crossplay-cross-progression"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Roblox",
@@ -6802,7 +6930,8 @@
      "url": "https://mein-mmo.de/en/sons-of-the-forest-release-for-ps5-xbox-and-nintendo-switch-this-is-what-the-developers-say,951357/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Space Engineers",
@@ -7620,9 +7749,15 @@
     {
      "title": "The Planet Crafter is out now on Xbox Game Pass (Pure Xbox)",
      "url": "https://www.purexbox.com/news/2026/07/the-planet-crafter-is-out-now-on-xbox-game-pass-and-heres-what-the-reviews-say"
+    },
+    {
+     "title": "The Planet Crafter apporte son terraformage relaxant sur PS5, Xbox et Game Pass (GoClecd)",
+     "url": "https://www.goclecd.fr/the-planet-crafter-ps5-xbox-game-pass-news-n/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-10",
+   "audited": "2026-10-10",
+   "crossprog": "no"
   },
   {
    "title": "The Texas Chain Saw Massacre",
