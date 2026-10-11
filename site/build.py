@@ -603,6 +603,19 @@ def game_page(g, games):
         ask = f"Tell me if {t} gets crossplay" if kind in ("no", "ended") else f"Tell me when {t}'s crossplay changes"
         watch = (f'<p class="watch"><button type="button" class="btn-watch" data-signup>{e(ask)}</button> '
                  f'<span class="small">in our free weekly email</span></p>')
+    # "Your group": the platforms saved on this device (shared with the group finder) checked against this
+    # game, plus a one-tap "did it work?" vote. Filled in by site.js.
+    mine = ""
+    if not g.get("verdict") and not g["discontinued"]:
+        on = set(g["available"]) | {k for gr in g["groups"] for k in gr["platforms"]}
+        if "switch" in on:
+            on.add("switch2")  # Switch 2 runs Switch games
+        mdata = json.dumps({"slug": g["slug"], "api": config.API_URL or "",
+                            "groups": [{"p": gr["platforms"], "x": gr["partial"]} for gr in g["groups"]],
+                            "on": [k for k in CURRENT if k in on],
+                            "names": {k: PLATFORMS[k][1] for k in CURRENT if k != "linux"},
+                            "finder": url("/who-can-i-play-with/")}, separators=(",", ":"))
+        mine = f'''<div class="mine" data-mine='{e(mdata)}' hidden></div>'''
     parts.append(f"""
 <section class="answer v-{kind}">
   <div class="answer-cover">{cover(g)}</div>
@@ -612,6 +625,7 @@ def game_page(g, games):
     <p class="verdict"><span class="badge v-{kind}">{e(word)}</span> {e(summary)}</p>
     {"".join(f'<p>{e(x)}</p>' for x in extra)}
     {xprog}
+    {mine}
     {watch}
     <p class="checked">{byline}Last checked {nice_date(g["checked"])}
     {f' · Details last changed {nice_date(g["history"]["changed"])}' if g["history"].get("changed") and g["history"]["changed"] != g["history"].get("first_seen") else ''}</p>
@@ -738,7 +752,7 @@ def game_page(g, games):
         cdata = json.dumps({"slug": g["slug"], "title": t, "plats": plats, "api": config.API_URL,
                             "turnstile": config.TURNSTILE_SITEKEY})
         parts.append(f"""
-<section class="community" data-community='{e(cdata)}' hidden>
+<section class="community" id="community" data-community='{e(cdata)}' hidden>
   <h2>Did crossplay work for you?</h2>
   <form class="vote" data-vote>
     <label>I played on <select name="a"></select></label>
@@ -892,6 +906,7 @@ def together_tool(heading="h2"):
   <div class="people" data-people data-opts='{e(opts)}'></div>
   <div class="together-controls">
     <button type="button" class="btn ghost" data-add>+ Add a friend</button>
+    <button type="button" class="btn ghost" data-share-group>Share this group</button>
     <label>Genre <select data-genre><option value="">Any</option>{genres}</select></label>
     <label class="check"><input type="checkbox" data-checked> Only games we've checked</label>
     <label class="check"><input type="checkbox" data-free> Free to play</label>

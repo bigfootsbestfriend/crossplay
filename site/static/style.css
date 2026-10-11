@@ -352,3 +352,22 @@ a.chip:hover, a.chip:focus-visible { filter: brightness(.94); box-shadow: 0 0 0 
 .signup-bar span { flex: 1; }
 .signup-bar .go { font: 700 .95rem var(--body); padding: 8px 14px; border: 0; border-radius: 10px; background: var(--coral); color: #fff; cursor: pointer; white-space: nowrap; }
 .signup-bar .x { font: inherit; font-size: 1.4rem; line-height: 1; padding: 4px 8px; border: 0; background: none; color: inherit; opacity: .7; cursor: pointer; }
+
+/* "Your group" box in the game answer (site.js). */
+.mine { margin: 1rem 0 .4rem; padding: .9rem 1rem; border: 1.5px solid var(--line); border-radius: 12px; background: var(--paper); display: grid; gap: .55rem; }
+.mine p { margin: 0; }
+.mine-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem .6rem; }
+.mine-head b { font: 700 .72rem var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--coral); }
+.mine-plats { font-weight: 600; }
+.linkish { font: inherit; font-size: .9rem; border: 0; background: none; color: var(--blue); text-decoration: underline; cursor: pointer; padding: 0; }
+.mchips { display: flex; flex-wrap: wrap; gap: .4rem; }
+.mchip { font: 600 .9rem var(--body); padding: .4rem .75rem; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+.mchip[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: #fff; }
+.mchip[aria-pressed="true"]::before { content: "✓ "; }
+.mine-out { font-weight: 600; display: flex; gap: .55rem; align-items: baseline; }
+.mine-out .dot { flex: none; width: .7rem; height: .7rem; border-radius: 50%; background: var(--yes); transform: translateY(.05rem); }
+.mine-out.v-partial .dot { background: var(--part); }
+.mine-out.v-no .dot { background: var(--no); }
+.mine-vote { display: flex; flex-wrap: wrap; gap: .4rem .5rem; align-items: center; }
+.btn.small { font-size: .88rem; padding: .35rem .8rem; }
+.community { scroll-margin-top: 90px; }

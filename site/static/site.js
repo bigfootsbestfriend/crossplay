@@ -11,6 +11,9 @@
     const opts = people.dataset.opts, names = ["You", "Friend 1", "Friend 2", "Friend 3", "Friend 4", "Friend 5"];
     let data = null, shown = 24, picks;
     try { picks = JSON.parse(localStorage.getItem("together") || "null"); } catch (e) { picks = null; }
+    const shared = new URLSearchParams(location.search).get("p");
+    if (shared) picks = shared.split(",").filter(k => opts.includes(`value="${k}"`)).slice(0, names.length);
+    if (Array.isArray(picks) && picks.length === 1) picks.push(picks[0]);
     if (!Array.isArray(picks) || picks.length < 2) picks = ["ps5", "pc"];
     const label = {};
     people.insertAdjacentHTML("beforeend", "<select hidden>" + opts + "</select>");
@@ -29,7 +32,7 @@
       const need = [...new Set(picks)];
       if (need.length < 2) { count.textContent = `Everyone's on ${label[need[0]]}, so any online multiplayer game works. Pick different platforms to check crossplay.`; list.innerHTML = ""; more.hidden = true; return; }
       const g = genre.value, oc = onlyChecked.checked, fr = free.checked;
-      const hits = data.games.filter(x => (!g || x.h.includes(g)) && (!oc || x.c) && (!fr || x.f) && x.g.some(gr => need.every(k => gr.includes(k))));
+      const hits = data.games.filter(x => (!g || x.h.includes(g)) && (!oc || x.c) && (!fr || x.f) && x.g.some(gr => need.every(k => gr.includes(k) || (k === "switch2" && gr.includes("switch")))));
       hits.sort((a, b) => b.c - a.c);
       count.textContent = hits.length ? `${hits.length} game${hits.length === 1 ? "" : "s"} let ${need.map(k => label[k]).join(" + ")} play together` : `No games we know of put ${need.map(k => label[k]).join(" + ")} in one lobby${g || oc || fr ? " with these filters" : ""}.`;
       list.innerHTML = hits.slice(0, shown).map(x => `<li><a href="${data.base}${x.s}/">${esc(x.t)}</a>` +
@@ -44,6 +47,15 @@
     onlyChecked.addEventListener("change", () => { shown = 24; run(); });
     free.addEventListener("change", () => { shown = 24; run(); });
     more.addEventListener("click", () => { shown += 48; run(); });
+    const shareBtn = box.querySelector("[data-share-group]");
+    if (shareBtn) shareBtn.addEventListener("click", async () => {
+      const link = location.origin + location.pathname + "?p=" + picks.join(",");
+      const text = `Games we can all play together (${[...new Set(picks)].map(k => label[k]).join(" + ")})`;
+      try {
+        if (navigator.share) await navigator.share({ title: text, url: link });
+        else { await navigator.clipboard.writeText(link); shareBtn.textContent = "Link copied!"; setTimeout(() => shareBtn.textContent = "Share this group", 2500); }
+      } catch (e) { /* share sheet closed */ }
+    });
     drawPeople(); run();
   });
 
@@ -233,6 +245,86 @@
       btn.disabled = false;
     });
   });
+})();
+
+// "Your group" on game pages: the platforms saved on this device (the same list the group finder uses),
+// checked against this game's crossplay groups, plus a one-tap "did it work?" vote.
+(() => {
+  const el = document.querySelector("[data-mine]");
+  if (!el) return;
+  const d = JSON.parse(el.dataset.mine);
+  const get = () => { try { const v = JSON.parse(localStorage.getItem("together") || "null"); return Array.isArray(v) ? v : null; } catch (e) { return null; } };
+  const put = (v) => { try { localStorage.setItem("together", JSON.stringify(v)); } catch (e) {} };
+  const name = (k) => d.names[k] || k;
+  const list = (ks) => ks.length < 3 ? ks.map(name).join(" and ") : ks.slice(0, -1).map(name).join(", ") + " and " + name(ks[ks.length - 1]);
+  const fits = (gr, k) => gr.p.includes(k) || (k === "switch2" && gr.p.includes("switch"));
+  let picks = get(), editing = !picks, voted = false, tally = null;
+
+  const verdict = (S) => {
+    const off = S.filter((k) => !d.on.includes(k));
+    const offNote = off.length ? ` It isn't out on ${list(off)}.` : "";
+    if (S.length === 1) return d.on.includes(S[0]) ? ["yes", `It's on ${name(S[0])}. Add your friends' platforms to check crossplay.`] : ["no", `It isn't out on ${name(S[0])}.`];
+    let best = null;
+    d.groups.forEach((gr) => { const c = S.filter((k) => fits(gr, k)); if (!best || c.length > best.c.length) best = { gr, c }; });
+    if (best && best.c.length === S.length) {
+      const lim = S.filter((k) => best.gr.x.includes(k));
+      return lim.length ? ["partial", `Partly: ${list(S)} can play together, with limits on ${list(lim)}.`] : ["yes", `Yes! ${list(S)} can all play together.`];
+    }
+    if (best && best.c.length >= 2) {
+      const out = S.filter((k) => !best.c.includes(k) && d.on.includes(k));
+      return ["no", `Not all of you. ${list(best.c)} can play together${out.length ? `, but ${list(out)} ${out.length === 1 ? "is" : "are"} matched separately` : ""}.${offNote}`];
+    }
+    return ["no", `No: none of your platforms share a lobby in this game.${offNote}`];
+  };
+
+  const draw = () => {
+    const S = [...new Set(picks || [])].filter((k) => d.names[k]);
+    const chips = Object.keys(d.names).map((k) => `<button type="button" class="mchip" data-k="${k}" aria-pressed="${S.includes(k)}">${name(k)}</button>`).join("");
+    let html = `<div class="mine-head"><b>Your group</b>`;
+    if (S.length && !editing) html += ` <span class="mine-plats">${list(S)}</span> <button type="button" class="linkish" data-edit>Change</button>`;
+    html += `</div>`;
+    if (editing || !S.length) html += `<p class="small">Tap the platforms you and your friends play on. We'll remember them on this device and check every game for you.</p><div class="mchips">${chips}</div>` + (S.length ? `<button type="button" class="btn small" data-done>Done</button>` : "");
+    if (S.length) {
+      const [k, text] = verdict(S);
+      html += `<p class="mine-out v-${k}"><span class="dot"></span>${text}</p>`;
+      const vp = S.filter((x) => d.on.includes(x));
+      if (d.api && vp.length >= 2 && !editing) {
+        html += voted ? `<p class="small mine-vote">Thanks for reporting!</p>`
+          : `<p class="mine-vote"><span class="small">Played together? Did crossplay work?</span> <button type="button" class="btn small yes" data-mv="yes">It worked</button> <button type="button" class="btn small no" data-mv="no">It didn't</button></p>`;
+      }
+    }
+    if (tally && tally.yes + tally.no >= 3) html += `<p class="small mine-tally">${tally.yes} of ${tally.yes + tally.no} players said crossplay worked for them. <a href="#community">Tips and reports</a></p>`;
+    html += `<p class="small"><a href="${d.finder}">Find every game your group can play together →</a></p>`;
+    el.innerHTML = html;
+    el.hidden = false;
+  };
+
+  el.addEventListener("click", async (ev) => {
+    const c = ev.target.closest("[data-k]");
+    if (c) {
+      const k = c.dataset.k, S = [...new Set(picks || [])];
+      picks = S.includes(k) ? S.filter((x) => x !== k) : [...S, k];
+      if (picks.length) put(picks); else { picks = null; try { localStorage.removeItem("together"); } catch (e) {} }
+      draw();
+      el.querySelector(`[data-k="${k}"]`)?.focus();
+      return;
+    }
+    if (ev.target.closest("[data-edit]")) { editing = true; draw(); return; }
+    if (ev.target.closest("[data-done]")) { editing = false; draw(); return; }
+    const v = ev.target.closest("[data-mv]");
+    if (v) {
+      const vp = [...new Set(picks)].filter((x) => d.on.includes(x));
+      voted = true; draw();
+      try {
+        const r = await fetch(d.api + "/api/vote", { method: "POST", headers: { "content-type": "application/json" },
+          body: JSON.stringify({ slug: d.slug, result: v.dataset.mv, a: vp[0], b: vp[1] }) }).then((x) => x.json());
+        if (r.votes) { tally = r.votes; draw(); }
+      } catch (e) { /* the thanks still shows; the full form lower down works too */ }
+      if (window.gtag) window.gtag("event", "crossplay_vote", { result: v.dataset.mv });
+    }
+  });
+  draw();
+  if (d.api) fetch(`${d.api}/api/game/${d.slug}`).then((r) => r.json()).then((x) => { tally = x.votes; draw(); }).catch(() => {});
 })();
 
 // Email signup prompts: "Tell me…" buttons open the signup box, and a small bar offers it once after a while
