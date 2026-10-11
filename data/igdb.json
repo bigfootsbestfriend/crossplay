@@ -47314,6 +47314,486 @@
    }
   ]
  },
+ "F1 24": {
+  "collections": [
+   {
+    "id": 819,
+    "name": "F1"
+   }
+  ],
+  "cover": {
+   "id": 378644,
+   "image_id": "co845w"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 2891070,
+    "uid": "B0CVHHFJJ1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2890980,
+    "uid": "B0CVHHKRC4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2890981,
+    "uid": "B0CVHGPF4Z"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2891000,
+    "uid": "B0CVHDST5M"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2888967,
+    "uid": "B0CVHGPF4Z"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2890993,
+    "uid": "B0CW2CDDTQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2891139,
+    "uid": "B0CW2CR25D"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893072,
+    "uid": "B0CVHHKRC4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893125,
+    "uid": "B0CVHGXWNP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893098,
+    "uid": "B0CVHGCKTS"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893222,
+    "uid": "B0CVHHHFDK"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2898294,
+    "uid": "B0CXXWPBCF"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2898451,
+    "uid": "B0CXXW5WWZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2891026,
+    "uid": "B0CVHGXWNP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2891158,
+    "uid": "B0CVHHHFDK"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893075,
+    "uid": "B0CVHGPF4Z"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893077,
+    "uid": "B0CW2CDDTQ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893154,
+    "uid": "B0CVHHFJJ1"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893191,
+    "uid": "B0CWBVRWKR"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2888975,
+    "uid": "B0CVHDST5M"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2889028,
+    "uid": "B0CVHHFJJ1"
+   },
+   {
+    "external_game_source": 54,
+    "id": 2985412,
+    "uid": "9PLVVTDHS1P0"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2898507,
+    "uid": "B0CXXQNR3Q"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893078,
+    "uid": "B0CVHHKRC4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893085,
+    "uid": "B0CVHHCS2G"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893124,
+    "uid": "B0CVHGXWNP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893081,
+    "uid": "B0CVHDST5M"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2888945,
+    "uid": "B0CVHHHFDK"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2889019,
+    "uid": "B0CVHGXWNP"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893182,
+    "uid": "B0CWBZP8VY"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3019832,
+    "uid": "633950a7e79d498392acf47518c1bcdd"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2891024,
+    "uid": "B0CW2DPGG2"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893203,
+    "uid": "B0CVHGMQY7"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893118,
+    "uid": "B0CW2DPGG2"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2905051,
+    "uid": "B0CZSYY6PZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893116,
+    "uid": "B0CWBZ465Y"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2888964,
+    "uid": "B0CVHHKRC4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893074,
+    "uid": "B0CVHGPF4Z"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2893214,
+    "uid": "B0CW2CR25D"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2912989,
+    "uid": "B0D34HZGD4"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2919928,
+    "uid": "9PLVVTDHS1P0"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2891417,
+    "uid": "2488620"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3190350,
+    "uid": "B0CWP3NMJB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3190347,
+    "uid": "B0CWP2NB86"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2889265,
+    "uid": "627798963"
+   }
+  ],
+  "first_release_date": 1717113600,
+  "franchises": [
+   {
+    "id": 4695,
+    "name": "Formula 1"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 10,
+    "name": "Racing"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 6,
+  "id": 287578,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 115,
+     "name": "Codemasters"
+    },
+    "developer": true,
+    "id": 255735,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 255736,
+    "publisher": true
+   }
+  ],
+  "name": "F1 24",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1250522,
+    "image_id": "scqswq",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1308800,
+    "image_id": "scs1vk",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1308801,
+    "image_id": "scs1vl",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1308803,
+    "image_id": "scs1vn",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1308802,
+    "image_id": "scs1vm",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1308804,
+    "image_id": "scs1vo",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1250517,
+    "image_id": "scqswl",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1250518,
+    "image_id": "scqswm",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1250516,
+    "image_id": "scqswk",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1250519,
+    "image_id": "scqswn",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1250520,
+    "image_id": "scqswo",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1250521,
+    "image_id": "scqswp",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1250523,
+    "image_id": "scqswr",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1250525,
+    "image_id": "scqswt",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1250524,
+    "image_id": "scqsws",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1308799,
+    "image_id": "scs1vj",
+    "width": 1920
+   }
+  ],
+  "slug": "f1-24",
+  "total_rating_count": 21,
+  "url": "https://www.igdb.com/games/f1-24",
+  "videos": [
+   {
+    "id": 108041,
+    "name": "Announcement Trailer",
+    "video_id": "4rCs87muGjc"
+   },
+   {
+    "id": 111708,
+    "name": "Trailer",
+    "video_id": "NnyCWsA6KSI"
+   },
+   {
+    "id": 112016,
+    "name": "Gameplay Trailer",
+    "video_id": "BWyNOpuzid8"
+   },
+   {
+    "id": 112254,
+    "name": "Trailer",
+    "video_id": "vxQIKjRJm40"
+   },
+   {
+    "id": 112450,
+    "name": "Gameplay Video",
+    "video_id": "YKbpm3LQppU"
+   }
+  ],
+  "websites": [
+   {
+    "id": 788057,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/f1-24/9PLVVTDHS1P0"
+   },
+   {
+    "id": 619804,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2488620"
+   },
+   {
+    "id": 619805,
+    "type": 16,
+    "url": "https://store.epicgames.com/p/f1-24"
+   },
+   {
+    "id": 632546,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/F1_24"
+   },
+   {
+    "id": 618006,
+    "type": 1,
+    "url": "https://www.ea.com/games/f1/f1-24"
+   }
+  ]
+ },
  "F1 25": {
   "collections": [
    {
@@ -59955,6 +60435,224 @@
     "id": 33006,
     "type": 2,
     "url": "http://gearsofwar.wikia.com/wiki/Gears_of_War_4"
+   }
+  ]
+ },
+ "Gears of War: E-Day": {
+  "collections": [
+   {
+    "id": 66,
+    "name": "Gears of War"
+   }
+  ],
+  "cover": {
+   "id": 569219,
+   "image_id": "coc77n"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 2922356,
+    "uid": "3010850"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2922342,
+    "uid": "1663723394"
+   }
+  ],
+  "first_release_date": 1791244800,
+  "franchises": [
+   {
+    "id": 7084,
+    "name": "Gears of War"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 115,
+  "id": 305160,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 17966,
+     "name": "Xbox Game Studios"
+    },
+    "developer": false,
+    "id": 392733,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 5961,
+     "name": "The Coalition"
+    },
+    "developer": true,
+    "id": 392734,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 167,
+     "name": "People Can Fly"
+    },
+    "developer": false,
+    "id": 392735,
+    "publisher": false
+   }
+  ],
+  "name": "Gears of War: E-Day",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1338041,
+    "image_id": "scsoft",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1338038,
+    "image_id": "scsofq",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1338042,
+    "image_id": "scsofu",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1338045,
+    "image_id": "scsofx",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1338040,
+    "image_id": "scsofs",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1338044,
+    "image_id": "scsofw",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1338039,
+    "image_id": "scsofr",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1338043,
+    "image_id": "scsofv",
+    "width": 1920
+   }
+  ],
+  "slug": "gears-of-war-e-day",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   }
+  ],
+  "total_rating_count": 2,
+  "url": "https://www.igdb.com/games/gears-of-war-e-day",
+  "videos": [
+   {
+    "id": 115702,
+    "name": "Announcement Trailer",
+    "video_id": "EC20gLfUHeA"
+   },
+   {
+    "id": 198282,
+    "name": "Launch Trailer",
+    "video_id": "TOEuNKz3XW8"
+   },
+   {
+    "id": 186928,
+    "name": "Gameplay Video",
+    "video_id": "y85lNvF3kVQ"
+   },
+   {
+    "id": 193946,
+    "name": "Trailer",
+    "video_id": "-TW2SnAipsE"
+   }
+  ],
+  "websites": [
+   {
+    "id": 644118,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/3010850"
+   },
+   {
+    "id": 644292,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/gears-of-war-e-day"
+   },
+   {
+    "id": 1128790,
+    "type": 1,
+    "url": "https://www.gearsofwar.com/"
+   },
+   {
+    "id": 1128791,
+    "type": 5,
+    "url": "https://x.com/gearsofwar"
+   },
+   {
+    "id": 1128792,
+    "type": 9,
+    "url": "https://www.youtube.com/channel/UC3E8iPQGBdAnOQR_cmkEbsw"
+   },
+   {
+    "id": 1130273,
+    "type": 18,
+    "url": "https://discord.gg/u5Hst4jBX"
+   },
+   {
+    "id": 1066995,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/gears-of-war-e-day/9n4pt8hgcdhq"
    }
   ]
  },
@@ -84196,6 +84894,362 @@
     "id": 141913,
     "type": 9,
     "url": "https://youtube.com/minecraft"
+   }
+  ]
+ },
+ "Minecraft Dungeons II": {
+  "collections": [
+   {
+    "id": 13877,
+    "name": "Minecraft Dungeons"
+   },
+   {
+    "id": 1130,
+    "name": "Minecraft"
+   }
+  ],
+  "cover": {
+   "id": 569149,
+   "image_id": "coc75p"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 3157550,
+    "uid": "1912410"
+   },
+   {
+    "external_game_source": 14,
+    "id": 3157552,
+    "uid": "2042681592"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3183933,
+    "uid": "10008220"
+   }
+  ],
+  "first_release_date": 1790640000,
+  "franchises": [
+   {
+    "id": 950,
+    "name": "Minecraft"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 4,
+    "name": "Split screen"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 25,
+    "name": "Hack and slash/Beat 'em up"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 26,
+  "id": 395525,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 58,
+     "name": "Mojang Studios"
+    },
+    "developer": true,
+    "id": 377293,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 748,
+     "name": "Double Eleven"
+    },
+    "developer": false,
+    "id": 377295,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 17966,
+     "name": "Xbox Game Studios"
+    },
+    "developer": false,
+    "id": 377297,
+    "publisher": true
+   }
+  ],
+  "name": "Minecraft Dungeons II",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "Switch 2",
+    "id": 508,
+    "name": "Nintendo Switch 2"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1932411,
+    "image_id": "sc15f23",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1932415,
+    "image_id": "sc15f27",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1932410,
+    "image_id": "sc15f22",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1932412,
+    "image_id": "sc15f24",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1932413,
+    "image_id": "sc15f25",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1853010,
+    "image_id": "sc13psi",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1853011,
+    "image_id": "sc13psj",
+    "width": 1920
+   },
+   {
+    "height": 2160,
+    "id": 1853012,
+    "image_id": "sc13psk",
+    "width": 3840
+   },
+   {
+    "height": 1080,
+    "id": 1853009,
+    "image_id": "sc13psh",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1935286,
+    "image_id": "sc15h9y",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1935287,
+    "image_id": "sc15h9z",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1935285,
+    "image_id": "sc15h9x",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1935283,
+    "image_id": "sc15h9v",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1935284,
+    "image_id": "sc15h9w",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1853003,
+    "image_id": "sc13psb",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1853008,
+    "image_id": "sc13psg",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1853004,
+    "image_id": "sc13psc",
+    "width": 1920
+   },
+   {
+    "height": 2160,
+    "id": 1853005,
+    "image_id": "sc13psd",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1853006,
+    "image_id": "sc13pse",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1853007,
+    "image_id": "sc13psf",
+    "width": 3840
+   }
+  ],
+  "slug": "minecraft-dungeons-ii",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   }
+  ],
+  "total_rating_count": 10,
+  "url": "https://www.igdb.com/games/minecraft-dungeons-ii",
+  "videos": [
+   {
+    "id": 197719,
+    "name": "Cinematic Trailer",
+    "video_id": "WD9GtlgU8_c"
+   },
+   {
+    "id": 179311,
+    "name": "Announcement Trailer",
+    "video_id": "fjI_Akk5z8Y"
+   },
+   {
+    "id": 197720,
+    "name": "Gameplay Trailer",
+    "video_id": "vBNE3bKMpu8"
+   },
+   {
+    "id": 186950,
+    "name": "Trailer",
+    "video_id": "vq5M47synfo"
+   },
+   {
+    "id": 197958,
+    "name": "Launch Trailer",
+    "video_id": "nHW7oH_kZd4"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1032452,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10008220/"
+   },
+   {
+    "id": 1032457,
+    "type": 1,
+    "url": "https://www.minecraft.net/en-us/about-dungeons-ii"
+   },
+   {
+    "id": 1032494,
+    "type": 22,
+    "url": "https://www.xbox.com/en-US/games/store/-/9P5786PJB9RP"
+   },
+   {
+    "id": 1032475,
+    "type": 5,
+    "url": "https://x.com/dungeonsgame"
+   },
+   {
+    "id": 1032493,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/minecraft-dungeons-ii"
+   },
+   {
+    "id": 1032496,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/minecraft-dungeons-ii-switch/"
+   },
+   {
+    "id": 1032664,
+    "type": 2,
+    "url": "https://minecraft.wiki/w/Minecraft_Dungeons_II"
+   },
+   {
+    "id": 1125819,
+    "type": 4,
+    "url": "https://www.facebook.com/minecraft/"
+   },
+   {
+    "id": 1125820,
+    "type": 8,
+    "url": "https://www.instagram.com/minecraft/"
+   },
+   {
+    "id": 1125821,
+    "type": 9,
+    "url": "https://www.youtube.com/minecraft"
+   },
+   {
+    "id": 1125822,
+    "type": 18,
+    "url": "https://discord.gg/Minecraft"
+   },
+   {
+    "id": 1127411,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1912410"
    }
   ]
  },
@@ -161858,6 +162912,215 @@
     "id": 990039,
     "type": 14,
     "url": "https://www.reddit.com/r/WorldOfTanksBlitz/"
+   }
+  ]
+ },
+ "World of Tanks: HEAT": {
+  "collections": [
+   {
+    "id": 3069,
+    "name": "World of Tanks"
+   }
+  ],
+  "cover": {
+   "id": 565449,
+   "image_id": "coc4ax"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 3090774,
+    "uid": "2100280"
+   },
+   {
+    "external_game_source": 14,
+    "id": 3090767,
+    "uid": "767133634"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3182697,
+    "uid": "10011450"
+   }
+  ],
+  "first_release_date": 1779753600,
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 24,
+    "name": "Tactical"
+   }
+  ],
+  "hypes": 13,
+  "id": 361890,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 790,
+     "name": "Wargaming.net"
+    },
+    "developer": true,
+    "id": 337854,
+    "publisher": true
+   }
+  ],
+  "name": "World of Tanks: Heat",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1615309,
+    "image_id": "scymdp",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615306,
+    "image_id": "scymdm",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615312,
+    "image_id": "scymds",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615313,
+    "image_id": "scymdt",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615308,
+    "image_id": "scymdo",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615310,
+    "image_id": "scymdq",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615311,
+    "image_id": "scymdr",
+    "width": 1920
+   }
+  ],
+  "slug": "world-of-tanks-heat",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   }
+  ],
+  "total_rating_count": 12,
+  "url": "https://www.igdb.com/games/world-of-tanks-heat",
+  "videos": [
+   {
+    "id": 159562,
+    "name": "Announcement Trailer",
+    "video_id": "7VXeTK3-lMA"
+   },
+   {
+    "id": 181389,
+    "name": "Trailer",
+    "video_id": "1krluWN7gYo"
+   },
+   {
+    "id": 184136,
+    "name": "Release Date Trailer",
+    "video_id": "XUc5GNpvDKY"
+   }
+  ],
+  "websites": [
+   {
+    "id": 997457,
+    "type": 8,
+    "url": "https://www.instagram.com/wot_heat"
+   },
+   {
+    "id": 997459,
+    "type": 4,
+    "url": "https://www.facebook.com/playwotheat/reels/"
+   },
+   {
+    "id": 997458,
+    "type": 5,
+    "url": "https://x.com/wot_heat"
+   },
+   {
+    "id": 997460,
+    "type": 14,
+    "url": "https://reddit.com/r/wot_heat"
+   },
+   {
+    "id": 854077,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2100280"
+   },
+   {
+    "id": 854079,
+    "type": 18,
+    "url": "https://discord.com/invite/p9BrPZXV5G"
+   },
+   {
+    "id": 854078,
+    "type": 1,
+    "url": "https://wotheat.com"
+   },
+   {
+    "id": 854080,
+    "type": 9,
+    "url": "https://www.youtube.com/@wot_heat"
+   },
+   {
+    "id": 854107,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10011450"
+   },
+   {
+    "id": 854106,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/world-of-tanks-heat/9n11jm7f5cxk"
+   },
+   {
+    "id": 1036496,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/world-of-tanks-heat"
    }
   ]
  },

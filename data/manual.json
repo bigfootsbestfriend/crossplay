@@ -3136,6 +3136,34 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "F1 24",
+   "igdb_id": 287578,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "EA says cross-play covers every competitive online mode on PC, PlayStation 4, PlayStation 5, Xbox One and Xbox Series X|S, including the Challenge Career global leaderboard and Racenet Leagues. With it off, you only see players on your own platform."
+   ],
+   "toggle": [
+    "You're asked on first launch; later, go to Settings → Crossplay and switch it on or off."
+   ],
+   "sources": [
+    {
+     "title": "How to cross-play in EA SPORTS F1 24 (EA Help)",
+     "url": "https://help.ea.com/en/help/f1/f1-24/how-to-use-crossplay-in-f1-24/"
+    }
+   ],
+   "checked": "2026-10-11"
+  },
+  {
    "title": "F1 25",
    "igdb_id": 336964,
    "replaces": [
@@ -3890,6 +3918,37 @@
    "progress": [
     "Campaign saves and multiplayer progress carry between Xbox and PC through your Xbox account, but a Steam copy doesn't include the Xbox version (and vice versa)."
    ]
+  },
+  {
+   "title": "Gears of War: E-Day",
+   "igdb_id": 305160,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Out October 6, 2026 on Xbox Series X|S and PC (Steam and the Xbox app/Microsoft Store), and on Game Pass. Xbox and PC players play together in every co-op and multiplayer mode, so a Steam player can team up with an Xbox player.",
+    "There's no PlayStation version: Xbox says E-Day is an Xbox console exclusive. The campaign has 4-player online co-op and 2-player split-screen on Xbox."
+   ],
+   "sources": [
+    {
+     "title": "Is Gears of War: E-Day multiplayer? Crossplay, co-op and modes (Gfinity)",
+     "url": "https://www.gfinityesports.com/article/is-gears-of-war-e-day-multiplayer-crossplay-co-op-and-game-modes-explained"
+    },
+    {
+     "title": "Gears of War: E-Day set for October launch as Xbox and PC exclusive (KitGuru)",
+     "url": "https://www.kitguru.net/gaming/joao-silva/gears-of-war-e-day-set-for-october-launch-as-xbox-and-pc-exclusive/"
+    }
+   ],
+   "checked": "2026-10-11"
   },
   {
    "title": "Generation Zero",
@@ -5159,6 +5218,43 @@
     }
    ],
    "checked": "2026-10-10"
+  },
+  {
+   "title": "Minecraft Dungeons II",
+   "igdb_id": 395525,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "switch": "yes",
+      "switch2": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Every platform plays together in online co-op for up to 4 players, and Mixed Co-Op lets couch players join an online session. Friends are added by Microsoft Gamertag, or with Party Codes.",
+    "Crossplay needs a free Microsoft account; PlayStation and Switch players link one from Settings → Cross-Platform Play."
+   ],
+   "progress": [
+    "Progress follows your Microsoft account through cloud saves, but Deluxe Edition and pre-order items may not carry over to another platform."
+   ],
+   "crossprog": "yes",
+   "toggle": [
+    "Settings → Cross-Platform Play → Link Account, then enter the code on Microsoft's device link page."
+   ],
+   "sources": [
+    {
+     "title": "Minecraft Dungeons 2 crossplay and cross-progression (Insider Gaming, Sept 23, 2026)",
+     "url": "https://insider-gaming.com/minecraft-dungeons-2-crossplay-cross-progression/"
+    },
+    {
+     "title": "Minecraft Dungeons 2 crossplay and cross progression (games.gg)",
+     "url": "https://games.gg/minecraft-dungeons-ii/guides/minecraft-dungeons-2-crossplay-and-cross-progression/"
+    }
+   ],
+   "checked": "2026-10-11"
   },
   {
    "title": "MIR4",
@@ -9439,6 +9535,43 @@
    "checked": "2026-10-10",
    "crossprog": "yes",
    "audited": "2026-10-10"
+  },
+  {
+   "title": "World of Tanks: HEAT",
+   "igdb_id": 361890,
+   "f2p": true,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "geforcenow": "yes"
+     },
+     "pc_stores": [
+      "Wargaming Game Center",
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Launched May 26, 2026 as Wargaming's first simultaneous full cross-platform release: PC (Wargaming Game Center and Steam, including Steam Deck), PS5, Xbox Series X|S and GeForce NOW all play together. It's free to play."
+   ],
+   "progress": [
+    "One Wargaming account carries your progress across every platform."
+   ],
+   "crossprog": "yes",
+   "sources": [
+    {
+     "title": "World of Tanks: HEAT is live today (Wargaming, May 26, 2026)",
+     "url": "https://wargaming.com/en/news/world-of-tanks-heat-is-live-today/"
+    },
+    {
+     "title": "World of Tanks: HEAT (Xbox Store)",
+     "url": "https://www.xbox.com/en-US/games/store/-/9N11JM7F5CXK"
+    }
+   ],
+   "checked": "2026-10-11"
   },
   {
    "title": "World of Tanks: Modern Armor",

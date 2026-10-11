@@ -46,3 +46,4 @@ Needs a better source before adding:
 - Wreckfest: PS4/PS5 cross-gen and PC cross-store confirmed; one report of full PC/PS/Xbox crossplay with no date. Find Bugbear's patch notes.
 - Pummel Party: still no official statement.
 - BeamNG.drive: re-check when official online multiplayer ships.
+- Teardown: console multiplayer (12 players) launched Sep 15, 2026 on PS5/Xbox Series; PC↔console crossplay not stated anywhere. Check Tuxedo Labs' posts.
