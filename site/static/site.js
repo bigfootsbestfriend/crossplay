@@ -234,3 +234,42 @@
     });
   });
 })();
+
+// Email signup prompts: "Tell me…" buttons open the signup box, and a small bar offers it once after a while
+// on the page. The bar is easy to close and stays away for 14 days; it never shows to subscribers.
+(() => {
+  const box = document.querySelector(".signup");
+  if (!box) return;
+  const form = box.querySelector("form");
+  const store = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } };
+  const open = () => {
+    box.scrollIntoView({ behavior: "smooth", block: "center" });
+    box.classList.remove("flash"); void box.offsetWidth; box.classList.add("flash");
+    setTimeout(() => form.querySelector('input[type="email"]').focus({ preventScroll: true }), 500);
+    if (bar) bar.hidden = true;
+  };
+  document.addEventListener("click", (ev) => { const b = ev.target.closest("[data-signup]"); if (b) { ev.preventDefault(); open(); } });
+  form.addEventListener("submit", () => {
+    store("nl-subbed", "1");
+    if (window.gtag) window.gtag("event", "sign_up", { method: "email", page: location.pathname });
+  });
+  let bar = null;
+  if (store("nl-subbed") || Date.now() - (+store("nl-bar") || 0) < 14 * 864e5) return;
+  bar = document.createElement("div");
+  bar.className = "signup-bar";
+  bar.hidden = true;
+  bar.innerHTML = `<span><b>Free weekly email</b> · ${box.dataset.bar || box.querySelector("h2").textContent}</span>` +
+    `<button type="button" class="go" data-signup>Sign up</button><button type="button" class="x" aria-label="No thanks">×</button>`;
+  document.body.appendChild(bar);
+  bar.querySelector(".x").addEventListener("click", () => { store("nl-bar", String(Date.now())); bar.remove(); });
+  let inView = false, shown = false;
+  new IntersectionObserver(([en]) => { inView = en.isIntersecting; if (inView) bar.hidden = true; }).observe(box);
+  const show = () => {
+    if (shown || inView) return;
+    shown = true;
+    store("nl-bar", String(Date.now()));
+    bar.hidden = false;
+  };
+  setTimeout(show, 25000);
+  addEventListener("scroll", () => { if (scrollY > (document.documentElement.scrollHeight - innerHeight) * 0.5) show(); }, { passive: true });
+})();

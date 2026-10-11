@@ -434,6 +434,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
       <a href="{url('/updates/')}">Recent changes</a>
       <a href="{url('/for-developers/')}">For developers</a>
       <a href="{url('/feed.xml')}">RSS feed</a>
+{f"""<a href="{url('/newsletter/')}">Weekly email</a>""" if config.NEWSLETTER_API else ""}
       <a href="{url('/privacy/')}">Privacy</a>
       <a href="{correction_link()}">Report a mistake</a>
     </nav>
@@ -458,7 +459,7 @@ NEWSLETTER_STATES = {
 def signup_box(uid):
     if not config.NEWSLETTER_API:
         return ""
-    return f"""<section class="signup"><h2>New crossplay games, once a week</h2>
+    return f"""<section class="signup" id="signup" data-bar="New crossplay games and changes, once a week"><h2>New crossplay games, once a week</h2>
 <p>Which games added crossplay this week, and what changed. One short email, unsubscribe in one click.</p>
 <form action="{e(config.NEWSLETTER_API)}/subscribe" method="post"><input type="hidden" name="site" value="crossplay">
 <input class="sr" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -597,6 +598,11 @@ def game_page(g, games):
     if g["crossprog"] and not g["progress"]:
         w_, why = CROSSPROG[g["crossprog"]]
         xprog = f'<p class="xprog"><span class="tag x-{g["crossprog"]}">Cross-progression: {w_}</span> {e(why[0].upper() + why[1:])}</p>'
+    watch = ""
+    if config.NEWSLETTER_API:
+        ask = f"Tell me if {t} gets crossplay" if kind in ("no", "ended") else f"Tell me when {t}'s crossplay changes"
+        watch = (f'<p class="watch"><button type="button" class="btn-watch" data-signup>{e(ask)}</button> '
+                 f'<span class="small">in our free weekly email</span></p>')
     parts.append(f"""
 <section class="answer v-{kind}">
   <div class="answer-cover">{cover(g)}</div>
@@ -606,6 +612,7 @@ def game_page(g, games):
     <p class="verdict"><span class="badge v-{kind}">{e(word)}</span> {e(summary)}</p>
     {"".join(f'<p>{e(x)}</p>' for x in extra)}
     {xprog}
+    {watch}
     <p class="checked">{byline}Last checked {nice_date(g["checked"])}
     {f' · Details last changed {nice_date(g["history"]["changed"])}' if g["history"].get("changed") and g["history"]["changed"] != g["history"].get("first_seen") else ''}</p>
   </div>
@@ -633,6 +640,7 @@ def game_page(g, games):
                else "Where you can play it" if single_platform(g) else "Platforms that play together")
     if not g.get("verdict"):
         parts.append(f'<section><h2>{heading}</h2><div class="pools">{"".join(rows)}</div></section>')
+    parts.append(signup_box("game"))
 
     # Settings and progression get their own headings: they match the searches people make after
     # "is it crossplay" ("how to turn off crossplay in X", "X cross progression").
@@ -854,7 +862,6 @@ def game_page(g, games):
     desc = summary + (" " + pcn if pcn else "")
     # Only researched pages that have passed the deep audit (research/audit.md) go to search engines; the rest
     # stay visible to readers but are noindexed until audited.
-    parts.append(signup_box("game"))
     return page("/games/" + g["slug"] + "/", title, desc[:300], "\n".join(parts), [vg] + faq_schema,
                 [("Home", "/"), ("Games", "/games/"), (t, "/games/" + g["slug"] + "/")],
                 noindex=not g.get("audited"))
