@@ -47,3 +47,4 @@ TURNSTILE_SITEKEY = ""
 AUTHOR = "Mike Johnston"
 GA_ID = "G-SQ13RNQQNR"
 CLICKY_ID = "101513000"
+CF_BEACON = "49ca03ef4b694bf8b7279581ff11397a"  # Cloudflare Web Analytics (cookieless)
