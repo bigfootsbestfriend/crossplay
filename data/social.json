@@ -1,5 +1,12 @@
 {
- "out": [],
+ "out": [
+  {
+   "date": "2026-10-11",
+   "id": "seed",
+   "link": "https://crossplayguide.com/",
+   "text": "Crossplay Guide checks which platforms play together for 260+ games. New answers and real updates show up here first."
+  }
+ ],
  "queue": [],
  "seen": {
   "7 Days to Die": "",
