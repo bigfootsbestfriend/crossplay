@@ -107,3 +107,11 @@ Wikipedia's list misses many of the most-played games, so we research those ours
   verdict or platform list changes for real. At most 2 items a day (autolist slots 12:30 and 7:30 PM MT); extras wait in data/social.json's queue.
 - Instagram and Facebook posts are scheduled in batches (Metricool + GRO comment-for-DM queue), never from the feed,
   because every IG/FB post uses up the next queued GRO automation.
+
+## Share images (og:image)
+
+- site/build.py writes _site/og/cards.json; site/og.py (Pillow, run by the workflow after the build) draws a
+  1200x630 verdict card per game at /og/<slug>.png plus /og/default.png for every other page. Fonts and the logo
+  are in site/og_assets (Space Grotesk + Inter, OFL). Locally: `pip install pillow && python3 site/og.py`.
+- New researched games need `collector/igdb_match.py` (IGDB keys in .env) before they build, especially
+  "no crossplay" entries, whose platform list comes from IGDB.
