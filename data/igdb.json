@@ -86536,6 +86536,265 @@
    }
   ]
  },
+ "Mistfall Hunter": {
+  "cover": {
+   "id": 587591,
+   "image_id": "cocldz"
+  },
+  "external_games": [
+   {
+    "external_game_source": 36,
+    "id": 3175645,
+    "uid": "10017212"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2956749,
+    "uid": "3282300"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2954968,
+    "uid": "852009328"
+   }
+  ],
+  "first_release_date": 1785283200,
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 36,
+  "id": 320141,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 63578,
+     "name": "Bellring Games"
+    },
+    "developer": true,
+    "id": 404185,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 28290,
+     "name": "Skystone Games"
+    },
+    "developer": false,
+    "id": 404184,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 33889,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": false,
+    "onlinemax": 3,
+    "platform": 6,
+    "splitscreen": false
+   }
+  ],
+  "name": "Mistfall Hunter",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1410240,
+    "image_id": "scu85c",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1410241,
+    "image_id": "scu85d",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1410242,
+    "image_id": "scu85e",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1410243,
+    "image_id": "scu85f",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1410244,
+    "image_id": "scu85g",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1410246,
+    "image_id": "scu85i",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1410245,
+    "image_id": "scu85h",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1410247,
+    "image_id": "scu85j",
+    "width": 1920
+   }
+  ],
+  "slug": "mistfall-hunter",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   },
+   {
+    "id": 21,
+    "name": "Survival"
+   }
+  ],
+  "total_rating_count": 20,
+  "url": "https://www.igdb.com/games/mistfall-hunter",
+  "videos": [
+   {
+    "id": 130108,
+    "name": "Announcement Trailer",
+    "video_id": "YiMyw3qVnVE"
+   },
+   {
+    "id": 191883,
+    "name": "Cinematic Teaser",
+    "video_id": "RM7kqvppQX4"
+   },
+   {
+    "id": 191884,
+    "name": "Launch Gameplay Trailer",
+    "video_id": "xxWeD_hVYUw"
+   },
+   {
+    "id": 191885,
+    "name": "Cinematic Trailer",
+    "video_id": "1B0QfmLFt2o"
+   },
+   {
+    "id": 159890,
+    "name": "Trailer",
+    "video_id": "gMw78rT66DQ"
+   },
+   {
+    "id": 163278,
+    "name": "Dev Diary",
+    "video_id": "fyp47P05f0E"
+   },
+   {
+    "id": 181951,
+    "name": "Trailer",
+    "video_id": "nOEwF5oHmbw"
+   },
+   {
+    "id": 186059,
+    "name": "Gameplay Deep Dive",
+    "video_id": "Cnx9TFTIkKQ"
+   },
+   {
+    "id": 186821,
+    "name": "Gameplay Trailer",
+    "video_id": "g1ATRVlqgmg"
+   }
+  ],
+  "websites": [
+   {
+    "id": 684500,
+    "type": 1,
+    "url": "https://mistfallhunter.com/"
+   },
+   {
+    "id": 684503,
+    "type": 18,
+    "url": "https://discord.gg/invite/4KbCcdXc"
+   },
+   {
+    "id": 684501,
+    "type": 9,
+    "url": "https://www.youtube.com/@MistfallHunter"
+   },
+   {
+    "id": 684504,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/mistfall-hunter"
+   },
+   {
+    "id": 684499,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/3282300"
+   },
+   {
+    "id": 684502,
+    "type": 5,
+    "url": "https://twitter.com/MistfallHunter"
+   },
+   {
+    "id": 1006090,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10017212"
+   },
+   {
+    "id": 1122943,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/mistfall-hunter/9P8X6TVW9ZW8"
+   },
+   {
+    "id": 1093090,
+    "type": 2,
+    "url": "https://mistfallhunter.gamedb.wiki/"
+   }
+  ]
+ },
  "Mobius Final Fantasy": {
   "collections": [
    {
@@ -121162,6 +121421,256 @@
     "id": 670600,
     "type": 8,
     "url": "https://www.instagram.com/Shadowversegame/"
+   }
+  ]
+ },
+ "Shape of Dreams": {
+  "cover": {
+   "id": 421638,
+   "image_id": "co91c6"
+  },
+  "external_games": [
+   {
+    "external_game_source": 36,
+    "id": 3216966,
+    "uid": "10018441"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2900240,
+    "uid": "2444750"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2900936,
+    "uid": "441530517"
+   }
+  ],
+  "first_release_date": 1757462400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 24,
+    "name": "Tactical"
+   },
+   {
+    "id": 25,
+    "name": "Hack and slash/Beat 'em up"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   },
+   {
+    "id": 36,
+    "name": "MOBA"
+   }
+  ],
+  "hypes": 4,
+  "id": 293572,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 30237,
+     "name": "Neowiz"
+    },
+    "developer": false,
+    "id": 345950,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 68900,
+     "name": "Lizard Smoothie"
+    },
+    "developer": true,
+    "id": 345951,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 36607,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 4,
+    "splitscreen": false
+   }
+  ],
+  "name": "Shape of Dreams",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "Switch 2",
+    "id": 508,
+    "name": "Nintendo Switch 2"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1440,
+    "id": 1419609,
+    "image_id": "scufdl",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1419610,
+    "image_id": "scufdm",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1419611,
+    "image_id": "scufdn",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1419612,
+    "image_id": "scufdo",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1419613,
+    "image_id": "scufdp",
+    "width": 2560
+   }
+  ],
+  "slug": "shape-of-dreams",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   }
+  ],
+  "total_rating_count": 6,
+  "url": "https://www.igdb.com/games/shape-of-dreams",
+  "videos": [
+   {
+    "id": 132720,
+    "name": "Trailer",
+    "video_id": "AgPW7jsfRb0"
+   },
+   {
+    "id": 159808,
+    "name": "Release Date Trailer",
+    "video_id": "zp2uDMIWIgw"
+   },
+   {
+    "id": 162094,
+    "name": "Teaser",
+    "video_id": "wJBeE_wjZQc"
+   },
+   {
+    "id": 162095,
+    "name": "Release Date Trailer",
+    "video_id": "06BleIXLDC4"
+   },
+   {
+    "id": 162096,
+    "name": "Launch Trailer",
+    "video_id": "8pNeoyZVo5Y"
+   },
+   {
+    "id": 196563,
+    "name": "Launch Trailer",
+    "video_id": "X4o1-8Lq5aQ"
+   }
+  ],
+  "websites": [
+   {
+    "id": 870535,
+    "type": 5,
+    "url": "https://x.com/SodStm"
+   },
+   {
+    "id": 935729,
+    "type": 8,
+    "url": "https://www.instagram.com/shapeofdreams_game/"
+   },
+   {
+    "id": 625188,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2444750"
+   },
+   {
+    "id": 650690,
+    "type": 9,
+    "url": "https://www.youtube.com/@LizardSmoothie"
+   },
+   {
+    "id": 650689,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/shape-of-dream"
+   },
+   {
+    "id": 650692,
+    "type": 18,
+    "url": "https://discord.gg/invite/PEsbaxuSzS"
+   },
+   {
+    "id": 1125060,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/shape-of-dreams-switch-2/"
+   },
+   {
+    "id": 1119126,
+    "type": 22,
+    "url": "https://www.xbox.com/en-US/games/store/shape-of-dreams/9pk0dz68lgc0"
+   },
+   {
+    "id": 1093083,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10018441"
    }
   ]
  },
@@ -157207,6 +157716,295 @@
     "id": 113572,
     "type": 14,
     "url": "https://www.reddit.com/r/Warthunder"
+   }
+  ]
+ },
+ "Wardogs": {
+  "cover": {
+   "id": 596389,
+   "image_id": "cocs6d"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 3142635,
+    "uid": "1867240"
+   },
+   {
+    "external_game_source": 14,
+    "id": 3142367,
+    "uid": "743893402"
+   }
+  ],
+  "first_release_date": 1788998400,
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 24,
+    "name": "Tactical"
+   }
+  ],
+  "hypes": 36,
+  "id": 388285,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 8714,
+     "name": "Bulkhead"
+    },
+    "developer": true,
+    "id": 412980,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 16437,
+     "name": "Team17"
+    },
+    "developer": false,
+    "id": 412981,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 43992,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": false,
+    "onlinemax": 100,
+    "platform": 6,
+    "splitscreen": false
+   }
+  ],
+  "name": "Wardogs",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1756897,
+    "image_id": "sc11nmp",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756898,
+    "image_id": "sc11nmq",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756899,
+    "image_id": "sc11nmr",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756900,
+    "image_id": "sc11nms",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756889,
+    "image_id": "sc11nmh",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756890,
+    "image_id": "sc11nmi",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756891,
+    "image_id": "sc11nmj",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756892,
+    "image_id": "sc11nmk",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756893,
+    "image_id": "sc11nml",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756894,
+    "image_id": "sc11nmm",
+    "width": 1920
+   },
+   {
+    "height": 2160,
+    "id": 1754151,
+    "image_id": "sc11lif",
+    "width": 3840
+   },
+   {
+    "height": 1080,
+    "id": 1756895,
+    "image_id": "sc11nmn",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1756896,
+    "image_id": "sc11nmo",
+    "width": 1920
+   }
+  ],
+  "slug": "wardogs",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 33,
+    "name": "Sandbox"
+   },
+   {
+    "id": 39,
+    "name": "Warfare"
+   }
+  ],
+  "total_rating_count": 15,
+  "url": "https://www.igdb.com/games/wardogs",
+  "videos": [
+   {
+    "id": 175407,
+    "name": "Announcement Trailer",
+    "video_id": "OCnEi5npoTE"
+   },
+   {
+    "id": 194084,
+    "name": "Gameplay Trailer",
+    "video_id": "RCohwHzH4BU"
+   },
+   {
+    "id": 194057,
+    "name": "Trailer",
+    "video_id": "ZVzF9FEd8GU"
+   },
+   {
+    "id": 195836,
+    "name": "Launch Trailer",
+    "video_id": "CpQnZgZCIo8"
+   },
+   {
+    "id": 186649,
+    "name": "Gameplay Trailer",
+    "video_id": "iGc9nJLCLAE"
+   },
+   {
+    "id": 187016,
+    "name": "Trailer",
+    "video_id": "eliH0MXdl1g"
+   },
+   {
+    "id": 195064,
+    "name": "Trailer",
+    "video_id": "eINpxBV3wH4"
+   },
+   {
+    "id": 192626,
+    "name": "Release Date Trailer",
+    "video_id": "ugkuP4a3xk4"
+   },
+   {
+    "id": 199203,
+    "name": "Dev Diary",
+    "video_id": "J2VxjMnMDw4"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1002489,
+    "type": 18,
+    "url": "https://discord.gg/TxKKdspkCp"
+   },
+   {
+    "id": 1002490,
+    "type": 5,
+    "url": "https://x.com/wardogs"
+   },
+   {
+    "id": 1002491,
+    "type": 4,
+    "url": "https://www.facebook.com/profile.php?id=61587420691847"
+   },
+   {
+    "id": 1002492,
+    "type": 8,
+    "url": "https://www.instagram.com/playwardogs/"
+   },
+   {
+    "id": 1095568,
+    "type": 1,
+    "url": "https://bulkhead.com/games/wardogs/"
+   },
+   {
+    "id": 1095569,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/wardogs"
+   },
+   {
+    "id": 1095570,
+    "type": 9,
+    "url": "https://www.youtube.com/@BULKHEAD./"
+   },
+   {
+    "id": 1115968,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/wardogs/9p55z0jjgvwn"
+   },
+   {
+    "id": 1115969,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10020847"
+   },
+   {
+    "id": 1116071,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1867240"
    }
   ]
  },

@@ -49,3 +49,5 @@ Needs a better source before adding:
 - Teardown: console multiplayer (12 players) launched Sep 15, 2026 on PS5/Xbox Series; PC↔console crossplay not stated anywhere. Check Tuxedo Labs' posts.
 - Farm Together 2: Milkstone's Update #6 added cross-platform play with consoles (on by default); the platform list (PS5/Switch?) is unclear.
 - No Rest for the Wicked: 1.0 in October 2026 on PC + PS5 with full crossplay/cross-save (listed on /coming-soon/). Add a game page when 1.0 ships.
+- Way of the Hunter 2: 1.0 Sep 29, 2026 on PC/PS5/Xbox Series; co-op live; no crossplay statement.
+- Go-Go Town!: Steam + Switch/Switch 2; reviews mention "cross-platform mixed play" but no official detail.

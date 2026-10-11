@@ -5311,6 +5311,41 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Mistfall Hunter",
+   "igdb_id": 320141,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Since launch (July 29, 2026), PC (Steam), PS5 and Xbox Series X|S share matchmaking, and squads of up to 3 can mix platforms. Servers are regional (US, Germany, Brazil, Singapore, China), so friends need to pick the same region.",
+    "It's always online, with no split-screen or local co-op."
+   ],
+   "progress": [
+    "There's no cross-progression between PlayStation, Xbox and Steam. The only shared progress is between Xbox consoles and the Xbox app on PC (Xbox Play Anywhere)."
+   ],
+   "crossprog": "partial",
+   "sources": [
+    {
+     "title": "Is Mistfall Hunter crossplay? PC, PS5 and Xbox explained (GamesHub)",
+     "url": "https://www.gameshub.com/?p=2892850"
+    },
+    {
+     "title": "Mistfall Hunter releasing on PC, PS5, Xbox Series X|S in July (RPGamer)",
+     "url": "https://rpgamer.com/2026/02/mistfall-hunter-releasing-on-pc-ps5-xbox-series-xs-in-july/"
+    }
+   ],
+   "checked": "2026-10-11"
+  },
+  {
    "title": "MLB The Show 26",
    "igdb_id": null,
    "groups": [
@@ -7420,6 +7455,43 @@
    ]
   },
   {
+   "title": "Shape of Dreams",
+   "igdb_id": 293572,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes",
+      "switch2": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "The console versions (PS5, Xbox Series X|S and Switch 2) launched on September 17, 2026 with crossplay with PC, for online co-op of up to 4 players. It's on Game Pass.",
+    "Co-op is online only: there's no split-screen."
+   ],
+   "sources": [
+    {
+     "title": "Shape of Dreams launches on consoles alongside 1st anniversary update (Inven Global)",
+     "url": "https://www.invenglobal.com/articles/26173/shape-of-dreams-launches-on-consoles-alongside-1st-anniversary-update"
+    },
+    {
+     "title": "Shape of Dreams available now on PS5, Xbox Series X|S and Switch 2 (Final Weapon)",
+     "url": "https://finalweapon.net/2026/09/17/shape-of-dreams-available-now-on-ps5-xbox-series-xs-and-switch-2/"
+    },
+    {
+     "title": "Shape of Dreams (Xbox Store)",
+     "url": "https://www.xbox.com/en-US/games/store/-/9PK0DZ68LGC0"
+    }
+   ],
+   "checked": "2026-10-11"
+  },
+  {
    "title": "Sid Meier's Civilization VI",
    "igdb_id": 19130,
    "replaces": [
@@ -9297,6 +9369,30 @@
    "checked": "2026-10-10",
    "audited": "2026-10-10",
    "f2p": true
+  },
+  {
+   "title": "Wardogs",
+   "igdb_id": 388285,
+   "crossplay": false,
+   "verdict": {
+    "kind": "no",
+    "word": "PC only",
+    "summary": "Wardogs is only on PC for now (Steam Early Access since September 10, 2026), so everyone plays on the same platform. PS5 and Xbox versions are planned for 2028, and crossplay hasn't been announced."
+   },
+   "notes": [
+    "Bulkhead launched Wardogs in Steam Early Access on September 10, 2026 and says PS5 and Xbox versions will follow in 2028. The Steam page doesn't list cross-platform multiplayer."
+   ],
+   "sources": [
+    {
+     "title": "Wardogs PlayStation and Xbox console status (Insider Gaming)",
+     "url": "https://insider-gaming.com/wardogs-playstation-xbox-console-status/"
+    },
+    {
+     "title": "Wardogs is coming to consoles two years after its Early Access launch (Gfinity)",
+     "url": "https://www.gfinityesports.com/article/wardogs-is-coming-to-consoles-two-years-after-its-early-access-launch"
+    }
+   ],
+   "checked": "2026-10-11"
   },
   {
    "title": "Warframe",
