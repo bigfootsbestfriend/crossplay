@@ -12262,6 +12262,305 @@
    }
   ]
  },
+ "BeamNG.drive": {
+  "cover": {
+   "id": 84190,
+   "image_id": "co1sym"
+  },
+  "external_games": [
+   {
+    "external_game_source": 3,
+    "id": 117534,
+    "uid": "43442"
+   },
+   {
+    "external_game_source": 10,
+    "id": 190018,
+    "uid": "UCUwFPSagMuqrEgdjz_O3qtQ"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3018857,
+    "uid": "714aff7bf0f7459bbf96021287ce11ba"
+   },
+   {
+    "external_game_source": 1,
+    "id": 11543,
+    "uid": "284160"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3221196,
+    "uid": "10015321"
+   },
+   {
+    "external_game_source": 14,
+    "id": 247267,
+    "uid": "491878"
+   }
+  ],
+  "first_release_date": 1428192000,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 10,
+    "name": "Racing"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   }
+  ],
+  "id": 17131,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 8524,
+     "name": "BeamNG"
+    },
+    "developer": true,
+    "id": 31757,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 24757,
+    "lancoop": false,
+    "offlinecoop": true,
+    "offlinecoopmax": 4,
+    "offlinemax": 4,
+    "onlinecoop": false,
+    "platform": 6,
+    "splitscreen": true
+   },
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 24758,
+    "lancoop": false,
+    "offlinecoop": true,
+    "offlinecoopmax": 4,
+    "offlinemax": 4,
+    "onlinecoop": false,
+    "splitscreen": true
+   }
+  ],
+  "name": "BeamNG.drive",
+  "platforms": [
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1415082,
+    "image_id": "scubvu",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415077,
+    "image_id": "scubvp",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415079,
+    "image_id": "scubvr",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415080,
+    "image_id": "scubvs",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415081,
+    "image_id": "scubvt",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415078,
+    "image_id": "scubvq",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415076,
+    "image_id": "scubvo",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415073,
+    "image_id": "scubvl",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415083,
+    "image_id": "scubvv",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415085,
+    "image_id": "scubvx",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415086,
+    "image_id": "scubvy",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415072,
+    "image_id": "scubvk",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415084,
+    "image_id": "scubvw",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415074,
+    "image_id": "scubvm",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1415075,
+    "image_id": "scubvn",
+    "width": 1920
+   }
+  ],
+  "slug": "beamng-dot-drive",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 33,
+    "name": "Sandbox"
+   }
+  ],
+  "total_rating_count": 96,
+  "url": "https://www.igdb.com/games/beamng-dot-drive",
+  "videos": [
+   {
+    "id": 130970,
+    "name": "Trailer",
+    "video_id": "4ms-LHkN6YQ"
+   },
+   {
+    "id": 197442,
+    "name": "Trailer",
+    "video_id": "y0zU_JPFW2k"
+   },
+   {
+    "id": 185111,
+    "name": "Announcement Trailer",
+    "video_id": "83mWWlAXJQY"
+   }
+  ],
+  "websites": [
+   {
+    "id": 818379,
+    "type": 18,
+    "url": "https://discord.com/invite/beamng"
+   },
+   {
+    "id": 113123,
+    "type": 14,
+    "url": "https://www.reddit.com/r/BeamNG"
+   },
+   {
+    "id": 903289,
+    "type": 2,
+    "url": "https://beamng.fandom.com/wiki/"
+   },
+   {
+    "id": 746153,
+    "type": 1,
+    "url": "https://www.beamng.com"
+   },
+   {
+    "id": 746155,
+    "type": 5,
+    "url": "https://x.com/beamng"
+   },
+   {
+    "id": 746154,
+    "type": 4,
+    "url": "https://facebook.com/BeamNGPhysics"
+   },
+   {
+    "id": 746156,
+    "type": 9,
+    "url": "https://youtube.com/beamng/"
+   },
+   {
+    "id": 18081,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/BeamNG.drive"
+   },
+   {
+    "id": 18084,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/284160"
+   },
+   {
+    "id": 113121,
+    "type": 8,
+    "url": "https://www.instagram.com/beamng.official"
+   },
+   {
+    "id": 967177,
+    "type": 16,
+    "url": "https://store.epicgames.com/en-US/p/beamngdrive-7f5f3a"
+   },
+   {
+    "id": 661015,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/beamng-drive"
+   },
+   {
+    "id": 1060775,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10015321/"
+   }
+  ]
+ },
  "Black Desert Online": {
   "cover": {
    "id": 587602,
@@ -15872,6 +16171,353 @@
     "id": 1105262,
     "type": 22,
     "url": "https://www.xbox.com/en-us/games/store/breakers-collection/9N6HWMGBW7T1"
+   }
+  ]
+ },
+ "Brotato": {
+  "cover": {
+   "id": 480631,
+   "image_id": "coaauv"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 2866175,
+    "uid": "B0CMDCTKH4"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2859968,
+    "uid": "B0CMDCTKH4"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3018550,
+    "uid": "3fe7eaeca2fa474187fc338a5324ae11"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882833,
+    "uid": "B0CT6JVDZL"
+   },
+   {
+    "external_game_source": 5,
+    "id": 3175286,
+    "uid": "1118951034"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2890994,
+    "uid": "B0CT6JVDZL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2902758,
+    "uid": "B0CMDCTKH4"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2883282,
+    "uid": "9P9VNSQK1W3K"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2435415,
+    "uid": "1942280"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2902712,
+    "uid": "B0CT6JVDZL"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2436674,
+    "uid": "743214338"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2881338,
+    "uid": "10007282"
+   },
+   {
+    "external_game_source": 54,
+    "id": 3133056,
+    "uid": "9P9VNSQK1W3K"
+   }
+  ],
+  "first_release_date": 1679961600,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 4,
+    "name": "Fighting"
+   },
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   },
+   {
+    "id": 33,
+    "name": "Arcade"
+   }
+  ],
+  "hypes": 1,
+  "id": 199116,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 12239,
+     "name": "Seaven Studio"
+    },
+    "developer": false,
+    "id": 250990,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 46856,
+     "name": "Blobfish"
+    },
+    "developer": true,
+    "id": 250991,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 46856,
+     "name": "Blobfish"
+    },
+    "developer": false,
+    "id": 250992,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 41607,
+     "name": "Erabit Studios"
+    },
+    "developer": true,
+    "id": 261573,
+    "publisher": true
+   }
+  ],
+  "name": "Brotato",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 782176,
+    "image_id": "scgrj4",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 782173,
+    "image_id": "scgrj1",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 782174,
+    "image_id": "scgrj2",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 782177,
+    "image_id": "scgrj5",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 782175,
+    "image_id": "scgrj3",
+    "width": 1920
+   }
+  ],
+  "slug": "brotato",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 18,
+    "name": "Science fiction"
+   },
+   {
+    "id": 21,
+    "name": "Survival"
+   }
+  ],
+  "total_rating_count": 128,
+  "url": "https://www.igdb.com/games/brotato",
+  "videos": [
+   {
+    "id": 67541,
+    "name": "Announcement Trailer",
+    "video_id": "L2S2TAffIl4"
+   },
+   {
+    "id": 75078,
+    "name": "Release Date Trailer",
+    "video_id": "bXEhKX41WRk"
+   }
+  ],
+  "websites": [
+   {
+    "id": 730109,
+    "type": 5,
+    "url": "https://x.com/blobfgames"
+   },
+   {
+    "id": 853643,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/brotato/9P9VNSQK1W3K"
+   },
+   {
+    "id": 853644,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10007282"
+   },
+   {
+    "id": 279532,
+    "type": 18,
+    "url": "https://discord.gg/j39jE6k"
+   },
+   {
+    "id": 279530,
+    "type": 1,
+    "url": "https://www.blobfish.dev/"
+   },
+   {
+    "id": 611627,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.brotato.shooting.survivors.action.roguelike"
+   },
+   {
+    "id": 701127,
+    "type": 16,
+    "url": "https://www.epicgames.com/store/p/brotato-ed4097"
+   },
+   {
+    "id": 1001781,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Brotato"
+   },
+   {
+    "id": 1028181,
+    "type": 17,
+    "url": "https://www.gog.com/game/brotato"
+   },
+   {
+    "id": 1035823,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1942280"
+   },
+   {
+    "id": 1035824,
+    "type": 11,
+    "url": "https://apps.apple.com/us/app/brotato-premium/id1668755109"
+   },
+   {
+    "id": 1035825,
+    "type": 10,
+    "url": "https://apps.apple.com/us/app/brotato-premium/id1668755109"
+   },
+   {
+    "id": 1035826,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/brotato-switch/"
+   },
+   {
+    "id": 1035827,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/brotato"
+   },
+   {
+    "id": 1035829,
+    "type": 9,
+    "url": "https://www.youtube.com/@blobfish_games"
+   },
+   {
+    "id": 1035828,
+    "type": 2,
+    "url": "https://brotato.wiki.spellsandguns.com/Brotato_Wiki"
+   },
+   {
+    "id": 1035830,
+    "type": 14,
+    "url": "https://www.reddit.com/r/brotato/"
    }
   ]
  },
