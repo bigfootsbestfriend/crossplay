@@ -108381,6 +108381,228 @@
    }
   ]
  },
+ "Planet Coaster 2": {
+  "collections": [
+   {
+    "id": 10210,
+    "name": "Planet Coaster"
+   }
+  ],
+  "cover": {
+   "id": 398561,
+   "image_id": "co8jj5"
+  },
+  "external_games": [
+   {
+    "external_game_source": 26,
+    "id": 3018290,
+    "uid": "29dd07374bbb447e9afae94b319db880"
+   },
+   {
+    "external_game_source": 54,
+    "id": 3163200,
+    "uid": "9PK5WS0HXQKQ"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2960119,
+    "uid": "9PK5WS0HXQKQ"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2933167,
+    "uid": "1846570260"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2946920,
+    "uid": "10009610"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2928878,
+    "uid": "2688950"
+   }
+  ],
+  "first_release_date": 1730851200,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 8,
+  "id": 308099,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 208,
+     "name": "Frontier Developments"
+    },
+    "developer": true,
+    "id": 275816,
+    "publisher": true
+   }
+  ],
+  "name": "Planet Coaster 2",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1352919,
+    "image_id": "scszx3",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1352917,
+    "image_id": "scszx1",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1352920,
+    "image_id": "scszx4",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1352916,
+    "image_id": "scszx0",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1352915,
+    "image_id": "scszwz",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1352918,
+    "image_id": "scszx2",
+    "width": 1920
+   }
+  ],
+  "slug": "planet-coaster-2",
+  "themes": [
+   {
+    "id": 33,
+    "name": "Sandbox"
+   }
+  ],
+  "total_rating_count": 11,
+  "url": "https://www.igdb.com/games/planet-coaster-2",
+  "videos": [
+   {
+    "id": 119094,
+    "name": "Announcement Trailer",
+    "video_id": "UChxrl60x8Y"
+   },
+   {
+    "id": 121414,
+    "name": "Gameplay Trailer",
+    "video_id": "82gEWEdDn78"
+   },
+   {
+    "id": 123806,
+    "name": "Dev Diary",
+    "video_id": "nQ561uC8UbE"
+   },
+   {
+    "id": 126171,
+    "name": "Trailer",
+    "video_id": "qGPREY4fEeo"
+   }
+  ],
+  "websites": [
+   {
+    "id": 652926,
+    "type": 9,
+    "url": "https://youtube.com/@planetcoaster"
+   },
+   {
+    "id": 652927,
+    "type": 4,
+    "url": "https://facebook.com/PlanetCoaster/"
+   },
+   {
+    "id": 652929,
+    "type": 8,
+    "url": "https://www.instagram.com/planetcoaster/"
+   },
+   {
+    "id": 652925,
+    "type": 1,
+    "url": "https://www.planetcoaster.com/"
+   },
+   {
+    "id": 652933,
+    "type": 16,
+    "url": "https://store.epicgames.com/p/planet-coaster-2-983fe9"
+   },
+   {
+    "id": 763674,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/planet-coaster-2/9PK5WS0HXQKQ"
+   },
+   {
+    "id": 763679,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10009610"
+   },
+   {
+    "id": 652932,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2688950/Planet_Coaster_2/"
+   },
+   {
+    "id": 652928,
+    "type": 5,
+    "url": "https://twitter.com/planetcoaster"
+   },
+   {
+    "id": 1042884,
+    "type": 18,
+    "url": "https://discord.gg/frontierunlocked?proof=e0a84d3ff421d4fb"
+   }
+  ]
+ },
  "PlayStation All-Stars Battle Royale": {
   "collections": [
    {

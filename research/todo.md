@@ -55,3 +55,5 @@ Needs a better source before adding:
 - Trailmakers: Xbox + Microsoft Store PC reported together; Steam↔Xbox and PlayStation unclear (tracker from 2022).
 - Escape Simulator: Xbox Store lists cross-platform multiplayer with PC (Xbox version from May 2026); Steam↔Xbox not confirmed.
 - Northgard: console versions (2019) and mobile multiplayer "with cross platform support" (Playdigious); which platforms mix is unclear.
+- War Robots (original): Nov 2025 cross-progress between Android/iOS/PC via MY.GAMES ID; PS4/PS5 version 2026; shared matchmaking not stated. War Robots: Frontiers (separate game) has full PC/PS/Xbox crossplay (Pixonic) — add it as its own entry.
+- Just Dance 2026 Edition: no crossplay statement found. Zwift: all devices share the world but no clear official wording.

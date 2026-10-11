@@ -6693,6 +6693,39 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Planet Coaster 2",
+   "igdb_id": 308099,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "verdict": {
+    "kind": "yes",
+    "word": "Yes, turn-based",
+    "summary": "Planet Coaster 2 is cross-platform between PC, PS5 and Xbox Series X|S, but not live: friends take turns building in a shared park save, and can visit each other's parks."
+   },
+   "notes": [
+    "There's no real-time multiplayer. In Sandbox and Franchise modes, friends build one at a time in a shared save that works across PC, PS5 and Xbox Series X|S.",
+    "Parks and blueprints can be shared and downloaded between all three platforms, and you can visit a friend's park and ride its attractions in first person."
+   ],
+   "sources": [
+    {
+     "title": "Planet Coaster 2 Help Centre (Frontier)",
+     "url": "https://planetcoaster.com/help-centre"
+    },
+    {
+     "title": "Planet Coaster 2 save file location, controller support and PC features (Prima Games)",
+     "url": "https://primagames.com/?p=290016"
+    }
+   ],
+   "checked": "2026-10-11"
+  },
+  {
    "title": "Pokémon Trading Card Game Live",
    "igdb_id": null,
    "groups": [
