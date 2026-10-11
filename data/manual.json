@@ -4856,6 +4856,32 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "LEGO Batman: Legacy of the Dark Knight",
+   "igdb_id": 361855,
+   "crossplay": false,
+   "verdict": {
+    "kind": "no",
+    "word": "No",
+    "summary": "LEGO Batman: Legacy of the Dark Knight has no crossplay because it has no online play at all: co-op is 2-player local split-screen on every platform."
+   },
+   "notes": [
+    "WB Games and TT Games confirmed there's no online multiplayer or online co-op on any platform. Co-op is two players on one console or PC, in split-screen, like LEGO Star Wars: The Skywalker Saga.",
+    "No internet connection is needed to play, only to download updates."
+   ],
+   "sources": [
+    {
+     "title": "Will LEGO Batman: Legacy of the Dark Knight have multiplayer? (Insider Gaming)",
+     "url": "https://insider-gaming.com/will-lego-batman-legacy-of-the-dark-knight-have-multiplayer-co-op-multiplayer-explained/"
+    },
+    {
+     "title": "LEGO Batman: Legacy of the Dark Knight doesn't support online multiplayer or online co-op (My Nintendo News)",
+     "url": "https://mynintendonews.com/2025/08/22/lego-batman-legacy-of-the-dark-knight-doesnt-support-online-multiplayer-or-online-co-op/"
+    }
+   ],
+   "crossprog": "no",
+   "checked": "2026-10-11"
+  },
+  {
    "title": "Lethal Company",
    "igdb_id": null,
    "crossplay": false,
@@ -7312,6 +7338,32 @@
    "checked": "2026-10-10"
   },
   {
+   "title": "Sea of Stars",
+   "igdb_id": 131890,
+   "crossplay": false,
+   "verdict": {
+    "kind": "no",
+    "word": "No",
+    "summary": "Sea of Stars has no crossplay: its co-op is local, for up to 3 players on one screen, on every platform."
+   },
+   "notes": [
+    "The free Dawn of Equinox update (November 2024) added local co-op for up to three players on all platforms.",
+    "The only online option is PS5's Share Play, which streams your game to a friend on PlayStation (PlayStation Plus needed). There's no cross-platform play, and saves stay on the platform you play on."
+   ],
+   "sources": [
+    {
+     "title": "Sea of Stars Dawn of Equinox: 3-player co-op deep dive (PlayStation Blog)",
+     "url": "https://blog.playstation.com/?p=398214"
+    },
+    {
+     "title": "Sea of Stars co-op update adds 3-player local mode (MP1st)",
+     "url": "https://mp1st.com/news/sea-of-stars-co-op-update-is-adding-support-for-3-player-local-mode-over-5-million-players-have-sailed-across-the-stars"
+    }
+   ],
+   "crossprog": "no",
+   "checked": "2026-10-11"
+  },
+  {
    "title": "Sea of Thieves",
    "igdb_id": 11137,
    "audited": "2026-10-10",
@@ -7853,6 +7905,37 @@
    "progress": [
     "Progress doesn't carry over between platform families, even with the same EA account."
    ]
+  },
+  {
+   "title": "Star Wars: Galactic Racer",
+   "igdb_id": 381248,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "PC, PS5 and Xbox Series X|S race together. Quick Race and Multiplayer Tour take up to 12 racers, podracing modes up to 8, and AI fills empty slots.",
+    "Parties hold up to 3 players at launch; Fuse Games said an update would raise that to 6. There's no split-screen."
+   ],
+   "toggle": [
+    "Crossplay is on by default; you can turn it off in the settings to race only on your own platform, which can make matchmaking slower."
+   ],
+   "sources": [
+    {
+     "title": "Star Wars: Galactic Racer crossplay explained (FandomWire)",
+     "url": "https://fandomwire.com/star-wars-galactic-racer-crossplay-explained/"
+    },
+    {
+     "title": "Star Wars: Galactic Racer: crossplay y crossave (Vandal)",
+     "url": "https://vandal.elespanol.com/guias/guia-star-wars-galactic-racer-trucos-consejos-y-secretos/crossplay-y-crossave"
+    }
+   ],
+   "checked": "2026-10-11"
   },
   {
    "title": "Stardew Valley",

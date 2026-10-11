@@ -47,3 +47,5 @@ Needs a better source before adding:
 - Pummel Party: still no official statement.
 - BeamNG.drive: re-check when official online multiplayer ships.
 - Teardown: console multiplayer (12 players) launched Sep 15, 2026 on PS5/Xbox Series; PC↔console crossplay not stated anywhere. Check Tuxedo Labs' posts.
+- Farm Together 2: Milkstone's Update #6 added cross-platform play with consoles (on by default); the platform list (PS5/Switch?) is unclear.
+- No Rest for the Wicked: 1.0 in October 2026 on PC + PS5 with full crossplay/cross-save (listed on /coming-soon/). Add a game page when 1.0 ships.

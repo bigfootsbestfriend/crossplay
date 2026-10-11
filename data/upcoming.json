@@ -14,6 +14,13 @@
    "what": "Native Nintendo Switch 2 version of Minecraft (Bedrock), which plays with the other Bedrock platforms."
   },
   {
+   "title": "No Rest for the Wicked",
+   "when": "October 2026 (day not announced)",
+   "kind": "adds",
+   "sort": "2026-10-31",
+   "what": "Version 1.0 leaves Early Access on PC and PS5 together, with full crossplay and cross-save between them. Xbox Series X|S and Switch 2 versions come later."
+  },
+  {
    "title": "Tom Clancy's The Division 2",
    "date": "2026-11-10",
    "when": "November 10–mid-November 2026",
@@ -25,6 +32,13 @@
    "date": "2026-11-19",
    "kind": "launch",
    "what": "Launches on PS5 and Xbox Series X|S. Rockstar hasn't said whether it has crossplay."
+  },
+  {
+   "title": "Golf With Your Friends",
+   "when": "Fall 2026",
+   "sort": "2026-11-30",
+   "kind": "launch",
+   "what": "Golf With Your Friends 2 launches on PS5, Xbox Series X|S, Switch 2 and PC with full cross-platform play for up to 12 players."
   },
   {
    "title": "Forza Horizon 6",
@@ -55,13 +69,6 @@
    "sort": "2026-12-31"
   },
   {
-   "title": "Dragon Ball: Sparking! Zero",
-   "date": "2027-06-01",
-   "when": "After summer 2027",
-   "kind": "adds",
-   "what": "Bandai Namco plans a crossplay beta for PS5, Xbox Series X|S and Steam."
-  },
-  {
    "title": "The Elder Scrolls Online",
    "when": "Not in 2026",
    "kind": "adds",
@@ -69,11 +76,11 @@
    "sort": "2027-01-01"
   },
   {
-   "title": "Golf With Your Friends",
-   "when": "Fall 2026",
-   "sort": "2026-11-30",
-   "kind": "launch",
-   "what": "Golf With Your Friends 2 launches on PS5, Xbox Series X|S, Switch 2 and PC with full cross-platform play for up to 12 players."
+   "title": "Dragon Ball: Sparking! Zero",
+   "date": "2027-06-01",
+   "when": "After summer 2027",
+   "kind": "adds",
+   "what": "Bandai Namco plans a crossplay beta for PS5, Xbox Series X|S and Steam."
   }
  ]
 }

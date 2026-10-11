@@ -76663,6 +76663,317 @@
    }
   ]
  },
+ "LEGO Batman: Legacy of the Dark Knight": {
+  "collections": [
+   {
+    "id": 533,
+    "name": "Lego Batman"
+   }
+  ],
+  "cover": {
+   "id": 480825,
+   "image_id": "coab09"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 3217534,
+    "uid": "B0GV4Y4C35"
+   },
+   {
+    "external_game_source": 20,
+    "id": 3222151,
+    "uid": "B0G6Q5XKGT"
+   },
+   {
+    "external_game_source": 1,
+    "id": 3090775,
+    "uid": "2215200"
+   },
+   {
+    "external_game_source": 36,
+    "id": 3170714,
+    "uid": "10008537"
+   },
+   {
+    "external_game_source": 14,
+    "id": 3090745,
+    "uid": "1813168901"
+   }
+  ],
+  "first_release_date": 1779408000,
+  "franchises": [
+   {
+    "id": 3028,
+    "name": "LEGO Batman"
+   },
+   {
+    "id": 5,
+    "name": "Batman"
+   },
+   {
+    "id": 51,
+    "name": "LEGO"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 4,
+    "name": "Split screen"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 9,
+    "name": "Puzzle"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 85,
+  "id": 361855,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 937,
+     "name": "WB Games Montréal"
+    },
+    "developer": false,
+    "id": 390490,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 292,
+     "name": "Traveller's Tales"
+    },
+    "developer": true,
+    "id": 390488,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 164,
+     "name": "Rocksteady Studios"
+    },
+    "developer": false,
+    "id": 390491,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 50,
+     "name": "WB Games"
+    },
+    "developer": false,
+    "id": 390489,
+    "publisher": true
+   }
+  ],
+  "name": "LEGO Batman: Legacy of the Dark Knight",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "Switch 2",
+    "id": 508,
+    "name": "Nintendo Switch 2"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1615314,
+    "image_id": "scymdu",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615315,
+    "image_id": "scymdv",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615319,
+    "image_id": "scymdz",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615316,
+    "image_id": "scymdw",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615317,
+    "image_id": "scymdx",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1615318,
+    "image_id": "scymdy",
+    "width": 1920
+   }
+  ],
+  "slug": "lego-batman-legacy-of-the-dark-knight",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 27,
+    "name": "Comedy"
+   }
+  ],
+  "total_rating_count": 43,
+  "url": "https://www.igdb.com/games/lego-batman-legacy-of-the-dark-knight",
+  "videos": [
+   {
+    "id": 159571,
+    "name": "Announcement Trailer",
+    "video_id": "1hQAoGj01Rc"
+   },
+   {
+    "id": 170964,
+    "name": "Trailer",
+    "video_id": "G4iE5A3R_rM"
+   },
+   {
+    "id": 177211,
+    "name": "Trailer",
+    "video_id": "n4LYtP_TPJg"
+   },
+   {
+    "id": 178599,
+    "name": "Dev Diary",
+    "video_id": "7o_5mtrXyQ8"
+   },
+   {
+    "id": 178909,
+    "name": "Release Date Trailer",
+    "video_id": "wCGdYd_Uj44"
+   },
+   {
+    "id": 183081,
+    "name": "Launch Trailer",
+    "video_id": "DfJaUpW_P00"
+   },
+   {
+    "id": 185697,
+    "name": "Accolades Trailer",
+    "video_id": "8_6jXkUo2fQ"
+   },
+   {
+    "id": 186038,
+    "name": "Release Date Trailer",
+    "video_id": "tl612oZLaOc"
+   },
+   {
+    "id": 195743,
+    "name": "Trailer",
+    "video_id": "IWjpIPYlBho"
+   }
+  ],
+  "websites": [
+   {
+    "id": 854119,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10008537"
+   },
+   {
+    "id": 855335,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Lego_Batman:_Legacy_of_the_Dark_Knight"
+   },
+   {
+    "id": 867455,
+    "type": 9,
+    "url": "https://www.youtube.com/@WBGAMES"
+   },
+   {
+    "id": 867452,
+    "type": 5,
+    "url": "https://x.com/LEGODCGame"
+   },
+   {
+    "id": 867453,
+    "type": 8,
+    "url": "https://www.instagram.com/legodcgame/"
+   },
+   {
+    "id": 867454,
+    "type": 4,
+    "url": "https://www.facebook.com/LEGOBatmanGame/"
+   },
+   {
+    "id": 854081,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2215200"
+   },
+   {
+    "id": 854114,
+    "type": 1,
+    "url": "https://legobatmangame.com/"
+   },
+   {
+    "id": 854143,
+    "type": 16,
+    "url": "https://epicgames.com/p/lego-batman-legacy-of-the-dark-knight-c82b6b"
+   },
+   {
+    "id": 972979,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/lego-batman-legacy-of-the-dark-knight-switch-2/"
+   },
+   {
+    "id": 994329,
+    "type": 22,
+    "url": "https://www.xbox.com/en-US/games/store/lego-batman-legacy-of-the-dark-knight/9PFKP8Z66G1J/0010"
+   },
+   {
+    "id": 1057495,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/lego-batman-legacy-of-the-dark-knight"
+   },
+   {
+    "id": 1061428,
+    "type": 2,
+    "url": "https://brickipedia.fandom.com/wiki/LEGO_Batman:_Legacy_of_the_Dark_Knight"
+   }
+  ]
+ },
  "Last Epoch": {
   "cover": {
    "id": 359142,
@@ -119392,6 +119703,485 @@
    }
   ]
  },
+ "Sea of Stars": {
+  "cover": {
+   "id": 94799,
+   "image_id": "co215b"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 2885222,
+    "uid": "B0CST85BHB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2885268,
+    "uid": "B0CTNWCJ5Q"
+   },
+   {
+    "external_game_source": 3,
+    "id": 1864665,
+    "uid": "77652"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882970,
+    "uid": "B0CSYYR92V"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2885202,
+    "uid": "B0CTP1S2YM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2914595,
+    "uid": "B0CSYYBCYC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882952,
+    "uid": "B0CSYR3VDG"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2885243,
+    "uid": "B0CST765YY"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2754126,
+    "uid": "B0CKX2S3Y6"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2881050,
+    "uid": "B0CST6SVYZ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882806,
+    "uid": "B0CSZ1Y7LD"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882828,
+    "uid": "B0CSZ2XF77"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882895,
+    "uid": "B0CSY92SS6"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882958,
+    "uid": "B0CST85BHB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882950,
+    "uid": "B0CSZ1ZS71"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2885199,
+    "uid": "B0CTP3M9HV"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2885274,
+    "uid": "B0CTNWFFB9"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2881127,
+    "uid": "B0CST8YCJ6"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2881144,
+    "uid": "B0CSST865K"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2881148,
+    "uid": "B0CST6SQWB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2914562,
+    "uid": "B0CSZ1ZS71"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2737088,
+    "uid": "9NLLTTJZH40L"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2914593,
+    "uid": "B0CSYYBCYC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882864,
+    "uid": "B0CST899LB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882934,
+    "uid": "B0CSZ1HN6N"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882957,
+    "uid": "B0CST85BHB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882982,
+    "uid": "B0CST765YY"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882981,
+    "uid": "B0CST765YY"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2882987,
+    "uid": "B0CST8PHZ5"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2883008,
+    "uid": "B0CSYYBCYC"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2731406,
+    "uid": "10004226"
+   },
+   {
+    "external_game_source": 14,
+    "id": 1918125,
+    "uid": "516789"
+   },
+   {
+    "external_game_source": 1,
+    "id": 1860195,
+    "uid": "1244090"
+   }
+  ],
+  "first_release_date": 1693180800,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   },
+   {
+    "id": 32,
+    "name": "Indie"
+   }
+  ],
+  "hypes": 4,
+  "id": 131890,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 14419,
+     "name": "Sabotage"
+    },
+    "developer": true,
+    "id": 203235,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 11360,
+     "name": "Playdigious"
+    },
+    "developer": false,
+    "id": 366896,
+    "publisher": true
+   }
+  ],
+  "name": "Sea of Stars",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "Switch 2",
+    "id": 508,
+    "name": "Nintendo Switch 2"
+   },
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 703422,
+    "image_id": "scf2ri",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703424,
+    "image_id": "scf2rk",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703425,
+    "image_id": "scf2rl",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703415,
+    "image_id": "scf2rb",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703418,
+    "image_id": "scf2re",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703416,
+    "image_id": "scf2rc",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703420,
+    "image_id": "scf2rg",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703414,
+    "image_id": "scf2ra",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703419,
+    "image_id": "scf2rf",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703417,
+    "image_id": "scf2rd",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703423,
+    "image_id": "scf2rj",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 703421,
+    "image_id": "scf2rh",
+    "width": 1920
+   }
+  ],
+  "slug": "sea-of-stars",
+  "themes": [
+   {
+    "id": 17,
+    "name": "Fantasy"
+   },
+   {
+    "id": 38,
+    "name": "Open world"
+   }
+  ],
+  "total_rating_count": 143,
+  "url": "https://www.igdb.com/games/sea-of-stars",
+  "videos": [
+   {
+    "id": 37687,
+    "name": "Trailer",
+    "video_id": "GZVLA08lcR0"
+   },
+   {
+    "id": 34572,
+    "name": "Announcement Trailer",
+    "video_id": "AhU_K3DVIN4"
+   },
+   {
+    "id": 62325,
+    "name": "Trailer",
+    "video_id": "1cBBRM4POBI"
+   },
+   {
+    "id": 83926,
+    "name": "Trailer",
+    "video_id": "uRwB7RH1lVE"
+   },
+   {
+    "id": 93531,
+    "name": "Trailer",
+    "video_id": "XkAsMAFj_LM"
+   },
+   {
+    "id": 181231,
+    "name": "Launch Trailer",
+    "video_id": "P8b_7dwvdSs"
+   }
+  ],
+  "websites": [
+   {
+    "id": 821149,
+    "type": 24,
+    "url": "https://www.nintendo.com/games/detail/sea-of-stars-switch/"
+   },
+   {
+    "id": 821147,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/sea-of-stars/9NLLTTJZH40L"
+   },
+   {
+    "id": 821148,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10004226"
+   },
+   {
+    "id": 137391,
+    "type": 5,
+    "url": "https://twitter.com/seaofstarsgame"
+   },
+   {
+    "id": 137392,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1244090"
+   },
+   {
+    "id": 137390,
+    "type": 1,
+    "url": "https://seaofstarsgame.co/"
+   },
+   {
+    "id": 296791,
+    "type": 14,
+    "url": "https://www.reddit.com/r/seaofstars"
+   },
+   {
+    "id": 515850,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Sea_of_Stars"
+   },
+   {
+    "id": 690947,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/sea-of-stars"
+   },
+   {
+    "id": 253297,
+    "type": 8,
+    "url": "https://www.instagram.com/sabotage.studio"
+   },
+   {
+    "id": 253296,
+    "type": 4,
+    "url": "https://www.facebook.com/SabotageQC"
+   },
+   {
+    "id": 590421,
+    "type": 2,
+    "url": "https://seaofstars.fandom.com/wiki/Sea_of_Stars_Wiki"
+   },
+   {
+    "id": 253295,
+    "type": 9,
+    "url": "https://www.youtube.com/channel/UCFqkoH39JOvUTmQch2yRFFQ"
+   },
+   {
+    "id": 253298,
+    "type": 18,
+    "url": "https://discord.gg/invite/sabotagestudio"
+   },
+   {
+    "id": 1095151,
+    "type": 17,
+    "url": "https://www.gog.com/en/game/sea_of_stars"
+   },
+   {
+    "id": 1043781,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.playdigious.seaofstars"
+   },
+   {
+    "id": 1043782,
+    "type": 10,
+    "url": "https://apps.apple.com/us/app/sea-of-stars/id6673906410"
+   }
+  ]
+ },
  "Sea of Thieves": {
   "cover": {
    "id": 99980,
@@ -130293,6 +131083,288 @@
     "id": 39483,
     "type": 9,
     "url": "https://www.youtube.com/EAStarWars"
+   }
+  ]
+ },
+ "Star Wars: Galactic Racer": {
+  "cover": {
+   "id": 537189,
+   "image_id": "cobihx"
+  },
+  "external_games": [
+   {
+    "external_game_source": 1,
+    "id": 3128312,
+    "uid": "4078430"
+   },
+   {
+    "external_game_source": 22,
+    "id": 3221391,
+    "uid": "amzn1.luna.product.bef8572c-d814-4c91-b8e7-980d5c84ad16"
+   },
+   {
+    "external_game_source": 23,
+    "id": 3221392,
+    "uid": "amzn1.luna.product.bef8572c-d814-4c91-b8e7-980d5c84ad16"
+   },
+   {
+    "external_game_source": 14,
+    "id": 3128308,
+    "uid": "474709880"
+   }
+  ],
+  "first_release_date": 1791244800,
+  "franchises": [
+   {
+    "id": 1,
+    "name": "Star Wars"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 10,
+    "name": "Racing"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 81,
+  "id": 381248,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 36610,
+     "name": "Secret Mode"
+    },
+    "developer": false,
+    "id": 362168,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 72168,
+     "name": "Fuse Games"
+    },
+    "developer": true,
+    "id": 418731,
+    "publisher": false
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 38329,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinemax": 1,
+    "onlinecoop": false,
+    "onlinemax": 12,
+    "platform": 167,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 38330,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinemax": 1,
+    "onlinecoop": false,
+    "onlinemax": 12,
+    "platform": 6,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 38331,
+    "lancoop": false,
+    "offlinecoop": false,
+    "offlinemax": 1,
+    "onlinecoop": false,
+    "onlinemax": 12,
+    "platform": 169,
+    "splitscreen": false
+   }
+  ],
+  "name": "Star Wars: Galactic Racer",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 1717704,
+    "image_id": "sc10te0",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1717702,
+    "image_id": "sc10tdy",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1717703,
+    "image_id": "sc10tdz",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1717705,
+    "image_id": "sc10te1",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1717706,
+    "image_id": "sc10te2",
+    "width": 1920
+   }
+  ],
+  "slug": "star-wars-galactic-racer",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 18,
+    "name": "Science fiction"
+   }
+  ],
+  "total_rating_count": 3,
+  "url": "https://www.igdb.com/games/star-wars-galactic-racer",
+  "videos": [
+   {
+    "id": 170991,
+    "name": "Trailer",
+    "video_id": "B2g95FIBP04"
+   },
+   {
+    "id": 175070,
+    "name": "Trailer",
+    "video_id": "RiavNl4qxWY"
+   },
+   {
+    "id": 176094,
+    "name": "Gameplay Trailer",
+    "video_id": "XDBc-kbL-Ic"
+   },
+   {
+    "id": 194188,
+    "name": "Trailer",
+    "video_id": "eS2qPABJGJc"
+   },
+   {
+    "id": 182550,
+    "name": "Release Date Trailer",
+    "video_id": "GvDXZ1kzEO4"
+   },
+   {
+    "id": 194073,
+    "name": "Dev Diary",
+    "video_id": "We28WHZf9pQ"
+   },
+   {
+    "id": 186476,
+    "name": "Announcement Trailer",
+    "video_id": "g7Nt6GINxl8"
+   }
+  ],
+  "websites": [
+   {
+    "id": 942025,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/4078430"
+   },
+   {
+    "id": 942026,
+    "type": 1,
+    "url": "https://starwarsgalacticracer.com/"
+   },
+   {
+    "id": 942027,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/star-wars-galactic-racer"
+   },
+   {
+    "id": 942028,
+    "type": 5,
+    "url": "https://x.com/SWGalacticRacer"
+   },
+   {
+    "id": 942029,
+    "type": 4,
+    "url": "https://www.facebook.com/profile.php?id=61580982123086"
+   },
+   {
+    "id": 942030,
+    "type": 8,
+    "url": "https://www.instagram.com/starwarsgalacticracer/"
+   },
+   {
+    "id": 942031,
+    "type": 9,
+    "url": "https://www.youtube.com/channel/UC57GnaDS_gIMHRquyknLcnQ"
+   },
+   {
+    "id": 942032,
+    "type": 16,
+    "url": "https://store.epicgames.com/p/star-wars-galactic-racer-246fdc"
+   },
+   {
+    "id": 979840,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10014146"
+   },
+   {
+    "id": 979839,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/star-wars-galactic-racer/9mxdpxsrvml5"
+   },
+   {
+    "id": 979841,
+    "type": 2,
+    "url": "https://starwars.fandom.com/wiki/Star_Wars:_Galactic_Racer"
+   },
+   {
+    "id": 979842,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Star_Wars%3A_Galactic_Racer"
    }
   ]
  },
