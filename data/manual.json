@@ -9587,6 +9587,41 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "War Robots: Frontiers",
+   "igdb_id": null,
+   "f2p": true,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "ps4": "yes",
+      "xseries": "yes",
+      "xone": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "MY.GAMES Launcher"
+     ]
+    }
+   ],
+   "notes": [
+    "Free to play since March 4, 2025, with full crossplay: PC (Steam and MY.GAMES Launcher), PS4, PS5, Xbox One and Xbox Series X|S all share matches, so you can play with friends on any of them.",
+    "It's a separate game from the original mobile War Robots."
+   ],
+   "sources": [
+    {
+     "title": "War Robots: Frontiers out now on PC & consoles (MY.GAMES press release, Game Developer)",
+     "url": "https://www.gamedeveloper.com/press-release/war-robots-frontiers-out-now-on-pc-consoles"
+    },
+    {
+     "title": "War Robots: Frontiers (Pixonic)",
+     "url": "https://pixonic.com/frontiers"
+    }
+   ],
+   "checked": "2026-10-11"
+  },
+  {
    "title": "War Thunder",
    "igdb_id": null,
    "groups": [

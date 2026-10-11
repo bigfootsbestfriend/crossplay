@@ -159281,6 +159281,319 @@
    }
   ]
  },
+ "War Robots: Frontiers": {
+  "collections": [
+   {
+    "id": 11380,
+    "name": "War Robots"
+   }
+  ],
+  "cover": {
+   "id": 437817,
+   "image_id": "co9dtl"
+  },
+  "external_games": [
+   {
+    "external_game_source": 11,
+    "id": 2989442,
+    "uid": "9NKZ0RBTNB9B"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2989596,
+    "uid": "10009101"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2629676,
+    "uid": "1491000"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2630814,
+    "uid": "1671346441"
+   }
+  ],
+  "first_release_date": 1741046400,
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 24,
+    "name": "Tactical"
+   }
+  ],
+  "hypes": 2,
+  "id": 226343,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 21424,
+     "name": "MY.GAMES"
+    },
+    "developer": true,
+    "id": 194758,
+    "publisher": true
+   }
+  ],
+  "name": "War Robots: Frontiers",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 2160,
+    "id": 1461281,
+    "image_id": "scvbj5",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1461282,
+    "image_id": "scvbj6",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1461276,
+    "image_id": "scvbj0",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1461277,
+    "image_id": "scvbj1",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1461278,
+    "image_id": "scvbj2",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1461279,
+    "image_id": "scvbj3",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1461280,
+    "image_id": "scvbj4",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1461283,
+    "image_id": "scvbj7",
+    "width": 3840
+   },
+   {
+    "height": 1440,
+    "id": 1461286,
+    "image_id": "scvbja",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1461294,
+    "image_id": "scvbji",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1461290,
+    "image_id": "scvbje",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1461289,
+    "image_id": "scvbjd",
+    "width": 2560
+   },
+   {
+    "height": 2160,
+    "id": 1461284,
+    "image_id": "scvbj8",
+    "width": 3840
+   },
+   {
+    "height": 1440,
+    "id": 1461285,
+    "image_id": "scvbj9",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1461288,
+    "image_id": "scvbjc",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1461292,
+    "image_id": "scvbjg",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1461293,
+    "image_id": "scvbjh",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1461287,
+    "image_id": "scvbjb",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1461291,
+    "image_id": "scvbjf",
+    "width": 2560
+   }
+  ],
+  "slug": "war-robots-frontiers",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 18,
+    "name": "Science fiction"
+   },
+   {
+    "id": 39,
+    "name": "Warfare"
+   }
+  ],
+  "total_rating_count": 5,
+  "url": "https://www.igdb.com/games/war-robots-frontiers",
+  "videos": [
+   {
+    "id": 140067,
+    "name": "Gameplay Trailer",
+    "video_id": "y-bNFJonmOQ"
+   },
+   {
+    "id": 140068,
+    "name": "Cinematic Trailer",
+    "video_id": "7TRQyFpRpCg"
+   },
+   {
+    "id": 178043,
+    "name": "Trailer",
+    "video_id": "O4kJxvw6KrE"
+   }
+  ],
+  "websites": [
+   {
+    "id": 711036,
+    "type": 18,
+    "url": "https://discord.gg/invite/PDY5mZGrwD"
+   },
+   {
+    "id": 784816,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10009101"
+   },
+   {
+    "id": 784815,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/war-robots-frontiers/9NKZ0RBTNB9B"
+   },
+   {
+    "id": 710826,
+    "type": 9,
+    "url": "https://www.youtube.com/@WRFrontiers"
+   },
+   {
+    "id": 710827,
+    "type": 8,
+    "url": "https://www.instagram.com/wrfrontiers/"
+   },
+   {
+    "id": 710828,
+    "type": 14,
+    "url": "https://www.reddit.com/r/warrobotsfrontiers/"
+   },
+   {
+    "id": 710829,
+    "type": 2,
+    "url": "https://war-robots-frontiers.fandom.com/"
+   },
+   {
+    "id": 326335,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1491000"
+   },
+   {
+    "id": 328435,
+    "type": 5,
+    "url": "https://twitter.com/WRFrontiers"
+   },
+   {
+    "id": 328434,
+    "type": 4,
+    "url": "https://www.facebook.com/wrfrontiers"
+   },
+   {
+    "id": 510923,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/War%20Robots:%20Frontiers"
+   },
+   {
+    "id": 710792,
+    "type": 1,
+    "url": "https://warrobotsfrontiers.com/"
+   }
+  ]
+ },
  "War Thunder": {
   "cover": {
    "id": 79316,
