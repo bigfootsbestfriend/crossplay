@@ -25,20 +25,12 @@ Built overnight 2026-10-09/10. To carry on in Claude Code: open this repo and sa
   3. commits `data/`, logs changes on /updates/
   4. rebuilds and deploys
 
-## Decisions for Mike
+## Status and decisions for Mike (as of 2026-10-11)
 
-1. **Name and domain.** The working name is "Crossplay Guide" and lives in `site/config.py`.
-   - Available .com names when checked: crossplayguide, cancrossplay, iscrossplatform, crossplayfinder, crossplayable, crossplaylist.
-   - Once bought at Namecheap:
-     - set `DOMAIN` in config
-     - add GitHub Pages DNS: A records 185.199.108–111.153, plus a CNAME record for www
-     - set the custom domain in the repo's Pages settings
-2. **Review, then go live.** Skim a dozen game pages, then set `INDEXABLE = True` and push.
-   - Raptive and Google both expect real human oversight, which is why indexing is off until you've looked.
-   - After going live:
-     - submit the sitemap in Search Console and Bing
-     - apply to Raptive and paste their script into `AD_SCRIPT`
-3. **Corrections inbox.** Set `CONTACT_EMAIL`, e.g. a Namecheap forward. Until then, "Report a mistake" links to GitHub issues.
+- **Live and indexable** at crossplayguide.com (DNS on Cloudflare, HTTPS). Only audited games and hubs are in the
+  sitemap; unaudited games stay noindex. Search check-in is on the calendar for 2026-11-24.
+- **Still open:** apply to Raptive and paste their script into `AD_SCRIPT`; confirm the About bio wording; switch the
+  weekly email from draft to send in the newsletter repo's sites.json.
 
 ## Researched games (data/manual.json)
 
@@ -97,3 +89,12 @@ Wikipedia's list misses many of the most-played games, so we research those ours
   everything else gets `noindex` via `page(..., noindex=True)`.
 - Researched pages carry a "Researched by {config.AUTHOR}" byline linking to /about/#who (photo: static/mike-johnston.jpg).
 - The About page discloses that AI tools help find and read sources.
+
+## Group features and email prompts (2026-10-10/11)
+
+- **Your group** box in every game's answer: visitors tap their group's platforms once (localStorage `together`, shared
+  with /who-can-i-play-with/) and each game says whether they can all play together. One-tap "did it work?" vote posts
+  to the community Worker /api/vote; the tally shows there from 3 votes.
+- **Group finder:** "Share this group" makes `?p=ps5,pc,switch2` links; Switch 2 now matches Switch crossplay groups.
+- **Email prompts:** "Tell me if X gets crossplay" button in the answer, signup box after the platform groups, one
+  dismissible bottom bar (14-day cooldown), footer link.
