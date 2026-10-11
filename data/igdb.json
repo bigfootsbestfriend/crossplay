@@ -63927,6 +63927,407 @@
    }
   ]
  },
+ "Granblue Fantasy: Relink": {
+  "collections": [
+   {
+    "id": 12697,
+    "name": "Granblue Fantasy"
+   }
+  ],
+  "cover": {
+   "id": 360062,
+   "image_id": "co7ptq"
+  },
+  "external_games": [
+   {
+    "external_game_source": 20,
+    "id": 2857675,
+    "uid": "B0CLM5VBJ7"
+   },
+   {
+    "external_game_source": 3,
+    "id": 106168,
+    "uid": "55164"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2857519,
+    "uid": "B0CLM4QFZ3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2885231,
+    "uid": "B0CGMNC2XB"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2862067,
+    "uid": "B0CL7H98C6"
+   },
+   {
+    "external_game_source": 14,
+    "id": 1458931,
+    "uid": "493081"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2739682,
+    "uid": "881020"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2734067,
+    "uid": "229066"
+   }
+  ],
+  "first_release_date": 1706745600,
+  "franchises": [
+   {
+    "id": 1189,
+    "name": "Granblue Fantasy"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 25,
+    "name": "Hack and slash/Beat 'em up"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 22,
+  "id": 22788,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 39195,
+     "name": "Cygames Osaka"
+    },
+    "developer": true,
+    "id": 228312,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 42785,
+     "name": "PLAION"
+    },
+    "developer": false,
+    "id": 227909,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 2187,
+     "name": "XSEED Games"
+    },
+    "developer": false,
+    "id": 227908,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 6181,
+     "name": "Cygames"
+    },
+    "developer": true,
+    "id": 227907,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 852,
+     "name": "PlatinumGames"
+    },
+    "developer": false,
+    "id": 300255,
+    "publisher": false
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 24352,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 4,
+    "platform": 48,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 24353,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 4,
+    "platform": 167,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 24354,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 4,
+    "platform": 6,
+    "splitscreen": false
+   }
+  ],
+  "name": "Granblue Fantasy: Relink",
+  "platforms": [
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 507,
+    "id": 139851,
+    "image_id": "v4ddbnkulydmkd6fxta7",
+    "width": 900
+   },
+   {
+    "height": 2160,
+    "id": 1121393,
+    "image_id": "sco19t",
+    "width": 3840
+   },
+   {
+    "height": 506,
+    "id": 139849,
+    "image_id": "n19sh5zyco4aflfj91mf",
+    "width": 900
+   },
+   {
+    "height": 506,
+    "id": 139847,
+    "image_id": "i4xwgodqa3mu4hnz2tqf",
+    "width": 900
+   },
+   {
+    "height": 2160,
+    "id": 1121391,
+    "image_id": "sco19r",
+    "width": 3840
+   },
+   {
+    "height": 506,
+    "id": 139848,
+    "image_id": "zrjemcp7ittnbgwki0ao",
+    "width": 900
+   },
+   {
+    "height": 507,
+    "id": 139850,
+    "image_id": "um4yx4d287fhleagkhtu",
+    "width": 900
+   },
+   {
+    "height": 2160,
+    "id": 1121395,
+    "image_id": "sco19v",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1121396,
+    "image_id": "sco19w",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1121397,
+    "image_id": "sco19x",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1121390,
+    "image_id": "sco19q",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1121392,
+    "image_id": "sco19s",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1121394,
+    "image_id": "sco19u",
+    "width": 3840
+   },
+   {
+    "height": 1080,
+    "id": 1908891,
+    "image_id": "sc14wwr",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1908889,
+    "image_id": "sc14wwp",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1908886,
+    "image_id": "sc14wwm",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1908888,
+    "image_id": "sc14wwo",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1908892,
+    "image_id": "sc14wws",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1908887,
+    "image_id": "sc14wwn",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 1908890,
+    "image_id": "sc14wwq",
+    "width": 1920
+   }
+  ],
+  "slug": "granblue-fantasy-relink",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   }
+  ],
+  "total_rating_count": 51,
+  "url": "https://www.igdb.com/games/granblue-fantasy-relink",
+  "videos": [
+   {
+    "id": 20934,
+    "name": "Gameplay video",
+    "video_id": "odAeEqQTIrU"
+   },
+   {
+    "id": 9491,
+    "name": "Trailer",
+    "video_id": "r-K5n1sbdrQ"
+   },
+   {
+    "id": 90297,
+    "name": "Trailer",
+    "video_id": "PYFZM9bksMI"
+   },
+   {
+    "id": 96208,
+    "name": "Release Date Trailer",
+    "video_id": "LXm7fMmVsQM"
+   }
+  ],
+  "websites": [
+   {
+    "id": 101455,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Granblue_Fantasy:_Relink"
+   },
+   {
+    "id": 859589,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/229066"
+   },
+   {
+    "id": 101454,
+    "type": 1,
+    "url": "https://relink.granbluefantasy.jp/en/"
+   },
+   {
+    "id": 1103011,
+    "type": 2,
+    "url": "https://relink.gbf.wiki/"
+   },
+   {
+    "id": 1103012,
+    "type": 5,
+    "url": "https://x.com/relink_official"
+   },
+   {
+    "id": 1103013,
+    "type": 9,
+    "url": "https://www.youtube.com/@relink_official"
+   },
+   {
+    "id": 1103014,
+    "type": 14,
+    "url": "https://www.reddit.com/r/GranblueFantasyRelink"
+   },
+   {
+    "id": 1103015,
+    "type": 18,
+    "url": "https://discord.gg/relink-official"
+   },
+   {
+    "id": 1103010,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/granblue-fantasy-relink"
+   },
+   {
+    "id": 1103009,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/881020"
+   }
+  ]
+ },
  "Grand Kingdom": {
   "cover": {
    "id": 127354,
@@ -80082,6 +80483,312 @@
     "id": 556434,
     "type": 1,
     "url": "https://www.ea.com/games/madden-nfl/madden-nfl-24"
+   }
+  ]
+ },
+ "Madden NFL 25": {
+  "collections": [
+   {
+    "id": 4740,
+    "name": "Madden NFL"
+   }
+  ],
+  "cover": {
+   "id": 405524,
+   "image_id": "co8owk"
+  },
+  "external_games": [
+   {
+    "external_game_source": 54,
+    "id": 3141978,
+    "uid": "9N0FWWQ94X62"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2913043,
+    "uid": "B0D31VQ8W3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2913102,
+    "uid": "B0D31YHFKJ"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2914555,
+    "uid": "B0D31VQ8W3"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2914568,
+    "uid": "B0D31YDVYL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2914576,
+    "uid": "B0D31WXYJC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2914566,
+    "uid": "B0D31W9ZMQ"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3019180,
+    "uid": "e44cd9b8d99c462da600ac5e7d9ad6db"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2939945,
+    "uid": "9P1RKDK0R4CM"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2913081,
+    "uid": "B0D31W9ZMQ"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2982341,
+    "uid": "9N0FWWQ94X62"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2982337,
+    "uid": "9NL9QN69HCL7"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2913088,
+    "uid": "B0D31WXYJC"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2913077,
+    "uid": "B0D31YDVYL"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2914584,
+    "uid": "B0D31YHFKJ"
+   },
+   {
+    "external_game_source": 26,
+    "id": 3019179,
+    "uid": "67b2f015df7a448bb44ca3670cd72943"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2916217,
+    "uid": "1320984402"
+   },
+   {
+    "external_game_source": 54,
+    "id": 3133111,
+    "uid": "9NL9QN69HCL7"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2915343,
+    "uid": "2582560"
+   }
+  ],
+  "first_release_date": 1723766400,
+  "franchises": [
+   {
+    "id": 3213,
+    "name": "Madden"
+   },
+   {
+    "id": 224,
+    "name": "NFL"
+   },
+   {
+    "id": 5290,
+    "name": "NFL Players Association"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 4,
+    "name": "Split screen"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   },
+   {
+    "id": 15,
+    "name": "Strategy"
+   }
+  ],
+  "id": 301506,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 555,
+     "name": "EA Orlando"
+    },
+    "developer": true,
+    "id": 269587,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 454,
+     "name": "EA Sports"
+    },
+    "developer": false,
+    "id": 317499,
+    "publisher": true
+   }
+  ],
+  "name": "Madden NFL 25",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 720,
+    "id": 1341280,
+    "image_id": "scsqxs",
+    "width": 1280
+   },
+   {
+    "height": 720,
+    "id": 1341281,
+    "image_id": "scsqxt",
+    "width": 1280
+   },
+   {
+    "height": 720,
+    "id": 1341278,
+    "image_id": "scsqxq",
+    "width": 1280
+   },
+   {
+    "height": 720,
+    "id": 1341279,
+    "image_id": "scsqxr",
+    "width": 1280
+   },
+   {
+    "height": 720,
+    "id": 1341283,
+    "image_id": "scsqxv",
+    "width": 1280
+   },
+   {
+    "height": 720,
+    "id": 1341282,
+    "image_id": "scsqxu",
+    "width": 1280
+   }
+  ],
+  "slug": "madden-nfl-25--3",
+  "total_rating_count": 12,
+  "url": "https://www.igdb.com/games/madden-nfl-25--3",
+  "videos": [
+   {
+    "id": 117008,
+    "name": "Announcement Trailer",
+    "video_id": "U-5zgzEAeAQ"
+   },
+   {
+    "id": 120273,
+    "name": "Gameplay Trailer",
+    "video_id": "VzVPyz6niIc"
+   },
+   {
+    "id": 121419,
+    "name": "Trailer",
+    "video_id": "52a0vSE3bac"
+   },
+   {
+    "id": 122903,
+    "name": "Launch Trailer",
+    "video_id": "oqHo4SLScgM"
+   }
+  ],
+  "websites": [
+   {
+    "id": 643954,
+    "type": 1,
+    "url": "https://www.ea.com/games/madden-nfl/madden-nfl-25"
+   },
+   {
+    "id": 791435,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/madden-nfl-25-xbox-series-x|s/9N0FWWQ94X62"
+   },
+   {
+    "id": 791436,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10009326"
+   },
+   {
+    "id": 643953,
+    "type": 16,
+    "url": "https://store.epicgames.com/en-US/p/madden-nfl-25"
+   },
+   {
+    "id": 643952,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/2582560"
+   },
+   {
+    "id": 663638,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Madden_NFL_25_(2024_video_game)"
+   },
+   {
+    "id": 664657,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/ea-sports-madden-nfl-25"
    }
   ]
  },
@@ -105786,6 +106493,399 @@
     "id": 169799,
     "type": 16,
     "url": "https://www.epicgames.com/store/en-US/product/phantasy-star-online-2/home"
+   }
+  ]
+ },
+ "Phantasy Star Online 2 New Genesis": {
+  "collections": [
+   {
+    "id": 2145,
+    "name": "Phantasy Star Online"
+   }
+  ],
+  "cover": {
+   "id": 130950,
+   "image_id": "co2t1i"
+  },
+  "external_games": [
+   {
+    "external_game_source": 26,
+    "id": 2626139,
+    "uid": "f6fb771bec434d1082cc419b9b4b8bfb"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2003322,
+    "uid": "B0937S2VPN"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2003743,
+    "uid": "B0937S2VPN"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2003315,
+    "uid": "B0937Q8241"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2160227,
+    "uid": "9P1RSQ5MGPCR"
+   },
+   {
+    "external_game_source": 14,
+    "id": 2084756,
+    "uid": "863451903"
+   },
+   {
+    "external_game_source": 20,
+    "id": 2003380,
+    "uid": "B0937MWS5B"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2118436,
+    "uid": "8b78b0c7-90b9-47a4-b898-6630d4ab472b"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2046004,
+    "uid": "1056640"
+   },
+   {
+    "external_game_source": 36,
+    "id": 2534699,
+    "uid": "203474"
+   }
+  ],
+  "first_release_date": 1623196800,
+  "franchises": [
+   {
+    "id": 801,
+    "name": "Phantasy Star"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   },
+   {
+    "id": 3,
+    "name": "Co-operative"
+   },
+   {
+    "id": 5,
+    "name": "Massively Multiplayer Online (MMO)"
+   }
+  ],
+  "game_type": 10,
+  "genres": [
+   {
+    "id": 5,
+    "name": "Shooter"
+   },
+   {
+    "id": 12,
+    "name": "Role-playing (RPG)"
+   },
+   {
+    "id": 25,
+    "name": "Hack and slash/Beat 'em up"
+   },
+   {
+    "id": 31,
+    "name": "Adventure"
+   }
+  ],
+  "hypes": 2,
+  "id": 136042,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 112,
+     "name": "Sega"
+    },
+    "developer": false,
+    "id": 104412,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 24354,
+     "name": "Online Entertainment R&D"
+    },
+    "developer": true,
+    "id": 104428,
+    "publisher": false
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 11307,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 12,
+    "onlinemax": 12,
+    "platform": 6,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 11308,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 12,
+    "onlinemax": 12,
+    "platform": 130,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 11309,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 12,
+    "onlinemax": 12,
+    "platform": 48,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 11310,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 12,
+    "onlinemax": 12,
+    "platform": 49,
+    "splitscreen": false
+   },
+   {
+    "campaigncoop": true,
+    "dropin": true,
+    "id": 11311,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "onlinecoopmax": 12,
+    "onlinemax": 12,
+    "platform": 169,
+    "splitscreen": false
+   }
+  ],
+  "name": "Phantasy Star Online 2 New Genesis",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PS4",
+    "id": 48,
+    "name": "PlayStation 4"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "XONE",
+    "id": 49,
+    "name": "Xbox One"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 551871,
+    "image_id": "scbttr",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 551873,
+    "image_id": "scbttt",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 551875,
+    "image_id": "scbttv",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 551878,
+    "image_id": "scbtty",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 551872,
+    "image_id": "scbtts",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 551874,
+    "image_id": "scbttu",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 551876,
+    "image_id": "scbttw",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 551877,
+    "image_id": "scbttx",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 551879,
+    "image_id": "scbttz",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 551880,
+    "image_id": "scbtu0",
+    "width": 1920
+   }
+  ],
+  "slug": "phantasy-star-online-2-new-genesis",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   },
+   {
+    "id": 17,
+    "name": "Fantasy"
+   },
+   {
+    "id": 18,
+    "name": "Science fiction"
+   },
+   {
+    "id": 31,
+    "name": "Drama"
+   }
+  ],
+  "total_rating_count": 12,
+  "url": "https://www.igdb.com/games/phantasy-star-online-2-new-genesis",
+  "videos": [
+   {
+    "id": 45642,
+    "name": "Game Intro",
+    "video_id": "gMbYPYcjmd4"
+   },
+   {
+    "id": 38772,
+    "name": "Announcement Trailer",
+    "video_id": "8iR5IKhomK4"
+   },
+   {
+    "id": 38780,
+    "name": "Gameplay Trailer",
+    "video_id": "SbQCZ2j5nZE"
+   },
+   {
+    "id": 74901,
+    "name": "Trailer",
+    "video_id": "Wv_IxRXztJM"
+   }
+  ],
+  "websites": [
+   {
+    "id": 147709,
+    "type": 5,
+    "url": "https://twitter.com/play_pso2"
+   },
+   {
+    "id": 758426,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/203474"
+   },
+   {
+    "id": 147706,
+    "type": 2,
+    "url": "https://phantasystar.fandom.com/wiki/Phantasy_Star_Online_2"
+   },
+   {
+    "id": 147994,
+    "type": 14,
+    "url": "https://www.reddit.com/r/PSO2NGS"
+   },
+   {
+    "id": 196684,
+    "type": 18,
+    "url": "https://discord.gg/JycPC6RJun"
+   },
+   {
+    "id": 186427,
+    "type": 1,
+    "url": "https://ngs.pso2.com/"
+   },
+   {
+    "id": 147708,
+    "type": 4,
+    "url": "https://www.facebook.com/PSO2Official"
+   },
+   {
+    "id": 147712,
+    "type": 9,
+    "url": "https://www.youtube.com/channel/UCjt9J-GC4JMJxmk4oUdqb4g"
+   },
+   {
+    "id": 147711,
+    "type": 8,
+    "url": "https://www.instagram.com/play_pso2"
+   },
+   {
+    "id": 147707,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Phantasy_Star#Phantasy_Star_Online_2"
+   },
+   {
+    "id": 186425,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/1056640/Phantasy_Star_Online_2_New_Genesis"
+   },
+   {
+    "id": 186426,
+    "type": 16,
+    "url": "https://www.epicgames.com/store/en-US/p/phantasy-star-online-2"
+   },
+   {
+    "id": 147710,
+    "type": 6,
+    "url": "https://twitch.tv/play_pso2"
+   },
+   {
+    "id": 1105700,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/phantasy-star-online-2-new-genesis/9P1RSQ5MGPCR"
    }
   ]
  },
@@ -138114,6 +139214,247 @@
     "id": 1103939,
     "type": 22,
     "url": "https://www.xbox.com/en-us/games/store/tannenberg/9P68H1Z2L27V"
+   }
+  ]
+ },
+ "Teamfight Tactics": {
+  "cover": {
+   "id": 596963,
+   "image_id": "cocsmb"
+  },
+  "external_games": [
+   {
+    "external_game_source": 3,
+    "id": 1806851,
+    "uid": "75725"
+   },
+   {
+    "external_game_source": 15,
+    "id": 2000567,
+    "uid": "com.riotgames.league.teamfighttactics"
+   },
+   {
+    "external_game_source": 11,
+    "id": 2654436,
+    "uid": "9N464X6CT772"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2625686,
+    "uid": "03db40cd9db54c5babac9ca6bdb2fe91"
+   },
+   {
+    "external_game_source": 26,
+    "id": 2177872,
+    "uid": "2bd76440-ecaa-4858-b2bb-c2685520084f"
+   },
+   {
+    "external_game_source": 14,
+    "id": 1916320,
+    "uid": "513143"
+   }
+  ],
+  "first_release_date": 1561507200,
+  "franchises": [
+   {
+    "id": 1572,
+    "name": "League of Legends"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 16,
+    "name": "Turn-based strategy (TBS)"
+   },
+   {
+    "id": 24,
+    "name": "Tactical"
+   },
+   {
+    "id": 35,
+    "name": "Card & Board Game"
+   }
+  ],
+  "id": 120176,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 41,
+     "name": "Riot Games"
+    },
+    "developer": true,
+    "id": 413381,
+    "publisher": true
+   }
+  ],
+  "name": "Teamfight Tactics",
+  "platforms": [
+   {
+    "abbreviation": "Android",
+    "id": 34,
+    "name": "Android"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1080,
+    "id": 314477,
+    "image_id": "sc6qnh",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 314472,
+    "image_id": "sc6qnc",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 314471,
+    "image_id": "sc6qnb",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 314474,
+    "image_id": "sc6qne",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 314475,
+    "image_id": "sc6qnf",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 314473,
+    "image_id": "sc6qnd",
+    "width": 1920
+   },
+   {
+    "height": 1080,
+    "id": 314476,
+    "image_id": "sc6qng",
+    "width": 1920
+   }
+  ],
+  "slug": "teamfight-tactics",
+  "themes": [
+   {
+    "id": 17,
+    "name": "Fantasy"
+   }
+  ],
+  "total_rating_count": 132,
+  "url": "https://www.igdb.com/games/teamfight-tactics",
+  "videos": [
+   {
+    "id": 34576,
+    "name": "Launch Trailer",
+    "video_id": "pYUTQGa98FI"
+   },
+   {
+    "id": 28378,
+    "name": "Trailer",
+    "video_id": "liNLLx874g4"
+   }
+  ],
+  "websites": [
+   {
+    "id": 118403,
+    "type": 5,
+    "url": "https://twitter.com/TFT"
+   },
+   {
+    "id": 138019,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/Teamfight_Tactics"
+   },
+   {
+    "id": 118402,
+    "type": 14,
+    "url": "https://www.reddit.com/r/TeamfightTactics"
+   },
+   {
+    "id": 138022,
+    "type": 10,
+    "url": "https://apps.apple.com/app/id1480616748"
+   },
+   {
+    "id": 138020,
+    "type": 4,
+    "url": "https://www.facebook.com/PlayTFT"
+   },
+   {
+    "id": 139906,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Teamfight%20Tactics"
+   },
+   {
+    "id": 218856,
+    "type": 11,
+    "url": "https://itunes.apple.com/us/app/id1480616748#?platform=ipad"
+   },
+   {
+    "id": 242446,
+    "type": 16,
+    "url": "https://www.epicgames.com/p/teamfight-tactics"
+   },
+   {
+    "id": 118401,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttactics"
+   },
+   {
+    "id": 110034,
+    "type": 1,
+    "url": "https://na.leagueoflegends.com/en/featured/events/teamfight-tactics"
+   },
+   {
+    "id": 218857,
+    "type": 18,
+    "url": "https://discord.gg/8zVsqKZ"
+   },
+   {
+    "id": 138021,
+    "type": 8,
+    "url": "https://www.instagram.com/playtft"
+   },
+   {
+    "id": 138018,
+    "type": 2,
+    "url": "https://leagueoflegends.fandom.com/wiki/Teamfight_Tactics"
    }
   ]
  },

@@ -4154,6 +4154,45 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Granblue Fantasy: Relink",
+   "igdb_id": 22788,
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "ps4": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "The official site says cross-platform play is only available between PS4 and PS5. Steam players only play with other Steam players."
+   ],
+   "sources": [
+    {
+     "title": "Granblue Fantasy: Relink crossplay is happening (Destructoid, quoting the official site)",
+     "url": "https://destructoid.com/?p=447431"
+    },
+    {
+     "title": "Granblue Fantasy: Relink is now available for PS5, PS4 and PC (One More Game)",
+     "url": "https://onemoregame.ph/?p=122415"
+    }
+   ],
+   "checked": "2026-10-11",
+   "verdict": {
+    "kind": "yes",
+    "word": "Partly",
+    "summary": "Granblue Fantasy: Relink has crossplay between PS5 and PS4 only. Steam players only play with other Steam players."
+   }
+  },
+  {
    "title": "Grand Theft Auto V",
    "igdb_id": 1020,
    "crossplay": false,
@@ -4928,6 +4967,47 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10"
+  },
+  {
+   "title": "Madden NFL 25",
+   "igdb_id": 301506,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ps4": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "xone": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "EA lists cross-play on PS5, Xbox Series X|S and PC, in Online Head-to-Head, Franchise, Madden Ultimate Team and Superstar. PS4 and Xbox One aren't part of it.",
+    "Find friends from the EA Connect menu by EA ID, Xbox gamertag or PSN ID."
+   ],
+   "toggle": [
+    "Cross-play is on by default: Settings → Cross-Play. On Xbox Series X|S you may need to change the console's own cross-network setting."
+   ],
+   "sources": [
+    {
+     "title": "How to use cross-play in Madden NFL 25 (EA Help)",
+     "url": "https://help.ea.com/en/articles/madden-nfl/madden-nfl-25/how-to-use-cross-play/"
+    },
+    {
+     "title": "Does Madden NFL 25 have cross-play and cross-progression? (Destructoid)",
+     "url": "https://destructoid.com/does-madden-nfl-25-have-cross-play-and-cross-progression"
+    }
+   ],
+   "checked": "2026-10-11"
   },
   {
    "title": "Madden NFL 26",
@@ -6480,6 +6560,41 @@
    "checked": "2026-10-10",
    "crossprog": "no",
    "audited": "2026-10-10"
+  },
+  {
+   "title": "Phantasy Star Online 2 New Genesis",
+   "igdb_id": 136042,
+   "f2p": true,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "SEGA's global version lets PC, Xbox and PlayStation players share the same ships: PC and Xbox since the June 2021 launch, and PlayStation 4 since August 31, 2022. Xbox Series X|S and PS5 run the Xbox One and PS4 versions.",
+    "The Japanese version is separate, and so is the Switch cloud version, which is only sold in Japan."
+   ],
+   "progress": [
+    "One SEGA account works on every platform, so you can move your character between PC, Xbox and PlayStation."
+   ],
+   "crossprog": "yes",
+   "sources": [
+    {
+     "title": "PSO2 and PSO2 New Genesis for PS4 coming west on August 31 (Gematsu)",
+     "url": "https://gematsu.com/2022/07/phantasy-star-online-2-and-phantasy-star-online-2-new-genesis-for-ps4-coming-west-on-august-31"
+    },
+    {
+     "title": "Phantasy Star Online 2 New Genesis launches June 9 (SEGA press release)",
+     "url": "https://gamespress.com/Phantasy-Star-Online-2-New-Genesis-Launches-June-9"
+    }
+   ],
+   "checked": "2026-10-11"
   },
   {
    "title": "Phasmophobia",
@@ -8171,6 +8286,39 @@
     }
    ],
    "checked": "2026-10-10"
+  },
+  {
+   "title": "Teamfight Tactics",
+   "igdb_id": 120176,
+   "f2p": true,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Computers and phones share lobbies: a Windows, Mac, iPhone or Android player can join the same match, including ranked. There's no console version."
+   ],
+   "progress": [
+    "Rank, pass progress and inventory follow your Riot account on every device (a separate guest login starts from scratch)."
+   ],
+   "crossprog": "yes",
+   "sources": [
+    {
+     "title": "Is Teamfight Tactics cross-platform? (Esports.net)",
+     "url": "https://www.esports.net/wiki/guides/tft-cross-platform-crossplay/"
+    },
+    {
+     "title": "Teamfight Tactics coming to mobile with cross-play (Inven Global)",
+     "url": "https://invenglobal.com/articles/10684/teamfight-tactics-coming-to-mobile-devices-beginning-tuesday-full-release-on-19th"
+    }
+   ],
+   "checked": "2026-10-11"
   },
   {
    "title": "Tekken 7",

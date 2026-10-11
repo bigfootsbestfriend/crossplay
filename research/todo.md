@@ -51,3 +51,4 @@ Needs a better source before adding:
 - No Rest for the Wicked: 1.0 in October 2026 on PC + PS5 with full crossplay/cross-save (listed on /coming-soon/). Add a game page when 1.0 ships.
 - Way of the Hunter 2: 1.0 Sep 29, 2026 on PC/PS5/Xbox Series; co-op live; no crossplay statement.
 - Go-Go Town!: Steam + Switch/Switch 2; reviews mention "cross-platform mixed play" but no official detail.
+- Age of Wonders 4: PC cross-store at launch, Xbox+MS Store, PS later; the Xbox Store lists cross-platform multiplayer; need Paradox's current statement.
