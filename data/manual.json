@@ -1523,6 +1523,43 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Catan Universe",
+   "igdb_id": 28278,
+   "f2p": true,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "ios": "yes",
+      "android": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Every version plays together: Windows, Mac, iPhone, iPad and Android players share the same online games, so a phone player can play a PC player.",
+    "The Switch game is a different product, CATAN – Console Edition, with its own crossplay."
+   ],
+   "progress": [
+    "One Catan Universe account carries your progress and purchases across Steam, desktop, browser, iOS and Android."
+   ],
+   "crossprog": "yes",
+   "sources": [
+    {
+     "title": "Catan Universe (official site)",
+     "url": "https://www.catan.com/catan-universe"
+    },
+    {
+     "title": "Catan Universe mobile release (USM press release)",
+     "url": "https://www.usm.de/_files_media/mediathek/downloads/132/catan_universe_mobile_release_en.pdf"
+    }
+   ],
+   "checked": "2026-10-11"
+  },
+  {
    "title": "Chivalry 2",
    "igdb_id": null,
    "groups": [
@@ -5761,6 +5798,37 @@
     "Turn it on or off under Menu → Settings on the title screen."
    ],
    "f2p": true
+  },
+  {
+   "title": "NASCAR 26",
+   "igdb_id": 412990,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Out since September 18, 2026 from iRacing Studios. PC (Steam), PS5 and Xbox Series X|S race together online, the first time the NASCAR console games have had crossplay.",
+    "It's a separate game from the iRacing subscription sim, so there's no racing between NASCAR 26 and iRacing."
+   ],
+   "sources": [
+    {
+     "title": "NASCAR 26 launches September 18 on PC, Xbox Series X|S and PlayStation 5 (press release, Game Developer)",
+     "url": "https://www.gamedeveloper.com/press-release/nascar-26-launches-september-18-on-pc-xbox-series-x-s-playstation-5"
+    },
+    {
+     "title": "NASCAR 26 game will have cross-platform multiplayer (Traxion)",
+     "url": "https://traxion.gg/nascar-26-game-will-have-cross-platform-multiplayer/"
+    }
+   ],
+   "checked": "2026-10-11"
   },
   {
    "title": "NBA 2K24",

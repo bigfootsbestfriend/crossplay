@@ -22536,6 +22536,199 @@
    }
   ]
  },
+ "Catan Universe": {
+  "collections": [
+   {
+    "id": 4869,
+    "name": "Catan"
+   }
+  ],
+  "cover": {
+   "id": 97034,
+   "image_id": "co22ve"
+  },
+  "external_games": [
+   {
+    "external_game_source": 3,
+    "id": 102738,
+    "uid": "59285"
+   },
+   {
+    "external_game_source": 14,
+    "id": 250751,
+    "uid": "496809"
+   },
+   {
+    "external_game_source": 1,
+    "id": 2480,
+    "uid": "544730"
+   }
+  ],
+  "first_release_date": 1493078400,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 15,
+    "name": "Strategy"
+   },
+   {
+    "id": 26,
+    "name": "Quiz/Trivia"
+   },
+   {
+    "id": 35,
+    "name": "Card & Board Game"
+   }
+  ],
+  "id": 28278,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 8142,
+     "name": "United Soft Media Verlag GmbH"
+    },
+    "developer": false,
+    "id": 46165,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 32366,
+     "name": "Exozet Games"
+    },
+    "developer": true,
+    "id": 381151,
+    "publisher": false
+   }
+  ],
+  "name": "Catan Universe",
+  "platforms": [
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "iOS",
+    "id": 39,
+    "name": "iOS"
+   },
+   {
+    "abbreviation": "Mac",
+    "id": 14,
+    "name": "Mac"
+   },
+   {
+    "abbreviation": "Switch",
+    "id": 130,
+    "name": "Nintendo Switch"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 675,
+    "id": 42273,
+    "image_id": "ab92ek54t6xynvdmoibd",
+    "width": 1200
+   },
+   {
+    "height": 675,
+    "id": 42276,
+    "image_id": "awmuj3jnonx6owxkim0s",
+    "width": 1200
+   },
+   {
+    "height": 675,
+    "id": 42277,
+    "image_id": "qdrkpwxjfjeaqi7nanvy",
+    "width": 1200
+   },
+   {
+    "height": 675,
+    "id": 42274,
+    "image_id": "bvwqxu6qoqtl0gsgapkl",
+    "width": 1200
+   },
+   {
+    "height": 675,
+    "id": 42275,
+    "image_id": "lkcgyvbb1b5xbf0d58l7",
+    "width": 1200
+   }
+  ],
+  "slug": "catan-universe",
+  "total_rating_count": 16,
+  "url": "https://www.igdb.com/games/catan-universe",
+  "videos": [
+   {
+    "id": 13453,
+    "name": "Trailer",
+    "video_id": "9LQdidVUa1U"
+   }
+  ],
+  "websites": [
+   {
+    "id": 22813,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/544730"
+   },
+   {
+    "id": 165404,
+    "type": 12,
+    "url": "https://play.google.com/store/apps/details?id=com.usm.catanuniverse"
+   },
+   {
+    "id": 165406,
+    "type": 1,
+    "url": "https://catanuniverse.com/en/"
+   },
+   {
+    "id": 337854,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/game/Catan%20Universe"
+   },
+   {
+    "id": 533305,
+    "type": 11,
+    "url": "http://itunes.apple.com/us/app/id1220346113#?platform=ipad"
+   },
+   {
+    "id": 165409,
+    "type": 5,
+    "url": "https://twitter.com/catanuniverse"
+   },
+   {
+    "id": 165405,
+    "type": 10,
+    "url": "https://apps.apple.com/app/id1220346113"
+   },
+   {
+    "id": 165408,
+    "type": 14,
+    "url": "https://www.reddit.com/r/CatanUniverse"
+   },
+   {
+    "id": 165407,
+    "type": 4,
+    "url": "https://www.facebook.com/CatanUniverse"
+   },
+   {
+    "id": 165410,
+    "type": 18,
+    "url": "https://discord.gg/invite/catanuniverse"
+   }
+  ]
+ },
  "Chess Ultra": {
   "cover": {
    "id": 97048,
@@ -92406,6 +92599,172 @@
     "id": 1107695,
     "type": 22,
     "url": "https://www.xbox.com/en-us/games/store/my-hero-ultra-rumble/9MZ607S3NJRB"
+   }
+  ]
+ },
+ "NASCAR 26": {
+  "cover": {
+   "id": 590553,
+   "image_id": "cocno9"
+  },
+  "external_games": [
+   {
+    "external_game_source": 36,
+    "id": 3216337,
+    "uid": "10018405"
+   },
+   {
+    "external_game_source": 1,
+    "id": 3199253,
+    "uid": "4883590"
+   },
+   {
+    "external_game_source": 14,
+    "id": 3203373,
+    "uid": "1114400965"
+   }
+  ],
+  "first_release_date": 1789689600,
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 0,
+  "genres": [
+   {
+    "id": 10,
+    "name": "Racing"
+   },
+   {
+    "id": 13,
+    "name": "Simulator"
+   },
+   {
+    "id": 14,
+    "name": "Sport"
+   }
+  ],
+  "hypes": 2,
+  "id": 412990,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 8373,
+     "name": "iRacing.com Motorsport Simulations"
+    },
+    "developer": true,
+    "id": 407023,
+    "publisher": true
+   }
+  ],
+  "multiplayer_modes": [
+   {
+    "campaigncoop": false,
+    "dropin": false,
+    "id": 43916,
+    "lancoop": false,
+    "offlinecoop": false,
+    "onlinecoop": true,
+    "platform": 6,
+    "splitscreen": false
+   }
+  ],
+  "name": "NASCAR 26",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 1440,
+    "id": 1895917,
+    "image_id": "sc14mwd",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1895913,
+    "image_id": "sc14mw9",
+    "width": 2560
+   },
+   {
+    "height": 2498,
+    "id": 1895914,
+    "image_id": "sc14mwa",
+    "width": 4439
+   },
+   {
+    "height": 1440,
+    "id": 1895915,
+    "image_id": "sc14mwb",
+    "width": 2560
+   },
+   {
+    "height": 1440,
+    "id": 1895916,
+    "image_id": "sc14mwc",
+    "width": 2560
+   }
+  ],
+  "slug": "nascar-26",
+  "total_rating_count": 1,
+  "url": "https://www.igdb.com/games/nascar-26",
+  "videos": [
+   {
+    "id": 192526,
+    "name": "Gameplay Trailer",
+    "video_id": "f_h_LPYH7iM"
+   }
+  ],
+  "websites": [
+   {
+    "id": 1112409,
+    "type": 22,
+    "url": "https://www.xbox.com/en-US/games/store/nascar-26/9PFKG4BSV6PN/0017?wfExp=382A"
+   },
+   {
+    "id": 1112410,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/product/UP1456-PPSA37433_00-NASCAR26BASEGAME"
+   },
+   {
+    "id": 1094706,
+    "type": 13,
+    "url": "https://store.steampowered.com/app/4883590/"
+   },
+   {
+    "id": 1101579,
+    "type": 1,
+    "url": "https://nascar26.com/"
+   },
+   {
+    "id": 1101580,
+    "type": 5,
+    "url": "https://x.com/NASCAR26TheGame"
+   },
+   {
+    "id": 1131517,
+    "type": 3,
+    "url": "https://en.wikipedia.org/wiki/NASCAR_26"
    }
   ]
  },

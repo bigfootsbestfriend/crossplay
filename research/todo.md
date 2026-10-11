@@ -52,3 +52,6 @@ Needs a better source before adding:
 - Way of the Hunter 2: 1.0 Sep 29, 2026 on PC/PS5/Xbox Series; co-op live; no crossplay statement.
 - Go-Go Town!: Steam + Switch/Switch 2; reviews mention "cross-platform mixed play" but no official detail.
 - Age of Wonders 4: PC cross-store at launch, Xbox+MS Store, PS later; the Xbox Store lists cross-platform multiplayer; need Paradox's current statement.
+- Trailmakers: Xbox + Microsoft Store PC reported together; Steam↔Xbox and PlayStation unclear (tracker from 2022).
+- Escape Simulator: Xbox Store lists cross-platform multiplayer with PC (Xbox version from May 2026); Steam↔Xbox not confirmed.
+- Northgard: console versions (2019) and mobile multiplayer "with cross platform support" (Playdigious); which platforms mix is unclear.
