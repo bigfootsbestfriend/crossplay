@@ -1297,7 +1297,7 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
 
 # ---------------------------------------------------------------- social feed
 
-SOCIAL_PER_DAY = 3
+SOCIAL_PER_DAY = 2
 
 
 def social_feed(games):
