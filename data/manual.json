@@ -357,6 +357,98 @@
    ]
   },
   {
+   "title": "ARK: Survival Ascended",
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "PS5 and Xbox Series X|S players share every server type.",
+    "PC players can join console players on official PvE servers and on unofficial servers that allow crossplay, but Studio Wildcard has kept PC off console official PvP servers since early 2024 because of cheating.",
+    "Crossplay needs a dedicated server: a non-dedicated session hosted from one player's game only takes players on the same platform. Server admins pick which platforms can join, and console players can only use mods marked as crossplay-compatible."
+   ],
+   "sources": [
+    {
+     "title": "Ark: Survival Ascended disables PC crossplay on official PvP (PCGamesN)",
+     "url": "https://www.pcgamesn.com/ark-survival-ascended/crossplay-disabled"
+    },
+    {
+     "title": "Studio Wildcard temporarily disables PC crossplay PvP (MMORPG.com)",
+     "url": "https://www.mmorpg.com/news/ark-survival-ascended-developer-studio-wildcard-temporarily-disables-pc-crossplay-pvp-due-to-rampant-cheating-2000129640"
+    },
+    {
+     "title": "ARK: Survival Ascended crossplay setup (Supercraft)",
+     "url": "https://supercraft.host/wiki/ark/ark_asa_crossplay_setup/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
+  },
+  {
+   "title": "ARK: Survival Evolved",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic"
+     ]
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    }
+   ],
+   "separate": [
+    "ps4",
+    "switch"
+   ],
+   "notes": [
+    "Steam and Epic players can play together only on dedicated servers started with crossplay turned on, and those servers can't run mods. Non-dedicated sessions hosted from a player's game have no crossplay.",
+    "The Microsoft Store/Xbox app PC version plays with Xbox One; the Steam version can't join them. PlayStation and Switch players only play with their own platform.",
+    "Studio Wildcard shut the official servers for PC, Xbox and PlayStation in September 2023 when ARK: Survival Ascended launched, and the Switch official servers closed on August 31, 2026. Single-player, non-dedicated and unofficial servers still work."
+   ],
+   "sources": [
+    {
+     "title": "Xbox Play Anywhere and cross-play come to Ark (Xbox Wire)",
+     "url": "https://news.xbox.com/en-us/2017/12/20/xbox-play-anywhere-support-comes-ark-survival-evolved/"
+    },
+    {
+     "title": "Allowing crossplay with the Epic version of ARK (Nodecraft)",
+     "url": "https://nodecraft.com/support/games/ark/allowing-crossplay-with-players-from-the-epic-games-version-of-ark-survival-evolved"
+    },
+    {
+     "title": "ARK: Survival Evolved official servers shutting down, replaced by Ascended (Delisted Games)",
+     "url": "https://delistedgames.com/?p=21035"
+    },
+    {
+     "title": "ARK Switch official servers shut down this month (VGC)",
+     "url": "https://www.videogameschronicle.com/news/official-online-servers-for-the-switch-version-of-ark-survival-evolved-will-shut-down-this-month/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
+  },
+  {
    "title": "Arma Reforger",
    "igdb_id": 201789,
    "groups": [
@@ -798,6 +890,33 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "BeamNG.drive",
+   "igdb_id": 17131,
+   "crossplay": false,
+   "verdict": {
+    "kind": "no",
+    "word": "No",
+    "summary": "BeamNG.drive has no crossplay: the PS5 version (Early Access from October 19, 2026) has local multiplayer for up to 4 players but no online play, and official online multiplayer isn't out on PC either."
+   },
+   "notes": [
+    "The PS5 version launches in Early Access on October 19, 2026 with local multiplayer for 1–4 players on one console. It has no online multiplayer and no mod support at launch.",
+    "BeamNG confirmed in May 2026 that official online multiplayer is in development, but it won't ship with version 0.40 on either platform and has no date. Crossplay between PC and PS5 hasn't been announced.",
+    "On PC, online play today only works through community multiplayer mods."
+   ],
+   "sources": [
+    {
+     "title": "Everything we know about BeamNG.drive's PS5 port (RacingGames.gg, Oct 1, 2026)",
+     "url": "https://racinggames.gg/article/everything-we-know-about-beamngdrives-upcoming-ps5-port"
+    },
+    {
+     "title": "BeamNG.drive Early Access for PS5 launches October 19 (Gematsu)",
+     "url": "https://www.gematsu.com/2026/09/beamng-drive-early-access-for-ps5-launches-october-19"
+    }
+   ],
+   "crossprog": "no",
+   "checked": "2026-10-11"
+  },
+  {
    "title": "Blood Strike",
    "igdb_id": null,
    "groups": [
@@ -978,6 +1097,78 @@
    ],
    "checked": "2026-10-10",
    "audited": "2026-10-10"
+  },
+  {
+   "title": "Brawlhalla",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "switch": "yes",
+      "ios": "yes",
+      "android": "yes",
+      "mac": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Every platform shares matchmaking, including mobile. Mac players use the same Steam version as Windows."
+   ],
+   "crossprog": "yes",
+   "progress": [
+    "Link each platform to one Ubisoft account and your XP, ranked Elo, Battle Pass missions, Gold, Glory and most items carry across. Mammoth Coins and platform-exclusive items don't, and you can't be signed in on two linked platforms at once."
+   ],
+   "sources": [
+    {
+     "title": "Cross-progression FAQ (Brawlhalla)",
+     "url": "https://brawlhalla.com/news/cross-progression"
+    },
+    {
+     "title": "Where to play (Brawlhalla)",
+     "url": "https://www.brawlhalla.com/play/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
+  },
+  {
+   "title": "Brotato",
+   "igdb_id": 199116,
+   "crossplay": false,
+   "verdict": {
+    "kind": "no",
+    "word": "No",
+    "summary": "Brotato has no crossplay because its co-op is local only: up to 4 players share one screen on PC, PlayStation, Xbox and Switch."
+   },
+   "notes": [
+    "Co-op is local (couch) play for up to 4 players. The store listings on Xbox and PlayStation list local multiplayer only, with no online mode.",
+    "On Steam, friends can play together online through Steam Remote Play Together, where only the host needs to own the game. That works between Steam users only.",
+    "The Switch 2 Edition adds GameShare for local players."
+   ],
+   "sources": [
+    {
+     "title": "Brotato (Xbox Store listing)",
+     "url": "https://www.xbox.com/en-CA/games/store/brotato/9P9VNSQK1W3K"
+    },
+    {
+     "title": "Brotato (PlayStation Store)",
+     "url": "https://store.playstation.com/concept/10007282"
+    },
+    {
+     "title": "Brotato adds local co-op (Einerd)",
+     "url": "https://www.einerd.com/brotato-adiciona-modo-local-coop-xbox-game-pass/"
+    }
+   ],
+   "crossprog": "no",
+   "checked": "2026-10-11"
   },
   {
    "title": "Buckshot Roulette",
@@ -1641,6 +1832,50 @@
    ]
   },
   {
+   "title": "DC Universe Online",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "separate": [
+    "xone",
+    "xseries",
+    "switch"
+   ],
+   "notes": [
+    "PC and PlayStation share servers for groups, leagues, On Duty content and the open world. Xbox and Switch each run on their own separate servers."
+   ],
+   "crossprog": "no",
+   "progress": [
+    "Characters, Marketplace cash, memberships and purchases stay on the platform account you made them on; Daybreak doesn't offer transfers."
+   ],
+   "sources": [
+    {
+     "title": "PC/PS4/PS3 crossplay now available in DC Universe Online (Wccftech)",
+     "url": "https://wccftech.com/pcps4ps3-crossplay-dc-universe-online-works/"
+    },
+    {
+     "title": "DC Universe Online coming to Xbox One, but without cross-play (Wccftech)",
+     "url": "https://wccftech.com/dc-universe-online-coming-xbox-crossplay/"
+    },
+    {
+     "title": "Nintendo Switch FAQ (DC Universe Online)",
+     "url": "https://www.dcuniverseonline.com/guides/dcuo-nintendo-switch-faq"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
+  },
+  {
    "title": "Dead by Daylight",
    "igdb_id": null,
    "audited": "2026-10-10",
@@ -1801,6 +2036,48 @@
    ],
    "checked": "2026-10-10",
    "crossprog": "partial",
+   "audited": "2026-10-10"
+  },
+  {
+   "title": "Deep Rock Galactic",
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Xbox plays with the Microsoft Store/Xbox app PC version, and progress carries between them. Steam players only play with Steam, and PlayStation players only with PlayStation."
+   ],
+   "crossprog": "partial",
+   "progress": [
+    "Saves carry over between Xbox and the Microsoft Store PC version only."
+   ],
+   "sources": [
+    {
+     "title": "Crossplay info (Ghost Ship Games)",
+     "url": "https://www.deeprockgalactic.com/crossplay-info"
+    },
+    {
+     "title": "Deep Rock Galactic crossplay (GGRecon)",
+     "url": "https://www.ggrecon.com/guides/deep-rock-galactic-crossplay-platform/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
    "audited": "2026-10-10"
   },
   {
@@ -3490,6 +3767,60 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Gang Beasts",
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "mac": "yes",
+      "linux": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    },
+    {
+     "platforms": {
+      "xone": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    }
+   ],
+   "separate": [
+    "ps4",
+    "switch"
+   ],
+   "notes": [
+    "Xbox players can play with the PC version from the Microsoft Store/Xbox app; that came with the game's Game Pass launch in July 2021. Steam players (Windows, Mac and Linux) only play with Steam, and PlayStation and Switch players only with their own platform.",
+    "Boneloaf's August 2025 update laid groundwork for wider crossplay, but no update since has switched it on."
+   ],
+   "sources": [
+    {
+     "title": "Gang Beasts crossplay between Xbox and PC (COGconnected)",
+     "url": "https://cogconnected.com/2021/06/gang-beasts-crossplay-xbox-pc/"
+    },
+    {
+     "title": "Improved Glass Destruction (Update 1.27) (Gang Beasts)",
+     "url": "https://gangbeasts.game/posts/2025/8/11/improved-glass-destruction-update-127"
+    },
+    {
+     "title": "Gang Beasts news (Gang Beasts)",
+     "url": "https://gangbeasts.game/posts"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "crossprog": "no",
+   "progress": [
+    "Unlocks and progress don't carry over between platforms."
+   ],
+   "audited": "2026-10-10"
+  },
+  {
    "title": "Garry's Mod",
    "igdb_id": null,
    "groups": [
@@ -3899,6 +4230,41 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Grounded",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "switch": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Full crossplay arrived with the Fully Yoked update on April 16, 2024, the same day Grounded launched on PlayStation and Switch: Steam, Xbox app, Xbox, PlayStation and Switch players can all join each other."
+   ],
+   "sources": [
+    {
+     "title": "PC players of Grounded can now team up across platforms (Windows Experience Blog)",
+     "url": "https://blogs.windows.com/windowsexperience/2024/04/17/pc-players-of-grounded-can-now-team-up-with-others-across-platforms/"
+    },
+    {
+     "title": "Grounded gets Fully Yoked as it arrives on Switch and PlayStation (VGC)",
+     "url": "https://www.videogameschronicle.com/news/grounded-gets-its-final-huge-update-fully-yoked-as-it-arrives-on-switch-and-playstation"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
+  },
+  {
    "title": "Grounded 2",
    "igdb_id": null,
    "groups": [
@@ -4027,6 +4393,51 @@
    ]
   },
   {
+   "title": "Hell Let Loose: Vietnam",
+   "igdb_id": null,
+   "audited": "2026-10-10",
+   "checked": "2026-10-10",
+   "crossprog": "no",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Epic",
+      "Xbox app"
+     ]
+    }
+   ],
+   "notes": [
+    "Hell Let Loose: Vietnam launched on August 13, 2026 with full crossplay: PC (Steam, Epic and the Microsoft Store), PS5 and Xbox Series X|S players share one pool. Friends and invites go through Epic's cross-platform system."
+   ],
+   "sources": [
+    {
+     "title": "How to turn off crossplay in Hell Let Loose: Vietnam (All Things How)",
+     "url": "https://allthings.how/how-to-turn-off-crossplay-in-hell-let-loose-vietnam/"
+    },
+    {
+     "title": "Hell Let Loose: Vietnam: how to play with friends and set up crossplay (All Things How)",
+     "url": "https://allthings.how/hell-let-loose-vietnam-how-to-play-with-friends-and-set-up-crossplay/"
+    },
+    {
+     "title": "Hell Let Loose: Vietnam gets Xbox release date (Windows Report)",
+     "url": "https://windowsreport.com/hell-let-loose-vietnam-gets-xbox-release-date/"
+    }
+   ],
+   "toggle": [
+    "Crossplay is on by default.",
+    "Turn it off under Settings → General → Crossplay (press Apply, or it won't stick), or use the Server Type filter in the server list; consoles get a Console Only option."
+   ],
+   "progress": [
+    "Progress from the original Hell Let Loose doesn't carry over."
+   ]
+  },
+  {
    "title": "Helldivers 2",
    "igdb_id": 250616,
    "audited": "2026-10-10",
@@ -4088,6 +4499,49 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Human: Fall Flat",
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "xone": "yes",
+      "xseries": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes"
+     }
+    }
+   ],
+   "separate": [
+    "switch"
+   ],
+   "notes": [
+    "A May 2021 update added crossplay between Xbox One, Xbox Series X|S and the Windows PC version from the Microsoft Store/Xbox app.",
+    "We found no official source saying the Steam, PlayStation, Switch or mobile versions cross-play with anyone else; guides report PS4 and PS5 play together.",
+    "Human: Fall Flat VR is a separate game and doesn't play with the regular version."
+   ],
+   "sources": [
+    {
+     "title": "Human: Fall Flat optimized for Xbox Series X|S, adds cross-play (Xbox Wire)",
+     "url": "https://news.xbox.com/en-us/2021/05/27/human-fall-flat-now-optimized-for-xbox-series-xs/"
+    },
+    {
+     "title": "Is Human: Fall Flat cross platform? (Explosion)",
+     "url": "https://www.explosion.com/151412/is-human-fall-flat-cross-platform/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
+  },
+  {
    "title": "Hunt: Showdown 1896",
    "igdb_id": null,
    "groups": [
@@ -4130,6 +4584,38 @@
    "progress": [
     "There's no cross-progression: a second copy on another platform starts from scratch, skins and event progress included."
    ]
+  },
+  {
+   "title": "Identity V",
+   "groups": [
+    {
+     "platforms": {
+      "ios": "yes",
+      "android": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "NetEase launcher"
+     ]
+    }
+   ],
+   "notes": [
+    "iPhone and Android players share servers. NetEase's own PC client uses the same account, and since November 30, 2023 PC and mobile players share matchmaking in Blackjack mode, with a cross-platform matchmaking option in Five-player mode. Other modes may keep PC and mobile apart.",
+    "Servers are split by region, and the China version (id5.163.com) is separate from the global one."
+   ],
+   "sources": [
+    {
+     "title": "November 30 update notes (Identity V)",
+     "url": "https://idv.163.com/en/news/announcement/20231130/35288_1122907.html"
+    },
+    {
+     "title": "Identity V official website (NetEase)",
+     "url": "https://idv.163.com/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "It Takes Two",
@@ -4931,6 +5417,46 @@
     }
    ],
    "checked": "2026-10-10"
+  },
+  {
+   "title": "Mortal Kombat 11",
+   "groups": [
+    {
+     "platforms": {
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "pc": "partial"
+     },
+     "pc_stores": [
+      "Xbox app"
+     ]
+    }
+   ],
+   "separate": [
+    "switch"
+   ],
+   "notes": [
+    "Krossplay covers Kasual Versus matchmaking and designated Krossplay Online Rooms, not ranked.",
+    "PlayStation and Xbox players meet each other. The Microsoft Store PC version only meets Xbox players, not PlayStation. Steam and Switch have no crossplay."
+   ],
+   "toggle": [
+    "Go to Online, highlight the Kasual modes, and switch Krossplay on or off at the top right of the screen."
+   ],
+   "crossprog": "no",
+   "progress": [
+    "Progress, unlocks and purchases stay on the platform you started on; they only carry over from PS4 to PS5 or Xbox One to Xbox Series."
+   ],
+   "sources": [
+    {
+     "title": "Krossplay FAQ (WB Games Support)",
+     "url": "https://mortalkombatgamessupport.wbgames.com/hc/en-us/articles/360040410273"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
   },
   {
    "title": "Mortal Kombat X",
@@ -8270,6 +8796,58 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "UNO",
+   "crossplay": false,
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam",
+      "Ubisoft Connect"
+     ]
+    }
+   ],
+   "separate": [
+    "ps4",
+    "xone",
+    "switch"
+   ],
+   "notes": [
+    "Ubisoft's UNO has no crossplay: PC, PlayStation, Xbox and Switch players each play only with their own platform. A PS5 or Xbox Series console runs the PS4 or Xbox One version and plays with those players.",
+    "The mobile UNO! app is a different game from Mattel163 and doesn't connect to these versions. The older 2007 UNO for Xbox 360 and PC used Games for Windows Live, which shut down in 2014."
+   ],
+   "replaces": [
+    "Uno"
+   ],
+   "sources": [
+    {
+     "title": "UNO support: connectivity and performance (Ubisoft Help)",
+     "url": "https://www.ubisoft.com/en-us/help/uno/connectivity-and-performance"
+    },
+    {
+     "title": "Crossplay and cross-progression in Ubisoft games (Ubisoft Help)",
+     "url": "https://www.ubisoft.com/en-us/help/article/000061177"
+    },
+    {
+     "title": "Crossplay? (Steam Community, Ubisoft Support replies)",
+     "url": "https://steamcommunity.com/app/470220/discussions/1/3101264555073215788/"
+    },
+    {
+     "title": "Is UNO cross-platform? (TechShout)",
+     "url": "https://www.techshout.com/is-uno-cross-platform/"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "crossprog": "partial",
+   "progress": [
+    "Sign in with the same Ubisoft account and your progress carries over between consoles of the same family (PS4 and PS5, or Xbox One and Xbox Series X|S), along with some in-game content. It doesn't move between PlayStation, Xbox, Switch and PC."
+   ],
+   "audited": "2026-10-10"
+  },
+  {
    "title": "Unturned",
    "igdb_id": 7878,
    "crossplay": false,
@@ -8781,6 +9359,57 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "Wobbly Life",
+   "groups": [
+    {
+     "platforms": {
+      "pc": "yes",
+      "ps4": "yes",
+      "ps5": "yes",
+      "xone": "yes",
+      "xseries": "yes",
+      "switch": "yes",
+      "switch2": "yes",
+      "luna": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    },
+    {
+     "platforms": {
+      "ios": "yes",
+      "android": "yes"
+     }
+    }
+   ],
+   "notes": [
+    "Crossplay arrived in update 1.1 on August 27, 2026: Steam, Xbox, PlayStation, Switch, Switch 2 and Amazon Luna players can all play together, and you can join a friend with an invite code.",
+    "Steam players choose crossplay mode or mod mode when the game starts; Workshop mods only work in mod mode.",
+    "The mobile version (also new in August 2026) plays with other iPhone and Android players; RubberBand lists mobile as its own crossplay group."
+   ],
+   "sources": [
+    {
+     "title": "Major Update v1.1 - Crossplay (Steam news)",
+     "url": "https://steamcommunity.com/games/1211020/announcements/detail/687507645965272805/"
+    },
+    {
+     "title": "Wobbly Life (RubberBandGames)",
+     "url": "https://www.rubberbandgames.com/wobbly-life/"
+    },
+    {
+     "title": "Update 1.1.0 (Crossplay) (Wobbly Life Wiki)",
+     "url": "https://wobblylife.wiki.gg/wiki/Update_1.1.0_(Crossplay)"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "toggle": [
+    "On Steam, pick Play Crossplay when the game starts (mod mode has no crossplay). Open your world, find your invite code in the Multiplayer menu, and have friends on other platforms choose Join Game and enter it."
+   ],
+   "audited": "2026-10-10"
+  },
+  {
    "title": "World of Tanks Blitz",
    "igdb_id": null,
    "groups": [
@@ -8942,6 +9571,48 @@
    "audited": "2026-10-10"
   },
   {
+   "title": "WWE 2K25",
+   "groups": [
+    {
+     "platforms": {
+      "ps5": "yes",
+      "xseries": "yes"
+     }
+    },
+    {
+     "platforms": {
+      "ps4": "yes",
+      "xone": "yes",
+      "pc": "yes"
+     },
+     "pc_stores": [
+      "Steam"
+     ]
+    }
+   ],
+   "notes": [
+    "Crossplay is split by generation: PS5 and Xbox Series X|S players play together, and PS4, Xbox One and Steam players play together. The two groups can't meet; 2K tied the split to The Island, a mode only on PS5 and Xbox Series.",
+    "Community Creations are shared the same way."
+   ],
+   "crossprog": "partial",
+   "progress": [
+    "Progress and your VC wallet carry over within a console family only: PS4 to PS5, or Xbox One to Xbox Series X|S. DLC doesn't move between generations, and nothing carries over between PlayStation, Xbox and Steam."
+   ],
+   "sources": [
+    {
+     "title": "WWE 2K25: Cross-progression and cross-platform sharing (2K Support)",
+     "url": "https://support.wwe2k.com/hc/en-us/articles/39378788736019-WWE-2K25-Cross-Progression-and-Cross-Platform-Sharing"
+    },
+    {
+     "title": "Is WWE 2K25 cross-play and cross-progression? (Windows Central)",
+     "url": "https://windowscentral.com/gaming/is-wwe-2k25-cross-play-and-cross-progression"
+    }
+   ],
+   "igdb_id": null,
+   "checked": "2026-10-10",
+   "audited": "2026-10-10"
+  },
+  {
    "title": "WWE 2K26",
    "igdb_id": null,
    "crossplay": true,
@@ -9009,619 +9680,6 @@
      "url": "https://primagames.com/tips/does-zenless-zone-zero-feature-cross-play-and-cross-progression"
     }
    ],
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "Hell Let Loose: Vietnam",
-   "igdb_id": null,
-   "audited": "2026-10-10",
-   "checked": "2026-10-10",
-   "crossprog": "no",
-   "groups": [
-    {
-     "platforms": {
-      "pc": "yes",
-      "ps5": "yes",
-      "xseries": "yes"
-     },
-     "pc_stores": [
-      "Steam",
-      "Epic",
-      "Xbox app"
-     ]
-    }
-   ],
-   "notes": [
-    "Hell Let Loose: Vietnam launched on August 13, 2026 with full crossplay: PC (Steam, Epic and the Microsoft Store), PS5 and Xbox Series X|S players share one pool. Friends and invites go through Epic's cross-platform system."
-   ],
-   "sources": [
-    {
-     "title": "How to turn off crossplay in Hell Let Loose: Vietnam (All Things How)",
-     "url": "https://allthings.how/how-to-turn-off-crossplay-in-hell-let-loose-vietnam/"
-    },
-    {
-     "title": "Hell Let Loose: Vietnam: how to play with friends and set up crossplay (All Things How)",
-     "url": "https://allthings.how/hell-let-loose-vietnam-how-to-play-with-friends-and-set-up-crossplay/"
-    },
-    {
-     "title": "Hell Let Loose: Vietnam gets Xbox release date (Windows Report)",
-     "url": "https://windowsreport.com/hell-let-loose-vietnam-gets-xbox-release-date/"
-    }
-   ],
-   "toggle": [
-    "Crossplay is on by default.",
-    "Turn it off under Settings → General → Crossplay (press Apply, or it won't stick), or use the Server Type filter in the server list; consoles get a Console Only option."
-   ],
-   "progress": [
-    "Progress from the original Hell Let Loose doesn't carry over."
-   ]
-  },
-  {
-   "title": "ARK: Survival Ascended",
-   "groups": [
-    {
-     "platforms": {
-      "ps5": "yes",
-      "xseries": "yes",
-      "pc": "partial"
-     },
-     "pc_stores": [
-      "Steam"
-     ]
-    }
-   ],
-   "notes": [
-    "PS5 and Xbox Series X|S players share every server type.",
-    "PC players can join console players on official PvE servers and on unofficial servers that allow crossplay, but Studio Wildcard has kept PC off console official PvP servers since early 2024 because of cheating.",
-    "Crossplay needs a dedicated server: a non-dedicated session hosted from one player's game only takes players on the same platform. Server admins pick which platforms can join, and console players can only use mods marked as crossplay-compatible."
-   ],
-   "sources": [
-    {
-     "title": "Ark: Survival Ascended disables PC crossplay on official PvP (PCGamesN)",
-     "url": "https://www.pcgamesn.com/ark-survival-ascended/crossplay-disabled"
-    },
-    {
-     "title": "Studio Wildcard temporarily disables PC crossplay PvP (MMORPG.com)",
-     "url": "https://www.mmorpg.com/news/ark-survival-ascended-developer-studio-wildcard-temporarily-disables-pc-crossplay-pvp-due-to-rampant-cheating-2000129640"
-    },
-    {
-     "title": "ARK: Survival Ascended crossplay setup (Supercraft)",
-     "url": "https://supercraft.host/wiki/ark/ark_asa_crossplay_setup/"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "ARK: Survival Evolved",
-   "groups": [
-    {
-     "platforms": {
-      "pc": "yes",
-      "mac": "yes",
-      "linux": "yes"
-     },
-     "pc_stores": [
-      "Steam",
-      "Epic"
-     ]
-    },
-    {
-     "platforms": {
-      "xone": "yes",
-      "pc": "partial"
-     },
-     "pc_stores": [
-      "Xbox app"
-     ]
-    }
-   ],
-   "separate": [
-    "ps4",
-    "switch"
-   ],
-   "notes": [
-    "Steam and Epic players can play together only on dedicated servers started with crossplay turned on, and those servers can't run mods. Non-dedicated sessions hosted from a player's game have no crossplay.",
-    "The Microsoft Store/Xbox app PC version plays with Xbox One; the Steam version can't join them. PlayStation and Switch players only play with their own platform.",
-    "Studio Wildcard shut the official servers for PC, Xbox and PlayStation in September 2023 when ARK: Survival Ascended launched, and the Switch official servers closed on August 31, 2026. Single-player, non-dedicated and unofficial servers still work."
-   ],
-   "sources": [
-    {
-     "title": "Xbox Play Anywhere and cross-play come to Ark (Xbox Wire)",
-     "url": "https://news.xbox.com/en-us/2017/12/20/xbox-play-anywhere-support-comes-ark-survival-evolved/"
-    },
-    {
-     "title": "Allowing crossplay with the Epic version of ARK (Nodecraft)",
-     "url": "https://nodecraft.com/support/games/ark/allowing-crossplay-with-players-from-the-epic-games-version-of-ark-survival-evolved"
-    },
-    {
-     "title": "ARK: Survival Evolved official servers shutting down, replaced by Ascended (Delisted Games)",
-     "url": "https://delistedgames.com/?p=21035"
-    },
-    {
-     "title": "ARK Switch official servers shut down this month (VGC)",
-     "url": "https://www.videogameschronicle.com/news/official-online-servers-for-the-switch-version-of-ark-survival-evolved-will-shut-down-this-month/"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "Grounded",
-   "groups": [
-    {
-     "platforms": {
-      "pc": "yes",
-      "xone": "yes",
-      "xseries": "yes",
-      "ps4": "yes",
-      "ps5": "yes",
-      "switch": "yes"
-     },
-     "pc_stores": [
-      "Steam",
-      "Xbox app"
-     ]
-    }
-   ],
-   "notes": [
-    "Full crossplay arrived with the Fully Yoked update on April 16, 2024, the same day Grounded launched on PlayStation and Switch: Steam, Xbox app, Xbox, PlayStation and Switch players can all join each other."
-   ],
-   "sources": [
-    {
-     "title": "PC players of Grounded can now team up across platforms (Windows Experience Blog)",
-     "url": "https://blogs.windows.com/windowsexperience/2024/04/17/pc-players-of-grounded-can-now-team-up-with-others-across-platforms/"
-    },
-    {
-     "title": "Grounded gets Fully Yoked as it arrives on Switch and PlayStation (VGC)",
-     "url": "https://www.videogameschronicle.com/news/grounded-gets-its-final-huge-update-fully-yoked-as-it-arrives-on-switch-and-playstation"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "Human: Fall Flat",
-   "crossplay": false,
-   "groups": [
-    {
-     "platforms": {
-      "xone": "yes",
-      "xseries": "yes",
-      "pc": "partial"
-     },
-     "pc_stores": [
-      "Xbox app"
-     ]
-    },
-    {
-     "platforms": {
-      "ps4": "yes",
-      "ps5": "yes"
-     }
-    }
-   ],
-   "separate": [
-    "switch"
-   ],
-   "notes": [
-    "A May 2021 update added crossplay between Xbox One, Xbox Series X|S and the Windows PC version from the Microsoft Store/Xbox app.",
-    "We found no official source saying the Steam, PlayStation, Switch or mobile versions cross-play with anyone else; guides report PS4 and PS5 play together.",
-    "Human: Fall Flat VR is a separate game and doesn't play with the regular version."
-   ],
-   "sources": [
-    {
-     "title": "Human: Fall Flat optimized for Xbox Series X|S, adds cross-play (Xbox Wire)",
-     "url": "https://news.xbox.com/en-us/2021/05/27/human-fall-flat-now-optimized-for-xbox-series-xs/"
-    },
-    {
-     "title": "Is Human: Fall Flat cross platform? (Explosion)",
-     "url": "https://www.explosion.com/151412/is-human-fall-flat-cross-platform/"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "Brawlhalla",
-   "groups": [
-    {
-     "platforms": {
-      "pc": "yes",
-      "ps4": "yes",
-      "ps5": "yes",
-      "xone": "yes",
-      "xseries": "yes",
-      "switch": "yes",
-      "ios": "yes",
-      "android": "yes",
-      "mac": "yes"
-     },
-     "pc_stores": [
-      "Steam"
-     ]
-    }
-   ],
-   "notes": [
-    "Every platform shares matchmaking, including mobile. Mac players use the same Steam version as Windows."
-   ],
-   "crossprog": "yes",
-   "progress": [
-    "Link each platform to one Ubisoft account and your XP, ranked Elo, Battle Pass missions, Gold, Glory and most items carry across. Mammoth Coins and platform-exclusive items don't, and you can't be signed in on two linked platforms at once."
-   ],
-   "sources": [
-    {
-     "title": "Cross-progression FAQ (Brawlhalla)",
-     "url": "https://brawlhalla.com/news/cross-progression"
-    },
-    {
-     "title": "Where to play (Brawlhalla)",
-     "url": "https://www.brawlhalla.com/play/"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "Gang Beasts",
-   "crossplay": false,
-   "groups": [
-    {
-     "platforms": {
-      "pc": "yes",
-      "mac": "yes",
-      "linux": "yes"
-     },
-     "pc_stores": [
-      "Steam"
-     ]
-    },
-    {
-     "platforms": {
-      "xone": "yes",
-      "pc": "partial"
-     },
-     "pc_stores": [
-      "Xbox app"
-     ]
-    }
-   ],
-   "separate": [
-    "ps4",
-    "switch"
-   ],
-   "notes": [
-    "Xbox players can play with the PC version from the Microsoft Store/Xbox app; that came with the game's Game Pass launch in July 2021. Steam players (Windows, Mac and Linux) only play with Steam, and PlayStation and Switch players only with their own platform.",
-    "Boneloaf's August 2025 update laid groundwork for wider crossplay, but no update since has switched it on."
-   ],
-   "sources": [
-    {
-     "title": "Gang Beasts crossplay between Xbox and PC (COGconnected)",
-     "url": "https://cogconnected.com/2021/06/gang-beasts-crossplay-xbox-pc/"
-    },
-    {
-     "title": "Improved Glass Destruction (Update 1.27) (Gang Beasts)",
-     "url": "https://gangbeasts.game/posts/2025/8/11/improved-glass-destruction-update-127"
-    },
-    {
-     "title": "Gang Beasts news (Gang Beasts)",
-     "url": "https://gangbeasts.game/posts"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "crossprog": "no",
-   "progress": [
-    "Unlocks and progress don't carry over between platforms."
-   ],
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "DC Universe Online",
-   "groups": [
-    {
-     "platforms": {
-      "pc": "yes",
-      "ps4": "yes",
-      "ps5": "yes"
-     },
-     "pc_stores": [
-      "Steam"
-     ]
-    }
-   ],
-   "separate": [
-    "xone",
-    "xseries",
-    "switch"
-   ],
-   "notes": [
-    "PC and PlayStation share servers for groups, leagues, On Duty content and the open world. Xbox and Switch each run on their own separate servers."
-   ],
-   "crossprog": "no",
-   "progress": [
-    "Characters, Marketplace cash, memberships and purchases stay on the platform account you made them on; Daybreak doesn't offer transfers."
-   ],
-   "sources": [
-    {
-     "title": "PC/PS4/PS3 crossplay now available in DC Universe Online (Wccftech)",
-     "url": "https://wccftech.com/pcps4ps3-crossplay-dc-universe-online-works/"
-    },
-    {
-     "title": "DC Universe Online coming to Xbox One, but without cross-play (Wccftech)",
-     "url": "https://wccftech.com/dc-universe-online-coming-xbox-crossplay/"
-    },
-    {
-     "title": "Nintendo Switch FAQ (DC Universe Online)",
-     "url": "https://www.dcuniverseonline.com/guides/dcuo-nintendo-switch-faq"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "Mortal Kombat 11",
-   "groups": [
-    {
-     "platforms": {
-      "ps4": "yes",
-      "ps5": "yes",
-      "xone": "yes",
-      "xseries": "yes",
-      "pc": "partial"
-     },
-     "pc_stores": [
-      "Xbox app"
-     ]
-    }
-   ],
-   "separate": [
-    "switch"
-   ],
-   "notes": [
-    "Krossplay covers Kasual Versus matchmaking and designated Krossplay Online Rooms, not ranked.",
-    "PlayStation and Xbox players meet each other. The Microsoft Store PC version only meets Xbox players, not PlayStation. Steam and Switch have no crossplay."
-   ],
-   "toggle": [
-    "Go to Online, highlight the Kasual modes, and switch Krossplay on or off at the top right of the screen."
-   ],
-   "crossprog": "no",
-   "progress": [
-    "Progress, unlocks and purchases stay on the platform you started on; they only carry over from PS4 to PS5 or Xbox One to Xbox Series."
-   ],
-   "sources": [
-    {
-     "title": "Krossplay FAQ (WB Games Support)",
-     "url": "https://mortalkombatgamessupport.wbgames.com/hc/en-us/articles/360040410273"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "Deep Rock Galactic",
-   "crossplay": false,
-   "groups": [
-    {
-     "platforms": {
-      "xone": "yes",
-      "xseries": "yes",
-      "pc": "partial"
-     },
-     "pc_stores": [
-      "Xbox app"
-     ]
-    },
-    {
-     "platforms": {
-      "ps4": "yes",
-      "ps5": "yes"
-     }
-    }
-   ],
-   "notes": [
-    "Xbox plays with the Microsoft Store/Xbox app PC version, and progress carries between them. Steam players only play with Steam, and PlayStation players only with PlayStation."
-   ],
-   "crossprog": "partial",
-   "progress": [
-    "Saves carry over between Xbox and the Microsoft Store PC version only."
-   ],
-   "sources": [
-    {
-     "title": "Crossplay info (Ghost Ship Games)",
-     "url": "https://www.deeprockgalactic.com/crossplay-info"
-    },
-    {
-     "title": "Deep Rock Galactic crossplay (GGRecon)",
-     "url": "https://www.ggrecon.com/guides/deep-rock-galactic-crossplay-platform/"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "UNO",
-   "crossplay": false,
-   "groups": [
-    {
-     "platforms": {
-      "pc": "yes"
-     },
-     "pc_stores": [
-      "Steam",
-      "Ubisoft Connect"
-     ]
-    }
-   ],
-   "separate": [
-    "ps4",
-    "xone",
-    "switch"
-   ],
-   "notes": [
-    "Ubisoft's UNO has no crossplay: PC, PlayStation, Xbox and Switch players each play only with their own platform. A PS5 or Xbox Series console runs the PS4 or Xbox One version and plays with those players.",
-    "The mobile UNO! app is a different game from Mattel163 and doesn't connect to these versions. The older 2007 UNO for Xbox 360 and PC used Games for Windows Live, which shut down in 2014."
-   ],
-   "replaces": [
-    "Uno"
-   ],
-   "sources": [
-    {
-     "title": "UNO support: connectivity and performance (Ubisoft Help)",
-     "url": "https://www.ubisoft.com/en-us/help/uno/connectivity-and-performance"
-    },
-    {
-     "title": "Crossplay and cross-progression in Ubisoft games (Ubisoft Help)",
-     "url": "https://www.ubisoft.com/en-us/help/article/000061177"
-    },
-    {
-     "title": "Crossplay? (Steam Community, Ubisoft Support replies)",
-     "url": "https://steamcommunity.com/app/470220/discussions/1/3101264555073215788/"
-    },
-    {
-     "title": "Is UNO cross-platform? (TechShout)",
-     "url": "https://www.techshout.com/is-uno-cross-platform/"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "crossprog": "partial",
-   "progress": [
-    "Sign in with the same Ubisoft account and your progress carries over between consoles of the same family (PS4 and PS5, or Xbox One and Xbox Series X|S), along with some in-game content. It doesn't move between PlayStation, Xbox, Switch and PC."
-   ],
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "WWE 2K25",
-   "groups": [
-    {
-     "platforms": {
-      "ps5": "yes",
-      "xseries": "yes"
-     }
-    },
-    {
-     "platforms": {
-      "ps4": "yes",
-      "xone": "yes",
-      "pc": "yes"
-     },
-     "pc_stores": [
-      "Steam"
-     ]
-    }
-   ],
-   "notes": [
-    "Crossplay is split by generation: PS5 and Xbox Series X|S players play together, and PS4, Xbox One and Steam players play together. The two groups can't meet; 2K tied the split to The Island, a mode only on PS5 and Xbox Series.",
-    "Community Creations are shared the same way."
-   ],
-   "crossprog": "partial",
-   "progress": [
-    "Progress and your VC wallet carry over within a console family only: PS4 to PS5, or Xbox One to Xbox Series X|S. DLC doesn't move between generations, and nothing carries over between PlayStation, Xbox and Steam."
-   ],
-   "sources": [
-    {
-     "title": "WWE 2K25: Cross-progression and cross-platform sharing (2K Support)",
-     "url": "https://support.wwe2k.com/hc/en-us/articles/39378788736019-WWE-2K25-Cross-Progression-and-Cross-Platform-Sharing"
-    },
-    {
-     "title": "Is WWE 2K25 cross-play and cross-progression? (Windows Central)",
-     "url": "https://windowscentral.com/gaming/is-wwe-2k25-cross-play-and-cross-progression"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "Wobbly Life",
-   "groups": [
-    {
-     "platforms": {
-      "pc": "yes",
-      "ps4": "yes",
-      "ps5": "yes",
-      "xone": "yes",
-      "xseries": "yes",
-      "switch": "yes",
-      "switch2": "yes",
-      "luna": "yes"
-     },
-     "pc_stores": [
-      "Steam"
-     ]
-    },
-    {
-     "platforms": {
-      "ios": "yes",
-      "android": "yes"
-     }
-    }
-   ],
-   "notes": [
-    "Crossplay arrived in update 1.1 on August 27, 2026: Steam, Xbox, PlayStation, Switch, Switch 2 and Amazon Luna players can all play together, and you can join a friend with an invite code.",
-    "Steam players choose crossplay mode or mod mode when the game starts; Workshop mods only work in mod mode.",
-    "The mobile version (also new in August 2026) plays with other iPhone and Android players; RubberBand lists mobile as its own crossplay group."
-   ],
-   "sources": [
-    {
-     "title": "Major Update v1.1 - Crossplay (Steam news)",
-     "url": "https://steamcommunity.com/games/1211020/announcements/detail/687507645965272805/"
-    },
-    {
-     "title": "Wobbly Life (RubberBandGames)",
-     "url": "https://www.rubberbandgames.com/wobbly-life/"
-    },
-    {
-     "title": "Update 1.1.0 (Crossplay) (Wobbly Life Wiki)",
-     "url": "https://wobblylife.wiki.gg/wiki/Update_1.1.0_(Crossplay)"
-    }
-   ],
-   "igdb_id": null,
-   "checked": "2026-10-10",
-   "toggle": [
-    "On Steam, pick Play Crossplay when the game starts (mod mode has no crossplay). Open your world, find your invite code in the Multiplayer menu, and have friends on other platforms choose Join Game and enter it."
-   ],
-   "audited": "2026-10-10"
-  },
-  {
-   "title": "Identity V",
-   "groups": [
-    {
-     "platforms": {
-      "ios": "yes",
-      "android": "yes",
-      "pc": "partial"
-     },
-     "pc_stores": [
-      "NetEase launcher"
-     ]
-    }
-   ],
-   "notes": [
-    "iPhone and Android players share servers. NetEase's own PC client uses the same account, and since November 30, 2023 PC and mobile players share matchmaking in Blackjack mode, with a cross-platform matchmaking option in Five-player mode. Other modes may keep PC and mobile apart.",
-    "Servers are split by region, and the China version (id5.163.com) is separate from the global one."
-   ],
-   "sources": [
-    {
-     "title": "November 30 update notes (Identity V)",
-     "url": "https://idv.163.com/en/news/announcement/20231130/35288_1122907.html"
-    },
-    {
-     "title": "Identity V official website (NetEase)",
-     "url": "https://idv.163.com/"
-    }
-   ],
-   "igdb_id": null,
    "checked": "2026-10-10",
    "audited": "2026-10-10"
   }

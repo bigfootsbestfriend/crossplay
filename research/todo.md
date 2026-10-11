@@ -39,3 +39,10 @@ Needs a better source before adding:
 - **Terraria**: update when Crossplay Phase One (1.4.6) ships.
 - **GTA VI**: update after Nov 19, 2026 launch.
 - **Minecraft**: native Switch 2 version due Oct 27, 2026.
+
+## 2026-10-11 research batch
+- Euro Truck Simulator 2 / American Truck Simulator: PS5/Xbox Series versions announced (no date); console crossplay unconfirmed; no source yet on whether Windows/Mac/Linux Convoy sessions mix.
+- Overcooked! All You Can Eat: Team17 promised cross-play for all kitchens post-launch, but a Feb 2024 Team17 Steam reply says crossplay is PC-only (Steam/GOG/Epic). Needs a current official statement.
+- Wreckfest: PS4/PS5 cross-gen and PC cross-store confirmed; one report of full PC/PS/Xbox crossplay with no date. Find Bugbear's patch notes.
+- Pummel Party: still no official statement.
+- BeamNG.drive: re-check when official online multiplayer ships.
