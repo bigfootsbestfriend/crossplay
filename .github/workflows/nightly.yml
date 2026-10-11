@@ -57,6 +57,8 @@ jobs:
           git push
       - name: Build site
         run: python3 site/build.py
+      - name: Draw share images (og:image)
+        run: pip install -q pillow && python3 site/og.py
       - name: Save social feed state (what /social.xml has announced)
         run: |
           git config user.name "crossplay-bot"

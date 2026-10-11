@@ -354,8 +354,9 @@ FONTS = ("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&"
          "family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@600;700&display=swap")
 
 
-def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
+def page(path, title, desc, body, schema=None, crumbs=None, noindex=False, image=None):
     canonical = abs_url(path)
+    og_image = abs_url(image or "/og/default.png")
     if noindex:
         NOINDEX.add(path)
     robots = "" if config.INDEXABLE and not noindex else '<meta name="robots" content="noindex">\n'
@@ -384,6 +385,10 @@ def page(path, title, desc, body, schema=None, crumbs=None, noindex=False):
 <meta property="og:url" content="{canonical}">
 <meta property="og:site_name" content="{e(config.SITE_NAME)}">
 <meta property="og:type" content="website">
+<meta property="og:image" content="{og_image}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{url('/static/favicon.svg')}" type="image/svg+xml">
 <link rel="apple-touch-icon" href="{url('/static/apple-touch-icon.png')}">
 <link rel="alternate" type="application/rss+xml" title="{e(config.SITE_NAME)} updates" href="{url('/feed.xml')}">
@@ -878,7 +883,7 @@ def game_page(g, games):
     # stay visible to readers but are noindexed until audited.
     return page("/games/" + g["slug"] + "/", title, desc[:300], "\n".join(parts), [vg] + faq_schema,
                 [("Home", "/"), ("Games", "/games/"), (t, "/games/" + g["slug"] + "/")],
-                noindex=not g.get("audited"))
+                noindex=not g.get("audited"), image="/og/" + g["slug"] + ".png")
 
 
 def list_table(games, show=None):
@@ -1288,6 +1293,8 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
         (OUT / f"{config.INDEXNOW_KEY}.txt").write_text(config.INDEXNOW_KEY)
     (OUT / "feed.xml").write_text(feed)
     (OUT / "social.xml").write_text(social_feed(games))
+    (OUT / "og").mkdir(exist_ok=True)
+    (OUT / "og" / "cards.json").write_text(json.dumps([og_card(g) for g in games], ensure_ascii=False))
     (OUT / ".nojekyll").write_text("")
     if config.DOMAIN:
         (OUT / "CNAME").write_text(config.DOMAIN + "\n")
@@ -1346,6 +1353,16 @@ def social_feed(games):
     return (f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>{e(config.SITE_NAME)}: social</title>'
             f'<link>{abs_url("/")}</link><description>New and updated crossplay answers.</description>'
             f'<language>en</language>{items}</channel></rss>\n')
+
+
+def og_card(g):
+    """What site/og.py needs to draw a game's 1200x630 share image."""
+    kind, word, _ = verdict(g)
+    cg = cross_groups(g)
+    main = cg[0]["platforms"] if cg else order({k for gr in g["groups"] for k in gr["platforms"]})
+    return {"slug": g["slug"], "title": g["title"], "kind": kind, "word": word,
+            "platforms": [PLATFORMS[k][1] for k in main if k not in CLOUD][:8],
+            "groups": len([gr for gr in g["groups"] if len(gr["platforms"]) >= 2])}
 
 
 FIXGUIDE = """
