@@ -1,10 +1,202 @@
 [
- {"id":"2026-10-11-intro","kicker":"Hello 👋","title":"Can you play together?","verdict":"","sub":"Crossplay answers for 500+ games, checked against official sources.","platforms":["PC","PS5","Xbox","Switch 2","Mobile"]},
- {"id":"2026-10-12-elden-ring-nightreign","kicker":"Is it crossplay?","title":"Elden Ring Nightreign","verdict":"no","sub":"PS4 + PS5 together. Xbox One + Series X|S together. PC only with PC.","platforms":[]},
- {"id":"2026-10-13-minecraft","kicker":"Is it crossplay?","title":"Minecraft","verdict":"yes","label":"Yes (Bedrock)","sub":"Bedrock plays across everything. Java only plays with Java.","platforms":["PC","PS5","PS4","Xbox","Switch","Switch 2","iOS","Android"]},
- {"id":"2026-10-14-it-takes-two","kicker":"Coming Oct 15","title":"It Takes Two","verdict":"yes","label":"Crossplay arrives","sub":"Only one of you needs to own it, thanks to the free Friend's Pass.","platforms":["PC","PS5","PS4","Xbox Series","Xbox One","Switch 2"]},
- {"id":"2026-10-15-arc-raiders","kicker":"Is it crossplay?","title":"ARC Raiders","verdict":"yes","sub":"Mixed-platform squads of three. Progress follows your Embark account.","platforms":["PC","PS5","Xbox Series X|S"]},
- {"id":"2026-10-16-stardew-valley","kicker":"Is it crossplay?","title":"Stardew Valley","verdict":"partly","label":"Computers only","sub":"Windows, Mac and Linux farm together. Consoles stay with their own kind.","platforms":["Windows","Mac","Linux"]},
- {"id":"2026-10-17-helldivers-2","kicker":"Is it crossplay?","title":"Helldivers 2","verdict":"yes","sub":"Squad up with friend codes. Progress doesn't carry between platforms.","platforms":["PC","PS5","Xbox Series X|S"]},
- {"id":"2026-10-18-rocket-league","kicker":"Is it crossplay?","title":"Rocket League","verdict":"yes","label":"Yes, everywhere","sub":"Every platform, every mode, Ranked included. Link to Epic to share progress.","platforms":["PC","PS5","PS4","Xbox","Switch","Switch 2"]}
+ {
+  "id": "2026-10-11-intro",
+  "kicker": "Hello 👋",
+  "title": "Can you play together?",
+  "verdict": "",
+  "sub": "Crossplay answers for 500+ games, checked against official sources.",
+  "platforms": [
+   "PC",
+   "PS5",
+   "Xbox",
+   "Switch 2",
+   "Mobile"
+  ]
+ },
+ {
+  "id": "2026-10-12-elden-ring-nightreign",
+  "kicker": "Is it crossplay?",
+  "title": "Elden Ring Nightreign",
+  "verdict": "no",
+  "sub": "PS4 + PS5 together. Xbox One + Series X|S together. PC only with PC.",
+  "platforms": []
+ },
+ {
+  "id": "2026-10-13-minecraft",
+  "kicker": "Is it crossplay?",
+  "title": "Minecraft",
+  "verdict": "yes",
+  "label": "Yes (Bedrock)",
+  "sub": "Bedrock plays across everything. Java only plays with Java.",
+  "platforms": [
+   "PC",
+   "PS5",
+   "PS4",
+   "Xbox",
+   "Switch",
+   "Switch 2",
+   "iOS",
+   "Android"
+  ]
+ },
+ {
+  "id": "2026-10-14-it-takes-two",
+  "kicker": "Coming Oct 15",
+  "title": "It Takes Two",
+  "verdict": "yes",
+  "label": "Crossplay arrives",
+  "sub": "Only one of you needs to own it, thanks to the free Friend's Pass.",
+  "platforms": [
+   "PC",
+   "PS5",
+   "PS4",
+   "Xbox Series",
+   "Xbox One",
+   "Switch 2"
+  ]
+ },
+ {
+  "id": "2026-10-15-arc-raiders",
+  "kicker": "Is it crossplay?",
+  "title": "ARC Raiders",
+  "verdict": "yes",
+  "sub": "Mixed-platform squads of three. Progress follows your Embark account.",
+  "platforms": [
+   "PC",
+   "PS5",
+   "Xbox Series X|S"
+  ]
+ },
+ {
+  "id": "2026-10-16-stardew-valley",
+  "kicker": "Is it crossplay?",
+  "title": "Stardew Valley",
+  "verdict": "partly",
+  "label": "Computers only",
+  "sub": "Windows, Mac and Linux farm together. Consoles stay with their own kind.",
+  "platforms": [
+   "Windows",
+   "Mac",
+   "Linux"
+  ]
+ },
+ {
+  "id": "2026-10-17-helldivers-2",
+  "kicker": "Is it crossplay?",
+  "title": "Helldivers 2",
+  "verdict": "yes",
+  "sub": "Squad up with friend codes. Progress doesn't carry between platforms.",
+  "platforms": [
+   "PC",
+   "PS5",
+   "Xbox Series X|S"
+  ]
+ },
+ {
+  "id": "2026-10-18-rocket-league",
+  "kicker": "Is it crossplay?",
+  "title": "Rocket League",
+  "verdict": "yes",
+  "label": "Yes, everywhere",
+  "sub": "Every platform, every mode, Ranked included. Link to Epic to share progress.",
+  "platforms": [
+   "PC",
+   "PS5",
+   "PS4",
+   "Xbox",
+   "Switch",
+   "Switch 2"
+  ]
+ },
+ {
+  "id": "2026-10-12-am-fortnite",
+  "kicker": "Is it crossplay?",
+  "title": "Fortnite",
+  "verdict": "yes",
+  "label": "Yes, everywhere",
+  "sub": "Every current platform, phones and cloud included. You can only opt out on PlayStation and Xbox.",
+  "platforms": [
+   "PC",
+   "PS5",
+   "PS4",
+   "Xbox",
+   "Switch",
+   "Switch 2",
+   "iOS",
+   "Android"
+  ]
+ },
+ {
+  "id": "2026-10-13-am-terraria",
+  "kicker": "Is it crossplay?",
+  "title": "Terraria",
+  "verdict": "partly",
+  "label": "Not yet",
+  "sub": "Crossplay Phase One is coming in 1.4.6. For now, each platform family plays on its own.",
+  "platforms": [
+   "PC",
+   "PlayStation",
+   "Xbox",
+   "Switch",
+   "Mobile"
+  ]
+ },
+ {
+  "id": "2026-10-14-am-baldurs-gate-3",
+  "kicker": "Is it crossplay?",
+  "title": "Baldur's Gate 3",
+  "verdict": "yes",
+  "sub": "Since Patch 8. Same mods for everyone and mods work in crossplay too.",
+  "platforms": [
+   "PC",
+   "Mac",
+   "PS5",
+   "Xbox Series X|S"
+  ]
+ },
+ {
+  "id": "2026-10-15-am-gta-v",
+  "kicker": "Is it crossplay?",
+  "title": "GTA V / GTA Online",
+  "verdict": "no",
+  "sub": "No crossplay, and PS4/PS5 and Xbox One/Series X|S don't even meet each other.",
+  "platforms": []
+ },
+ {
+  "id": "2026-10-16-am-palworld",
+  "kicker": "Is it crossplay?",
+  "title": "Palworld",
+  "verdict": "yes",
+  "sub": "Every platform since v0.5.0. Saves don't carry over between platforms.",
+  "platforms": [
+   "PC",
+   "Mac",
+   "PS5",
+   "Xbox Series X|S"
+  ]
+ },
+ {
+  "id": "2026-10-17-am-lethal-company",
+  "kicker": "Is it crossplay?",
+  "title": "Lethal Company",
+  "verdict": "no",
+  "label": "PC only",
+  "sub": "It's only on Steam, so everyone's already on the same platform. No console version yet.",
+  "platforms": [
+   "Steam"
+  ]
+ },
+ {
+  "id": "2026-10-18-am-split-fiction",
+  "kicker": "Is it crossplay?",
+  "title": "Split Fiction",
+  "verdict": "yes",
+  "sub": "Only one of you needs to own it: the other joins free with the Friend's Pass.",
+  "platforms": [
+   "PC",
+   "PS5",
+   "Xbox Series X|S",
+   "Switch 2"
+  ]
+ }
 ]
