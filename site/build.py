@@ -1298,6 +1298,15 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
 # ---------------------------------------------------------------- social feed
 
 SOCIAL_PER_DAY = 2
+SOCIAL_MAX = 245  # the Metricool autolist cuts posts at 250 characters
+
+
+def clip(text, n=SOCIAL_MAX):
+    """Shorten to n characters, ending on a full sentence where possible."""
+    if len(text) <= n:
+        return text
+    cut = text[:n].rfind(". ")
+    return text[:cut + 1] if cut > n // 2 else text[:n - 1].rstrip() + "…"
 
 
 def social_feed(games):
@@ -1316,9 +1325,9 @@ def social_feed(games):
         if t not in st["seen"]:
             kind, word, summary = verdict(g)
             text = {"no": "❌ ", "yes": "✅ "}.get(kind, "") + summary
-            st["queue"].append({"id": f"{TODAY}:{t}:added", "text": f"🆕 Just checked: {t}\n\n{text}", "link": link})
+            st["queue"].append({"id": f"{TODAY}:{t}:added", "text": clip(f"🆕 Just checked: {t}\n\n{text}"), "link": link})
         elif news.get("date") and news["date"] != st["seen"][t]:
-            st["queue"].append({"id": f"{news['date']}:{t}:news", "text": f"🔄 Crossplay update: {t}\n\n{news['text']}", "link": link})
+            st["queue"].append({"id": f"{news['date']}:{t}:news", "text": clip(f"🔄 Crossplay update: {t}\n\n{news['text']}"), "link": link})
         st["seen"][t] = news.get("date", "") if news else st["seen"].get(t, "")
     today = TODAY.isoformat()
     room = SOCIAL_PER_DAY - sum(1 for x in st["out"] if x["date"] == today)
