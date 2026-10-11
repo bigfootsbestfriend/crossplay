@@ -57,6 +57,12 @@ jobs:
           git push
       - name: Build site
         run: python3 site/build.py
+      - name: Save social feed state (what /social.xml has announced)
+        run: |
+          git config user.name "crossplay-bot"
+          git config user.email "209829115+bigfootsbestfriend@users.noreply.github.com"
+          git add data/social.json
+          git diff --cached --quiet || { git commit -m "Social feed state $(date -u +%F)" && git pull --rebase -q && git push; }
       - name: List pages that changed (compared with the live site, before deploying)
         id: changed
         continue-on-error: true

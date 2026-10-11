@@ -19,7 +19,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent / "collector"))
 import config  # noqa: E402
-from common import load_json, merged_games, norm, slugify, trailer_candidates  # noqa: E402
+from common import load_json, save_json, merged_games, norm, slugify, trailer_candidates  # noqa: E402
 
 OUT = HERE.parent / "_site"
 GA_TAG = (f'<script async src="https://www.googletagmanager.com/gtag/js?id={config.GA_ID}"></script>\n'
@@ -220,7 +220,7 @@ def load_games():
             "source": w["source"], "crossplay": w.get("crossplay", True), "notes": w.get("notes", []),
             "sources": w.get("sources", []),
             "checked": w.get("checked") or wiki.get("fetched", TODAY.isoformat()),
-            "crossprog": w.get("crossprog"), "audited": w.get("audited"), "verdict": w.get("verdict"), "toggle": w.get("toggle") or [], "progress": w.get("progress") or [], "f2p": bool(w.get("f2p")),
+            "crossprog": w.get("crossprog"), "audited": w.get("audited"), "verdict": w.get("verdict"), "toggle": w.get("toggle") or [], "progress": w.get("progress") or [], "f2p": bool(w.get("f2p")), "news": w.get("news"),
             "trailer": next((v for v in trailer_candidates(ig)[:4] if trailers.get(v)), None),
             "shots": [x["image_id"] for x in ig.get("screenshots", []) if x.get("image_id")][:8],
         }
@@ -1287,11 +1287,56 @@ patch notes behind it. <a href="{url('/about/')}">More on how we check →</a></
     if config.INDEXNOW_KEY:
         (OUT / f"{config.INDEXNOW_KEY}.txt").write_text(config.INDEXNOW_KEY)
     (OUT / "feed.xml").write_text(feed)
+    (OUT / "social.xml").write_text(social_feed(games))
     (OUT / ".nojekyll").write_text("")
     if config.DOMAIN:
         (OUT / "CNAME").write_text(config.DOMAIN + "\n")
     print(f"Built {len(pages)} pages ({len(games)} games, {len(plat_cards)} platform hubs, "
           f"{len(pair_links)} pair hubs, {len(genre_links)} genre hubs) → {OUT}")
+
+
+# ---------------------------------------------------------------- social feed
+
+SOCIAL_PER_DAY = 3
+
+
+def social_feed(games):
+    """RSS for the social accounts (/social.xml, read by a Metricool autolist).
+
+    Announces checked games when they first appear and changes that come with a `news` line in
+    data/manual.json ({"date": ..., "text": ...}); silent data tweaks aren't posted. data/social.json
+    remembers what was announced and holds a queue, so at most SOCIAL_PER_DAY items go out per day."""
+    st = load_json("social.json", None)
+    checked = {g["title"]: g for g in games if g.get("audited") and not g["discontinued"]}
+    if st is None:  # first run: everything already on the site counts as announced
+        st = {"seen": {t: (g.get("news") or {}).get("date", "") for t, g in checked.items()}, "queue": [], "out": []}
+    for t, g in sorted(checked.items()):
+        news = g.get("news") or {}
+        link = abs_url("/games/" + g["slug"] + "/")
+        if t not in st["seen"]:
+            kind, word, summary = verdict(g)
+            text = {"no": "❌ ", "yes": "✅ "}.get(kind, "") + summary
+            st["queue"].append({"id": f"{TODAY}:{t}:added", "text": f"🆕 Just checked: {t}\n\n{text}", "link": link})
+        elif news.get("date") and news["date"] != st["seen"][t]:
+            st["queue"].append({"id": f"{news['date']}:{t}:news", "text": f"🔄 Crossplay update: {t}\n\n{news['text']}", "link": link})
+        st["seen"][t] = news.get("date", "") if news else st["seen"].get(t, "")
+    today = TODAY.isoformat()
+    room = SOCIAL_PER_DAY - sum(1 for x in st["out"] if x["date"] == today)
+    while room > 0 and st["queue"]:
+        x = st["queue"].pop(0)
+        x["date"] = today
+        st["out"].append(x)
+        room -= 1
+    st["out"] = st["out"][-40:]
+    save_json("social.json", st)
+    items = "".join(
+        f"<item><title>{e(x['text'])}</title><link>{e(x['link'])}</link><description>{e(x['text'])}</description>"
+        f"<guid isPermaLink=\"false\">{e(x['id'])}</guid>"
+        f"<pubDate>{datetime.datetime.combine(datetime.date.fromisoformat(x['date']), datetime.time(9)).strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate></item>"
+        for x in reversed(st["out"]))
+    return (f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>{e(config.SITE_NAME)}: social</title>'
+            f'<link>{abs_url("/")}</link><description>New and updated crossplay answers.</description>'
+            f'<language>en</language>{items}</channel></rss>\n')
 
 
 FIXGUIDE = """

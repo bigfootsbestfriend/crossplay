@@ -115,7 +115,7 @@ def merged_games():
             "crossplay": m.get("crossplay", True), "separate": m.get("separate", []),
             "groups": [{"platforms": gr["platforms"], "pc_stores": gr.get("pc_stores", []),
                         "others": gr.get("others", []), "refs": []} for gr in m.get("groups", [])],
-            "notes": m.get("notes", []), "sources": m.get("sources", []), "checked": m.get("checked"), "crossprog": m.get("crossprog"), "audited": m.get("audited"), "verdict": m.get("verdict"), "toggle": m.get("toggle", []), "progress": m.get("progress", []), "f2p": m.get("f2p", False),
+            "notes": m.get("notes", []), "sources": m.get("sources", []), "checked": m.get("checked"), "crossprog": m.get("crossprog"), "audited": m.get("audited"), "verdict": m.get("verdict"), "toggle": m.get("toggle", []), "progress": m.get("progress", []), "f2p": m.get("f2p", False), "news": m.get("news"),
         })
     return wiki, games
 

@@ -98,3 +98,12 @@ Wikipedia's list misses many of the most-played games, so we research those ours
 - **Group finder:** "Share this group" makes `?p=ps5,pc,switch2` links; Switch 2 now matches Switch crossplay groups.
 - **Email prompts:** "Tell me if X gets crossplay" button in the answer, signup box after the platform groups, one
   dismissible bottom bar (14-day cooldown), footer link.
+
+## Social feed (/social.xml)
+
+- Built by `social_feed()` in site/build.py; a Metricool autolist reads it and posts to X, Bluesky and Threads.
+- Announces a checked (audited) game the first time it appears, and an update only when its manual.json entry
+  gets a new `news` line: `"news": {"date": "2026-10-15", "text": "Crossplay is live: ..."}`. Add one whenever a
+  verdict or platform list changes for real. At most 3 items a day; extras wait in data/social.json's queue.
+- Instagram and Facebook posts are scheduled in batches (Metricool + GRO comment-for-DM queue), never from the feed,
+  because every IG/FB post uses up the next queued GRO automation.
