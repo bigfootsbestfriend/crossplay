@@ -5,6 +5,12 @@
    "id": "seed",
    "link": "https://crossplayguide.com/",
    "text": "Crossplay Guide checks which platforms play together for 260+ games. New answers and real updates show up here first."
+  },
+  {
+   "date": "2026-10-12",
+   "id": "2026-10-12:Forza Horizon 6:news",
+   "link": "https://crossplayguide.com/games/forza-horizon-6/",
+   "text": "🔄 Crossplay update: Forza Horizon 6\n\nForza Horizon 6 hits PS5 on January 26, 2027, with crossplay and cross-save with Xbox and PC."
   }
  ],
  "queue": [],
@@ -101,7 +107,7 @@
   "For Honor": "",
   "Fortnite": "",
   "Forza Horizon 5": "",
-  "Forza Horizon 6": "",
+  "Forza Horizon 6": "2026-10-12",
   "Forza Motorsport": "",
   "FragPunk": "",
   "Gang Beasts": "",
