@@ -3756,9 +3756,13 @@
     }
    ],
    "notes": [
-    "Xbox and PC have crossplay and cross-save from launch (May 19, 2026). Playground says the PS5 version will join crossplay and cross-save when it releases later in 2026; link the same Microsoft account to carry your progress over."
+    "Xbox and PC have crossplay and cross-save from launch (May 19, 2026). The PS5 version comes out on January 26, 2027 (Premium Edition early access from January 21). Playground says it will have crossplay and cross-save with the Xbox and Steam versions; link the same Microsoft account to carry your progress over."
    ],
    "sources": [
+    {
+     "title": "Forza Horizon 6 PS5 pre-orders and release date (Forza.net)",
+     "url": "https://forza.net/news/forza-horizon-6-pre-order-ps5"
+    },
     {
      "title": "Forza Horizon 6 will support full cross-saves between PC and consoles (Shacknews)",
      "url": "https://www.shacknews.com/article/147737/forza-horizon-6-cross-progression"
@@ -3768,9 +3772,13 @@
      "url": "https://primagames.com/tips/forza-horizon-6-have-crossplay-cross-saves"
     }
    ],
-   "checked": "2026-10-10",
+   "checked": "2026-10-12",
    "crossprog": "yes",
-   "audited": "2026-10-10"
+   "audited": "2026-10-12",
+   "news": {
+    "date": "2026-10-12",
+    "text": "Forza Horizon 6 hits PS5 on January 26, 2027, with crossplay and cross-save with Xbox and PC."
+   }
   },
   {
    "title": "Forza Motorsport",

@@ -21,16 +21,23 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
 - **Terraria** — check every run. Crossplay Phase One (update 1.4.6) "in the near future" as of
   2026-09-24. When it ships, record which platforms it connects and how (LAN/IP vs invites).
   2026-10-10: still not out; no release date from Re-Logic (latest is the Sept 24 State of the Game).
+  2026-10-12: still not out; no newer Re-Logic post than Sept 24 and no submission announced.
 - **Risk of Rain 2** — check every run. 2K: the next PlayStation/Xbox update ends PS4↔PS5 and
   XB1↔Series play. When it ships, split those groups and date the change.
   2026-10-10: unconfirmed. Hallowed Concepts DLC and update 1.21 | 1.005.001 came out Oct 8, 2026 for PC, PS5
   and Xbox Series only. No official source says yet whether this was the update that ended PS4↔PS5 and
   XB1↔Series play (the 2K support page couldn't be fetched: 403). Page unchanged; check again next run.
+  2026-10-12: still unconfirmed. No patch notes or 2K post say cross-gen play has ended (2K page still 403;
+  press still calls it a future update). Page unchanged.
 - **Dragon Ball: Sparking! Zero** — check from 2027-06-01. Crossplay beta (PS5, Xbox Series X|S, Steam)
   "after Summer 2027".
 
-- **Forza Horizon 6** — check every run. PS5 version due "later in 2026"; Playground says it joins
+- **Forza Horizon 6** — check from 2027-01-27. PS5 version due "later in 2026"; Playground says it joins
   Xbox/PC crossplay and cross-save at launch. When a date is announced, note it; when it ships, add ps5 to
   the group and rewrite the note in past tense.
+  2026-10-12: date set. Forza.net (Oct 8): PS5 launches Jan 26, 2027 (Premium early access Jan 21), with
+  crossplay and cross-save with Xbox and Steam. Note, sources and coming-soon date updated. Check from
+  2027-01-27 to add ps5 to the group. (Page also says "The PS5 version doesn't have crossplay" because IGDB
+  already lists PS5; that clears once ps5 joins the group.)
 
 ## Done
