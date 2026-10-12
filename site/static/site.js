@@ -2,6 +2,27 @@
   const root = document.querySelector('link[rel="icon"]').getAttribute("href").replace(/static\/favicon\.svg$/, "");
   let index = null;
 
+  // Long game tables: filter by name and platform, sort. The HTML ships A to Z with every row shown; nothing moves until used.
+  document.querySelectorAll("[data-ltools]").forEach(tools => {
+    const tbody = tools.nextElementSibling && tools.nextElementSibling.querySelector("tbody");
+    if (!tbody) return;
+    const rows = [...tbody.rows], q = tools.querySelector("[data-lq]"), sort = tools.querySelector("[data-lsort]");
+    const count = tools.querySelector("[data-lcount]"), chips = [...tools.querySelectorAll("[data-p]")];
+    const fold = s => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+    const keys = { n: r => r.dataset.n, y: r => -Number(r.dataset.y), c: r => -Number(r.dataset.c) };
+    let plat = "";
+    const apply = () => {
+      const t = fold(q.value), k = keys[sort.value];
+      let shown = 0;
+      rows.forEach(r => { const ok = (!t || fold(r.dataset.n).includes(t)) && (!plat || r.dataset.p.split(" ").includes(plat)); r.hidden = !ok; if (ok) shown++; });
+      rows.slice().sort((x, y) => { const a = k(x), b = k(y); return a < b ? -1 : a > b ? 1 : x.dataset.n < y.dataset.n ? -1 : 1; }).forEach(r => tbody.appendChild(r));
+      count.textContent = shown === rows.length ? `Showing all ${rows.length} games` : shown ? `Showing ${shown} of ${rows.length} games` : "No games match. Try another name or platform.";
+    };
+    q.addEventListener("input", apply);
+    sort.addEventListener("change", apply);
+    chips.forEach(c => c.addEventListener("click", () => { plat = c.dataset.p; chips.forEach(x => x.classList.toggle("on", x === c)); apply(); }));
+  });
+
   // Group finder ("Who can I play with?"): a game matches when one of its crossplay groups holds every
   // platform picked. Data loads on first use.
   document.querySelectorAll("[data-together]").forEach(box => {
@@ -364,4 +385,5 @@
   };
   setTimeout(show, 25000);
   addEventListener("scroll", () => { if (scrollY > (document.documentElement.scrollHeight - innerHeight) * 0.5) show(); }, { passive: true });
+
 })();

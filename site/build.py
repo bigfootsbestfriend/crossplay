@@ -888,17 +888,34 @@ def game_page(g, games):
                 noindex=not g.get("audited"), image="/og/" + g["slug"] + ".png")
 
 
+TOOL_PLATS = [("pc", "PC"), ("ps5", "PS5"), ("xseries", "Xbox Series"), ("switch2", "Switch 2"), ("switch", "Switch"), ("mobile", "Mobile")]
+
+
+def list_tools(n):
+    """Search, platform chips and sort for a long game table (site.js). The table HTML stays A to Z and fully shown."""
+    chips = "".join(f'<button type="button" class="chip p-{"ios" if k == "mobile" else k}" data-p="{k}">{e(lbl)}</button>' for k, lbl in TOOL_PLATS)
+    return (f'<div class="ltools" data-ltools><input type="search" placeholder="Filter these {n} games" aria-label="Filter games" data-lq>'
+            f'<div class="lrow"><div class="lchips" role="group" aria-label="Plays on"><span>Plays on</span>'
+            f'<button type="button" class="chip on" data-p="">Any</button>{chips}</div>'
+            f'<label class="lsort"><span>Sort</span><select data-lsort><option value="n">A to Z</option><option value="y">Newest first</option>'
+            f'<option value="c">Most platforms</option></select></label></div>'
+            f'<p class="small" data-lcount aria-live="polite">Showing all {n} games</p></div>')
+
+
 def list_table(games, show=None):
     rows = []
     for g in games:
         kind, word, _ = verdict(g)
         plats = order({k for gr in cross_groups(g) or g["groups"] for k in gr["platforms"] if k not in CLOUD})
-        rows.append(f'<tr><td class="t"><a href="{url("/games/" + g["slug"] + "/")}">{cover(g, "t_thumb", 45, 60, "thumb")}'
+        tags = set(plats) | ({"mobile"} if {"ios", "android"} & set(plats) else set())
+        rows.append(f'<tr data-n="{e(g["title"].lower())}" data-p="{" ".join(sorted(tags))}" data-y="{g["year"] or 0}" data-c="{len(plats)}">'
+                    f'<td class="t"><a href="{url("/games/" + g["slug"] + "/")}">{cover(g, "t_thumb", 45, 60, "thumb")}'
                     f'<span>{e(g["title"])}</span></a></td>'
                     f'<td><span class="tag v-{kind}">{e(word)}</span></td>'
                     f'<td class="chips">{"".join(chip(k) for k in plats)}</td>'
                     f'<td class="y">{g["year"] or ""}</td></tr>')
-    return ('<div class="tablewrap"><table class="list"><thead><tr><th>Game</th><th>Crossplay</th>'
+    return ((list_tools(len(games)) if len(games) > 20 else "") +
+            '<div class="tablewrap"><table class="list"><thead><tr><th>Game</th><th>Crossplay</th>'
             '<th>Plays together</th><th>Year</th></tr></thead><tbody>' + "".join(rows) + "</tbody></table></div>")
 
 

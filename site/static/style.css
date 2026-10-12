@@ -371,3 +371,15 @@ a.chip:hover, a.chip:focus-visible { filter: brightness(.94); box-shadow: 0 0 0 
 .mine-vote { display: flex; flex-wrap: wrap; gap: .4rem .5rem; align-items: center; }
 .btn.small { font-size: .88rem; padding: .35rem .8rem; }
 .community { scroll-margin-top: 90px; }
+/* Filter + sort bar above long game tables */
+.ltools { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: .8rem .9rem; margin: .4rem 0 .9rem; }
+.ltools input[type=search] { width: 100%; box-sizing: border-box; font: inherit; padding: .65rem .8rem; border-radius: 10px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); }
+.lrow { display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; justify-content: space-between; margin-top: .7rem; }
+.lchips { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+.lchips > span, .lsort span { font-size: .8rem; font-weight: 700; color: var(--ink-2); margin-right: .2rem; }
+.lchips button.chip { border: 2px solid transparent; cursor: pointer; font-size: .82rem; padding: .3rem .65rem; border-radius: 999px; }
+.lchips button.chip[data-p=""] { background: var(--paper); border-color: var(--line); }
+.lchips button.chip.on { border-color: var(--ink); box-shadow: 0 1px 0 var(--ink); }
+.lsort { display: flex; align-items: center; gap: .4rem; }
+.lsort select { font: inherit; font-size: .9rem; padding: .4rem .6rem; border-radius: 10px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); }
+[data-lcount] { margin: .6rem 0 0; }
