@@ -33,7 +33,7 @@ CF_TAG = ("<script defer src=\"https://static.cloudflareinsights.com/beacon.min.
           f"data-cf-beacon='{{\"token\": \"{config.CF_BEACON}\"}}'></script>\n" if config.CF_BEACON else "")
 # Cache-busting: a short hash of each file's contents, so browsers refetch the moment it changes.
 ASSET_V = {n: __import__("hashlib").sha1((HERE / "static" / n).read_bytes()).hexdigest()[:10]
-           for n in ("style.css", "site.js")}
+           for n in ("style.css", "site.js", "track.js")}
 TODAY = datetime.date.today()
 
 # key: (display name, short name, hub slug)
@@ -448,6 +448,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, noindex=False, image
   </div>
 </footer>
 <script src="{url('/static/site.js')}?v={ASSET_V['site.js']}" defer></script>
+<script src="{url('/static/track.js')}?v={ASSET_V['track.js']}" defer></script>
 </body>
 </html>
 """
