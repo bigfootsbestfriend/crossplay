@@ -286,6 +286,11 @@
    "title": "Battlefield™ 2042 Xbox Series X|S"
   },
   {
+   "free": false,
+   "id": "9P2FF14JZLL3",
+   "title": "Battlefield™ 6"
+  },
+  {
    "free": true,
    "id": "BZKZFMQG2K2K",
    "title": "Battlefield™ Hardline"
@@ -684,6 +689,11 @@
    "free": false,
    "id": "9P5Z4530318L",
    "title": "DEATHLOOP"
+  },
+  {
+   "free": false,
+   "id": "9PPF72ZH6RP8",
+   "title": "Deep Dish Dungeon"
   },
   {
    "free": false,
@@ -3126,7 +3136,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-10-12",
+ "fetched": "2026-10-13",
  "pc": [
   {
    "free": false,
@@ -3702,6 +3712,11 @@
    "free": false,
    "id": "9P5Z4530318L",
    "title": "DEATHLOOP"
+  },
+  {
+   "free": false,
+   "id": "9PPF72ZH6RP8",
+   "title": "Deep Dish Dungeon"
   },
   {
    "free": false,
