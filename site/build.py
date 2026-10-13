@@ -1549,7 +1549,7 @@ you contact us or subscribe to the weekly email.</p>
 based on your visits to this and other websites, and to measure how ads perform. Where the law requires it, we ask for
 your consent first, and you can change your choice at any time.</p>
 <h2>Analytics</h2>
-<p>We use Google Analytics, Clicky and Cloudflare Web Analytics to count visits and see which pages are useful. Google Analytics and Clicky set cookies; all three receive your IP address, browser details and the pages you view, and we only look at aggregated reports. Cloudflare Web Analytics sets no cookies. See <a href="https://policies.google.com/privacy">Google's</a>, <a href="https://clicky.com/terms/privacy">Clicky's</a> and <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's</a> privacy policies.</p>
+<p>We use Google Analytics and Clicky to count visits and see which pages are useful. Both set cookies and receive your IP address, browser details and the pages you view, and we only look at aggregated reports. See <a href="https://policies.google.com/privacy">Google's</a> and <a href="https://clicky.com/terms/privacy">Clicky's</a> privacy policies.</p>
 <h2>Third-party content</h2>
 <p>Game cover images and screenshots load from IGDB, trailer preview images load from YouTube, and fonts load from
 Google Fonts. Those services receive your IP address when your browser fetches the files. Trailers only load the
