@@ -1170,7 +1170,7 @@ unless you ask.</p>
             FORDEVS.format(codes=codes, user=e(user), domain=e(domain.replace(".", " (dot) ")),
                            n=len([g for g in games if g.get("audited")]), about=url("/about/")),
             crumbs=[("Home", "/"), ("For developers", "/for-developers/")])
-    pages["/privacy/"] = page("/privacy/", "Privacy Policy", "How this site handles your data.",
+    pages["/privacy/"] = page("/privacy/", "Privacy Policy", "How Crossplay Guide handles your data: what analytics we use, what the newsletter and voting store, and how to opt out.",
                               PRIVACY.format(site=e(config.SITE_NAME), contact=correction_link(), date=nice_date(TODAY),
                                              community=PRIVACY_COMMUNITY if config.API_URL else "",
                                              newsletter=PRIVACY_NEWSLETTER if config.NEWSLETTER_API else ""),
