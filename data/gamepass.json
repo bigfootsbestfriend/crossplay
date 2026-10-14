@@ -2881,6 +2881,11 @@
    "title": "Valiant Hearts: The Great War"
   },
   {
+   "free": false,
+   "id": "9P861V1542BL",
+   "title": "Valor Mortis"
+  },
+  {
    "free": true,
    "id": "9N1NLJK9SKRN",
    "title": "VALORANT"
@@ -3136,7 +3141,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-10-13",
+ "fetched": "2026-10-14",
  "pc": [
   {
    "free": false,
@@ -5502,6 +5507,11 @@
    "free": true,
    "id": "9N9GCWL14F1N",
    "title": "Valiant Hearts: The Great War"
+  },
+  {
+   "free": false,
+   "id": "9P861V1542BL",
+   "title": "Valor Mortis"
   },
   {
    "free": true,
