@@ -22,6 +22,7 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
   2026-09-24. When it ships, record which platforms it connects and how (LAN/IP vs invites).
   2026-10-10: still not out; no release date from Re-Logic (latest is the Sept 24 State of the Game).
   2026-10-12: still not out; no newer Re-Logic post than Sept 24 and no submission announced.
+  2026-10-15: still not out; Re-Logic's Steam news has nothing newer than the Sept 24 State of the Game.
 - **Risk of Rain 2** — check every run. 2K: the next PlayStation/Xbox update ends PS4↔PS5 and
   XB1↔Series play. When it ships, split those groups and date the change.
   2026-10-10: unconfirmed. Hallowed Concepts DLC and update 1.21 | 1.005.001 came out Oct 8, 2026 for PC, PS5
@@ -29,6 +30,8 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
   XB1↔Series play (the 2K support page couldn't be fetched: 403). Page unchanged; check again next run.
   2026-10-12: still unconfirmed. No patch notes or 2K post say cross-gen play has ended (2K page still 403;
   press still calls it a future update). Page unchanged.
+  2026-10-15: still unconfirmed. Oct 14 PC hotfix says a console patch follows; no official post says
+  cross-gen play has ended (2K page still 403). Page unchanged.
 - **Dragon Ball: Sparking! Zero** — check from 2027-06-01. Crossplay beta (PS5, Xbox Series X|S, Steam)
   "after Summer 2027".
 
