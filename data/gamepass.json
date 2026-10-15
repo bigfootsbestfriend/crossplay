@@ -377,6 +377,11 @@
   },
   {
    "free": false,
+   "id": "9NQVHHW88XW9",
+   "title": "Bluey's Happy Snaps"
+  },
+  {
+   "free": false,
    "id": "9N2J0FGV30DX",
    "title": "Bluey: The Videogame"
   },
@@ -3141,7 +3146,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-10-14",
+ "fetched": "2026-10-15",
  "pc": [
   {
    "free": false,
@@ -3349,11 +3354,6 @@
    "title": "Assassin's Creed® Valhalla"
   },
   {
-   "free": true,
-   "id": "9N0QFT016SGV",
-   "title": "Assassin’s Creed Chronicles: India"
-  },
-  {
    "free": false,
    "id": "9NVZ03XT8S2P",
    "title": "Assassin’s Creed IV Black Flag - Gold Edition"
@@ -3477,6 +3477,11 @@
    "free": false,
    "id": "9PFRTPRQ569Q",
    "title": "Blue Prince"
+  },
+  {
+   "free": false,
+   "id": "9NQVHHW88XW9",
+   "title": "Bluey's Happy Snaps"
   },
   {
    "free": false,
@@ -5472,11 +5477,6 @@
    "free": false,
    "id": "9NHMR19TS1M0",
    "title": "TRIALS of MANA"
-  },
-  {
-   "free": true,
-   "id": "9PG0ZSTFBL1T",
-   "title": "TRIALS OF THE BLOOD DRAGON"
   },
   {
    "free": true,
