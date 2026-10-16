@@ -17,11 +17,6 @@
   },
   {
    "free": false,
-   "id": "9ND0JVB184XL",
-   "title": "A Plague Tale: Requiem"
-  },
-  {
-   "free": false,
    "id": "BWVBNCMF22ZK",
    "title": "A Way Out"
   },
@@ -492,6 +487,11 @@
   },
   {
    "free": false,
+   "id": "9PKZRN4RJRC9",
+   "title": "Chained Beasts"
+  },
+  {
+   "free": false,
    "id": "BQ9Q620NC614",
    "title": "Child of Light"
   },
@@ -509,11 +509,6 @@
    "free": false,
    "id": "C4GH8N6ZXG5L",
    "title": "Cities: Skylines - Xbox One Edition"
-  },
-  {
-   "free": false,
-   "id": "9PPT8K6GQHRZ",
-   "title": "Clair Obscur: Expedition 33"
   },
   {
    "free": false,
@@ -594,11 +589,6 @@
    "free": false,
    "id": "9N6JF50HZFW9",
    "title": "Cricket 26 - The Official Game of the Ashes"
-  },
-  {
-   "free": false,
-   "id": "9NGZ1M3N98P2",
-   "title": "Crime Scene Cleaner"
   },
   {
    "free": false,
@@ -787,11 +777,6 @@
   },
   {
    "free": false,
-   "id": "9N6V2181GHLM",
-   "title": "Donut County"
-  },
-  {
-   "free": false,
    "id": "C3QH42WRGM3R",
    "title": "DOOM"
   },
@@ -959,11 +944,6 @@
    "free": false,
    "id": "9NNKJNRKFT0G",
    "title": "Eternal Strands"
-  },
-  {
-   "free": false,
-   "id": "9MW581HCJPM6",
-   "title": "Evil West"
   },
   {
    "free": true,
@@ -1957,11 +1937,6 @@
   },
   {
    "free": false,
-   "id": "9PNKG0WBL61W",
-   "title": "Pacific Drive"
-  },
-  {
-   "free": false,
    "id": "9NKV34XDW014",
    "title": "Palworld"
   },
@@ -2491,11 +2466,6 @@
    "title": "Super Mega Baseball™ 4"
   },
   {
-   "free": true,
-   "id": "9N4M72L6KGC8",
-   "title": "Superball"
-  },
-  {
    "free": false,
    "id": "9NRH78B682L8",
    "title": "SUPERHOT: MIND CONTROL DELETE"
@@ -2564,11 +2534,6 @@
    "free": false,
    "id": "9MVN4ND41DD3",
    "title": "The Bard's Tale Trilogy"
-  },
-  {
-   "free": false,
-   "id": "9PG0PMB5Q0GT",
-   "title": "The Casting of Frank Stone™"
   },
   {
    "free": true,
@@ -3146,7 +3111,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-10-15",
+ "fetched": "2026-10-16",
  "pc": [
   {
    "free": false,
@@ -3167,11 +3132,6 @@
    "free": false,
    "id": "9NGLST31DG26",
    "title": "A Game About Digging A Hole™"
-  },
-  {
-   "free": false,
-   "id": "9N97RC576957",
-   "title": "A Plague Tale: Requiem - Windows"
   },
   {
    "free": false,
@@ -3584,6 +3544,11 @@
    "title": "Car Mechanic Simulator 2021"
   },
   {
+   "free": false,
+   "id": "9PKZRN4RJRC9",
+   "title": "Chained Beasts"
+  },
+  {
    "free": true,
    "id": "9NP1LC5MX609",
    "title": "Child of Light"
@@ -3602,11 +3567,6 @@
    "free": false,
    "id": "9PGZ346PSLN0",
    "title": "Cities: Skylines II - PC Edition"
-  },
-  {
-   "free": false,
-   "id": "9PPT8K6GQHRZ",
-   "title": "Clair Obscur: Expedition 33"
   },
   {
    "free": false,
@@ -3667,11 +3627,6 @@
    "free": false,
    "id": "9N6JF50HZFW9",
    "title": "Cricket 26 - The Official Game of the Ashes"
-  },
-  {
-   "free": false,
-   "id": "9NGZ1M3N98P2",
-   "title": "Crime Scene Cleaner"
   },
   {
    "free": false,
@@ -3815,11 +3770,6 @@
   },
   {
    "free": false,
-   "id": "9N6V2181GHLM",
-   "title": "Donut County"
-  },
-  {
-   "free": false,
    "id": "9P46M5JQ2PTF",
    "title": "DOOM + DOOM II"
   },
@@ -3912,11 +3862,6 @@
    "free": false,
    "id": "9NNKJNRKFT0G",
    "title": "Eternal Strands"
-  },
-  {
-   "free": false,
-   "id": "9PC49MD70881",
-   "title": "Evil West (Windows)"
   },
   {
    "free": false,
@@ -4699,11 +4644,6 @@
    "title": "No Man's Sky"
   },
   {
-   "free": false,
-   "id": "9NBNFBQ546DT",
-   "title": "Nova Roma (Game Preview)"
-  },
-  {
    "free": true,
    "id": "9N4WHFF9HJ7H",
    "title": "OddBallers™"
@@ -4747,11 +4687,6 @@
    "free": true,
    "id": "9P36DQX6W9CS",
    "title": "Overwatch® PC"
-  },
-  {
-   "free": false,
-   "id": "9PNKG0WBL61W",
-   "title": "Pacific Drive"
   },
   {
    "free": false,
@@ -5184,11 +5119,6 @@
    "title": "Super Meat Boy 3D"
   },
   {
-   "free": true,
-   "id": "9N4M72L6KGC8",
-   "title": "Superball"
-  },
-  {
    "free": false,
    "id": "9NRH78B682L8",
    "title": "SUPERHOT: MIND CONTROL DELETE"
@@ -5257,11 +5187,6 @@
    "free": false,
    "id": "9MVN4ND41DD3",
    "title": "The Bard's Tale Trilogy"
-  },
-  {
-   "free": false,
-   "id": "9PG0PMB5Q0GT",
-   "title": "The Casting of Frank Stone™"
   },
   {
    "free": false,
