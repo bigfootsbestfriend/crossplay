@@ -5,6 +5,8 @@ main = "src/index.js"
 compatibility_date = "2025-09-01"
 
 [vars]
+# Each new review/report is emailed here (needs the RESEND_API_KEY secret).
+OWNER_EMAIL = "mike@thekitchenmagpie.com"
 # Pages allowed to call the API (comma-separated origins).
 ALLOWED_ORIGINS = "https://crossplayguide.com,https://www.crossplayguide.com,https://bigfootsbestfriend.github.io,http://localhost:8000"
 SITE_URL = "https://crossplayguide.com"

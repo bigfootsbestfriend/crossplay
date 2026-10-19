@@ -113,6 +113,21 @@ async function post(req, env) {
   await env.DB.prepare("INSERT INTO posts (kind, slug, name, platform, body, who, created) VALUES (?, ?, ?, ?, ?, ?, ?)")
     .bind(d.kind, d.slug, String(d.name || "").trim().slice(0, 40) || null,
           PLATFORM.test(d.platform || "") ? d.platform : null, text, id, now).run();
+  // Tell Mike about every submission (it waits in /admin until approved).
+  if (env.OWNER_EMAIL && env.RESEND_API_KEY) {
+    const esc = (v) => String(v).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    try {
+      await fetch("https://api.resend.com/emails", {
+        method: "POST", headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, "content-type": "application/json" },
+        body: JSON.stringify({
+          from: "Crossplay Guide <hello@crossplayguide.com>", to: [env.OWNER_EMAIL],
+          subject: `New player ${d.kind} to approve: ${d.slug}`,
+          html: `<p>New player <b>${esc(d.kind)}</b> on <a href="https://crossplayguide.com/games/${esc(d.slug)}/">${esc(d.slug)}</a>${d.platform ? ` (${esc(d.platform)})` : ""}:</p>
+<blockquote>${esc(text)}</blockquote><p><a href="https://crossplay-community.crossplayguide.workers.dev/admin">Approve or reject it</a></p>`,
+        }),
+      });
+    } catch (err) { console.error(err.stack || err); }
+  }
   return json({ ok: true });
 }
 
