@@ -2,12 +2,6 @@
  "note": "Upcoming crossplay changes for /coming-soon/. The Crossplay watch routine removes an item once it has shipped (and logs it on the game page).",
  "items": [
   {
-   "title": "It Takes Two",
-   "date": "2026-10-15",
-   "kind": "adds",
-   "what": "Full crossplay arrives with the Nintendo Switch 2 version: PC, PS5, PS4, Xbox Series X|S, Xbox One and Switch 2 all play together."
-  },
-  {
    "title": "Minecraft",
    "date": "2026-10-27",
    "kind": "launch",

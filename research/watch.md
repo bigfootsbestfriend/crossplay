@@ -7,9 +7,6 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
 
 ## Open
 
-- **It Takes Two** — check from 2026-10-16. EA: full crossplay (PC, PS5, PS4, Xbox Series X|S, Xbox One,
-  Switch 2) launches Oct 15, 2026 with the Switch 2 version. Confirm it went live; reword the note from
-  "arrives on" to past tense; drop anything that didn't ship.
 - **Minecraft** — check from 2026-10-28. Native Switch 2 version due Oct 27, 2026. Confirm launch and
   crossplay with Bedrock; update the note.
 - **Tom Clancy's The Division 2** — check from 2026-11-11, again from 2026-11-20. Crossplay rollout: PC to
@@ -23,6 +20,7 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
   2026-10-10: still not out; no release date from Re-Logic (latest is the Sept 24 State of the Game).
   2026-10-12: still not out; no newer Re-Logic post than Sept 24 and no submission announced.
   2026-10-15: still not out; Re-Logic's Steam news has nothing newer than the Sept 24 State of the Game.
+  2026-10-19: still not out; no Re-Logic post newer than the Sept 24 State of the Game on Steam.
 - **Risk of Rain 2** — check every run. 2K: the next PlayStation/Xbox update ends PS4↔PS5 and
   XB1↔Series play. When it ships, split those groups and date the change.
   2026-10-10: unconfirmed. Hallowed Concepts DLC and update 1.21 | 1.005.001 came out Oct 8, 2026 for PC, PS5
@@ -32,6 +30,9 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
   press still calls it a future update). Page unchanged.
   2026-10-15: still unconfirmed. Oct 14 PC hotfix says a console patch follows; no official post says
   cross-gen play has ended (2K page still 403). Page unchanged.
+  2026-10-19: still unconfirmed. 2K's article (read via the Zendesk API; updated Oct 8) still says cross-gen
+  play "remains possible for now" and ends with the next PS/Xbox update; the console hotfix hasn't been
+  announced as out. Page unchanged.
 - **Dragon Ball: Sparking! Zero** — check from 2027-06-01. Crossplay beta (PS5, Xbox Series X|S, Steam)
   "after Summer 2027".
 
@@ -44,3 +45,5 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
   already lists PS5; that clears once ps5 joins the group.)
 
 ## Done
+
+- **It Takes Two** — 2026-10-19: crossplay went live Oct 15, 2026 with the Switch 2 version (Oct 16 in JP/AU/NZ/KR). Note now past tense, launch source added, news line added, removed from upcoming.json.
