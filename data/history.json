@@ -1370,6 +1370,11 @@
    "first_seen": "2026-10-10",
    "hash": "395a8a6f66c5"
   },
+  "Marvel Tōkon: Fighting Souls": {
+   "changed": "2026-10-21",
+   "first_seen": "2026-10-21",
+   "hash": "2818503d7417"
+  },
   "Matchpoint: Tennis Championships": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -2595,6 +2600,11 @@
    "first_seen": "2026-10-09",
    "hash": "6c7494f5c33b"
   },
+  "Virtua Fighter 5 R.E.V.O. World Stage": {
+   "changed": "2026-10-21",
+   "first_seen": "2026-10-21",
+   "hash": "b86cc583e0ab"
+  },
   "WWE 2K Battlegrounds": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -2842,16 +2852,6 @@
   }
  },
  "log": [
-  {
-   "date": "2026-10-10",
-   "title": "Age of Mythology: Retold",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Albion Online",
-   "what": "added"
-  },
   {
    "date": "2026-10-10",
    "title": "Anno 1800",
@@ -4340,6 +4340,16 @@
   {
    "date": "2026-10-12",
    "title": "World of Tanks: HEAT",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "Marvel Tōkon: Fighting Souls",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "Virtua Fighter 5 R.E.V.O. World Stage",
    "what": "added"
   }
  ]

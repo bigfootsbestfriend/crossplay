@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-20",
+ "fetched": "2026-10-21",
  "games": [
   {
    "discontinued": false,
@@ -3378,6 +3378,47 @@
     {
      "others": [],
      "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://www.eneba.com/hub/games/game-guides/is-marvel-rivals-cross-platform/?srsltid=AU7gw4Xbb0_7ZTLa1_IUHyJYygW2fLBqB1kRrbOHOYnjsaxJGOjaV9hL"
+     ]
+    }
+   ],
+   "title": "Marvel Rivals",
+   "wiki_link": "Marvel Rivals"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes"
+     },
+     "refs": [
+      "https://beebom.com/marvel-tokon-crossplay-guide/"
+     ]
+    }
+   ],
+   "title": "Marvel Tōkon: Fighting Souls",
+   "wiki_link": "Marvel Tōkon: Fighting Souls"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
       "Epic",
       "Steam",
       "Xbox app"
@@ -5399,6 +5440,7 @@
       "pc": "yes",
       "ps4": "yes",
       "ps5": "yes",
+      "switch2": "yes",
       "xseries": "yes"
      },
      "refs": [
@@ -6199,6 +6241,28 @@
    ],
    "title": "Villagers & Heroes",
    "wiki_link": "Villagers & Heroes"
+  },
+  {
+   "discontinued": false,
+   "groups": [
+    {
+     "others": [],
+     "pc_stores": [
+      "Steam"
+     ],
+     "platforms": {
+      "pc": "yes",
+      "ps5": "yes",
+      "switch2": "yes",
+      "xseries": "yes"
+     },
+     "refs": [
+      "https://virtua-fighter.com/revo/en/"
+     ]
+    }
+   ],
+   "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+   "wiki_link": "Virtua Fighter 5 R.E.V.O. World Stage"
   },
   {
    "discontinued": false,

@@ -82708,6 +82708,7 @@
    }
   ]
  },
+ "Marvel Tōkon: Fighting Souls": null,
  "Matchpoint: Tennis Championships": {
   "cover": {
    "id": 205368,
@@ -158618,6 +158619,212 @@
     "id": 617215,
     "type": 2,
     "url": "https://villagersandheroes.fandom.com/wiki/Villagers_and_Heroes_Wiki"
+   }
+  ]
+ },
+ "Virtua Fighter 5 R.E.V.O. World Stage": {
+  "collections": [
+   {
+    "id": 318,
+    "name": "Virtua Fighter"
+   }
+  ],
+  "cover": {
+   "id": 482586,
+   "image_id": "coacd6"
+  },
+  "external_games": [
+   {
+    "external_game_source": 36,
+    "id": 3099611,
+    "uid": "10015221"
+   }
+  ],
+  "first_release_date": 1761782400,
+  "franchises": [
+   {
+    "id": 1070,
+    "name": "Virtua Fighter"
+   }
+  ],
+  "game_modes": [
+   {
+    "id": 1,
+    "name": "Single player"
+   },
+   {
+    "id": 2,
+    "name": "Multiplayer"
+   }
+  ],
+  "game_type": 14,
+  "genres": [
+   {
+    "id": 4,
+    "name": "Fighting"
+   },
+   {
+    "id": 33,
+    "name": "Arcade"
+   }
+  ],
+  "hypes": 3,
+  "id": 358822,
+  "involved_companies": [
+   {
+    "company": {
+     "id": 112,
+     "name": "Sega"
+    },
+    "developer": false,
+    "id": 333907,
+    "publisher": true
+   },
+   {
+    "company": {
+     "id": 19080,
+     "name": "Ryu Ga Gotoku Studio"
+    },
+    "developer": true,
+    "id": 333908,
+    "publisher": false
+   },
+   {
+    "company": {
+     "id": 830,
+     "name": "Sega AM2"
+    },
+    "developer": false,
+    "id": 334504,
+    "publisher": false
+   }
+  ],
+  "name": "Virtua Fighter 5 R.E.V.O. World Stage",
+  "platforms": [
+   {
+    "abbreviation": "Series X|S",
+    "id": 169,
+    "name": "Xbox Series X|S"
+   },
+   {
+    "abbreviation": "Switch 2",
+    "id": 508,
+    "name": "Nintendo Switch 2"
+   },
+   {
+    "abbreviation": "PC",
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+   },
+   {
+    "abbreviation": "PS5",
+    "id": 167,
+    "name": "PlayStation 5"
+   }
+  ],
+  "screenshots": [
+   {
+    "height": 2160,
+    "id": 1639981,
+    "image_id": "scz5f1",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1639980,
+    "image_id": "scz5f0",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1639979,
+    "image_id": "scz5ez",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1639982,
+    "image_id": "scz5f2",
+    "width": 3840
+   },
+   {
+    "height": 2160,
+    "id": 1639983,
+    "image_id": "scz5f3",
+    "width": 3840
+   }
+  ],
+  "slug": "virtua-fighter-5-revo-world-stage",
+  "themes": [
+   {
+    "id": 1,
+    "name": "Action"
+   }
+  ],
+  "total_rating_count": 2,
+  "url": "https://www.igdb.com/games/virtua-fighter-5-revo-world-stage",
+  "videos": [
+   {
+    "id": 166678,
+    "name": "Launch Trailer",
+    "video_id": "f8mibe385yE"
+   },
+   {
+    "id": 157820,
+    "name": "Trailer",
+    "video_id": "h-1xVMgJvUg"
+   },
+   {
+    "id": 174834,
+    "name": "Release Date Trailer",
+    "video_id": "KNCcbKTbg48"
+   },
+   {
+    "id": 179703,
+    "name": "Trailer",
+    "video_id": "p2mU4KwxElk"
+   }
+  ],
+  "websites": [
+   {
+    "id": 844408,
+    "type": 5,
+    "url": "https://twitter.com/VF_SEGA"
+   },
+   {
+    "id": 844413,
+    "type": 1,
+    "url": "https://virtua-fighter.com/revo/jp/"
+   },
+   {
+    "id": 844405,
+    "type": 23,
+    "url": "https://store.playstation.com/en-us/concept/10015221"
+   },
+   {
+    "id": 844409,
+    "type": 8,
+    "url": "https://www.instagram.com/sega"
+   },
+   {
+    "id": 844410,
+    "type": 9,
+    "url": "https://youtube.com/@virtuafighter_official/videos"
+   },
+   {
+    "id": 982794,
+    "type": 6,
+    "url": "https://www.twitch.tv/directory/category/virtua-fighter-5-r-e-v-o-world-stage"
+   },
+   {
+    "id": 1007449,
+    "type": 24,
+    "url": "https://www.nintendo.com/us/store/products/virtua-fighter-5-r-e-v-o-world-stage-switch-2/"
+   },
+   {
+    "id": 1123162,
+    "type": 22,
+    "url": "https://www.xbox.com/en-us/games/store/virtua-fighter-5-r-e-v-o-world-stage/9NSM674QVLBS"
    }
   ]
  },
