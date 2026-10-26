@@ -1,0 +1,601 @@
+[
+ {
+  "title": "eFootball",
+  "igdb_id": null,
+  "f2p": true,
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes",
+     "ps4": "yes",
+     "ps5": "yes",
+     "xone": "yes",
+     "xseries": "yes"
+    },
+    "pc_stores": [
+     "Steam",
+     "Xbox app"
+    ]
+   }
+  ],
+  "notes": [
+   "Console and PC crossplay arrived with version 4.4.0 on April 17, 2025. PS5, PS4, Xbox Series X|S, Xbox One, Steam and Xbox on PC players can now meet in Friend Matches and Co-op, and are matched together in eFootball League and Ranking Events, which use one combined ranking.",
+   "The mobile version (iOS and Android) is not part of this crossplay. Konami's crossplay settings and FAQ cover only the PlayStation, Xbox and Steam versions.",
+   "With crossplay switched off you only match players on your own platform and can't enter a Match Room with players from other platforms."
+  ],
+  "toggle": [
+   "PlayStation and Steam: Extras > Game Settings > Cross-Platform. Xbox and Xbox on PC: the cross-network play setting in Xbox privacy settings."
+  ],
+  "crossprog": "partial",
+  "progress": [
+   "Progress carries over only within a family (PS5 and PS4, or Xbox Series X|S, Xbox One and Xbox on PC); Konami says data can't move between other platforms or between mobile and console."
+  ],
+  "sources": [
+   {
+    "title": "eFootball v4.4.0 Information (Konami)",
+    "url": "https://www.konami.com/efootball/en/page/v4/versioninfo_v4-40"
+   },
+   {
+    "title": "eFootball FAQ (Konami)",
+    "url": "https://www.konami.com/efootball/faq/0/en-us/"
+   },
+   {
+    "title": "eFootball is adding crossplay and AI opponents in a major update this week (VGC)",
+    "url": "https://www.videogameschronicle.com/news/efootball-is-adding-crossplay-and-ai-opponents-in-a-major-update-this-week"
+   }
+  ],
+  "checked": "2026-10-26",
+  "crossplay": true,
+  "verify": {
+   "result": "corrected",
+   "what": "Konami v4.4.0 notes, FAQ and VGC confirm console/PC crossplay, toggle and progress rules; replaced the unsourced 2021 mobile-plan line with what the FAQ actually says."
+  }
+ },
+ {
+  "title": "Fishing Planet",
+  "igdb_id": null,
+  "f2p": true,
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Steam",
+     "Epic"
+    ]
+   },
+   {
+    "platforms": {
+     "xone": "yes",
+     "xseries": "yes",
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Microsoft Store"
+    ]
+   },
+   {
+    "platforms": {
+     "ps4": "yes",
+     "ps5": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "switch": "yes",
+     "switch2": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "ios": "yes",
+     "android": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "The developer's support FAQ lists only three crossplay pairs: Steam with Epic Games Store, Android with iOS, and Xbox with the Windows (Microsoft Store) version. Every other combination is blocked.",
+   "So Steam players can't fish with Microsoft Store or Xbox players, and PlayStation and Switch players only meet others on the same console family. On PlayStation the game is a free PS4 release that also runs on PS5.",
+   "The Switch version arrived on June 11, 2025 and is free to play; Switch 2 runs that same version.",
+   "Each account stays tied to its platform: progress and purchases can't be moved or shared between accounts."
+  ],
+  "crossprog": "no",
+  "sources": [
+   {
+    "title": "Fishing Planet Support FAQ",
+    "url": "https://fishingplanet.com/support/"
+   },
+   {
+    "title": "Fishing Planet (Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/fishing-planet/bvm002m8hh0s"
+   },
+   {
+    "title": "Fishing Planet (PlayStation Store)",
+    "url": "https://store.playstation.com/en-us/concept/228720"
+   },
+   {
+    "title": "Fishing Planet (Steam)",
+    "url": "https://store.steampowered.com/app/380600/"
+   },
+   {
+    "title": "Fishing Planet (Nintendo eShop)",
+    "url": "https://www.nintendo.com/us/store/products/fishing-planet-switch/"
+   }
+  ],
+  "checked": "2026-10-26",
+  "crossplay": true,
+  "verify": {
+   "result": "corrected",
+   "what": "FAQ pairs and Xbox store (Xbox One, Series X|S, PC) confirmed; replaced the PlayStation link, which was a different paid game (The Fisherman), dropped the unsupported PS Plus claim, added Switch 2 and the Switch release date from Nintendo's store."
+  }
+ },
+ {
+  "title": "Tom Clancy's Ghost Recon Breakpoint",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Ubisoft confirms Ghost Recon Breakpoint has no crossplay: PC, PlayStation and Xbox players each play only with their own platform."
+  },
+  "separate": [
+   "pc",
+   "ps4",
+   "xone"
+  ],
+  "notes": [
+   "Ubisoft's help article says crossplay is not available, so PC, PlayStation and Xbox players each stay on their own platform.",
+   "On consoles the PS4 and Xbox One versions also run on PS5 and Xbox Series X|S with an enhancement update, and your profile, purchases and inventory carry over to the newer console in the same family.",
+   "On PC every copy, including the Steam release from January 23, 2023, needs a Ubisoft account."
+  ],
+  "sources": [
+   {
+    "title": "Cross-play in Ghost Recon Breakpoint (Ubisoft Help)",
+    "url": "https://www.ubisoft.com/en-gb/help/ghost-recon-breakpoint/gameplay/article/cross-play-in-ghost-recon-breakpoint/000079189"
+   },
+   {
+    "title": "Ghost Recon Breakpoint next-gen enhancements detailed (Wccftech)",
+    "url": "https://wccftech.com/ghost-recon-breakpoint-next-gen-enhancements-detailed-by-ubisoft/amp/"
+   },
+   {
+    "title": "Tom Clancy's Ghost Recon Breakpoint (Steam)",
+    "url": "https://store.steampowered.com/app/2231380/"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "Rendered Ubisoft help page (updated Oct 2026) still says no cross-play; Steam page confirms Jan 23 2023 and Ubisoft account; removed the unsourced 'talked about after launch' line."
+  }
+ },
+ {
+  "title": "Lords of the Fallen (2023)",
+  "igdb_id": null,
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes",
+     "ps5": "yes",
+     "xseries": "yes"
+    },
+    "pc_stores": [
+     "Steam",
+     "Epic"
+    ]
+   }
+  ],
+  "notes": [
+   "Steam, Epic, PS5 and Xbox Series X|S players can play co-op and PvP together. Crossplay was pulled shortly after the October 2023 launch; patch 1.1.249 on October 26, 2023 brought it back across every platform.",
+   "Version 2.0 (April 17, 2025) added shared-progression co-op with full crossplay through password matchmaking, plus a free Friend's Pass so a friend without the game can join you on any platform.",
+   "Crossplay needs everyone on the same game version. In August 2026 a version mismatch briefly broke it until hotfix 2.5.591 (August 16) put all platforms back in sync."
+  ],
+  "toggle": [
+   "To play across platforms, open the Multiplayer menu at a Vestige and enter the same session password as your friend; leave it empty for regular matchmaking."
+  ],
+  "sources": [
+   {
+    "title": "\"Pumpkin\" Patch v1.1.249 (Steam news)",
+    "url": "https://store.steampowered.com/news/app/1501750/view/5229301621577189154"
+   },
+   {
+    "title": "Lords of the Fallen Version 2.0 out now (Steam news)",
+    "url": "https://store.steampowered.com/news/app/1501750/view/1797185861644720"
+   },
+   {
+    "title": "Hotfix v2.5.591 (Steam news)",
+    "url": "https://store.steampowered.com/news/app/1501750/view/1840944183783668"
+   },
+   {
+    "title": "Lords of the Fallen version 2.0 update now available (Gematsu)",
+    "url": "https://gematsu.com/2025/04/lords-of-the-fallen-version-2-0-update-now-available"
+   },
+   {
+    "title": "The Co-op Update: Increased Freedom, Streamlined Matchmaking, Improved Stability (Steam news)",
+    "url": "https://store.steampowered.com/news/app/1501750/view/1828894815559890"
+   }
+  ],
+  "checked": "2026-10-26",
+  "crossplay": true,
+  "verify": {
+   "result": "corrected",
+   "what": "Read all three Steam posts (via Steam API) and Gematsu; dropped the Fextralife wiki and its 'Allow Crossplay' toggle (no official backing); setting now from the official password-matchmaking posts; softened launch history to what patch notes say."
+  }
+ },
+ {
+  "title": "PlateUp!",
+  "igdb_id": null,
+  "groups": [
+   {
+    "platforms": {
+     "xone": "yes",
+     "xseries": "yes",
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Xbox app"
+    ]
+   },
+   {
+    "platforms": {
+     "pc": "partial"
+    },
+    "pc_stores": [
+     "Steam",
+     "Xbox app"
+    ]
+   },
+   {
+    "platforms": {
+     "ps4": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "ps5": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "switch": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "Xbox One, Xbox Series X|S and the Xbox app / Microsoft Store PC version play together; the Xbox store lists cross-platform and cross-gen co-op.",
+   "Since patch 1.3.0 (September 24, 2025) Steam players can turn on PC-crossplay mode in the multiplayer menu to play with other PC versions such as the Windows Store one, inviting friends through Discord. This is PC only and does not reach Xbox consoles; normal Steam play stays Steam only.",
+   "No crossplay has been announced for PlayStation or Switch; patch 1.3.0 moved both onto their own native console networking. The PlayStation Store sells PS4 and PS5 versions, but whether PS4 and PS5 players can join each other isn't confirmed. Online play needs PS Plus on PlayStation and Game Pass Essential or higher on Xbox."
+  ],
+  "toggle": [
+   "Steam: enable PC-crossplay mode in the multiplayer menu."
+  ],
+  "sources": [
+   {
+    "title": "Patch 1.3.0 (Steam news)",
+    "url": "https://store.steampowered.com/news/app/1599600/view/1811772772213732"
+   },
+   {
+    "title": "PlateUp! (Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/plateup/9P2HHT3VS7MP"
+   },
+   {
+    "title": "PlateUp! (PlayStation Store)",
+    "url": "https://store.playstation.com/en-gb/concept/10007566"
+   }
+  ],
+  "checked": "2026-10-26",
+  "crossplay": true,
+  "verify": {
+   "result": "corrected",
+   "what": "Patch 1.3.0 (Steam API) and Xbox store (cross-platform + cross-gen co-op) confirmed; PS Store shows a separate PS5 product and no cross-gen wording, so PS4 and PS5 are no longer shown as one group and the note says it's unconfirmed."
+  }
+ },
+ {
+  "title": "Goat Simulator 3",
+  "igdb_id": null,
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Steam",
+     "Epic"
+    ]
+   },
+   {
+    "platforms": {
+     "xone": "yes",
+     "xseries": "yes",
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Microsoft Store"
+    ]
+   },
+   {
+    "platforms": {
+     "ps4": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "ps5": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "switch": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "switch2": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "Steam and Epic players play together; Coffee Stain added this when the game came to Steam on February 15, 2024. The Windows (Microsoft Store) edition is listed with cross-platform multiplayer with Xbox players, and the Xbox One edition lists cross-gen multiplayer, so Xbox One, Series X|S and Microsoft Store PC share sessions.",
+   "There's no crossplay between PlayStation and Xbox. Coffee Stain says online co-op on PS4 and Xbox One is for players on the same platform; whether PS4 players can join PS5 players isn't confirmed.",
+   "The Switch version came out on August 28, 2024 and a Switch 2 version on April 1, 2026 (online play needs Nintendo Switch Online). Neither is listed with crossplay, and whether Switch and Switch 2 players can play together isn't confirmed.",
+   "Mobile (iOS and Android, December 2023) has two-player co-op. A pinned player FAQ on Steam says iOS and Android play together, but Coffee Stain hasn't confirmed that on an official page. Owning it on PS4 or PS5 unlocks the other version, and the same goes for Xbox One and Series X|S."
+  ],
+  "sources": [
+   {
+    "title": "Out on Steam today (Steam news)",
+    "url": "https://store.steampowered.com/news/app/850190/view/8033928544492610213"
+   },
+   {
+    "title": "Goat Simulator 3 Extended Universe Edition: Windows Edition (Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/goat-simulator-3-extended-universe-edition-windows-edition/9p1kbr0s2clp"
+   },
+   {
+    "title": "Goat Simulator 3: Xbox One Edition (Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/1/9NL3468NRPBG"
+   },
+   {
+    "title": "PS4 and Xbox One release (Goat Simulator 3 official site)",
+    "url": "https://www.goatsimulator3.com/updates/ps4-xbox-one-release"
+   },
+   {
+    "title": "Goat Simulator 3 Info & FAQ (Steam Community, pinned player post)",
+    "url": "https://steamcommunity.com/app/850190/discussions/0/4040353770026282186"
+   },
+   {
+    "title": "Goat Simulator 3 for Nintendo Switch 2 (Nintendo)",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Goat-Simulator-3-3016884.html"
+   },
+   {
+    "title": "Goat Simulator 3 live on Switch (Coffee Stain)",
+    "url": "https://coffeestain.com/news/goat-simulator-3-live-on-switch/"
+   },
+   {
+    "title": "Goat Simulator 3 coming to Switch 2 on April 1 (Gematsu)",
+    "url": "https://www.gematsu.com/2026/02/goat-simulator-3-coming-to-switch-2-on-april-1"
+   }
+  ],
+  "checked": "2026-10-26",
+  "crossplay": true,
+  "verify": {
+   "result": "corrected",
+   "what": "Steam/Epic crossplay (Steam API), Xbox store capabilities and official PS4/XOne post confirmed; added the Switch (Aug 2024) and Switch 2 (Apr 2026) releases with sources, PS4 and Switch 2 shown separately with cross-gen marked unconfirmed, mobile crossplay kept as a labelled player report."
+  }
+ },
+ {
+  "title": "Super Battle Golf",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Super Battle Golf is only on PC (Steam) right now; PS5, Xbox Series X|S and Switch 2 versions with full crossplay are promised for early 2027."
+  },
+  "notes": [
+   "The game launched on Steam (Windows) on February 19, 2026. Console versions were announced for summer 2026, then delayed in August 2026 to early 2027.",
+   "The developer says crossplay will cover every platform. An open beta on Steam (October 2026) is moving the game from Steam networking to Epic Online Services to make Steam to console crossplay possible."
+  ],
+  "sources": [
+   {
+    "title": "Console Launch Delay, Notes To Modders & Next Updates (Steam news)",
+    "url": "https://store.steampowered.com/news/app/4069520/view/1841579228665834"
+   },
+   {
+    "title": "Open Beta Participation (Steam news)",
+    "url": "https://store.steampowered.com/news/app/4069520/view/1847286114036515"
+   },
+   {
+    "title": "Super Battle Golf Coming to Consoles This Summer (Steam news)",
+    "url": "https://store.steampowered.com/news/app/4069520/view/1829528821307788"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "confirmed",
+   "what": "Steam API: launched Feb 19 2026 (Windows only), console delay to early 2027 (Aug 20 2026 post), EOS open beta Oct 23 to Nov 2 2026 for crossplay with consoles."
+  }
+ },
+ {
+  "title": "Gunfire Reborn",
+  "igdb_id": null,
+  "groups": [
+   {
+    "platforms": {
+     "xone": "yes",
+     "xseries": "yes",
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Xbox app"
+    ]
+   },
+   {
+    "platforms": {
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Steam"
+    ]
+   },
+   {
+    "platforms": {
+     "ps4": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "ps5": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "Xbox One, Xbox Series X|S and the Xbox app / Microsoft Store PC version play co-op together; the Xbox store lists cross-platform co-op and cross-gen multiplayer, and the developer told players crossplay works through Game Pass on PC and Xbox. Online play on Xbox consoles needs a Game Pass online subscription.",
+   "The Steam version isn't listed with cross-platform play and is not part of that Xbox group, so Steam players only play with other Steam players (players on the Steam forum report the same).",
+   "The PS4 and PS5 versions (June 2023) support 4-player online co-op, but no crossplay with other systems has been announced, and whether PS4 and PS5 players can join each other isn't confirmed.",
+   "There's a separate mobile release (iOS and Android) with its own 4-player co-op; players report it doesn't play with the PC or console versions, and the developer hasn't said whether iOS and Android play together. We found no Switch version on Nintendo's eShop."
+  ],
+  "sources": [
+   {
+    "title": "Gunfire Reborn (Xbox Store, console)",
+    "url": "https://www.xbox.com/en-US/games/store/gunfire-reborn/9P01JWGQGQ9C"
+   },
+   {
+    "title": "Gunfire Reborn (Xbox Store, PC)",
+    "url": "https://www.xbox.com/en-US/games/store/gunfire-reborn/9MVHHT21X5F6"
+   },
+   {
+    "title": "Gunfire Reborn (PlayStation Store)",
+    "url": "https://store.playstation.com/en-us/concept/10004650"
+   },
+   {
+    "title": "Gunfire Reborn (Steam)",
+    "url": "https://store.steampowered.com/app/1217060/"
+   },
+   {
+    "title": "Gunfire Reborn (App Store)",
+    "url": "https://apps.apple.com/app/id1606703078"
+   },
+   {
+    "title": "Gunfire Reborn crossplay replies (devtrackers.gg, official Gunfire Reborn tweets)",
+    "url": "https://devtrackers.gg/gunfire-reborn/p/40493871-tweets-by-gunfirereborn-on-13-jun"
+   },
+   {
+    "title": "Crossplay with Xbox? (Steam Community, player thread)",
+    "url": "https://steamcommunity.com/app/1217060/discussions/0/4415299132513732049"
+   }
+  ],
+  "checked": "2026-10-26",
+  "crossplay": true,
+  "verify": {
+   "result": "corrected",
+   "what": "Xbox store pages and dev tweets confirm the Xbox/Game Pass PC group; Steam has no cross-platform tag plus player reports; no Switch version found in Nintendo's catalogue; added PS4/PS5 groups (mobile left out of groups since iOS/Android crossplay isn't official) and sources, cross-gen on PlayStation marked unconfirmed."
+  }
+ },
+ {
+  "title": "Strinova",
+  "igdb_id": null,
+  "crossplay": false,
+  "f2p": true,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Strinova's global release is PC only; the PS5 and Xbox Series X|S versions announced for 2025 haven't launched, so there's no crossplay."
+  },
+  "notes": [
+   "The free-to-play shooter launched worldwide on PC on November 21, 2024 through Steam, the Epic Games Store and its own client. iDreamSky said PS5, Xbox Series X|S, iOS and Android versions would follow in 2025, but no console version had released as of October 2026 and no crossplay plans have been announced.",
+   "A mobile version launched in China on October 23, 2025. It isn't released in the West, and there's no official word on whether it plays with PC."
+  ],
+  "sources": [
+   {
+    "title": "Strinova launches November 21 for PC, in 2025 for PS5, Xbox Series, iOS, and Android (Gematsu)",
+    "url": "https://www.gematsu.com/2024/11/strinova-launches-november-21-for-pc-in-2025-for-ps5-xbox-series-ios-and-android"
+   },
+   {
+    "title": "Strinova (Steam)",
+    "url": "https://store.steampowered.com/app/1282270/Strinova/"
+   },
+   {
+    "title": "Strinova mobile public launch tops charts (GCORES, Chinese)",
+    "url": "https://www.gcores.com/articles/205997"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "No console launch found (Steam news to Oct 2026, store searches); found the China-only mobile launch of Oct 23 2025, so 'none released' was wrong and is now stated with a source; verdict unchanged for the global game."
+  }
+ },
+ {
+  "title": "Wreckfest",
+  "igdb_id": null,
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Steam",
+     "GOG",
+     "Epic"
+    ]
+   },
+   {
+    "platforms": {
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Microsoft Store"
+    ]
+   },
+   {
+    "platforms": {
+     "ps4": "partial",
+     "ps5": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "xone": "partial",
+     "xseries": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "switch": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "PC crossplay arrived on March 22, 2024: Steam, GOG and Epic players now share the same lobbies. The Microsoft Store PC version wasn't part of that update and isn't listed with cross-platform play, and consoles weren't included, so PlayStation, Xbox and Switch each play separately.",
+   "Cross-gen play works within each console family. Launch coverage in June 2021 said Xbox One and Series X|S players could already play together, and update 2.11 added PS4 to PS5 crossplay on June 30, 2021. The 24-player lobbies are only on PS5 and Series X|S, so PS4 and Xbox One players can only join 16-player lobbies.",
+   "The Switch version (June 21, 2022) has its own online mode for up to 16 players. Wreckfest 2 is a separate game."
+  ],
+  "sources": [
+   {
+    "title": "PC Crossplay Update OUT NOW (Steam news)",
+    "url": "https://store.steampowered.com/news/app/228380/view/5686430301721735071"
+   },
+   {
+    "title": "Wreckfest update 2.11 adds crossplay (MP1st)",
+    "url": "https://mp1st.com/title-updates-and-patches/wreckfest-update-2-11-patch-notes-for-june-30-adds-crossplay-save-data-more"
+   },
+   {
+    "title": "Wreckfest launches on PlayStation 5 and Xbox Series X|S (autoevolution)",
+    "url": "https://www.autoevolution.com/news/wreckfest-launches-on-playstation-5-and-xbox-series-xs-162412.html"
+   },
+   {
+    "title": "Wreckfest coming to Nintendo Switch June 21st, 2022 (THQ Nordic)",
+    "url": "https://thqnordic.com/news/wreckfest-coming-to-nintendo-switch-june-21st-2022"
+   },
+   {
+    "title": "Wreckfest (Microsoft Store PC, Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/wreckfest/9NG06CSMM97P"
+   }
+  ],
+  "checked": "2026-10-26",
+  "crossplay": true,
+  "verify": {
+   "result": "corrected",
+   "what": "Steam PC crossplay post (Steam/GOG/Epic only), MP1st 2.11 notes and THQ Switch post confirmed; found a separate Microsoft Store PC version and added it as its own group; Xbox cross-gen still rests on 2021 launch press (no official line found), now worded as such."
+  }
+ }
+]

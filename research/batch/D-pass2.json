@@ -1,0 +1,375 @@
+[
+ {
+  "title": "Battlefield 1",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Battlefield 1 has no crossplay: PC, PlayStation and Xbox players each have their own servers."
+  },
+  "separate": [
+   "pc",
+   "ps4",
+   "xone"
+  ],
+  "notes": [
+   "Battlefield 1 (2016) never got crossplay. PlayStation, Xbox and PC players can't play together, and progress doesn't carry over between them.",
+   "PS5 and Xbox Series X|S play the PS4 and Xbox One version through backward compatibility, so they share servers with PS4 and Xbox One players. Online play on Xbox needs Game Pass Essential or higher.",
+   "On PC, the Steam version needs an EA account and the EA app running in the background."
+  ],
+  "sources": [
+   {
+    "title": "Is Battlefield 1 crossplay and cross progression supported? (Power Up Gaming, March 2026)",
+    "url": "https://powerupgaming.co.uk/2026/03/16/is-battlefield-1-crossplay-cross-progression-supported/"
+   },
+   {
+    "title": "Battlefield 1 (Xbox Store: Xbox One, Xbox Series X|S)",
+    "url": "https://www.xbox.com/en-US/games/store/battlefield-1/bwttw53m5b98"
+   },
+   {
+    "title": "Battlefield 1 (PlayStation: PS4, playable on PS5)",
+    "url": "https://www.playstation.com/games/battlefield-1/"
+   },
+   {
+    "title": "Battlefield 1 on Steam (EA account and EA app required)",
+    "url": "https://store.steampowered.com/app/1238840/"
+   }
+  ],
+  "crossprog": "no",
+  "progress": [
+   "Progress doesn't carry over between PC, PlayStation and Xbox."
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "confirmed",
+   "what": "Opened all 4 sources (Power Up Mar 2026 says no crossplay/crossprog; Xbox Store needs Game Pass Essential+; PS listing PS4 playable on PS5; Steam page states EA account and EA app); fresh search found no 2025-2026 change."
+  }
+ },
+ {
+  "title": "Teardown",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Teardown's online multiplayer has no crossplay: PC, PS5 and Xbox Series X|S players only play with others on the same platform."
+  },
+  "separate": [
+   "pc",
+   "ps5",
+   "xseries"
+  ],
+  "notes": [
+   "Multiplayer (up to 12 players) launched on PC first and reached PS5 and Xbox Series X|S as a free update on September 15, 2026. It covers co-op in the campaign plus versus modes and mods.",
+   "Tuxedo Labs says multiplayer doesn't support crossplay and they don't plan to add it. There's no cross-platform progression either; in multiplayer, everyone uses the host's campaign progress.",
+   "Online play on console needs PlayStation Plus (any tier) or Xbox Game Pass Essential (formerly Core) or higher."
+  ],
+  "sources": [
+   {
+    "title": "Teardown FAQ (Tuxedo Labs)",
+    "url": "https://teardowngame.com/faq.html"
+   },
+   {
+    "title": "Teardown's free multiplayer update arrives on PS5 and Xbox Series X|S September 15 (press release)",
+    "url": "https://www.gamespress.com/TEARDOWN-S-FREE-MULTIPLAYER-UPDATE-ARRIVES-ON-PLAYSTATION-5-XBOX-SERIE"
+   }
+  ],
+  "crossprog": "no",
+  "progress": [
+   "There's no cross-platform progression; multiplayer sessions use the host's campaign progress."
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "Teardown FAQ confirms no crossplay and no plans, no cross-progression, 12 players, host's campaign progress; press release confirms Sept 15 2026 console update; updated the Game Pass tier name."
+  }
+ },
+ {
+  "title": "Football Manager 26",
+  "igdb_id": null,
+  "crossplay": true,
+  "groups": [
+   {
+    "platforms": {
+     "ps5": "yes",
+     "xone": "yes",
+     "xseries": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "pc": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "Football Manager 26 Console (released November 4, 2025) has cross-play between Xbox and PS5 players in Online Career. The Xbox Store lists it for Xbox One and Xbox Series X|S with cross-gen multiplayer.",
+   "The PC and Mac edition (Steam, Epic, Microsoft Store and PC Game Pass) is a separate game with its own network games; Sports Interactive only lists cross-play between Xbox and PS5. The Xbox Store also tags the Console edition as Xbox Play Anywhere on Windows PC, but whether that copy joins console careers isn't confirmed.",
+   "Online play on Xbox needs Game Pass Essential or higher, and on PS5 PlayStation Plus. FM26 Touch (Switch, Apple Arcade) and the Netflix mobile edition are separate versions.",
+   "Football Manager 27 launches November 10, 2026 as a separate game, with its own Console edition for PS5 and Xbox Series X|S."
+  ],
+  "sources": [
+   {
+    "title": "Football Manager 26 Console: new features unveiled (Sports Interactive)",
+    "url": "https://www.footballmanager.com/fm26/features/football-manager-26-console-new-features-unveiled"
+   },
+   {
+    "title": "Football Manager 26 out now across platforms (Sports Interactive)",
+    "url": "https://www.footballmanager.com/news/football-manager-26-out-now-across-platforms"
+   },
+   {
+    "title": "Football Manager 26 Console (Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/football-manager-26-console/9nmnz4ck59dm"
+   },
+   {
+    "title": "Football Manager 27 launches November 10 for PS5, Xbox Series, PC, iOS, and Android (Gematsu)",
+    "url": "https://www.gematsu.com/2026/09/football-manager-27-launches-november-10-for-ps5-xbox-series-pc-ios-and-android"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "SI feature page confirms Xbox/PS5 cross-play in Online Career; Xbox Store confirms Xbox One/Series, cross-gen and cross-platform tags plus Play Anywhere; added Play Anywhere caveat and FM27 (Nov 10 2026) note."
+  }
+ },
+ {
+  "title": "Pummel Party",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Pummel Party has no crossplay: online lobbies on PC, PlayStation, Xbox and Switch each stay on their own platform."
+  },
+  "separate": [
+   "pc",
+   "ps4",
+   "xone",
+   "switch"
+  ],
+  "notes": [
+   "Online play for up to 8 players works on every version, but only with people on the same platform. Rebuilt Games hasn't made an official statement and no store listing mentions crossplay; a player on the Steam forums reports that on PS5 there's no way to invite or see lobbies from other platforms.",
+   "The PS4 version (April 2024) also runs on PS5, and the Xbox One version runs on Xbox Series X|S. The Switch version came out in May 2024.",
+   "Console online play needs PS Plus, Xbox Game Pass Essential or higher, or Nintendo Switch Online."
+  ],
+  "sources": [
+   {
+    "title": "Pummel Party (Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/pummel-party/9p1v4fpr7nbl"
+   },
+   {
+    "title": "Pummel Party (PlayStation Store)",
+    "url": "https://store.playstation.com/en-us/concept/10000367/"
+   },
+   {
+    "title": "Pummel Party (Nintendo eShop)",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Game-2569713.html"
+   },
+   {
+    "title": "Crossplay? (Steam discussion, player reports)",
+    "url": "https://steamcommunity.com/app/880940/discussions/0/7845908683579368103/"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "Opened Xbox/PS/eShop listings (no crossplay, dates Apr 18 2024 and May 9 2024 confirmed, subscriptions confirmed) and Steam thread; no crossplay patch found in Steam announcements or 2025-2026 searches; reworded the player-report line to match what the thread says."
+  }
+ },
+ {
+  "title": "Cuphead",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Cuphead has no crossplay because it has no online mode: its 2-player co-op is local only."
+  },
+  "notes": [
+   "Co-op is for two players on the same system, on every platform. There's no online multiplayer, so there's nothing to cross over.",
+   "On Steam, Remote Play Together lets a friend join your local co-op over the internet; only the host needs the game, and it works between Steam users only.",
+   "The PS4 version also runs on PS5."
+  ],
+  "sources": [
+   {
+    "title": "Cuphead (PlayStation)",
+    "url": "https://www.playstation.com/en-us/games/cuphead/"
+   },
+   {
+    "title": "Cuphead on Steam",
+    "url": "https://store.steampowered.com/app/268910/Cuphead/"
+   },
+   {
+    "title": "Cuphead crossplay: does it have cross-platform multiplayer? (GameRevolution)",
+    "url": "https://www.gamerevolution.com/?p=654344"
+   }
+  ],
+  "crossprog": "no",
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "confirmed",
+   "what": "PS listing shows 1-2 local players only; Steam lists local co-op and Remote Play Together; GameRevolution confirms local only; no 2025-2026 online co-op update found."
+  }
+ },
+ {
+  "title": "Stellaris",
+  "igdb_id": null,
+  "crossplay": true,
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes",
+     "mac": "yes",
+     "linux": "yes"
+    },
+    "pc_stores": [
+     "Steam",
+     "GOG",
+     "Microsoft Store",
+     "Xbox app"
+    ]
+   },
+   {
+    "platforms": {
+     "ps5": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "xseries": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "On PC, Mac and Linux, players can play multiplayer together whatever store they bought from (Steam, GOG or the Microsoft Store/PC Game Pass). Everyone, including Steam players, has to start the game with the Cross Store Multiplayer option in the Paradox launcher's game settings; Game Pass support rests on player reports.",
+   "There's no crossplay between PC and consoles, or between PlayStation and Xbox (Paradox, 2022). Stellaris: Console Edition is a separate version with online games for up to 4 players.",
+   "The Console Edition got a free native PS5 and Xbox Series X|S version on November 6, 2025. Whether PS4 and Xbox One copies can still join PS5 and Series games isn't confirmed. Console online play needs PS Plus or Xbox Game Pass Essential or higher."
+  ],
+  "toggle": [
+   "Start the game from the Paradox launcher with Game Settings > Cross Store Multiplayer."
+  ],
+  "sources": [
+   {
+    "title": "Is this game crossplay? (Paradox reply by MrFreake_PDX on Steam, June 2022)",
+    "url": "https://steamcommunity.com/app/281990/discussions/0/3417684796199331572/"
+   },
+   {
+    "title": "Crossplay between Steam and Xbox PC Game Pass possible? (Steam discussion, player reports)",
+    "url": "https://steamcommunity.com/app/281990/discussions/0/3200370471661759098/"
+   },
+   {
+    "title": "Stellaris multiplayer guide (PCGamesN)",
+    "url": "https://www.pcgamesn.com/stellaris/multiplayer"
+   },
+   {
+    "title": "Stellaris on Steam (Windows, Mac, Linux; cross-platform multiplayer)",
+    "url": "https://store.steampowered.com/app/281990/Stellaris/"
+   },
+   {
+    "title": "Stellaris launches on GOG with a beta for multiplayer across stores (GamingOnLinux, 2018)",
+    "url": "https://www.gamingonlinux.com/2018/10/paradox-have-launched-stellaris-on-gog-today-also-a-beta-available-for-multiplayer-across-stores/"
+   },
+   {
+    "title": "Stellaris: Console Edition (Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/stellaris-console-edition/BWL72GR7Z7GK"
+   },
+   {
+    "title": "Stellaris: Console Edition PS5 (PlayStation Store)",
+    "url": "https://store.playstation.com/en-us/product/UP4139-PPSA27597_00-STELLARISBASEPS5"
+   },
+   {
+    "title": "Stellaris: Console Edition Season 8 launches with free next-gen upgrade (TheXboxHub)",
+    "url": "https://www.thexboxhub.com/stellaris-console-edition-season-8-launches-with-the-machine-age-cosmic-storms-and-free-next-gen-upgrade/"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "Paradox staff reply (2022) confirms no console/PC or PS/Xbox crossplay; PS5 and Series native version Nov 6 2025 confirmed on PS Store and TheXboxHub; added Mac/Linux (Steam lists Cross-Platform Multiplayer) and a GOG cross-store source; flagged Game Pass as player reports."
+  }
+ },
+ {
+  "title": "XCOM 2",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "XCOM 2 has no crossplay, and its online multiplayer was switched off for Windows Steam players in March 2022."
+  },
+  "notes": [
+   "XCOM 2's online mode is a 1v1 match. No store page or official source lists crossplay, so you can only play people on the same platform.",
+   "Firaxis retired multiplayer and Challenge Mode for the Windows Steam version on March 28, 2022. The Mac and Linux versions (ported by Feral) and the console versions weren't affected; Steam Deck players can switch to the native Linux build to keep online play.",
+   "The Xbox One version also runs on Xbox Series X|S; online play on Xbox needs Game Pass Essential or higher. The campaign is single-player only."
+  ],
+  "sources": [
+   {
+    "title": "XCOM 2 will pull the plug on PC multiplayer March 28 (Destructoid)",
+    "url": "https://www.destructoid.com/xcom-2-will-pull-the-plug-on-pc-multiplayer-modes-march-28/"
+   },
+   {
+    "title": "XCOM 2's multiplayer being removed but will still work on Linux and Steam Deck (GamingOnLinux)",
+    "url": "https://www.gamingonlinux.com/2022/03/xcom-2s-multiplayer-being-removed-but-will-still-work-on-linux-and-steam-deck/"
+   },
+   {
+    "title": "XCOM 2 (Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/xcom-2/bqwgbmckrmsq"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "confirmed",
+   "what": "Destructoid and GamingOnLinux confirm Mar 28 2022 Steam shutdown with Mac/Linux/console unaffected and native Linux workaround; Steam page now lists single-player only; Xbox Store lists 2-player online and Game Pass Essential."
+  }
+ },
+ {
+  "title": "Enter the Gungeon",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Enter the Gungeon has no crossplay: co-op is local only on PC and consoles, and the online co-op added to the mobile version stays on mobile."
+  },
+  "notes": [
+   "On PC, PlayStation, Xbox and Switch, co-op is 2-player local only. On Steam, Remote Play Together lets a friend join over the internet between Steam users.",
+   "The iOS and Android version (August 2025) added online co-op for the first time in the game's history. PC and console versions still have no online mode, so mobile players can't team up with them, and whether iPhone and Android players can play each other isn't confirmed."
+  ],
+  "sources": [
+   {
+    "title": "Enter the Gungeon (Xbox Store)",
+    "url": "https://www.xbox.com/en-US/games/store/enter-the-gungeon/9nb65s6lfzrt"
+   },
+   {
+    "title": "Enter the Gungeon (Nintendo eShop)",
+    "url": "https://www.nintendo.com/us/store/products/enter-the-gungeon-switch/"
+   },
+   {
+    "title": "Enter the Gungeon on Steam",
+    "url": "https://store.steampowered.com/app/311690/"
+   },
+   {
+    "title": "Enter the Gungeon launches on mobile (Pocket Tactics)",
+    "url": "https://www.pockettactics.com/enter-the-gungeon/mobile"
+   },
+   {
+    "title": "Enter the Gungeon and Exit the Gungeon launch on mobile with online co-op (Inven Global)",
+    "url": "https://www.invenglobal.com/articles/19585/enter-the-gungeon-and-exit-the-gungeon-launch-on-mobile-with-online-co-op-and-cult-of-the-lamb-crossover"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "Xbox/eShop/Steam confirm 2-player local co-op only plus Remote Play Together; Pocket Tactics and Inven confirm Aug 2025 mobile online co-op; removed the unsourced 'public and locked lobbies' detail."
+  }
+ },
+ {
+  "title": "WWE 2K26",
+  "skip": "Could not confirm from an official source. Dexerto (undated wiki) and Operation Sports (Feb 18 2026, pre-launch, no 2K citation) say PS5, Xbox Series and Switch 2 crossplay with PC separate; GamerBlurb (Mar 2026, post-launch) says there is no online crossplay, only cross-platform Community Creations. The Xbox Store listing has no cross-platform multiplayer capability and the PlayStation page doesn't mention crossplay; Wikipedia and the Jan 2026 Switch 2 announcement only mention cross-platform Community Creations; no patch notes through 1.19 (Oct 2026) add crossplay; 2K's site and support pages block fetching. WWE 2K25's promised crossplay also never shipped. The live manual.json entry (console crossplay, audited 2026-10-10) should be pulled or reverted to unconfirmed.",
+  "verify": {
+   "result": "skip",
+   "what": "Re-checked live entry: no official 2K, Xbox Store or PlayStation Store confirmation of crossplay; sources conflict."
+  }
+ }
+]

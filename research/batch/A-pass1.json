@@ -1,0 +1,442 @@
+[
+  {
+    "title": "Enshrouded",
+    "igdb_id": null,
+    "crossplay": false,
+    "verdict": {
+      "kind": "no",
+      "word": "No",
+      "summary": "Enshrouded launched its 1.0 version on PC and PS5 without crossplay, so PC and PS5 players can only share worlds with people on the same platform."
+    },
+    "separate": [
+      "pc",
+      "ps5"
+    ],
+    "notes": [
+      "Version 1.0 came out on October 15, 2026 on Steam and PS5. Keen Games said in its launch FAQ that the game would not be cross-platform at launch, that it is working on cross-platform play, and that it has no estimate for when it will arrive.",
+      "PC worlds hold up to 16 players. On PS5, online co-op supports up to 8 players and needs PS Plus.",
+      "An Xbox Series X|S version is planned for spring 2027. No crossplay with Xbox has been announced."
+    ],
+    "sources": [
+      {
+        "title": "Enshrouded Launch FAQ (Keen Games, Steam)",
+        "url": "https://steamcommunity.com/ogg/1203620/announcements/detail/675134162359815479"
+      },
+      {
+        "title": "Enshrouded (PlayStation Store)",
+        "url": "https://store.playstation.com/en-us/concept/10016067"
+      },
+      {
+        "title": "Enshrouded launches October 15 for PS5 and PC, in spring 2027 for Xbox Series (Gematsu)",
+        "url": "https://www.gematsu.com/2026/06/enshrouded-launches-october-15-for-ps5-and-pc-in-spring-2027-for-xbox-series"
+      },
+      {
+        "title": "Enshrouded: Forging the Path Livestream (Keen Games, Steam)",
+        "url": "https://store.steampowered.com/news/app/1203620/view/1833334318571765"
+      }
+    ],
+    "checked": "2026-10-26"
+  },
+  {
+    "title": "Dying Light 2: Stay Human",
+    "igdb_id": null,
+    "crossplay": true,
+    "crossprog": "no",
+    "groups": [
+      {
+        "platforms": {
+          "pc": "yes"
+        },
+        "pc_stores": [
+          "Steam",
+          "Epic"
+        ]
+      },
+      {
+        "platforms": {
+          "ps4": "yes",
+          "ps5": "yes"
+        }
+      },
+      {
+        "platforms": {
+          "xone": "yes",
+          "xseries": "yes"
+        }
+      }
+    ],
+    "notes": [
+      "The only crossplay is on PC, where Steam and Epic Games Store players can play co-op together.",
+      "There's no crossplay between PlayStation, Xbox and PC. Cross-generation co-op does work: PS4 with PS5, and Xbox One with Xbox Series X|S.",
+      "Techland's support page says save transfer between platforms isn't possible either. The studio has called full cross-platform co-op a complex technical challenge and hasn't announced it."
+    ],
+    "progress": [
+      "Saves can't be moved between PC, PlayStation and Xbox."
+    ],
+    "sources": [
+      {
+        "title": "Is there crossplay? (Dying Light 2 support, Techland)",
+        "url": "https://dyinglight2.support.techland.pl/en/support/solutions/articles/15000046063-is-there-crossplay-"
+      },
+      {
+        "title": "Dying Light 2 crossplay (The Loadout)",
+        "url": "https://theloadout.com/dying-light-2/crossplay"
+      }
+    ],
+    "checked": "2026-10-26"
+  },
+  {
+    "title": "Vigor",
+    "igdb_id": null,
+    "crossplay": true,
+    "f2p": true,
+    "crossprog": "no",
+    "groups": [
+      {
+        "platforms": {
+          "ps4": "yes",
+          "ps5": "yes",
+          "xone": "yes",
+          "xseries": "yes"
+        }
+      },
+      {
+        "platforms": {
+          "pc": "yes"
+        },
+        "pc_stores": [
+          "Steam"
+        ]
+      }
+    ],
+    "notes": [
+      "Console crossplay arrived with the Season 21 Bloodline update in December 2024, putting PlayStation, Xbox and Switch players in the same matches for the first time.",
+      "PC (Steam) players have their own pool. When the free PC release launched in September 2024, Bohemia said there was no crossplay yet but that it planned to add it with an on/off option; no PC crossplay has been announced since.",
+      "The Switch version shut down in June 2025 after its final season, so Switch is no longer part of the console pool.",
+      "There's no cross-progression: Bohemia said it doesn't plan to add it."
+    ],
+    "sources": [
+      {
+        "title": "Reclaim the Outlands in Vigor: Bloodline (press release)",
+        "url": "https://press.levelinfinite.com/RECLAIM-THE-OUTLANDS-IN-VIGOR-BLOODLINE"
+      },
+      {
+        "title": "Vigor: Play Free Now! (Bohemia Interactive, Steam)",
+        "url": "https://store.steampowered.com/news/app/2818260/view/6341720536502451527"
+      },
+      {
+        "title": "Vigor Switch support ending in 2025 (GoNintendo)",
+        "url": "https://www.gonintendo.com/contents/43430-vigor-switch-support-ending-sometime-in-2025"
+      },
+      {
+        "title": "Vigor (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Vigor_(video_game)"
+      }
+    ],
+    "checked": "2026-10-26"
+  },
+  {
+    "title": "Sackboy: A Big Adventure",
+    "igdb_id": null,
+    "crossplay": true,
+    "crossprog": "no",
+    "groups": [
+      {
+        "platforms": {
+          "ps4": "yes",
+          "ps5": "yes"
+        }
+      },
+      {
+        "platforms": {
+          "pc": "yes"
+        },
+        "pc_stores": [
+          "Steam",
+          "Epic"
+        ]
+      }
+    ],
+    "notes": [
+      "Online co-op for up to 4 players was added in December 2020 with PS4/PS5 cross-play, so PS4 and PS5 owners can play together. Online play on PlayStation needs PS Plus.",
+      "The PC version (Steam and Epic, October 2022) has its own online co-op. There's no crossplay between PC and PlayStation.",
+      "On PC, Steam and Epic players can join each other; press reports say joining a friend who uses an Epic account may ask you to link one too."
+    ],
+    "progress": [
+      "PS4 progress can be moved to PS5 once; there's no shared progress with PC."
+    ],
+    "sources": [
+      {
+        "title": "Sackboy: A Big Adventure update adds online multiplayer today (PlayStation Blog)",
+        "url": "https://blog.playstation.com/?p=344768"
+      },
+      {
+        "title": "Sackboy: A Big Adventure co-op guide (Game Rant)",
+        "url": "https://gamerant.com/sackboy-a-big-adventure-coop-guide/"
+      },
+      {
+        "title": "Sackboy: A Big Adventure PC port review (Shacknews)",
+        "url": "https://www.shacknews.com/article/132903/sackboy-a-big-adventure-is-a-well-stitched-pc-port-but-it-hits-a-few-snags"
+      }
+    ],
+    "toggle": [
+      "The host turns on the option to open the room to players on other PlayStation consoles under Invite Friends."
+    ],
+    "checked": "2026-10-26"
+  },
+  {
+    "title": "Deadzone: Rogue",
+    "igdb_id": null,
+    "crossplay": true,
+    "crossprog": "no",
+    "groups": [
+      {
+        "platforms": {
+          "pc": "yes",
+          "ps5": "yes",
+          "xseries": "yes",
+          "switch2": "yes"
+        },
+        "pc_stores": [
+          "Steam",
+          "Epic"
+        ]
+      }
+    ],
+    "notes": [
+      "Full crossplay between PC, PS5 and Xbox Series X|S started with the console launch on September 3, 2025. Nintendo Switch 2 joined the crossplay pool in update 1.2.0.0 in March 2026.",
+      "Co-op squads are up to 3 players. If one platform's patch is behind, crossplay with that platform can drop out until it catches up.",
+      "There's no cross-progression. A separate sequel, Deadzone Rogue 2, has a crossplay demo on PC, PS5 and Xbox."
+    ],
+    "progress": [
+      "Progress stays on each platform; the developer said it didn't expect to offer cross-progression."
+    ],
+    "sources": [
+      {
+        "title": "Deadzone: Rogue console 1.0 launch is live (Prophecy Games, Steam)",
+        "url": "https://store.steampowered.com/news/app/3228590/view/533234625210745585"
+      },
+      {
+        "title": "2 New Missions, Fixes, and Crossplay with Nintendo Switch 2 (Prophecy Games, Steam)",
+        "url": "https://store.steampowered.com/news/app/3228590/view/1826992588603958"
+      },
+      {
+        "title": "Deadzone: Rogue coming to PS5, Xbox Series on September 3 (Gematsu)",
+        "url": "https://www.gematsu.com/2025/08/roguelike-first-person-shooter-deadzone-rogue-coming-to-ps5-xbox-series-on-september-3"
+      },
+      {
+        "title": "Deadzone Rogue 2 demo is live (Prophecy Games, Steam)",
+        "url": "https://store.steampowered.com/news/app/3228590/view/1846018067930596"
+      }
+    ],
+    "checked": "2026-10-26"
+  },
+  {
+    "title": "Cult of the Lamb",
+    "igdb_id": null,
+    "crossplay": false,
+    "verdict": {
+      "kind": "no",
+      "word": "No",
+      "summary": "Cult of the Lamb has no crossplay because its co-op is local only: a second player joins as the Goat on the same screen."
+    },
+    "crossprog": "no",
+    "notes": [
+      "The free Unholy Alliance update (August 2024) added two-player local co-op on every platform. There's no online co-op, and the developers said they had no plans to bring co-op online.",
+      "On Steam, friends can play together online through Remote Play Together, where only the host needs the game. This only works between Steam users.",
+      "The Woolhaven expansion (January 2026) and the Switch 2 version (October 22, 2026, a free upgrade for Switch owners) didn't change this."
+    ],
+    "sources": [
+      {
+        "title": "Cult of the Lamb is finally getting a co-op mode, but it's local only (Engadget)",
+        "url": "https://www.engadget.com/cult-of-the-lamb-is-finally-getting-a-co-op-mode-but-its-local-only-180715026.html"
+      },
+      {
+        "title": "There's a way to play Cult of the Lamb with online co-op (Kotaku)",
+        "url": "https://kotaku.com/cult-of-the-lamb-online-co-op-devolver-1851649020"
+      },
+      {
+        "title": "Cult of the Lamb on Steam",
+        "url": "https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/"
+      },
+      {
+        "title": "Cult of the Lamb Switch 2 version launches with free upgrade (Siliconera)",
+        "url": "https://www.siliconera.com/cult-of-the-lamb-switch-2-version-launches-with-free-upgrade/"
+      }
+    ],
+    "checked": "2026-10-26"
+  },
+  {
+    "title": "Infinity Nikki",
+    "igdb_id": null,
+    "crossplay": true,
+    "f2p": true,
+    "crossprog": "yes",
+    "groups": [
+      {
+        "platforms": {
+          "pc": "yes",
+          "ps5": "yes",
+          "ios": "yes",
+          "android": "yes"
+        },
+        "pc_stores": [
+          "Steam",
+          "Epic"
+        ]
+      }
+    ],
+    "notes": [
+      "Two-player online co-op arrived in Version 1.5 on April 29, 2025, the same day the game came to Steam. Its Steam page lists cross-platform multiplayer.",
+      "Friends are tied to a server region: Infold says players can connect with friends on the same server, whatever platform they use.",
+      "Progress is tied to your Infold account, so you can carry on between PC, PS5 and mobile; Steam players link an existing account by email when they log in."
+    ],
+    "progress": [
+      "Log in with the same Infold account on any platform to keep your progress."
+    ],
+    "sources": [
+      {
+        "title": "Steam FAQ for Infinity Nikki (Infold Games, Steam)",
+        "url": "https://store.steampowered.com/news/app/3164330/view/1797820624596829"
+      },
+      {
+        "title": "Infinity Nikki on Steam",
+        "url": "https://store.steampowered.com/app/3164330/Infinity_Nikki/"
+      },
+      {
+        "title": "Infinity Nikki Version 1.5 adds co-op gameplay (The Magic Rain)",
+        "url": "https://themagicrain.com/2025/04/infinity-nikki-version-1-5-adds-co-op-gameplay-and-multiplayer-features/"
+      },
+      {
+        "title": "Is Infinity Nikki cross-platform? (Digital Trends)",
+        "url": "https://www.digitaltrends.com/gaming/infinity-nikki-cross-platform/"
+      },
+      {
+        "title": "Infinity Nikki is out now (press release, Game Developer)",
+        "url": "https://www.gamedeveloper.com/press-release/infinity-nikki-is-out-now-"
+      }
+    ],
+    "checked": "2026-10-26"
+  },
+  {
+    "title": "Active Matter",
+    "igdb_id": null,
+    "crossplay": true,
+    "crossprog": "partial",
+    "groups": [
+      {
+        "platforms": {
+          "pc": "yes",
+          "ps5": "yes",
+          "xseries": "yes"
+        },
+        "pc_stores": [
+          "Steam",
+          "Gaijin.Net"
+        ]
+      }
+    ],
+    "notes": [
+      "Active Matter launched on September 15, 2026 on Steam, PS5 and Xbox Series X|S, plus the Gaijin Store on PC, with cross-platform multiplayer.",
+      "Console players can choose who they're matched with: their own platform only, consoles only, or all platforms.",
+      "Progress is shared only between the Steam and Gaijin.Net versions on PC. It can't be moved between PC and consoles."
+    ],
+    "progress": [
+      "Link your Gaijin and Steam accounts to share progress on PC; there's no transfer to or from consoles."
+    ],
+    "toggle": [
+      "On consoles, pick the matchmaking pool: your platform only, consoles only, or any platform."
+    ],
+    "sources": [
+      {
+        "title": "Active Matter FAQ (Gaijin Entertainment)",
+        "url": "https://activematter.game/en/faq"
+      },
+      {
+        "title": "Active Matter is now available on PC, PlayStation 5 and Xbox Series X|S (Gaijin Entertainment)",
+        "url": "https://activematter.game/en/news/318"
+      }
+    ],
+    "checked": "2026-10-26"
+  },
+  {
+    "title": "Halloween: The Game",
+    "igdb_id": null,
+    "crossplay": true,
+    "crossprog": "no",
+    "groups": [
+      {
+        "platforms": {
+          "pc": "yes",
+          "ps5": "yes",
+          "xseries": "yes"
+        },
+        "pc_stores": [
+          "Steam",
+          "Epic"
+        ]
+      }
+    ],
+    "notes": [
+      "The game launched on September 8, 2026 on PS5, Xbox Series X|S and PC (Steam and Epic) with crossplay across all platforms for its 1v4 multiplayer.",
+      "Your normal friends list only shows people on your own platform. To party up across platforms, share the friend code from the second tab of the Friends menu. Patch 1.0.1 fixed cross-play parties being split up during matchmaking.",
+      "There's no cross-progression: unlocks stay on the platform where you earned them."
+    ],
+    "progress": [
+      "Progress and unlocks stay on each platform."
+    ],
+    "sources": [
+      {
+        "title": "Halloween: The Game out now, patch 1.0.1 (IllFonic, Steam)",
+        "url": "https://store.steampowered.com/news/app/3219630/view/1842846814456209"
+      },
+      {
+        "title": "How to invite friends and use crossplay in Halloween: The Game (All Things How)",
+        "url": "https://allthings.how/how-to-invite-friends-and-use-crossplay-in-halloween-the-game/"
+      },
+      {
+        "title": "Halloween est-il cross-play ? (Gamewave)",
+        "url": "https://gamewave.fr/halloween/halloween-est-il-cross-play/"
+      },
+      {
+        "title": "Halloween: The Game release announcement with store list (gamebiz)",
+        "url": "https://gamebiz.jp/news/432470"
+      }
+    ],
+    "checked": "2026-10-26"
+  },
+  {
+    "title": "Euro Truck Simulator 2",
+    "igdb_id": null,
+    "crossplay": false,
+    "verdict": {
+      "kind": "no",
+      "word": "No",
+      "summary": "Euro Truck Simulator 2 is only on computers for now, so there's no console crossplay; the PS5 and Xbox Series X|S versions don't have a release date yet."
+    },
+    "notes": [
+      "The built-in Convoy multiplayer mode (since update 1.41 in 2021) lets up to 8 players drive together in private sessions on Steam. Everyone needs the latest game version, but you don't need the same map DLCs (you just can't drive in areas you don't own).",
+      "The game runs on Windows, Mac and Linux, and Convoy is available on all three. We haven't found an official statement on whether players on different operating systems can join the same session.",
+      "SCS is still working on PS5 and Xbox Series X|S versions. A playable PS5 build was shown at Tokyo Game Show in September 2026, but no release date or console crossplay plans have been announced."
+    ],
+    "sources": [
+      {
+        "title": "Convoy FAQ (SCS Software, Steam)",
+        "url": "https://store.steampowered.com/news/app/227300/view/4516534149073859359"
+      },
+      {
+        "title": "Truck Simulator dev shares Xbox and PS5 update (Pure Xbox)",
+        "url": "https://www.purexbox.com/news/2026/04/this-is-one-of-the-main-reasons-its-taking-so-long-truck-simulator-dev-shares-xbox-and-ps5-update"
+      },
+      {
+        "title": "Euro Truck Simulator 2 on PS5 at Tokyo Game Show 2026 (Univers Simu)",
+        "url": "https://en.univers-simu.com/news/euro-truck-simulator-2-ps5-version-jouable-tokyo-game-show-2026-125879/"
+      },
+      {
+        "title": "Convoy multiplayer mode out in the 1.41 update (Linux Game Consortium)",
+        "url": "https://linuxgameconsortium.com/convoy-multiplayer-mode-out-in-the-1-41-update/"
+      }
+    ],
+    "checked": "2026-10-26"
+  }
+]

@@ -1,0 +1,518 @@
+[
+ {
+  "title": "American Truck Simulator",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "American Truck Simulator is only out on computers right now, so there is no console crossplay; the PS5 and Xbox Series X|S versions are announced but have no release date."
+  },
+  "notes": [
+   "Online play is the built-in Convoy mode, added in update 1.41. One player hosts a session for up to 8 drivers, and friends join through Steam. Sessions only show up for players in the same region, so a friend far away may need to switch their Steam download region or search for the session by its exact name.",
+   "You don't need to own the map DLCs to join a convoy, but you can't drive into DLC areas you don't own.",
+   "The game runs on Windows, Mac and Linux. We couldn't find an official statement that Mac and Linux players can join Windows sessions, so treat that as unconfirmed.",
+   "SCS Software announced PS5 and Xbox Series X|S versions in August 2025 but hasn't given a release date. In April 2026 it said the console ports are still being worked on and that it will only announce a date when they're ready. Nothing has been said about console crossplay yet."
+  ],
+  "sources": [
+   {
+    "title": "Convoy FAQ (SCS Software blog)",
+    "url": "https://blog.scssoft.com/2021/08/convoy-faq.html"
+   },
+   {
+    "title": "Convoy multiplayer mode out in the 1.41 update (Linux Game Consortium)",
+    "url": "https://linuxgameconsortium.com/convoy-multiplayer-mode-out-in-the-1-41-update/"
+   },
+   {
+    "title": "Truck Simulator dev shares Xbox and PS5 update (Pure Xbox, April 2026)",
+    "url": "https://www.purexbox.com/news/2026/04/this-is-one-of-the-main-reasons-its-taking-so-long-truck-simulator-dev-shares-xbox-and-ps5-update"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "confirmed",
+   "what": "Opened all 3 sources; Convoy 1.41, 8 players, region and DLC rules match; console ports still undated (April 2026 dev talk, no newer news); tightened the console note wording."
+  }
+ },
+ {
+  "title": "Watch Dogs 2",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Watch Dogs 2 has no crossplay: PlayStation, Xbox and PC players each play online only with their own platform."
+  },
+  "separate": [
+   "pc",
+   "ps4",
+   "xone"
+  ],
+  "notes": [
+   "Ubisoft Support has confirmed that crossplay isn't available in Watch Dogs 2. Online modes (2 player co-op, 4 player party, Bounty Hunter, Hacking Invasion, Online Racing and Showd0wn) unlock after the A Walk in the Park mission and are started from the in-game phone.",
+   "On PC, the Steam version runs through Ubisoft Connect. Ubisoft Support says Steam players need to link their Steam account to a Ubisoft account to play with friends who own it on Ubisoft Connect.",
+   "Watch Dogs 2's online services are still running. It is not on Ubisoft's list of retired online services (checked October 2026), which does include the original Watch Dogs on Wii U."
+  ],
+  "sources": [
+   {
+    "title": "Crossplay? (Steam discussion, reply from Ubisoft Support)",
+    "url": "https://steamcommunity.com/app/447040/discussions/1/4997318143961197255/"
+   },
+   {
+    "title": "Can it crossplay with the Ubisoft Connect launcher? (Steam discussion, reply from Ubisoft Support)",
+    "url": "https://steamcommunity.com/app/447040/discussions/1/3055114073639039017/"
+   },
+   {
+    "title": "Playing co-op in Watch Dogs 2 (Ubisoft Help)",
+    "url": "https://www.ubisoft.com/en-us/help/watch-dogs-2/gameplay/article/playing-co-op-in-watch-dogs-2/000062617"
+   },
+   {
+    "title": "Decommissioning of online services for older legacy Ubisoft games, N to Z (Ubisoft Help, updated July 2026)",
+    "url": "https://www.ubisoft.com/en-us/help/purchases-and-rewards/article/decommissioning-of-online-services-for-older-legacy-ubisoft-games-n-to-z/000105855"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "Both Ubisoft Support replies (2021, 2022) and the co-op help article check out; the decommissioning link pointed at the wrong article, replaced with the current one (updated July 7, 2026), which lists Watch Dogs on Wii U (April 8, 2024) but not Watch Dogs 2."
+  }
+ },
+ {
+  "title": "Dark Souls: Remastered",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Dark Souls: Remastered has no crossplay: Bandai Namco confirmed that players are matched only with others on the same platform."
+  },
+  "separate": [
+   "pc",
+   "ps4",
+   "xone",
+   "switch"
+  ],
+  "notes": [
+   "Bandai Namco confirmed before launch that the remaster wouldn't support cross-platform play, so co-op and PvP only happen with players on the same platform.",
+   "The remaster moved matchmaking to dedicated servers, raised the online limit from 4 to 6 players (unlocked with the Dried Finger), and added password matchmaking, so friends can find each other's summon signs by setting the same password.",
+   "PC online play was switched off on January 23, 2022 after a security flaw was found, and came back for the remaster on November 9, 2022. The older Prepare to Die Edition on PC never got its online features back."
+  ],
+  "sources": [
+   {
+    "title": "Dark Souls Remastered will not feature cross-platform multiplayer (Destructoid)",
+    "url": "https://www.destructoid.com/dark-souls-remastered-will-not-feature-cross-platform-multiplayer/"
+   },
+   {
+    "title": "Dark Souls Remastered has dedicated servers (PCGamesN)",
+    "url": "https://www.pcgamesn.com/dark-souls-remastered/dark-souls-remastered-dedicated-servers"
+   },
+   {
+    "title": "Dark Souls Remastered PC servers are back online (Digital Trends)",
+    "url": "https://www.digitaltrends.com/gaming/dark-souls-remastered-pc-online-fixed/"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "confirmed",
+   "what": "Destructoid (Bandai Namco to IGN: no cross-network play), PCGamesN (dedicated servers, 6 players, Dried Finger, passwords) and Digital Trends (PC offline Jan 23, 2022, back Nov 9, 2022; PTDE not restored) all match; no newer changes found."
+  }
+ },
+ {
+  "title": "Devil May Cry 5",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "Devil May Cry 5 has no crossplay and no regular co-op: its only online feature, the Cameo System, randomly drops other players into your missions, and Capcom has never announced cross-platform support for it."
+  },
+  "notes": [
+   "There's no split-screen and no way to invite a friend. Online, the Cameo System (also called Shared Single-Play) can show another player, live or as a recording of their run, fighting in the same area on missions where the story puts two heroes together. Afterwards you can rate their style.",
+   "Capcom has never announced crossplay for the game, and we found no official word on whether cameos can come from other platforms.",
+   "Devil May Cry 5 Special Edition, with Vergil playable, came out digitally on PS5 and Xbox Series X|S in November 2020.",
+   "The Switch 2 version, Devil May Cry 5 Devil Hunter Edition, came out digitally on June 23, 2026 (physical on August 28, 2026). Capcom says it doesn't include the online Shared Single-Play feature, and Nintendo's listing shows it as a one-player game."
+  ],
+  "sources": [
+   {
+    "title": "Devil May Cry 5's multiplayer is called the Cameo System (Game Informer)",
+    "url": "https://gameinformer.com/2018/12/07/devil-may-cry-5s-multiplayer-is-called-the-cameo-system"
+   },
+   {
+    "title": "Devil May Cry 5 has a Dark Souls-like online element called Shared Single Play (Siliconera)",
+    "url": "https://www.siliconera.com/devil-may-cry-5-has-a-dark-souls-like-online-element-called-shared-single-play/"
+   },
+   {
+    "title": "Is Devil May Cry 5 multiplayer? (GameRevolution)",
+    "url": "https://www.gamerevolution.com/guides/506267-devil-may-cry-5-multiplayer-split-screen-co-op-online"
+   },
+   {
+    "title": "Devil May Cry 5 Special Edition announced for PS5, Xbox Series (Gematsu)",
+    "url": "https://gematsu.com/2020/09/devil-may-cry-5-special-edition-announced-for-ps5-xbox-series"
+   },
+   {
+    "title": "Devil May Cry 5 Devil Hunter Edition to launch on Nintendo Switch 2 (Capcom)",
+    "url": "https://www.capcom.co.jp/ir/english/news/html/260610b.html"
+   },
+   {
+    "title": "Devil May Cry 5 Devil Hunter Edition launched on Nintendo Switch 2 (Capcom announcement via Enduins)",
+    "url": "https://www.enduins.com/news/devil-may-cry-5-devil-hunter-edition-launched-on-nintendo-switch-2-with-all-inclusive-dlc-content"
+   },
+   {
+    "title": "Devil May Cry 5 Devil Hunter Edition (Nintendo)",
+    "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Devil-May-Cry-5-Devil-Hunter-Edition-3109582.html"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "Sources check out; no official word on cross-platform cameos exists, so verdict stays on 'never announced'; added that Capcom says the Switch 2 edition drops Shared Single-Play (the cameo feature) and added the 2020 PS5/Series Special Edition."
+  }
+ },
+ {
+  "title": "Assetto Corsa",
+  "igdb_id": null,
+  "crossplay": false,
+  "verdict": {
+   "kind": "no",
+   "word": "No",
+   "summary": "The original Assetto Corsa has no crossplay: PC, PlayStation and Xbox players race online only with their own platform."
+  },
+  "separate": [
+   "pc",
+   "ps4",
+   "xone"
+  ],
+  "notes": [
+   "Each platform has its own online pool. Neither the Xbox nor the PlayStation store listing mentions crossplay (both list online races for up to 16 players), and no crossplay update has ever been announced.",
+   "The Xbox One version also runs on Xbox Series X|S and through Xbox Cloud Gaming, and the PS4 version is playable on PS5. Online play on console needs PS Plus or a Game Pass tier that includes online play.",
+   "This page is about the 2014 original. Assetto Corsa Competizione and Assetto Corsa EVO are separate games with their own rules."
+  ],
+  "sources": [
+   {
+    "title": "Assetto Corsa (Xbox store listing)",
+    "url": "https://www.xbox.com/en-US/games/store/assetto-corsa/c27h5t4hd4ww"
+   },
+   {
+    "title": "Assetto Corsa (PlayStation)",
+    "url": "https://www.playstation.com/en-us/games/assetto-corsa/"
+   },
+   {
+    "title": "Is Assetto Corsa cross platform? (Explosion, April 2026)",
+    "url": "https://www.explosion.com/game-guides/is-assetto-corsa-cross-platform-crossplay-guide-2026/"
+   },
+   {
+    "title": "Is Assetto Corsa cross-platform? (AssettoHosting)",
+    "url": "https://assettohosting.com/en/article/questions/is-assetto-corsa-cross-platform"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "No official crossplay statement exists either way; added the PlayStation listing (PS4, 16 online, PS Plus, no crossplay) and a second guide; reworded so the 'no' rests on store listings plus press, and dropped the unsourced 'developer has never added' phrasing."
+  }
+ },
+ {
+  "title": "Delta Force",
+  "igdb_id": null,
+  "crossplay": true,
+  "f2p": true,
+  "crossprog": "yes",
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes",
+     "ps5": "partial",
+     "xseries": "partial"
+    },
+    "pc_stores": [
+     "Steam",
+     "Epic"
+    ]
+   },
+   {
+    "platforms": {
+     "ios": "yes",
+     "android": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "PC, PS5 and Xbox Series X|S players can play together since the console launch on August 19, 2025. On PS5 and Xbox, crossplay with PC is off by default, and turning it off keeps console players away from PC players. PC has no crossplay setting, so PC players can always meet console players. We found no 2026 change to this.",
+   "On PC, the Steam and Epic versions both use a LIPASS account, and press reports say they play together.",
+   "The mobile version (out April 2025) has its own matchmaking: phones don't play with PC or consoles.",
+   "Progress carries across PC, console and mobile through a Level Infinite Pass (LIPASS) account, which PC players need anyway. Link a LIPASS account early: Game Rant reports that progress made before linking may not sync."
+  ],
+  "toggle": [
+   "On PS5 and Xbox, open the lobby menu (Options or Menu button) and go to Game, then Crossplay Toggle. There's no toggle on PC."
+  ],
+  "progress": [
+   "One LIPASS account carries your progress between PC, console and mobile once it's linked."
+  ],
+  "sources": [
+   {
+    "title": "Team Jade have released Delta Force for consoles (press release via GamingTrend)",
+    "url": "https://gamingtrend.com/news/team-jade-have-released-delta-force-for-consoles/"
+   },
+   {
+    "title": "How to turn crossplay on and off in Delta Force (Shacknews)",
+    "url": "https://www.shacknews.com/article/145557/how-to-turn-crossplay-on-and-off-in-delta-force"
+   },
+   {
+    "title": "Delta Force will feature console-only crossplay (MP1st)",
+    "url": "https://mp1st.com/?p=290158"
+   },
+   {
+    "title": "Delta Force: crossplay and cross-progression guide (Game Rant)",
+    "url": "https://gamerant.com/delta-force-how-play-cross-platform-with-friends/"
+   },
+   {
+    "title": "Will Delta Force Mobile support crossplay with PC? (Gamepressure)",
+    "url": "https://www.gamepressure.com/newsroom/will-delta-force-mobile-support-crossplay-with-pc-its-complicated/z77d7e"
+   },
+   {
+    "title": "Does Delta Force cross-play? (GearUP Booster)",
+    "url": "https://www.gearupbooster.com/en/blog/does-delta-force-cross-play.html"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "No 2026 toggle change found; console launch, default-off toggle, no PC toggle, mobile separate all confirmed; removed 'PlayStation and Xbox still play together' (official release says 'only their current platform', director said shared, so conflicting); added press release for cross-progression and a source for Steam+Epic sharing (third party only)."
+  }
+ },
+ {
+  "title": "Payday 2",
+  "igdb_id": null,
+  "crossplay": true,
+  "crossprog": "no",
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Steam",
+     "Epic"
+    ]
+   },
+   {
+    "platforms": {
+     "ps4": "yes",
+     "ps5": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "xone": "yes",
+     "xseries": "yes"
+    }
+   },
+   {
+    "platforms": {
+     "switch": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "On PC, Steam and Epic Games Store players can heist together. Starbreeze added this when the game launched on Epic on June 8, 2023.",
+   "There's no crossplay between PC and consoles or between console families. The console versions stopped getting updates in 2018 (Switch never got any), so they're on different versions from PC. Progress doesn't carry between platforms.",
+   "The PS4 version is playable on PS5, and the Xbox One version runs on Xbox Series X|S. Online play on console needs PS Plus or a Game Pass tier that includes online play."
+  ],
+  "sources": [
+   {
+    "title": "PAYDAY 2 now available on Epic Games Store (Starbreeze)",
+    "url": "https://www.starbreeze.com/news/payday-2-now-available-on-epic-games-store/"
+   },
+   {
+    "title": "Does Payday 2 have cross-play and cross-platform progression? (Dexerto)",
+    "url": "https://www.dexerto.com/gaming/does-payday-2-have-cross-play-cross-platform-progression-2568806/"
+   },
+   {
+    "title": "Payday 2: Crimewave Edition (PlayStation)",
+    "url": "https://www.playstation.com/en-us/games/payday-2-crimewave-edition/"
+   },
+   {
+    "title": "PAYDAY 2: Crimewave Edition (Xbox store listing)",
+    "url": "https://www.xbox.com/en-US/games/store/payday-2-crimewave-edition/9n3k69gs7fwr"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "confirmed",
+   "what": "Starbreeze Epic launch post (June 8, 2023, cross-play between PC platforms), Dexerto (no PC/console crossplay, consoles frozen 2018, Switch never updated, no cross-progression) and both store listings check out; no 2025-2026 console crossplay news (PC work moved to Sidetrack in Oct 2025)."
+  }
+ },
+ {
+  "title": "DayZ",
+  "igdb_id": null,
+  "crossplay": true,
+  "groups": [
+   {
+    "platforms": {
+     "xone": "yes",
+     "xseries": "yes",
+     "xcloud": "yes",
+     "pc": "partial"
+    },
+    "pc_stores": [
+     "Xbox app"
+    ]
+   },
+   {
+    "platforms": {
+     "pc": "yes"
+    },
+    "pc_stores": [
+     "Steam"
+    ]
+   },
+   {
+    "platforms": {
+     "ps4": "yes",
+     "ps5": "yes"
+    }
+   }
+  ],
+  "notes": [
+   "Update 1.29 (April 8, 2026) brought a native Xbox Series X|S version and put DayZ on the Xbox app for Windows with Xbox Play Anywhere. The Xbox store lists Xbox cross-platform and cross-gen multiplayer, so the Xbox app PC version shares servers with Xbox One and Xbox Series X|S players.",
+   "The Steam version is still separate. Bohemia ships separate patch notes for Steam, Xbox and PlayStation and often patches Steam first, and Steam isn't part of the Xbox crossplay group. Steam is the only PC version that runs mods.",
+   "PlayStation has no crossplay. The PS4 version is playable on PS5 and uses the same servers. Online play on console needs PS Plus or a Game Pass tier that includes online play.",
+   "DayZ Cool Edition came to Nintendo Switch 2 on August 20, 2026 (online only, needs Nintendo Switch Online). Bohemia hasn't said whether it shares servers with any other platform, so treat Switch 2 crossplay as unconfirmed."
+  ],
+  "sources": [
+   {
+    "title": "DayZ (Xbox store listing: cross-platform and cross-gen multiplayer, Play Anywhere)",
+    "url": "https://www.xbox.com/en-US/games/store/dayz/bsr9nlhvf1kl"
+   },
+   {
+    "title": "DayZ Update 1.29 delivers performance boost, terrain upgrades and new gear (Bohemia Interactive via Games Press)",
+    "url": "https://www.gamespress.com/DAYZ-UPDATE-129-DELIVERS-PERFORMANCE-BOOST-TERRAIN-UPGRADES-NEW-GEAR"
+   },
+   {
+    "title": "DayZ Badlands expansion is out now (Steam news, Bohemia, October 2026)",
+    "url": "https://store.steampowered.com/news/app/221100/view/1846651706677474"
+   },
+   {
+    "title": "DayZ crossplay: which edition to choose to play with friends (jeu.video, October 2026)",
+    "url": "https://jeu.video/en/guide/dayz-crossplay-editions-platforms-server-limits"
+   },
+   {
+    "title": "DayZ (PlayStation)",
+    "url": "https://www.playstation.com/en-us/games/dayz/"
+   },
+   {
+    "title": "DayZ Cool Edition is now available on Nintendo Switch 2 (Bohemia Interactive via Games Press)",
+    "url": "https://www.gamespress.com/DayZ-Cool-Edition-is-Now-Available-on-Nintendo-Switch-2"
+   },
+   {
+    "title": "DayZ Cool Edition (Nintendo eShop)",
+    "url": "https://ec.nintendo.com/AU/en/titles/70010000122137"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "dayz.com FAQ blocks fetches (403); Xbox listing backs the Xbox app PC group, Bohemia's Steam news shows separate Steam/Xbox/PS patching; pass 1 missed the Switch 2 release (Aug 20, 2026), added as a note with crossplay unconfirmed and left out of groups."
+  }
+ },
+ {
+  "title": "Raft",
+  "igdb_id": null,
+  "crossplay": true,
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes",
+     "ps5": "yes",
+     "xseries": "yes",
+     "xcloud": "yes"
+    },
+    "pc_stores": [
+     "Steam"
+    ]
+   }
+  ],
+  "notes": [
+   "Raft came to PS5 and Xbox Series X|S on December 4, 2024 with online co-op for up to 10 players across PC, PlayStation and Xbox.",
+   "On Steam, crossplay was first only on an opt-in beta branch. Update 1.1 moved it to the normal version on March 10, 2026, along with controller support and in-game voice chat. Steam players who switch to the older 1.09_precrossplayupdate branch lose crossplay.",
+   "There's no version for PS4, Xbox One or Switch."
+  ],
+  "sources": [
+   {
+    "title": "Raft 1.1: Cross-play sails to the default branch! (Steam news)",
+    "url": "https://store.steampowered.com/news/app/648800/view/1826362059932435"
+   },
+   {
+    "title": "PlayStation 5, Xbox and Cross-Play! (Steam news)",
+    "url": "https://store.steampowered.com/news/app/648800/view/1784506359211426"
+   },
+   {
+    "title": "Raft (Xbox store listing)",
+    "url": "https://www.xbox.com/en-US/games/store/raft/9P7RBKDTN18T"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "confirmed",
+   "what": "Read both Steam news posts via Steam's news API (Dec 4, 2024 console launch with beta-branch crossplay; Mar 10, 2026 move to default branch, 1.09_precrossplayupdate branch) and the Xbox listing (2 to 10 players, cloud); no newer ports found."
+  }
+ },
+ {
+  "title": "Naraka: Bladepoint",
+  "igdb_id": null,
+  "crossplay": true,
+  "f2p": true,
+  "crossprog": "partial",
+  "groups": [
+   {
+    "platforms": {
+     "pc": "yes",
+     "ps5": "partial",
+     "xseries": "partial"
+    },
+    "pc_stores": [
+     "Steam",
+     "Epic",
+     "Xbox app",
+     "NetEase launcher"
+    ]
+   }
+  ],
+  "notes": [
+   "Players on PC, PS5 and Xbox Series X|S can team up and add each other as friends, but only on the same regional server. NetEase's FAQ says you can't join a Gathering Hall with someone on a different platform.",
+   "NetEase's Xbox FAQ says Xbox players are always matched with Xbox app PC players and can choose whether to also play with other PC versions. At the PS5 launch in 2023, PS5 players could choose to play only with other PS5 players. NetEase hasn't published a newer breakdown of these settings.",
+   "Accounts stay on the store or platform where you made them: Steam, Epic and PS5 accounts can't be moved. The exception is Xbox, where one Xbox account works on Xbox Series X|S and the Xbox app on PC, with a shared rank.",
+   "The game went free to play and launched on PS5 on July 13, 2023. Xbox One support ended on August 28, 2024, and the game is no longer on Game Pass or Xbox Cloud Gaming."
+  ],
+  "progress": [
+   "No cross-progression, except that an Xbox account is shared between Xbox Series X|S and the Xbox app on PC."
+  ],
+  "sources": [
+   {
+    "title": "General FAQ (NARAKA: BLADEPOINT official site)",
+    "url": "https://www.narakathegame.com/news/guide/20230707/35647_1092868.html"
+   },
+   {
+    "title": "F2P and PS5 FAQ (NARAKA: BLADEPOINT official site)",
+    "url": "https://www.narakathegame.com/news/guide/20230707/35647_1097069.html"
+   },
+   {
+    "title": "Xbox Q&A (NARAKA: BLADEPOINT official site)",
+    "url": "https://www.narakathegame.com/xbox/qna.html"
+   },
+   {
+    "title": "Xbox One closure notice and FAQ (NARAKA: BLADEPOINT official site)",
+    "url": "https://www.narakathegame.com/news/update/20240625/33459_1163041.html"
+   },
+   {
+    "title": "Is Naraka Bladepoint cross-platform? (Dexerto)",
+    "url": "https://www.dexerto.com/gaming/is-naraka-bladepoint-cross-platform-crossplay-xbox-one-series-xs-ps5-pc-2014929/"
+   }
+  ],
+  "checked": "2026-10-26",
+  "verify": {
+   "result": "corrected",
+   "what": "No newer official crossplay page exists (Oct 2026 patch notes silent); replaced the GameRevolution-based settings claim with NetEase's own Xbox Q&A (Xbox always with Xbox app PC, optional with other PC) and Dexerto for the PS5-only choice; dropped the unbacked 'always on for all PC' claim; FAQ, PS5/F2P date and Xbox One closure confirmed."
+  }
+ }
+]
