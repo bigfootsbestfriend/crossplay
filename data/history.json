@@ -55,6 +55,11 @@
    "first_seen": "2026-10-10",
    "hash": "87089d00212c"
   },
+  "Active Matter": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "e32c16f52203"
+  },
   "Aero Dancing i (discontinued)": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -84,6 +89,11 @@
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
    "hash": "d2460609ca0f"
+  },
+  "American Truck Simulator": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
   },
   "Among Us": {
    "changed": "2026-10-11",
@@ -125,6 +135,11 @@
    "first_seen": "2026-10-11",
    "hash": "1b7c94962992"
   },
+  "Assetto Corsa": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
+  },
   "Assetto Corsa Competizione": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -161,9 +176,9 @@
    "hash": "70cbb569eaee"
   },
   "Battlefield 1": {
-   "changed": "2026-10-11",
+   "changed": "2026-10-27",
    "first_seen": "2026-10-11",
-   "hash": "31a244d91a94"
+   "hash": "97d170e1550e"
   },
   "Battlefield 2042": {
    "changed": "2026-10-11",
@@ -410,6 +425,16 @@
    "first_seen": "2026-10-09",
    "hash": "254e10abeb65"
   },
+  "Cult of the Lamb": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
+  },
+  "Cuphead": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
+  },
   "Curses 'N Chaos": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -435,6 +460,11 @@
    "first_seen": "2026-10-10",
    "hash": "803d9872ba99"
   },
+  "Dark Souls: Remastered": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
+  },
   "Dauntless": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -446,9 +476,9 @@
    "hash": "0d992a1d96ae"
   },
   "DayZ": {
-   "changed": "2026-10-11",
+   "changed": "2026-10-27",
    "first_seen": "2026-10-11",
-   "hash": "6ae4fdf0e1f7"
+   "hash": "1c96ea2c72b6"
   },
   "Dead Island 2": {
    "changed": "2026-10-10",
@@ -475,6 +505,11 @@
    "first_seen": "2026-10-10",
    "hash": "3a9119871990"
   },
+  "Deadzone: Rogue": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "3b5bef2c97c0"
+  },
   "Deathloop": {
    "changed": "2026-10-10",
    "first_seen": "2026-10-10",
@@ -496,9 +531,9 @@
    "hash": "3a5be52abeec"
   },
   "Delta Force": {
-   "changed": "2026-10-11",
+   "changed": "2026-10-27",
    "first_seen": "2026-10-11",
-   "hash": "5607cb0926d4"
+   "hash": "3f9d4ebd5197"
   },
   "Destiny": {
    "changed": "2026-10-10",
@@ -509,6 +544,11 @@
    "changed": "2026-10-11",
    "first_seen": "2026-10-09",
    "hash": "bd6c8b1c7393"
+  },
+  "Devil May Cry 5": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
   },
   "Diablo II: Resurrected": {
    "changed": "2026-10-11",
@@ -650,6 +690,11 @@
    "first_seen": "2026-10-11",
    "hash": "2ec0bd9fbe4d"
   },
+  "Dying Light 2: Stay Human": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "188579725b9e"
+  },
   "Dying Light: The Beast": {
    "changed": "2026-10-10",
    "first_seen": "2026-10-10",
@@ -730,10 +775,25 @@
    "first_seen": "2026-10-09",
    "hash": "aa7b1ce19ddf"
   },
+  "Enshrouded": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
+  },
+  "Enter the Gungeon": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
+  },
   "Escape the Backrooms": {
    "changed": "2026-10-10",
    "first_seen": "2026-10-10",
    "hash": "26a764cb576f"
+  },
+  "Euro Truck Simulator 2": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
   },
   "Europa Universalis IV": {
    "changed": "2026-10-09",
@@ -860,6 +920,11 @@
    "first_seen": "2026-10-09",
    "hash": "e61e2da7f96a"
   },
+  "Fishing Planet": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "897bd8399572"
+  },
   "Foosball 2012": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -869,6 +934,11 @@
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
    "hash": "aec007348843"
+  },
+  "Football Manager 26": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "ccaaf15e36e7"
   },
   "For Honor": {
    "changed": "2026-10-10",
@@ -985,6 +1055,11 @@
    "first_seen": "2026-10-09",
    "hash": "920d7949f739"
   },
+  "Goat Simulator 3": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "cd6d33c9bb6d"
+  },
   "God Eater 2 Rage Burst": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -1080,6 +1155,11 @@
    "first_seen": "2026-10-09",
    "hash": "6e6d4fcb5870"
   },
+  "Gunfire Reborn": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "89f9f20fe1d0"
+  },
   "Guns of Icarus: Alliance": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -1089,6 +1169,11 @@
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
    "hash": "1b27f71fb44b"
+  },
+  "Halloween: The Game": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "a0d74eb0b4b9"
   },
   "Halo Infinite": {
    "changed": "2026-10-11",
@@ -1184,6 +1269,11 @@
    "changed": "2026-10-11",
    "first_seen": "2026-10-11",
    "hash": "c1c7615f0cb9"
+  },
+  "Infinity Nikki": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "6bf9f75133a1"
   },
   "Insurgency: Sandstorm": {
    "changed": "2026-10-09",
@@ -1304,6 +1394,11 @@
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
    "hash": "a7141eda295f"
+  },
+  "Lords of the Fallen (2023)": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "a0d74eb0b4b9"
   },
   "Lost Planet: Extreme Condition Colonies Edition": {
    "changed": "2026-10-09",
@@ -1570,6 +1665,11 @@
    "first_seen": "2026-10-10",
    "hash": "3a9119871990"
   },
+  "Naraka: Bladepoint": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "0f8722ff5a91"
+  },
   "Natural Doctrine": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -1800,6 +1900,11 @@
    "first_seen": "2026-10-12",
    "hash": "87089d00212c"
   },
+  "PlateUp!": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "dc6578e6c9bb"
+  },
   "PlayStation All-Stars Battle Royale": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -1845,6 +1950,11 @@
    "first_seen": "2026-10-09",
    "hash": "454d98eb01ab"
   },
+  "Pummel Party": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
+  },
   "Pure Chess": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -1871,9 +1981,9 @@
    "hash": "cdc6acad5554"
   },
   "Raft": {
-   "changed": "2026-10-11",
+   "changed": "2026-10-27",
    "first_seen": "2026-10-11",
-   "hash": "5607cb0926d4"
+   "hash": "9f2bcf55c853"
   },
   "Ragnarok Odyssey Ace": {
    "changed": "2026-10-09",
@@ -2004,6 +2114,11 @@
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
    "hash": "8cfaf7d07acd"
+  },
+  "Sackboy: A Big Adventure": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "0c1c27812769"
   },
   "Samurai Shodown V Special": {
    "changed": "2026-10-09",
@@ -2245,6 +2360,11 @@
    "first_seen": "2026-10-09",
    "hash": "0f53ccefde9a"
   },
+  "Stellaris": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "37abd75a2552"
+  },
   "Street Fighter 6": {
    "changed": "2026-10-11",
    "first_seen": "2026-10-09",
@@ -2265,6 +2385,11 @@
    "first_seen": "2026-10-09",
    "hash": "aa7b1ce19ddf"
   },
+  "Strinova": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
+  },
   "Stumble Guys": {
    "changed": "2026-10-10",
    "first_seen": "2026-10-10",
@@ -2279,6 +2404,11 @@
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
    "hash": "02be71ead614"
+  },
+  "Super Battle Golf": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
   },
   "Super Bomberman R Online (discontinued)": {
    "changed": "2026-10-09",
@@ -2324,6 +2454,11 @@
    "changed": "2026-10-12",
    "first_seen": "2026-10-12",
    "hash": "3003d028dc87"
+  },
+  "Teardown": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
   },
   "Teenage Mutant Ninja Turtles: Shredder's Revenge": {
    "changed": "2026-10-09",
@@ -2439,6 +2574,11 @@
    "changed": "2026-10-11",
    "first_seen": "2026-10-10",
    "hash": "650129647014"
+  },
+  "Tom Clancy's Ghost Recon Breakpoint": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
   },
   "Tom Clancy's Ghost Recon Wildlands": {
    "changed": "2026-10-10",
@@ -2595,6 +2735,11 @@
    "first_seen": "2026-10-09",
    "hash": "ec71dc0ee161"
   },
+  "Vigor": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "b2cc5dc07218"
+  },
   "Villagers & Heroes": {
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
@@ -2616,9 +2761,9 @@
    "hash": "c58f6e78dc97"
   },
   "WWE 2K26": {
-   "changed": "2026-10-11",
+   "changed": "2026-10-27",
    "first_seen": "2026-10-11",
-   "hash": "681d537d943c"
+   "hash": "97d170e1550e"
   },
   "War Robots: Frontiers": {
    "changed": "2026-10-12",
@@ -2684,6 +2829,11 @@
    "changed": "2026-10-09",
    "first_seen": "2026-10-09",
    "hash": "44bc1777428a"
+  },
+  "Watch Dogs 2": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
   },
   "Way of Redemption (discontinued)": {
    "changed": "2026-10-09",
@@ -2795,10 +2945,20 @@
    "first_seen": "2026-10-09",
    "hash": "80665fb07285"
   },
+  "Wreckfest": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "2646bd554580"
+  },
   "Wuthering Waves": {
    "changed": "2026-10-10",
    "first_seen": "2026-10-10",
    "hash": "d4ecf5647275"
+  },
+  "XCOM 2": {
+   "changed": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "hash": "97d170e1550e"
   },
   "Yu-Gi-Oh! Duel Links": {
    "changed": "2026-10-09",
@@ -2852,191 +3012,6 @@
   }
  },
  "log": [
-  {
-   "date": "2026-10-10",
-   "title": "Anno 1800",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Arma Reforger",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Armored Core VI: Fires of Rubicon",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Baldur's Gate 3",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Battlefield 4",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Battlefield REDSEC",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Battlefield V",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Blood Strike",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Bloons TD 6",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Borderlands 2",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Borderlands 4",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Buckshot Roulette",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Call of Duty: Black Ops 6",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Call of Duty: Black Ops 7",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Call of Duty: Black Ops III",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Call of Duty: Mobile",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Call of Duty: WWII",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "CarX Drift Racing Online",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Chivalry 2",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Company of Heroes 3",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Conan Exiles",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Content Warning",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Core Keeper",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Crossout",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Dark Souls III",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Dead Island 2",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Deadside",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Deathloop",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Destiny",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Diablo II: Resurrected",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Diablo III",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Dinkum",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Divinity: Original Sin II",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Don't Starve Together",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Doom Eternal",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Dragon Ball FighterZ",
-   "what": "added"
-  },
-  {
-   "date": "2026-10-10",
-   "title": "Dragon Ball Xenoverse 2",
-   "what": "added"
-  },
   {
    "date": "2026-10-10",
    "title": "Dragon Ball: Sparking! Zero",
@@ -4350,6 +4325,191 @@
   {
    "date": "2026-10-21",
    "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Active Matter",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "American Truck Simulator",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Assetto Corsa",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Battlefield 1",
+   "what": "crossplay details changed"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Cult of the Lamb",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Cuphead",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Dark Souls: Remastered",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "DayZ",
+   "what": "crossplay details changed"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Deadzone: Rogue",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Delta Force",
+   "what": "crossplay details changed"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Devil May Cry 5",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Dying Light 2: Stay Human",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Enshrouded",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Enter the Gungeon",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Euro Truck Simulator 2",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Fishing Planet",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Football Manager 26",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Goat Simulator 3",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Gunfire Reborn",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Halloween: The Game",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Infinity Nikki",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Lords of the Fallen (2023)",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Naraka: Bladepoint",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "PlateUp!",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Pummel Party",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Raft",
+   "what": "crossplay details changed"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Sackboy: A Big Adventure",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Stellaris",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Strinova",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Super Battle Golf",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Teardown",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Tom Clancy's Ghost Recon Breakpoint",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Vigor",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Watch Dogs 2",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Wreckfest",
+   "what": "added"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "WWE 2K26",
+   "what": "crossplay details changed"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "XCOM 2",
    "what": "added"
   }
  ]
