@@ -2662,6 +2662,11 @@
   },
   {
    "free": false,
+   "id": "9PNRLJNDPP4G",
+   "title": "The Séance of Blake Manor"
+  },
+  {
+   "free": false,
    "id": "9N7P8GVMF6SS",
    "title": "The Talos Principle 2"
   },
@@ -3121,7 +3126,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-10-27",
+ "fetched": "2026-10-28",
  "pc": [
   {
    "free": false,
@@ -5312,6 +5317,11 @@
    "free": true,
    "id": "9N10HHMXFFC5",
    "title": "The Settlers: New Allies"
+  },
+  {
+   "free": false,
+   "id": "9PNRLJNDPP4G",
+   "title": "The Séance of Blake Manor"
   },
   {
    "free": false,
