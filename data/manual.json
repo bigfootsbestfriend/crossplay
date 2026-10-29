@@ -6312,7 +6312,7 @@
   {
    "title": "Minecraft",
    "igdb_id": 121,
-   "audited": "2026-10-10",
+   "audited": "2026-10-29",
    "groups": [
     {
      "platforms": {
@@ -6345,12 +6345,16 @@
    "notes": [
     "Minecraft comes in two editions that can't play together. Bedrock Edition (the version on consoles, phones, tablets and Windows) has crossplay across all of them. Java Edition (Windows, Mac and Linux) only plays with other Java players. Buying on PC now gets you both editions.",
     "Bedrock crossplay needs a free Microsoft account, including on PlayStation and Switch. Realms work the same way: Bedrock Realms connect every Bedrock platform, Java Realms are separate.",
-    "PS5 has a native version that plays with PS4 and every other Bedrock platform. A native Switch 2 version is due on October 27, 2026; until then Switch 2 runs the Switch version, which already has crossplay."
+    "PS5 has a native version that plays with PS4 and every other Bedrock platform. A native Switch 2 version came out on October 27, 2026, with the same Bedrock crossplay. Online play on Switch and Switch 2 needs Nintendo Switch Online as well as the Microsoft account."
    ],
    "sources": [
     {
      "title": "Minecraft Realms & Realms Plus (Mojang)",
      "url": "https://www.minecraft.net/en-us/realms"
+    },
+    {
+     "title": "Minecraft for Nintendo Switch 2 (Nintendo eShop)",
+     "url": "https://www.nintendo.com/us/store/products/minecraft-switch-2/"
     },
     {
      "title": "Minecraft for Switch 2 launches October 27 (Gematsu)",
@@ -6365,7 +6369,7 @@
      "url": "https://www.digitaltrends.com/gaming/is-minecraft-cross-platform/"
     }
    ],
-   "checked": "2026-10-10"
+   "checked": "2026-10-29"
   },
   {
    "title": "Minecraft Dungeons II",

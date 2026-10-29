@@ -7,8 +7,6 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
 
 ## Open
 
-- **Minecraft** — check from 2026-10-28. Native Switch 2 version due Oct 27, 2026. Confirm launch and
-  crossplay with Bedrock; update the note.
 - **Tom Clancy's The Division 2** — check from 2026-11-11, again from 2026-11-20. Crossplay rollout: PC to
   new servers ~Nov 10, Xbox and PlayStation mid-November. Once live on all platforms, set groups to one
   crossplay group and rewrite the note.
@@ -23,6 +21,7 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
   2026-10-19: still not out; no Re-Logic post newer than the Sept 24 State of the Game on Steam.
   2026-10-22: still not out; Re-Logic's Steam news still ends at the Sept 24 State of the Game.
   2026-10-26: still not out; Re-Logic's Steam news still ends at the Sept 24 State of the Game.
+  2026-10-29: still not out; Re-Logic's Steam news still ends at the Sept 24 State of the Game.
 - **Risk of Rain 2** — check every run. 2K: the next PlayStation/Xbox update ends PS4↔PS5 and
   XB1↔Series play. When it ships, split those groups and date the change.
   2026-10-10: unconfirmed. Hallowed Concepts DLC and update 1.21 | 1.005.001 came out Oct 8, 2026 for PC, PS5
@@ -39,6 +38,8 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
   post since the Oct 14 hotfix and no console patch announced. Page unchanged.
   2026-10-26: still unconfirmed. 2K article still unchanged since Oct 8; latest Steam post is still the
   Oct 14 hotfix and no console patch announced. Page unchanged.
+  2026-10-29: still unconfirmed. 2K article still unchanged since Oct 8; Steam news still ends at the Oct 14
+  hotfix. Page unchanged.
 - **Dragon Ball: Sparking! Zero** — check from 2027-06-01. Crossplay beta (PS5, Xbox Series X|S, Steam)
   "after Summer 2027".
 
@@ -52,4 +53,5 @@ cancelled, delete its entry from upcoming.json; when a date firms up, update its
 
 ## Done
 
+- **Minecraft** — 2026-10-29: native Switch 2 version launched Oct 27, 2026 (Nintendo eShop page, Minecraft on X); Bedrock crossplay with a Microsoft account. Note now past tense with the NSO requirement, eShop source added, removed from upcoming.json.
 - **It Takes Two** — 2026-10-19: crossplay went live Oct 15, 2026 with the Switch 2 version (Oct 16 in JP/AU/NZ/KR). Note now past tense, launch source added, news line added, removed from upcoming.json.

@@ -2,12 +2,6 @@
  "note": "Upcoming crossplay changes for /coming-soon/. The Crossplay watch routine removes an item once it has shipped (and logs it on the game page).",
  "items": [
   {
-   "title": "Minecraft",
-   "date": "2026-10-27",
-   "kind": "launch",
-   "what": "Native Nintendo Switch 2 version of Minecraft (Bedrock), which plays with the other Bedrock platforms."
-  },
-  {
    "title": "No Rest for the Wicked",
    "when": "October 2026 (day not announced)",
    "kind": "adds",
