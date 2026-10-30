@@ -2042,6 +2042,11 @@
   },
   {
    "free": false,
+   "id": "9PGSDFM3JD85",
+   "title": "Plants vs. Zombies™: Replanted"
+  },
+  {
+   "free": false,
    "id": "9P2HHT3VS7MP",
    "title": "PlateUp!"
   },
@@ -2534,6 +2539,11 @@
    "free": false,
    "id": "9NG66K0Z31LH",
    "title": "TerraTech Legion"
+  },
+  {
+   "free": false,
+   "id": "9PKFL1XJT73S",
+   "title": "Terrible Lizards"
   },
   {
    "free": false,
@@ -3136,7 +3146,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-10-29",
+ "fetched": "2026-10-30",
  "pc": [
   {
    "free": false,
@@ -5217,6 +5227,11 @@
    "free": false,
    "id": "9NG66K0Z31LH",
    "title": "TerraTech Legion"
+  },
+  {
+   "free": false,
+   "id": "9PKFL1XJT73S",
+   "title": "Terrible Lizards"
   },
   {
    "free": false,
