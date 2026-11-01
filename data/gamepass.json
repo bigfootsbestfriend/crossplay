@@ -622,11 +622,6 @@
   },
   {
    "free": false,
-   "id": "9NKK6CX54183",
-   "title": "Day of the Tentacle Remastered"
-  },
-  {
-   "free": false,
    "id": "BSR9NLHVF1KL",
    "title": "DayZ"
   },
@@ -667,11 +662,6 @@
   },
   {
    "free": false,
-   "id": "9MXWL7VJ2SJW",
-   "title": "Dead Static Drive"
-  },
-  {
-   "free": false,
    "id": "9PD9SZGNCMDZ",
    "title": "Death Howl"
   },
@@ -689,11 +679,6 @@
    "free": false,
    "id": "9PPF72ZH6RP8",
    "title": "Deep Dish Dungeon"
-  },
-  {
-   "free": false,
-   "id": "9NHFVWX1V7QJ",
-   "title": "Deep Rock Galactic"
   },
   {
    "free": false,
@@ -1162,11 +1147,6 @@
   },
   {
    "free": false,
-   "id": "9P3ZRGNQVC7D",
-   "title": "Full Throttle Remastered"
-  },
-  {
-   "free": false,
    "id": "C2P985H1H42H",
    "title": "Fuzion Frenzy®"
   },
@@ -1547,18 +1527,8 @@
   },
   {
    "free": false,
-   "id": "C3553MB4P5TT",
-   "title": "Lara Croft and the Temple of Osiris"
-  },
-  {
-   "free": false,
    "id": "9P2S2QVRB97N",
    "title": "Legend of Mana"
-  },
-  {
-   "free": true,
-   "id": "BRMKDCZT0C4L",
-   "title": "LEGO® Star Wars™: The Skywalker Saga"
   },
   {
    "free": false,
@@ -2962,11 +2932,6 @@
   },
   {
    "free": false,
-   "id": "9NWQ686JB33G",
-   "title": "Wartales"
-  },
-  {
-   "free": false,
    "id": "C521HDXRTS7F",
    "title": "Wasteland 2: Director's Cut"
   },
@@ -3024,11 +2989,6 @@
    "free": false,
    "id": "9NTFPTBXDDT3",
    "title": "WILD HEARTS™ Standard Edition"
-  },
-  {
-   "free": false,
-   "id": "9N6VS1BMZ3BW",
-   "title": "Wildgate"
   },
   {
    "free": false,
@@ -3146,7 +3106,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-10-31",
+ "fetched": "2026-11-01",
  "pc": [
   {
    "free": false,
@@ -3680,11 +3640,6 @@
   },
   {
    "free": false,
-   "id": "9NKK6CX54183",
-   "title": "Day of the Tentacle Remastered"
-  },
-  {
-   "free": false,
    "id": "BSR9NLHVF1KL",
    "title": "DayZ"
   },
@@ -3697,11 +3652,6 @@
    "free": false,
    "id": "9N92LSHFZ935",
    "title": "Dead Island 2 (Windows)"
-  },
-  {
-   "free": false,
-   "id": "9MXWL7VJ2SJW",
-   "title": "Dead Static Drive"
   },
   {
    "free": false,
@@ -3722,11 +3672,6 @@
    "free": false,
    "id": "9PPF72ZH6RP8",
    "title": "Deep Dish Dungeon"
-  },
-  {
-   "free": false,
-   "id": "9NHFVWX1V7QJ",
-   "title": "Deep Rock Galactic"
   },
   {
    "free": false,
@@ -4095,11 +4040,6 @@
   },
   {
    "free": false,
-   "id": "9P3ZRGNQVC7D",
-   "title": "Full Throttle Remastered"
-  },
-  {
-   "free": false,
    "id": "C2P985H1H42H",
    "title": "Fuzion Frenzy®"
   },
@@ -4414,11 +4354,6 @@
    "title": "Kingdom Two Crowns"
   },
   {
-   "free": false,
-   "id": "C3553MB4P5TT",
-   "title": "Lara Croft and the Temple of Osiris"
-  },
-  {
    "free": true,
    "id": "9PB301R051CQ",
    "title": "League of Legends"
@@ -4432,11 +4367,6 @@
    "free": true,
    "id": "9P9XGNFNF11R",
    "title": "Legends of Runeterra"
-  },
-  {
-   "free": true,
-   "id": "BRMKDCZT0C4L",
-   "title": "LEGO® Star Wars™: The Skywalker Saga"
   },
   {
    "free": false,
@@ -5585,11 +5515,6 @@
   },
   {
    "free": false,
-   "id": "9NWQ686JB33G",
-   "title": "Wartales"
-  },
-  {
-   "free": false,
    "id": "C521HDXRTS7F",
    "title": "Wasteland 2: Director's Cut"
   },
@@ -5637,11 +5562,6 @@
    "free": true,
    "id": "9N76QGDS5GJR",
    "title": "Where Winds Meet"
-  },
-  {
-   "free": false,
-   "id": "9N6VS1BMZ3BW",
-   "title": "Wildgate"
   },
   {
    "free": false,
