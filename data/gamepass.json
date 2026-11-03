@@ -1987,6 +1987,11 @@
   },
   {
    "free": false,
+   "id": "9MW4MFG0192L",
+   "title": "PIT OF GOBLIN"
+  },
+  {
+   "free": false,
    "id": "9PK5WS0HXQKQ",
    "title": "Planet Coaster 2"
   },
@@ -3111,7 +3116,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-02",
+ "fetched": "2026-11-03",
  "pc": [
   {
    "free": false,
@@ -4727,6 +4732,11 @@
    "free": false,
    "id": "9N1P6T7ZQ2KF",
    "title": "Pillars of Eternity: Definitive Edition"
+  },
+  {
+   "free": false,
+   "id": "9MW4MFG0192L",
+   "title": "PIT OF GOBLIN"
   },
   {
    "free": false,
