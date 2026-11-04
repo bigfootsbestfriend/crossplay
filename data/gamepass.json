@@ -987,11 +987,6 @@
   },
   {
    "free": false,
-   "id": "BV2ZVP7PJZWL",
-   "title": "Far Cry 3 Classic Edition"
-  },
-  {
-   "free": false,
    "id": "BV6BRSLFJW3W",
    "title": "FAR CRY PRIMAL"
   },
@@ -1009,6 +1004,11 @@
    "free": false,
    "id": "C1DDW4PRF6K5",
    "title": "Far Cry® New Dawn"
+  },
+  {
+   "free": false,
+   "id": "BV2ZVP7PJZWL",
+   "title": "FARCRY 3 Classic Edition"
   },
   {
    "free": false,
@@ -3116,7 +3116,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-03",
+ "fetched": "2026-11-04",
  "pc": [
   {
    "free": false,
@@ -4002,6 +4002,11 @@
    "free": false,
    "id": "9NMNZ4CK59DM",
    "title": "Football Manager 26 Console"
+  },
+  {
+   "free": true,
+   "id": "9N4NKMXDZCX6",
+   "title": "Football Manager 27"
   },
   {
    "free": false,
@@ -5287,11 +5292,6 @@
    "free": false,
    "id": "9N072VV7MFK7",
    "title": "The Planet Crafter"
-  },
-  {
-   "free": true,
-   "id": "9P1WJCK9B8S6",
-   "title": "The Rogue Prince of Persia™"
   },
   {
    "free": false,
