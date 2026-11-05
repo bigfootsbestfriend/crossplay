@@ -1087,6 +1087,11 @@
   },
   {
    "free": false,
+   "id": "9N8RKWJT32L4",
+   "title": "Firefighting Simulator: Ignite"
+  },
+  {
+   "free": false,
    "id": "9N7MVHP2R7VP",
    "title": "FixForce"
   },
@@ -2912,6 +2917,11 @@
   },
   {
    "free": false,
+   "id": "9N9K5QP9G3GL",
+   "title": "VOID/BREAKER"
+  },
+  {
+   "free": false,
    "id": "9NQMVR9WL9FW",
    "title": "Voidtrain"
   },
@@ -3116,7 +3126,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-04",
+ "fetched": "2026-11-05",
  "pc": [
   {
    "free": false,
@@ -3982,6 +3992,11 @@
    "free": false,
    "id": "9NBZ7Z3JRXQ8",
    "title": "Firefighting Simulator - The Squad"
+  },
+  {
+   "free": false,
+   "id": "9N8RKWJT32L4",
+   "title": "Firefighting Simulator: Ignite"
   },
   {
    "free": false,
@@ -5491,7 +5506,7 @@
   {
    "free": false,
    "id": "9N9K5QP9G3GL",
-   "title": "VOID/BREAKER (Game Preview)"
+   "title": "VOID/BREAKER"
   },
   {
    "free": false,
