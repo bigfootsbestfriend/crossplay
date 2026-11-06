@@ -922,6 +922,11 @@
   },
   {
    "free": false,
+   "id": "9P743P6195Q5",
+   "title": "Escape Academy 2: Back 2 School"
+  },
+  {
+   "free": false,
    "id": "9NKBDN695GTT",
    "title": "Escape Simulator"
   },
@@ -1784,6 +1789,16 @@
    "free": false,
    "id": "9NDJLXD2X2DM",
    "title": "My Friend Peppa Pig"
+  },
+  {
+   "free": true,
+   "id": "9N74KFV7253H",
+   "title": "MySims™"
+  },
+  {
+   "free": true,
+   "id": "9N8RS7CW8CGL",
+   "title": "MySims™ Kingdom"
   },
   {
    "free": true,
@@ -3126,7 +3141,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-05",
+ "fetched": "2026-11-06",
  "pc": [
   {
    "free": false,
@@ -3857,6 +3872,11 @@
    "free": true,
    "id": "9PF432CVQBXT",
    "title": "Enlisted Xbox One"
+  },
+  {
+   "free": false,
+   "id": "9P743P6195Q5",
+   "title": "Escape Academy 2: Back 2 School"
   },
   {
    "free": false,
