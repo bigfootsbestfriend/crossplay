@@ -1502,6 +1502,8 @@ ABOUT = """
 <a href="https://www.thekitchenmagpie.com/">The Kitchen Magpie</a>, a food blog. I built this site because finding out
 whether you can play with a friend on a different console usually means digging through forum threads and old patch
 notes.</p>
+<p>I also run <a href="https://worththeprompt.com/">Worth The Prompt</a>, where we test AI tools and local AI models on
+our own PC and Mac before we recommend them.</p>
 <p>The site is independent. It isn't affiliated with any platform holder or publisher, and nobody pays for a
 verdict.</p></div>
 </div>
