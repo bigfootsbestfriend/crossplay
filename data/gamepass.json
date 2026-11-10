@@ -1107,6 +1107,11 @@
   },
   {
    "free": false,
+   "id": "9N5DDTDLTWCL",
+   "title": "Football Manager 27 Console"
+  },
+  {
+   "free": false,
    "id": "9N3DWR830CVN",
    "title": "FOR HONOR - Standard Edition"
   },
@@ -2517,6 +2522,11 @@
   },
   {
    "free": false,
+   "id": "9NRBW3FJSJWT",
+   "title": "TANUKI: Pon's Summer"
+  },
+  {
+   "free": false,
    "id": "9P9GX5D8H9DW",
    "title": "TCG Card Shop Simulator"
   },
@@ -2962,6 +2972,11 @@
   },
   {
    "free": false,
+   "id": "9MZZWGTF7V65",
+   "title": "Warhammer Survivors"
+  },
+  {
+   "free": false,
    "id": "BXZWT67JBZJH",
    "title": "Warhammer: Vermintide 2"
   },
@@ -3141,7 +3156,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-09",
+ "fetched": "2026-11-10",
  "pc": [
   {
    "free": false,
@@ -4039,9 +4054,14 @@
    "title": "Football Manager 26 Console"
   },
   {
-   "free": true,
+   "free": false,
    "id": "9N4NKMXDZCX6",
    "title": "Football Manager 27"
+  },
+  {
+   "free": false,
+   "id": "9N5DDTDLTWCL",
+   "title": "Football Manager 27 Console"
   },
   {
    "free": false,
@@ -4522,6 +4542,11 @@
    "free": true,
    "id": "9WZDNCRFHWD2",
    "title": "Microsoft Solitaire Collection"
+  },
+  {
+   "free": true,
+   "id": "9WZDNCRFHV60",
+   "title": "Microsoft Sudoku"
   },
   {
    "free": false,
@@ -5190,6 +5215,11 @@
   },
   {
    "free": false,
+   "id": "9NRBW3FJSJWT",
+   "title": "TANUKI: Pon's Summer"
+  },
+  {
+   "free": false,
    "id": "9P9GX5D8H9DW",
    "title": "TCG Card Shop Simulator"
   },
@@ -5572,6 +5602,11 @@
    "free": false,
    "id": "9N9PCZWHVP2L",
    "title": "Warhammer 40,000: Space Marine 2"
+  },
+  {
+   "free": false,
+   "id": "9MZZWGTF7V65",
+   "title": "Warhammer Survivors"
   },
   {
    "free": false,
