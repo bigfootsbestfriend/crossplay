@@ -1102,11 +1102,6 @@
   },
   {
    "free": false,
-   "id": "9NMNZ4CK59DM",
-   "title": "Football Manager 26 Console"
-  },
-  {
-   "free": false,
    "id": "9N5DDTDLTWCL",
    "title": "Football Manager 27 Console"
   },
@@ -2737,6 +2732,11 @@
   },
   {
    "free": false,
+   "id": "9NWWL1CBWFCG",
+   "title": "Thronefall"
+  },
+  {
+   "free": false,
    "id": "9ND19JDMBS3R",
    "title": "Tiny Bookshop"
   },
@@ -3156,7 +3156,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-10",
+ "fetched": "2026-11-11",
  "pc": [
   {
    "free": false,
@@ -4042,16 +4042,6 @@
    "free": false,
    "id": "9P2PP895LSBJ",
    "title": "Fogpiercer"
-  },
-  {
-   "free": false,
-   "id": "9PD0Z90216RJ",
-   "title": "Football Manager 26"
-  },
-  {
-   "free": false,
-   "id": "9NMNZ4CK59DM",
-   "title": "Football Manager 26 Console"
   },
   {
    "free": false,
@@ -5392,6 +5382,11 @@
    "free": false,
    "id": "9NQV7C0G1040",
    "title": "theHunter: Call of the Wild™"
+  },
+  {
+   "free": false,
+   "id": "9NWWL1CBWFCG",
+   "title": "Thronefall"
   },
   {
    "free": false,
