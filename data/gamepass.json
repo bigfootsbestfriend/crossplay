@@ -1257,6 +1257,11 @@
   },
   {
    "free": false,
+   "id": "BTHC2G28X9H4",
+   "title": "Grabbed by the Ghoulies™"
+  },
+  {
+   "free": false,
    "id": "9PBG4MTM3JJC",
    "title": "GRAVHOUNDS (Game Preview)"
   },
@@ -3166,7 +3171,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-12",
+ "fetched": "2026-11-13",
  "pc": [
   {
    "free": false,
@@ -3181,7 +3186,7 @@
   {
    "free": false,
    "id": "9NNM7PKZN3JF",
-   "title": "9 Kings (Game Preview)"
+   "title": "9 Kings"
   },
   {
    "free": false,
@@ -4177,6 +4182,11 @@
    "free": false,
    "id": "9PDS2N82QNXG",
    "title": "Goat Simulator 3: Windows Edition"
+  },
+  {
+   "free": false,
+   "id": "BTHC2G28X9H4",
+   "title": "Grabbed by the Ghoulies™"
   },
   {
    "free": false,
@@ -5297,6 +5307,11 @@
    "free": false,
    "id": "9PFXKRLVWJ0B",
    "title": "The Elder Scrolls Adventures: Redguard"
+  },
+  {
+   "free": false,
+   "id": "BXVCFBJBNS17",
+   "title": "The Elder Scrolls III: Morrowind"
   },
   {
    "free": false,
