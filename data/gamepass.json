@@ -2,11 +2,6 @@
  "console": [
   {
    "free": false,
-   "id": "9NPDN9R45JX4",
-   "title": "1000xRESIST"
-  },
-  {
-   "free": false,
    "id": "9P8LR42PTRGJ",
    "title": "33 Immortals"
   },
@@ -244,11 +239,6 @@
    "free": false,
    "id": "BX27S00SKW1V",
    "title": "Banjo-Tooie"
-  },
-  {
-   "free": false,
-   "id": "9N21ZCV0JW6V",
-   "title": "Barbie™ Horse Trails"
   },
   {
    "free": false,
@@ -817,11 +807,6 @@
   },
   {
    "free": false,
-   "id": "BX03760D0QGN",
-   "title": "DRAGON BALL XENOVERSE 2"
-  },
-  {
-   "free": false,
    "id": "9NFQ1XMXDLN6",
    "title": "DreamWorks Gabby’s Dollhouse: Ready to Party"
   },
@@ -1087,11 +1072,6 @@
   },
   {
    "free": false,
-   "id": "9NBZ7Z3JRXQ8",
-   "title": "Firefighting Simulator - The Squad"
-  },
-  {
-   "free": false,
    "id": "9N8RKWJT32L4",
    "title": "Firefighting Simulator: Ignite"
   },
@@ -1264,11 +1244,6 @@
    "free": false,
    "id": "9PBG4MTM3JJC",
    "title": "GRAVHOUNDS (Game Preview)"
-  },
-  {
-   "free": false,
-   "id": "9N36BLQF3FX6",
-   "title": "Great God Grove"
   },
   {
    "free": false,
@@ -1772,11 +1747,6 @@
   },
   {
    "free": false,
-   "id": "9P8XJRLCLH2P",
-   "title": "Moonlighter"
-  },
-  {
-   "free": false,
    "id": "9NDJX252Q5BW",
    "title": "Moonlighter 2: The Endless Vault"
   },
@@ -2007,11 +1977,6 @@
   },
   {
    "free": false,
-   "id": "9NRHQLZX3900",
-   "title": "Pigeon Simulator"
-  },
-  {
-   "free": false,
    "id": "9PJD2KMX7TZ6",
    "title": "Pillars of Eternity II: Deadfire - Ultimate Edition"
   },
@@ -2064,11 +2029,6 @@
    "free": false,
    "id": "9P2HHT3VS7MP",
    "title": "PlateUp!"
-  },
-  {
-   "free": false,
-   "id": "9P0NPLQ9P1DB",
-   "title": "Police Simulator: Patrol Officers"
   },
   {
    "free": false,
@@ -2154,11 +2114,6 @@
    "free": false,
    "id": "9P8JRMWRQP4H",
    "title": "Redfall"
-  },
-  {
-   "free": false,
-   "id": "9P81K2C8RBF4",
-   "title": "Relic Hunters Legend"
   },
   {
    "free": false,
@@ -2807,11 +2762,6 @@
   },
   {
    "free": false,
-   "id": "9PHTX5QZ035T",
-   "title": "Total Chaos"
-  },
-  {
-   "free": false,
    "id": "9PC4RWP34M2D",
    "title": "Totally Accurate Battle Simulator"
   },
@@ -3062,11 +3012,6 @@
   },
   {
    "free": false,
-   "id": "9ND3HTTQ0GKB",
-   "title": "Winter Burrow"
-  },
-  {
-   "free": false,
    "id": "9N9X9PC8V9CP",
    "title": "Wo Long: Fallen Dynasty"
   },
@@ -3122,11 +3067,6 @@
   },
   {
    "free": false,
-   "id": "BRJNRZ9N734V",
-   "title": "Wreckfest"
-  },
-  {
-   "free": false,
    "id": "9NPRHD8GQKQS",
    "title": "WUCHANG: Fallen Feathers"
   },
@@ -3171,13 +3111,8 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-15",
+ "fetched": "2026-11-16",
  "pc": [
-  {
-   "free": false,
-   "id": "9NPDN9R45JX4",
-   "title": "1000xRESIST"
-  },
   {
    "free": false,
    "id": "9P8LR42PTRGJ",
@@ -3422,11 +3357,6 @@
    "free": false,
    "id": "9NKFS43DLFFL",
    "title": "Banishers: Ghosts of New Eden"
-  },
-  {
-   "free": false,
-   "id": "9N21ZCV0JW6V",
-   "title": "Barbie™ Horse Trails"
   },
   {
    "free": false,
@@ -3850,11 +3780,6 @@
   },
   {
    "free": false,
-   "id": "BX03760D0QGN",
-   "title": "DRAGON BALL XENOVERSE 2"
-  },
-  {
-   "free": false,
    "id": "9NFQ1XMXDLN6",
    "title": "DreamWorks Gabby’s Dollhouse: Ready to Party"
   },
@@ -4040,11 +3965,6 @@
   },
   {
    "free": false,
-   "id": "9NBZ7Z3JRXQ8",
-   "title": "Firefighting Simulator - The Squad"
-  },
-  {
-   "free": false,
    "id": "9N8RKWJT32L4",
    "title": "Firefighting Simulator: Ignite"
   },
@@ -4192,11 +4112,6 @@
    "free": false,
    "id": "9PBG4MTM3JJC",
    "title": "GRAVHOUNDS (Game Preview)"
-  },
-  {
-   "free": false,
-   "id": "9N36BLQF3FX6",
-   "title": "Great God Grove"
   },
   {
    "free": false,
@@ -4635,11 +4550,6 @@
   },
   {
    "free": false,
-   "id": "9P8XJRLCLH2P",
-   "title": "Moonlighter"
-  },
-  {
-   "free": false,
    "id": "9NDJX252Q5BW",
    "title": "Moonlighter 2: The Endless Vault"
   },
@@ -4805,11 +4715,6 @@
   },
   {
    "free": false,
-   "id": "9NRHQLZX3900",
-   "title": "Pigeon Simulator"
-  },
-  {
-   "free": false,
    "id": "9N8N7NZSVTG3",
    "title": "Pillars of Eternity 2: Deadfire - Ultimate Edition (PC)"
   },
@@ -4837,11 +4742,6 @@
    "free": false,
    "id": "9P2HHT3VS7MP",
    "title": "PlateUp!"
-  },
-  {
-   "free": false,
-   "id": "9P0NPLQ9P1DB",
-   "title": "Police Simulator: Patrol Officers"
   },
   {
    "free": false,
@@ -4922,11 +4822,6 @@
    "free": false,
    "id": "9P8JRMWRQP4H",
    "title": "Redfall"
-  },
-  {
-   "free": false,
-   "id": "9P81K2C8RBF4",
-   "title": "Relic Hunters Legend"
   },
   {
    "free": false,
@@ -5475,11 +5370,6 @@
   },
   {
    "free": false,
-   "id": "9PHTX5QZ035T",
-   "title": "Total Chaos"
-  },
-  {
-   "free": false,
    "id": "9PC4RWP34M2D",
    "title": "Totally Accurate Battle Simulator"
   },
@@ -5695,11 +5585,6 @@
   },
   {
    "free": false,
-   "id": "9ND3HTTQ0GKB",
-   "title": "Winter Burrow"
-  },
-  {
-   "free": false,
    "id": "9N9X9PC8V9CP",
    "title": "Wo Long: Fallen Dynasty"
   },
@@ -5757,11 +5642,6 @@
    "free": false,
    "id": "9PLCL2VB2SC0",
    "title": "World War Z: Year 1 Edition"
-  },
-  {
-   "free": false,
-   "id": "9NG06CSMM97P",
-   "title": "Wreckfest"
   },
   {
    "free": false,
