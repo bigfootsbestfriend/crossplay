@@ -1937,6 +1937,11 @@
   },
   {
    "free": false,
+   "id": "9N3P3TRJGWV0",
+   "title": "PAW Patrol™: Dino World"
+  },
+  {
+   "free": false,
    "id": "9PJRQHMCFQGS",
    "title": "PBA Pro Bowling 2026"
   },
@@ -3111,7 +3116,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-16",
+ "fetched": "2026-11-17",
  "pc": [
   {
    "free": false,
@@ -4687,6 +4692,11 @@
    "free": false,
    "id": "9NKV34XDW014",
    "title": "Palworld"
+  },
+  {
+   "free": false,
+   "id": "9N3P3TRJGWV0",
+   "title": "PAW Patrol™: Dino World"
   },
   {
    "free": false,
