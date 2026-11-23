@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-22",
+ "fetched": "2026-11-23",
  "games": [
   {
    "discontinued": false,
@@ -1310,6 +1310,7 @@
       "pc": "yes",
       "ps4": "yes",
       "ps5": "yes",
+      "switch2": "yes",
       "xone": "yes",
       "xseries": "yes"
      },
