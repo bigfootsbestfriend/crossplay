@@ -2307,6 +2307,11 @@
   },
   {
    "free": false,
+   "id": "9NV8BWGH15GN",
+   "title": "Sniper Ghost Warrior Contracts 2"
+  },
+  {
+   "free": false,
    "id": "9PNRSC0J6DT8",
    "title": "SnowRunner"
   },
@@ -3116,7 +3121,7 @@
    "title": "Zuma's Revenge!"
   }
  ],
- "fetched": "2026-11-23",
+ "fetched": "2026-11-24",
  "pc": [
   {
    "free": false,
@@ -5002,6 +5007,11 @@
    "free": true,
    "id": "9NV8W1KJSQLL",
    "title": "SMITE 2 (Game Preview)"
+  },
+  {
+   "free": false,
+   "id": "9NV8BWGH15GN",
+   "title": "Sniper Ghost Warrior Contracts 2"
   },
   {
    "free": false,
